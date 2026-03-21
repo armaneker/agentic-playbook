@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import { BookOpen, Layout, Terminal, Shield, MessageSquare, Rocket } from 'lucide-react';
 
 const cards = [
@@ -56,7 +57,7 @@ export default function HomePage() {
         {cards.map((card) => {
           const Icon = card.icon;
           return (
-            <a
+            <Link
               key={card.href}
               href={card.href}
               className="group block rounded-lg border border-gray-800 bg-gray-900/50 p-5 transition-colors hover:border-brand-500/40 hover:bg-gray-900"
@@ -70,7 +71,7 @@ export default function HomePage() {
               <p className="text-sm text-gray-500 group-hover:text-gray-400">
                 {card.description}
               </p>
-            </a>
+            </Link>
           );
         })}
       </div>

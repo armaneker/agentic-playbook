@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 import { ChevronRight } from 'lucide-react';
@@ -12,12 +13,12 @@ function NavSection({ item }: { item: NavItem }) {
 
   if (!item.children) {
     return (
-      <a
+      <Link
         href={item.href}
         className={`sidebar-link ${pathname === item.href ? 'sidebar-link-active' : 'sidebar-link-inactive'}`}
       >
         {item.title}
-      </a>
+      </Link>
     );
   }
 
@@ -36,13 +37,13 @@ function NavSection({ item }: { item: NavItem }) {
       {open && (
         <div className="ml-3 mt-0.5 border-l border-gray-800 pl-2 space-y-0.5">
           {item.children.map((child) => (
-            <a
+            <Link
               key={child.href}
               href={child.href}
               className={`sidebar-link ${pathname === child.href ? 'sidebar-link-active' : 'sidebar-link-inactive'}`}
             >
               {child.title}
-            </a>
+            </Link>
           ))}
         </div>
       )}

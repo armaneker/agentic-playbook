@@ -1,5 +1,6 @@
 'use client';
 
+import Link from 'next/link';
 import { Menu, X } from 'lucide-react';
 
 interface HeaderProps {
@@ -18,14 +19,14 @@ export default function Header({ sidebarOpen, onToggleSidebar }: HeaderProps) {
         >
           {sidebarOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
-        <a href="/" className="flex items-center gap-2.5">
+        <Link href="/" className="flex items-center gap-2.5">
           <div className="flex h-7 w-7 items-center justify-center rounded-md bg-brand-600 text-white text-xs font-bold">
             OC
           </div>
           <span className="font-semibold text-gray-100 text-sm">
             OpenClaw Help Center
           </span>
-        </a>
+        </Link>
       </div>
     </header>
   );

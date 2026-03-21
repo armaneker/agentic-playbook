@@ -3,7 +3,7 @@
 ## Project Overview
 A static documentation site for OpenClaw multi-agent systems, built with Next.js 14, MDX, and Tailwind CSS. Deployed to GitHub Pages via GitHub Actions.
 
-**Live URL:** https://armaneker.github.io/openclaw-helpcenter/
+**Live URL:** https://armaneker.github.io/agentic-playbook/
 
 ## Tech Stack
 - **Framework:** Next.js 14 (static export)

@@ -30,7 +30,7 @@ jobs:
       - name: Build
         run: npx next build
         env:
-          NEXT_PUBLIC_BASE_PATH: /openclaw-helpcenter
+          NEXT_PUBLIC_BASE_PATH: /agentic-playbook
 
       - uses: actions/upload-pages-artifact@v3
         with:

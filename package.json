@@ -1,5 +1,5 @@
 {
-  "name": "openclaw-helpcenter",
+  "name": "agentic-playbook",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://local_proxy@127.0.0.1:37403/git/armaneker/openclaw-helpcenter"
+    "url": "https://github.com/armaneker/agentic-playbook"
   },
   "keywords": [],
   "author": "",

@@ -1,37 +1,36 @@
 ---
 name: add-page
-description: Add a new documentation page to the OpenClaw Help Center. Use when the user wants to create a new help article, guide, or reference page. The user provides a topic/title and optionally content — the skill handles file creation, navigation updates, and committing.
+description: Add a new documentation page to Agentic Playbook. Use when the user wants to create a new guide, article, or reference page. The user provides a topic/title and optionally content — the skill handles file creation, navigation updates, and committing.
 user_invocable: true
 ---
 
 # Add Page Skill
 
-The user wants to add a new page to the OpenClaw Help Center documentation site.
+The user wants to add a new page to Agentic Playbook.
 
 ## Instructions
 
 1. **Gather info from the user's message:**
    - Page title (required)
-   - Section: one of `getting-started`, `architecture`, `guides`, `reference` (infer from context, or ask)
+   - Category: one of `openclaw`, `paperclip`, `langsmith`, `skills-and-plugins`, `security`, `case-studies`, `getting-started` (infer from context, or ask)
    - Content description or bullet points (optional — generate helpful content if not provided)
 
 2. **Create the MDX page:**
-   - Create directory: `src/app/<section>/<slug>/` where `<slug>` is the kebab-case title
+   - Create directory: `src/app/<category>/<slug>/` where `<slug>` is the kebab-case title
    - Create `page.mdx` inside it
-   - Use standard MDX format: `# Title` as first line, then content with `##` sections
+   - Start with `<GuideHeader tool="..." difficulty="..." lastTested="..." readTime="..." />`
+   - Use `# Title` as first heading, then content with `##` sections
    - Use `<Callout>` components where appropriate (types: info, warning, tip, danger)
-   - Write clear, concise documentation in the style of existing pages
 
 3. **Update navigation:**
    - Add the new page to `src/lib/navigation.ts` under the appropriate section
-   - If it's a new top-level section, add it to the `navigation` array
 
 4. **Optionally update home page:**
-   - If the page is important enough, add a card to `src/app/page.tsx`
+   - Add to the `latestGuides` array in `src/app/page.tsx` if it's a significant new guide
+   - Update the guide count on the tool card if applicable
 
 5. **Build and verify:**
    - Run `npm run build` to ensure the site builds successfully
-   - Fix any errors
 
 6. **Commit and push:**
    - Commit all changes with a descriptive message
@@ -43,3 +42,4 @@ The user wants to add a new page to the OpenClaw Help Center documentation site.
 - Use code blocks with language tags for commands and config
 - Use Callout components for important notes, warnings, and tips
 - Structure with h2 (`##`) for main sections and h3 (`###`) for subsections
+- Include a Troubleshooting section for step-by-step guides

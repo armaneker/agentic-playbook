@@ -8,28 +8,48 @@ export const navigation: NavItem[] = [
   {
     title: 'Getting Started',
     href: '/getting-started',
-  },
-  {
-    title: 'Architecture',
-    href: '/architecture',
     children: [
-      { title: 'Overview', href: '/architecture' },
-      { title: 'Agent Roles', href: '/architecture/agent-roles' },
-      { title: 'Communication', href: '/architecture/communication' },
-      { title: 'Configuration', href: '/architecture/configuration' },
-      { title: 'Security', href: '/architecture/security' },
+      { title: 'What is Agentic Playbook?', href: '/getting-started' },
+      { title: 'Your First Agent in 15 Minutes', href: '/getting-started/first-agent' },
     ],
   },
   {
-    title: 'Guides',
-    href: '/guides',
+    title: 'OpenClaw',
+    href: '/openclaw',
     children: [
-      { title: 'Create a Slack Agent', href: '/guides/create-slack-agent' },
-      { title: 'Deployment', href: '/guides/deployment' },
+      { title: 'Architecture & Multi-Agent Gateway', href: '/openclaw/architecture' },
+      { title: 'Agent Roles', href: '/openclaw/agent-roles' },
+      { title: 'Create a Slack Agent', href: '/openclaw/create-slack-agent' },
+      { title: 'CLI Reference', href: '/openclaw/cli-reference' },
+      { title: 'Deployment', href: '/openclaw/deployment' },
+      { title: 'Security', href: '/openclaw/security' },
     ],
   },
   {
-    title: 'CLI Reference',
-    href: '/reference/cli',
+    title: 'Paperclip',
+    href: '/paperclip',
+  },
+  {
+    title: 'LangSmith Fleet',
+    href: '/langsmith',
+  },
+  {
+    title: 'Skills & Plugins',
+    href: '/skills-and-plugins',
+  },
+  {
+    title: 'Security',
+    href: '/security',
+  },
+  {
+    title: 'Case Studies',
+    href: '/case-studies',
+  },
+  {
+    title: 'About',
+    href: '/about/contributing',
+    children: [
+      { title: 'Contributing', href: '/about/contributing' },
+    ],
   },
 ];

@@ -1,81 +1,74 @@
-# OpenClaw Help Center
+# Agentic Playbook — Project Guide
 
-## Project Overview
-A static documentation site for OpenClaw multi-agent systems, built with Next.js 14, MDX, and Tailwind CSS. Deployed to GitHub Pages via GitHub Actions.
+## What is this?
 
-**Live URL:** https://armaneker.github.io/agentic-playbook/
+A static documentation site for agentic workflow guides, built with Next.js 14, MDX, and Tailwind CSS. Deployed via GitHub Pages.
+
+Live site: https://armaneker.github.io/agentic-playbook/
 
 ## Tech Stack
-- **Framework:** Next.js 14 (static export)
-- **Content:** MDX pages in `src/app/` using Next.js App Router
-- **Styling:** Tailwind CSS with `@tailwindcss/typography`, dark theme, indigo brand colors
-- **Deployment:** GitHub Actions → GitHub Pages
+
+- Next.js 14 (App Router, static export)
+- MDX for content pages
+- Tailwind CSS + @tailwindcss/typography
+- GitHub Actions for deploy on push to main
 
 ## Content Structure
-Content lives as MDX files following the Next.js App Router convention:
-```
-src/app/
-  page.tsx                         # Home page (card grid)
-  getting-started/page.mdx        # Getting started guide
-  architecture/
-    page.mdx                      # Architecture overview
-    agent-roles/page.mdx
-    communication/page.mdx
-    configuration/page.mdx
-    security/page.mdx
-  guides/
-    page.mdx                      # Guides index
-    create-slack-agent/page.mdx
-    deployment/page.mdx
-  reference/
-    cli/page.mdx                  # CLI reference
-```
 
-## Adding New Content
+All content lives in `src/app/` using the App Router convention. Guides are organized by tool/category:
 
-### Adding a new page
-1. Create a new directory under `src/app/` matching the desired URL path
-2. Add a `page.mdx` file inside it with your content
-3. Update `src/lib/navigation.ts` to add the page to the sidebar
-4. If it should appear on the home page, update the `cards` array in `src/app/page.tsx`
+- `src/app/openclaw/` — OpenClaw guides
+- `src/app/paperclip/` — Paperclip guides
+- `src/app/langsmith/` — LangSmith Fleet guides
+- `src/app/skills-and-plugins/` — Skills & Plugins guides
+- `src/app/security/` — Security guides
+- `src/app/case-studies/` — Case studies
 
-### MDX features available
+Each guide is a `page.mdx` that starts with the `<GuideHeader>` component for metadata display.
+
+## Adding a New Guide
+
+1. Create a new directory under the appropriate category in `src/app/`
+2. Add `page.mdx` starting with `<GuideHeader tool="..." difficulty="..." lastTested="..." readTime="..." />`
+3. Update navigation in `src/lib/navigation.ts`
+4. Optionally add to the "Latest Guides" section on the homepage (`src/app/page.tsx`)
+
+## Adding a New Category
+
+1. Create a new directory in `src/app/`
+2. Add a category overview `page.mdx`
+3. Add a card to the homepage "Browse by Tool" section
+4. Add the section to `src/lib/navigation.ts`
+
+## MDX Components Available
+
+- `<Callout type="info|warning|tip|danger" title="Optional">` — Callout boxes
+- `<GuideHeader tool="..." difficulty="..." lastTested="..." readTime="..." />` — Guide metadata bar
 - All standard Markdown (headings, lists, code blocks, tables, links)
-- `<Callout type="info|warning|tip|danger" title="Optional title">` component
-- Headings automatically get anchor links (rehype-slug + rehype-autolink-headings)
-- Table of contents auto-generates from h2/h3 headings
+- Headings automatically get anchor links
 
-### Example MDX page
-```mdx
-# Page Title
+## Commands
 
-Introduction paragraph.
-
-## Section One
-
-Content here.
-
-<Callout type="tip" title="Pro Tip">
-  Helpful information goes here.
-</Callout>
-
-## Section Two
-
-More content.
-```
-
-## Development
-```bash
-npm run dev    # Start dev server on port 3000
-npm run build  # Build static site to /out
-```
+- `npm run dev` — local development
+- `npm run build` — production build (static export)
 
 ## Deployment
-Push to `main` branch triggers automatic deployment to GitHub Pages via `.github/workflows/deploy.yml`.
+
+Push to `main` triggers automatic deployment via `.github/workflows/deploy.yml`.
 
 ## Key Files
-- `next.config.mjs` — Next.js config with MDX and basePath support
+
+- `next.config.mjs` — Next.js config with MDX, basePath, and trailingSlash
 - `tailwind.config.ts` — Tailwind config with brand colors and typography
 - `src/lib/navigation.ts` — Sidebar navigation structure
+- `src/components/GuideHeader.tsx` — Guide metadata component
 - `src/components/Callout.tsx` — Callout component for MDX
-- `mdx-components.tsx` — MDX component registration
+- `mdx-components.tsx` — MDX component registration (Callout, GuideHeader, Link override)
+- `src/app/page.tsx` — Homepage with tool cards and latest guides
+
+## Design Principles
+
+- Every guide must be tested end-to-end
+- Include real commands, real configs, real troubleshooting
+- Show "Coming soon" sections — don't hide planned categories
+- Keep it minimal — no animations, no heavy JS, fast page loads

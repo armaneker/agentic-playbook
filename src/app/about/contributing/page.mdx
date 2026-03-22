@@ -1,0 +1,60 @@
+# Contributing to Agentic Playbook
+
+## Guide Standards
+
+Every guide in Agentic Playbook must be:
+
+- **Tested end-to-end** — you ran every command yourself before submitting
+- **Self-contained** — a reader can follow it from zero to working result
+- **Honest about failures** — include a Troubleshooting section with real problems you hit
+- **Timestamped** — include `lastTested` date so readers know if it's current
+
+## How to Submit a Guide
+
+1. Fork the repo
+2. Create a new directory under the appropriate tool category in `src/app/`
+3. Write your guide as `page.mdx` with the required frontmatter
+4. Open a PR with a description of what you tested and on what environment
+
+## Guide Template
+
+Use this structure for every guide:
+
+- **Title** — What you'll accomplish
+- **Prerequisites** — What you need before starting
+- **Steps** — Numbered, with actual commands and config
+- **Verification** — How to confirm it worked
+- **Troubleshooting** — Common failures and fixes
+
+## Frontmatter
+
+Every guide page should start with the `GuideHeader` component:
+
+```mdx
+<GuideHeader tool="ToolName" difficulty="Beginner" lastTested="2026-03" readTime="15 min" />
+
+# Your Guide Title
+
+Guide content here...
+```
+
+### Difficulty Levels
+
+| Level | Meaning |
+|-------|---------|
+| **Beginner** | No prior experience with the tool needed |
+| **Intermediate** | Assumes basic familiarity with the tool |
+| **Advanced** | Deep configuration, edge cases, production hardening |
+
+## Tools We Cover
+
+Currently accepting guides for:
+- **OpenClaw** — Multi-agent gateway systems
+- **Paperclip** — AI company orchestration
+- **LangSmith Fleet** — Agent observability
+- **Skills & Plugins** — Extending agent capabilities
+- **Security** — Production hardening across any tool
+
+<Callout type="tip" title="Don't see your tool?">
+Open an issue to propose a new tool category. If the tool is relevant to agentic workflows and you can write a tested guide, we'll add it.
+</Callout>

@@ -21,10 +21,10 @@ export default function Header({ sidebarOpen, onToggleSidebar }: HeaderProps) {
         </button>
         <Link href="/" className="flex items-center gap-2.5">
           <div className="flex h-7 w-7 items-center justify-center rounded-md bg-brand-600 text-white text-xs font-bold">
-            OC
+            AP
           </div>
           <span className="font-semibold text-gray-100 text-sm">
-            OpenClaw Help Center
+            Agentic Playbook
           </span>
         </Link>
       </div>

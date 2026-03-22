@@ -1,0 +1,89 @@
+<GuideHeader tool="OpenClaw" difficulty="Beginner" lastTested="2026-03" readTime="15 min" />
+
+# Your First Agent in 15 Minutes
+
+This guide walks you through deploying your first OpenClaw agent and getting it running on your server.
+
+## Prerequisites
+
+- A Linux server (Ubuntu 22.04+ recommended)
+- Terminal/SSH access
+- An Anthropic API key
+
+## Step 1: Install OpenClaw
+
+Install the OpenClaw CLI as a systemd daemon:
+
+```bash
+openclaw onboard --install-daemon
+```
+
+This sets up auto-restart on failure, system logging via journald, and automatic startup on boot.
+
+## Step 2: Create Your First Agent
+
+```bash
+openclaw agents add coordinator
+```
+
+The wizard prompts you through configuration — model selection, auth setup, and workspace creation.
+
+## Step 3: Set Agent Identity
+
+```bash
+openclaw agents set-identity --agent coordinator --name "Coordinator Agent"
+```
+
+## Step 4: Configure the Workspace
+
+Navigate to your agent's workspace and create the core files:
+
+```bash
+cd ~/.openclaw/workspace-coordinator
+```
+
+Create these files:
+- **SOUL.md** — Who the agent is (persona, tone, domain expertise)
+- **AGENTS.md** — How the agent operates (protocols, rules, workflows)
+- **USER.md** — Who the users are and their context
+- **TOOLS.md** — Available tools and API references
+
+## Step 5: Connect a Channel
+
+Bind your agent to a messaging channel:
+
+```bash
+openclaw agents bind --agent coordinator --bind slack:main
+```
+
+## Step 6: Start the Gateway
+
+```bash
+openclaw gateway --port 18789
+```
+
+## Step 7: Verify
+
+```bash
+openclaw doctor
+openclaw channels status --probe
+```
+
+<Callout type="warning" title="Start Small">
+Start with one agent and add incrementally. Coordination complexity is the #1 challenge in multi-agent setups — fewer than 10% of teams successfully scale beyond single-agent.
+</Callout>
+
+## Rollout Strategy
+
+| Phase | Duration | Goals |
+|-------|----------|-------|
+| **Phase 1** | Weeks 1-2 | Single agent, one channel, validate memory and sessions |
+| **Phase 2** | Weeks 3-4 | Add a second specialist agent (e.g., engineering) |
+| **Phase 3** | Weeks 5-6 | Add remaining agents, build custom skills |
+| **Phase 4** | Weeks 7-8 | Enable sub-agent orchestration and automated workflows |
+
+## Next Steps
+
+- [Architecture & Multi-Agent Gateway](/openclaw/architecture) — Understand the gateway pattern
+- [Agent Roles](/openclaw/agent-roles) — Design agents for different functions
+- [Create a Slack Agent](/openclaw/create-slack-agent) — Full walkthrough with multi-bot config

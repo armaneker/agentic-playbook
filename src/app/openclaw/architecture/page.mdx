@@ -1,0 +1,260 @@
+<GuideHeader tool="OpenClaw" difficulty="Intermediate" lastTested="2026-03" readTime="20 min" />
+
+# Architecture & Multi-Agent Gateway
+
+OpenClaw natively supports running multiple fully isolated agents within a single Gateway process. This is the recommended pattern: **one Gateway, multiple persistent agents**, each with its own isolated workspace.
+
+This is not multiple OpenClaw installations. It is one running process with multiple "brains" inside it.
+
+## What Each Agent Gets
+
+Every agent within the Gateway receives:
+
+- Its own **workspace directory** (`SOUL.md`, `AGENTS.md`, `USER.md`, `MEMORY.md`, skills)
+- Its own **state directory** (`agentDir`) for auth profiles and per-agent config
+- Its own **session store** (chat history + routing state) under `~/.openclaw/agents/<agentId>/sessions`
+- Its own **tool permissions** (allow/deny lists per agent)
+- Its own **model assignment** (different agents can use different LLMs)
+- Its own **skills** via the workspace `skills/` folder
+
+They share the same server process and config file (`~/.openclaw/openclaw.json`), so you run one gateway, not five.
+
+## Why NOT Separate Installations
+
+Running multiple OpenClaw Gateway processes would mean:
+
+- Multiple Node.js daemons to manage and monitor
+- Separate port bindings, separate health checks
+- No shared skills directory
+- No native cross-agent communication
+- More complex deployment and update process
+- Higher operational overhead for your team
+
+The single-gateway approach gives you **isolation where it matters** (memory, sessions, tools, permissions) while keeping operations simple.
+
+## Key Principles
+
+<Callout type="tip" title="Deterministic Routing">
+Use deterministic routing (bindings) for message classification, not AI. Deterministic routing means you can reason about where a message goes without tracing execution.
+</Callout>
+
+1. **One gateway, many agents** — Shared process, isolated workspaces
+2. **Bind agents to channels** — Each agent listens on specific channels/users via routing rules
+3. **Specific bindings first** — Binding order matters; most specific rules go first, with a catch-all default at the end
+4. **Minimal privilege** — Each agent gets only the tools it needs
+5. **Model-per-agent** — Use expensive models for complex reasoning, cheaper models for high-volume tasks
+
+## Architecture Diagram
+
+```
+Gateway Process (:18789)
+├── Agent: coordinator     (Opus — complex reasoning)
+│   ├── Workspace: ~/.openclaw/workspace-coordinator/
+│   ├── Sessions: ~/.openclaw/agents/coordinator/sessions/
+│   └── Bindings: DMs, catch-all default
+│
+├── Agent: dev-agent       (Sonnet — fast, code-focused)
+│   ├── Workspace: ~/.openclaw/workspace-dev/
+│   ├── Sessions: ~/.openclaw/agents/dev-agent/sessions/
+│   └── Bindings: #engineering channel
+│
+├── Agent: product-agent   (Sonnet — documentation)
+│   ├── Workspace: ~/.openclaw/workspace-product/
+│   ├── Sessions: ~/.openclaw/agents/product-agent/sessions/
+│   └── Bindings: #product channel
+│
+└── Agent: risk-agent      (Opus — financial analysis)
+    ├── Workspace: ~/.openclaw/workspace-risk/
+    ├── Sessions: ~/.openclaw/agents/risk-agent/sessions/
+    └── Bindings: #risk-analytics channel
+```
+
+---
+
+## Agent Communication
+
+Agents can share data and delegate tasks through several patterns. Choose the simplest pattern that meets your needs.
+
+### Pattern 1: Sub-Agent Spawning (Primary)
+
+The coordinator agent uses `sessions_spawn` to delegate parallel tasks to lightweight sub-agents:
+
+```
+User → coordinator: "Prepare the weekly summary"
+
+coordinator spawns:
+  ├── sub-agent 1: "Query this week's transaction volume" (Sonnet, 120s timeout)
+  ├── sub-agent 2: "Summarize open tickets by priority"   (Sonnet, 60s timeout)
+  └── sub-agent 3: "Check API uptime this week"           (Sonnet, 60s timeout)
+
+Results flow back → coordinator synthesizes → sends the weekly brief
+```
+
+Best practices for sub-agents:
+
+- **Use cheaper models for sub-agents.** The coordinator on Opus does the synthesis; sub-agents on Sonnet do the data gathering.
+- **Set timeouts.** Sub-agents should have explicit `runTimeoutSeconds` to prevent runaway tasks.
+- **Limit concurrency.** The `maxConcurrent` setting in your config prevents overwhelming the LLM API.
+- **Include context in the task prompt.** Sub-agents don't inherit the full parent context — put critical instructions directly in the sub-agent task prompt or in `AGENTS.md`.
+
+```json
+"subagents": {
+  "maxConcurrent": 3,
+  "model": "anthropic/claude-sonnet-4-6",
+  "runTimeoutSeconds": 300
+}
+```
+
+<Callout type="warning" title="Context Inheritance">
+Sub-agents don't inherit full context from the parent agent. Put critical instructions in `AGENTS.md` or include them directly in the sub-agent task prompt — they get a smaller context window.
+</Callout>
+
+### Pattern 2: Shared Files (Secondary)
+
+Agents don't need to talk directly for most use cases. Instead, use file-based data sharing:
+
+```
+risk-agent writes → /shared/daily-risk-summary.md
+coordinator reads → /shared/daily-risk-summary.md (during morning brief)
+
+dev-agent writes  → /shared/deployment-log.md
+product-agent reads → /shared/deployment-log.md (for release notes)
+```
+
+<Callout type="tip">
+File-based sharing is the most debuggable communication pattern. You can always inspect the files to understand what each agent produced.
+</Callout>
+
+### Pattern 3: Direct Agent-to-Agent (Use Cautiously)
+
+OpenClaw has an `agentToAgent.enabled` option in config, but there are known issues with this feature breaking `sessions_spawn` functionality.
+
+<Callout type="danger" title="Known Issues">
+Avoid enabling `agentToAgent` in your initial setup. There are known bugs where it breaks `sessions_spawn`. Use file-based sharing and sub-agent spawning instead.
+</Callout>
+
+### Communication Cost Comparison
+
+| Pattern | Token Cost | Complexity | Debuggability |
+|---------|------------|------------|---------------|
+| Sub-agent spawning | Medium | Low | Good |
+| Shared files | None | Very Low | Excellent |
+| Direct agent-to-agent | High | High | Poor |
+
+---
+
+## Configuration
+
+All agents are configured through a single `openclaw.json` file.
+
+### openclaw.json Structure
+
+```json
+{
+  "agents": {
+    "defaults": {
+      "heartbeat": { "every": "30m" },
+      "subagents": {
+        "maxConcurrent": 3,
+        "model": "anthropic/claude-sonnet-4-6",
+        "runTimeoutSeconds": 300
+      }
+    },
+    "list": [
+      {
+        "id": "coordinator",
+        "name": "Coordinator Agent",
+        "workspace": "~/.openclaw/workspace-coordinator",
+        "model": "anthropic/claude-opus-4-6"
+      },
+      {
+        "id": "dev-agent",
+        "name": "Engineering Agent",
+        "workspace": "~/.openclaw/workspace-dev",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": { "enabled": true }
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "agentId": "coordinator",
+      "match": {
+        "channel": "teams",
+        "peer": { "kind": "direct", "id": "admin@example.com" }
+      }
+    },
+    {
+      "agentId": "dev-agent",
+      "match": {
+        "channel": "teams",
+        "guild": "YOUR_TEAM_ID",
+        "peer": { "kind": "group", "id": "engineering-channel-id" }
+      }
+    },
+    {
+      "agentId": "coordinator",
+      "match": { "channel": "teams" }
+    }
+  ]
+}
+```
+
+### Binding Rules
+
+<Callout type="warning" title="Order Matters">
+Binding order matters — most specific bindings go first. The final `coordinator` binding with just `"channel": "teams"` acts as a catch-all default, so any message that doesn't match a more specific rule routes to your coordinator agent.
+</Callout>
+
+Each binding has:
+- **agentId** — Which agent handles the message
+- **match.channel** — The platform (`teams`, `slack`, `whatsapp`, `telegram`)
+- **match.guild** — The workspace/team ID (optional)
+- **match.peer** — The specific user or group (`kind: "direct"` for DMs, `kind: "group"` for channels)
+
+### Directory Structure
+
+```
+~/.openclaw/
+├── openclaw.json                    # Single config for all agents
+├── skills/                          # Shared skills (available to all agents)
+├── workspace-coordinator/           # Coordinator agent workspace
+│   ├── SOUL.md
+│   ├── AGENTS.md
+│   ├── USER.md
+│   ├── MEMORY.md
+│   ├── HEARTBEAT.md
+│   ├── TOOLS.md
+│   └── skills/                      # Agent-specific skills
+├── workspace-dev/
+│   └── ...
+└── agents/                          # Auto-managed by OpenClaw
+    ├── coordinator/
+    │   ├── agent/auth-profiles.json
+    │   └── sessions/
+    └── dev-agent/
+        ├── agent/
+        └── sessions/
+```
+
+### Workspace Files Reference
+
+| File | Purpose | Required? |
+|------|---------|-----------|
+| `SOUL.md` | Agent persona, tone, domain knowledge, boundaries | Yes |
+| `AGENTS.md` | Operational rules, protocols, workflow instructions | Yes |
+| `USER.md` | User context — who interacts with this agent | Recommended |
+| `MEMORY.md` | Persistent memory across sessions | Auto-managed |
+| `HEARTBEAT.md` | Periodic task definitions (cron-like) | Optional |
+| `TOOLS.md` | Tool references, API endpoints, connection details | Recommended |
+| `skills/` | Agent-specific skill definitions | Optional |
+
+<Callout type="danger" title="Never Share Auth">
+Never reuse `agentDir` across agents — this causes auth and session collisions. Each workspace should be a separate private Git repo. Secrets belong in environment variables, never in workspace files.
+</Callout>
+
+## Next Steps
+
+- [Agent Roles](/openclaw/agent-roles) — Example agent designs for common team functions
+- [Security](/openclaw/security) — Tool policies and access control
+- [Deployment](/openclaw/deployment) — Production deployment guide

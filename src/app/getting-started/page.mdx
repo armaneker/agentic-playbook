@@ -1,87 +1,37 @@
-# Getting Started
+# What is Agentic Playbook?
 
-This guide walks you through deploying your first OpenClaw agent and building toward a full multi-agent setup.
+Agentic Playbook is a collection of tested, hands-on guides for setting up and running AI agent systems in production. No marketing fluff, no theory — just real commands, real configs, and real troubleshooting.
 
-## What is OpenClaw?
+## Who is this for?
 
-OpenClaw is an AI agent infrastructure that lets you run multiple fully isolated agents within a single Gateway process. Each agent gets its own workspace, memory, tools, and model assignment — while sharing one server process for simple operations.
+- **Developers** building multi-agent systems
+- **Teams** deploying AI agents for internal workflows
+- **Builders** evaluating tools like OpenClaw, Paperclip, or LangSmith Fleet
 
-## Quick Start
+## What makes these guides different?
 
-### 1. Install OpenClaw
+Every guide here is:
 
-Install the OpenClaw CLI on your server:
+1. **Tested end-to-end** — every command was run before publishing
+2. **Self-contained** — follow from zero to working result
+3. **Honest about failures** — includes troubleshooting for real problems
+4. **Timestamped** — `lastTested` date so you know if it's current
 
-```bash
-openclaw onboard --install-daemon
-```
+## Tools Covered
 
-This installs OpenClaw as a systemd daemon with auto-restart and logging.
+| Tool | Status | What it does |
+|------|--------|--------------|
+| **OpenClaw** | 6 guides available | Multi-agent gateway with isolated workspaces |
+| **Paperclip** | Coming soon | AI company orchestration |
+| **LangSmith Fleet** | Coming soon | Agent observability and monitoring |
 
-### 2. Create Your First Agent
+## Get Started
 
-```bash
-openclaw agents add coordinator
-```
+The fastest way to learn is to build something:
 
-The wizard will prompt you through configuration options including model selection and auth setup.
+- [Your First Agent in 15 Minutes](/getting-started/first-agent) — Deploy an OpenClaw agent from scratch
+- [Browse all OpenClaw guides](/openclaw) — Architecture, security, deployment, and more
 
-### 3. Set Agent Identity
-
-```bash
-openclaw agents set-identity --agent coordinator --name "Coordinator Agent"
-```
-
-### 4. Configure the Workspace
-
-Navigate to your agent's workspace directory and create the core files:
-
-```bash
-cd ~/.openclaw/workspace-coordinator
-```
-
-Create these files:
-- **SOUL.md** — Who the agent is (persona, tone, domain expertise)
-- **AGENTS.md** — How the agent operates (protocols, rules, workflows)
-- **USER.md** — Who the users are and their context
-- **TOOLS.md** — Available tools and API references
-
-### 5. Connect a Channel
-
-Bind your agent to a messaging channel (e.g., Slack, Teams):
-
-```bash
-openclaw agents bind --agent coordinator --bind slack:main
-```
-
-### 6. Start the Gateway
-
-```bash
-openclaw gateway --port 18789
-```
-
-### 7. Verify
-
-```bash
-openclaw doctor
-openclaw channels status --probe
-```
-
-## Rollout Strategy
-
-<Callout type="warning" title="Start Small">
-Start with one agent and add incrementally. Fewer than 10% of teams successfully scale beyond single-agent setups — coordination complexity is the #1 challenge.
+<Callout type="tip" title="Want to contribute?">
+Every guide is an MDX file in a Git repo. Fork, write, test, and submit a PR. See our [contributing guide](/about/contributing) for standards and templates.
 </Callout>
-
-| Phase | Duration | Goals |
-|-------|----------|-------|
-| **Phase 1** | Weeks 1–2 | Single agent, one channel, validate memory and sessions |
-| **Phase 2** | Weeks 3–4 | Add a second specialist agent (e.g., engineering) |
-| **Phase 3** | Weeks 5–6 | Add remaining agents, build custom skills |
-| **Phase 4** | Weeks 7–8 | Enable sub-agent orchestration and automated workflows |
-
-## Next Steps
-
-- [Architecture Overview](/architecture) — Understand the multi-agent gateway pattern
-- [Agent Roles](/architecture/agent-roles) — Design agents for different functions
-- [Configuration](/architecture/configuration) — Deep dive into `openclaw.json`

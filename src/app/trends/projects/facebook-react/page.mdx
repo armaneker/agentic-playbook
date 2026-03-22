@@ -1,0 +1,59 @@
+<GuideHeader tool="react" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# React
+
+React is a JavaScript library for building user interfaces using a component-based architecture. It enables declarative UI development for web and mobile applications.
+
+## Key Features
+
+- **Declarative views** - Design simple views for each state, React handles efficient updates
+- **Component-based architecture** - Build encapsulated components with their own state
+- **Virtual DOM** - Efficient rendering through React's reconciliation algorithm
+- **JSX syntax** - HTML-like syntax for describing UI components
+- **Cross-platform** - Works on web, server (Node.js), and mobile (React Native)
+- **Unidirectional data flow** - Predictable state management through props and state
+
+## Installation
+
+Install React in your project:
+
+```bash
+npm install react react-dom
+```
+
+For new projects, use a framework like Next.js or Vite:
+
+```bash
+npx create-next-app@latest my-app
+# or
+npm create vite@latest my-app -- --template react
+```
+
+## Basic Usage
+
+```jsx
+import { createRoot } from 'react-dom/client';
+
+function HelloMessage({ name }) {
+  return <div>Hello {name}</div>;
+}
+
+const root = createRoot(document.getElementById('container'));
+root.render(<HelloMessage name="Taylor" />);
+```
+
+<Callout type="info">
+JSX is not required but recommended. It compiles to React.createElement() calls under the hood.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: JavaScript
+- **Community**: 244k+ GitHub stars, massive ecosystem
+- **Maintainer**: Meta (Facebook)
+- **Documentation**: Comprehensive guides at [react.dev](https://react.dev)
+
+<Callout type="tip">
+React is designed for gradual adoption - you can add it to existing projects incrementally.
+</Callout>

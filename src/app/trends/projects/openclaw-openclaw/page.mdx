@@ -1,0 +1,60 @@
+<GuideHeader tool="openclaw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# OpenClaw
+
+OpenClaw is a personal AI assistant that runs on your own devices and connects to the messaging channels you already use. It provides a local-first gateway for multi-channel communication with AI across platforms like WhatsApp, Telegram, Slack, Discord, and many others.
+
+## Key Features
+
+- **Multi-channel support** — Works with 20+ messaging platforms including WhatsApp, Telegram, Slack, Discord, Signal, iMessage, Teams, and more
+- **Voice capabilities** — Speech recognition and text-to-speech on macOS, iOS, and Android
+- **Local-first architecture** — Runs entirely on your infrastructure with your own API keys
+- **Multi-agent routing** — Route different channels to isolated AI agents and workspaces
+- **Cross-platform** — Supports macOS, Linux, and Windows (via WSL2)
+- **Multiple AI providers** — Works with OpenAI, Anthropic, and other model providers
+
+## Installation
+
+<Callout type="info">
+Requires Node.js 24 (recommended) or Node.js 22.16+
+</Callout>
+
+```bash
+npm install -g openclaw@latest
+openclaw onboard --install-daemon
+```
+
+The onboard command guides you through setting up the gateway, configuring channels, and connecting AI models.
+
+## Basic Usage
+
+Start the gateway daemon:
+
+```bash
+openclaw gateway --port 18789 --verbose
+```
+
+Send a message through any connected channel:
+
+```bash
+openclaw message send --to +1234567890 --message "Hello from OpenClaw"
+```
+
+Interact with the AI assistant:
+
+```bash
+openclaw agent --message "Create a project checklist" --thinking high
+```
+
+<Callout type="warning">
+OpenClaw uses a pairing system for DM security by default. Unknown senders receive a pairing code that must be approved before the assistant processes their messages.
+</Callout>
+
+## Notable Details
+
+**License:** MIT  
+**Language:** TypeScript  
+**Community:** 330K+ GitHub stars, active Discord community  
+**Development:** Actively maintained with stable, beta, and dev release channels
+
+The project emphasizes data ownership and privacy by running entirely on your infrastructure rather than cloud services.

@@ -1,0 +1,66 @@
+<GuideHeader tool="freeCodeCamp" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# freeCodeCamp
+
+freeCodeCamp is an open-source platform providing free coding education through interactive challenges and projects. It offers a complete full-stack web development curriculum with certifications that help millions transition into tech careers.
+
+## Key Features
+
+- Full-stack web development curriculum (HTML/CSS, JavaScript, React, Python, databases)
+- Interactive coding challenges and hands-on projects
+- Free developer certifications recognized by employers
+- Language learning modules (English, Spanish, Chinese for developers)
+- Interview preparation resources and coding challenges
+- Community support through forums and Discord
+- Self-paced learning with thousands of exercises
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/freeCodeCamp/freeCodeCamp.git
+cd freeCodeCamp
+npm ci
+```
+
+Set up the development environment:
+
+```bash
+npm run create:config
+npm run seed
+npm run develop
+```
+
+<Callout type="info">
+The platform requires Node.js 18+ and MongoDB. Check the contributing guide for complete setup instructions.
+</Callout>
+
+## Basic Usage
+
+Access the learning platform at `http://localhost:8000` after starting the development server. The curriculum is organized into certifications:
+
+```javascript
+// Example: Working through JavaScript challenges
+const challenges = [
+  'Basic JavaScript',
+  'ES6',
+  'Regular Expressions',
+  'Debugging',
+  'Basic Data Structures'
+];
+```
+
+Each certification requires completing 5 projects and passing an exam to earn the credential.
+
+<Callout type="tip">
+You can use the live platform at freecodecamp.org without local setup, or contribute to the codebase using this repository.
+</Callout>
+
+## Notable Details
+
+- **License**: BSD-3-Clause
+- **Language**: TypeScript/JavaScript
+- **Community**: 438k+ GitHub stars, active Discord and forum
+- **Impact**: Helped 100,000+ people get developer jobs
+- **Status**: 501(c)(3) nonprofit, donor-supported

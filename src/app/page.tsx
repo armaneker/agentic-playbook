@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Server, Cpu, BarChart3, Puzzle, Shield, BookOpen, ArrowRight } from 'lucide-react';
+import { Server, Cpu, BarChart3, Puzzle, Shield, BookOpen, TrendingUp, ArrowRight } from 'lucide-react';
 
 const tools = [
   {
@@ -49,6 +49,14 @@ const tools = [
     icon: BookOpen,
     count: 'Coming soon',
     available: false,
+  },
+  {
+    title: 'Trending Repos',
+    description: 'GitHub projects gaining stars right now',
+    href: '/trends',
+    icon: TrendingUp,
+    count: '12 repos tracked',
+    available: true,
   },
 ];
 

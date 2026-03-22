@@ -1,0 +1,149 @@
+{
+  "updated_at": "2026-03-22T10:00:00Z",
+  "repos": [
+    {
+      "full_name": "anthropics/claude-code",
+      "description": "An agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster.",
+      "language": "TypeScript",
+      "url": "https://github.com/anthropics/claude-code",
+      "stars": 32400,
+      "delta_day": 820,
+      "delta_week": 4200,
+      "delta_month": 18500,
+      "delta_year": 32400,
+      "has_summary": true
+    },
+    {
+      "full_name": "vercel/ai",
+      "description": "Build AI-powered applications with React, Svelte, Vue, and Solid.",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel/ai",
+      "stars": 18200,
+      "delta_day": 95,
+      "delta_week": 680,
+      "delta_month": 2400,
+      "delta_year": 12100,
+      "has_summary": true
+    },
+    {
+      "full_name": "langchain-ai/langgraph",
+      "description": "Build resilient language agents as graphs.",
+      "language": "Python",
+      "url": "https://github.com/langchain-ai/langgraph",
+      "stars": 14800,
+      "delta_day": 180,
+      "delta_week": 1100,
+      "delta_month": 3900,
+      "delta_year": 14200,
+      "has_summary": false
+    },
+    {
+      "full_name": "modelcontextprotocol/servers",
+      "description": "Reference implementations for the Model Context Protocol.",
+      "language": "TypeScript",
+      "url": "https://github.com/modelcontextprotocol/servers",
+      "stars": 12600,
+      "delta_day": 340,
+      "delta_week": 2100,
+      "delta_month": 7800,
+      "delta_year": 12600,
+      "has_summary": true
+    },
+    {
+      "full_name": "crewAIInc/crewAI",
+      "description": "Framework for orchestrating role-playing, autonomous AI agents.",
+      "language": "Python",
+      "url": "https://github.com/crewAIInc/crewAI",
+      "stars": 28900,
+      "delta_day": 65,
+      "delta_week": 420,
+      "delta_month": 1800,
+      "delta_year": 22000,
+      "has_summary": false
+    },
+    {
+      "full_name": "pydantic/pydantic-ai",
+      "description": "Agent framework built on Pydantic for type-safe AI applications.",
+      "language": "Python",
+      "url": "https://github.com/pydantic/pydantic-ai",
+      "stars": 8400,
+      "delta_day": 210,
+      "delta_week": 1500,
+      "delta_month": 5200,
+      "delta_year": 8400,
+      "has_summary": false
+    },
+    {
+      "full_name": "microsoft/autogen",
+      "description": "An open-source framework for building AI agent systems.",
+      "language": "Python",
+      "url": "https://github.com/microsoft/autogen",
+      "stars": 42100,
+      "delta_day": 120,
+      "delta_week": 850,
+      "delta_month": 3200,
+      "delta_year": 28000,
+      "has_summary": true
+    },
+    {
+      "full_name": "browser-use/browser-use",
+      "description": "Make websites accessible for AI agents.",
+      "language": "Python",
+      "url": "https://github.com/browser-use/browser-use",
+      "stars": 9200,
+      "delta_day": 450,
+      "delta_week": 2800,
+      "delta_month": 8100,
+      "delta_year": 9200,
+      "has_summary": false
+    },
+    {
+      "full_name": "ollama/ollama",
+      "description": "Get up and running with large language models locally.",
+      "language": "Go",
+      "url": "https://github.com/ollama/ollama",
+      "stars": 118000,
+      "delta_day": 280,
+      "delta_week": 1900,
+      "delta_month": 8200,
+      "delta_year": 82000,
+      "has_summary": true
+    },
+    {
+      "full_name": "n8n-io/n8n",
+      "description": "Fair-code workflow automation tool with native AI capabilities.",
+      "language": "TypeScript",
+      "url": "https://github.com/n8n-io/n8n",
+      "stars": 68500,
+      "delta_day": 190,
+      "delta_week": 1300,
+      "delta_month": 5800,
+      "delta_year": 38000,
+      "has_summary": false
+    },
+    {
+      "full_name": "jina-ai/reader",
+      "description": "Convert any URL to an LLM-friendly input with a simple prefix.",
+      "language": "TypeScript",
+      "url": "https://github.com/jina-ai/reader",
+      "stars": 7800,
+      "delta_day": 35,
+      "delta_week": 240,
+      "delta_month": 980,
+      "delta_year": 7800,
+      "has_summary": false
+    },
+    {
+      "full_name": "mendableai/firecrawl",
+      "description": "Turn entire websites into LLM-ready markdown or structured data.",
+      "language": "TypeScript",
+      "url": "https://github.com/mendableai/firecrawl",
+      "stars": 11200,
+      "delta_day": 160,
+      "delta_week": 1050,
+      "delta_month": 4100,
+      "delta_year": 11200,
+      "has_summary": false
+    }
+  ]
+}

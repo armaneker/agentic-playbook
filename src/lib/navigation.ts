@@ -46,6 +46,10 @@ export const navigation: NavItem[] = [
     href: '/case-studies',
   },
   {
+    title: 'Trending Repos',
+    href: '/trends',
+  },
+  {
     title: 'About',
     href: '/about/contributing',
     children: [

@@ -4,7 +4,7 @@
 
 A static documentation site for agentic workflow guides, built with Next.js 14, MDX, and Tailwind CSS. Deployed via GitHub Pages.
 
-Live site: https://armaneker.github.io/agentic-playbook/
+Live site: https://agentic-playbook.dev/
 
 ## Tech Stack
 
@@ -54,11 +54,11 @@ Each guide is a `page.mdx` that starts with the `<GuideHeader>` component for me
 
 ## Deployment
 
-Push to `main` triggers automatic deployment via `.github/workflows/deploy.yml`.
+Push to `main` triggers automatic deployment via Vercel Git integration. No deploy workflow needed.
 
 ## Key Files
 
-- `next.config.mjs` — Next.js config with MDX, basePath, and trailingSlash
+- `next.config.mjs` — Next.js config with MDX and trailingSlash
 - `tailwind.config.ts` — Tailwind config with brand colors and typography
 - `src/lib/navigation.ts` — Sidebar navigation structure
 - `src/components/GuideHeader.tsx` — Guide metadata component

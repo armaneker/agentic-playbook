@@ -2,7 +2,7 @@
 
 Tested guides for setting up and running AI agent systems in production.
 
-**[Read the guides →](https://armaneker.github.io/agentic-playbook/)**
+**[Read the guides →](https://agentic-playbook.dev/)**
 
 ## What This Is
 
@@ -11,7 +11,7 @@ Agentic Playbook is a collection of tested guides for setting up and running AI 
 ## Guides Available
 
 ### OpenClaw
-- [Create a Slack Agent](https://armaneker.github.io/agentic-playbook/openclaw/create-slack-agent/) — Full walkthrough with multi-bot config and troubleshooting
+- [Create a Slack Agent](https://agentic-playbook.dev/openclaw/create-slack-agent/) — Full walkthrough with multi-bot config and troubleshooting
 - Architecture & Multi-Agent Gateway
 - Agent Roles
 - CLI Reference
@@ -27,7 +27,7 @@ Agentic Playbook is a collection of tested guides for setting up and running AI 
 
 ## Contributing
 
-See our [Contributing Guide](https://armaneker.github.io/agentic-playbook/about/contributing/).
+See our [Contributing Guide](https://agentic-playbook.dev/about/contributing/).
 
 ## Author
 

@@ -15,5 +15,5 @@ The user wants to deploy current changes to the live site.
 3. **Stage all relevant changes** (avoid staging secrets or `.env` files)
 4. **Commit** with a descriptive message
 5. **Push to `main`** — this triggers the GitHub Actions workflow that deploys to GitHub Pages
-6. **Confirm** to the user that changes have been pushed and link to the live site: https://armaneker.github.io/agentic-playbook/
+6. **Confirm** to the user that changes have been pushed and link to the live site: https://agentic-playbook.dev/
 7. Optionally check the GitHub Actions run status with `gh run list --limit 1`

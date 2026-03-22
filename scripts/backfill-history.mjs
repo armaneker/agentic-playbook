@@ -1,13 +1,14 @@
 #!/usr/bin/env node
 
 /**
- * Backfills historical star data using the GitHub Stargazers API.
+ * Backfills daily historical star data from Jan 1 2026 to today.
  *
  * Strategy:
- * - For repos with ≤40k stars: use binary search on stargazer pages
- *   (the API returns starred_at timestamps, capped at 400 pages / 40k stars)
- * - For repos with >40k stars: sample the last 40k stargazers to measure
- *   recent velocity, then extrapolate backward for earlier dates
+ * - Builds a timeline per repo by sampling ~30 stargazer pages (one-time cost)
+ * - Interpolates star counts for all dates from that timeline (no extra API calls)
+ * - For repos with >40k stars: the API only shows the first 40k (oldest) stargazers,
+ *   so recent dates are estimated using the velocity of invisible newer stars
+ * - Skips dates that already have snapshots (safe to re-run)
  *
  * Usage: GITHUB_TOKEN=ghp_xxx node scripts/backfill-history.mjs
  */
@@ -91,75 +92,72 @@ async function starsAtDateExact(fullName, totalStars, cutoffDate) {
 }
 
 /**
- * For large repos (>40k stars): sample recent stargazers to measure velocity.
+ * For large repos (>40k stars): the API only returns the first 40k stargazers
+ * (oldest, page 1 = first person who starred). Stars beyond page 400 are invisible.
  *
- * We can only access the last 40k stargazers. So we:
- * 1. Find the date of stargazer #1 (page 1) — the oldest accessible
- * 2. Find the date of the last stargazer (last page) — most recent
- * 3. This gives us the rate over the accessible window
- * 4. For dates within that window, binary search works
- * 5. For dates before the window, extrapolate using the measured rate
+ * Strategy:
+ * - If cutoff falls within the visible window: binary search for exact count
+ * - If cutoff is after the visible window: all visible stars predate the cutoff,
+ *   estimate how many of the invisible (newer) stars also predate it using velocity
  */
 async function starsAtDateEstimated(fullName, totalStars, cutoffDate) {
   const perPage = 100;
 
-  // Get the first page (oldest accessible stargazer)
+  // Page 1 = oldest stargazer (first person to star the repo)
   const { items: firstItems, lastPage } = await getStargazersPage(fullName, 1, perPage);
   if (firstItems.length === 0) return totalStars;
 
-  const oldestAccessibleDate = new Date(firstItems[0].starred_at);
-  const accessibleStars = lastPage * perPage;
-  const baseStars = totalStars - accessibleStars; // stars we can't see (before the window)
+  const oldestDate = new Date(firstItems[0].starred_at);
+  const accessibleCount = lastPage * perPage; // first ~40k (oldest) stars
+  const inaccessibleCount = totalStars - accessibleCount; // remaining newer stars
 
-  // If cutoff is before the accessible window, we need to estimate
-  if (cutoffDate < oldestAccessibleDate) {
-    // Get repo creation date for better extrapolation
-    const repoRes = await fetch(`https://api.github.com/repos/${fullName}`, { headers: defaultHeaders });
-    const repoData = await repoRes.json();
-    const createdAt = new Date(repoData.created_at);
+  // Get newest accessible stargazer (last visible page)
+  const { items: lastItems } = await getStargazersPage(fullName, lastPage, perPage);
+  const newestAccessibleDate = lastItems.length > 0
+    ? new Date(lastItems[lastItems.length - 1].starred_at)
+    : oldestDate;
 
-    // Calculate rate in the accessible window
-    const now = new Date();
-    const accessibleDays = (now - oldestAccessibleDate) / (1000 * 60 * 60 * 24);
-    const ratePerDay = accessibleStars / accessibleDays;
+  // Before the repo existed
+  if (cutoffDate <= oldestDate) return 0;
 
-    // For the pre-window period, use a lower rate (growth typically accelerates)
-    // Use 60% of recent rate as a conservative estimate for older periods
-    const daysSinceCutoff = (now - cutoffDate) / (1000 * 60 * 60 * 24);
-    const daysInPreWindow = (oldestAccessibleDate - cutoffDate) / (1000 * 60 * 60 * 24);
+  // Cutoff is within the accessible (oldest) window — binary search works
+  if (cutoffDate <= newestAccessibleDate) {
+    let low = 1;
+    let high = lastPage;
 
-    if (cutoffDate < createdAt) return 0;
-
-    // Stars gained between cutoff and oldest accessible = estimated
-    const estimatedPreWindowGain = Math.round(daysInPreWindow * ratePerDay * 0.6);
-    const starsAtCutoff = Math.max(0, baseStars - estimatedPreWindowGain);
-    return starsAtCutoff;
-  }
-
-  // Cutoff is within the accessible window — binary search
-  let low = 1;
-  let high = lastPage;
-
-  while (low < high) {
-    const mid = Math.floor((low + high) / 2);
-    const { items } = await getStargazersPage(fullName, mid, perPage);
-    if (items.length === 0) { high = mid; continue; }
-    const firstDate = new Date(items[0].starred_at);
-    if (firstDate < cutoffDate) {
-      low = mid + 1;
-    } else {
-      high = mid;
+    while (low < high) {
+      const mid = Math.floor((low + high) / 2);
+      const { items } = await getStargazersPage(fullName, mid, perPage);
+      if (items.length === 0) { high = mid; continue; }
+      const firstDate = new Date(items[0].starred_at);
+      if (firstDate < cutoffDate) {
+        low = mid + 1;
+      } else {
+        high = mid;
+      }
+      await new Promise(r => setTimeout(r, 80));
     }
-    await new Promise(r => setTimeout(r, 80));
+
+    const { items } = await getStargazersPage(fullName, low, perPage);
+    let countOnPage = 0;
+    for (const item of items) {
+      if (new Date(item.starred_at) < cutoffDate) countOnPage++;
+    }
+    // No baseStars — accessible window IS the oldest stars, count is absolute
+    return (low - 1) * perPage + countOnPage;
   }
 
-  const { items } = await getStargazersPage(fullName, low, perPage);
-  let countOnPage = 0;
-  for (const item of items) {
-    if (new Date(item.starred_at) < cutoffDate) countOnPage++;
-  }
+  // Cutoff is AFTER the accessible window — all ~40k visible stars predate cutoff.
+  // Estimate how many of the invisible (newer) stars also predate the cutoff.
+  const now = new Date();
+  const inaccessibleWindowDays = (now - newestAccessibleDate) / (1000 * 60 * 60 * 24);
+  const ratePerDay = inaccessibleWindowDays > 0 ? inaccessibleCount / inaccessibleWindowDays : 0;
 
-  return baseStars + (low - 1) * perPage + countOnPage;
+  // Stars earned between cutoff and now
+  const daysAfterCutoff = (now - cutoffDate) / (1000 * 60 * 60 * 24);
+  const starsAfterCutoff = Math.round(daysAfterCutoff * ratePerDay);
+
+  return Math.max(0, totalStars - starsAfterCutoff);
 }
 
 /**
@@ -170,6 +168,89 @@ async function starsAtDate(fullName, totalStars, cutoffDate) {
     return starsAtDateExact(fullName, totalStars, cutoffDate);
   }
   return starsAtDateEstimated(fullName, totalStars, cutoffDate);
+}
+
+/**
+ * Build a timeline for a repo by sampling stargazer pages.
+ * Returns an array of { starIndex, date } sorted by starIndex.
+ * This lets us look up stars-at-date for many dates with ONE set of API calls.
+ */
+async function buildTimeline(fullName, totalStars) {
+  const perPage = 100;
+  const totalPages = Math.ceil(Math.min(totalStars, API_STAR_CAP) / perPage);
+  if (totalPages === 0) return [];
+
+  // Sample ~30 evenly spaced pages (plus first and last) for a good timeline
+  const sampleCount = Math.min(30, totalPages);
+  const pageIndices = new Set([1, totalPages]);
+  for (let i = 0; i < sampleCount; i++) {
+    pageIndices.add(Math.max(1, Math.min(totalPages, Math.round(1 + (totalPages - 1) * i / (sampleCount - 1)))));
+  }
+
+  const timeline = [];
+  const sortedPages = [...pageIndices].sort((a, b) => a - b);
+
+  for (const page of sortedPages) {
+    const { items } = await getStargazersPage(fullName, page, perPage);
+    if (items.length === 0) continue;
+
+    // Record first and last item on each sampled page
+    timeline.push({
+      starIndex: (page - 1) * perPage + 1,
+      date: new Date(items[0].starred_at),
+    });
+    if (items.length > 1) {
+      timeline.push({
+        starIndex: (page - 1) * perPage + items.length,
+        date: new Date(items[items.length - 1].starred_at),
+      });
+    }
+    await new Promise(r => setTimeout(r, 50));
+  }
+
+  timeline.sort((a, b) => a.starIndex - b.starIndex);
+  return timeline;
+}
+
+/**
+ * Given a pre-built timeline, estimate stars at a cutoff date.
+ * Uses linear interpolation between sampled points.
+ */
+function starsAtDateFromTimeline(timeline, totalStars, cutoffDate) {
+  if (timeline.length === 0) return 0;
+
+  const oldestDate = timeline[0].date;
+  const newestDate = timeline[timeline.length - 1].date;
+  const maxSampled = timeline[timeline.length - 1].starIndex;
+
+  // Before the first star
+  if (cutoffDate <= oldestDate) return 0;
+
+  // Within the sampled window — interpolate
+  if (cutoffDate <= newestDate) {
+    // Find the two surrounding samples
+    for (let i = 0; i < timeline.length - 1; i++) {
+      if (cutoffDate >= timeline[i].date && cutoffDate <= timeline[i + 1].date) {
+        const span = timeline[i + 1].date - timeline[i].date;
+        if (span === 0) return timeline[i].starIndex;
+        const frac = (cutoffDate - timeline[i].date) / span;
+        const starCount = timeline[i].starIndex + frac * (timeline[i + 1].starIndex - timeline[i].starIndex);
+        return Math.round(starCount);
+      }
+    }
+    // Fallback: cutoff is at the edge
+    return maxSampled;
+  }
+
+  // After the sampled window (repo has >40k stars, cutoff is recent)
+  // Estimate using velocity of invisible stars
+  const inaccessibleCount = totalStars - maxSampled;
+  const now = new Date();
+  const inaccessibleDays = (now - newestDate) / (1000 * 60 * 60 * 24);
+  const ratePerDay = inaccessibleDays > 0 ? inaccessibleCount / inaccessibleDays : 0;
+  const daysAfterCutoff = (now - cutoffDate) / (1000 * 60 * 60 * 24);
+  const starsAfterCutoff = Math.round(daysAfterCutoff * ratePerDay);
+  return Math.max(0, totalStars - starsAfterCutoff);
 }
 
 function fmt(date) {
@@ -204,20 +285,31 @@ async function main() {
   }
 
   const now = new Date();
-  const targets = [
-    { label: '1 day ago', date: new Date(now - 1 * 24 * 60 * 60 * 1000) },
-    { label: '7 days ago', date: new Date(now - 7 * 24 * 60 * 60 * 1000) },
-    { label: '30 days ago', date: new Date(now - 30 * 24 * 60 * 60 * 1000) },
-    { label: '90 days ago', date: new Date(now - 90 * 24 * 60 * 60 * 1000) },
-    { label: '180 days ago', date: new Date(now - 180 * 24 * 60 * 60 * 1000) },
-    { label: '365 days ago', date: new Date(now - 365 * 24 * 60 * 60 * 1000) },
-  ];
 
-  // Remove existing snapshots for these dates so we regenerate them
-  const activeDates = targets;
+  // Generate daily snapshots from Jan 1 2026 to today
+  const startDate = new Date('2026-01-01');
+  const targets = [];
+  for (let d = new Date(startDate); d < now; d.setDate(d.getDate() + 1)) {
+    targets.push({ label: fmt(d), date: new Date(d) });
+  }
+
+  // Skip dates that already have snapshots with data
+  const activeDates = targets.filter(t => {
+    const file = join(SNAPSHOTS_DIR, `${fmt(t.date)}.json`);
+    if (!existsSync(file)) return true;
+    try {
+      const snap = JSON.parse(readFileSync(file, 'utf-8'));
+      return Object.keys(snap.data || {}).length === 0;
+    } catch { return true; }
+  });
 
   const maxRepos = Math.min(repos.length, 25);
-  console.log(`\nBackfilling ${activeDates.length} dates for top ${maxRepos} repos...\n`);
+  console.log(`\nBackfilling ${activeDates.length} dates (${targets.length} total, ${targets.length - activeDates.length} already done) for top ${maxRepos} repos...\n`);
+
+  if (activeDates.length === 0) {
+    console.log('All dates already have snapshots. Nothing to do.');
+    return;
+  }
 
   const snapshots = {};
   for (const t of activeDates) {
@@ -232,17 +324,34 @@ async function main() {
       continue;
     }
 
-    const method = totalStars > API_STAR_CAP ? 'estimated' : 'exact';
-    console.log(`[${i + 1}/${maxRepos}] ${repo.full_name} (${totalStars} stars, ${method})`);
+    console.log(`[${i + 1}/${maxRepos}] ${repo.full_name} (${totalStars} stars)`);
+
+    // Build timeline once per repo (~30 API calls), then query all dates from it
+    console.log(`  Building timeline...`);
+    const timeline = await buildTimeline(repo.full_name, totalStars);
+    console.log(`  Timeline: ${timeline.length} sample points`);
+
+    if (timeline.length > 0) {
+      console.log(`  Range: ${fmt(timeline[0].date)} → ${fmt(timeline[timeline.length - 1].date)}`);
+    }
 
     for (const t of activeDates) {
       try {
-        const starsAtCutoff = await starsAtDate(repo.full_name, totalStars, t.date);
+        const starsAtCutoff = starsAtDateFromTimeline(timeline, totalStars, t.date);
         const delta = totalStars - starsAtCutoff;
         snapshots[fmt(t.date)][repo.full_name] = { stars: starsAtCutoff, forks: 0 };
-        console.log(`  ${t.label}: ${starsAtCutoff} stars (Δ +${delta})`);
       } catch (err) {
         console.error(`  Error for ${t.label}: ${err.message}`);
+      }
+    }
+
+    // Show a few sample dates
+    const sampleDates = [activeDates[0], activeDates[Math.floor(activeDates.length / 2)], activeDates[activeDates.length - 1]];
+    for (const t of sampleDates) {
+      if (!t) continue;
+      const snap = snapshots[fmt(t.date)][repo.full_name];
+      if (snap) {
+        console.log(`  ${t.label}: ${snap.stars} stars (Δ +${totalStars - snap.stars})`);
       }
     }
 

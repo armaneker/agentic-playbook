@@ -1,0 +1,76 @@
+<GuideHeader tool="flutter" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Flutter
+
+Flutter is Google's open-source SDK for building cross-platform applications from a single Dart codebase. It targets mobile, web, desktop, and embedded platforms with native performance and pixel-perfect UI control.
+
+## Key Features
+
+- **Cross-platform development** - Deploy to iOS, Android, web, Windows, macOS, Linux, and Fuchsia
+- **Hot reload** - See code changes instantly without losing application state
+- **Native performance** - Hardware-accelerated rendering with Skia and Impeller engines
+- **Rich widget ecosystem** - Material Design and Cupertino component libraries
+- **Custom UI control** - Access to every pixel with composable widget architecture
+- **Native interop** - FFI and platform channels for accessing device-specific APIs
+
+## Installation
+
+<Callout type="info">
+Flutter requires Git and platform-specific toolchains (Xcode for iOS, Android Studio for Android).
+</Callout>
+
+```bash
+# Clone Flutter repository
+git clone https://github.com/flutter/flutter.git
+export PATH="$PATH:`pwd`/flutter/bin"
+
+# Verify installation
+flutter doctor
+
+# Create new project
+flutter create my_app
+cd my_app
+```
+
+## Basic Usage
+
+```dart
+import 'package:flutter/material.dart';
+
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: Text('Flutter App')),
+        body: Center(
+          child: Text('Hello, World!'),
+        ),
+      ),
+    );
+  }
+}
+```
+
+```bash
+# Run on connected device
+flutter run
+
+# Build for production
+flutter build apk  # Android
+flutter build ios  # iOS
+flutter build web  # Web
+```
+
+## Notable Details
+
+**License:** BSD-3-Clause  
+**Language:** Dart  
+**Community:** 175K+ GitHub stars, extensive package ecosystem on pub.dev  
+**Backed by:** Google with active development and LTS releases
+
+<Callout type="warning">
+Flutter downloads Dart SDK and other resources from Google servers during installation and upgrades.
+</Callout>

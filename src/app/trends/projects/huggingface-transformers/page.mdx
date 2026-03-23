@@ -1,0 +1,60 @@
+<GuideHeader tool="transformers" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Hugging Face Transformers
+
+Transformers is the model-definition framework for state-of-the-art machine learning models across text, vision, audio, and multimodal domains. It serves as the central pivot that makes model definitions compatible across training frameworks, inference engines, and modeling libraries.
+
+## Key Features
+
+- **Universal model compatibility** - Works with PyTorch, TensorFlow, JAX, and major training/inference frameworks
+- **1M+ pre-trained models** - Access to massive model hub with checkpoints for any domain
+- **Multi-modal support** - Text, vision, audio, video, and multimodal model architectures
+- **Pipeline API** - High-level interface for quick inference across different tasks
+- **Framework interoperability** - Model definitions work across vLLM, DeepSpeed, TGI, llama.cpp, and more
+
+## Installation
+
+<Callout type="info">
+Requires Python 3.10+ and PyTorch 2.4+
+</Callout>
+
+```bash
+# Basic installation
+pip install "transformers[torch]"
+
+# With uv (faster)
+uv pip install "transformers[torch]"
+
+# From source (latest features)
+git clone https://github.com/huggingface/transformers.git
+cd transformers
+pip install '.[torch]'
+```
+
+## Basic Usage
+
+The Pipeline API handles preprocessing and provides a simple interface for inference:
+
+```python
+from transformers import pipeline
+
+# Text generation
+generator = pipeline(task="text-generation", model="Qwen/Qwen2.5-1.5B")
+result = generator("the secret to baking a really good cake is")
+print(result[0]['generated_text'])
+
+# Other tasks work similarly
+classifier = pipeline("sentiment-analysis")
+classifier("This framework is excellent!")
+```
+
+<Callout type="tip">
+Models are automatically downloaded and cached on first use, making subsequent runs faster.
+</Callout>
+
+## Notable Details
+
+- **License**: Apache-2.0
+- **Language**: Python
+- **Community**: 158k+ GitHub stars, massive ecosystem adoption
+- **Ecosystem**: Compatible with Axolotl, Unsloth, vLLM, SGLang, TGI, and dozens of other tools

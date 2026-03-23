@@ -1,0 +1,44 @@
+<GuideHeader tool="n8n" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# n8n
+
+n8n is a workflow automation platform that combines visual building with custom code capabilities. It offers 400+ integrations, native AI workflows, and can be self-hosted or used in the cloud.
+
+## Key Features
+
+- **Hybrid development**: Visual interface with JavaScript/Python code support and npm package integration
+- **AI-native workflows**: LangChain-based AI agent automation with custom data and models
+- **400+ integrations**: Pre-built connectors for popular services and APIs
+- **Flexible deployment**: Self-host anywhere or use managed cloud service
+- **Enterprise features**: Advanced permissions, SSO, and air-gapped deployments
+- **Active ecosystem**: 900+ ready-to-use workflow templates
+
+## Installation
+
+Run instantly with npx (requires Node.js):
+
+```bash
+npx n8n
+```
+
+Or deploy with Docker:
+
+```bash
+docker volume create n8n_data
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+```
+
+## Basic Usage
+
+After installation, access the workflow editor at `http://localhost:5678`. Create workflows by connecting nodes visually, add custom JavaScript/Python code where needed, and leverage the 400+ integrations to automate data flows between services.
+
+<Callout type="info">
+n8n uses a "fair-code" license model - source code is always visible and you can self-host, but commercial usage has restrictions. Enterprise licenses are available for additional features.
+</Callout>
+
+## Notable Details
+
+- **Language**: TypeScript
+- **License**: Sustainable Use License (fair-code model)
+- **Community**: 180k+ GitHub stars, active community forum
+- **Resources**: Extensive documentation, community tutorials, and workflow marketplace

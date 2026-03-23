@@ -98,7 +98,7 @@
       "language": "C",
       "url": "https://github.com/torvalds/linux",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": []
     },
     "tensorflow/tensorflow": {
@@ -107,7 +107,7 @@
       "language": "C++",
       "url": "https://github.com/tensorflow/tensorflow",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "deep-learning",
         "deep-neural-networks",
@@ -125,7 +125,7 @@
       "language": "Shell",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "cli",
         "cli-app",
@@ -150,7 +150,7 @@
       "language": "TypeScript",
       "url": "https://github.com/microsoft/vscode",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "editor",
         "electron",
@@ -165,7 +165,7 @@
       "language": "Python",
       "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai",
         "artificial-intelligence",

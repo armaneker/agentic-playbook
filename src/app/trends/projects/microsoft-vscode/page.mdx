@@ -1,0 +1,74 @@
+<GuideHeader tool="vscode" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Visual Studio Code
+
+Visual Studio Code is an open-source code editor built on Electron that combines simplicity with powerful development features. It provides comprehensive editing, debugging, and extensibility while maintaining lightweight performance across Windows, macOS, and Linux.
+
+## Key Features
+
+- **IntelliSense**: Context-aware code completion and syntax highlighting
+- **Integrated debugging**: Built-in debugger with breakpoints and variable inspection  
+- **Git integration**: Source control management directly in the editor
+- **Extension marketplace**: Thousands of extensions for languages, themes, and tools
+- **Terminal integration**: Built-in command line interface
+- **Multi-language support**: Native support for TypeScript, JavaScript, Python, and more
+- **Remote development**: Edit code on remote machines, containers, or WSL
+
+## Installation
+
+Download the installer from the official website:
+
+```bash
+# macOS (Homebrew)
+brew install --cask visual-studio-code
+
+# Windows (Chocolatey)
+choco install vscode
+
+# Linux (Debian/Ubuntu)
+wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
+sudo apt update && sudo apt install code
+```
+
+For daily updates, install the Insiders build from [code.visualstudio.com/insiders](https://code.visualstudio.com/insiders).
+
+## Basic Usage
+
+```bash
+# Open current directory
+code .
+
+# Open specific file
+code myfile.js
+
+# Open with extensions disabled
+code --disable-extensions
+
+# Compare files
+code --diff file1.js file2.js
+```
+
+<Callout type="info">
+The repository contains the open-source "Code - OSS" version. The official VS Code release includes additional Microsoft-specific features and telemetry.
+</Callout>
+
+## Development Setup
+
+```bash
+git clone https://github.com/microsoft/vscode.git
+cd vscode
+npm install
+npm run watch
+```
+
+<Callout type="tip">
+Use the included development container for a consistent build environment. Requires 4+ cores and 6GB RAM for optimal performance.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript  
+- **Community**: 183k+ GitHub stars, active monthly releases
+- **Architecture**: Built on Electron framework
+- **Support**: Stack Overflow, GitHub Discussions, and official documentation

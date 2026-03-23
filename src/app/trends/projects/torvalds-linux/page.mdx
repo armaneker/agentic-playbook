@@ -1,0 +1,71 @@
+<GuideHeader tool="linux" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Linux Kernel
+
+The Linux kernel is the core component that manages hardware resources and provides fundamental services for all software running on Linux operating systems. This is Linus Torvalds' official kernel source tree.
+
+## Key Features
+
+- **Hardware abstraction** - Manages CPU, memory, storage, and peripheral devices
+- **Process scheduling** - Handles multitasking and resource allocation
+- **Memory management** - Virtual memory, paging, and protection mechanisms
+- **Networking stack** - TCP/IP implementation and network device drivers
+- **Filesystem support** - ext4, Btrfs, XFS, and many others
+- **Security frameworks** - SELinux, AppArmor, and other LSM implementations
+- **Device drivers** - Support for thousands of hardware components
+
+## Installation
+
+<Callout type="info">
+Most users should install pre-built kernels from their distribution rather than compiling from source.
+</Callout>
+
+```bash
+# Clone the repository
+git clone https://github.com/torvalds/linux.git
+cd linux
+
+# Install build dependencies (Ubuntu/Debian)
+sudo apt-get install build-essential libncurses-dev bison flex libssl-dev libelf-dev
+
+# Configure the kernel
+make menuconfig
+
+# Build the kernel
+make -j$(nproc)
+
+# Install modules and kernel
+sudo make modules_install
+sudo make install
+```
+
+## Basic Usage
+
+```bash
+# Check current kernel version
+uname -r
+
+# View kernel messages
+dmesg
+
+# List loaded modules
+lsmod
+
+# Load a kernel module
+sudo modprobe module_name
+
+# View kernel parameters
+cat /proc/cmdline
+```
+
+## Notable Details
+
+- **License**: GPL v2 (despite NOASSERTION flag)
+- **Language**: C with some assembly
+- **Community**: 224k+ GitHub stars, thousands of active contributors
+- **Communication**: Primarily via mailing lists at https://lore.kernel.org/
+- **Release cycle**: New versions approximately every 2-3 months
+
+<Callout type="warning">
+Kernel development requires deep understanding of systems programming. Start with the documentation in `Documentation/process/development-process.rst` before contributing.
+</Callout>

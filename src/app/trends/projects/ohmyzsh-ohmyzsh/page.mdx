@@ -1,0 +1,74 @@
+<GuideHeader tool="ohmyzsh" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Oh My Zsh
+
+Oh My Zsh is a community-driven framework for managing your zsh configuration. It provides 300+ plugins, 140+ themes, and auto-updates to enhance your terminal experience.
+
+## Key Features
+
+- **Plugin ecosystem** - 300+ plugins for git, docker, node, python, and more
+- **Theme library** - 140+ customizable themes for visual appeal
+- **Auto-updates** - Built-in update mechanism keeps everything current
+- **Cross-platform** - Works on macOS, Linux, Windows (WSL2), FreeBSD, and Android
+- **Community-driven** - 2,400+ contributors maintaining the project
+
+## Installation
+
+<Callout type="info">
+Requires zsh (v4.3.9+), git (v2.4.11+ recommended), and curl/wget.
+</Callout>
+
+Install via curl:
+
+```bash
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+Or via wget:
+
+```bash
+sh -c "$(wget -O- https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+If GitHub is blocked in your region, use the mirror:
+
+```bash
+sh -c "$(curl -fsSL https://install.ohmyz.sh/)"
+```
+
+## Basic Usage
+
+After installation, configure plugins and themes in `~/.zshrc`:
+
+```bash
+# Enable plugins (space-separated, no commas)
+plugins=(
+  git
+  docker
+  node
+  python
+)
+
+# Set theme
+ZSH_THEME="agnoster"
+```
+
+Apply changes:
+
+```bash
+source ~/.zshrc
+```
+
+<Callout type="tip">
+Each plugin includes a README with available aliases and commands. Check the plugins directory for documentation.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Shell scripting
+- **Community**: 185K+ GitHub stars, active Discord server
+- **Maintenance**: Regular updates with automated CI/CD
+- **Repository**: [ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+
+The project backs up your existing `.zshrc` as `.zshrc.pre-oh-my-zsh` during installation, allowing easy rollback if needed.

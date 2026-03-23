@@ -1,0 +1,66 @@
+<GuideHeader tool="tensorflow" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# TensorFlow
+
+TensorFlow is Google's open source machine learning framework for building and deploying ML models at scale. It provides a flexible ecosystem for research, development, and production deployment across various platforms and devices.
+
+## Key Features
+
+- **Multi-language APIs**: Stable Python and C++ APIs with experimental support for other languages
+- **Hardware acceleration**: Native support for GPUs, TPUs, and mobile devices
+- **Distributed training**: Scale across multiple machines and accelerators
+- **Model deployment**: Deploy to web, mobile, edge devices, and servers
+- **Eager execution**: Dynamic graph execution for intuitive debugging
+- **High-level APIs**: Keras integration for rapid prototyping
+- **TensorBoard**: Built-in visualization and monitoring tools
+
+## Installation
+
+Install the full version with GPU support:
+
+```bash
+pip install tensorflow
+```
+
+For CPU-only environments:
+
+```bash
+pip install tensorflow-cpu
+```
+
+<Callout type="tip">
+Use `tf-nightly` for testing bleeding-edge features, but avoid it in production.
+</Callout>
+
+## Basic Usage
+
+```python
+import tensorflow as tf
+
+# Create tensors
+a = tf.constant([1, 2, 3])
+b = tf.constant([4, 5, 6])
+
+# Perform operations
+result = tf.add(a, b)
+print(result.numpy())  # [5 7 9]
+
+# Simple neural network layer
+layer = tf.keras.layers.Dense(units=1, input_shape=[1])
+model = tf.keras.Sequential([layer])
+
+# Compile and train
+model.compile(optimizer='sgd', loss='mean_squared_error')
+```
+
+<Callout type="info">
+TensorFlow 2.x uses eager execution by default, making it more intuitive than earlier versions.
+</Callout>
+
+## Notable Details
+
+- **License**: Apache 2.0
+- **Language**: Primarily C++ with Python bindings
+- **Community**: 194k+ GitHub stars, extensive ecosystem
+- **Backed by**: Google Brain team with broad industry adoption
+- **Documentation**: Comprehensive guides at [tensorflow.org](https://www.tensorflow.org/)

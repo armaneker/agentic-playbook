@@ -1,0 +1,64 @@
+<GuideHeader tool="go" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Go Programming Language
+
+Go is an open source programming language designed for building simple, reliable, and efficient software. Created by Google, it emphasizes fast compilation, garbage collection, and built-in concurrency support.
+
+## Key Features
+
+- **Fast compilation** - Compiles to native binaries quickly
+- **Garbage collection** - Automatic memory management
+- **Goroutines** - Lightweight concurrency primitives
+- **Static typing** - Strong type system with type inference
+- **Cross-platform** - Runs on multiple operating systems and architectures
+- **Standard library** - Comprehensive built-in packages for common tasks
+- **Simple syntax** - Minimal language features, easy to learn
+
+## Installation
+
+Download official binary distributions from [go.dev/dl](https://go.dev/dl/) and follow the installation instructions at [go.dev/doc/install](https://go.dev/doc/install).
+
+For source installation on unsupported platforms, see [go.dev/doc/install/source](https://go.dev/doc/install/source).
+
+<Callout type="tip">
+Use your system's package manager when possible - most distributions include Go packages.
+</Callout>
+
+## Basic Usage
+
+Create a simple Hello World program:
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello, World!")
+}
+```
+
+Run it directly:
+
+```bash
+go run hello.go
+```
+
+Or build an executable:
+
+```bash
+go build hello.go
+./hello
+```
+
+<Callout type="info">
+Go uses modules for dependency management. Initialize a new module with `go mod init <module-name>`.
+</Callout>
+
+## Project Details
+
+- **License**: BSD-3-Clause
+- **Language**: Go
+- **Community**: 133K+ GitHub stars, thousands of contributors
+- **Repository**: [github.com/golang/go](https://github.com/golang/go)
+- **Canonical source**: https://go.googlesource.com/go

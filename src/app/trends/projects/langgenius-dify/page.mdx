@@ -1,0 +1,51 @@
+<GuideHeader tool="dify" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Dify
+
+Dify is an open-source LLM application development platform that provides a visual interface for building AI workflows. It combines RAG pipelines, agent capabilities, and model management into a unified platform for rapid prototyping and deployment.
+
+## Key Features
+
+- **Visual workflow builder** - Create AI workflows on a drag-and-drop canvas
+- **Comprehensive model support** - Integration with 100+ LLMs including GPT, Mistral, Llama3, and OpenAI-compatible models
+- **RAG pipeline** - Document ingestion and retrieval with support for PDFs, PPTs, and common formats
+- **Agent capabilities** - Function calling and ReAct agents with 50+ built-in tools (Google Search, DALL-E, Stable Diffusion)
+- **Prompt IDE** - Interface for crafting prompts and comparing model performance
+- **LLMOps monitoring** - Application logs, performance analytics, and observability features
+- **Backend-as-a-Service** - REST APIs for integrating into existing applications
+
+## Installation
+
+<Callout type="info">
+Requires Docker and Docker Compose. Minimum system requirements: CPU >= 2 Core, RAM >= 4 GiB
+</Callout>
+
+```bash
+git clone https://github.com/langgenius/dify.git
+cd dify/docker
+cp .env.example .env
+docker compose up -d
+```
+
+Access the dashboard at `http://localhost/install` to complete setup.
+
+## Basic Usage
+
+After installation, you can:
+
+1. Create AI applications using the visual workflow builder
+2. Configure model providers in the settings
+3. Build RAG applications by uploading documents
+4. Deploy agents with custom tools
+5. Monitor performance through the LLMOps dashboard
+
+<Callout type="tip">
+Dify Cloud is available for those who prefer a hosted solution without infrastructure management.
+</Callout>
+
+## Notable Details
+
+- **Language**: TypeScript/Python
+- **License**: Custom (check repository for details)
+- **Community**: 134k+ GitHub stars, active Discord community
+- **Deployment**: Self-hosted or cloud options available

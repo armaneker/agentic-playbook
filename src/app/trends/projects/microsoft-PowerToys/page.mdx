@@ -1,0 +1,55 @@
+<GuideHeader tool="PowerToys" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# PowerToys
+
+Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows. It provides over 25 tools for window management, file operations, system tweaks, and workflow optimization.
+
+## Key Features
+
+- **FancyZones** - Advanced window snapping and layout management
+- **PowerToys Run** - Application launcher and command palette (Alt+Space)
+- **PowerRename** - Bulk file renaming with regex support
+- **Color Picker** - System-wide color picker tool
+- **Always on Top** - Pin any window to stay on top
+- **File Locksmith** - Identify which processes are using files
+- **Image Resizer** - Bulk image resizing from context menu
+- **Keyboard Manager** - Remap keys and create custom shortcuts
+- **Text Extractor** - OCR tool to extract text from images
+- **Advanced Paste** - Enhanced clipboard with formatting options
+
+## Installation
+
+Download the installer from GitHub releases or use package managers:
+
+```powershell
+# User scope (recommended)
+winget install Microsoft.PowerToys -s winget
+
+# Machine-wide scope
+winget install --scope machine Microsoft.PowerToys -s winget
+```
+
+<Callout type="info">
+PowerToys is also available through the Microsoft Store for automatic updates.
+</Callout>
+
+## Basic Usage
+
+After installation, PowerToys runs in the system tray. Access settings through the tray icon or run individual utilities:
+
+- **PowerToys Run**: Press `Alt + Space` to open the launcher
+- **FancyZones**: Hold `Shift` while dragging windows to snap to zones
+- **Color Picker**: Use the configured hotkey (default `Win + Shift + C`)
+- **PowerRename**: Right-click files/folders → "PowerRename"
+
+<Callout type="tip">
+Configure hotkeys and enable/disable utilities through the PowerToys Settings app.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: C#
+- **Community**: 130k+ GitHub stars
+- **Platform**: Windows 10/11 only
+- **Updates**: Active development by Microsoft with regular releases

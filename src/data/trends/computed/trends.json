@@ -431,7 +431,7 @@
       "delta_week": 258,
       "delta_month": 1003,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": "1.13.2"
     },
@@ -515,7 +515,7 @@
       "delta_week": 236,
       "delta_month": 878,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": "langchain-core==1.2.20"
     },
@@ -641,7 +641,7 @@
       "delta_week": 190,
       "delta_month": 874,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": "v0.8.10"
     },
@@ -1397,7 +1397,7 @@
       "delta_week": 58,
       "delta_month": 217,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v0.98.0"
     },
@@ -1523,7 +1523,7 @@
       "delta_week": 38,
       "delta_month": 164,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Language",
       "version": null
     },

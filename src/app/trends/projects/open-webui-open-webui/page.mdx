@@ -1,0 +1,56 @@
+<GuideHeader tool="open-webui" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Open WebUI
+
+Open WebUI is a self-hosted AI interface that runs entirely offline and supports various LLM runners including Ollama and OpenAI-compatible APIs. It provides a feature-rich web interface for interacting with language models with built-in RAG capabilities.
+
+## Key Features
+
+- **Multi-provider support**: Works with Ollama, OpenAI, LMStudio, GroqCloud, Mistral, and other OpenAI-compatible APIs
+- **Local RAG integration**: Built-in document processing with 9 vector database options (ChromaDB, PGVector, Qdrant, etc.)
+- **Web search capabilities**: 15+ search providers including SearXNG, Google PSE, Brave Search, and DuckDuckGo
+- **Image generation & editing**: Supports DALL-E, Gemini, ComfyUI, and AUTOMATIC1111
+- **Voice/video calls**: Multiple Speech-to-Text and Text-to-Speech providers
+- **Enterprise features**: RBAC, LDAP/AD integration, SCIM 2.0, SSO support
+- **Multi-model conversations**: Chat with multiple models simultaneously
+- **Python function calling**: Built-in code editor for custom functions
+- **Cloud storage**: S3, Google Cloud Storage, Azure Blob Storage backends
+
+## Installation
+
+<Callout type="info">
+Docker is the recommended installation method for most users.
+</Callout>
+
+```bash
+# Basic installation
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \
+  -v open-webui:/app/backend/data --name open-webui --restart always \
+  ghcr.io/open-webui/open-webui:main
+
+# With Ollama integration
+docker run -d -p 3000:8080 --add-host=host.docker.internal:host-gateway \
+  -v open-webui:/app/backend/data --name open-webui --restart always \
+  ghcr.io/open-webui/open-webui:ollama
+```
+
+Access the interface at `http://localhost:3000`.
+
+## Basic Usage
+
+1. **Add a model provider**: Navigate to Settings → Connections and configure your API endpoint (Ollama, OpenAI, etc.)
+2. **Start chatting**: Select a model from the dropdown and begin your conversation
+3. **Upload documents**: Use the `#` command or document library for RAG functionality
+4. **Web search**: Use `#` followed by search terms to inject web results into your chat
+
+<Callout type="tip">
+Use the `#` command followed by a URL to incorporate web content directly into conversations.
+</Callout>
+
+## Notable Details
+
+- **Language**: Python
+- **Community**: 128k+ GitHub stars with active Discord community
+- **License**: Open source (license details in repository)
+- **Enterprise**: Commercial support and LTS versions available
+- **Deployment**: Supports Docker, Kubernetes (kubectl, helm), and cloud-native scaling

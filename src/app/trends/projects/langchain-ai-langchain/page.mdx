@@ -1,0 +1,49 @@
+<GuideHeader tool="langchain" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# LangChain
+
+LangChain is a Python framework for building agents and LLM-powered applications. It provides interoperable components and third-party integrations to simplify AI application development while maintaining flexibility as the technology evolves.
+
+## Key Features
+
+- **Model interoperability** — Swap between different LLM providers (OpenAI, Anthropic, etc.) through standardized interfaces
+- **Rich integrations** — Connect to vector stores, tools, retrievers, and external data sources
+- **Agent orchestration** — Build complex workflows with LangGraph for controllable agent behavior
+- **Real-time data augmentation** — Easily connect LLMs to diverse internal and external systems
+- **Modular architecture** — Component-based design for rapid prototyping and iteration
+
+## Installation
+
+```bash
+pip install langchain
+# or with uv
+uv add langchain
+```
+
+<Callout type="info">
+For JavaScript/TypeScript, use [LangChain.js](https://github.com/langchain-ai/langchainjs) instead.
+</Callout>
+
+## Basic Usage
+
+```python
+from langchain.chat_models import init_chat_model
+
+# Initialize a chat model
+model = init_chat_model("openai:gpt-4")
+
+# Send a message
+result = model.invoke("Hello, world!")
+print(result)
+```
+
+<Callout type="tip">
+For advanced agent workflows, explore [LangGraph](https://docs.langchain.com/oss/python/langgraph/overview) for low-level orchestration and [LangSmith](https://docs.langchain.com/langsmith/home) for debugging and deployment.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Python
+- **Community**: 130K+ GitHub stars with active open-source ecosystem
+- **Ecosystem**: Integrates with LangGraph (agent orchestration), LangSmith (observability), and Deep Agents (complex task handling)

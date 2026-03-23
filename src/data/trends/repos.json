@@ -2326,6 +2326,28 @@
         "skills",
         "swiftui"
       ]
+    },
+    "eze-is/web-access": {
+      "full_name": "eze-is/web-access",
+      "description": "给 Claude Code 装上完整联网能力的 skill：三层通道调度 + 浏览器 CDP + 并行分治",
+      "language": "JavaScript",
+      "url": "https://github.com/eze-is/web-access",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "deathlessburton88/tiktok-views-likes-followers-shares-bot-2026": {
+      "full_name": "deathlessburton88/tiktok-views-likes-followers-shares-bot-2026",
+      "description": "Boost your TikTok presence with this Windows-compatible GitHub bot! Automate views, likes, shares, and followers. The tool supports CAPTCHA solving and proxy rotation for undetectable operation . Ideal for content creators looking to enhance engagement. Use responsibly—educational purposes only . Download now to streamline your TikTok growth! ",
+      "language": "Unknown",
+      "url": "https://github.com/deathlessburton88/tiktok-views-likes-followers-shares-bot-2026",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "tiktok",
+        "tiktok-api",
+        "zefoy"
+      ]
     }
   }
 }

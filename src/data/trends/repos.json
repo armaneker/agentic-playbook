@@ -154,7 +154,7 @@
         "zsh",
         "zsh-configuration"
       ],
-      "category": "Web Framework"
+      "category": "DevTools"
     },
     "microsoft/vscode": {
       "full_name": "microsoft/vscode",
@@ -252,7 +252,7 @@
         "web-framework",
         "windows"
       ],
-      "category": "Web Framework",
+      "category": "Mobile",
       "version": "3.19.0-0.1.pre"
     },
     "twbs/bootstrap": {
@@ -271,7 +271,7 @@
         "sass",
         "scss"
       ],
-      "category": "Web Framework",
+      "category": "Other",
       "version": "v5.3.8"
     },
     "avelino/awesome-go": {
@@ -574,7 +574,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic",
+      "category": "Other",
       "version": "v1.3.0"
     },
     "Chalarangelo/30-seconds-of-code": {
@@ -619,7 +619,7 @@
         "react",
         "react-native"
       ],
-      "category": "Web Framework",
+      "category": "Mobile",
       "version": "v0.84.1"
     },
     "kubernetes/kubernetes": {
@@ -656,7 +656,7 @@
         "v8",
         "works-with-codespaces"
       ],
-      "category": "Web Framework",
+      "category": "Other",
       "version": "v41.0.3"
     },
     "NVIDIA/NemoClaw": {
@@ -715,7 +715,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic",
+      "category": "Other",
       "version": "v0.1.2"
     },
     "MoonshotAI/Attention-Residuals": {
@@ -772,7 +772,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "AI / ML"
+      "category": "Other"
     },
     "cnlimiter/codex-manager": {
       "full_name": "cnlimiter/codex-manager",
@@ -843,7 +843,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "AI / ML"
+      "category": "Other"
     },
     "dontbesilent2025/dbskill": {
       "full_name": "dontbesilent2025/dbskill",
@@ -875,7 +875,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Other"
     },
     "rzru/nightingale": {
       "full_name": "rzru/nightingale",
@@ -910,7 +910,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "AI / ML",
+      "category": "Other",
       "version": "v0.5.0"
     },
     "collaborator-ai/collab-public": {
@@ -921,7 +921,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic",
+      "category": "Other",
       "version": "v0.3.1"
     },
     "BryanLunduke/DoesItAgeVerify": {
@@ -974,7 +974,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "AI / ML"
+      "category": "Other"
     },
     "joeseesun/opencli-skill": {
       "full_name": "joeseesun/opencli-skill",
@@ -984,7 +984,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "DevTools"
+      "category": "Other"
     },
     "wangziqi06/724-office": {
       "full_name": "wangziqi06/724-office",
@@ -994,7 +994,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Other"
     },
     "leo-lilinxiao/codex-autoresearch": {
       "full_name": "leo-lilinxiao/codex-autoresearch",
@@ -1023,7 +1023,7 @@
         "open-source",
         "self-hosted"
       ],
-      "category": "AI / ML",
+      "category": "Other",
       "version": "v0.2.0"
     },
     "lidangzzz/goal-driven": {
@@ -1034,7 +1034,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Other"
     },
     "public-apis/public-apis": {
       "full_name": "public-apis/public-apis",
@@ -1128,7 +1128,7 @@
         "web-application",
         "webapp"
       ],
-      "category": "Web Framework"
+      "category": "Other"
     },
     "ossu/computer-science": {
       "full_name": "ossu/computer-science",
@@ -1239,7 +1239,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Other"
     },
     "garrytan/gstack": {
       "full_name": "garrytan/gstack",
@@ -1298,7 +1298,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "DevTools"
     },
     "RightNow-AI/openfang": {
       "full_name": "RightNow-AI/openfang",
@@ -1328,7 +1328,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Other"
     },
     "agentscope-ai/CoPaw": {
       "full_name": "agentscope-ai/CoPaw",
@@ -1373,7 +1373,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Other"
     },
     "Panniantong/Agent-Reach": {
       "full_name": "Panniantong/Agent-Reach",
@@ -1446,7 +1446,7 @@
         "claude-cowork-plugin",
         "product-management"
       ],
-      "category": "Agentic"
+      "category": "Other"
     },
     "cloudflare/vinext": {
       "full_name": "cloudflare/vinext",
@@ -1456,7 +1456,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Web Framework",
+      "category": "Other",
       "version": "v0.0.34"
     },
     "anthropics/financial-services-plugins": {
@@ -1477,7 +1477,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "AI / ML"
+      "category": "Other"
     },
     "calesthio/Crucix": {
       "full_name": "calesthio/Crucix",
@@ -1491,7 +1491,7 @@
         "intelligence",
         "osint"
       ],
-      "category": "Agentic"
+      "category": "AI / ML"
     },
     "smartcmd/MinecraftConsoles": {
       "full_name": "smartcmd/MinecraftConsoles",
@@ -1522,7 +1522,7 @@
         "pixel-art",
         "status-visiualzation"
       ],
-      "category": "Agentic",
+      "category": "Web Framework",
       "version": "v1.0.0"
     },
     "mksglu/context-mode": {
@@ -1644,7 +1644,7 @@
         "slime",
         "tinker"
       ],
-      "category": "Agentic"
+      "category": "Other"
     },
     "mukul975/Anthropic-Cybersecurity-Skills": {
       "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
@@ -1819,7 +1819,7 @@
         "swarm-intelligence",
         "vue"
       ],
-      "category": "Agentic"
+      "category": "AI / ML"
     },
     "chrisworsey55/atlas-gic": {
       "full_name": "chrisworsey55/atlas-gic",
@@ -1829,7 +1829,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Other"
     },
     "trevin-creator/autoresearch-mlx": {
       "full_name": "trevin-creator/autoresearch-mlx",
@@ -1921,7 +1921,7 @@
         "uncensored-llm",
         "wormgpt-alternative"
       ],
-      "category": "AI / ML",
+      "category": "Other",
       "version": "KawaiiGPT"
     },
     "tophant-ai/ClawVault": {
@@ -1997,7 +1997,7 @@
         "meta-prompting",
         "spec-driven-development"
       ],
-      "category": "Agentic",
+      "category": "Other",
       "version": "v2.42.0"
     },
     "TianyiDataScience/openclaw-control-center": {
@@ -2126,7 +2126,7 @@
       "first_seen": "2026-03-22",
       "has_summary": false,
       "topics": [],
-      "category": "AI / ML",
+      "category": "Other",
       "version": "v0.2.1"
     },
     "moltlaunch/cashclaw": {
@@ -2315,7 +2315,7 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Data"
+      "category": "Other"
     },
     "olelehmann100kMRR/autoresearch-skill": {
       "full_name": "olelehmann100kMRR/autoresearch-skill",

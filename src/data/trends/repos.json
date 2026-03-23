@@ -2003,6 +2003,294 @@
         "personal-knowledge-management",
         "supabase"
       ]
+    },
+    "excalidraw/excalidraw": {
+      "full_name": "excalidraw/excalidraw",
+      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "language": "TypeScript",
+      "url": "https://github.com/excalidraw/excalidraw",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "canvas",
+        "collaboration",
+        "diagrams",
+        "drawing",
+        "hacktoberfest",
+        "productivity",
+        "whiteboard"
+      ]
+    },
+    "nodejs/node": {
+      "full_name": "nodejs/node",
+      "description": "Node.js JavaScript runtime ✨🐢🚀✨",
+      "language": "JavaScript",
+      "url": "https://github.com/nodejs/node",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "javascript",
+        "js",
+        "linux",
+        "macos",
+        "mit",
+        "node",
+        "nodejs",
+        "runtime",
+        "windows"
+      ]
+    },
+    "iptv-org/iptv": {
+      "full_name": "iptv-org/iptv",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "language": "TypeScript",
+      "url": "https://github.com/iptv-org/iptv",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "iptv",
+        "m3u",
+        "playlist",
+        "streams",
+        "tv"
+      ]
+    },
+    "mrdoob/three.js": {
+      "full_name": "mrdoob/three.js",
+      "description": "JavaScript 3D Library.",
+      "language": "JavaScript",
+      "url": "https://github.com/mrdoob/three.js",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "augmented-reality",
+        "canvas",
+        "html5",
+        "javascript",
+        "svg",
+        "virtual-reality",
+        "webaudio",
+        "webgl",
+        "webgl2",
+        "webgpu",
+        "webxr"
+      ]
+    },
+    "rust-lang/rust": {
+      "full_name": "rust-lang/rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "language": "Rust",
+      "url": "https://github.com/rust-lang/rust",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "compiler",
+        "language",
+        "rust"
+      ]
+    },
+    "louislva/claude-peers-mcp": {
+      "full_name": "louislva/claude-peers-mcp",
+      "description": "Allow all your Claude Codes to message each other ad-hoc!",
+      "language": "TypeScript",
+      "url": "https://github.com/louislva/claude-peers-mcp",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "dou-jiang/codex-console": {
+      "full_name": "dou-jiang/codex-console",
+      "description": "codex-console 是一个集成化控制台项目，支持任务管理、批量处理、数据导出、自动上传、日志查看与打包支持。",
+      "language": "Python",
+      "url": "https://github.com/dou-jiang/codex-console",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "inspatio/inspatio-world": {
+      "full_name": "inspatio/inspatio-world",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/inspatio/inspatio-world",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "win4r/ClawTeam-OpenClaw": {
+      "full_name": "win4r/ClawTeam-OpenClaw",
+      "description": "ClawTeam fork fully adapted for OpenClaw — multi-agent swarm coordination with OpenClaw as the default agent",
+      "language": "Python",
+      "url": "https://github.com/win4r/ClawTeam-OpenClaw",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "clawdbot",
+        "openclaw",
+        "openclaw-extension",
+        "openclaw-plugin",
+        "openclaw-skills",
+        "swarm",
+        "swarm-intelligence",
+        "swarms"
+      ]
+    },
+    "sparkyniner/Netryx-OpenSource-Next-Gen-Street-Level-Geolocation": {
+      "full_name": "sparkyniner/Netryx-OpenSource-Next-Gen-Street-Level-Geolocation",
+      "description": "Netryx is a powerful, locally-hosted geolocation tool that uses state-of-the-art computer vision to identify the exact coordinates of a street-level image. It replicates the core pipeline of high-end geolocation SaaS platforms but runs entirely on your local hardware.",
+      "language": "Python",
+      "url": "https://github.com/sparkyniner/Netryx-OpenSource-Next-Gen-Street-Level-Geolocation",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "olelehmann100kMRR/autoresearch-skill": {
+      "full_name": "olelehmann100kMRR/autoresearch-skill",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/olelehmann100kMRR/autoresearch-skill",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "naver-ai/seoul-world-model": {
+      "full_name": "naver-ai/seoul-world-model",
+      "description": "Seoul World Model: Grounding World Simulation Models in a Real-World Metropolis",
+      "language": "Unknown",
+      "url": "https://github.com/naver-ai/seoul-world-model",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "wong2/weixin-agent-sdk": {
+      "full_name": "wong2/weixin-agent-sdk",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/wong2/weixin-agent-sdk",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "Krypto-Hashers-Community/polymarket-trading-bot": {
+      "full_name": "Krypto-Hashers-Community/polymarket-trading-bot",
+      "description": "polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot",
+      "language": "TypeScript",
+      "url": "https://github.com/Krypto-Hashers-Community/polymarket-trading-bot",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "arbitrage",
+        "bot",
+        "git",
+        "github",
+        "pol",
+        "poly-bot",
+        "polygon",
+        "polymarket",
+        "polymarket-trading-bot",
+        "trading",
+        "trading-bot",
+        "trading-bot-polymarket"
+      ]
+    },
+    "m1heng/claude-plugin-weixin": {
+      "full_name": "m1heng/claude-plugin-weixin",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/m1heng/claude-plugin-weixin",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "romhans59/bunkr-downloader-2026": {
+      "full_name": "romhans59/bunkr-downloader-2026",
+      "description": "Fast Bunkr downloader for Windows. Download albums, files, and media with one click. Portable EXE, batch mode and many more. Free and open source.",
+      "language": "Unknown",
+      "url": "https://github.com/romhans59/bunkr-downloader-2026",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "bunkr",
+        "bunkr-download",
+        "bunkr-downloader",
+        "download-bunkr",
+        "downloader-bunkr"
+      ]
+    },
+    "NawfalMotii79/PLFM_RADAR": {
+      "full_name": "NawfalMotii79/PLFM_RADAR",
+      "description": "Open-source, low-cost 10.5 GHz PLFM phased array RADAR system",
+      "language": "Verilog",
+      "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "Nunchi-trade/auto-researchtrading": {
+      "full_name": "Nunchi-trade/auto-researchtrading",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Nunchi-trade/auto-researchtrading",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
+    },
+    "Kaleighc793/freqtrade-bot": {
+      "full_name": "Kaleighc793/freqtrade-bot",
+      "description": "Freqtrade — Configuration and management tool for the Freqtrade open-source crypto trading bot with strategy backtesting, live/dry-run modes, 10+ exchange support (Binance, Kraken, OKX), hyperparameter optimization, FreqUI dashboard, and Rich terminal menu interface",
+      "language": "Python",
+      "url": "https://github.com/Kaleighc793/freqtrade-bot",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "algorithmic-trading",
+        "backtesting",
+        "botbinance",
+        "bybit-trading",
+        "ccxt",
+        "cryptoautomation",
+        "cryptobot",
+        "dry-run",
+        "freqai",
+        "freqtrade",
+        "futures-trading",
+        "machine-learning",
+        "okx-trading",
+        "open-source-trading",
+        "python-trading",
+        "spot-trading",
+        "telegrambot",
+        "trading-cryptobot",
+        "trading-strategy",
+        "webui"
+      ]
+    },
+    "HenryXiaoYang/wechat-openclaw-channel": {
+      "full_name": "HenryXiaoYang/wechat-openclaw-channel",
+      "description": "现已同时支持QClaw和WorkBuddy方式登录！微信包装了开源项目OpenClaw，所以我们把他的Channel抽出来给OpenClaw用了😄 ",
+      "language": "TypeScript",
+      "url": "https://github.com/HenryXiaoYang/wechat-openclaw-channel",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": [
+        "codebuddy",
+        "openclaw",
+        "openclaw-plugin",
+        "qclaw",
+        "wechat",
+        "wechat-bot",
+        "workbuddy"
+      ]
+    },
+    "ethanjyx/OpenBrand": {
+      "full_name": "ethanjyx/OpenBrand",
+      "description": "Extract brand assets (logos, colors, backdrops) from any website; open source alternative to Brand.dev",
+      "language": "TypeScript",
+      "url": "https://github.com/ethanjyx/OpenBrand",
+      "first_seen": "2026-03-23",
+      "has_summary": false,
+      "topics": []
     }
   }
 }

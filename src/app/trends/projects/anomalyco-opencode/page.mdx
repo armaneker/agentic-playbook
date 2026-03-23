@@ -1,0 +1,65 @@
+<GuideHeader tool="opencode" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# OpenCode
+
+OpenCode is an open source AI coding agent built in TypeScript. It provides a terminal-based interface for AI-assisted software development with support for multiple LLM providers.
+
+## Key Features
+
+- **Multi-agent system** - Switch between `build` (full-access) and `plan` (read-only) agents
+- **Provider agnostic** - Works with Claude, OpenAI, Google, or local models
+- **LSP integration** - Built-in Language Server Protocol support
+- **Terminal-first UI** - Rich TUI experience designed by neovim users
+- **Client/server architecture** - Run locally or drive remotely
+- **Desktop app** - Cross-platform GUI application (Beta)
+
+## Installation
+
+<Callout type="tip">
+Remove versions older than 0.1.x before installing.
+</Callout>
+
+```bash
+# Quick install
+curl -fsSL https://opencode.ai/install | bash
+
+# Package managers
+npm i -g opencode-ai@latest
+brew install anomalyco/tap/opencode
+scoop install opencode  # Windows
+```
+
+For desktop app:
+```bash
+# Download from releases or use package managers
+brew install --cask opencode-desktop  # macOS
+scoop install extras/opencode-desktop  # Windows
+```
+
+## Basic Usage
+
+```bash
+# Start OpenCode in current directory
+opencode
+
+# Use Tab to switch between agents:
+# - build: full development access
+# - plan: read-only analysis
+
+# Invoke general agent for complex tasks
+@general analyze this codebase structure
+```
+
+The `build` agent handles file editing and execution, while `plan` agent provides read-only analysis and asks permission for bash commands.
+
+<Callout type="info">
+OpenCode supports custom installation paths via `$OPENCODE_INSTALL_DIR` or `$XDG_BIN_DIR` environment variables.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript  
+- **Community**: 128k+ GitHub stars, active Discord
+- **Architecture**: Client/server with TUI frontend
+- **Models**: Provider-agnostic (Claude, OpenAI, Google, local)

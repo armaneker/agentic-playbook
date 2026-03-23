@@ -95,7 +95,7 @@
       "delta_week": 1178,
       "delta_month": 4627,
       "delta_year": 27082,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v1.3.0"
     },
@@ -1593,7 +1593,7 @@
       "delta_week": 29,
       "delta_month": 117,
       "delta_year": 413,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Web Framework",
       "version": "v14.0.0"
     },
@@ -1621,7 +1621,7 @@
       "delta_week": 26,
       "delta_month": 107,
       "delta_year": 420,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v41.0.3"
     },
@@ -1649,7 +1649,7 @@
       "delta_week": 23,
       "delta_month": 93,
       "delta_year": 355,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Mobile",
       "version": "v0.84.1"
     },
@@ -1705,7 +1705,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "DevTools",
       "version": "v1.35.3"
     },

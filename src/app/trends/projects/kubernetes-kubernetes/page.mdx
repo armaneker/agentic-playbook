@@ -1,0 +1,58 @@
+<GuideHeader tool="kubernetes" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Kubernetes
+
+Kubernetes is an open source container orchestration system that manages containerized applications across multiple hosts. It provides mechanisms for deployment, maintenance, and scaling of applications based on Google's internal Borg system.
+
+## Key Features
+
+- **Container orchestration** - Schedules and manages containers across clusters
+- **Service discovery and load balancing** - Exposes containers and distributes network traffic
+- **Storage orchestration** - Automatically mounts storage systems
+- **Automated rollouts and rollbacks** - Manages application deployments
+- **Self-healing** - Restarts failed containers and replaces nodes
+- **Secret and configuration management** - Manages sensitive data without rebuilding images
+- **Horizontal scaling** - Scales applications up/down based on demand
+
+## Installation
+
+Kubernetes deployment varies by environment. For local development:
+
+```bash
+# Using minikube
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+
+# Start cluster
+minikube start
+```
+
+For cloud deployments, use managed services like GKE, EKS, or AKS.
+
+## Basic Usage
+
+```bash
+# Deploy an application
+kubectl create deployment nginx --image=nginx
+
+# Expose the deployment
+kubectl expose deployment nginx --port=80 --type=LoadBalancer
+
+# View running pods
+kubectl get pods
+
+# Scale the deployment
+kubectl scale deployment nginx --replicas=3
+```
+
+<Callout type="info">
+Kubernetes uses declarative YAML manifests for complex deployments. The kubectl CLI manages cluster resources and workloads.
+</Callout>
+
+## Project Details
+
+- **License**: Apache-2.0
+- **Language**: Go
+- **Community**: 121K+ GitHub stars, CNCF hosted
+- **Governance**: Steering committee with formal enhancement process
+- **Documentation**: [kubernetes.io](https://kubernetes.io)

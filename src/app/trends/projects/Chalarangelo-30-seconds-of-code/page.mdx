@@ -1,0 +1,54 @@
+<GuideHeader tool="30-seconds-of-code" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# 30 Seconds of Code
+
+30 Seconds of Code is a curated collection of JavaScript, CSS, HTML, Git, and Node.js code snippets designed to improve your development skills. It provides short, practical coding articles with explanations and examples that you can read and understand in about 30 seconds.
+
+## Key Features
+
+- **Multi-language snippets**: JavaScript, CSS, HTML, Git, and Node.js code examples
+- **Search functionality**: Find snippets by name, tags, language, or description
+- **Organized collections**: Browse articles grouped by topic and difficulty
+- **Detailed explanations**: Each snippet includes code, explanation, and usage examples
+- **Web-based interface**: Access all content through the website at 30secondsofcode.org
+
+## Installation
+
+No installation required. Access the snippets through the web interface:
+
+```bash
+# Visit the website
+open https://30secondsofcode.org
+
+# Or clone the repository for offline access
+git clone https://github.com/Chalarangelo/30-seconds-of-code.git
+```
+
+## Basic Usage
+
+Browse snippets directly on the website or search for specific topics:
+
+```javascript
+// Example snippet: Check if array is sorted
+const isSorted = arr => {
+  const direction = arr[0] > arr[1] ? -1 : 1;
+  return arr.every((val, i) => !i || direction * val >= direction * arr[i - 1]);
+};
+
+// Usage
+isSorted([1, 2, 3, 4, 5]); // true
+isSorted([3, 2, 1]); // true
+isSorted([1, 3, 2]); // false
+```
+
+<Callout type="info">
+The repository has over 127k stars and serves as a learning resource rather than an installable package. New content contributions are currently not accepted.
+</Callout>
+
+## Notable Details
+
+- **License**: CC-BY-4.0 (Creative Commons)
+- **Language**: JavaScript (with multi-language content)
+- **Community**: 127k+ GitHub stars, maintained by Angelos Chalaris
+- **Platform**: Built with Astro and hosted on Netlify
+- **Purpose**: Educational resource for developers of all skill levels

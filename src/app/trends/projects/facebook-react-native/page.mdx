@@ -1,0 +1,84 @@
+<GuideHeader tool="react-native" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# React Native
+
+React Native is a framework that lets you build mobile apps for iOS and Android using React. It compiles to native platform code while maintaining React's component-based development model.
+
+## Key Features
+
+- **Native UI rendering** - Uses platform-specific UI components instead of web views
+- **Hot reload** - See code changes instantly without rebuilding the entire app
+- **Cross-platform** - Share code between iOS, Android, and other platforms
+- **Native module access** - Direct integration with platform APIs and third-party libraries
+- **Declarative components** - Build UIs using React's familiar component architecture
+
+## Installation
+
+Create a new React Native project using the recommended CLI:
+
+```bash
+npx @react-native-community/cli@latest init MyApp
+cd MyApp
+```
+
+For development setup, follow platform-specific requirements:
+
+```bash
+# iOS (macOS only)
+cd ios && pod install && cd ..
+npx react-native run-ios
+
+# Android
+npx react-native run-android
+```
+
+<Callout type="info">
+React Native requires iOS 15.1+ and Android 7.0 (API 24)+. You can develop on Windows, macOS, or Linux, but iOS builds require macOS.
+</Callout>
+
+## Basic Usage
+
+```jsx
+import React from 'react';
+import {View, Text, StyleSheet, TouchableOpacity} from 'react-native';
+
+export default function App() {
+  const [count, setCount] = React.useState(0);
+
+  return (
+    <View style={styles.container}>
+      <Text style={styles.title}>Count: {count}</Text>
+      <TouchableOpacity 
+        style={styles.button}
+        onPress={() => setCount(count + 1)}
+      >
+        <Text>Increment</Text>
+      </TouchableOpacity>
+    </View>
+  );
+}
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  title: {
+    fontSize: 24,
+    marginBottom: 20,
+  },
+  button: {
+    backgroundColor: '#007AFF',
+    padding: 12,
+    borderRadius: 8,
+  },
+});
+```
+
+## Notable Details
+
+- **Language**: C++ core with JavaScript/TypeScript app layer
+- **License**: MIT
+- **Community**: 125k+ GitHub stars, backed by Meta
+- **Ecosystem**: Large plugin ecosystem and active community support

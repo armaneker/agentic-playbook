@@ -1,0 +1,91 @@
+<GuideHeader tool="electron" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Electron
+
+Electron is a framework that lets you build cross-platform desktop applications using JavaScript, HTML, and CSS. It combines Node.js with Chromium to enable web technologies for native desktop development.
+
+## Key Features
+
+- Cross-platform desktop apps (macOS, Windows, Linux)
+- Built on Node.js and Chromium engine
+- Full access to operating system APIs
+- Hot reload and debugging tools
+- Native menu bars, notifications, and system integrations
+- Automatic updater support
+- Code signing and distribution tools
+
+## Installation
+
+Install Electron as a development dependency in your project:
+
+```bash
+npm install electron --save-dev
+```
+
+<Callout type="info">
+Electron provides prebuilt binaries for all major platforms including Apple Silicon, x64, and ARM architectures.
+</Callout>
+
+## Basic Usage
+
+Create a simple desktop app with these files:
+
+**package.json:**
+```json
+{
+  "name": "my-electron-app",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^latest"
+  }
+}
+```
+
+**main.js:**
+```javascript
+const { app, BrowserWindow } = require('electron')
+
+function createWindow() {
+  const win = new BrowserWindow({
+    width: 800,
+    height: 600,
+    webPreferences: {
+      nodeIntegration: true
+    }
+  })
+  
+  win.loadFile('index.html')
+}
+
+app.whenReady().then(createWindow)
+```
+
+**index.html:**
+```html
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Electron App</title>
+  </head>
+  <body>
+    <h1>Hello from Electron!</h1>
+  </body>
+</html>
+```
+
+Run with `npm start`.
+
+## Notable Details
+
+**License:** MIT  
+**Primary Language:** C++ (with JavaScript APIs)  
+**Community:** 120k+ GitHub stars, active Discord community  
+**Notable Users:** Visual Studio Code, Discord, Slack, WhatsApp Desktop
+
+<Callout type="tip">
+Use Electron Fiddle to experiment with APIs and test different Electron versions before building your app.
+</Callout>

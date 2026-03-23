@@ -572,7 +572,7 @@
       "language": "TypeScript",
       "url": "https://github.com/anomalyco/opencode",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": "v1.3.0"
@@ -583,7 +583,7 @@
       "language": "JavaScript",
       "url": "https://github.com/Chalarangelo/30-seconds-of-code",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "astro",
         "awesome-list",
@@ -608,7 +608,7 @@
       "language": "C++",
       "url": "https://github.com/facebook/react-native",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "android",
         "app-framework",
@@ -628,7 +628,7 @@
       "language": "Go",
       "url": "https://github.com/kubernetes/kubernetes",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "cncf",
         "containers",
@@ -644,7 +644,7 @@
       "language": "C++",
       "url": "https://github.com/electron/electron",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "c-plus-plus",
         "chrome",

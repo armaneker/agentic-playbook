@@ -10,8 +10,9 @@
  * 5. Updates repos.json master index (marks new repos for analysis)
  */
 
-import { searchRepos, getRateLimit } from './lib/github-api.mjs';
+import { searchRepos, getRateLimit, getLatestRelease } from './lib/github-api.mjs';
 import { computeDeltas } from './lib/trend-calculator.mjs';
+import { categorize } from './lib/categorize.mjs';
 import { readFileSync, writeFileSync, mkdirSync, existsSync, readdirSync, unlinkSync } from 'fs';
 import { join } from 'path';
 
@@ -145,12 +146,20 @@ async function main() {
         first_seen: today(),
         has_summary: false,
         topics: repo.topics || [],
+        category: categorize(repo),
+        version: null,
       };
-      console.log(`New repo discovered: ${name}`);
+      console.log(`New repo discovered: ${name} [${reposIndex.repos[name].category}]`);
     } else {
-      // Update description/language in case they changed
+      // Update description/language/topics in case they changed
       reposIndex.repos[name].description = repo.description || reposIndex.repos[name].description;
       reposIndex.repos[name].language = repo.language || reposIndex.repos[name].language;
+      reposIndex.repos[name].topics = repo.topics || reposIndex.repos[name].topics || [];
+      // Re-categorize with updated topics
+      reposIndex.repos[name].category = categorize({
+        ...reposIndex.repos[name],
+        topics: repo.topics || reposIndex.repos[name].topics || [],
+      });
     }
   }
 
@@ -161,6 +170,35 @@ async function main() {
 
   // Compute deltas
   const deltas = computeDeltas(snapshotData);
+
+  // Fetch latest release versions for repos that don't have one yet
+  // (batch in groups to stay within rate limits)
+  const needVersion = Object.entries(reposIndex.repos)
+    .filter(([name, r]) => !r.version && snapshotData[name])
+    .map(([name]) => name);
+
+  if (needVersion.length > 0) {
+    console.log(`Fetching versions for ${needVersion.length} repos...`);
+    const BATCH = 20; // fetch 20 at a time to be safe on rate limits
+    for (let i = 0; i < needVersion.length; i += BATCH) {
+      const batch = needVersion.slice(i, i + BATCH);
+      const results = await Promise.all(
+        batch.map(async (name) => {
+          const tag = await getLatestRelease(name);
+          return [name, tag];
+        })
+      );
+      for (const [name, tag] of results) {
+        if (tag) {
+          reposIndex.repos[name].version = tag;
+          console.log(`  ${name}: ${tag}`);
+        }
+      }
+      if (i + BATCH < needVersion.length) {
+        await new Promise(r => setTimeout(r, 500));
+      }
+    }
+  }
 
   // Build trends.json for the frontend
   const trendRepos = Object.entries(snapshotData)
@@ -178,6 +216,8 @@ async function main() {
         delta_month: d.delta_month || 0,
         delta_year: d.delta_year || 0,
         has_summary: idx.has_summary || false,
+        category: idx.category || 'Other',
+        version: idx.version || null,
       };
     })
     .sort((a, b) => b.delta_week - a.delta_week)

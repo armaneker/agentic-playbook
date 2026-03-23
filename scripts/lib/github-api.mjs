@@ -57,6 +57,18 @@ export async function getReadme(fullName) {
 }
 
 /**
+ * Get the latest release tag for a repo. Returns null if no releases.
+ */
+export async function getLatestRelease(fullName) {
+  try {
+    const data = await fetchJSON(`${BASE}/repos/${fullName}/releases/latest`);
+    return data.tag_name || null;
+  } catch {
+    return null;
+  }
+}
+
+/**
  * Check remaining rate limit.
  */
 export async function getRateLimit() {

@@ -1,0 +1,68 @@
+<GuideHeader tool="NemoClaw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# NVIDIA NemoClaw
+
+NVIDIA NemoClaw is a reference stack that runs OpenClaw agents securely inside NVIDIA OpenShell containers. It provides managed inference and sandboxed execution for autonomous AI assistants.
+
+## Key Features
+
+- **Sandboxed OpenClaw execution** with Landlock, seccomp, and network namespaces
+- **Policy-enforced security** for network requests, file access, and inference calls
+- **NVIDIA Nemotron model integration** through the OpenShell gateway
+- **Declarative blueprints** for versioned sandbox configuration
+- **CLI orchestration** for lifecycle management and monitoring
+
+## Installation
+
+<Callout type="warning">
+This is alpha software. Interfaces and behavior may change without notice.
+</Callout>
+
+Run the installer script which sets up Node.js, OpenShell runtime, and the onboarding wizard:
+
+```bash
+curl -fsSL https://www.nvidia.com/nemoclaw.sh | bash
+```
+
+### Prerequisites
+
+- **Hardware**: 4+ vCPU, 8GB RAM (16GB recommended), 20GB free disk
+- **Software**: Ubuntu 22.04+, Node.js 20+, Docker or compatible container runtime
+- **Dependencies**: NVIDIA OpenShell installed and running
+
+<Callout type="tip">
+If using nvm/fnm, run `source ~/.bashrc` after installation if `nemoclaw` command isn't found.
+</Callout>
+
+## Basic Usage
+
+Connect to your sandbox and start chatting with the agent:
+
+```bash
+# Connect to the sandbox environment
+nemoclaw my-assistant connect
+
+# Inside the sandbox, start interactive chat
+openclaw tui
+
+# Or send a single message via CLI
+openclaw agent --agent main --local -m "hello" --session-id test
+```
+
+Monitor your agent outside the sandbox:
+
+```bash
+# Check sandbox status
+nemoclaw my-assistant status
+
+# View logs
+nemoclaw my-assistant logs --follow
+```
+
+## Notable Details
+
+- **License**: Apache-2.0
+- **Language**: JavaScript (TypeScript CLI)
+- **Community**: 15.5k+ GitHub stars
+- **Architecture**: Blueprint-driven with OpenShell gateway, sandbox isolation, and inference routing
+- **Security**: Multi-layer isolation with policy enforcement at network, filesystem, and inference levels

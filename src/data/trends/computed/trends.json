@@ -13,7 +13,8 @@
       "delta_year": 8709,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "openclaw/openclaw",
@@ -27,7 +28,8 @@
       "delta_year": 65496,
       "has_summary": true,
       "category": "AI / ML",
-      "version": "v2026.3.13-1"
+      "version": "v2026.3.13-1",
+      "blurb": "OpenClaw is a self-hosted personal AI assistant built in TypeScript that runs on your own devices. It integrates with existing communication channels like WhatsApp, Slack, Discord, and others while supporting voice interaction and a controllable canvas interface. The project emphasizes local deployment and data ownership, positioning itself as an alternative to cloud-based AI assistants."
     },
     {
       "full_name": "karpathy/autoresearch",
@@ -41,7 +43,8 @@
       "delta_year": 11130,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "NVIDIA/NemoClaw",
@@ -53,9 +56,10 @@
       "delta_week": 2367,
       "delta_month": 2454,
       "delta_year": 2454,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "NVIDIA NemoClaw is a reference stack that provides a sandboxed runtime environment for running OpenClaw autonomous agents with enhanced security controls. It integrates NVIDIA OpenShell's security framework with open source models like Nemotron to enable safer deployment of always-on AI assistants. The project is currently in alpha status and includes automated installation with guided onboarding for containerized agent deployment."
     },
     {
       "full_name": "THU-MAIC/OpenMAIC",
@@ -69,7 +73,8 @@
       "delta_year": 2064,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "Lum1104/Understand-Anything",
@@ -81,9 +86,10 @@
       "delta_week": 1488,
       "delta_month": 1567,
       "delta_year": 1567,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Understand Anything is a Claude Code plugin that analyzes codebases and generates interactive knowledge graphs with AI-powered explanations of functions, classes, and dependencies. It helps developers onboard to unfamiliar projects by providing visual exploration, natural language search, and plain-English explanations of code architecture instead of manual code reading. The tool uses a multi-agent pipeline that combines LLM intelligence with static analysis to create a living map of the entire project structure."
     },
     {
       "full_name": "anomalyco/opencode",
@@ -97,7 +103,8 @@
       "delta_year": 27082,
       "has_summary": true,
       "category": "Other",
-      "version": "v1.3.0"
+      "version": "v1.3.0",
+      "blurb": null
     },
     {
       "full_name": "HKUDS/CLI-Anything",
@@ -111,7 +118,8 @@
       "delta_year": 4438,
       "has_summary": false,
       "category": "DevTools",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "aiming-lab/AutoResearchClaw",
@@ -123,9 +131,10 @@
       "delta_week": 1095,
       "delta_month": 1286,
       "delta_year": 1286,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
-      "version": "v0.3.2"
+      "version": "v0.3.2",
+      "blurb": "AutoResearchClaw is an autonomous research pipeline that generates complete academic papers from conversational input using multi-agent LLM systems. It handles the entire research workflow from idea formulation through literature review, experimentation, and paper writing without human intervention. The system includes citation verification, experiment diagnosis and repair loops, and can integrate with various LLM backends and messaging platforms."
     },
     {
       "full_name": "paperclipai/paperclip",
@@ -139,7 +148,8 @@
       "delta_year": 6965,
       "has_summary": false,
       "category": "Other",
-      "version": "v2026.318.0"
+      "version": "v2026.318.0",
+      "blurb": null
     },
     {
       "full_name": "jackwener/opencli",
@@ -153,7 +163,8 @@
       "delta_year": 1136,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v1.3.1"
+      "version": "v1.3.1",
+      "blurb": null
     },
     {
       "full_name": "MiniMax-AI/skills",
@@ -167,7 +178,8 @@
       "delta_year": 934,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "public-apis/public-apis",
@@ -181,7 +193,8 @@
       "delta_year": 7682,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "calesthio/Crucix",
@@ -195,7 +208,8 @@
       "delta_year": 1068,
       "has_summary": false,
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "tanweai/pua",
@@ -209,7 +223,8 @@
       "delta_year": 2234,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v1.2.0"
+      "version": "v1.2.0",
+      "blurb": null
     },
     {
       "full_name": "HKUDS/ClawTeam",
@@ -221,9 +236,10 @@
       "delta_week": 614,
       "delta_month": 614,
       "delta_year": 614,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
-      "version": "v0.1.2"
+      "version": "v0.1.2",
+      "blurb": "ClawTeam is a Python framework that enables AI agents to form collaborative swarms that can autonomously execute complex tasks from a single command. It allows teams of AI agents to coordinate together on multi-step workflows like research automation, full-stack development, and financial analysis, supporting integration with popular AI coding tools like Claude Code, Cursor, and OpenAI Codex. The system uses file-based or ZeroMQ peer-to-peer communication for agent coordination and requires Python 3.10+."
     },
     {
       "full_name": "cft0808/edict",
@@ -237,7 +253,8 @@
       "delta_year": 2705,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "wanshuiyin/Auto-claude-code-research-in-sleep",
@@ -251,7 +268,8 @@
       "delta_year": 725,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "danveloper/flash-moe",
@@ -265,7 +283,8 @@
       "delta_year": 378,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "dontbesilent2025/dbskill",
@@ -279,7 +298,8 @@
       "delta_year": 374,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "VoltAgent/awesome-codex-subagents",
@@ -293,7 +313,8 @@
       "delta_year": 354,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "mukul975/Anthropic-Cybersecurity-Skills",
@@ -307,7 +328,8 @@
       "delta_year": 643,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v1.1.0"
+      "version": "v1.1.0",
+      "blurb": null
     },
     {
       "full_name": "torvalds/linux",
@@ -321,7 +343,8 @@
       "delta_year": 3698,
       "has_summary": true,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "The Linux kernel is the core operating system component that manages hardware resources and provides fundamental services for all other software in Linux distributions. It serves as the interface between applications and hardware, handling memory management, process scheduling, device drivers, and system calls. This is Linus Torvalds' original repository containing the complete kernel source tree used across countless systems from embedded devices to supercomputers."
     },
     {
       "full_name": "BigBodyCobain/Shadowbroker",
@@ -335,7 +358,8 @@
       "delta_year": 958,
       "has_summary": false,
       "category": "Other",
-      "version": "v0.9.5"
+      "version": "v0.9.5",
+      "blurb": null
     },
     {
       "full_name": "DigitalPlatDev/FreeDomain",
@@ -349,7 +373,8 @@
       "delta_year": 6324,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "math-inc/OpenGauss",
@@ -363,7 +388,8 @@
       "delta_year": 285,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "vinta/awesome-python",
@@ -377,7 +403,8 @@
       "delta_year": 4275,
       "has_summary": true,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Awesome Python is a curated collection of Python frameworks, libraries, tools, and resources organized by category. It serves as a comprehensive reference for Python developers to discover quality packages across domains like web development, machine learning, data science, and DevOps tooling. With 288k+ stars, it's the 10th most-starred repository on GitHub."
     },
     {
       "full_name": "yt-dlp/yt-dlp",
@@ -391,7 +418,8 @@
       "delta_year": 3993,
       "has_summary": true,
       "category": "DevTools",
-      "version": "2026.03.17"
+      "version": "2026.03.17",
+      "blurb": "yt-dlp is a command-line tool for downloading audio and video content from online platforms, forked from the now-inactive youtube-dl project. It supports thousands of websites and provides extensive format selection, metadata handling, and post-processing capabilities for automated media archival workflows. The project includes SponsorBlock integration for automatically skipping sponsored segments in downloaded videos."
     },
     {
       "full_name": "awesome-selfhosted/awesome-selfhosted",
@@ -405,7 +433,8 @@
       "delta_year": 5022,
       "has_summary": true,
       "category": "Infra",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "blurb": "A curated list of free software network services and web applications that can be self-hosted on your own servers. It provides a comprehensive catalog of alternatives to SaaS providers across categories like communication, content management, file storage, and analytics for users who want to maintain control over their data and infrastructure. The repository has become the de facto standard reference with over 280k stars and maintains quality through automated link checking and project maintenance validation."
     },
     {
       "full_name": "n8n-io/n8n",
@@ -419,7 +448,8 @@
       "delta_year": 4952,
       "has_summary": true,
       "category": "Agentic",
-      "version": "stable"
+      "version": "stable",
+      "blurb": "n8n is a workflow automation platform that combines visual no-code building with custom JavaScript/Python capabilities and includes 400+ integrations plus native AI features. Technical teams use it to build complex automations while maintaining full control over their data through self-hosting or cloud deployment options. It operates under a fair-code license, making the source always visible while requiring enterprise licenses for commercial use at scale."
     },
     {
       "full_name": "langgenius/dify",
@@ -433,7 +463,8 @@
       "delta_year": 3171,
       "has_summary": true,
       "category": "Agentic",
-      "version": "1.13.2"
+      "version": "1.13.2",
+      "blurb": null
     },
     {
       "full_name": "f/prompts.chat",
@@ -447,7 +478,8 @@
       "delta_year": 2806,
       "has_summary": true,
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "prompts.chat is a curated collection of prompt examples designed for AI chat models like ChatGPT, Claude, and Gemini. It serves as a community-driven library where users can discover, share, and collect effective prompts for various AI interactions, with self-hosting options for organizational privacy. The project has gained significant recognition with 143k+ GitHub stars and endorsements from AI industry leaders including OpenAI co-founders."
     },
     {
       "full_name": "collaborator-ai/collab-public",
@@ -461,7 +493,8 @@
       "delta_year": 307,
       "has_summary": false,
       "category": "Other",
-      "version": "v0.3.1"
+      "version": "v0.3.1",
+      "blurb": null
     },
     {
       "full_name": "wong2/weixin-agent-sdk",
@@ -475,7 +508,8 @@
       "delta_year": 254,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "googleworkspace/cli",
@@ -489,7 +523,8 @@
       "delta_year": 4832,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v0.18.1"
+      "version": "v0.18.1",
+      "blurb": null
     },
     {
       "full_name": "Panniantong/Agent-Reach",
@@ -503,7 +538,8 @@
       "delta_year": 2547,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v1.3.0"
+      "version": "v1.3.0",
+      "blurb": null
     },
     {
       "full_name": "langchain-ai/langchain",
@@ -517,7 +553,8 @@
       "delta_year": 2389,
       "has_summary": true,
       "category": "Agentic",
-      "version": "langchain-core==1.2.20"
+      "version": "langchain-core==1.2.20",
+      "blurb": null
     },
     {
       "full_name": "Narcooo/inkos",
@@ -531,7 +568,8 @@
       "delta_year": 487,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v0.5.1"
+      "version": "v0.5.1",
+      "blurb": null
     },
     {
       "full_name": "gsd-build/gsd-2",
@@ -545,7 +583,8 @@
       "delta_year": 454,
       "has_summary": false,
       "category": "Other",
-      "version": "v2.42.0"
+      "version": "v2.42.0",
+      "blurb": null
     },
     {
       "full_name": "lxf746/any-auto-register",
@@ -559,7 +598,8 @@
       "delta_year": 214,
       "has_summary": false,
       "category": "Other",
-      "version": "v1.0.3"
+      "version": "v1.0.3",
+      "blurb": null
     },
     {
       "full_name": "louislva/claude-peers-mcp",
@@ -573,7 +613,8 @@
       "delta_year": 212,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "ghostty-org/ghostling",
@@ -587,7 +628,8 @@
       "delta_year": 207,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "lucija8320nhung4/HacxGPT",
@@ -601,7 +643,8 @@
       "delta_year": 198,
       "has_summary": false,
       "category": "AI / ML",
-      "version": "HacxGPT"
+      "version": "HacxGPT",
+      "blurb": null
     },
     {
       "full_name": "donnemartin/system-design-primer",
@@ -615,7 +658,8 @@
       "delta_year": 2917,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "aiming-lab/MetaClaw",
@@ -629,7 +673,8 @@
       "delta_year": 485,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v0.3.2"
+      "version": "v0.3.2",
+      "blurb": null
     },
     {
       "full_name": "agentscope-ai/CoPaw",
@@ -643,7 +688,8 @@
       "delta_year": 3464,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v0.1.0.post1"
+      "version": "v0.1.0.post1",
+      "blurb": null
     },
     {
       "full_name": "open-webui/open-webui",
@@ -657,7 +703,8 @@
       "delta_year": 2811,
       "has_summary": true,
       "category": "Agentic",
-      "version": "v0.8.10"
+      "version": "v0.8.10",
+      "blurb": null
     },
     {
       "full_name": "ringhyacinth/Star-Office-UI",
@@ -671,7 +718,8 @@
       "delta_year": 1302,
       "has_summary": false,
       "category": "Web Framework",
-      "version": "v1.0.0"
+      "version": "v1.0.0",
+      "blurb": null
     },
     {
       "full_name": "truongduy2611/app-store-preflight-skills",
@@ -685,7 +733,8 @@
       "delta_year": 172,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "davebcn87/pi-autoresearch",
@@ -699,7 +748,8 @@
       "delta_year": 570,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "nikopueringer/CorridorKey",
@@ -713,7 +763,8 @@
       "delta_year": 1732,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "Gen-Verse/OpenClaw-RL",
@@ -727,7 +778,8 @@
       "delta_year": 908,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "dou-jiang/codex-console",
@@ -741,7 +793,8 @@
       "delta_year": 163,
       "has_summary": false,
       "category": "Other",
-      "version": "v1.0.0"
+      "version": "v1.0.0",
+      "blurb": null
     },
     {
       "full_name": "mksglu/context-mode",
@@ -755,7 +808,8 @@
       "delta_year": 659,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v1.0.49"
+      "version": "v1.0.49",
+      "blurb": null
     },
     {
       "full_name": "openai/symphony",
@@ -769,7 +823,8 @@
       "delta_year": 3041,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "BryanLunduke/DoesItAgeVerify",
@@ -783,7 +838,8 @@
       "delta_year": 161,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "nikmcfly/MiroFish-Offline",
@@ -797,7 +853,8 @@
       "delta_year": 210,
       "has_summary": false,
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "webadderall/Recordly",
@@ -811,7 +868,8 @@
       "delta_year": 598,
       "has_summary": false,
       "category": "Other",
-      "version": "v1.1.4"
+      "version": "v1.1.4",
+      "blurb": null
     },
     {
       "full_name": "RightNow-AI/openfang",
@@ -825,7 +883,8 @@
       "delta_year": 4125,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v0.5.1"
+      "version": "v0.5.1",
+      "blurb": null
     },
     {
       "full_name": "wangziqi06/724-office",
@@ -839,7 +898,8 @@
       "delta_year": 157,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "lcoutodemos/clui-cc",
@@ -853,7 +913,8 @@
       "delta_year": 152,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "mattprusak/autoresearch-genealogy",
@@ -867,7 +928,8 @@
       "delta_year": 148,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "ollama/ollama",
@@ -881,7 +943,8 @@
       "delta_year": 2456,
       "has_summary": false,
       "category": "AI / ML",
-      "version": "v0.18.2"
+      "version": "v0.18.2",
+      "blurb": null
     },
     {
       "full_name": "avelino/awesome-go",
@@ -895,7 +958,8 @@
       "delta_year": 2383,
       "has_summary": true,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a curated list of Go frameworks, libraries, and software packages organized by category. It serves as a comprehensive reference for Go developers to discover quality tools and libraries for their projects, similar to other \"awesome\" lists in the open source community. With 168,035 stars, it's one of the most popular resources in the Go ecosystem."
     },
     {
       "full_name": "ccbkkb/MicroWARP",
@@ -909,7 +973,8 @@
       "delta_year": 145,
       "has_summary": false,
       "category": "DevTools",
-      "version": "v0.1.0"
+      "version": "v0.1.0",
+      "blurb": null
     },
     {
       "full_name": "m1heng/claude-plugin-weixin",
@@ -923,7 +988,8 @@
       "delta_year": 145,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "kamranahmedse/developer-roadmap",
@@ -937,7 +1003,8 @@
       "delta_year": 1875,
       "has_summary": false,
       "category": "Other",
-      "version": "4.0"
+      "version": "4.0",
+      "blurb": null
     },
     {
       "full_name": "Nunchi-trade/auto-researchtrading",
@@ -951,7 +1018,8 @@
       "delta_year": 143,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "win4r/ClawTeam-OpenClaw",
@@ -965,7 +1033,8 @@
       "delta_year": 128,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "lightningpixel/modly",
@@ -979,7 +1048,8 @@
       "delta_year": 122,
       "has_summary": false,
       "category": "Other",
-      "version": "v0.2.0"
+      "version": "v0.2.0",
+      "blurb": null
     },
     {
       "full_name": "TianyiDataScience/openclaw-control-center",
@@ -993,7 +1063,8 @@
       "delta_year": 489,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "anthropics/financial-services-plugins",
@@ -1007,7 +1078,8 @@
       "delta_year": 1688,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "MarCmcbri1982/KawaiiGPT",
@@ -1021,7 +1093,8 @@
       "delta_year": 120,
       "has_summary": false,
       "category": "Other",
-      "version": "KawaiiGPT"
+      "version": "KawaiiGPT",
+      "blurb": null
     },
     {
       "full_name": "freeCodeCamp/freeCodeCamp",
@@ -1035,7 +1108,8 @@
       "delta_year": 1368,
       "has_summary": true,
       "category": "Web Framework",
-      "version": null
+      "version": null,
+      "blurb": "freeCodeCamp is the open-source codebase and curriculum powering the freeCodeCamp.org learning platform for programming education. It provides a complete full-stack web development curriculum with interactive coding challenges, projects, and free certifications to help people transition into tech careers. The platform has helped over 100,000 people land their first developer job and operates as a donor-supported nonprofit."
     },
     {
       "full_name": "inspatio/inspatio-world",
@@ -1049,7 +1123,8 @@
       "delta_year": 115,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "EbookFoundation/free-programming-books",
@@ -1063,7 +1138,8 @@
       "delta_year": 1905,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "phuryn/pm-skills",
@@ -1077,7 +1153,8 @@
       "delta_year": 2028,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "cnlimiter/codex-manager",
@@ -1091,7 +1168,8 @@
       "delta_year": 112,
       "has_summary": false,
       "category": "Other",
-      "version": "v1.1.1"
+      "version": "v1.1.1",
+      "blurb": null
     },
     {
       "full_name": "leo-lilinxiao/codex-autoresearch",
@@ -1105,7 +1183,8 @@
       "delta_year": 111,
       "has_summary": false,
       "category": "Other",
-      "version": "v0.1.0"
+      "version": "v0.1.0",
+      "blurb": null
     },
     {
       "full_name": "lidangzzz/goal-driven",
@@ -1119,7 +1198,8 @@
       "delta_year": 111,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "nv-tlabs/kimodo",
@@ -1133,7 +1213,8 @@
       "delta_year": 110,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "frank890417/taiwan-md",
@@ -1147,7 +1228,8 @@
       "delta_year": 102,
       "has_summary": false,
       "category": "Other",
-      "version": "v0.5.0"
+      "version": "v0.5.0",
+      "blurb": null
     },
     {
       "full_name": "Lakr233/vphone-cli",
@@ -1161,7 +1243,8 @@
       "delta_year": 1094,
       "has_summary": false,
       "category": "DevTools",
-      "version": "0.1.4"
+      "version": "0.1.4",
+      "blurb": null
     },
     {
       "full_name": "langflow-ai/langflow",
@@ -1175,7 +1258,8 @@
       "delta_year": 1338,
       "has_summary": true,
       "category": "Agentic",
-      "version": "1.8.2"
+      "version": "1.8.2",
+      "blurb": "Langflow is a Python platform for building and deploying AI-powered agents and workflows with a visual drag-and-drop interface. It allows developers to create LLM-based applications without extensive coding while providing source code access for customization, and can deploy workflows as APIs or export them for integration into existing applications. The platform supports multi-agent orchestration and includes built-in integrations with major LLMs, vector databases, and observability tools."
     },
     {
       "full_name": "CopilotKit/OpenGenerativeUI",
@@ -1189,7 +1273,8 @@
       "delta_year": 194,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "joeseesun/opencli-skill",
@@ -1203,7 +1288,8 @@
       "delta_year": 104,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "olelehmann100kMRR/autoresearch-skill",
@@ -1217,7 +1303,8 @@
       "delta_year": 83,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "Genymobile/scrcpy",
@@ -1231,7 +1318,8 @@
       "delta_year": 1336,
       "has_summary": false,
       "category": "Mobile",
-      "version": "v3.3.4"
+      "version": "v3.3.4",
+      "blurb": null
     },
     {
       "full_name": "huggingface/transformers",
@@ -1245,7 +1333,8 @@
       "delta_year": 1311,
       "has_summary": true,
       "category": "AI / ML",
-      "version": "v5.3.0"
+      "version": "v5.3.0",
+      "blurb": "Transformers is a Python library that provides standardized implementations and pre-trained weights for state-of-the-art machine learning models across text, vision, audio, and multimodal domains. It enables developers to quickly deploy or fine-tune models like BERT, GPT, and vision transformers for both inference and training with minimal boilerplate code. The library integrates with PyTorch and TensorFlow and connects directly to Hugging Face's model hub for easy access to thousands of pre-trained models."
     },
     {
       "full_name": "microsoft/vscode",
@@ -1259,7 +1348,8 @@
       "delta_year": 1139,
       "has_summary": true,
       "category": "DevTools",
-      "version": "1.112.0"
+      "version": "1.112.0",
+      "blurb": "Visual Studio Code is an open-source code editor built on Electron that provides comprehensive editing, debugging, and extensibility features for software development. It combines the simplicity of a lightweight editor with integrated development tools like IntelliSense, Git integration, and a rich extension ecosystem. This repository contains the MIT-licensed \"Code - OSS\" source code, while the distributed Visual Studio Code product includes additional Microsoft-specific customizations under a proprietary license."
     },
     {
       "full_name": "knowsuchagency/mcp2cli",
@@ -1273,7 +1363,8 @@
       "delta_year": 283,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "NateBJones-Projects/OB1",
@@ -1287,7 +1378,8 @@
       "delta_year": 129,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "UniRound-Tec/Aurogen",
@@ -1301,7 +1393,8 @@
       "delta_year": 178,
       "has_summary": false,
       "category": "Agentic",
-      "version": "v0.2.0post2"
+      "version": "v0.2.0post2",
+      "blurb": null
     },
     {
       "full_name": "ossu/computer-science",
@@ -1315,7 +1408,8 @@
       "delta_year": 1205,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "Significant-Gravitas/AutoGPT",
@@ -1329,7 +1423,8 @@
       "delta_year": 964,
       "has_summary": true,
       "category": "Agentic",
-      "version": "autogpt-platform-beta-v0.6.52"
+      "version": "autogpt-platform-beta-v0.6.52",
+      "blurb": "AutoGPT is a platform for creating, deploying, and managing autonomous AI agents that can automate complex workflows. It provides both a low-code agent builder interface and pre-configured agents, allowing users to either customize their own automation workflows or deploy ready-made solutions. The platform can be self-hosted via Docker or accessed through their cloud-hosted beta service."
     },
     {
       "full_name": "NawfalMotii79/PLFM_RADAR",
@@ -1343,7 +1438,8 @@
       "delta_year": 732,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "larksuite/openclaw-lark",
@@ -1357,7 +1453,8 @@
       "delta_year": 250,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "sparkyniner/Netryx-OpenSource-Next-Gen-Street-Level-Geolocation",
@@ -1371,7 +1468,8 @@
       "delta_year": 67,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "facebook/react",
@@ -1385,7 +1483,8 @@
       "delta_year": 921,
       "has_summary": true,
       "category": "Web Framework",
-      "version": "v19.2.4"
+      "version": "v19.2.4",
+      "blurb": "React is a JavaScript library for building user interfaces through a component-based, declarative approach. It enables developers to create interactive UIs by composing reusable components that efficiently update when data changes, and can be adopted gradually into existing projects. The library uses JSX syntax and supports both web and mobile development through React Native."
     },
     {
       "full_name": "tensorflow/tensorflow",
@@ -1399,7 +1498,8 @@
       "delta_year": 562,
       "has_summary": true,
       "category": "AI / ML",
-      "version": "v2.21.0"
+      "version": "v2.21.0",
+      "blurb": "TensorFlow is an open-source machine learning framework that provides a comprehensive platform for building, training, and deploying ML models. It enables researchers to conduct cutting-edge ML research and allows developers to easily integrate machine learning capabilities into production applications through its flexible ecosystem of tools and libraries. The framework provides stable Python and C++ APIs along with GPU acceleration support for scalable model training and inference."
     },
     {
       "full_name": "microsoft/PowerToys",
@@ -1413,7 +1513,8 @@
       "delta_year": 1413,
       "has_summary": true,
       "category": "Other",
-      "version": "v0.98.0"
+      "version": "v0.98.0",
+      "blurb": null
     },
     {
       "full_name": "maderix/ANE",
@@ -1427,7 +1528,8 @@
       "delta_year": 1419,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "cloudflare/vinext",
@@ -1441,7 +1543,8 @@
       "delta_year": 1714,
       "has_summary": false,
       "category": "Other",
-      "version": "v0.0.34"
+      "version": "v0.0.34",
+      "blurb": null
     },
     {
       "full_name": "smartcmd/MinecraftConsoles",
@@ -1455,7 +1558,8 @@
       "delta_year": 1374,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "ohmyzsh/ohmyzsh",
@@ -1469,7 +1573,8 @@
       "delta_year": 732,
       "has_summary": true,
       "category": "DevTools",
-      "version": null
+      "version": null,
+      "blurb": "Oh My Zsh is a community-driven framework for managing zsh shell configuration with over 300 plugins and 140 themes. It simplifies terminal customization and productivity enhancement through pre-built integrations for common development tools like git, docker, and various programming languages. The project has attracted 185k+ stars and contributions from 2,400+ developers, making it the de facto standard for zsh configuration management."
     },
     {
       "full_name": "sstklen/trump-code",
@@ -1483,7 +1588,8 @@
       "delta_year": 112,
       "has_summary": false,
       "category": "AI / ML",
-      "version": "v2.8.0"
+      "version": "v2.8.0",
+      "blurb": null
     },
     {
       "full_name": "Snailclimb/JavaGuide",
@@ -1497,7 +1603,8 @@
       "delta_year": 469,
       "has_summary": true,
       "category": "Database",
-      "version": null
+      "version": null,
+      "blurb": "JavaGuide is a comprehensive Chinese-language interview preparation guide for Java backend developers, covering computer science fundamentals, databases, distributed systems, concurrency, and system design. It serves as a study resource for backend engineering interviews, providing structured learning paths, practice questions, and detailed explanations of core concepts. With over 154k GitHub stars, it has become one of the most popular Java interview preparation resources in the Chinese developer community."
     },
     {
       "full_name": "vercel/next.js",
@@ -1511,7 +1618,8 @@
       "delta_year": 666,
       "has_summary": true,
       "category": "Web Framework",
-      "version": "v16.2.1"
+      "version": "v16.2.1",
+      "blurb": "Next.js is a React framework for building full-stack web applications with server-side rendering, static site generation, and client-side routing capabilities. It provides an opinionated development environment that handles routing, bundling, and deployment optimizations out of the box, allowing developers to focus on application logic rather than configuration. The framework uses Rust-based tooling for faster builds and is widely adopted by enterprise applications."
     },
     {
       "full_name": "golang/go",
@@ -1525,7 +1633,8 @@
       "delta_year": 563,
       "has_summary": true,
       "category": "Language",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "chrisworsey55/atlas-gic",
@@ -1539,7 +1648,8 @@
       "delta_year": 200,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "flutter/flutter",
@@ -1553,7 +1663,8 @@
       "delta_year": 511,
       "has_summary": true,
       "category": "Mobile",
-      "version": "3.19.0-0.1.pre"
+      "version": "3.19.0-0.1.pre",
+      "blurb": "Flutter is Google's open-source SDK for building cross-platform applications from a single Dart codebase that targets mobile, web, desktop, and embedded platforms. It enables developers to create native-performance apps across multiple platforms without maintaining separate codebases, using hardware-accelerated rendering through Skia and Impeller graphics libraries. The framework provides pixel-level control over UI rendering and includes comprehensive widget libraries for both Material Design and Cupertino styling."
     },
     {
       "full_name": "skernelx/tavily-key-generator",
@@ -1567,7 +1678,8 @@
       "delta_year": 309,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "yangshun/tech-interview-handbook",
@@ -1581,7 +1693,8 @@
       "delta_year": 641,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "Chalarangelo/30-seconds-of-code",
@@ -1595,7 +1708,8 @@
       "delta_year": 413,
       "has_summary": true,
       "category": "Web Framework",
-      "version": "v14.0.0"
+      "version": "v14.0.0",
+      "blurb": null
     },
     {
       "full_name": "Michaelliv/pi-generative-ui",
@@ -1609,7 +1723,8 @@
       "delta_year": 166,
       "has_summary": false,
       "category": "Other",
-      "version": "v0.2.1"
+      "version": "v0.2.1",
+      "blurb": null
     },
     {
       "full_name": "electron/electron",
@@ -1623,7 +1738,8 @@
       "delta_year": 420,
       "has_summary": true,
       "category": "Other",
-      "version": "v41.0.3"
+      "version": "v41.0.3",
+      "blurb": null
     },
     {
       "full_name": "RightNow-AI/autokernel",
@@ -1637,7 +1753,8 @@
       "delta_year": 135,
       "has_summary": false,
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "facebook/react-native",
@@ -1651,7 +1768,8 @@
       "delta_year": 355,
       "has_summary": true,
       "category": "Mobile",
-      "version": "v0.84.1"
+      "version": "v0.84.1",
+      "blurb": null
     },
     {
       "full_name": "twbs/bootstrap",
@@ -1665,7 +1783,8 @@
       "delta_year": 250,
       "has_summary": true,
       "category": "Other",
-      "version": "v5.3.8"
+      "version": "v5.3.8",
+      "blurb": "Bootstrap is a comprehensive HTML, CSS, and JavaScript framework for building responsive, mobile-first web applications. It provides a standardized set of UI components, grid system, and utilities that accelerate front-end development and ensure consistent styling across projects. With over 174k GitHub stars, it's the de facto standard CSS framework in the web development ecosystem."
     },
     {
       "full_name": "photon-hq/qclaw-wechat-client",
@@ -1679,7 +1798,8 @@
       "delta_year": 150,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "moltlaunch/cashclaw",
@@ -1693,7 +1813,8 @@
       "delta_year": 189,
       "has_summary": false,
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "kubernetes/kubernetes",
@@ -1707,7 +1828,8 @@
       "delta_year": 0,
       "has_summary": true,
       "category": "DevTools",
-      "version": "v1.35.3"
+      "version": "v1.35.3",
+      "blurb": null
     },
     {
       "full_name": "eze-is/web-access",
@@ -1721,7 +1843,8 @@
       "delta_year": 0,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     },
     {
       "full_name": "deathlessburton88/tiktok-views-likes-followers-shares-bot-2026",
@@ -1735,7 +1858,8 @@
       "delta_year": 0,
       "has_summary": false,
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": null
     }
   ]
 }

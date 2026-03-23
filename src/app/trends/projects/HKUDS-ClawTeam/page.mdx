@@ -1,0 +1,57 @@
+<GuideHeader tool="ClawTeam" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# ClawTeam
+
+ClawTeam enables AI agents to spawn, coordinate, and work together as intelligent swarms. Instead of managing multiple agents manually, one leader agent orchestrates specialized sub-agents that communicate, share tasks, and adapt strategies autonomously.
+
+## What it does
+
+- **Agent spawning** — Leader agents create specialized worker agents with dedicated environments and focus areas
+- **Intelligent task allocation** — Smart dependency management and work distribution across the swarm  
+- **Real-time coordination** — Inter-agent communication through CLI commands and message passing
+- **Performance monitoring** — Progress tracking, bottleneck identification, and team performance analysis
+- **Dynamic adaptation** — Resource reallocation and strategy pivoting based on real-time results
+- **Multi-environment support** — Each agent gets isolated git worktrees, tmux sessions, and identities
+- **Universal compatibility** — Works with Claude Code, Codex, Cursor, and any CLI-based agent
+
+<Callout type="info">
+ClawTeam is designed for AI agents to use directly — they spawn other agents, delegate tasks, and coordinate through CLI commands automatically injected into their context.
+</Callout>
+
+## Installation
+
+```bash
+pip install clawteam
+```
+
+## Basic usage
+
+```bash
+# Leader agent spawns a worker team
+clawteam spawn --team research-team \
+  --agent-name data-analyst \
+  --task "Analyze market trends for Q4"
+
+# Worker agents communicate back to leader
+clawteam task list research-team --owner data-analyst
+clawteam inbox send research-team leader \
+  "Market analysis complete. Key findings attached."
+
+# Monitor the entire swarm
+clawteam board attach research-team
+
+# Or launch web dashboard
+clawteam board serve --port 8080
+```
+
+<Callout type="tip">
+Use tmux integration to watch all agents working simultaneously in split panes — each agent gets its own session and workspace.
+</Callout>
+
+## Notable details
+
+- **License**: MIT
+- **Language**: Python (≥3.10 required)
+- **Community**: 3,022 GitHub stars
+- **Architecture**: File and ZeroMQ transport layers for agent communication
+- **Use cases**: AI research automation, full-stack development, algorithmic trading, custom swarm templates

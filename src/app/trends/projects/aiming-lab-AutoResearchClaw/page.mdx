@@ -1,0 +1,56 @@
+<GuideHeader tool="AutoResearchClaw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# AutoResearchClaw
+
+AutoResearchClaw is a fully autonomous research pipeline that transforms a single research idea into a conference-ready academic paper. The system operates end-to-end without human intervention, handling everything from literature review to experimental validation.
+
+## Key Features
+
+• **Complete automation** - 23-stage pipeline from idea to paper with zero human intervention
+• **Real citations** - Pulls actual references from OpenAlex, Semantic Scholar, and arXiv with verification
+• **Sandbox experiments** - Hardware-aware execution (GPU/MPS/CPU) with Docker isolation
+• **Multi-agent review** - Peer review system with methodology consistency checks
+• **Self-healing** - Automatically recovers from experiment failures and pivots on invalid hypotheses
+• **Cross-platform integration** - Works with OpenClaw, Claude Code, Copilot CLI, and messaging platforms
+• **MetaClaw learning** - Extracts lessons from failures to improve future runs
+
+## Installation
+
+```bash
+pip install -e .
+researchclaw setup
+researchclaw init
+```
+
+<Callout type="info">
+Requires Python 3.11+ and Docker for experiment sandboxing.
+</Callout>
+
+## Basic Usage
+
+Generate a complete research paper from a single topic:
+
+```bash
+researchclaw run --topic "Your research idea here" --auto-approve
+```
+
+The pipeline outputs:
+- `paper.tex` - Conference-ready LaTeX
+- `references.bib` - Verified BibTeX references  
+- `experiment_runs/` - Generated code and results
+- `reviews.md` - Multi-agent peer review
+- `deliverables/` - All final outputs
+
+<Callout type="tip">
+Use `--resume` to continue interrupted runs. The system auto-detects where it left off.
+</Callout>
+
+## Notable Details
+
+**License:** MIT  
+**Language:** Python  
+**Community:** 7.8k GitHub stars, active Discord community  
+**Testing:** 1823+ automated tests  
+**Integration:** Compatible with OpenClaw ecosystem and ACP agent backends
+
+The project includes comprehensive showcase papers across 8 domains (math, biology, NLP, computer vision) demonstrating fully autonomous paper generation capabilities.

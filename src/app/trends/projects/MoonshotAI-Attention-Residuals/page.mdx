@@ -1,0 +1,55 @@
+<GuideHeader tool="Attention-Residuals" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Attention Residuals
+
+Attention Residuals (AttnRes) is a drop-in replacement for standard residual connections in Transformers that enables selective aggregation of earlier layer representations. Instead of uniform accumulation with fixed weights, each layer uses learned attention to selectively combine previous layer outputs based on input content.
+
+## Key Features
+
+- **Selective aggregation**: Layers attend over all previous representations with learned, input-dependent weights
+- **Bounded magnitudes**: Prevents the unbounded growth of hidden states common in PreNorm architectures  
+- **Block-wise variant**: Reduces memory complexity from O(Ld) to O(Nd) with minimal performance loss
+- **Drop-in replacement**: Works with existing Transformer architectures with marginal overhead
+- **Improved training dynamics**: More uniform gradient distribution across layers
+
+## Installation
+
+<Callout type="info">
+Repository doesn't include installation instructions. Implementation details are provided as PyTorch pseudocode in the paper.
+</Callout>
+
+The core concept can be implemented by replacing standard residual connections with attention-weighted combinations:
+
+```python
+def block_attn_res(blocks, partial_block, proj, norm):
+    """Apply attention over block representations"""
+    V = torch.stack(blocks + [partial_block])  # [N+1, B, T, D]
+    K = norm(V)
+    logits = torch.einsum('d, n b t d -> n b t', proj.weight.squeeze(), K)
+    h = torch.einsum('n b t, n b t d -> b t d', logits.softmax(0), V)
+    return h
+```
+
+## Basic Usage
+
+The mathematical formulation replaces standard residuals:
+
+```python
+# Standard residual (uniform weights)
+h_l = h_{l-1} + layer_output
+
+# AttnRes (learned attention weights)  
+h_l = sum(alpha_{i->l} * v_i for i in range(l))
+```
+
+Where `alpha_{i->l}` are softmax attention weights computed via a learned pseudo-query per layer.
+
+## Results
+
+AttnRes shows consistent improvements across benchmarks, with particularly strong gains on multi-step reasoning tasks (+7.5 points on GPQA-Diamond). Block AttnRes matches baseline performance trained with 1.25x more compute while maintaining practical memory requirements.
+
+**Notable Details:**
+- **Stars**: 2,575 GitHub stars
+- **Authors**: Kimi Team (MoonshotAI)
+- **Paper**: Available on arXiv (2603.15031)
+- **License**: Not specified

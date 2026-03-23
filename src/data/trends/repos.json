@@ -24,7 +24,8 @@
         "react",
         "teachers"
       ],
-      "category": "Web Framework"
+      "category": "Web Framework",
+      "blurb": "freeCodeCamp is the open-source codebase and curriculum powering the freeCodeCamp.org learning platform for programming education. It provides a complete full-stack web development curriculum with interactive coding challenges, projects, and free certifications to help people transition into tech careers. The platform has helped over 100,000 people land their first developer job and operates as a donor-supported nonprofit."
     },
     "openclaw/openclaw": {
       "full_name": "openclaw/openclaw",
@@ -43,7 +44,8 @@
         "personal"
       ],
       "category": "AI / ML",
-      "version": "v2026.3.13-1"
+      "version": "v2026.3.13-1",
+      "blurb": "OpenClaw is a self-hosted personal AI assistant built in TypeScript that runs on your own devices. It integrates with existing communication channels like WhatsApp, Slack, Discord, and others while supporting voice interaction and a controllable canvas interface. The project emphasizes local deployment and data ownership, positioning itself as an alternative to cloud-based AI assistants."
     },
     "vinta/awesome-python": {
       "full_name": "vinta/awesome-python",
@@ -60,7 +62,8 @@
         "python-libraries",
         "python-tools"
       ],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "Awesome Python is a curated collection of Python frameworks, libraries, tools, and resources organized by category. It serves as a comprehensive reference for Python developers to discover quality packages across domains like web development, machine learning, data science, and DevOps tooling. With 288k+ stars, it's the 10th most-starred repository on GitHub."
     },
     "awesome-selfhosted/awesome-selfhosted": {
       "full_name": "awesome-selfhosted/awesome-selfhosted",
@@ -80,7 +83,8 @@
         "selfhosted"
       ],
       "category": "Infra",
-      "version": "1.0.0"
+      "version": "1.0.0",
+      "blurb": "A curated list of free software network services and web applications that can be self-hosted on your own servers. It provides a comprehensive catalog of alternatives to SaaS providers across categories like communication, content management, file storage, and analytics for users who want to maintain control over their data and infrastructure. The repository has become the de facto standard reference with over 280k stars and maintains quality through automated link checking and project maintenance validation."
     },
     "facebook/react": {
       "full_name": "facebook/react",
@@ -98,7 +102,8 @@
         "ui"
       ],
       "category": "Web Framework",
-      "version": "v19.2.4"
+      "version": "v19.2.4",
+      "blurb": "React is a JavaScript library for building user interfaces through a component-based, declarative approach. It enables developers to create interactive UIs by composing reusable components that efficiently update when data changes, and can be adopted gradually into existing projects. The library uses JSX syntax and supports both web and mobile development through React Native."
     },
     "torvalds/linux": {
       "full_name": "torvalds/linux",
@@ -108,7 +113,8 @@
       "first_seen": "2026-03-22",
       "has_summary": true,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "The Linux kernel is the core operating system component that manages hardware resources and provides fundamental services for all other software in Linux distributions. It serves as the interface between applications and hardware, handling memory management, process scheduling, device drivers, and system calls. This is Linus Torvalds' original repository containing the complete kernel source tree used across countless systems from embedded devices to supercomputers."
     },
     "tensorflow/tensorflow": {
       "full_name": "tensorflow/tensorflow",
@@ -128,7 +134,8 @@
         "tensorflow"
       ],
       "category": "AI / ML",
-      "version": "v2.21.0"
+      "version": "v2.21.0",
+      "blurb": "TensorFlow is an open-source machine learning framework that provides a comprehensive platform for building, training, and deploying ML models. It enables researchers to conduct cutting-edge ML research and allows developers to easily integrate machine learning capabilities into production applications through its flexible ecosystem of tools and libraries. The framework provides stable Python and C++ APIs along with GPU acceleration support for scalable model training and inference."
     },
     "ohmyzsh/ohmyzsh": {
       "full_name": "ohmyzsh/ohmyzsh",
@@ -154,7 +161,8 @@
         "zsh",
         "zsh-configuration"
       ],
-      "category": "DevTools"
+      "category": "DevTools",
+      "blurb": "Oh My Zsh is a community-driven framework for managing zsh shell configuration with over 300 plugins and 140 themes. It simplifies terminal customization and productivity enhancement through pre-built integrations for common development tools like git, docker, and various programming languages. The project has attracted 185k+ stars and contributions from 2,400+ developers, making it the de facto standard for zsh configuration management."
     },
     "microsoft/vscode": {
       "full_name": "microsoft/vscode",
@@ -171,7 +179,8 @@
         "visual-studio-code"
       ],
       "category": "DevTools",
-      "version": "1.112.0"
+      "version": "1.112.0",
+      "blurb": "Visual Studio Code is an open-source code editor built on Electron that provides comprehensive editing, debugging, and extensibility features for software development. It combines the simplicity of a lightweight editor with integrated development tools like IntelliSense, Git integration, and a rich extension ecosystem. This repository contains the MIT-licensed \"Code - OSS\" source code, while the distributed Visual Studio Code product includes additional Microsoft-specific customizations under a proprietary license."
     },
     "Significant-Gravitas/AutoGPT": {
       "full_name": "Significant-Gravitas/AutoGPT",
@@ -190,7 +199,8 @@
         "python"
       ],
       "category": "Agentic",
-      "version": "autogpt-platform-beta-v0.6.52"
+      "version": "autogpt-platform-beta-v0.6.52",
+      "blurb": "AutoGPT is a platform for creating, deploying, and managing autonomous AI agents that can automate complex workflows. It provides both a low-code agent builder interface and pre-configured agents, allowing users to either customize their own automation workflows or deploy ready-made solutions. The platform can be self-hosted via Docker or accessed through their cloud-hosted beta service."
     },
     "n8n-io/n8n": {
       "full_name": "n8n-io/n8n",
@@ -222,7 +232,8 @@
         "workflow-automation"
       ],
       "category": "Agentic",
-      "version": "stable"
+      "version": "stable",
+      "blurb": "n8n is a workflow automation platform that combines visual no-code building with custom JavaScript/Python capabilities and includes 400+ integrations plus native AI features. Technical teams use it to build complex automations while maintaining full control over their data through self-hosting or cloud deployment options. It operates under a fair-code license, making the source always visible while requiring enterprise licenses for commercial use at scale."
     },
     "flutter/flutter": {
       "full_name": "flutter/flutter",
@@ -253,7 +264,8 @@
         "windows"
       ],
       "category": "Mobile",
-      "version": "3.19.0-0.1.pre"
+      "version": "3.19.0-0.1.pre",
+      "blurb": "Flutter is Google's open-source SDK for building cross-platform applications from a single Dart codebase that targets mobile, web, desktop, and embedded platforms. It enables developers to create native-performance apps across multiple platforms without maintaining separate codebases, using hardware-accelerated rendering through Skia and Impeller graphics libraries. The framework provides pixel-level control over UI rendering and includes comprehensive widget libraries for both Material Design and Cupertino styling."
     },
     "twbs/bootstrap": {
       "full_name": "twbs/bootstrap",
@@ -272,7 +284,8 @@
         "scss"
       ],
       "category": "Other",
-      "version": "v5.3.8"
+      "version": "v5.3.8",
+      "blurb": "Bootstrap is a comprehensive HTML, CSS, and JavaScript framework for building responsive, mobile-first web applications. It provides a standardized set of UI components, grid system, and utilities that accelerate front-end development and ensure consistent styling across projects. With over 174k GitHub stars, it's the de facto standard CSS framework in the web development ecosystem."
     },
     "avelino/awesome-go": {
       "full_name": "avelino/awesome-go",
@@ -289,7 +302,8 @@
         "golang-library",
         "hacktoberfest"
       ],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "This is a curated list of Go frameworks, libraries, and software packages organized by category. It serves as a comprehensive reference for Go developers to discover quality tools and libraries for their projects, similar to other \"awesome\" lists in the open source community. With 168,035 stars, it's one of the most popular resources in the Go ecosystem."
     },
     "huggingface/transformers": {
       "full_name": "huggingface/transformers",
@@ -320,7 +334,8 @@
         "vlm"
       ],
       "category": "AI / ML",
-      "version": "v5.3.0"
+      "version": "v5.3.0",
+      "blurb": "Transformers is a Python library that provides standardized implementations and pre-trained weights for state-of-the-art machine learning models across text, vision, audio, and multimodal domains. It enables developers to quickly deploy or fine-tune models like BERT, GPT, and vision transformers for both inference and training with minimal boilerplate code. The library integrates with PyTorch and TensorFlow and connects directly to Hugging Face's model hub for easy access to thousands of pre-trained models."
     },
     "Snailclimb/JavaGuide": {
       "full_name": "Snailclimb/JavaGuide",
@@ -343,7 +358,8 @@
         "system-design",
         "zookeeper"
       ],
-      "category": "Database"
+      "category": "Database",
+      "blurb": "JavaGuide is a comprehensive Chinese-language interview preparation guide for Java backend developers, covering computer science fundamentals, databases, distributed systems, concurrency, and system design. It serves as a study resource for backend engineering interviews, providing structured learning paths, practice questions, and detailed explanations of core concepts. With over 154k GitHub stars, it has become one of the most popular Java interview preparation resources in the Chinese developer community."
     },
     "f/prompts.chat": {
       "full_name": "f/prompts.chat",
@@ -372,7 +388,8 @@
         "prompts-chat",
         "typescript"
       ],
-      "category": "AI / ML"
+      "category": "AI / ML",
+      "blurb": "prompts.chat is a curated collection of prompt examples designed for AI chat models like ChatGPT, Claude, and Gemini. It serves as a community-driven library where users can discover, share, and collect effective prompts for various AI interactions, with self-hosting options for organizational privacy. The project has gained significant recognition with 143k+ GitHub stars and endorsements from AI industry leaders including OpenAI co-founders."
     },
     "yt-dlp/yt-dlp": {
       "full_name": "yt-dlp/yt-dlp",
@@ -391,7 +408,8 @@
         "yt-dlp"
       ],
       "category": "DevTools",
-      "version": "2026.03.17"
+      "version": "2026.03.17",
+      "blurb": "yt-dlp is a command-line tool for downloading audio and video content from online platforms, forked from the now-inactive youtube-dl project. It supports thousands of websites and provides extensive format selection, metadata handling, and post-processing capabilities for automated media archival workflows. The project includes SponsorBlock integration for automatically skipping sponsored segments in downloaded videos."
     },
     "langflow-ai/langflow": {
       "full_name": "langflow-ai/langflow",
@@ -409,7 +427,8 @@
         "react-flow"
       ],
       "category": "Agentic",
-      "version": "1.8.2"
+      "version": "1.8.2",
+      "blurb": "Langflow is a Python platform for building and deploying AI-powered agents and workflows with a visual drag-and-drop interface. It allows developers to create LLM-based applications without extensive coding while providing source code access for customization, and can deploy workflows as APIs or export them for integration into existing applications. The platform supports multi-agent orchestration and includes built-in integrations with major LLMs, vector databases, and observability tools."
     },
     "vercel/next.js": {
       "full_name": "vercel/next.js",
@@ -435,7 +454,8 @@
         "vercel"
       ],
       "category": "Web Framework",
-      "version": "v16.2.1"
+      "version": "v16.2.1",
+      "blurb": "Next.js is a React framework for building full-stack web applications with server-side rendering, static site generation, and client-side routing capabilities. It provides an opinionated development environment that handles routing, bundling, and deployment optimizations out of the box, allowing developers to focus on application logic rather than configuration. The framework uses Rust-based tooling for faster builds and is widely adopted by enterprise applications."
     },
     "langgenius/dify": {
       "full_name": "langgenius/dify",
@@ -665,9 +685,10 @@
       "language": "JavaScript",
       "url": "https://github.com/NVIDIA/NemoClaw",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "NVIDIA NemoClaw is a reference stack that provides a sandboxed runtime environment for running OpenClaw autonomous agents with enhanced security controls. It integrates NVIDIA OpenShell's security framework with open source models like Nemotron to enable safer deployment of always-on AI assistants. The project is currently in alpha status and includes automated installation with guided onboarding for containerized agent deployment."
     },
     "aiming-lab/AutoResearchClaw": {
       "full_name": "aiming-lab/AutoResearchClaw",
@@ -675,7 +696,7 @@
       "language": "Python",
       "url": "https://github.com/aiming-lab/AutoResearchClaw",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "autonomous-research",
         "citation-verification",
@@ -688,7 +709,8 @@
         "self-evolving"
       ],
       "category": "Other",
-      "version": "v0.3.2"
+      "version": "v0.3.2",
+      "blurb": "AutoResearchClaw is an autonomous research pipeline that generates complete academic papers from conversational input using multi-agent LLM systems. It handles the entire research workflow from idea formulation through literature review, experimentation, and paper writing without human intervention. The system includes citation verification, experiment diagnosis and repair loops, and can integrate with various LLM backends and messaging platforms."
     },
     "Lum1104/Understand-Anything": {
       "full_name": "Lum1104/Understand-Anything",
@@ -696,7 +718,7 @@
       "language": "TypeScript",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "claude-code",
         "claude-skills",
@@ -705,7 +727,8 @@
         "knowledge-graph",
         "understandcode"
       ],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "Understand Anything is a Claude Code plugin that analyzes codebases and generates interactive knowledge graphs with AI-powered explanations of functions, classes, and dependencies. It helps developers onboard to unfamiliar projects by providing visual exploration, natural language search, and plain-English explanations of code architecture instead of manual code reading. The tool uses a multi-agent pipeline that combines LLM intelligence with static analysis to create a living map of the entire project structure."
     },
     "HKUDS/ClawTeam": {
       "full_name": "HKUDS/ClawTeam",
@@ -713,10 +736,11 @@
       "language": "Python",
       "url": "https://github.com/HKUDS/ClawTeam",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
-      "version": "v0.1.2"
+      "version": "v0.1.2",
+      "blurb": "ClawTeam is a Python framework that enables AI agents to form collaborative swarms that can autonomously execute complex tasks from a single command. It allows teams of AI agents to coordinate together on multi-step workflows like research automation, full-stack development, and financial analysis, supporting integration with popular AI coding tools like Claude Code, Cursor, and OpenAI Codex. The system uses file-based or ZeroMQ peer-to-peer communication for agent coordination and requires Python 3.10+."
     },
     "MoonshotAI/Attention-Residuals": {
       "full_name": "MoonshotAI/Attention-Residuals",
@@ -724,8 +748,9 @@
       "language": "Unknown",
       "url": "https://github.com/MoonshotAI/Attention-Residuals",
       "first_seen": "2026-03-22",
-      "has_summary": false,
-      "topics": []
+      "has_summary": true,
+      "topics": [],
+      "blurb": "Attention Residuals (AttnRes) is a drop-in replacement for standard residual connections in Transformers that uses learned attention to selectively aggregate previous layer outputs instead of uniform accumulation. This addresses the problem where standard residuals dilute individual layer contributions and cause unbounded hidden-state magnitude growth as depth increases. The Block AttnRes variant reduces memory complexity from O(Ld) to O(Nd) by partitioning layers into blocks while maintaining most performance gains."
     },
     "VoltAgent/awesome-codex-subagents": {
       "full_name": "VoltAgent/awesome-codex-subagents",

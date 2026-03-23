@@ -66,10 +66,10 @@ export function computeDeltas(todayData) {
   for (const [name, current] of Object.entries(todayData)) {
     const stars = current.stars || 0;
     deltas[name] = {
-      delta_day: snapDay?.[name] ? stars - (snapDay[name].stars || 0) : stars,
-      delta_week: snapWeek?.[name] ? stars - (snapWeek[name].stars || 0) : stars,
-      delta_month: snapMonth?.[name] ? stars - (snapMonth[name].stars || 0) : stars,
-      delta_year: snapYear?.[name] ? stars - (snapYear[name].stars || 0) : stars,
+      delta_day: snapDay?.[name] ? stars - (snapDay[name].stars || 0) : 0,
+      delta_week: snapWeek?.[name] ? stars - (snapWeek[name].stars || 0) : 0,
+      delta_month: snapMonth?.[name] ? stars - (snapMonth[name].stars || 0) : 0,
+      delta_year: snapYear?.[name] ? stars - (snapYear[name].stars || 0) : 0,
     };
   }
 

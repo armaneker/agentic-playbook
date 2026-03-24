@@ -2468,7 +2468,7 @@
     },
     "wong2/weixin-agent-sdk": {
       "full_name": "wong2/weixin-agent-sdk",
-      "description": "",
+      "description": "微信Clawbot接入任意Agent",
       "language": "TypeScript",
       "url": "https://github.com/wong2/weixin-agent-sdk",
       "first_seen": "2026-03-23",
@@ -2872,6 +2872,43 @@
       ],
       "category": "Other",
       "version": "v0.1.2"
+    },
+    "facebookresearch/HyperAgents": {
+      "full_name": "facebookresearch/HyperAgents",
+      "description": "Self-referential self-improving agents that can optimize for any computable task",
+      "language": "Python",
+      "url": "https://github.com/facebookresearch/HyperAgents",
+      "first_seen": "2026-03-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "alvinunreal/awesome-autoresearch": {
+      "full_name": "alvinunreal/awesome-autoresearch",
+      "description": "A curated list of autonomous improvement loops, research agents, and autoresearch-style systems inspired by Karpathy's autoresearch.",
+      "language": "Unknown",
+      "url": "https://github.com/alvinunreal/awesome-autoresearch",
+      "first_seen": "2026-03-24",
+      "has_summary": false,
+      "topics": [
+        "agentic-systems",
+        "ai-agents",
+        "ai-research",
+        "ai-tools",
+        "autonomous-agents",
+        "autoresearch",
+        "awesome-list",
+        "claude-code",
+        "codex",
+        "experiment-loops",
+        "llm-agents",
+        "research-agents",
+        "scientific-discovery",
+        "self-improving-systems"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

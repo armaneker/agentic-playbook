@@ -1,0 +1,52 @@
+<GuideHeader tool="llm-architecture-gallery" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# LLM Architecture Gallery
+
+The LLM Architecture Gallery is a curated collection of metadata for large language model architectures. It serves as the data source for Sebastian Raschka's interactive gallery showcasing visual diagrams and technical specifications of various LLMs.
+
+## Key Features
+
+• Model metadata repository with structured YAML data
+• Architecture diagrams and visual representations 
+• Technical specifications and fact sheets for each model
+• Publication dates and reference links
+• Standardized format for model comparison
+
+## Installation
+
+Clone the repository to access the source data:
+
+```bash
+git clone https://github.com/rasbt/llm-architecture-gallery.git
+cd llm-architecture-gallery
+```
+
+## Basic Usage
+
+The primary data file is `models.yml` containing structured metadata:
+
+```yaml
+DeepSeek R1:
+  image: "/llm-architecture-gallery/images/architectures/deepseek-v3-r1-671-billion.webp"
+  date: '2025-01-20'
+  # Additional metadata fields...
+```
+
+Access complete image URLs by prefixing with the base URL:
+
+```
+https://sebastianraschka.com/llm-architecture-gallery/images/architectures/deepseek-v3-r1-671-billion.webp
+```
+
+<Callout type="info">
+This repository contains only the source metadata, not the full website implementation. Visit [sebastianraschka.com/llm-architecture-gallery](https://sebastianraschka.com/llm-architecture-gallery/) for the interactive gallery.
+</Callout>
+
+## Notable Details
+
+**License:** Apache-2.0  
+**Language:** YAML/Data  
+**Community:** 878 stars  
+**Maintainer:** Sebastian Raschka
+
+The repository focuses purely on data export rather than code implementation, making it useful for researchers and developers who need structured LLM architecture information.

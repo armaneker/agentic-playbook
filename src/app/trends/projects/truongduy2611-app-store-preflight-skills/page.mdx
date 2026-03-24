@@ -1,0 +1,53 @@
+<GuideHeader tool="app-store-preflight-skills" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# App Store Preflight Skills
+
+App Store Preflight is an AI agent skill that scans iOS/macOS projects for common App Store rejection patterns before submission. It catches guideline violations early to prevent costly review delays.
+
+## Key Features
+
+- **Pre-submission validation** against 100+ Apple Review Guidelines
+- **App-type specific checklists** for subscriptions, games, health apps, AI apps, and more
+- **Automated scanning** of Xcode projects, metadata, and configuration files
+- **Integration with ASC CLI** for metadata inspection
+- **Autofix capabilities** for common issues
+- **Detailed rejection rules** organized by category (metadata, privacy, design, entitlements)
+
+## Installation
+
+```bash
+npx skills add truongduy2611/app-store-preflight-skills
+```
+
+<Callout type="info">
+Requires the [ASC CLI](https://github.com/rudrankriyam/App-Store-Connect-CLI) for metadata operations: `brew install asc`
+</Callout>
+
+## Basic Usage
+
+The skill follows a standard workflow:
+
+```bash
+# 1. Pull app metadata
+asc metadata pull --app "YOUR_APP_ID" --version "1.0" --dir ./metadata
+
+# 2. Run preflight checks (via AI agent)
+# The agent will:
+# - Identify your app type
+# - Load relevant checklist from references/guidelines/by-app-type/
+# - Scan against rejection rules in references/rules/
+# - Report findings with severity and resolution steps
+```
+
+The agent scans for issues like competitor terms in metadata, missing privacy manifests, unused entitlements, and subscription compliance violations.
+
+<Callout type="tip">
+Check the `references/guidelines/by-app-type/` directory for app-specific checklists covering games, health apps, kids apps, AI apps, and more.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Community**: 896 stars on GitHub
+- **Integration**: Works with ASC CLI and App Store Connect CLI Skills
+- **Coverage**: 100+ Apple Review Guidelines with 10 app-type specific checklists

@@ -1,0 +1,92 @@
+<GuideHeader tool="taiwan-md" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Taiwan.md
+
+Taiwan.md is an AI-native, open-source knowledge base about Taiwan that curates cultural, historical, and social content in Traditional Chinese and English. It serves as a structured information resource for both humans and AI systems to understand Taiwan comprehensively.
+
+## Key Features
+
+- **660+ curated articles** across 12 categories (history, culture, technology, food, etc.)
+- **Bilingual content** with Traditional Chinese as source of truth and 97%+ English coverage
+- **AI-friendly structure** with `llms.txt`, structured markdown, and JSON-LD metadata
+- **Interactive knowledge graph** built with D3.js force simulation
+- **Resource mindmap** connecting 146+ official Taiwan websites
+- **Three-layer content depth** (30-second overview → 5-minute read → full article)
+- **Zero-code contribution** via forms, AI prompts, or email
+- **CC BY-SA 4.0 license** for free citation and remixing
+
+## Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/frank890417/taiwan-md.git
+cd taiwan-md
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+<Callout type="info">
+The project uses Astro v5 with GitHub Pages deployment. Content lives in the `knowledge/` directory as the single source of truth.
+</Callout>
+
+## Basic Usage
+
+Content is organized in the `knowledge/` directory:
+
+```
+knowledge/
+├── History/           # Chinese articles + _Hub.md
+├── en/History/        # English translations
+├── Geography/
+├── Culture/
+└── ...
+```
+
+To add new content, create markdown files following the three-layer structure:
+
+```markdown
+---
+title: "Article Title"
+category: "Culture"
+date: "2024-01-01"
+---
+
+# 30-second Overview
+Brief introduction paragraph.
+
+## Main Content
+Narrative-driven body with sources...
+
+## References
+- [Source 1](https://example.com)
+- [Source 2](https://example.com)
+```
+
+Run the sync script to update the build:
+
+```bash
+./scripts/sync.sh
+```
+
+<Callout type="tip">
+Use the AI-assisted contribution workflow by pasting prompts from `CONTRIBUTE_PROMPT.md` into ChatGPT, Claude, or Gemini for guided article creation.
+</Callout>
+
+## Notable Details
+
+- **Language**: Astro (TypeScript/JavaScript framework)
+- **License**: CC BY-SA 4.0 (Creative Commons)
+- **Community**: 803 GitHub stars, 24 contributors
+- **Architecture**: Single source of truth in `knowledge/` with build-time projection to `src/content/`
+- **Quality control**: All articles require clickable source URLs and pass AI detection scanning
+- **Deployment**: GitHub Pages with full SEO optimization
+
+<Callout type="warning">
+Traditional Chinese content serves as the source of truth. English translations should maintain consistency with the original meaning and cultural context.
+</Callout>

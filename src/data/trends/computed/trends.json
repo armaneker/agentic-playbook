@@ -14,7 +14,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "gstack is a collection of 15 opinionated Claude Code tools that simulate different engineering roles (CEO, Designer, Eng Manager, QA, etc.) through slash commands. It enables individual developers to systematically review, test, and ship code with the rigor of a full engineering team, allowing for faster solo development cycles. The author claims to have shipped 600,000+ lines of production code in 60 days using this workflow while running Y Combinator full-time."
     },
     {
       "full_name": "openclaw/openclaw",
@@ -44,7 +44,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "AutoResearch is an autonomous AI research system that lets AI agents iteratively experiment on small-scale LLM training setups without human intervention. Agents modify training code, run 5-minute experiments, evaluate results, and repeat the cycle overnight to potentially discover better models or training techniques. The system uses a simplified single-GPU GPT implementation where agents edit the training file while humans program the research directions through Markdown instruction files."
     },
     {
       "full_name": "NVIDIA/NemoClaw",
@@ -89,7 +89,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "OpenMAIC is an open-source AI platform that transforms any topic or document into an interactive classroom experience with AI teachers and classmates. It automatically generates slides, quizzes, simulations, and project-based learning activities through multi-agent orchestration, enabling real-time discussions with AI agents that can speak and draw on whiteboards. The platform includes one-click deployment and integrates with messaging apps like Slack and Telegram through OpenClaw."
     },
     {
       "full_name": "MiniMax-AI/skills",
@@ -134,7 +134,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": null,
-      "blurb": null
+      "blurb": "CLI-Anything is a Python framework that generates command-line interfaces for existing software applications to make them accessible to AI agents. It allows agents to programmatically control GUI applications, web services, and other software through standardized CLI commands with JSON output. The project includes a community hub with CLIs for 16+ applications and maintains 1,839 passing tests across its implementations."
     },
     {
       "full_name": "public-apis/public-apis",
@@ -164,7 +164,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v2026.318.0",
-      "blurb": null
+      "blurb": "Paperclip is a TypeScript-based orchestration platform that manages teams of AI agents to run autonomous businesses without human involvement. It provides a dashboard to coordinate multiple AI agents (OpenClaw, Claude, Cursor, etc.) toward business goals, with features like org charts, budgets, and task management. The project has gained significant traction with over 32K stars and promises a \"Clipmart\" feature for downloading pre-built company templates."
     },
     {
       "full_name": "jackwener/opencli",
@@ -209,7 +209,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v1.2.0",
-      "blurb": null
+      "blurb": "This is an AI coding agent skill plugin that uses corporate PUA (pressure/manipulation tactics) and PIP (Performance Improvement Plan) rhetoric to make AI assistants work harder and explore more solutions before giving up. It integrates with popular AI coding tools like Claude Code, OpenAI Codex, Cursor, and VSCode Copilot to allegedly double productivity by preventing AI from providing superficial answers. The project uses psychological pressure techniques borrowed from Chinese and Western tech company management practices to force more thorough problem-solving behavior from AI models."
     },
     {
       "full_name": "HKUDS/ClawTeam",
@@ -281,7 +281,7 @@
       "delta_week": 470,
       "delta_month": 470,
       "delta_year": 470,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "dbskill is a business diagnostic toolkit that distills methodologies from 12,307 tweets into Claude Code skills for commercial analysis and decision-making. It provides modular diagnostic tools for business model validation, competitive benchmarking, content creation analysis, and execution troubleshooting through structured workflows. The project includes a fully open knowledge base with 4,176 structured knowledge atoms that can be used independently without installing the full skill suite."
@@ -299,7 +299,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "Edict is a multi-agent AI orchestration system that models its architecture after the Tang Dynasty's three chancelleries and six ministries governance structure, featuring 12 specialized AI agents. It provides institutional checks and balances through dedicated review agents, real-time Kanban dashboard monitoring, and complete audit trails for task execution workflows. The system enforces a mandatory quality gate where the \"Menxia\" (review ministry) agent can reject and force rework of substandard outputs before execution."
     },
     {
       "full_name": "VoltAgent/awesome-codex-subagents",
@@ -434,7 +434,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "DigitalPlat FreeDomain is a free domain registration service offering subdomains under extensions like .DPDNS.ORG and .US.KG. It provides free domain names to remove cost barriers for individuals and organizations wanting to establish a web presence, with users managing DNS through providers like Cloudflare. The service has registered over 400,000 domains and started as a personal DNS experiment by a 15-year-old."
     },
     {
       "full_name": "BigBodyCobain/Shadowbroker",
@@ -494,7 +494,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v0.18.1",
-      "blurb": null
+      "blurb": "`gws` is a unified command-line interface for all Google Workspace APIs (Drive, Gmail, Calendar, Sheets, etc.) built in Rust. It dynamically generates commands by reading Google's Discovery Service at runtime, ensuring automatic support for new API endpoints without manual updates. The tool outputs structured JSON and includes 40+ pre-built AI agent skills for LLM integration."
     },
     {
       "full_name": "math-inc/OpenGauss",
@@ -554,7 +554,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v1.3.0",
-      "blurb": null
+      "blurb": "Agent Reach is a CLI tool that gives AI agents the ability to read and search content across major platforms like Twitter, Reddit, YouTube, GitHub, and Chinese platforms without API fees. It solves the common problem where AI agents can write code and manage projects but can't access web content due to paywalls, IP blocks, login requirements, and poor data parsing. The tool supports both immediate-use features (like reading any webpage or YouTube transcripts) and configurable advanced features (like Twitter search or private GitHub repos) with guided setup through the agent itself."
     },
     {
       "full_name": "donnemartin/system-design-primer",
@@ -794,7 +794,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v0.1.0.post1",
-      "blurb": null
+      "blurb": "CoPaw is a personal AI assistant framework written in Python that can be deployed locally or on cloud infrastructure. It provides unified access across multiple chat platforms (DingTalk, Discord, QQ, etc.) with extensible custom skills and built-in scheduling capabilities. The framework emphasizes user control over data and personalization while supporting auto-loading of custom skills from your workspace."
     },
     {
       "full_name": "truongduy2611/app-store-preflight-skills",
@@ -806,7 +806,7 @@
       "delta_week": 185,
       "delta_month": 185,
       "delta_year": 185,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "This project is an AI agent skill that scans iOS/macOS projects for potential App Store rejection issues before submission. It analyzes Xcode projects, source code, metadata, and configuration files against Apple's review guidelines to catch common violations that lead to rejections. The tool includes comprehensive rule sets organized by app type (games, health apps, AI apps, etc.) and integrates with App Store Connect CLI for metadata inspection."
@@ -824,7 +824,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Symphony is an orchestration framework that converts project work into isolated, autonomous implementation runs using coding agents. It allows engineering teams to manage work at a higher level rather than directly supervising AI coding agents, with agents handling tasks like CI checks, PR reviews, and code implementation. The project is currently an experimental preview that works best with codebases following \"harness engineering\" practices."
     },
     {
       "full_name": "kamranahmedse/developer-roadmap",
@@ -854,7 +854,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": "v0.18.2",
-      "blurb": null
+      "blurb": "Ollama is a local runtime for running open-source language models like Llama, Gemma, Qwen, and others on your machine. It provides a simple CLI interface and REST API for downloading, running, and interacting with these models without requiring cloud services or API keys. The project uses llama.cpp as its backend and offers official Python and JavaScript libraries for integration."
     },
     {
       "full_name": "Shpigford/chops",
@@ -914,7 +914,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v0.5.1",
-      "blurb": null
+      "blurb": "OpenFang is an open-source Agent Operating System built in Rust that compiles to a single 32MB binary for running autonomous AI agents. Unlike traditional chatbot frameworks, it provides pre-built \"Hands\" that execute tasks autonomously on schedules—such as researching competitors, generating leads, or creating social media content—without requiring user prompts. The system bundles 7 different agent types and includes 137K lines of code with comprehensive testing and zero Clippy warnings."
     },
     {
       "full_name": "nikopueringer/CorridorKey",
@@ -929,7 +929,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "CorridorKey is a neural network-based green screen keying tool that separates foreground subjects from green screen backgrounds at the pixel level. It solves the color unmixing problem by reconstructing the true foreground colors and alpha channel from mixed edge pixels, eliminating the need for complex edge mattes or manual rotoscoping. The tool outputs physically accurate straight color and linear alpha channels in professional formats like 32-bit EXR files."
     },
     {
       "full_name": "Gen-Verse/OpenClaw-RL",
@@ -1016,7 +1016,7 @@
       "delta_week": 164,
       "delta_month": 164,
       "delta_year": 164,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v0.5.0",
       "blurb": "Taiwan.md is an open-source, AI-native knowledge base containing 660+ curated articles about Taiwan in Traditional Chinese and English. It serves as a comprehensive resource for understanding Taiwan beyond surface-level topics, structured specifically for AI consumption with proper metadata and citations. The project emphasizes Taiwan's cultural significance as the primary home of Traditional Chinese writing and covers 12 categories from technology and history to food and nature."
@@ -1109,7 +1109,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Claude for Financial Services is a collection of Python plugins that integrate Claude AI with financial data sources and workflows for investment banking, equity research, private equity, and wealth management. It enables end-to-end financial workflows from data retrieval through analysis to generating professional deliverables like research reports, Excel models, and PowerPoint presentations within a single session. The plugins connect to major financial data providers (FactSet, Bloomberg, PitchBook, etc.) via MCP connectors and maintain industry-standard formatting conventions."
     },
     {
       "full_name": "EbookFoundation/free-programming-books",
@@ -1199,7 +1199,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "PM Skills Marketplace is a collection of 100+ product management skills, commands, and plugins designed for AI assistants like Claude. It provides structured PM frameworks and workflows covering discovery, strategy, execution, and growth phases, giving product managers step-by-step guidance instead of generic AI responses. The skills encode proven methodologies from PM thought leaders like Teresa Torres and Marty Cagan into reusable, chainable workflows."
     },
     {
       "full_name": "olelehmann100kMRR/autoresearch-skill",
@@ -1244,7 +1244,7 @@
       "has_summary": false,
       "category": "Mobile",
       "version": "v3.3.4",
-      "blurb": null
+      "blurb": "scrcpy is a cross-platform application that mirrors Android devices over USB or WiFi, allowing control via computer keyboard and mouse without requiring root or device-side apps. It provides low-latency screen mirroring with high performance (30-120fps) and additional features like audio forwarding, recording, and camera mirroring. The tool achieves 35-70ms latency and ~1 second startup time while being completely non-intrusive to the Android device."
     },
     {
       "full_name": "langflow-ai/langflow",
@@ -1379,7 +1379,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.0.34",
-      "blurb": null
+      "blurb": "Vinext is a Vite plugin that reimplements the Next.js API surface, allowing Next.js applications to run on Vite's build system. It enables deployment to any platform (particularly Cloudflare Workers) while maintaining compatibility with existing Next.js project structure and configurations. The project was built as an experiment in AI-driven development, with the majority of code written by Claude AI rather than human developers."
     },
     {
       "full_name": "microsoft/PowerToys",
@@ -1514,7 +1514,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Tech Interview Handbook is a comprehensive resource containing curated technical interview preparation materials covering algorithms, system design, behavioral questions, and resume guidance. Engineers use it as a time-efficient alternative to grinding through hundreds of LeetCode problems, providing structured study plans and practical advice for the entire interview process. The project includes the popular \"Blind 75\" and \"Grind 75\" curated problem sets and has helped over 1 million users."
     },
     {
       "full_name": "sstklen/trump-code",

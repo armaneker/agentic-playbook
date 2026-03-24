@@ -1,0 +1,63 @@
+<GuideHeader tool="dbskill" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# dbskill
+
+A business diagnosis toolkit built from 12,307 tweets distilled into Claude Code skills. Provides structured frameworks for business model validation, competitive analysis, and execution diagnostics.
+
+## Key Features
+
+- **Business model diagnosis** - Uses 6 axioms and dissolution funnel to deconstruct problems rather than answer them
+- **Competitive benchmarking** - Five-layer filtering system to eliminate noise in competitor analysis
+- **Content creation diagnostics** - Five-dimensional quality assessment for content
+- **Execution diagnostics** - Adlerian psychology framework for identifying execution blockers
+- **Concept deconstruction** - Wittgensteinian approach to breaking down fuzzy concepts
+- **Austrian economics chatroom** - Three-way dialogue between Hayek, Mises, and Claude
+- **Modular knowledge base** - 4,176 structured knowledge atoms with topic tags and confidence scores
+
+<Callout type="info">
+Skills auto-recommend next steps in workflow: diagnosis → benchmarking → content → execution
+</Callout>
+
+## Installation
+
+```bash
+npx skills add dontbesilent2025/dbskill
+```
+
+Or manually:
+
+```bash
+git clone https://github.com/dontbesilent2025/dbskill.git /tmp/dbskill && \
+cp -r /tmp/dbskill/skills/dbs* ~/.claude/skills/ && \
+rm -rf /tmp/dbskill
+```
+
+## Basic Usage
+
+Start with the main entry point:
+
+```
+/dbs
+```
+
+Or use specific tools:
+
+```
+/dbs-diagnosis    # Business model diagnosis
+/dbs-benchmark    # Competitive analysis  
+/dbs-content      # Content quality check
+/dbs-action       # Execution blockers
+/奥派             # Austrian economics discussion
+```
+
+<Callout type="tip">
+The knowledge base is completely modular - you can extract individual components like the 4,176 knowledge atoms (atoms.jsonl) or specific methodology docs without installing the full toolkit.
+</Callout>
+
+## Notable Details
+
+- **License**: CC BY-NC 4.0 (free for personal/non-commercial use)
+- **Language**: Chinese (with English documentation)
+- **Community**: 1,249 GitHub stars
+- **Data source**: Extracted from 12,307+ real business insights
+- **Knowledge format**: Structured JSON atoms with confidence scoring and topic classification

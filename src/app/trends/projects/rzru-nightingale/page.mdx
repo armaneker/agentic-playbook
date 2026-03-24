@@ -1,0 +1,51 @@
+<GuideHeader tool="nightingale" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Nightingale
+
+Nightingale transforms any song in your music library into karaoke using neural networks for vocal separation and automated lyric transcription. Built with Rust and Bevy, it ships as a single binary with all ML dependencies bundled.
+
+## Key Features
+
+- **Vocal Separation** — Uses UVR Karaoke model or Demucs to isolate vocals from instrumentals
+- **Automatic Lyrics** — Word-level transcription via WhisperX with synchronized highlighting  
+- **Pitch Scoring** — Real-time microphone input with star ratings and scoreboard tracking
+- **Video Support** — Processes video files and uses original video as synchronized background
+- **GPU Acceleration** — Auto-detects CUDA (NVIDIA), MPS (Apple Silicon), or CPU backends
+- **Self-Contained** — Automatically downloads Python, PyTorch, and ML models on first run
+- **Gamepad Navigation** — Full controller support for living room setups
+
+## Installation
+
+Download the latest release from [GitHub releases](https://github.com/rzru/nightingale/releases) and run the binary.
+
+<Callout type="warning">
+On macOS, remove quarantine after extracting: `xattr -cr Nightingale.app`
+</Callout>
+
+## Basic Usage
+
+1. Launch Nightingale (first run downloads dependencies — takes a few minutes)
+2. Point the app to your music folder containing `.mp3`, `.flac`, `.mp4`, etc.
+3. Select a song to start automatic processing (2-5 minutes on GPU, 10-20 minutes on CPU)
+4. Sing along with pitch scoring and synchronized lyrics
+
+```bash
+# Force re-setup if needed
+./nightingale --setup
+```
+
+## Controls
+
+**Navigation:** Arrow keys or gamepad D-pad  
+**Play/Pause:** Space or gamepad Start  
+**Toggle guide vocals:** G key  
+**Cycle backgrounds:** T key
+
+## Notable Details
+
+- **License:** GPL-3.0
+- **Language:** Rust with Bevy engine
+- **Community:** 866 GitHub stars
+- **Storage:** All data in `~/.nightingale/` including cached stems and models
+- **Formats:** Audio (MP3, FLAC, OGG) and video (MP4, MKV, AVI)
+- **Hardware:** Works on Linux, macOS, and Windows with automatic GPU detection

@@ -1,0 +1,60 @@
+<GuideHeader tool="ghostling" difficulty="Beginner" lastTested="2026-01" readTime="5 min" />
+
+# Ghostling
+
+Ghostling is a minimal terminal emulator built on libghostty's C API, demonstrating how to create a functional terminal in a single C file. It uses Raylib for windowing and 2D rendering to showcase libghostty's flexibility across different contexts.
+
+## Key Features
+
+- Full terminal emulation with text reflow on resize
+- 24-bit color and 256-color palette support
+- Unicode and multi-codepoint grapheme handling
+- Kitty keyboard protocol support
+- Complete mouse tracking (X10, normal, button, any-event modes)
+- Multiple mouse reporting formats (SGR, URxvt, UTF8, X10)
+- Scrollback with scrollbar and drag-to-scroll
+- Focus reporting and modifier key support
+
+<Callout type="warning">
+This is a demo project, not a daily-use terminal. The codebase hasn't been fully audited for production use.
+</Callout>
+
+## Installation
+
+Requirements: CMake 3.19+, Ninja, C compiler, Zig 0.15.x, and platform-specific tools.
+
+```bash
+cmake -B build -G Ninja
+cmake --build build
+./build/ghostling
+```
+
+For optimized builds:
+
+```bash
+cmake -B build -G Ninja -DCMAKE_BUILD_TYPE=Release
+cmake --build build
+```
+
+<Callout type="tip">
+Debug builds include extensive safety checks and run very slowly. Use release builds for performance testing.
+</Callout>
+
+## Basic Usage
+
+After building, run the terminal emulator:
+
+```bash
+./build/ghostling
+```
+
+The terminal supports standard terminal operations, keyboard input with modifiers, mouse interactions, and scrolling. It inherits Ghostty's proven terminal emulation capabilities in a minimal package.
+
+## Notable Details
+
+**License:** MIT  
+**Language:** C  
+**Community:** 772 GitHub stars  
+**Dependencies:** libghostty-vt (zero external dependencies), Raylib for rendering
+
+The project demonstrates libghostty's renderer-agnostic design - the core library works with any windowing system or graphics framework, not just Raylib.

@@ -1,0 +1,71 @@
+<GuideHeader tool="kimodo" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Kimodo
+
+Kimodo is a kinematic motion diffusion model for high-quality 3D human and robot motion generation. It's trained on 700 hours of optical motion capture data and controlled through text prompts and kinematic constraints.
+
+## Key Features
+
+- **Text-to-motion generation** for human and robot skeletons (SOMA, SMPL-X, Unitree G1)
+- **Kinematic constraints** including full-body pose keyframes, end-effector positions, 2D paths
+- **Interactive web demo** with timeline-based motion authoring
+- **Multiple model variants** trained on different datasets and skeletons
+- **Command-line interface** for batch generation
+- **Export capabilities** for generated motions and constraints
+
+## Installation
+
+<Callout type="warning">
+Kimodo requires ~17GB of VRAM and works best on RTX 3090/4090 or A100 GPUs.
+</Callout>
+
+Install via pip (Python 3.8+ required):
+
+```bash
+pip install kimodo
+```
+
+For development or latest features:
+
+```bash
+git clone https://github.com/nv-tlabs/kimodo.git
+cd kimodo
+pip install -e .
+```
+
+## Basic Usage
+
+Generate motion from text using the CLI:
+
+```bash
+kimodo_gen --prompt "person walking forward then jumping" --duration 5.0
+```
+
+Launch the interactive demo:
+
+```bash
+kimodo_demo
+```
+
+Then open http://127.0.0.1:7860 in your browser.
+
+Generate motion programmatically:
+
+```python
+from kimodo import KimodoPipeline
+
+pipeline = KimodoPipeline("nvidia/Kimodo-SOMA-RP-v1")
+motion = pipeline.generate(
+    prompt="person doing jumping jacks",
+    duration=3.0,
+    num_samples=1
+)
+```
+
+## Notable Details
+
+- **License**: Apache 2.0 (models use NVIDIA Open Model License)
+- **Language**: Python
+- **Community**: 763+ GitHub stars
+- **Models**: Available on Hugging Face, auto-downloaded on first use
+- **Documentation**: Full docs at [research.nvidia.com](https://research.nvidia.com/labs/sil/projects/kimodo/docs)

@@ -1,0 +1,48 @@
+<GuideHeader tool="DoesItAgeVerify" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# DoesItAgeVerify
+
+DoesItAgeVerify tracks the age verification compliance status of open source operating systems. It maintains a running list of Linux distributions and BSD variants, documenting how they respond to emerging laws requiring OS-level age verification and reporting.
+
+## What it does
+
+- Tracks open source operating systems' age verification implementation status
+- Documents developer statements and policy positions on compliance
+- Categorizes systems by their response: not implementing, planning implementation, or fully compliant
+- Provides links to official developer statements and policy announcements
+- Monitors legal developments in Brazil, California, Colorado, Illinois, and New York
+
+## Installation
+
+This is a documentation repository — clone it to access the tracking data:
+
+```bash
+git clone https://github.com/BryanLunduke/DoesItAgeVerify.git
+cd DoesItAgeVerify
+```
+
+## Basic usage
+
+The repository contains markdown tables categorizing operating systems:
+
+```markdown
+| Status | Operating System | Notes |
+| - | - | - |
+| :no_entry: | **Devuan Linux** | [Developer statement](link) |
+| :building_construction: | **Ubuntu** | [Planning Discussion](link) |
+```
+
+<Callout type="info">
+As of the latest update, no open source operating systems have fully implemented age verification compliance for Brazil or California laws.
+</Callout>
+
+<Callout type="warning">
+Several distributions like Arch Linux 32 and Midnight BSD have temporarily restricted access in affected regions until they can implement compliance measures.
+</Callout>
+
+## Notable details
+
+**License:** BSD-2-Clause  
+**Community:** 796 GitHub stars  
+**Focus:** Legal compliance tracking for open source operating systems  
+**Geographic scope:** Primarily US states (California, Colorado, Illinois, New York) and Brazil

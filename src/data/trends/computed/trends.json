@@ -134,7 +134,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v1.3.1",
-      "blurb": null
+      "blurb": "OpenCLI is a TypeScript tool that converts websites, Electron apps, and local binaries into standardized command-line interfaces. It enables developers to interact with web services programmatically while reusing existing Chrome login sessions, and provides AI agents with a unified way to discover and execute tools through standardized interfaces. The tool includes a browser bridge extension that connects to Chrome and supports both YAML declarative pipelines and TypeScript runtime injections for maximum flexibility."
     },
     {
       "full_name": "HKUDS/CLI-Anything",
@@ -239,7 +239,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "Crucix is a self-hosted intelligence dashboard that aggregates real-time data from 27 open-source intelligence feeds including satellite fire detection, flight tracking, radiation monitoring, and economic indicators. It consolidates scattered government APIs and public data feeds into a single Jarvis-style interface that updates every 15 minutes, eliminating the need to manually check dozens of sources. The system can be enhanced with LLM integration to provide automated alerts and respond to intelligence commands via Telegram and Discord."
     },
     {
       "full_name": "danveloper/flash-moe",
@@ -266,7 +266,7 @@
       "delta_week": 582,
       "delta_month": 654,
       "delta_year": 654,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v0.3.1",
       "blurb": "Collaborator is a native macOS desktop app that provides an infinite canvas workspace for building with AI agents. It allows developers to arrange terminals, code files, and agent interactions on a visual canvas without context switching between different tools or tabs. The app stores all data locally and operates without requiring accounts or cloud services."
@@ -329,7 +329,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "ARIS is a collection of Markdown-based skills that enable LLM agents like Claude Code to conduct autonomous ML research workflows including paper review, idea generation, and experiment automation. It uses cross-model collaboration where one LLM executes research tasks while another provides critical review to avoid the blind spots of single-model self-play. The system is framework-agnostic and portable across different LLM agents since all skills are plain Markdown files with zero dependencies."
     },
     {
       "full_name": "yt-dlp/yt-dlp",
@@ -479,7 +479,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.9.5",
-      "blurb": null
+      "blurb": "ShadowBroker is a real-time OSINT dashboard that aggregates public intelligence feeds (aircraft tracking, satellite data, earthquakes, maritime traffic) into a unified geospatial interface. It consolidates scattered public datasets that analysts typically need to access across dozens of separate tools and APIs. Built with Next.js and Python, it runs entirely in your browser against a self-hosted backend without collecting user data."
     },
     {
       "full_name": "googleworkspace/cli",
@@ -659,7 +659,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v1.1.0",
-      "blurb": null
+      "blurb": "This is a structured collection of 753+ cybersecurity skills designed for AI agents, formatted as YAML/Markdown files following the agentskills.io open standard. It enables AI coding assistants like Claude, GitHub Copilot, and others to perform complex security tasks including penetration testing, digital forensics, malware analysis, and threat intelligence across 26 security domains. All skills are mapped to MITRE ATT&CK tactics and techniques, providing AI agents with the same structured cybersecurity knowledge that senior practitioners use."
     },
     {
       "full_name": "lxf746/any-auto-register",
@@ -686,7 +686,7 @@
       "delta_week": 243,
       "delta_month": 243,
       "delta_year": 243,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "Ghostling is a minimal terminal emulator demo built as a single C file using the libghostty C API and Raylib for rendering. It demonstrates how to embed Ghostty's proven terminal emulation core (used by millions of users) into custom applications while providing full VT sequence parsing, Unicode support, and modern terminal features. The project uses a 2D renderer instead of GPU acceleration to showcase libghostty's flexibility across different rendering contexts."
@@ -701,7 +701,7 @@
       "delta_week": 238,
       "delta_month": 238,
       "delta_year": 238,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "DoesItAgeVerify is a tracking repository that monitors which open source operating systems implement age verification requirements mandated by laws in Brazil and California. It serves as a reference for developers and users to understand compliance status across different Linux distributions and BSD variants as these legal requirements expand. Currently, no open source OS has fully implemented the required age verification, with most either refusing compliance or still in planning phases."
@@ -719,7 +719,7 @@
       "has_summary": false,
       "category": "Web Framework",
       "version": "v1.0.0",
-      "blurb": null
+      "blurb": "Star Office UI is a pixel-art dashboard that visualizes AI agent work states in a cozy virtual office environment. It integrates with OpenClaw to automatically display agent activities across different office zones (idle/working/error states) and supports multi-agent collaboration, daily work summaries, and mobile access. The project includes both a web interface and optional desktop pet mode, with art assets restricted to non-commercial use while code is MIT licensed."
     },
     {
       "full_name": "davebcn87/pi-autoresearch",
@@ -746,7 +746,7 @@
       "delta_week": 218,
       "delta_month": 246,
       "delta_year": 246,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "Kimodo is a kinematic motion diffusion model that generates high-quality 3D human and robot motions from text prompts and kinematic constraints. It's trained on 700 hours of motion capture data and supports various control inputs including pose keyframes, end-effector positions, and 2D paths for precise motion authoring. The project provides multiple pre-trained models for different skeleton types (SOMA, Unitree G1, SMPL-X) and includes an interactive demo with timeline-based motion editing."
@@ -779,7 +779,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v1.0.49",
-      "blurb": null
+      "blurb": "Context Mode is an MCP server that acts as a virtualization layer for AI assistant context, keeping raw tool output data in sandboxed subprocesses rather than dumping it into the context window. It reduces context pollution by up to 98% while maintaining session continuity through SQLite-backed tracking of file edits, git operations, and tasks that survives conversation compaction. The system operates entirely locally with no telemetry or cloud dependencies, processing web pages, API responses, and other tool outputs in complete isolation."
     },
     {
       "full_name": "openai/symphony",
@@ -809,7 +809,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "OpenClaw-RL is a reinforcement learning framework that trains AI agents through natural language feedback and conversation. It enables personalized agent training across real-world environments including terminal, GUI, software engineering, and tool-call scenarios without requiring API costs or GPU resources. The framework implements hybrid RL approaches with async processing and supports both local and cloud deployment."
     },
     {
       "full_name": "RightNow-AI/openfang",
@@ -914,7 +914,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "MiroFish-Offline is a fully local multi-agent simulation engine that models public opinion and social dynamics by generating hundreds of AI personas that interact on simulated social media platforms. It allows users to upload documents and predict public reactions through agent-based modeling, replacing the original's cloud dependencies with a local stack using Neo4j for knowledge graphs and Ollama for LLM inference. This English fork eliminates the need for external APIs while providing complete translation of the originally Chinese interface."
     },
     {
       "full_name": "webadderall/Recordly",
@@ -1229,7 +1229,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": "0.1.4",
-      "blurb": null
+      "blurb": "vphone-cli is a tool that boots virtualized iOS devices on macOS using Apple's Virtualization.framework. It enables running iPhone VMs for security research, jailbreak development, and iOS testing without requiring physical hardware. The project offers three firmware variants with increasing security bypasses, from regular patching to full jailbreak environments with automated tool installation."
     },
     {
       "full_name": "NateBJones-Projects/OB1",
@@ -1334,7 +1334,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "MinecraftConsoles is a C++ project based on Minecraft Legacy Console Edition v1.6.0560.0 source code with fixes and improvements. It serves as a multi-platform base for modding and development while providing a quality desktop experience with keyboard/mouse support alongside the original controller gameplay. The project includes both client and dedicated server builds with features like LAN multiplayer, splitscreen support, and enhanced Windows compatibility through Visual Studio 2022."
     },
     {
       "full_name": "leo-lilinxiao/codex-autoresearch",
@@ -1394,7 +1394,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This project enables training neural networks directly on Apple's Neural Engine (ANE) by reverse-engineering private APIs that Apple normally restricts to inference-only operations. It bypasses CoreML's limitations to demonstrate that the ANE hardware is capable of backpropagation and gradient computation, not just forward inference. The implementation achieves low but measurable utilization (~5-9% of peak) and serves as a research proof-of-concept rather than a production framework."
     },
     {
       "full_name": "NawfalMotii79/PLFM_RADAR",
@@ -1469,7 +1469,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "ATLAS is a framework for autonomous AI trading agents that iteratively improve their own prompts through market performance feedback. It uses a multi-layered architecture with 25+ agents across macro, sector, and strategy specializations that debate markets daily, with performance-based Darwinian weighting where better-performing agents get more influence in final decisions. The system treats agent prompts as trainable weights and uses Sharpe ratio as the loss function, automatically spawning new specialist agents when it detects knowledge gaps in its own analysis."
     },
     {
       "full_name": "sstklen/trump-code",
@@ -1481,7 +1481,7 @@
       "delta_week": 43,
       "delta_month": 121,
       "delta_year": 121,
-      "has_summary": false,
+      "has_summary": true,
       "category": "AI / ML",
       "version": "v2.8.0",
       "blurb": "This project uses AI to analyze Donald Trump's social media posts and predict their impact on stock market movements. It applies brute-force computation to test millions of model combinations, achieving a 61.3% prediction accuracy rate across 566 verified predictions. The system has tested 31.5 million models and identified 551 statistically significant rules linking Trump's posting patterns to market behavior."
@@ -1559,7 +1559,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "This is a multi-service API key generator that automates registration for search services like Firecrawl and Exa using browser automation and temporary email addresses. It validates generated keys through real API calls and can upload working keys to a unified proxy pool for downstream services. The tool uses Playwright with Camoufx browser to bypass Cloudflare protection and solve Turnstile challenges during registration."
     },
     {
       "full_name": "Chalarangelo/30-seconds-of-code",

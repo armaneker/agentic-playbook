@@ -1,0 +1,49 @@
+<GuideHeader tool="collab-public" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Collaborator
+
+Collaborator is an end-to-end environment for agentic development on macOS. It provides terminals, context files, and running code arranged on an infinite canvas with no context switching required.
+
+## Key Features
+
+- **Infinite canvas interface** - Arrange terminals, code editors, and files spatially on a pan-and-zoom surface
+- **Agent-first design** - Terminals with tmux persistence designed for running AI agents
+- **Multi-workspace support** - Switch between different project folders with independent file trees
+- **Live file sync** - Tiles automatically update when files change on disk
+- **Rich editing** - Markdown editor with live rendering and Monaco-based code editor
+- **Native macOS app** - Built with Electron, no accounts required, all data stored locally
+
+## Installation
+
+Download the latest release for macOS (Apple Silicon):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/collaborator-ai/collab-public/main/install.sh | bash
+```
+
+Or [download directly from GitHub releases](https://github.com/collaborator-ai/collab-public/releases/latest).
+
+<Callout type="warning">
+Currently macOS only. The app is in early-stage development.
+</Callout>
+
+## Basic Usage
+
+1. **Add a workspace** - Press `Cmd+Shift+O` and select a local folder
+2. **Create a terminal** - Double-click the canvas to spawn a terminal tile
+3. **Add files** - Drag files from the navigator onto the canvas to create editor tiles
+4. **Navigate** - Use scroll wheel to pan, `Cmd +/-` to zoom
+
+```bash
+# Example: Start an agent in a terminal tile
+cd your-project
+python -m your_agent --task "analyze codebase"
+```
+
+## Notable Details
+
+**License:** Not specified  
+**Language:** TypeScript  
+**Community:** 1,498 GitHub stars  
+**Stack:** Electron 40, React 19, xterm.js, Monaco Editor  
+**Storage:** All data stored locally in `~/.collaborator/`

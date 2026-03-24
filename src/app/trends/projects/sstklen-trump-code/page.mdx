@@ -1,0 +1,65 @@
+<GuideHeader tool="trump-code" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Trump Code
+
+Trump Code applies brute-force computation to find statistically significant patterns between Trump's social media posts and stock market movements. The system has tested 31.5 million model combinations and achieved a 61.3% hit rate across 566 verified predictions.
+
+## What it does
+
+• **Real-time signal detection** - Monitors Truth Social posts every 5 minutes and classifies market-moving signals
+• **Dual-platform analysis** - Compares posting patterns between Truth Social and X for enhanced signal authenticity  
+• **Statistical validation** - Tests millions of model combinations via brute-force search with train/test validation
+• **Live prediction tracking** - Makes market predictions and verifies results across 1h/3h/6h timeframes
+• **Prediction market integration** - Tracks 316+ Trump-related markets on Polymarket and Kalshi
+• **Evolutionary learning** - Daily pipeline promotes successful rules and eliminates failing ones
+
+<Callout type="info">
+The system discovered that Trump publishes on Truth Social 6.2 hours before cross-posting to X, creating a trading arbitrage window.
+</Callout>
+
+## Installation
+
+```bash
+git clone https://github.com/sstklen/trump-code.git
+cd trump-code
+pip install -r requirements.txt
+```
+
+Set up environment variables:
+```bash
+cp .env.example .env
+# Add your API keys for Truth Social scraping and market data
+```
+
+## Basic usage
+
+Run the daily analysis pipeline:
+```python
+python main.py --mode daily
+```
+
+Get real-time signals:
+```python
+from trump_code import TrumpSignalDetector
+
+detector = TrumpSignalDetector()
+signals = detector.get_latest_signals()
+print(f"Current market signal: {signals['consensus']}")
+```
+
+Access the live dashboard at `https://trumpcode.washinmura.jp` or use the API:
+```bash
+curl https://trumpcode.washinmura.jp/api/dashboard
+```
+
+## Notable details
+
+**Language:** Python  
+**License:** MIT  
+**Community:** 637 GitHub stars  
+**Hit rate:** 61.3% across 566 verified predictions (z=5.39, p<0.05)  
+**Data sources:** 7,400+ Truth Social posts, cross-verified from 3 independent sources
+
+<Callout type="tip">
+The project includes 100% open data - all predictions, results, and model performance metrics are publicly available in the `/data` directory.
+</Callout>

@@ -735,6 +735,7 @@
         "codex",
         "codex-skills",
         "knowledge-graph",
+        "opencode-skills",
         "understandcode"
       ],
       "category": "Other",
@@ -2775,6 +2776,62 @@
       "topics": [],
       "category": "DevTools",
       "version": null
+    },
+    "slavingia/skills": {
+      "full_name": "slavingia/skills",
+      "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia",
+      "language": "Unknown",
+      "url": "https://github.com/slavingia/skills",
+      "first_seen": "2026-03-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zarazhangrui/codebase-to-course": {
+      "full_name": "zarazhangrui/codebase-to-course",
+      "description": "A Claude Code skill that turns any codebase into a beautiful, interactive single-page HTML course for non-technical vibe coders.",
+      "language": "Unknown",
+      "url": "https://github.com/zarazhangrui/codebase-to-course",
+      "first_seen": "2026-03-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Soul-AILab/SoulX-LiveAct": {
+      "full_name": "Soul-AILab/SoulX-LiveAct",
+      "description": "Official inference code for SoulX-LiveAct: Towards Hour-Scale Real-Time Human Animation with Neighbor Forcing and ConvKV Memory",
+      "language": "Python",
+      "url": "https://github.com/Soul-AILab/SoulX-LiveAct",
+      "first_seen": "2026-03-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "iamlukethedev/Claw3D": {
+      "full_name": "iamlukethedev/Claw3D",
+      "description": "Claw3D is an open source 3D engine built on OpenClaw for creating games, simulations, and high-performance 3D applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/iamlukethedev/Claw3D",
+      "first_seen": "2026-03-24",
+      "has_summary": false,
+      "topics": [
+        "3d-engine",
+        "claw3d",
+        "game-engine",
+        "gamedev",
+        "graphics",
+        "javascript",
+        "open-source",
+        "openclaw",
+        "rendering",
+        "threejs",
+        "webgl"
+      ],
+      "category": "Other",
+      "version": "v0.1.2"
     }
   }
 }

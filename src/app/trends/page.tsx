@@ -4,36 +4,33 @@ import { useState, useMemo } from 'react';
 import TrendFilters, { type TimeRange } from '@/components/TrendFilters';
 import TrendCard, { type TrendRepo } from '@/components/TrendCard';
 import RepoPopup from '@/components/RepoPopup';
+import { deltaKey } from '@/lib/trends';
 import trendsData from '@/data/trends/computed/trends.json';
 
-const deltaKey: Record<TimeRange, keyof TrendRepo> = {
-  day: 'delta_day',
-  week: 'delta_week',
-  month: 'delta_month',
-  year: 'delta_year',
-};
-
 const ALL_CATEGORIES = 'All';
+const repos = trendsData.repos as TrendRepo[];
 
 export default function TrendsPage() {
   const [range, setRange] = useState<TimeRange>('week');
   const [category, setCategory] = useState(ALL_CATEGORIES);
   const [selectedRepo, setSelectedRepo] = useState<TrendRepo | null>(null);
 
-  // Collect unique categories from the data
-  const categories = useMemo(() => {
-    const set = new Set<string>();
-    for (const repo of trendsData.repos as TrendRepo[]) {
-      if (repo.category) set.add(repo.category);
+  const { categories, categoryCounts } = useMemo(() => {
+    const counts: Record<string, number> = {};
+    for (const repo of repos) {
+      if (repo.category) counts[repo.category] = (counts[repo.category] || 0) + 1;
     }
-    return [ALL_CATEGORIES, ...Array.from(set).sort()];
+    return {
+      categories: [ALL_CATEGORIES, ...Object.keys(counts).sort()],
+      categoryCounts: counts,
+    };
   }, []);
 
   const sorted = useMemo(() => {
     const key = deltaKey[range];
-    return [...(trendsData.repos as TrendRepo[])]
+    return [...repos]
       .filter((r) => category === ALL_CATEGORIES || r.category === category)
-      .sort((a, b) => (b[key] as number) - (a[key] as number));
+      .sort((a, b) => (b[key as keyof TrendRepo] as number) - (a[key as keyof TrendRepo] as number));
   }, [range, category]);
 
   const updatedDate = new Date(trendsData.updated_at).toLocaleDateString('en-US', {
@@ -44,7 +41,6 @@ export default function TrendsPage() {
 
   return (
     <div className="not-prose">
-      {/* Header */}
       <div className="mb-8">
         <h1 className="text-2xl lg:text-3xl font-bold text-gray-50 mb-2">
           Trending Repos
@@ -53,10 +49,8 @@ export default function TrendsPage() {
           GitHub projects gaining stars. Updated {updatedDate}.
         </p>
 
-        {/* Time range filters */}
         <TrendFilters active={range} onChange={setRange} />
 
-        {/* Category filters */}
         <div className="flex flex-wrap gap-1.5 mt-3">
           {categories.map((cat) => (
             <button
@@ -70,16 +64,13 @@ export default function TrendsPage() {
             >
               {cat}
               {cat !== ALL_CATEGORIES && (
-                <span className="ml-1 text-gray-600">
-                  {(trendsData.repos as TrendRepo[]).filter((r) => r.category === cat).length}
-                </span>
+                <span className="ml-1 text-gray-600">{categoryCounts[cat]}</span>
               )}
             </button>
           ))}
         </div>
       </div>
 
-      {/* List */}
       <div className="space-y-2">
         {sorted.map((repo, i) => (
           <TrendCard
@@ -98,12 +89,10 @@ export default function TrendsPage() {
         </p>
       )}
 
-      {/* Footer note */}
       <p className="text-xs text-gray-600 mt-6">
         Star data collected from the GitHub Search API every 6 hours. New projects are analyzed automatically.
       </p>
 
-      {/* Popup */}
       {selectedRepo && (
         <RepoPopup repo={selectedRepo} onClose={() => setSelectedRepo(null)} />
       )}

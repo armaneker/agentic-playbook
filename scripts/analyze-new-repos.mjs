@@ -142,18 +142,14 @@ Output ONLY the MDX content. Start with the GuideHeader component like this:
 }
 
 /**
- * Sanitize MDX — escape bare < characters that MDX would parse as JSX tags.
- * Allows known components: Callout, GuideHeader, a, code, br, img, etc.
+ * Sanitize MDX — escape bare < that MDX would parse as JSX.
+ * Uses lookahead to keep allowed tags intact without string slicing.
  */
 function sanitizeMDX(content) {
-  const allowedTags = /^<\/?(Callout|GuideHeader|a|code|br|img|hr|sup|sub|em|strong|details|summary)\b/;
-  // Replace bare < that aren't part of allowed JSX tags or HTML entities
-  return content.replace(/<(?![/!])/g, (match, offset) => {
-    const rest = content.slice(offset);
-    if (allowedTags.test(rest)) return '<';
-    // Also allow code blocks (```) — MDX won't parse < inside them, but be safe
-    return '&lt;';
-  });
+  return content.replace(
+    /<(?!\/?(?:Callout|GuideHeader|a|code|br|img|hr|sup|sub|em|strong|details|summary)\b)(?![/!])/g,
+    '&lt;'
+  );
 }
 
 /**
@@ -170,17 +166,25 @@ async function main() {
 
   const reposIndex = loadJSON(REPOS_FILE);
 
+  // Cache fetched GitHub data to avoid redundant API calls across phases
+  const dataCache = new Map();
+  async function fetchRepoData(name) {
+    if (!dataCache.has(name)) {
+      dataCache.set(name, { repoData: await getRepo(name), readme: await getReadme(name) });
+    }
+    return dataCache.get(name);
+  }
+
   // Phase 1: Generate blurbs for repos that don't have one
   const needsBlurb = Object.entries(reposIndex.repos)
     .filter(([, repo]) => !repo.blurb)
-    .slice(0, 20); // More blurbs per run since they're cheap
+    .slice(0, 20);
 
   if (needsBlurb.length > 0) {
     console.log(`Generating blurbs for ${needsBlurb.length} repos...`);
     for (const [name] of needsBlurb) {
       try {
-        const repoData = await getRepo(name);
-        const readme = await getReadme(name);
+        const { repoData, readme } = await fetchRepoData(name);
         const blurb = await generateBlurb(repoData, readme);
         if (blurb) {
           reposIndex.repos[name].blurb = blurb;
@@ -204,15 +208,11 @@ async function main() {
 
   let generated = 0;
 
-  for (const [name, repoInfo] of needsSummary) {
+  for (const [name] of needsSummary) {
     console.log(`Analyzing: ${name}...`);
 
     try {
-      // Fetch fresh repo data and README
-      const repoData = await getRepo(name);
-      const readme = await getReadme(name);
-
-      // Generate summary via Anthropic API
+      const { repoData, readme } = await fetchRepoData(name);
       const mdxContent = await generateSummary(repoData, readme);
 
       if (!validateMDX(mdxContent)) {
@@ -220,24 +220,20 @@ async function main() {
         continue;
       }
 
-      // Write the MDX file
       const slug = name.replace('/', '-');
       const pageDir = join(PROJECTS_DIR, slug);
       mkdirSync(pageDir, { recursive: true });
       writeFileSync(join(pageDir, 'page.mdx'), sanitizeMDX(mdxContent));
       console.log(`  Written: src/app/trends/projects/${slug}/page.mdx`);
 
-      // Mark as summarized
       reposIndex.repos[name].has_summary = true;
       generated++;
 
-      // Also generate blurb if we don't have one yet
       if (!reposIndex.repos[name].blurb) {
         const blurb = await generateBlurb(repoData, readme);
         if (blurb) reposIndex.repos[name].blurb = blurb;
       }
 
-      // Small delay between API calls
       await new Promise(r => setTimeout(r, 1000));
     } catch (err) {
       console.error(`  Error analyzing ${name}: ${err.message}`);

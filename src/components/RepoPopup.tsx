@@ -1,27 +1,9 @@
 'use client';
 
 import { useEffect, useRef } from 'react';
-import { X, Star, GitFork, ExternalLink, Tag, BookOpen } from 'lucide-react';
+import { X, Star, ExternalLink, Tag, BookOpen } from 'lucide-react';
 import type { TrendRepo } from './TrendCard';
-
-const categoryColors: Record<string, string> = {
-  'AI / ML': 'border-purple-500/40 text-purple-400',
-  'Agentic': 'border-violet-500/40 text-violet-400',
-  'Security': 'border-red-500/40 text-red-400',
-  'Web Framework': 'border-blue-500/40 text-blue-400',
-  'DevTools': 'border-emerald-500/40 text-emerald-400',
-  'Database': 'border-amber-500/40 text-amber-400',
-  'Mobile': 'border-cyan-500/40 text-cyan-400',
-  'Infra': 'border-orange-500/40 text-orange-400',
-  'Language': 'border-pink-500/40 text-pink-400',
-  'Data': 'border-teal-500/40 text-teal-400',
-  'Other': 'border-gray-500/40 text-gray-400',
-};
-
-function formatNumber(n: number): string {
-  if (n >= 1000) return `${(n / 1000).toFixed(1).replace(/\.0$/, '')}k`;
-  return n.toString();
-}
+import { formatStarCount, categoryColors } from '@/lib/trends';
 
 export default function RepoPopup({
   repo,
@@ -35,7 +17,6 @@ export default function RepoPopup({
   const summaryHref = `/trends/projects/${owner}-${name}`;
   const catColor = categoryColors[repo.category] || categoryColors['Other'];
 
-  // Close on Escape
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       if (e.key === 'Escape') onClose();
@@ -48,10 +29,16 @@ export default function RepoPopup({
     };
   }, [onClose]);
 
-  // Close on backdrop click
   const handleBackdropClick = (e: React.MouseEvent) => {
     if (e.target === overlayRef.current) onClose();
   };
+
+  const deltas = [
+    ['Today', repo.delta_day],
+    ['This Week', repo.delta_week],
+    ['This Month', repo.delta_month],
+    ['This Year', repo.delta_year],
+  ] as const;
 
   return (
     <div
@@ -98,16 +85,14 @@ export default function RepoPopup({
 
         {/* Body */}
         <div className="p-5 space-y-4">
-          {/* Blurb or description */}
           <p className="text-sm text-gray-300 leading-relaxed">
             {repo.blurb || repo.description || 'No description available.'}
           </p>
 
-          {/* Stats row */}
           <div className="flex items-center gap-4 text-sm">
             <span className="flex items-center gap-1.5 text-gray-400">
               <Star size={14} className="text-yellow-500" />
-              {formatNumber(repo.stars)} stars
+              {formatStarCount(repo.stars)} stars
             </span>
             <span className="flex items-center gap-1.5 text-gray-500">
               <span className="w-2.5 h-2.5 rounded-full bg-gray-400 inline-block" />
@@ -117,15 +102,10 @@ export default function RepoPopup({
 
           {/* Trend deltas */}
           <div className="grid grid-cols-4 gap-2">
-            {([
-              ['Today', repo.delta_day],
-              ['This Week', repo.delta_week],
-              ['This Month', repo.delta_month],
-              ['This Year', repo.delta_year],
-            ] as const).map(([label, delta]) => (
+            {deltas.map(([label, delta]) => (
               <div key={label} className="rounded-lg bg-gray-800/60 p-2.5 text-center">
                 <div className={`text-sm font-semibold tabular-nums ${delta > 0 ? 'text-emerald-400' : delta < 0 ? 'text-red-400' : 'text-gray-500'}`}>
-                  {delta > 0 ? '+' : ''}{formatNumber(delta as number)}
+                  {delta > 0 ? '+' : ''}{formatStarCount(delta)}
                 </div>
                 <div className="text-[10px] text-gray-600 mt-0.5">{label}</div>
               </div>

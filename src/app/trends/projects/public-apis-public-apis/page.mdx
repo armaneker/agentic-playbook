@@ -1,0 +1,60 @@
+<GuideHeader tool="public-apis" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Public APIs
+
+A community-curated collection of free public APIs organized by category. This repository serves as a centralized directory for developers to discover APIs across domains like finance, weather, entertainment, and more.
+
+## Key Features
+
+- **Categorized listings** - APIs organized into 40+ categories from Animals to Weather
+- **Detailed metadata** - Each API includes auth requirements, HTTPS support, and CORS status
+- **Community maintained** - Manually curated by developers with regular updates
+- **Machine-readable format** - Structured JSON data available via API
+- **Quality filtering** - Active maintenance ensures working endpoints
+
+## Installation
+
+Clone the repository to access the full API database:
+
+```bash
+git clone https://github.com/public-apis/public-apis.git
+cd public-apis
+```
+
+For programmatic access, use the JSON API:
+
+```bash
+curl https://api.publicapis.org/entries
+```
+
+## Basic Usage
+
+Browse categories in the README or query specific categories via the API:
+
+```python
+import requests
+
+# Get all APIs
+response = requests.get('https://api.publicapis.org/entries')
+apis = response.json()
+
+# Filter by category
+weather_apis = requests.get('https://api.publicapis.org/entries?category=weather')
+print(weather_apis.json())
+
+# Search by title
+finance_apis = requests.get('https://api.publicapis.org/entries?title=finance')
+```
+
+<Callout type="tip">
+Each API entry includes authentication requirements and CORS support to help you evaluate integration complexity upfront.
+</Callout>
+
+## Notable Details
+
+**License:** MIT  
+**Language:** Python  
+**Community:** 415K+ stars, active Discord community  
+**Maintenance:** Regular community contributions and API validation
+
+The repository includes both the curated list and tooling to validate API endpoints, making it a reliable resource for discovery.

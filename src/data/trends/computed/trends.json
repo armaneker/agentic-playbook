@@ -161,7 +161,7 @@
       "delta_week": 1657,
       "delta_month": 4441,
       "delta_year": 8519,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "A community-curated catalog of free public APIs organized by category and domain. Developers use it to discover APIs for prototyping, building applications, or integrating external data sources without having to research individual providers. With over 415k stars, it's become the de facto reference for finding publicly available APIs."
@@ -359,7 +359,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "claude-peers-mcp is an MCP server that enables multiple Claude Code instances running on the same machine to discover and communicate with each other in real-time. It allows Claude instances to send messages across different projects/directories, list other active peers, and share summaries of what they're working on through a local broker daemon. Messages arrive instantly via Claude's channel protocol, making it useful for coordinating work across multiple concurrent Claude sessions."
     },
     {
       "full_name": "gsd-build/gsd-2",
@@ -479,7 +479,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "A TypeScript SDK that bridges arbitrary AI agents to WeChat by implementing a simple Agent interface with chat methods. It enables developers to connect any AI backend (OpenAI, Claude, etc.) to WeChat without needing a public server, using long polling to receive messages and handling media file encryption/decryption automatically. The project includes an ACP (Agent Client Protocol) adapter that allows zero-code integration with compatible agents like Claude Code and Codex."
     },
     {
       "full_name": "langgenius/dify",
@@ -581,7 +581,7 @@
       "delta_week": 340,
       "delta_month": 1056,
       "delta_year": 3079,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "The System Design Primer is a comprehensive educational repository that teaches large-scale system design principles and concepts. It serves as both a learning resource for engineers wanting to understand distributed systems architecture and a structured preparation guide for technical interviews at major tech companies. The repository includes Anki flashcard decks for spaced repetition learning and has been translated into over 15 languages."
@@ -599,7 +599,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v1.0.0",
-      "blurb": null
+      "blurb": "codex-console is an integrated control panel for OpenAI account management that handles registration, login, token extraction, and batch processing operations. It addresses recent breaking changes in OpenAI's registration pipeline, including Sentinel POW solving and updated authentication flows that were causing existing tools to fail. This is a maintained fork of cnlimiter/codex-manager with compatibility fixes for current OpenAI registration requirements."
     },
     {
       "full_name": "open-webui/open-webui",
@@ -734,7 +734,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": "v0.1.0",
-      "blurb": null
+      "blurb": "MicroWARP is an 800KB RAM ultra-lightweight Cloudflare WARP SOCKS5 proxy packaged in a Docker container. It replaces the official Cloudflare warp-cli daemon with Linux's native WireGuard kernel interface and a pure C microsocks server, reducing memory usage by 99.4% compared to existing solutions. The entire Docker image is only 9MB and supports multi-architecture deployment with custom authentication and endpoint configuration."
     },
     {
       "full_name": "ghostty-org/ghostling",
@@ -854,7 +854,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "ClawTeam-OpenClaw is a multi-agent swarm coordination framework that enables CLI coding agents to self-organize into teams for collaborative software development. It allows agents to autonomously spawn workers, distribute tasks, communicate through message passing, and merge results without human orchestration, using filesystem-based coordination and git worktrees for isolation. The framework supports any CLI agent but defaults to OpenClaw integration with auto-injected coordination commands."
     },
     {
       "full_name": "Gen-Verse/OpenClaw-RL",
@@ -926,7 +926,7 @@
       "delta_week": 222,
       "delta_month": 633,
       "delta_year": 1962,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "4.0",
       "blurb": "Developer Roadmap is a community-driven collection of interactive learning paths and guides for software engineers across different technologies and career tracks. It provides structured curricula covering everything from frontend/backend development to DevOps, data science, and engineering management to help developers plan their skill development. The roadmaps feature interactive nodes that can be clicked for detailed explanations of each topic."
@@ -1049,7 +1049,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a Claude Code plugin that integrates WeChat messaging functionality into the terminal. It allows users to receive and reply to WeChat messages directly through Claude Code using the WeChat iLink Bot API with HTTP long-polling. The plugin requires QR code authentication and a pairing process to connect your WeChat account, with all communication handled locally without needing public webhooks."
     },
     {
       "full_name": "Nunchi-trade/auto-researchtrading",
@@ -1064,7 +1064,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Auto-researchtrading is an AI-driven system that autonomously discovers trading strategies for Hyperliquid perpetual futures by iteratively modifying a single strategy file and backtesting improvements. It uses an agent that proposes changes, runs backtests against historical data, and keeps only modifications that improve performance metrics like Sharpe ratio. The system achieved a 7.9x improvement over 103 experiments, evolving from a baseline Sharpe ratio of 2.7 to 21.4 with 0.3% max drawdown."
     },
     {
       "full_name": "cnlimiter/codex-manager",
@@ -1109,7 +1109,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a GitHub repository for an autoresearch skill with no available documentation or clear language identification. Without a README or description, its purpose and functionality cannot be determined from the provided information. The 563 stars suggest community interest, but the lack of documentation makes evaluation impossible."
     },
     {
       "full_name": "EbookFoundation/free-programming-books",
@@ -1121,7 +1121,7 @@
       "delta_week": 162,
       "delta_month": 579,
       "delta_year": 1970,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "This is a curated list of freely available programming books and learning resources organized by language and topic. Developers use it to find quality educational materials without cost, covering everything from beginner tutorials to advanced technical references. With over 384k stars, it's one of GitHub's most popular repositories and includes a searchable web interface."
@@ -1184,7 +1184,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "InSpatio-World is a video-to-video generation model that performs novel view synthesis using camera trajectory control. It takes input videos and generates new viewpoints by following specified camera paths, using a multi-step pipeline that combines video captioning, depth estimation, and diffusion-based rendering. The system offers both 14B and 1.3B parameter variants and integrates multiple pre-trained models including Florence-2 for captioning and Depth-Anything-3 for depth estimation."
     },
     {
       "full_name": "Lakr233/vphone-cli",

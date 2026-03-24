@@ -1103,7 +1103,7 @@
       "language": "Python",
       "url": "https://github.com/public-apis/public-apis",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "api",
         "apis",
@@ -1128,7 +1128,7 @@
       "language": "Python",
       "url": "https://github.com/EbookFoundation/free-programming-books",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "books",
         "education",
@@ -1145,7 +1145,7 @@
       "language": "TypeScript",
       "url": "https://github.com/kamranahmedse/developer-roadmap",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "angular-roadmap",
         "backend-roadmap",
@@ -1176,7 +1176,7 @@
       "language": "Python",
       "url": "https://github.com/donnemartin/system-design-primer",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "design",
         "design-patterns",
@@ -1201,7 +1201,7 @@
       "language": "HTML",
       "url": "https://github.com/ossu/computer-science",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "awesome-list",
         "computer-science",
@@ -2349,7 +2349,8 @@
         "playlist",
         "streams",
         "tv"
-      ]
+      ],
+      "blurb": "A curated collection of publicly available IPTV channel streams from around the world, organized into M3U playlists. It provides direct streaming links that can be loaded into any compatible video player for watching live television channels over the internet. The repository explicitly contains only links to streams, not the video content itself, with over 113k stars indicating significant community adoption."
     },
     "mrdoob/three.js": {
       "full_name": "mrdoob/three.js",
@@ -2371,7 +2372,8 @@
         "webgl2",
         "webgpu",
         "webxr"
-      ]
+      ],
+      "blurb": "Three.js is a cross-platform JavaScript library that provides a high-level API for creating and rendering 3D graphics in web browsers. It abstracts WebGL, WebGPU, and other rendering technologies to enable developers to build 3D scenes, games, data visualizations, and AR/VR experiences without dealing with low-level graphics programming. The library supports multiple renderers including WebGL, WebGPU, SVG, and CSS3D for maximum compatibility across different platforms and use cases."
     },
     "rust-lang/rust": {
       "full_name": "rust-lang/rust",
@@ -2384,7 +2386,8 @@
         "compiler",
         "language",
         "rust"
-      ]
+      ],
+      "blurb": "This is the main source code repository for the Rust programming language, containing the compiler, standard library, and documentation. It provides a systems programming language that enforces memory and thread safety at compile-time while delivering performance comparable to C and C++. The codebase is primarily written in Rust itself, demonstrating the language's capability for self-hosting compiler development."
     },
     "louislva/claude-peers-mcp": {
       "full_name": "louislva/claude-peers-mcp",
@@ -2394,7 +2397,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Agentic",
+      "blurb": "claude-peers-mcp is an MCP server that enables multiple Claude Code instances running on the same machine to discover and communicate with each other in real-time. It allows Claude instances to send messages across different projects/directories, list other active peers, and share summaries of what they're working on through a local broker daemon. Messages arrive instantly via Claude's channel protocol, making it useful for coordinating work across multiple concurrent Claude sessions."
     },
     "dou-jiang/codex-console": {
       "full_name": "dou-jiang/codex-console",
@@ -2405,7 +2409,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v1.0.0"
+      "version": "v1.0.0",
+      "blurb": "codex-console is an integrated control panel for OpenAI account management that handles registration, login, token extraction, and batch processing operations. It addresses recent breaking changes in OpenAI's registration pipeline, including Sentinel POW solving and updated authentication flows that were causing existing tools to fail. This is a maintained fork of cnlimiter/codex-manager with compatibility fixes for current OpenAI registration requirements."
     },
     "inspatio/inspatio-world": {
       "full_name": "inspatio/inspatio-world",
@@ -2415,7 +2420,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "InSpatio-World is a video-to-video generation model that performs novel view synthesis using camera trajectory control. It takes input videos and generates new viewpoints by following specified camera paths, using a multi-step pipeline that combines video captioning, depth estimation, and diffusion-based rendering. The system offers both 14B and 1.3B parameter variants and integrates multiple pre-trained models including Florence-2 for captioning and Depth-Anything-3 for depth estimation."
     },
     "win4r/ClawTeam-OpenClaw": {
       "full_name": "win4r/ClawTeam-OpenClaw",
@@ -2435,7 +2441,8 @@
         "swarm-intelligence",
         "swarms"
       ],
-      "category": "Agentic"
+      "category": "Agentic",
+      "blurb": "ClawTeam-OpenClaw is a multi-agent swarm coordination framework that enables CLI coding agents to self-organize into teams for collaborative software development. It allows agents to autonomously spawn workers, distribute tasks, communicate through message passing, and merge results without human orchestration, using filesystem-based coordination and git worktrees for isolation. The framework supports any CLI agent but defaults to OpenClaw integration with auto-injected coordination commands."
     },
     "sparkyniner/Netryx-OpenSource-Next-Gen-Street-Level-Geolocation": {
       "full_name": "sparkyniner/Netryx-OpenSource-Next-Gen-Street-Level-Geolocation",
@@ -2445,7 +2452,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "Netryx is an open-source, locally-hosted geolocation engine that identifies GPS coordinates of street-level photographs using computer vision models. It matches uploaded photos against systematically crawled street-view panoramas rather than web images, enabling geolocation of any street corner regardless of internet presence. The system achieves sub-50m accuracy through a three-stage pipeline combining global visual place recognition, local feature matching, and geometric verification."
     },
     "olelehmann100kMRR/autoresearch-skill": {
       "full_name": "olelehmann100kMRR/autoresearch-skill",
@@ -2455,7 +2463,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "This is a GitHub repository for an autoresearch skill with no available documentation or clear language identification. Without a README or description, its purpose and functionality cannot be determined from the provided information. The 563 stars suggest community interest, but the lack of documentation makes evaluation impossible."
     },
     "naver-ai/seoul-world-model": {
       "full_name": "naver-ai/seoul-world-model",
@@ -2464,7 +2473,8 @@
       "url": "https://github.com/naver-ai/seoul-world-model",
       "first_seen": "2026-03-23",
       "has_summary": false,
-      "topics": []
+      "topics": [],
+      "blurb": "Seoul World Model is a world simulation system trained on data from the real city of Seoul. It enables grounding of simulation models in actual urban environments rather than synthetic or simplified scenarios. The project is still in development with model checkpoints and training data planned for release after internal review."
     },
     "wong2/weixin-agent-sdk": {
       "full_name": "wong2/weixin-agent-sdk",
@@ -2474,7 +2484,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Agentic"
+      "category": "Agentic",
+      "blurb": "A TypeScript SDK that bridges arbitrary AI agents to WeChat by implementing a simple Agent interface with chat methods. It enables developers to connect any AI backend (OpenAI, Claude, etc.) to WeChat without needing a public server, using long polling to receive messages and handling media file encryption/decryption automatically. The project includes an ACP (Agent Client Protocol) adapter that allows zero-code integration with compatible agents like Claude Code and Codex."
     },
     "Krypto-Hashers-Community/polymarket-trading-bot": {
       "full_name": "Krypto-Hashers-Community/polymarket-trading-bot",
@@ -2496,7 +2507,8 @@
         "trading",
         "trading-bot",
         "trading-bot-polymarket"
-      ]
+      ],
+      "blurb": "This is a TypeScript trading bot that automates trading on Polymarket's binary crypto markets (e.g., \"Bitcoin up or down in the next 15 minutes\"). It implements trend-following and binary market arbitrage strategies by connecting to Polymarket's CLOB and real-time data feeds to detect price movements and execute trades on both UP and DOWN tokens. Order placement is currently commented out, making it a framework for strategy development rather than a live trading system."
     },
     "m1heng/claude-plugin-weixin": {
       "full_name": "m1heng/claude-plugin-weixin",
@@ -2506,7 +2518,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "This is a Claude Code plugin that integrates WeChat messaging functionality into the terminal. It allows users to receive and reply to WeChat messages directly through Claude Code using the WeChat iLink Bot API with HTTP long-polling. The plugin requires QR code authentication and a pairing process to connect your WeChat account, with all communication handled locally without needing public webhooks."
     },
     "romhans59/bunkr-downloader-2026": {
       "full_name": "romhans59/bunkr-downloader-2026",
@@ -2531,7 +2544,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "AERIS-10 is an open-source 10.5 GHz phased array radar system that uses Pulse Linear Frequency Modulated (PLFM) waveforms and electronic beam steering. It provides researchers and developers with a complete, hackable platform for experimenting with advanced radar techniques like beamforming, pulse compression, and Doppler processing at a fraction of commercial system costs. The system comes in two variants offering 3km and 20km range capabilities with full hardware schematics, FPGA firmware, and Python GUI included."
     },
     "Nunchi-trade/auto-researchtrading": {
       "full_name": "Nunchi-trade/auto-researchtrading",
@@ -2541,7 +2555,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "Auto-researchtrading is an AI-driven system that autonomously discovers trading strategies for Hyperliquid perpetual futures by iteratively modifying a single strategy file and backtesting improvements. It uses an agent that proposes changes, runs backtests against historical data, and keeps only modifications that improve performance metrics like Sharpe ratio. The system achieved a 7.9x improvement over 103 experiments, evolving from a baseline Sharpe ratio of 2.7 to 21.4 with 0.3% max drawdown."
     },
     "Kaleighc793/freqtrade-bot": {
       "full_name": "Kaleighc793/freqtrade-bot",
@@ -2571,7 +2586,8 @@
         "trading-cryptobot",
         "trading-strategy",
         "webui"
-      ]
+      ],
+      "blurb": "This is a CLI launcher and management console for Freqtrade, an open-source cryptocurrency trading bot. It provides a terminal interface for configuring and running automated trading strategies with features like backtesting, hyperparameter optimization, and support for 10+ exchanges including Binance and Kraken. The tool includes both dry-run paper trading and live trading modes with a Rich-based terminal UI and web dashboard."
     },
     "HenryXiaoYang/wechat-openclaw-channel": {
       "full_name": "HenryXiaoYang/wechat-openclaw-channel",
@@ -2588,7 +2604,8 @@
         "wechat",
         "wechat-bot",
         "workbuddy"
-      ]
+      ],
+      "blurb": "This is a WeChat channel plugin for OpenClaw that supports both QClaw and WorkBuddy login modes via WebSocket connections. It enables users to interact with OpenClaw agents through WeChat by providing OAuth authentication, device binding, and message handling between WeChat and the OpenClaw runtime. The plugin extracts and repurposes WeChat's channel implementation from their OpenClaw wrapper for direct use with the open-source OpenClaw project."
     },
     "ethanjyx/OpenBrand": {
       "full_name": "ethanjyx/OpenBrand",
@@ -2598,7 +2615,8 @@
       "first_seen": "2026-03-23",
       "has_summary": false,
       "topics": [],
-      "category": "Other"
+      "category": "Other",
+      "blurb": "OpenBrand is a TypeScript tool that extracts brand assets (logos, colors, backdrop images, and names) from any website URL. It serves as an open-source alternative to Brand.dev for developers who need to programmatically gather brand materials for design systems, competitive analysis, or marketing workflows. The tool is available as an API, npm package, MCP server, and self-hostable web application with no environment variables required."
     },
     "ccbkkb/MicroWARP": {
       "full_name": "ccbkkb/MicroWARP",
@@ -2621,7 +2639,8 @@
         "zero-trust"
       ],
       "category": "DevTools",
-      "version": "v0.1.0"
+      "version": "v0.1.0",
+      "blurb": "MicroWARP is an 800KB RAM ultra-lightweight Cloudflare WARP SOCKS5 proxy packaged in a Docker container. It replaces the official Cloudflare warp-cli daemon with Linux's native WireGuard kernel interface and a pure C microsocks server, reducing memory usage by 99.4% compared to existing solutions. The entire Docker image is only 9MB and supports multi-architecture deployment with custom authentication and endpoint configuration."
     },
     "Shpigford/chops": {
       "full_name": "Shpigford/chops",

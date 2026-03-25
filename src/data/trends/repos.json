@@ -933,13 +933,12 @@
     "rzru/nightingale": {
       "full_name": "rzru/nightingale",
       "description": "Machine learning powered Karaoke app (with scores!) ",
-      "language": "Rust",
+      "language": "TypeScript",
       "url": "https://github.com/rzru/nightingale",
       "first_seen": "2026-03-22",
       "has_summary": true,
       "topics": [
         "ai",
-        "bevy",
         "bevy-engine",
         "demucs",
         "karaoke",
@@ -949,12 +948,19 @@
         "machine-learning-algorithms",
         "ml",
         "party",
+        "react",
         "rust",
+        "shadcn",
+        "tailwind",
+        "tauri",
+        "tauri-app",
         "whisper",
         "whisper-ai",
         "whisperx"
       ],
-      "blurb": "Nightingale is a self-contained Rust application that converts any song in your music library into karaoke by using machine learning to separate vocals from instrumentals and generate synchronized lyrics. It automatically handles the entire pipeline from audio processing (using UVR Karaoke model or Demucs for stem separation) to lyric transcription (via WhisperX) and includes real-time pitch scoring, player profiles, and multiple background themes. The application ships as a single binary with all dependencies (Python, PyTorch, ML models) automatically downloaded and bootstrapped on first launch."
+      "blurb": "Nightingale is a self-contained Rust application that converts any song in your music library into karaoke by using machine learning to separate vocals from instrumentals and generate synchronized lyrics. It automatically handles the entire pipeline from audio processing (using UVR Karaoke model or Demucs for stem separation) to lyric transcription (via WhisperX) and includes real-time pitch scoring, player profiles, and multiple background themes. The application ships as a single binary with all dependencies (Python, PyTorch, ML models) automatically downloaded and bootstrapped on first launch.",
+      "category": "AI / ML",
+      "version": "v0.3.3"
     },
     "frank890417/taiwan-md": {
       "full_name": "frank890417/taiwan-md",
@@ -2939,8 +2945,9 @@
         "autoresearch",
         "awesome-list",
         "claude-code",
-        "codex",
         "experiment-loops",
+        "karpathy",
+        "karpathy-inspired",
         "llm-agents",
         "research-agents",
         "scientific-discovery",
@@ -3052,6 +3059,63 @@
       "category": "Other",
       "version": null,
       "blurb": "LeWorldModel is a Joint Embedding Predictive Architecture (JEPA) that learns world models from raw pixels using only two loss terms instead of complex multi-term objectives. It trains stably end-to-end on a single GPU in hours while planning up to 48× faster than foundation-model-based world models, making it practical for 2D and 3D control tasks. The model uses ~15M parameters and reduces tunable hyperparameters from six to one compared to existing end-to-end alternatives."
+    },
+    "krahets/hello-algo": {
+      "full_name": "krahets/hello-algo",
+      "description": "《Hello 算法》：动画图解、一键运行的数据结构与算法教程。支持简中、繁中、English、日本語，提供 Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart 等代码实现",
+      "language": "Java",
+      "url": "https://github.com/krahets/hello-algo",
+      "first_seen": "2026-03-25",
+      "has_summary": false,
+      "topics": [
+        "algo",
+        "algorithm",
+        "algorithms",
+        "book",
+        "data-structure",
+        "data-structures",
+        "data-structures-and-algorithms",
+        "dsa",
+        "education",
+        "leetcode",
+        "programming"
+      ],
+      "category": "Other",
+      "version": "1.3.0"
+    },
+    "mnfst/awesome-free-llm-apis": {
+      "full_name": "mnfst/awesome-free-llm-apis",
+      "description": "Permanent Free LLM API List (API Keys) 😎🔑",
+      "language": "Unknown",
+      "url": "https://github.com/mnfst/awesome-free-llm-apis",
+      "first_seen": "2026-03-25",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "gemini",
+        "llm",
+        "llm-router",
+        "llm-routing",
+        "ollama",
+        "openai",
+        "openclaw",
+        "openclaw-plugin",
+        "router"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "microsoft/RustTraining": {
+      "full_name": "microsoft/RustTraining",
+      "description": "Beginner, advanced, expert level Rust training material",
+      "language": "Rust",
+      "url": "https://github.com/microsoft/RustTraining",
+      "first_seen": "2026-03-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -1,0 +1,56 @@
+<GuideHeader tool="symphony" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Symphony
+
+Symphony turns project work into isolated, autonomous implementation runs, allowing teams to manage work instead of supervising coding agents. It operates at the work management level rather than the code supervision level.
+
+## Key Features
+
+- **Autonomous task execution** - Monitors work boards (Linear) and spawns agents to handle tasks
+- **Proof of work validation** - Provides CI status, PR reviews, complexity analysis, and walkthrough videos
+- **Safe PR landing** - Agents complete full implementation cycles without human supervision
+- **Work-level management** - Teams manage outcomes rather than micromanaging agent behavior
+- **Isolated implementation runs** - Each task runs independently with clear boundaries
+
+<Callout type="warning">
+Symphony is an engineering preview intended for trusted environments only.
+</Callout>
+
+## Installation
+
+Symphony works best in codebases with [harness engineering](https://openai.com/index/harness-engineering/) practices. You have two options:
+
+**Option 1: Build your own implementation**
+```bash
+# Tell your coding agent to implement Symphony using the spec
+# Point them to: https://github.com/openai/symphony/blob/main/SPEC.md
+```
+
+**Option 2: Use the reference Elixir implementation**
+```bash
+git clone https://github.com/openai/symphony.git
+cd symphony/elixir
+# Follow setup instructions in elixir/README.md
+```
+
+## Basic Usage
+
+Symphony monitors your Linear board for new tasks and automatically:
+
+1. Spawns coding agents for eligible work items
+2. Agents implement solutions autonomously  
+3. Provides proof of work (CI, reviews, videos)
+4. Lands PRs when accepted by the team
+
+The workflow shifts from supervising individual agent actions to approving completed work deliverables.
+
+<Callout type="info">
+Consider asking your coding agent to help with initial Symphony setup using the repository documentation.
+</Callout>
+
+## Notable Details
+
+- **Language**: Elixir reference implementation
+- **License**: Apache-2.0  
+- **Community**: 14,003 GitHub stars
+- **Status**: Experimental preview from OpenAI

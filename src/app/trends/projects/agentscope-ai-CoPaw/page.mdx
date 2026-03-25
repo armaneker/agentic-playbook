@@ -1,0 +1,61 @@
+<GuideHeader tool="CoPaw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# CoPaw
+
+CoPaw is a personal AI assistant that runs on your own machine or in the cloud. It connects to multiple chat platforms with extensible capabilities and maintains full control over your data.
+
+## Key Features
+
+- **Multi-platform support** — Works with DingTalk, Feishu, QQ, Discord, iMessage, and more
+- **Self-hosted** — Deploy locally or in the cloud with full data control
+- **Extensible skills** — Built-in cron scheduling and custom skills that auto-load from your workspace
+- **Content aggregation** — Daily digests from social platforms, newsletter summaries, YouTube/Bilibili content
+- **File management** — Organize files, read/summarize documents, request files via chat
+- **Memory and personalization** — Persistent context and scheduled reminders across channels
+
+## Installation
+
+<Callout type="info">
+CoPaw requires Python 3.10 or higher (up to 3.13).
+</Callout>
+
+### Using pip
+
+```bash
+pip install copaw
+copaw init --defaults
+copaw app
+```
+
+Then open **http://127.0.0.1:8088/** in your browser to access the Console.
+
+## Basic Usage
+
+Once installed, CoPaw provides a web-based Console for configuration and chat:
+
+```bash
+# Start the application
+copaw app
+
+# Initialize with custom settings
+copaw init  # Interactive setup
+```
+
+The Console allows you to:
+- Chat directly with your AI assistant
+- Configure chat channels (DingTalk, Discord, etc.)
+- Set up scheduled tasks and reminders
+- Manage custom skills and integrations
+
+<Callout type="tip">
+To connect additional chat platforms, configure channels through the Console interface following the [official documentation](https://copaw.agentscope.io/docs/channels).
+</Callout>
+
+## Notable Details
+
+- **License:** Apache 2.0
+- **Language:** Python
+- **Community:** 13,250+ GitHub stars
+- **Active development** with regular releases (latest: v0.2.0)
+- Strong contributor community with comprehensive documentation
+- Supports both local and cloud deployment options

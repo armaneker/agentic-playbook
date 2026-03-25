@@ -1,0 +1,84 @@
+<GuideHeader tool="edict" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Edict - Tang Dynasty Multi-Agent Orchestration
+
+Edict implements a multi-agent AI system using the three-chancellery-six-ministry (三省六部) structure from ancient Chinese imperial administration. It features 12 specialized agents with real-time dashboard monitoring, audit trails, and mandatory review processes.
+
+## Key Features
+
+- **Hierarchical Agent Architecture** - 12 specialized AI agents organized in Tang Dynasty governmental structure
+- **Mandatory Review Layer** - Door Chancellery (门下省) performs quality control and can reject work for revision
+- **Real-time Dashboard** - Kanban board with task monitoring, agent health status, and intervention controls
+- **Complete Audit Trail** - Full task lifecycle tracking from imperial edict to completion report
+- **Model Hot-swapping** - Switch LLMs per agent without system restart
+- **Task Intervention** - Pause, cancel, or resume tasks through dashboard
+- **Skills Management** - View and add capabilities to individual agents
+- **News Aggregation** - Automated tech/finance news collection with Feishu integration
+
+<Callout type="info">
+Unlike CrewAI or AutoGen where agents collaborate freely, Edict enforces institutional checks and balances - every task must pass through mandatory review before execution.
+</Callout>
+
+## Installation
+
+### Prerequisites
+- [OpenClaw](https://openclaw.ai) installed
+- Python 3.9+
+- macOS or Linux
+
+### Quick Install
+
+```bash
+git clone https://github.com/cft0808/edict.git
+cd edict
+chmod +x install.sh && ./install.sh
+```
+
+The installer automatically:
+- Creates 12 agent workspaces with role definitions
+- Configures agent communication permissions
+- Syncs API keys across all agents
+- Builds React frontend (requires Node.js 18+)
+
+<Callout type="warning">
+First-time setup requires configuring API keys: `openclaw agents add taizi`, then re-run `./install.sh` to sync to all agents.
+</Callout>
+
+## Basic Usage
+
+Start the system with two terminals:
+
+```bash
+# Terminal 1: Data refresh loop
+bash scripts/run_loop.sh
+
+# Terminal 2: Dashboard server
+python3 dashboard/server.py
+```
+
+Open http://127.0.0.1:7891 for the dashboard.
+
+### Docker Demo
+
+```bash
+docker run -p 7891:7891 cft0808/sansheng-demo
+```
+
+<Callout type="tip">
+The Docker image includes pre-populated demo data so you can explore the dashboard immediately without setting up OpenClaw.
+</Callout>
+
+### Issuing Tasks
+
+Send messages through your configured channels (Feishu, Telegram, Signal). The Crown Prince (太子) agent triages messages - casual chat gets immediate responses, formal edicts create tracked tasks that flow through the three-chancellery review process.
+
+## Notable Details
+
+**License:** MIT  
+**Language:** Python with React frontend  
+**Community:** 12.7K+ GitHub stars  
+**Architecture:** Based on 1,300-year-old Tang Dynasty administrative system with modern AI orchestration  
+**Dependencies:** Zero backend dependencies beyond Python stdlib  
+**Deployment:** One-click Docker or local installation
+
+The system enforces a strict workflow: Crown Prince → Central Chancellery (planning) → Door Chancellery (review) → Imperial Chancellery (dispatch) → Six Ministries (execution) → Report back. This institutional approach provides better reliability and observability than typical multi-agent frameworks.

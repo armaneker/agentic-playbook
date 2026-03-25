@@ -1412,7 +1412,7 @@
       "language": "Elixir",
       "url": "https://github.com/openai/symphony",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "blurb": "Symphony is an orchestration framework that converts project work into isolated, autonomous implementation runs using coding agents. It allows engineering teams to manage work at a higher level rather than directly supervising AI coding agents, with agents handling tasks like CI checks, PR reviews, and code implementation. The project is currently an experimental preview that works best with codebases following \"harness engineering\" practices."
@@ -1423,7 +1423,7 @@
       "language": "Python",
       "url": "https://github.com/agentscope-ai/CoPaw",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Agentic",
       "version": "v0.1.0.post1",
@@ -1435,7 +1435,7 @@
       "language": "Python",
       "url": "https://github.com/cft0808/edict",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-agents",
         "ai-orchestration",
@@ -1460,7 +1460,7 @@
       "language": "TypeScript",
       "url": "https://github.com/THU-MAIC/OpenMAIC",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "blurb": "OpenMAIC is an open-source AI platform that transforms any topic or document into an interactive classroom experience with AI teachers and classmates. It automatically generates slides, quizzes, simulations, and project-based learning activities through multi-agent orchestration, enabling real-time discussions with AI agents that can speak and draw on whiteboards. The platform includes one-click deployment and integrates with messaging apps like Slack and Telegram through OpenClaw."
@@ -1471,7 +1471,7 @@
       "language": "Python",
       "url": "https://github.com/Panniantong/Agent-Reach",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "agent-infrastructure",
         "ai-agent",
@@ -3081,7 +3081,8 @@
         "programming"
       ],
       "category": "Other",
-      "version": "1.3.0"
+      "version": "1.3.0",
+      "blurb": "Hello-algo is an open-source data structures and algorithms tutorial that uses animated visualizations and runnable code examples. It's designed for beginners to learn DSA concepts through visual explanations and hands-on practice, with implementations available in 13+ programming languages. The project supports four languages (Chinese Simplified/Traditional, English, Japanese) and has accumulated over 120k GitHub stars."
     },
     "mnfst/awesome-free-llm-apis": {
       "full_name": "mnfst/awesome-free-llm-apis",
@@ -3104,7 +3105,8 @@
         "router"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "This is a curated list of LLM APIs that offer permanent free tiers for text inference, including both provider APIs (Cohere, Google Gemini, Mistral) and third-party inference platforms (Groq, Hugging Face, OpenRouter). Developers can use this to access various language models without upfront costs for prototyping, small-scale applications, or testing different models before committing to paid plans. Most endpoints are OpenAI SDK-compatible, making integration straightforward."
     },
     "microsoft/RustTraining": {
       "full_name": "microsoft/RustTraining",
@@ -3115,7 +3117,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Microsoft's RustTraining is a comprehensive collection of seven training courses that teach Rust programming from beginner to expert level, targeting developers from different language backgrounds. It provides structured learning paths covering everything from language fundamentals to advanced topics like async programming, type-level techniques, and production engineering practices. The material consolidates knowledge from across the Rust ecosystem into a cohesive curriculum with dedicated tracks for C/C++, C#, and Python developers."
     }
   }
 }

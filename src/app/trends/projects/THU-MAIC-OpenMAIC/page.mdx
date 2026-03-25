@@ -1,0 +1,65 @@
+<GuideHeader tool="OpenMAIC" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# OpenMAIC
+
+OpenMAIC (Open Multi-Agent Interactive Classroom) is an AI platform that transforms any topic or document into an interactive classroom experience. It uses multi-agent orchestration to create AI teachers and classmates that deliver lessons through real-time discussions, whiteboard interactions, and immersive simulations.
+
+## Key Features
+
+- **One-click lesson generation** — Describe a topic or upload materials; AI builds complete lessons in minutes
+- **Multi-agent classroom** — AI teachers and peers lecture, discuss, and interact in real-time
+- **Rich scene types** — Slides, quizzes, interactive HTML simulations, and project-based learning
+- **Whiteboard & TTS** — Agents draw diagrams, write formulas, and explain with voice
+- **Export capabilities** — Download editable `.pptx` slides or interactive `.html` pages
+- **OpenClaw integration** — Generate classrooms from 20+ messaging apps via AI assistant
+
+## Installation
+
+<Callout type="info">
+Requires Node.js ≥20 and pnpm ≥10
+</Callout>
+
+```bash
+git clone https://github.com/THU-MAIC/OpenMAIC.git
+cd OpenMAIC
+pnpm install
+```
+
+Configure environment variables:
+
+```bash
+cp .env.example .env.local
+```
+
+Add at least one LLM provider key to `.env.local`:
+
+```env
+OPENAI_API_KEY=sk-...
+ANTHROPIC_API_KEY=sk-ant-...
+GOOGLE_API_KEY=...
+```
+
+Start the development server:
+
+```bash
+pnpm dev
+```
+
+## Basic Usage
+
+1. Open http://localhost:3000
+2. Describe what you want to learn or upload reference materials
+3. AI generates a structured lesson outline
+4. Each outline item becomes an interactive scene with AI agents
+5. Engage with AI teachers and classmates through discussions and activities
+
+<Callout type="tip">
+**Recommended model:** Gemini 3 Flash for best balance of quality and speed. For highest quality, use Gemini 3.1 Pro.
+</Callout>
+
+## Notable Details
+
+- **License:** AGPL-3.0
+- **Language:** TypeScript (Next.js, React 19, LangGraph)
+- **Community:** 12,219 GitHub stars, Discord and Feishu communities
+- **Deployment:** One-click Vercel deployment available, Docker support included

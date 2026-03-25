@@ -1,0 +1,82 @@
+<GuideHeader tool="Agent-Reach" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Agent Reach
+
+Agent Reach gives AI agents the ability to read and search across the entire internet. It provides a unified CLI interface for accessing Twitter, Reddit, YouTube, GitHub, Bilibili, XiaoHongShu and more without API fees.
+
+## What it does
+
+- **Web scraping**: Read any webpage, extract YouTube transcripts, parse RSS feeds
+- **Social media access**: Search Twitter, Reddit, XiaoHongShu content without paid APIs
+- **Developer tools**: GitHub repository analysis, issue tracking, search capabilities
+- **Video platforms**: Extract transcripts from YouTube and Bilibili videos
+- **Search integration**: Semantic web search via Exa MCP integration
+- **Zero configuration**: Works immediately after installation for most platforms
+- **Privacy-focused**: All credentials stored locally, no data uploaded
+
+<Callout type="warning">
+Using cookie-based authentication (Twitter, XiaoHongShu) carries account suspension risk. Use dedicated test accounts, not your primary accounts.
+</Callout>
+
+## Installation
+
+Copy this instruction to your AI agent (Claude, Cursor, OpenClaw):
+
+```
+Help me install Agent Reach: https://raw.githubusercontent.com/Panniantong/agent-reach/main/docs/install.md
+```
+
+The agent will handle dependency installation, system setup, and configuration automatically.
+
+<Callout type="info">
+For OpenClaw users, ensure exec permissions are enabled by setting tools profile to "coding" before installation.
+</Callout>
+
+## Basic usage
+
+After installation, your agent can directly use these capabilities:
+
+```bash
+# Read any webpage
+curl https://r.jina.ai/URL
+
+# Extract YouTube transcript
+yt-dlp --dump-json VIDEO_URL
+
+# Read GitHub repository
+gh repo view owner/repo
+
+# Search GitHub repos
+gh search repos "LLM framework"
+
+# Check all platform status
+agent-reach doctor
+```
+
+Your agent automatically learns these commands from the installed SKILL.md file.
+
+## Platform support
+
+| Platform | Status | Configuration |
+|----------|--------|---------------|
+| Web pages | ✅ Ready | None required |
+| YouTube | ✅ Ready | None required |
+| GitHub | ✅ Ready | Login for private repos |
+| RSS feeds | ✅ Ready | None required |
+| Twitter/X | 🔧 Config needed | Cookie authentication |
+| Reddit | 🔧 Config needed | Proxy for full access |
+| XiaoHongShu | 🔧 Config needed | Cookie authentication |
+| Bilibili | 🔧 Config needed | Proxy for servers |
+
+## Notable details
+
+- **License**: MIT
+- **Language**: Python 3.10+
+- **Community**: 10.7K+ GitHub stars
+- **Architecture**: Pluggable channels, each platform uses dedicated upstream tools
+- **Dependencies**: Leverages proven tools like yt-dlp, gh CLI, Jina Reader
+- **Security**: Local credential storage with 600 file permissions
+
+<Callout type="tip">
+Agent Reach is a scaffolding tool, not a framework. It configures and integrates existing tools rather than wrapping them, so agents call upstream tools directly.
+</Callout>

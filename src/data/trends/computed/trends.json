@@ -26,7 +26,7 @@
       "delta_week": 5463,
       "delta_month": 14272,
       "delta_year": 14272,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "AutoResearch is an autonomous AI research system that lets AI agents iteratively experiment on small-scale LLM training setups without human intervention. Agents modify training code, run 5-minute experiments, evaluate results, and repeat the cycle overnight to potentially discover better models or training techniques. The system uses a simplified single-GPU GPT implementation where agents edit the training file while humans program the research directions through Markdown instruction files."
@@ -416,7 +416,7 @@
       "delta_week": 442,
       "delta_month": 1498,
       "delta_year": 6526,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "DigitalPlat FreeDomain is a free domain registration service offering subdomains under extensions like .DPDNS.ORG and .US.KG. It provides free domain names to remove cost barriers for individuals and organizations wanting to establish a web presence, with users managing DNS through providers like Cloudflare. The service has registered over 400,000 domains and started as a personal DNS experiment by a 15-year-old."
@@ -689,7 +689,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v1.6.0",
-      "blurb": null
+      "blurb": "Chops is a native macOS app built in Swift that provides centralized management of AI coding agent skills across multiple tools like Claude Code, Cursor, Codex, Windsurf, and Amp. It eliminates the need to manually dig through dotfiles by offering a unified interface to discover, organize, edit, and search skills with real-time file watching and full-text search capabilities. The app uses SwiftUI + SwiftData architecture and can connect to remote skill servers for discovering and installing new skills."
     },
     {
       "full_name": "ghostty-org/ghostling",
@@ -746,7 +746,7 @@
       "delta_week": 251,
       "delta_month": 779,
       "delta_year": 2588,
-      "has_summary": false,
+      "has_summary": true,
       "category": "AI / ML",
       "version": "v0.18.2",
       "blurb": "Ollama is a local runtime for running open-source language models like Llama, Gemma, Qwen, and others on your machine. It provides a simple CLI interface and REST API for downloading, running, and interacting with these models without requiring cloud services or API keys. The project uses llama.cpp as its backend and offers official Python and JavaScript libraries for integration."
@@ -1121,7 +1121,7 @@
       "delta_week": 148,
       "delta_month": 401,
       "delta_year": 1416,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Mobile",
       "version": "v3.3.4",
       "blurb": "scrcpy is a cross-platform application that mirrors Android devices over USB or WiFi, allowing control via computer keyboard and mouse without requiring root or device-side apps. It provides low-latency screen mirroring with high performance (30-120fps) and additional features like audio forwarding, recording, and camera mirroring. The tool achieves 35-70ms latency and ~1 second startup time while being completely non-intrusive to the Android device."
@@ -1406,7 +1406,7 @@
       "delta_week": 54,
       "delta_month": 159,
       "delta_year": 671,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "Tech Interview Handbook is a comprehensive resource containing curated technical interview preparation materials covering algorithms, system design, behavioral questions, and resume guidance. Engineers use it as a time-efficient alternative to grinding through hundreds of LeetCode problems, providing structured study plans and practical advice for the entire interview process. The project includes the popular \"Blind 75\" and \"Grind 75\" curated problem sets and has helped over 1 million users."
@@ -1604,7 +1604,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Codebase to Course is a Claude Code skill that converts any codebase into an interactive single-page HTML course designed for non-technical \"vibe coders.\" It generates courses with side-by-side code translations, animated visualizations, practical quizzes, and scroll-based navigation to help users understand how code works without traditional CS education. The tool emphasizes a \"build first, understand later\" philosophy and produces self-contained HTML files that work offline."
     },
     {
       "full_name": "slavingia/skills",
@@ -1619,7 +1619,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a Claude Code plugin that implements business decision-making skills based on Sahil Lavingia's \"The Minimalist Entrepreneur\" methodology. It provides nine commands (like `/validate-idea`, `/mvp`, `/pricing`) that guide users through the entrepreneurial process from finding a community to scaling sustainably. The skills follow the book's structured progression from initial community building through product development to company culture decisions."
     },
     {
       "full_name": "eze-is/web-access",
@@ -1634,7 +1634,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a Claude Code skill that adds comprehensive web browsing capabilities through multi-layered channel scheduling, Chrome DevTools Protocol integration, and parallel task distribution. It enables Claude to automatically select between different web access methods (WebSearch, WebFetch, CDP browser automation, etc.) and perform real browser interactions using your existing Chrome session with login states preserved. The system accumulates site-specific knowledge across sessions and can spawn parallel sub-agents for complex multi-target tasks."
     },
     {
       "full_name": "gnekt/My-Brain-Is-Full-Crew",
@@ -1649,7 +1649,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "My-Brain-Is-Full-Crew is a system of 8 coordinated AI agents that automatically organize an Obsidian vault by processing natural language input through Claude. It handles knowledge management, email triage, transcription, and file organization without requiring manual folder structures or complex workflows, designed for overwhelmed users who need brain dump functionality rather than optimization tools. The system works in any language and uses a dispatcher to coordinate agent interactions automatically."
     },
     {
       "full_name": "fastclaw-ai/weclaw",
@@ -1664,7 +1664,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.4.1",
-      "blurb": null
+      "blurb": "WeClaw is a Go-based bridge that connects WeChat to AI agents like Claude, Codex, Gemini, and Kimi. It allows users to interact with these AI agents directly through WeChat messages using simple commands and automatically handles media content conversion. The tool supports multiple agent communication protocols (ACP, CLI, HTTP) and can proactively send messages via both CLI and HTTP API."
     },
     {
       "full_name": "facebookresearch/HyperAgents",
@@ -1679,7 +1679,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "HyperAgents is a framework for creating self-referential agents that can modify their own code to improve performance on computational tasks. It allows agents to iteratively optimize themselves across different domains by generating, testing, and integrating code modifications using foundation models. The system executes untrusted model-generated code, requiring careful safety considerations in deployment."
     },
     {
       "full_name": "opa334/darksword-kexploit",
@@ -1694,7 +1694,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "DarksSword is an iOS kernel exploit reimplemented in Objective-C that targets iOS versions 15.0 through 16.0.1. It provides kernel-level access for jailbreaking and security research purposes on compatible iOS devices. The implementation currently has hardcoded offsets specifically for iOS 15.x versions."
     },
     {
       "full_name": "alvinunreal/awesome-autoresearch",
@@ -1709,7 +1709,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "A curated list of autonomous improvement loops, research agents, and self-improving AI systems inspired by Karpathy's autoresearch project. It catalogs tools and frameworks that implement closed-loop optimization where AI agents iteratively improve their own performance across domains like code generation, research, and system optimization. The collection includes both general-purpose descendants and domain-specific adaptations, with several academic papers from ICLR 2025 on meta-agents and self-improving systems."
     },
     {
       "full_name": "vercel-labs/emulate",
@@ -1724,7 +1724,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Emulate is a TypeScript tool that provides local, stateful API emulators for popular services like Vercel, GitHub, and Google APIs. It enables developers to test applications in CI environments or no-network sandboxes without relying on external services or simple mocks. The emulators run as production-fidelity HTTP servers with zero configuration required, automatically starting on incrementing ports from 4000."
     },
     {
       "full_name": "dashersw/gea",
@@ -1739,7 +1739,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "@geajs/vite-plugin@1.0.4",
-      "blurb": null
+      "blurb": "Gea is a reactive JavaScript UI framework that compiles JSX to HTML templates at build time and uses proxy-based state management with surgical DOM patching. It eliminates virtual DOM overhead by tracking state changes through deep proxies and updating only the specific DOM nodes that depend on changed data, while providing built-in routing and state management. The framework requires no framework-specific primitives like signals or dependency arrays—you write plain JavaScript classes and methods, and the Vite plugin automatically wires up reactivity at compile time."
     },
     {
       "full_name": "rohitg00/ai-engineering-from-scratch",
@@ -1754,7 +1754,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "This is a comprehensive AI engineering curriculum with 230+ hands-on lessons across 20 phases, covering everything from linear algebra foundations to autonomous agent swarms using Python, TypeScript, Rust, and Julia. It focuses on building practical, reusable components like prompts, skills, agents, and MCP servers rather than just theoretical knowledge. The course emphasizes implementing algorithms from scratch before using frameworks, producing a portfolio of deployable tools."
     },
     {
       "full_name": "griffinmartin/opencode-claude-auth",
@@ -1769,7 +1769,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": "v1.1.1",
-      "blurb": null
+      "blurb": "This is an OpenCode plugin that enables Claude AI authentication using existing Claude Code credentials stored on your system. It eliminates the need for separate API keys or logins by automatically reading OAuth tokens from macOS Keychain or credential files and handling token refresh in the background. The plugin supports multiple Claude Code accounts on macOS with automatic detection and switching capabilities."
     },
     {
       "full_name": "LimHyungTae/Awesome-PhD-CV",
@@ -1799,7 +1799,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v2.0.0",
-      "blurb": null
+      "blurb": "NoPUA is a prompt engineering framework that replaces fear-based AI interactions with trust-based approaches to improve AI agent performance. It addresses the problem where threatening or pressuring AI models causes them to hide uncertainties, skip verification, and miss bugs, leading to lower quality outputs. Benchmark testing showed trust-based prompting found 104% more hidden bugs compared to fear-driven \"PUA\" approaches across the same debugging scenarios."
     },
     {
       "full_name": "Soul-AILab/SoulX-LiveAct",
@@ -1814,7 +1814,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "SoulX-LiveAct is a real-time human animation framework that generates lifelike, multimodal-controlled video streams using diffusion models with Neighbor Forcing and ConvKV Memory techniques. It enables hour-scale video generation with constant memory usage and achieves 20 FPS performance on two H100/H200 GPUs at 720×416 resolution for streaming applications like podcasts and video calls. The system supports consumer GPUs like RTX 5090 with model offloading, achieving 6 FPS with the 18B parameter model."
     },
     {
       "full_name": "iamlukethedev/Claw3D",
@@ -1829,7 +1829,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.1.2",
-      "blurb": null
+      "blurb": "Claw3D is a 3D workspace frontend that visualizes AI agents working in a shared virtual office environment, built on top of OpenClaw's automation runtime. It allows developers to monitor AI agent activities, run standups, review code, and manage automation tasks through an immersive 3D interface instead of traditional dashboards and logs. The project uses a gateway-first architecture where it serves as the visualization layer while OpenClaw handles the actual intelligence and task execution."
     },
     {
       "full_name": "ethanjyx/OpenBrand",

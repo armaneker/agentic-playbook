@@ -1,0 +1,73 @@
+<GuideHeader tool="ollama" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Ollama
+
+Ollama is a local runtime for large language models. It provides a simple interface to run and manage models like Gemma, Qwen, DeepSeek, and Llama locally without requiring cloud APIs.
+
+## Key Features
+
+- **Local model execution** - Run LLMs entirely on your machine
+- **REST API** - HTTP endpoints for integration with applications
+- **Multi-platform support** - Works on macOS, Windows, Linux, and Docker
+- **Model library** - Access to dozens of open models from the community
+- **Language bindings** - Official Python and JavaScript SDKs
+- **Built-in integrations** - Connect to Claude, Codex, and other AI tools
+
+## Installation
+
+**macOS/Linux:**
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```
+
+**Windows:**
+```powershell
+irm https://ollama.com/install.ps1 | iex
+```
+
+**Docker:**
+```bash
+docker run -d -v ollama:/root/.ollama -p 11434:11434 --name ollama ollama/ollama
+```
+
+<Callout type="info">
+The installer automatically starts the Ollama service on port 11434.
+</Callout>
+
+## Basic Usage
+
+**Run a model:**
+```bash
+ollama run gemma3
+```
+
+**REST API:**
+```bash
+curl http://localhost:11434/api/chat -d '{
+  "model": "gemma3",
+  "messages": [{"role": "user", "content": "Why is the sky blue?"}],
+  "stream": false
+}'
+```
+
+**Python SDK:**
+```python
+from ollama import chat
+
+response = chat(model='gemma3', messages=[
+  {'role': 'user', 'content': 'Why is the sky blue?'}
+])
+print(response.message.content)
+```
+
+<Callout type="tip">
+Browse available models at [ollama.com/library](https://ollama.com/library) - includes models from Meta, Google, Microsoft, and others.
+</Callout>
+
+## Notable Details
+
+- **License:** MIT
+- **Language:** Go
+- **Community:** 166K+ GitHub stars, active Discord and Reddit communities
+- **Backend:** Built on llama.cpp for efficient inference
+- **Ecosystem:** Extensive community integrations including web UIs, desktop apps, and IDE extensions

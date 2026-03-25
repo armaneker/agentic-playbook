@@ -1,0 +1,68 @@
+<GuideHeader tool="autoresearch" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# autoresearch
+
+Autoresearch enables AI agents to autonomously conduct ML research by iteratively modifying training code, running experiments, and evaluating results. The agent modifies a single file containing a GPT model implementation, runs 5-minute training sessions, and keeps improvements while discarding failed experiments.
+
+## Key Features
+
+- **Autonomous experimentation** - AI agents modify model architecture, hyperparameters, and training loops without human intervention
+- **Fixed time budget** - All experiments run for exactly 5 minutes, making results directly comparable
+- **Single-file modification** - Agents only edit `train.py`, keeping scope manageable and diffs reviewable  
+- **Self-contained setup** - Minimal dependencies with single-GPU nanochat training implementation
+- **Markdown-based programming** - Configure research behavior through `program.md` instruction files
+
+## Installation
+
+<Callout type="info">
+Requires a single NVIDIA GPU (tested on H100) and Python 3.10+
+</Callout>
+
+```bash
+# Install uv project manager
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Install dependencies
+uv sync
+
+# Download data and train tokenizer (one-time setup)
+uv run prepare.py
+
+# Test with manual training run
+uv run train.py
+```
+
+## Basic Usage
+
+After setup, point your AI agent (Claude, GPT-4, etc.) to the repository and prompt:
+
+```
+Hi have a look at program.md and let's kick off a new experiment! let's do the setup first.
+```
+
+The agent will:
+1. Read instructions from `program.md`
+2. Modify `train.py` with experimental changes
+3. Run 5-minute training session
+4. Evaluate validation bits per byte (lower is better)
+5. Keep or discard changes based on results
+6. Repeat autonomously
+
+<Callout type="tip">
+Expect approximately 12 experiments per hour or ~100 experiments overnight
+</Callout>
+
+## Project Structure
+
+- `prepare.py` - Constants, data prep, utilities (never modified)
+- `train.py` - Model, optimizer, training loop (agent modifies this)
+- `program.md` - Agent instructions (human edits this)
+
+## Notable Details
+
+- **License**: Unknown
+- **Language**: Python
+- **Community**: 54K+ GitHub stars
+- **Platform support**: NVIDIA GPU required (community forks available for macOS/Windows)
+- **Time budget**: Fixed 5-minute training runs for platform-agnostic comparison
+- **Metric**: Validation bits per byte (vocab-size independent)

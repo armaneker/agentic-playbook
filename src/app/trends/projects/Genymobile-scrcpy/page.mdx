@@ -1,0 +1,66 @@
+<GuideHeader tool="scrcpy" difficulty="Beginner" lastTested="2026-01" readTime="5 min" />
+
+# scrcpy
+
+scrcpy mirrors Android devices (video and audio) over USB or TCP/IP, allowing control via keyboard and mouse. It requires no root access or device apps.
+
+## Key Features
+
+- **Audio forwarding** (Android 11+) and screen recording
+- **Camera mirroring** (Android 12+) with webcam output on Linux
+- **Virtual displays** separate from device screen
+- **Low latency** (35-70ms) with 30-120fps performance
+- **Physical keyboard/mouse simulation** and gamepad support
+- **OTG mode** for control without mirroring
+- **Copy-paste** bidirectional support
+
+<Callout type="info">
+Requires Android 5.0+ (API 21) and USB debugging enabled. Some devices need "USB debugging (Security Settings)" enabled.
+</Callout>
+
+## Installation
+
+Platform-specific packages available:
+- **Linux**: Available in most distros (`apt install scrcpy`, `pacman -S scrcpy`)
+- **Windows**: Download from GitHub releases or use Chocolatey
+- **macOS**: Install via Homebrew (`brew install scrcpy`)
+
+## Basic Usage
+
+Mirror your device:
+```bash
+scrcpy
+```
+
+Optimize performance with lower resolution:
+```bash
+scrcpy -m1024
+```
+
+Record screen with H.265:
+```bash
+scrcpy --video-codec=h265 --max-size=1920 --max-fps=60 --record=output.mp4
+```
+
+Control without mirroring (OTG mode):
+```bash
+scrcpy --otg
+```
+
+## Common Controls
+
+- **Right-click**: Back button
+- **Middle-click**: Home button  
+- **Alt+F**: Toggle fullscreen
+- **Ctrl+C/V**: Copy/paste between device and computer
+
+<Callout type="tip">
+Use `scrcpy -m1024` to reduce resolution for better performance on slower connections.
+</Callout>
+
+## Project Details
+
+**License**: Apache 2.0  
+**Language**: C  
+**Community**: 137k+ GitHub stars  
+**Platform**: Linux, Windows, macOS

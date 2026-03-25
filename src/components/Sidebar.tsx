@@ -69,7 +69,7 @@ export default function Sidebar({ open, onClose }: SidebarProps) {
       <aside
         className={`
           fixed top-14 bottom-0 z-40 w-64 border-r border-gray-800 bg-gray-950 overflow-y-auto
-          transition-transform lg:translate-x-0 lg:static lg:z-auto
+          transition-transform lg:translate-x-0 lg:sticky lg:top-14 lg:h-[calc(100vh-3.5rem)] lg:shrink-0 lg:z-auto
           ${open ? 'translate-x-0' : '-translate-x-full'}
         `}
       >

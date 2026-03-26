@@ -1463,7 +1463,8 @@
       "has_summary": true,
       "topics": [],
       "category": "Other",
-      "blurb": "OpenMAIC is an open-source AI platform that transforms any topic or document into an interactive classroom experience with AI teachers and classmates. It automatically generates slides, quizzes, simulations, and project-based learning activities through multi-agent orchestration, enabling real-time discussions with AI agents that can speak and draw on whiteboards. The platform includes one-click deployment and integrates with messaging apps like Slack and Telegram through OpenClaw."
+      "blurb": "OpenMAIC is an open-source AI platform that transforms any topic or document into an interactive classroom experience with AI teachers and classmates. It automatically generates slides, quizzes, simulations, and project-based learning activities through multi-agent orchestration, enabling real-time discussions with AI agents that can speak and draw on whiteboards. The platform includes one-click deployment and integrates with messaging apps like Slack and Telegram through OpenClaw.",
+      "version": "v0.1.0"
     },
     "Panniantong/Agent-Reach": {
       "full_name": "Panniantong/Agent-Reach",

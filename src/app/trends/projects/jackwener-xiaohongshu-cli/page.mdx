@@ -1,0 +1,69 @@
+<GuideHeader tool="xiaohongshu-cli" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Xiaohongshu CLI
+
+A CLI for Xiaohongshu (小红书) that provides search, reading, and interaction capabilities through a reverse-engineered API. Built for programmatic access to the social platform with anti-detection features.
+
+## Key Features
+
+- **Authentication**: Auto-extract browser cookies, QR code login, session management
+- **Search & Discovery**: Search notes by keyword, users, topics, browse feeds and trending content
+- **Content Reading**: Read notes, comments, user profiles with short-index navigation (`xhs read 1`)
+- **Social Interactions**: Like, favorite, comment, follow/unfollow, post new content
+- **Creator Tools**: Post image notes, manage your content, view notifications
+- **Structured Output**: JSON/YAML support with stable envelope schema
+- **Anti-Detection**: macOS Chrome fingerprint, session stability, exponential backoff
+
+<Callout type="warning">
+This tool uses reverse-engineered APIs. Regular updates are recommended to maintain compatibility.
+</Callout>
+
+## Installation
+
+```bash
+# Recommended: uv tool (fast, isolated)
+uv tool install xiaohongshu-cli
+
+# Or: pipx
+pipx install xiaohongshu-cli
+```
+
+Upgrade regularly:
+```bash
+uv tool upgrade xiaohongshu-cli
+```
+
+## Basic Usage
+
+```bash
+# Authenticate (auto-detects browser cookies)
+xhs login
+
+# Search and read
+xhs search "美食"
+xhs read 1                    # Read first result from search
+xhs comments 1                # View comments on first result
+
+# Interact
+xhs like 1                    # Like first result
+xhs comment 1 -c "Great post!" # Comment on first result
+
+# Browse feeds
+xhs feed                      # Recommendation feed
+xhs hot -c fashion           # Trending in fashion category
+
+# Structured output
+xhs search "AI" --json       # JSON envelope output
+```
+
+<Callout type="tip">
+Use short-index navigation after any list command. Run `xhs search "topic"` then `xhs read 1` to read the first result.
+</Callout>
+
+## Notable Details
+
+- **Language**: Python (≥3.10)
+- **Community**: 1,438 GitHub stars
+- **License**: Unknown
+- **Output**: Supports `--yaml` and `--json` flags; non-TTY defaults to YAML
+- **Authentication**: 7-day cookie TTL with automatic browser refresh

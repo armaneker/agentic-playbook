@@ -1,0 +1,64 @@
+<GuideHeader tool="tavily-key-generator" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Tavily Key Generator
+
+A multi-service toolkit for automated registration and key validation across Tavily, Firecrawl, and Exa services. Provides browser automation, proxy pools, and API key management with real-time validation.
+
+## Key Features
+
+- **Multi-service support**: Automated registration for Firecrawl and Exa (Tavily currently unavailable)
+- **Browser automation**: Headless registration with Playwright and Camoufx
+- **Email automation**: Cloudflare Mail API and DuckMail integration for verification
+- **Key validation**: Real-time API testing after extraction
+- **Proxy integration**: Automatic upload to unified proxy pools
+- **Concurrent processing**: Batch registration with parallel execution
+- **Cross-platform**: Windows, macOS, and Linux support
+
+<Callout type="warning">
+Tavily registration is currently disabled due to closed email registration on their platform.
+</Callout>
+
+## Installation
+
+```bash
+git clone https://github.com/skernelx/tavily-key-generator.git
+cd tavily-key-generator
+cp .env.example .env
+```
+
+Configure your `.env` file with email settings and optional server upload credentials.
+
+## Basic Usage
+
+**Linux/macOS:**
+```bash
+python3 run.py
+# or
+./start_auto.sh
+```
+
+**Windows:**
+```bat
+start_auto.bat
+```
+
+Select your target service when prompted:
+```
+1. Tavily (currently unavailable)
+2. Firecrawl
+3. Exa
+```
+
+Generated keys are saved to service-specific files (e.g., `exa_accounts.txt`) and automatically validated against official APIs.
+
+<Callout type="tip">
+Pair with [MySearch-Proxy](https://github.com/skernelx/MySearch-Proxy) for a unified search console with MCP integration.
+</Callout>
+
+## Notable Details
+
+- **Language**: Python
+- **License**: Unknown
+- **Community**: 1,388 stars
+- **Integration**: FastAPI-based proxy server included
+- **Architecture**: Designed as upstream provider for MySearch ecosystem

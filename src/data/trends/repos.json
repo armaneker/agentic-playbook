@@ -1886,7 +1886,7 @@
       "language": "Python",
       "url": "https://github.com/jackwener/xiaohongshu-cli",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "blurb": "xiaohongshu-cli is a Python command-line tool that provides programmatic access to Xiaohongshu (Little Red Book) through reverse-engineered APIs. It enables users to search, read posts, interact with content, and manage their accounts without using the web interface, making it useful for automation, data analysis, or terminal-based workflows. The tool includes anti-detection measures like browser fingerprinting and request jittering to avoid being blocked by the platform."
     },
@@ -1896,7 +1896,7 @@
       "language": "Python",
       "url": "https://github.com/skernelx/tavily-key-generator",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "api-key-generator",
         "browser-automation",
@@ -1920,7 +1920,7 @@
       "language": "Python",
       "url": "https://github.com/nikmcfly/MiroFish-Offline",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai",
         "multi-agent",
@@ -1942,7 +1942,7 @@
       "language": "Python",
       "url": "https://github.com/chrisworsey55/atlas-gic",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "blurb": "ATLAS is a framework for autonomous AI trading agents that iteratively improve their own prompts through market performance feedback. It uses a multi-layered architecture with 25+ agents across macro, sector, and strategy specializations that debate markets daily, with performance-based Darwinian weighting where better-performing agents get more influence in final decisions. The system treats agent prompts as trainable weights and uses Sharpe ratio as the loss function, automatically spawning new specialist agents when it detects knowledge gaps in its own analysis."
@@ -1953,7 +1953,7 @@
       "language": "Python",
       "url": "https://github.com/trevin-creator/autoresearch-mlx",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "blurb": "This is an Apple Silicon (MLX) port of Karpathy's autoresearch that runs autonomous AI research loops on Mac without PyTorch or CUDA dependencies. It follows the same protocol of making iterative changes to a training script within fixed 5-minute budgets, automatically keeping improvements and reverting failures based on validation performance. The port demonstrates hardware-specific optimization patterns where smaller, faster-training models can outperform larger ones within the time constraints of Apple Silicon."
     },

@@ -1,0 +1,61 @@
+<GuideHeader tool="autoresearch-mlx" difficulty="Beginner" lastTested="2026-01" readTime="5 min" />
+
+# autoresearch-mlx
+
+Apple Silicon (MLX) port of Karpathy's autoresearch that enables autonomous AI research loops on Mac without PyTorch or CUDA dependencies. Uses fixed 5-minute training budgets with git-based keep-or-revert decisions based on validation performance.
+
+## Key Features
+
+- Native Apple Silicon training through MLX framework
+- Fixed-time autonomous research loops (5-minute training budget)
+- Git-based experiment tracking with automatic keep/revert decisions
+- Single mutable file (`train.py`) approach for focused iteration
+- Hardware-specific optimization discovery for Mac configurations
+- Compatible with coding agents like Claude for autonomous operation
+
+## Installation
+
+<Callout type="info">
+Requires Apple Silicon Mac, Python 3.10+, and uv package manager.
+</Callout>
+
+```bash
+# Install uv if needed
+curl -LsSf https://astral.sh/uv/install.sh | sh
+
+# Clone and install dependencies
+git clone https://github.com/trevin-creator/autoresearch-mlx
+cd autoresearch-mlx
+uv sync
+
+# One-time data and tokenizer preparation
+uv run prepare.py
+```
+
+## Basic Usage
+
+```bash
+# Run one 5-minute training experiment
+uv run train.py
+
+# Point your coding agent at program.md to start autonomous loops
+# The agent will:
+# 1. Edit train.py
+# 2. Run experiment
+# 3. Check val_bpb metric
+# 4. Keep changes if improved, revert if worse
+# 5. Repeat
+```
+
+<Callout type="tip">
+The system logs all experiments to `results.tsv` for tracking progress over time. Smaller, faster-training models often outperform larger ones within the fixed time budget.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Python with MLX framework
+- **Community**: 1,066 GitHub stars
+- **Performance**: Achieves ~1.29 val_bpb on M4 Max hardware
+- **Timing**: ~6-7 minutes per experiment (5min training + overhead)
+- **Key insight**: Hardware-specific patterns emerge - Mac Mini found different optimal configurations than M4 Max machines

@@ -1,0 +1,57 @@
+<GuideHeader tool="atlas-gic" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# ATLAS - Self-Improving AI Trading Agents
+
+ATLAS is a framework for autonomous AI trading agents that improve their own prompts through market feedback. The system combines Karpathy's autoresearch methodology with Soros's reflexivity theory to create agents that evolve their trading strategies based on performance outcomes.
+
+## Key Features
+
+- **Multi-layer agent architecture** - 25+ agents across macro, sector, superinvestor, and decision layers
+- **Self-improving prompts** - Agents modify their own prompts based on Sharpe ratio feedback
+- **Autonomous agent spawning** - Creates new specialist agents when knowledge gaps are detected
+- **Regime-specific training** - Separate cohorts trained on different market conditions
+- **Reflexivity modeling** - Simulates how market actions change market fundamentals
+- **Swarm simulation integration** - Uses MiroFish for parallel scenario generation
+
+## Installation
+
+```bash
+git clone https://github.com/chrisworsey55/atlas-gic.git
+cd atlas-gic
+pip install -r requirements.txt
+```
+
+<Callout type="warning">
+No GPU required, but real capital deployment involves significant financial risk.
+</Callout>
+
+## Basic Usage
+
+```python
+from atlas import TradingSystem
+
+# Initialize the system with 25 base agents
+system = TradingSystem()
+
+# Run autoresearch loop
+system.evolve_agents(days=5)
+
+# Check agent performance
+system.get_agent_rankings()
+
+# Generate trading recommendations  
+recommendations = system.get_decisions()
+```
+
+The system automatically identifies the worst-performing agent by rolling Sharpe ratio, generates a targeted prompt modification, runs for 5 trading days, then either commits or reverts the change based on performance improvement.
+
+## Notable Details
+
+**Language:** Python  
+**License:** No assertion  
+**Community:** 1,084 stars  
+**Status:** Running live with real capital
+
+<Callout type="info">
+The agent prompts serve as the model weights, with Sharpe ratio as the loss function. Market feedback drives evolutionary selection rather than traditional backpropagation.
+</Callout>

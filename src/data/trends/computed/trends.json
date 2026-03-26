@@ -716,7 +716,7 @@
       "delta_week": 326,
       "delta_month": 446,
       "delta_year": 446,
-      "has_summary": false,
+      "has_summary": true,
       "category": "AI / ML",
       "version": null,
       "blurb": "MiroFish-Offline is a fully local multi-agent simulation engine that models public opinion and social dynamics by generating hundreds of AI personas that interact on simulated social media platforms. It allows users to upload documents and predict public reactions through agent-based modeling, replacing the original's cloud dependencies with a local stack using Neo4j for knowledge graphs and Ollama for LLM inference. This English fork eliminates the need for external APIs while providing complete translation of the originally Chinese interface."
@@ -1286,7 +1286,7 @@
       "delta_week": 34,
       "delta_month": 339,
       "delta_year": 339,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": null,
       "blurb": "This is a multi-service API key generator that automates registration for search services like Firecrawl and Exa using browser automation and temporary email addresses. It validates generated keys through real API calls and can upload working keys to a unified proxy pool for downstream services. The tool uses Playwright with Camoufx browser to bypass Cloudflare protection and solve Turnstile challenges during registration."

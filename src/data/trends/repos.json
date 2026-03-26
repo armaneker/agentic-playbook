@@ -2078,7 +2078,7 @@
     },
     "webadderall/Recordly": {
       "full_name": "webadderall/Recordly",
-      "description": "The open-source screen recorder and editor for professional product videos, demos, and tutorials. Add auto-zooms, webcam overlays, cursor animations and more to your recordings.",
+      "description": "Recordly is a powerful open-source screen recorder and editor for professional product videos, demos, and tutorials. Adds auto-zooms, webcam overlays, cursor animations and more to your recordings.",
       "language": "TypeScript",
       "url": "https://github.com/webadderall/Recordly",
       "first_seen": "2026-03-22",
@@ -3033,9 +3033,6 @@
       "has_summary": false,
       "topics": [
         "android",
-        "bilibili",
-        "bilibili-client",
-        "bilibili-live",
         "danmaku",
         "dash",
         "expo",
@@ -3349,6 +3346,51 @@
       "category": "Other",
       "version": "v0.15.0",
       "blurb": "Kanna is a web-based UI that provides a unified interface for Claude Code and Codex CLIs. It enables developers to interact with multiple AI coding assistants through a single browser interface with features like project organization, real-time collaboration, and persistent chat history. The tool uses event sourcing architecture with WebSocket-driven real-time updates and supports advanced features like plan mode for reviewing agent actions before execution."
+    },
+    "amitshekhariitbhu/ai-engineering-interview-questions": {
+      "full_name": "amitshekhariitbhu/ai-engineering-interview-questions",
+      "description": "Your Cheat Sheet for AI Engineering Interview – Questions and Answers.",
+      "language": "Markdown",
+      "url": "https://github.com/amitshekhariitbhu/ai-engineering-interview-questions",
+      "first_seen": "2026-03-26",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "fine-tuning",
+        "interview",
+        "interview-preparation",
+        "interview-questions",
+        "llm",
+        "mcp",
+        "quantization",
+        "questions-and-answers",
+        "rag"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Claw-Company/clawcompany": {
+      "full_name": "Claw-Company/clawcompany",
+      "description": "Build for OPC(One Person Company), Every human being is a chairman. Multiple roles, multiple agents, multiple suppliers. Your Claws company, one key to run them all.",
+      "language": "TypeScript",
+      "url": "https://github.com/Claw-Company/clawcompany",
+      "first_seen": "2026-03-26",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "autonomous",
+        "clawapi",
+        "llm",
+        "multi-agent",
+        "typrscript",
+        "web4"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

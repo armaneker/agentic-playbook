@@ -1758,7 +1758,7 @@
       "language": "Python",
       "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-agents",
         "claude",
@@ -1791,7 +1791,7 @@
       "language": "Python",
       "url": "https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-research",
         "ai-tools",
@@ -1823,7 +1823,7 @@
       "language": "Python",
       "url": "https://github.com/aiming-lab/MetaClaw",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "agent",
         "ai-agent",
@@ -1849,7 +1849,7 @@
       "language": "Python",
       "url": "https://github.com/knowsuchagency/mcp2cli",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai",
         "cli",
@@ -1866,7 +1866,7 @@
       "language": "Python",
       "url": "https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "awesome",
         "claude-code",
@@ -3403,7 +3403,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v0.2.14"
+      "version": "v0.2.14",
+      "blurb": "Feynman is an open-source AI research agent that conducts academic research tasks through a command-line interface. It automates literature reviews, paper analysis, experiment replication, and research synthesis by leveraging multiple AI agents that search papers, verify sources, and generate cited reports. The tool integrates with AlphaXiv for paper search, supports GPU compute via Modal/RunPod for experiment replication, and delivers all outputs with direct source links for verification."
     },
     "alvinunreal/awesome-opensource-ai": {
       "full_name": "alvinunreal/awesome-opensource-ai",
@@ -3427,7 +3428,8 @@
         "rag"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "This is a curated list of open-source AI projects organized into categories covering frameworks, models, inference engines, and developer tools. Engineers would use this as a reference to find vetted open-source alternatives to proprietary AI infrastructure and tooling across the entire ML lifecycle. The list emphasizes \"truly open-source\" projects, distinguishing between genuinely open solutions and those with restrictive licenses or limited access."
     }
   }
 }

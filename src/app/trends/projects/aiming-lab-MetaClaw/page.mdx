@@ -1,0 +1,67 @@
+<GuideHeader tool="MetaClaw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# MetaClaw
+
+MetaClaw is an agent that meta-learns and evolves through real-world conversations. It intercepts interactions with your AI agent and turns every conversation into a learning signal, enabling continuous improvement without manual training.
+
+## Key Features
+
+- **One-click deployment** — Configure once with `metaclaw setup`, start with `metaclaw start`
+- **Three operating modes** — Skills-only, RL training, or smart scheduling (MadMax)
+- **Long-term memory** — Persists facts, preferences, and project history across sessions
+- **Multi-agent support** — Works with OpenClaw, CoPaw, IronClaw, PicoClaw, ZeroClaw, NanoClaw, NemoClaw
+- **No GPU required** — Uses cloud-based LoRA training via Tinker or MinT backends
+- **Asynchronous design** — Training runs in background without interrupting agent responses
+
+<Callout type="info">
+MetaClaw works by placing your model behind a proxy that injects skills and captures learning signals from live conversations.
+</Callout>
+
+## Installation
+
+**OpenClaw Plugin (Recommended):**
+```bash
+curl -LO https://github.com/aiming-lab/MetaClaw/releases/download/v0.4.0/metaclaw-plugin.zip
+unzip metaclaw-plugin.zip -d ~/.openclaw/extensions/metaclaw-openclaw
+openclaw plugins enable metaclaw-openclaw && openclaw gateway restart
+```
+
+**PyPI:**
+```bash
+pip install -e .                        # Skills-only mode (lightweight)
+pip install -e ".[rl]"                  # + RL training support
+pip install -e ".[evolve]"              # + Skill evolution via LLM
+pip install -e ".[scheduler]"           # + Calendar integration
+```
+
+## Basic Usage
+
+```bash
+# One-time setup wizard
+metaclaw setup
+
+# Start with default MadMax mode (skills + scheduled RL)
+metaclaw start
+
+# Run in background
+metaclaw start --daemon
+
+# Skills only, no RL training
+metaclaw start --mode skills_only
+
+# Immediate RL training when batch is full
+metaclaw start --mode rl
+```
+
+<Callout type="tip">
+Start with `skills_only` mode if you don't need RL training — it requires no GPU setup and works with any OpenAI-compatible API.
+</Callout>
+
+## Notable Details
+
+- **License:** MIT
+- **Language:** Python
+- **Community:** 2.7k+ GitHub stars
+- **Backends:** Supports Tinker, MinT, and Weaver for cloud training
+- **Memory:** Optional cross-session memory with adaptive consolidation
+- **Scheduling:** MadMax mode defers training to idle/sleep windows using Google Calendar integration

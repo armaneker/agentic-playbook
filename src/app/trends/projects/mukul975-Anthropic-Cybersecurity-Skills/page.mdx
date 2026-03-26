@@ -1,0 +1,72 @@
+<GuideHeader tool="Anthropic-Cybersecurity-Skills" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Anthropic Cybersecurity Skills
+
+Anthropic Cybersecurity Skills provides 753+ structured cybersecurity skills for AI agents following the agentskills.io open standard. Each skill is mapped to MITRE ATT&CK frameworks and NIST CSF 2.0 for standardized security operations.
+
+## Key Features
+
+- **753+ cybersecurity skills** across 38 domains including penetration testing, DFIR, malware analysis, cloud security, and threat intelligence
+- **MITRE ATT&CK mapping** covering all 14 Enterprise tactics and 200+ techniques
+- **Universal compatibility** with Claude Code, GitHub Copilot, Cursor, OpenAI Codex CLI, and 20+ AI platforms
+- **Structured YAML frontmatter** for fast skill discovery and execution
+- **Self-contained workflows** with reference materials, helper scripts, and validation steps
+
+## Installation
+
+### NPX (Recommended)
+```bash
+npx skills add mukul975/Anthropic-Cybersecurity-Skills
+```
+
+### Claude Code Plugin
+```bash
+/plugin marketplace add mukul975/Anthropic-Cybersecurity-Skills
+```
+
+### Manual Clone
+```bash
+git clone https://github.com/mukul975/Anthropic-Cybersecurity-Skills.git
+cd Anthropic-Cybersecurity-Skills
+```
+
+<Callout type="info">
+No configuration required. AI agents can immediately discover and execute all 753 skills.
+</Callout>
+
+## Basic Usage
+
+Skills follow the agentskills.io format with YAML frontmatter and structured Markdown:
+
+```yaml
+---
+name: "AWS S3 Bucket Security Audit"
+category: "cloud-security"
+mitre_attack: ["T1530"]
+difficulty: "intermediate"
+---
+
+# AWS S3 Bucket Security Audit
+
+## Overview
+Comprehensive security assessment of S3 bucket configurations...
+
+## Steps
+1. List all S3 buckets
+2. Check public access settings
+3. Review bucket policies
+```
+
+Your AI agent reads the frontmatter for context, then executes the step-by-step workflows to perform security tasks like memory forensics, C2 beaconing detection, or Kubernetes RBAC audits.
+
+## Notable Details
+
+- **Language**: Python
+- **License**: Apache 2.0
+- **Community**: 3,726+ GitHub stars
+- **Coverage**: 26 security domains from web application security (45 skills) to OT/ICS security (14 skills)
+- **Standards**: NIST CSF 2.0 aligned with complete MITRE ATT&CK Enterprise coverage
+
+<Callout type="tip">
+The skills work with any platform that reads YAML frontmatter - write once, use everywhere.
+</Callout>

@@ -1,0 +1,79 @@
+<GuideHeader tool="mcp2cli" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# mcp2cli
+
+mcp2cli converts any MCP server, OpenAPI specification, or GraphQL endpoint into a CLI tool at runtime. It eliminates code generation while saving 96–99% of the tokens typically wasted on tool schemas in AI interactions.
+
+## Key Features
+
+- **Runtime CLI generation** from MCP, OpenAPI, and GraphQL endpoints
+- **Zero codegen** — introspects APIs dynamically
+- **OAuth 2.0 support** with automatic token management
+- **Baked configurations** to save connection settings
+- **Token-efficient TOON output** format for LLM consumption
+- **Built-in caching** for specs and tool lists
+- **Flexible filtering** with include/exclude patterns
+
+## Installation
+
+```bash
+# Run directly without installing
+uvx mcp2cli --help
+
+# Or install globally  
+uv tool install mcp2cli
+```
+
+## Basic Usage
+
+Connect to different API types and list available operations:
+
+```bash
+# OpenAPI endpoint
+mcp2cli --spec https://petstore3.swagger.io/api/v3/openapi.json --list
+
+# MCP server over HTTP
+mcp2cli --mcp https://mcp.example.com/sse --list
+
+# GraphQL endpoint
+mcp2cli --graphql https://api.example.com/graphql --list
+```
+
+Call operations directly:
+
+```bash
+# OpenAPI operation
+mcp2cli --spec ./openapi.json list-pets --status available
+
+# MCP tool
+mcp2cli --mcp-stdio "npx @modelcontextprotocol/server-filesystem /tmp" \
+  read-file --path /tmp/hello.txt
+
+# GraphQL query
+mcp2cli --graphql https://api.example.com/graphql users --limit 10
+```
+
+<Callout type="tip">
+Use the `--search` flag to find specific tools: `mcp2cli --mcp https://example.com/sse --search "task"`
+</Callout>
+
+Create reusable configurations with bake mode:
+
+```bash
+# Save connection settings
+mcp2cli bake create petstore --spec https://api.example.com/spec.json
+
+# Use saved config
+mcp2cli @petstore list-pets
+```
+
+## Notable Details
+
+**License:** MIT  
+**Language:** Python  
+**Community:** 1.7k+ GitHub stars  
+**AI Integration:** Ships with an installable skill for AI coding agents
+
+<Callout type="info">
+mcp2cli includes OAuth 2.0 flows, environment variable support for secrets, and TOON output format specifically designed to reduce token usage in LLM interactions.
+</Callout>

@@ -1,0 +1,62 @@
+<GuideHeader tool="OpenClaw-Medical-Skills" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# OpenClaw Medical Skills
+
+OpenClaw Medical Skills is the largest open-source medical AI skills library for OpenClaw and NanoClaw frameworks. It transforms general-purpose AI agents into specialized medical research companions through 869 curated domain-specific skills.
+
+## Key Features
+
+- **869 medical AI skills** covering clinical workflows, bioinformatics, drug discovery, and regulatory compliance
+- **Real-world integrations** with PubMed, ClinicalTrials.gov, ChEMBL, DrugBank, and FDA databases
+- **Clinical documentation** tools for SOAP notes, discharge summaries, and prior authorization
+- **Bioinformatics pipelines** for RNA-seq, scRNA-seq, GWAS, and variant calling
+- **Regulatory frameworks** for FDA, CE mark, IEC 62304, and ISO 14971 compliance
+- **Drug intelligence** including DDI prediction and pharmacovigilance workflows
+
+## Installation
+
+<Callout type="info">
+Requires OpenClaw or NanoClaw installed and running. Skills are loaded from `&lt;workspace>/skills/` or `~/.openclaw/skills/`.
+</Callout>
+
+```bash
+# Clone with sparse checkout to avoid large data files
+git clone --depth=1 --no-checkout https://github.com/FreedomIntelligence/OpenClaw-Medical-Skills.git
+cd OpenClaw-Medical-Skills
+git sparse-checkout init --cone
+git sparse-checkout set skills
+git checkout main
+
+# Install to workspace or global directory
+cp -r skills/* &lt;your-workspace>/skills/
+# OR
+cp -r skills/* ~/.openclaw/skills/
+```
+
+## Basic Usage
+
+After installation, your OpenClaw agent automatically loads the medical skills:
+
+```
+User: Generate a clinical SOAP note for a patient with chest pain
+Agent: I'll use the clinical-reports skill to create a structured SOAP note...
+
+User: Search PubMed for recent papers on CRISPR gene therapy
+Agent: Using the biomedical-search skill to query PubMed database...
+
+User: Analyze this VCF file for pathogenic variants
+Agent: I'll apply the variant-calling skill with ACMG classification...
+```
+
+<Callout type="tip">
+Ask your agent "What medical skills do you have?" to see all installed capabilities.
+</Callout>
+
+## Notable Details
+
+- **Language**: Python
+- **Community**: 1,662 GitHub stars
+- **License**: MIT (per README badges)
+- **Scope**: 12+ categories from clinical workflows to computational biology
+- **Compatibility**: OpenClaw and NanoClaw frameworks
+- **Data**: Some skills include large datasets via Git LFS

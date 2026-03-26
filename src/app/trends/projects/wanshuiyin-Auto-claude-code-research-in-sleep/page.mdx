@@ -1,0 +1,63 @@
+<GuideHeader tool="Auto-claude-code-research-in-sleep" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Auto-claude-code-research-in-sleep (ARIS)
+
+ARIS is a collection of Markdown-based skills for autonomous ML research that orchestrates cross-model collaboration between different LLMs. The system uses one model (like Claude Code) for execution while another model (like GPT-5.4) provides critical review to avoid self-play blind spots.
+
+## Key Features
+
+- **Cross-model review loops** — prevents single-model bias through adversarial critique
+- **Idea discovery and validation** — automated research direction generation
+- **Experiment automation** — runs experiments and analyzes results autonomously
+- **Paper writing pipeline** — from idea to formatted academic paper
+- **Rebuttal generation** — parses reviews and drafts structured responses
+- **Zero dependencies** — pure Markdown files, no framework lock-in
+- **Multi-agent support** — works with Claude Code, Codex, Cursor, or custom agents
+- **Complete research workflow** — handles everything from ideation to presentation slides
+
+<Callout type="info">
+ARIS is a methodology, not a platform. Each skill is a standalone `.md` file that any LLM can interpret.
+</Callout>
+
+## Installation
+
+Clone the repository and use skills directly with your preferred LLM agent:
+
+```bash
+git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep.git
+cd Auto-claude-code-research-in-sleep
+```
+
+For Claude Code, copy skills to your skills directory:
+```bash
+cp -r skills/* ~/.claude/skills/
+```
+
+## Basic Usage
+
+Run the complete research pipeline:
+```bash
+/research-pipeline "factorized gap in discrete diffusion LMs"
+```
+
+Target improvements to existing work:
+```bash
+/research-pipeline "improve method X" — ref paper: https://arxiv.org/abs/2406.04329, base repo: https://github.com/org/project
+```
+
+Generate rebuttals from reviews:
+```bash
+/rebuttal "paper/ + reviews" — venue: ICML, character limit: 5000
+```
+
+<Callout type="tip">
+Use document-based input by dropping a `RESEARCH_BRIEF.md` file in your project directory for complex research directions.
+</Callout>
+
+## Notable Details
+
+**License:** MIT  
+**Language:** Python  
+**Community:** 4,180 stars on GitHub  
+**Papers accepted:** Multiple papers at venues like AAAI 2026 using ARIS workflows  
+**Alternative models:** Supports MiniMax-M2.7, GLM-5, DeepSeek, and other model combinations

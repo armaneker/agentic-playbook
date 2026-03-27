@@ -1,0 +1,54 @@
+<GuideHeader tool="excalidraw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Excalidraw
+
+Excalidraw is an open-source virtual whiteboard for creating hand-drawn style diagrams and sketches. It provides collaborative, end-to-end encrypted diagramming with an infinite canvas.
+
+## Key Features
+
+- Infinite canvas-based whiteboard with hand-drawn aesthetic
+- Complete drawing toolkit: rectangles, circles, arrows, free-draw, text, and more
+- Arrow binding and labeled arrows for flowcharts
+- Image support and shape libraries
+- Export to PNG, SVG, clipboard, or `.excalidraw` JSON format
+- Dark mode and full localization support
+- Undo/redo with zoom and panning
+
+<Callout type="info">
+The hosted version at excalidraw.com adds real-time collaboration, PWA support, and end-to-end encryption. These features will be available as plugins for the npm package.
+</Callout>
+
+## Installation
+
+Install Excalidraw as a React component in your application:
+
+```bash
+npm install react react-dom @excalidraw/excalidraw
+```
+
+## Basic Usage
+
+```tsx
+import { Excalidraw } from "@excalidraw/excalidraw";
+
+export default function App() {
+  return (
+    &lt;div style={{ height: "500px" }}>
+      &lt;Excalidraw />
+    </div>
+  );
+}
+```
+
+The component renders a fully functional whiteboard with all drawing tools and export capabilities built-in.
+
+## Notable Details
+
+**Language:** TypeScript  
+**License:** MIT  
+**Community:** 119k+ GitHub stars with active Discord community  
+**Adoption:** Used by Google Cloud, Meta, CodeSandbox, Notion, Replit, and others
+
+<Callout type="tip">
+Excalidraw integrates well with documentation tools and note-taking apps. Check out the VSCode extension and Obsidian plugin for enhanced workflows.
+</Callout>

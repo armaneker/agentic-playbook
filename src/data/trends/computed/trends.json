@@ -1559,7 +1559,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "k-skill is a collection of AI agent skills designed specifically for Korean users to automate interactions with domestic services like SRT/KTX booking, KakaoTalk, Coupang, and government portals. It enables AI coding agents (Claude, Codex, etc.) to perform tedious tasks such as train reservations, lottery number checking, subway arrival times, and HWP document processing through standardized APIs. The project uses sops+age for secure credential management and supports both authentication-required services and public APIs."
     },
     {
       "full_name": "TheAlgorithms/Python",
@@ -1814,7 +1814,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.2.0",
-      "blurb": null
+      "blurb": "Markit is a TypeScript CLI tool and library that converts various file formats (PDF, DOCX, images, audio, URLs, etc.) to Markdown. It provides a unified interface for document conversion with built-in support for AI-powered image description and audio transcription via OpenAI/Anthropic APIs. The tool features a pluggable architecture that allows users to extend functionality with custom converters or override built-in format handlers."
     },
     {
       "full_name": "Claw-Company/clawcompany",

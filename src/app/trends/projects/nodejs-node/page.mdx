@@ -1,0 +1,63 @@
+<GuideHeader tool="node" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Node.js
+
+Node.js is an open-source, cross-platform JavaScript runtime environment that allows you to execute JavaScript code outside of web browsers. It's the foundation for server-side JavaScript development and powers millions of applications worldwide.
+
+## Key Features
+
+- **Server-side JavaScript execution** - Run JavaScript on servers, desktops, and IoT devices
+- **Event-driven, non-blocking I/O** - Handle thousands of concurrent connections efficiently
+- **Built-in modules** - File system, HTTP, crypto, and networking capabilities out of the box
+- **NPM ecosystem** - Access to the world's largest package registry
+- **Cross-platform** - Runs on Linux, macOS, and Windows
+- **LTS releases** - Long-term support versions for production stability
+
+## Installation
+
+Download the appropriate installer for your platform from [nodejs.org](https://nodejs.org/):
+
+```bash
+# Verify installation
+node --version
+npm --version
+```
+
+<Callout type="tip">
+Choose LTS (Long Term Support) versions for production environments. Current releases include the latest features but may have breaking changes.
+</Callout>
+
+## Basic Usage
+
+Create a simple HTTP server:
+
+```javascript
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
+  res.end('Hello, World!\n');
+});
+
+server.listen(3000, () => {
+  console.log('Server running at http://localhost:3000/');
+});
+```
+
+Run with:
+
+```bash
+node server.js
+```
+
+## Notable Details
+
+- **Language**: JavaScript (C++ core)
+- **License**: MIT-style license
+- **Community**: 116k+ GitHub stars, governed by OpenJS Foundation
+- **Release cycle**: New major version every 6 months (April/October)
+- **Support**: Active community with extensive documentation and LTS support
+
+<Callout type="info">
+Node.js follows semantic versioning. Even-numbered major versions (18, 20, 22) become LTS releases with extended support cycles.
+</Callout>

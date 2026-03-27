@@ -1,0 +1,65 @@
+<GuideHeader tool="pi-generative-ui" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# pi-generative-ui
+
+A reverse-engineered implementation of Claude.ai's generative UI system, rebuilt for the pi coding agent. Creates interactive HTML/SVG widgets that stream live into native macOS windows as the LLM generates them.
+
+## Key Features
+
+- **Live streaming widgets** - Interactive charts, sliders, and animations render in real-time as tokens arrive
+- **Native macOS windows** - Uses WKWebView through Glimpse, not browser tabs or Electron
+- **Extracted design guidelines** - 72KB of verbatim design rules pulled from claude.ai's actual system
+- **DOM diffing** - morphdom ensures smooth updates without full page reloads
+- **Bidirectional communication** - Widgets can send data back to the agent via `window.glimpse.send()`
+
+## Installation
+
+<Callout type="warning">
+macOS only. Requires Swift toolchain (Xcode or Command Line Tools).
+</Callout>
+
+```bash
+pi install git:github.com/Michaelliv/pi-generative-ui
+```
+
+## Basic Usage
+
+Ask pi to visualize anything. The extension automatically provides tools the LLM calls when appropriate:
+
+```bash
+# Interactive financial calculator
+"Show me how compound interest works"
+
+# Architecture diagrams  
+"Visualize the architecture of a transformer"
+
+# Data dashboards
+"Create a dashboard for this JSON data"
+
+# Animations
+"Draw a particle system simulation"
+```
+
+The LLM decides whether to use widgets or text based on your request. Visual/explanatory queries trigger widgets; code/text queries stay in terminal.
+
+## How It Works
+
+The system intercepts pi's streaming events and uses five modules of design guidelines extracted from claude.ai:
+
+- `interactive` (19KB) - Sliders, metric cards, live calculations
+- `chart` (22KB) - Chart.js setup, legends, formatting  
+- `diagram` (59KB) - Flowcharts, architecture diagrams, SVG systems
+- `mockup` (19KB) - UI components, cards, forms
+- `art` (17KB) - SVG illustrations, Canvas animations
+
+<Callout type="info">
+Guidelines are loaded lazily based on the visualization type to minimize token usage.
+</Callout>
+
+## Notable Details
+
+- **Language:** TypeScript
+- **License:** MIT  
+- **Community:** 838 GitHub stars
+- **Dependencies:** Glimpse (native macOS windows), morphdom (DOM diffing)
+- **Architecture:** Streams via `toolcall_delta` events with 150ms debouncing

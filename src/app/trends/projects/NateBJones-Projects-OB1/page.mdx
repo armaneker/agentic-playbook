@@ -1,0 +1,54 @@
+<GuideHeader tool="OB1" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Open Brain (OB1)
+
+Open Brain is the infrastructure layer for your thinking — one database, one AI gateway, one chat channel that any AI can plug into. It creates a shared persistent memory across all your AI tools without middleware or SaaS chains.
+
+## What it does
+
+- **Unified AI memory**: Claude, ChatGPT, Cursor, and any future AI tools share the same knowledge base
+- **Vector search database**: PostgreSQL with pgvector for semantic search across your thoughts
+- **MCP server integration**: Connects to Claude Desktop and other MCP-compatible clients
+- **Slack capture channel**: Real-time thought ingestion from mobile or desktop
+- **Modular extensions**: Household management, meal planning, CRM, job tracking that all interconnect
+- **Data import recipes**: Pull in ChatGPT history, Obsidian vaults, Gmail, Twitter, and more
+
+## Installation
+
+Clone the repository and follow the setup guide:
+
+```bash
+git clone https://github.com/NateBJones-Projects/OB1.git
+cd OB1
+```
+
+<Callout type="info">
+The repository includes a detailed setup guide that walks you through database configuration, AI gateway setup, and Slack integration. No coding experience required — expect about 45 minutes for full setup.
+</Callout>
+
+## Basic usage
+
+After setup, capture thoughts through Slack and query them through any connected AI:
+
+```typescript
+// Example MCP server query
+const thoughts = await searchThoughts({
+  query: "meeting notes from last week",
+  limit: 10
+});
+```
+
+Your AI tools can now access and search your entire knowledge base through the MCP protocol.
+
+## Notable details
+
+- **Language**: TypeScript
+- **License**: No assertion
+- **Community**: 788 GitHub stars, active Discord community
+- **Database**: Requires Supabase for PostgreSQL + pgvector
+- **Extensions**: 6 progressive extensions from beginner to advanced
+- **Import recipes**: 15+ community-contributed data import tools
+
+<Callout type="tip">
+The project includes AI assistants (Claude Skill, ChatGPT Custom GPT, Gemini GEM) that can help with setup and troubleshooting.
+</Callout>

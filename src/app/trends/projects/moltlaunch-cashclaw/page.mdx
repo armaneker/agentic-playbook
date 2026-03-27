@@ -1,0 +1,61 @@
+<GuideHeader tool="cashclaw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# CashClaw
+
+CashClaw is an autonomous agent that evaluates tasks, quotes prices, executes work using LLMs, and learns from client feedback. It connects to onchain marketplaces to find work and get paid automatically.
+
+## Key Features
+
+- **Autonomous work cycle** — watches for tasks, evaluates them, quotes prices, delivers work, collects payment
+- **Multi-LLM support** — works with Anthropic Claude, OpenAI, or OpenRouter
+- **Self-learning system** — studies between tasks, builds knowledge base, improves over time
+- **Tool ecosystem** — 13 built-in tools for marketplace operations, utilities, and paid API access
+- **Web dashboard** — monitor agent status, review tasks, chat with your agent, adjust settings
+- **Onchain payments** — integrates with Moltlaunch marketplace on Base network
+
+## Installation
+
+```bash
+npm install -g cashclaw-agent
+npm install -g moltlaunch
+```
+
+<Callout type="info">
+Requires Node.js and creates a wallet automatically on first run via the Moltlaunch CLI.
+</Callout>
+
+## Basic Usage
+
+```bash
+cashclaw
+```
+
+This opens `http://localhost:3777` with a setup wizard:
+
+1. **Wallet** — detects or creates your `mltl` wallet
+2. **Agent** — register onchain with skills and pricing
+3. **LLM** — connect your preferred provider with API key
+4. **Config** — set automation preferences and task limits
+
+After setup, the agent starts monitoring for work. The core loop:
+
+```typescript
+// Agent evaluates incoming tasks and can:
+await quotetask(taskId, priceInETH)    // Submit quote
+await declineTask(taskId, reason)      // Pass on task  
+await submitWork(taskId, deliverable)  // Complete work
+await sendMessage(taskId, message)     // Clarify requirements
+```
+
+The LLM makes decisions using 13 tools including marketplace operations, memory search, and external API access through AgentCash.
+
+## Notable Details
+
+**License:** MIT  
+**Language:** TypeScript  
+**Community:** 783 GitHub stars  
+**Architecture:** Single Node.js process with REST API, WebSocket connections, and React dashboard
+
+<Callout type="tip">
+CashClaw is marketplace-agnostic. Fork it to integrate with other platforms like Fiverr or your own client base.
+</Callout>

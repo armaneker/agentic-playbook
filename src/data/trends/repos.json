@@ -2260,7 +2260,7 @@
       "language": "TypeScript",
       "url": "https://github.com/Michaelliv/pi-generative-ui",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": "v0.2.1",
@@ -2272,7 +2272,7 @@
       "language": "TypeScript",
       "url": "https://github.com/moltlaunch/cashclaw",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-agent",
         "autonomous-agent",
@@ -2294,7 +2294,7 @@
       "language": "TypeScript",
       "url": "https://github.com/NateBJones-Projects/OB1",
       "first_seen": "2026-03-22",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-agents",
         "mcp",
@@ -2315,7 +2315,7 @@
       "language": "TypeScript",
       "url": "https://github.com/excalidraw/excalidraw",
       "first_seen": "2026-03-23",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "canvas",
         "collaboration",
@@ -2335,7 +2335,7 @@
       "language": "JavaScript",
       "url": "https://github.com/nodejs/node",
       "first_seen": "2026-03-23",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "javascript",
         "js",
@@ -3637,7 +3637,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "k-skill is a collection of AI agent skills designed specifically for Korean users to automate interactions with domestic services like SRT/KTX booking, KakaoTalk, Coupang, and government portals. It enables AI coding agents (Claude, Codex, etc.) to perform tedious tasks such as train reservations, lottery number checking, subway arrival times, and HWP document processing through standardized APIs. The project uses sops+age for secure credential management and supports both authentication-required services and public APIs."
     },
     "Michaelliv/markit": {
       "full_name": "Michaelliv/markit",
@@ -3648,7 +3649,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v0.2.0"
+      "version": "v0.2.0",
+      "blurb": "Markit is a TypeScript CLI tool and library that converts various file formats (PDF, DOCX, images, audio, URLs, etc.) to Markdown. It provides a unified interface for document conversion with built-in support for AI-powered image description and audio transcription via OpenAI/Anthropic APIs. The tool features a pluggable architecture that allows users to extend functionality with custom converters or override built-in format handlers."
     }
   }
 }

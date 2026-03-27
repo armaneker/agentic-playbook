@@ -3166,7 +3166,9 @@
         "dashcam",
         "gemini",
         "gemini-embedding-2",
+        "mp4",
         "semantic-search",
+        "tesla",
         "video"
       ],
       "category": "Other",
@@ -3431,6 +3433,97 @@
       "category": "Agentic",
       "version": null,
       "blurb": "This is a curated list of open-source AI projects organized into categories covering frameworks, models, inference engines, and developer tools. Engineers would use this as a reference to find vetted open-source alternatives to proprietary AI infrastructure and tooling across the entire ML lifecycle. The list emphasizes \"truly open-source\" projects, distinguishing between genuinely open solutions and those with restrictive licenses or limited access."
+    },
+    "521xueweihan/HelloGitHub": {
+      "full_name": "521xueweihan/HelloGitHub",
+      "description": ":octocat: 分享 GitHub 上有趣、入门级的开源项目。Share interesting, entry-level open source projects on GitHub.",
+      "language": "Python",
+      "url": "https://github.com/521xueweihan/HelloGitHub",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [
+        "awesome",
+        "github",
+        "hellogithub",
+        "python"
+      ],
+      "category": "Other",
+      "version": "vol.119"
+    },
+    "elder-plinius/G0DM0D3": {
+      "full_name": "elder-plinius/G0DM0D3",
+      "description": "LIBERATED AI CHAT",
+      "language": "TypeScript",
+      "url": "https://github.com/elder-plinius/G0DM0D3",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "magnum6actual/flipoff": {
+      "full_name": "magnum6actual/flipoff",
+      "description": "Free split-flap display emulator for any TV. The classic flip-board look, without the $3,500 hardware.",
+      "language": "JavaScript",
+      "url": "https://github.com/magnum6actual/flipoff",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "patoles/agent-flow": {
+      "full_name": "patoles/agent-flow",
+      "description": "Real-time visualization of Claude Code agent orchestration — see your agents think, branch, and coordinate as they work.",
+      "language": "TypeScript",
+      "url": "https://github.com/patoles/agent-flow",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [
+        "agent-visualization",
+        "ai-agents",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "vscode-extension"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "tirth8205/code-review-graph": {
+      "full_name": "tirth8205/code-review-graph",
+      "description": "Local knowledge graph for Claude Code. Builds a persistent map of your codebase so Claude reads only what matters — 6.8× fewer tokens on reviews and up to 49× on daily coding tasks.",
+      "language": "Python",
+      "url": "https://github.com/tirth8205/code-review-graph",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [
+        "ai-coding",
+        "claude",
+        "claude-code",
+        "code-review",
+        "graphrag",
+        "incremental",
+        "knowledge-graph",
+        "llm",
+        "mcp",
+        "python",
+        "static-analysis",
+        "tree-sitter"
+      ],
+      "category": "Agentic",
+      "version": "v1.8.4"
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "full_name": "JCodesMore/ai-website-cloner-template",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -1,0 +1,72 @@
+<GuideHeader tool="onecli" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# OneCLI
+
+OneCLI is an open-source credential vault that sits between your AI agents and external services, injecting API keys transparently so agents never see the actual secrets. It provides a secure gateway that swaps placeholder keys for real credentials at request time.
+
+## Key Features
+
+- **Transparent credential injection** - Agents make normal HTTP calls while the gateway handles authentication
+- **Encrypted secret storage** - AES-256-GCM encryption at rest, secrets decrypted only when needed
+- **Host and path matching** - Route credentials to correct endpoints using pattern matching
+- **Multi-agent support** - Each agent gets scoped access tokens with individual permissions
+- **HTTPS interception** - Rust gateway with MITM support for secure credential injection
+- **Vault integration** - Connect Bitwarden and other password managers for on-demand secrets
+
+<Callout type="info">
+OneCLI uses a "store once, inject anywhere" model where agents use placeholder keys like `FAKE_KEY` while the gateway swaps in real credentials behind the scenes.
+</Callout>
+
+## Installation
+
+### Quick Start with Docker
+
+```bash
+git clone https://github.com/onecli/onecli.git
+cd onecli
+docker compose -f docker/docker-compose.yml up
+```
+
+### Local Development
+
+```bash
+# Install dependencies
+mise install
+pnpm install
+
+# Setup environment and database
+cp .env.example .env
+pnpm db:generate
+pnpm db:up
+pnpm db:migrate
+
+# Start services
+pnpm dev
+```
+
+## Basic Usage
+
+1. **Access the dashboard** at `http://localhost:10254`
+2. **Create an agent** and get an access token
+3. **Add your API credentials** (e.g., OpenAI, GitHub)
+4. **Configure your agent** to use the gateway at `localhost:10255`
+5. **Make HTTP calls** with placeholder keys - OneCLI injects real credentials automatically
+
+```typescript
+// Agent makes request with fake key
+const response = await fetch('https://api.openai.com/v1/chat/completions', {
+  headers: {
+    'Authorization': 'Bearer FAKE_OPENAI_KEY',
+    'Proxy-Authorization': 'Bearer your-onecli-access-token'
+  }
+});
+// Gateway swaps FAKE_OPENAI_KEY for real credential
+```
+
+## Notable Details
+
+- **License**: Apache-2.0
+- **Language**: TypeScript with Rust gateway
+- **Community**: 1,356 GitHub stars
+- **Architecture**: Next.js dashboard + Rust HTTP gateway + PostgreSQL
+- **Auth modes**: Single-user (local) or Google OAuth (teams)

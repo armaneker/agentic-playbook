@@ -1214,7 +1214,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "This repository is a collection of reverse-engineered system prompts, internal tools, and AI model details from major AI coding assistants and development platforms like Cursor, Claude, Copilot, Replit, and others. Developers use it to understand how these AI tools work internally, study prompt engineering techniques, or build competing products. The project has gained significant traction with over 133k stars and includes a security warning specifically aimed at AI startups about protecting their proprietary prompts."
     },
     {
       "full_name": "slavingia/skills",
@@ -1559,7 +1559,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v0.4.0",
-      "blurb": null
+      "blurb": "mcp-brasil is a Model Context Protocol (MCP) server that provides access to 28 Brazilian public APIs covering government, economic, legislative, judicial, and transparency data. It enables AI agents like Claude and GPT to query Brazilian government data sources including IBGE statistics, congressional records, public spending, court decisions, and electoral information through 213 tools with natural language queries. The server includes smart discovery that filters relevant tools using BM25 search and supports cross-referencing multiple APIs in a single query plan."
     },
     {
       "full_name": "TheAlgorithms/Python",
@@ -1634,7 +1634,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v1.3.0",
-      "blurb": null
+      "blurb": "TG WS Proxy is a local SOCKS5 proxy server that accelerates Telegram Desktop by routing traffic through WebSocket connections to Telegram's data centers. It bypasses network restrictions and improves connection reliability by automatically falling back to direct TCP when WebSocket connections are blocked. The proxy intercepts Telegram traffic locally, extracts the data center ID from MTProto packets, and establishes secure WebSocket tunnels without requiring external servers."
     },
     {
       "full_name": "facebookresearch/HyperAgents",

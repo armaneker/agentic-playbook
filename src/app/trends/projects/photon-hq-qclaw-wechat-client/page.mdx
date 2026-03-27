@@ -1,0 +1,70 @@
+<GuideHeader tool="qclaw-wechat-client" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# QClaw WeChat Client
+
+QClaw WeChat Client is a reverse-engineered TypeScript client for QClaw's WeChat Access API. It enables programmatic WeChat OAuth authentication and real-time message handling for building WeChat-based AI agents.
+
+<Callout type="warning">
+This project is no longer maintained. Consider switching to [WeChat's official iLink protocol](https://github.com/photon-hq/wechat-ilink-client).
+</Callout>
+
+## Key Features
+
+- **WeChat OAuth2 QR-code login flow** with CSRF state management
+- **JWT token handling** with automatic renewal
+- **AGP (Agent Gateway Protocol)** WebSocket client for real-time messaging
+- **API key management** for OpenClaw model providers
+- **Device management** and session control
+- **Full TypeScript types** for all API responses and WebSocket messages
+
+## Installation
+
+```bash
+npm install qclaw-wechat-client
+```
+
+## Basic Usage
+
+```typescript
+import { QClawClient, AGPClient } from "qclaw-wechat-client";
+
+// Initialize client
+const client = new QClawClient({ env: "production" });
+
+// Get login state and QR code
+const stateRes = await client.getWxLoginState({ guid: "machine-id" });
+const state = QClawClient.unwrap(stateRes)?.state;
+const qrUrl = client.buildWxLoginUrl(state!);
+
+// After QR scan, exchange auth code for session
+const loginRes = await client.wxLogin({ 
+  guid: "machine-id", 
+  code: authCode, 
+  state: state! 
+});
+
+// Set up WebSocket for real-time messaging
+const channelToken = QClawClient.unwrap(loginRes)?.openclaw_channel_token;
+const wsClient = new AGPClient(
+  { url: "wss://mmgrcalltoken.3g.qq.com/agentwss", token: channelToken },
+  {
+    onPrompt(msg) {
+      const text = msg.payload.content.map(b => b.text).join("");
+      wsClient.sendTextResponse(msg.payload.session_id, msg.payload.prompt_id, `Echo: ${text}`);
+    }
+  }
+);
+wsClient.start();
+```
+
+<Callout type="info">
+The client extracts protocol details from QClaw.app's bundled renderer code and implements the jprx gateway protocol used by Tencent's backend.
+</Callout>
+
+## Notable Details
+
+- **Language**: TypeScript
+- **License**: Unknown
+- **Community**: 793 GitHub stars
+- **Repository**: [photon-hq/qclaw-wechat-client](https://github.com/photon-hq/qclaw-wechat-client)
+- **Topics**: agent, openclaw, qclaw, wechat

@@ -1,0 +1,51 @@
+<GuideHeader tool="OpenGenerativeUI" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# OpenGenerativeUI
+
+OpenGenerativeUI is an open-source framework for building AI agents that generate interactive UI components in real-time. Built with CopilotKit and LangChain Deep Agents, it enables agents to create visualizations, animations, and interactive widgets instead of just text responses.
+
+## Key Features
+
+- **Algorithm visualizations** — binary search, sorting algorithms, BFS vs DFS with interactive animations
+- **3D animations** — WebGL and CSS3D scenes rendered in sandboxed iframes  
+- **Charts & diagrams** — pie charts, bar charts, network diagrams using Chart.js and D3.js
+- **Interactive widgets** — forms, simulations, math plotters, and dashboards
+- **Skills-based architecture** — modular agent capabilities loaded on-demand
+- **MCP server** — standalone Model Context Protocol server for Claude Desktop integration
+
+## Installation
+
+```bash
+git clone https://github.com/CopilotKit/OpenGenerativeUI
+cd OpenGenerativeUI
+make setup    # Install deps + create .env template
+# Edit apps/agent/.env with your OpenAI API key
+make dev      # Start all services
+```
+
+<Callout type="warning">
+Requires high-capability models (GPT-4, Claude Opus, Gemini Pro) for complex HTML/SVG generation. Smaller models will produce broken layouts.
+</Callout>
+
+## Basic Usage
+
+```typescript
+// Agent generates interactive components via CopilotKit hooks
+const { component } = useComponent({
+  id: "chart-renderer",
+  render: (html) => &lt;IframeSandbox content={html} />
+});
+
+// User: "Show me a pie chart of browser market share"
+// Agent responds with fully interactive Chart.js visualization
+```
+
+Access the app at `http://localhost:3000` and agent at `http://localhost:8123`.
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript with Python backend
+- **Community**: 1,038 GitHub stars
+- **Architecture**: Turborepo monorepo with Next.js 16, React 19, Tailwind 4
+- **MCP Integration**: Works with Claude Desktop, Claude Code, and Cursor

@@ -1,0 +1,51 @@
+<GuideHeader tool="openclaw-lark" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# OpenClaw Lark/Feishu Plugin
+
+Official Lark/Feishu integration plugin for OpenClaw, developed by the Lark Open Platform team. Connects your OpenClaw Agent directly to Lark/Feishu workspaces for messaging, document management, and automation.
+
+## Key Features
+
+- **💬 Messaging**: Read/send messages, manage threads, search conversations, handle files
+- **📄 Document Management**: Create, update, and read Lark documents  
+- **📊 Base Operations**: Full CRUD operations on bases, tables, fields, and records
+- **📈 Spreadsheet Integration**: Create, edit, and view sheets
+- **📅 Calendar Management**: Manage events, attendees, and free/busy status
+- **✅ Task Management**: Handle tasks, subtasks, lists, and comments
+- **📱 Interactive Cards**: Real-time status updates with confirmation buttons
+- **🌊 Streaming Responses**: Live text streaming in message cards
+- **🔒 Permission Policies**: Granular access control for DMs and groups
+
+## Installation
+
+<Callout type="warning">
+Requires Node.js v22+ and OpenClaw version 2026.2.26 or higher. Check with `openclaw -v`.
+</Callout>
+
+```bash
+npm install @larksuite/openclaw-lark
+```
+
+## Basic Usage
+
+Install the plugin in your OpenClaw configuration, then connect to your Lark/Feishu workspace through the authorization flow. The plugin will act under your user identity within the authorized scope.
+
+```typescript
+// Configuration example
+const config = {
+  plugins: ['@larksuite/openclaw-lark'],
+  // Plugin will handle OAuth flow automatically
+}
+```
+
+## Notable Details
+
+<Callout type="danger">
+This plugin carries inherent AI automation risks including model hallucinations and prompt injection. Use as a private assistant only - avoid adding to group chats or sharing access.
+</Callout>
+
+- **License**: MIT
+- **Language**: TypeScript  
+- **Community**: 1,575 GitHub stars
+- **Documentation**: [Official usage guide](https://bytedance.larkoffice.com/docx/MFK7dDFLFoVlOGxWCv5cTXKmnMh)
+- **Compliance**: Must follow Lark/Feishu privacy policies and terms of service

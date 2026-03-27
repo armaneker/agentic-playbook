@@ -1,0 +1,76 @@
+<GuideHeader tool="Aurogen" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Aurogen
+
+Aurogen is a modular multi-agent framework that reimplements and extends the OpenClaw paradigm. It's designed to run multiple AI agents simultaneously within a single deployment while maintaining full ecosystem compatibility.
+
+## Key Features
+
+- **Fully modular architecture** — Agents, Channels, Providers, and Skills are completely modularized and can run in parallel
+- **Multi-agent support** — Deploy and orchestrate multiple agents within a single instance
+- **Web-based configuration** — No CLI or config files required; all settings take effect immediately without restarts
+- **OpenClaw ecosystem compatibility** — Import skills directly from clawhub.ai and use existing OpenClaw resources
+- **Built-in web panel** — Complete management interface included
+- **Dynamic module loading** — Add and configure components on-the-fly
+
+<Callout type="info">
+Aurogen supports Agent Group mode for complex multi-agent conversations and task handling.
+</Callout>
+
+## Installation
+
+### One-click Installer
+
+Download the appropriate package from [GitHub Releases](https://github.com/UniRound-Tec/Aurogen/releases):
+
+```bash
+# macOS/Linux
+tar -xzf aurogen-x.x.x-&lt;platform>.tar.gz
+cd aurogen-x.x.x-&lt;platform>
+bash start.sh
+
+# Windows: Extract zip and run start.bat
+```
+
+### Docker
+
+```bash
+docker build -t aurogen .
+docker run --rm -p 8000:8000 \
+  -v "$(pwd)/aurogen/.workspace:/app/aurogen/.workspace" \
+  aurogen
+```
+
+### Development Setup
+
+```bash
+# Backend
+conda create -n aurogen python=3.12
+conda activate aurogen && cd ./aurogen
+pip install -r requirements.txt
+uvicorn app.app:app --host 0.0.0.0 --port 8000 --reload
+
+# Frontend (separate terminal)
+cd ./aurogen_web && npm i
+npm run dev
+```
+
+## Basic Usage
+
+1. Start Aurogen and visit `http://localhost:8000`
+2. Set your admin password through the web interface
+3. Configure your first Provider (OpenAI, Anthropic, etc.)
+4. Create agents and assign them to channels
+5. Import skills from clawhub.ai or create custom ones
+
+<Callout type="tip">
+All configuration is handled through the web panel. Changes take effect immediately without service restarts.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript
+- **Community**: 1,126 GitHub stars
+- **Ecosystem**: Compatible with existing OpenClaw skills and tools
+- **Documentation**: Available at [docs.aurogen.site](https://docs.aurogen.site)

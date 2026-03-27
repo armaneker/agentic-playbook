@@ -190,11 +190,15 @@
       "first_seen": "2026-03-22",
       "has_summary": true,
       "topics": [
+        "agentic-ai",
+        "agents",
         "ai",
         "artificial-intelligence",
         "autonomous-agents",
-        "gpt-4",
+        "claude",
+        "gpt",
         "llama-api",
+        "llm",
         "openai",
         "python"
       ],
@@ -3530,6 +3534,39 @@
       "category": "Other",
       "version": null,
       "blurb": "This is a TypeScript template that uses Claude Code to automatically reverse-engineer and rebuild websites as pixel-perfect clones. It analyzes a target URL through Chrome MCP to extract design tokens, assets, and component specifications, then dispatches parallel AI agents to reconstruct each section in isolated git worktrees. The system handles the complete pipeline from reconnaissance and asset extraction to component building and visual diff validation against the original site."
+    },
+    "joewongjc/type4me": {
+      "full_name": "joewongjc/type4me",
+      "description": "MacOS语音输入工具，实时识别、大模型文本优化、全本地存储",
+      "language": "Swift",
+      "url": "https://github.com/joewongjc/type4me",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2.3"
+    },
+    "ryanstephen/lil-agents": {
+      "full_name": "ryanstephen/lil-agents",
+      "description": "tiny AI companions that live on your macOS dock",
+      "language": "Swift",
+      "url": "https://github.com/ryanstephen/lil-agents",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v1.0"
+    },
+    "jonwiggins/optio": {
+      "full_name": "jonwiggins/optio",
+      "description": "Workflow orchestration for AI coding agents, from task to merged PR.",
+      "language": "TypeScript",
+      "url": "https://github.com/jonwiggins/optio",
+      "first_seen": "2026-03-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

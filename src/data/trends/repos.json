@@ -3651,6 +3651,69 @@
       "category": "Other",
       "version": "v0.2.0",
       "blurb": "Markit is a TypeScript CLI tool and library that converts various file formats (PDF, DOCX, images, audio, URLs, etc.) to Markdown. It provides a unified interface for document conversion with built-in support for AI-powered image description and audio transcription via OpenAI/Anthropic APIs. The tool features a pluggable architecture that allows users to extend functionality with custom converters or override built-in format handlers."
+    },
+    "DingTalk-Real-AI/dingtalk-workspace-cli": {
+      "full_name": "DingTalk-Real-AI/dingtalk-workspace-cli",
+      "description": "DingTalk Workspace is an officially open-sourced cross-platform CLI tool from DingTalk. It unifies DingTalk’s full suite of product capabilities into a single package, is designed for both human users and AI agent scenarios.",
+      "language": "Go",
+      "url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
+      "first_seen": "2026-03-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": "v1.0.0"
+    },
+    "oaker-io/wewrite": {
+      "full_name": "oaker-io/wewrite",
+      "description": "公众号文章全流程 AI Skill for Claude Code — 热点抓取 → 选题 → 写作 → SEO → 视觉AI → 排版 → 微信草稿箱",
+      "language": "Python",
+      "url": "https://github.com/oaker-io/wewrite",
+      "first_seen": "2026-03-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mauriceboe/NOMAD": {
+      "full_name": "mauriceboe/NOMAD",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "url": "https://github.com/mauriceboe/NOMAD",
+      "first_seen": "2026-03-28",
+      "has_summary": false,
+      "topics": [
+        "budget-tracker",
+        "collaborative",
+        "open-source",
+        "opensource",
+        "packing-list",
+        "poi",
+        "real-time",
+        "routes",
+        "self-hosted",
+        "travel",
+        "travel-app",
+        "travel-planner",
+        "traveling",
+        "trip",
+        "trip-planner",
+        "wanderlog",
+        "wanderlust",
+        "webapplication"
+      ],
+      "category": "Other",
+      "version": "v2.6.1"
+    },
+    "kamranahmedse/diffity": {
+      "full_name": "kamranahmedse/diffity",
+      "description": "GitHub-style diff viewer for reviewing code changes. Works with Claude Code, Cursor and other AI tools.",
+      "language": "TypeScript",
+      "url": "https://github.com/kamranahmedse/diffity",
+      "first_seen": "2026-03-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

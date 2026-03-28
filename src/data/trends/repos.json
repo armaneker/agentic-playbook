@@ -3673,7 +3673,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v1.1.0",
       "blurb": "WeWrite is a comprehensive AI workflow system designed specifically for Chinese WeChat public account article creation, built as a skill for Claude Code. It automates the entire content pipeline from trending topic extraction (Weibo, Toutiao, Baidu) through SEO optimization, AI writing, visual generation, to final publishing in WeChat's draft system. The system includes client-specific style configuration, multiple layout themes, and analytics feedback loops for continuous improvement."
     },
     "mauriceboe/NOMAD": {
@@ -3742,6 +3742,58 @@
       "category": "DevTools",
       "version": "v1.0.0",
       "blurb": "The `larksuite/cli` is a command-line tool for interacting with the Lark/Feishu Open Platform APIs. It provides over 200 commands covering business domains like messaging, documents, calendars, and spreadsheets, designed specifically for both human users and AI agents to automate workplace tasks. The tool features 19 structured AI Agent Skills and a three-layer command architecture that ranges from simple shortcuts to full API coverage."
+    },
+    "facebookresearch/tribev2": {
+      "full_name": "facebookresearch/tribev2",
+      "description": "This repository contains the code to train and evaluate TRIBE v2, a multimodal model for brain response prediction",
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/facebookresearch/tribev2",
+      "first_seen": "2026-03-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "open-pencil/open-pencil": {
+      "full_name": "open-pencil/open-pencil",
+      "description": "AI-native design editor. Open-source Figma alternative.",
+      "language": "TypeScript",
+      "url": "https://github.com/open-pencil/open-pencil",
+      "first_seen": "2026-03-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.10.0"
+    },
+    "mauriceboe/TREK": {
+      "full_name": "mauriceboe/TREK",
+      "description": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
+      "language": "TypeScript",
+      "url": "https://github.com/mauriceboe/TREK",
+      "first_seen": "2026-03-28",
+      "has_summary": false,
+      "topics": [
+        "budget-tracker",
+        "collaborative",
+        "open-source",
+        "opensource",
+        "packing-list",
+        "poi",
+        "real-time",
+        "routes",
+        "self-hosted",
+        "travel",
+        "travel-app",
+        "travel-planner",
+        "traveling",
+        "trip",
+        "trip-planner",
+        "wanderlog",
+        "wanderlust",
+        "webapplication"
+      ],
+      "category": "Other",
+      "version": "v2.6.2"
     }
   }
 }

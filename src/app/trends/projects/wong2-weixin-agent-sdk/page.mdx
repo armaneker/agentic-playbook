@@ -1,0 +1,69 @@
+<GuideHeader tool="weixin-agent-sdk" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# WeChat Agent SDK
+
+A TypeScript bridge framework that connects any AI backend to WeChat through a simple Agent interface. Supports text, images, files, and multimedia with automatic encryption/decryption handling.
+
+## Key Features
+
+- Simple `Agent` interface - implement one method to connect any AI backend
+- ACP (Agent Client Protocol) support for zero-code integration with existing agents
+- Full multimedia support (images, audio, video, files) with automatic processing
+- Long polling message reception (no public server required)
+- Built-in conversation management and session handling
+- Automatic reconnection and error recovery
+
+## Installation
+
+```bash
+npm install weixin-agent-sdk
+```
+
+For ACP agents (no coding required):
+
+```bash
+npx weixin-acp claude-code
+npx weixin-acp codex
+npx weixin-acp start -- kimi acp
+```
+
+## Basic Usage
+
+```typescript
+import { login, start, type Agent } from "weixin-agent-sdk";
+
+const myAgent: Agent = {
+  async chat(request) {
+    // request.conversationId - user identifier for multi-turn chat
+    // request.text - message content
+    // request.media - optional file attachment
+    
+    const reply = await callYourAI(request.text);
+    
+    return { 
+      text: reply,
+      // Optional: media response
+      // media: { type: "image", url: "/path/to/image.png" }
+    };
+  },
+};
+
+await login(); // Scan QR code to authenticate
+await start(myAgent);
+```
+
+<Callout type="info">
+The SDK automatically handles WeChat's media encryption, file downloads, and session management. Your agent only needs to process the decrypted content.
+</Callout>
+
+<Callout type="warning">
+Requires Node.js >= 22. Sessions automatically reconnect after expiration with a 1-hour cooldown period.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript
+- **Community**: 937 stars
+- **Architecture**: Uses long polling for message reception, AES-128-ECB for media encryption
+- **Built-in commands**: `/echo`, `/toggle-debug` for testing and diagnostics

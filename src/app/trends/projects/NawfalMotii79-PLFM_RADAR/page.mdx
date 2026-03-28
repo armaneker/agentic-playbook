@@ -1,0 +1,85 @@
+<GuideHeader tool="PLFM_RADAR" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# AERIS-10 Open Source Phased Array Radar
+
+AERIS-10 is an open-source, low-cost 10.5 GHz phased array radar system featuring Pulse Linear Frequency Modulated (PLFM) modulation. It's designed for researchers, drone developers, and advanced SDR enthusiasts who want to experiment with phased array radar technology.
+
+## Key Features
+
+- **Dual range options**: AERIS-10N (3km) and AERIS-10E (20km) versions
+- **Full electronic beam steering**: ±45° in elevation and azimuth
+- **Advanced signal processing**: On-board FPGA handles pulse compression, Doppler FFT, MTI, and CFAR
+- **Complete hardware design**: Schematics, PCB layouts, and 3D printable enclosures
+- **Python GUI**: Real-time target plotting with map integration
+- **GPS/IMU integration**: Position and attitude correction
+- **Modular architecture**: Separate power, frequency synthesis, and RF boards
+
+## Installation
+
+### Hardware Assembly
+
+1. **Order PCBs**: Gerber files located in `/4_Schematics and Boards Layout`
+2. **Source components**: BOM available in `/4_Schematics and Boards Layout/4_7_Production Files`
+3. **Assembly**: Follow guide in `/10_docs/assembly_guide.md`
+4. **Enclosure**: 3D print files from `/10_docs/Hardware/Enclosure`
+
+### Software Setup
+
+```bash
+# Clone repository
+git clone https://github.com/NawfalMotii79/PLFM_RADAR
+cd PLFM_RADAR
+
+# Install Python dependencies
+pip install -r requirements.txt
+
+# Run GUI application
+python 9_Firmware/9_3_GUI/radar_gui.py
+```
+
+## Basic Usage
+
+```python
+# Initialize radar system
+from aeris10 import RadarSystem
+
+radar = RadarSystem(version="N")  # or "E" for extended range
+radar.initialize()
+
+# Configure beam steering
+radar.set_beam_angle(azimuth=0, elevation=10)
+
+# Start scanning
+radar.start_scan()
+targets = radar.get_targets()
+
+# Process detections
+for target in targets:
+    print(f"Target at {target.range}km, {target.bearing}°")
+```
+
+<Callout type="warning">
+This radar operates at 10.5 GHz with significant RF power output. Ensure proper safety measures and regulatory compliance before operation.
+</Callout>
+
+## Technical Specifications
+
+| Parameter | AERIS-10N | AERIS-10E |
+|-----------|-----------|-----------|
+| **Frequency** | 10.5 GHz | 10.5 GHz |
+| **Max Range** | 3 km | 20 km |
+| **Antenna** | 8x16 Patch | 32x16 Waveguide |
+| **Output Power** | 1W x 16 | 10W x 16 |
+
+## Notable Details
+
+- **License**: Hardware under CERN-OHL-P, Software under MIT
+- **Language**: Verilog (FPGA), Python (GUI), C (embedded)
+- **Community**: 3,586 stars on GitHub
+- **Status**: Alpha - active development
+- **FPGA**: Xilinx XC7A100T for signal processing
+- **MCU**: STM32F746xx for system control
+
+<Callout type="tip">
+The project includes complete manufacturing files, making it suitable for both academic research and commercial development.
+</Callout>

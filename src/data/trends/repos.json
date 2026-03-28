@@ -2497,7 +2497,7 @@
       "language": "TypeScript",
       "url": "https://github.com/wong2/weixin-agent-sdk",
       "first_seen": "2026-03-23",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Agentic",
       "blurb": "A TypeScript SDK that bridges arbitrary AI agents to WeChat by implementing a simple Agent interface with chat methods. It enables developers to connect any AI backend (OpenAI, Claude, etc.) to WeChat without needing a public server, using long polling to receive messages and handling media file encryption/decryption automatically. The project includes an ACP (Agent Client Protocol) adapter that allows zero-code integration with compatible agents like Claude Code and Codex."
@@ -2508,7 +2508,7 @@
       "language": "TypeScript",
       "url": "https://github.com/Krypto-Hashers-Community/polymarket-trading-bot",
       "first_seen": "2026-03-23",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "arbitrage",
         "bot",
@@ -2531,7 +2531,7 @@
       "language": "TypeScript",
       "url": "https://github.com/m1heng/claude-plugin-weixin",
       "first_seen": "2026-03-23",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "blurb": "This is a Claude Code plugin that integrates WeChat messaging functionality into the terminal. It allows users to receive and reply to WeChat messages directly through Claude Code using the WeChat iLink Bot API with HTTP long-polling. The plugin requires QR code authentication and a pairing process to connect your WeChat account, with all communication handled locally without needing public webhooks."
@@ -2557,7 +2557,7 @@
       "language": "Verilog",
       "url": "https://github.com/NawfalMotii79/PLFM_RADAR",
       "first_seen": "2026-03-23",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "blurb": "AERIS-10 is an open-source 10.5 GHz phased array radar system that uses Pulse Linear Frequency Modulated (PLFM) waveforms and electronic beam steering. It provides researchers and developers with a complete, hackable platform for experimenting with advanced radar techniques like beamforming, pulse compression, and Doppler processing at a fraction of commercial system costs. The system comes in two variants offering 3km and 20km range capabilities with full hardware schematics, FPGA firmware, and Python GUI included."
@@ -3740,7 +3740,8 @@
       "has_summary": false,
       "topics": [],
       "category": "DevTools",
-      "version": "v1.0.0"
+      "version": "v1.0.0",
+      "blurb": "The `larksuite/cli` is a command-line tool for interacting with the Lark/Feishu Open Platform APIs. It provides over 200 commands covering business domains like messaging, documents, calendars, and spreadsheets, designed specifically for both human users and AI agents to automate workplace tasks. The tool features 19 structured AI Agent Skills and a three-layer command architecture that ranges from simple shortcuts to full API coverage."
     }
   }
 }

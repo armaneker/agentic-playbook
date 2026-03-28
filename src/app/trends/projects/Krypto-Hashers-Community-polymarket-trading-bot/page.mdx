@@ -1,0 +1,63 @@
+<GuideHeader tool="polymarket-trading-bot" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Polymarket Trading Bot
+
+A TypeScript bot that trades on Polymarket binary crypto markets using configurable strategies for trend-following and binary market arbitrage. Connects to Polymarket's CLOB and real-time data feeds to execute trades on short-term price movements.
+
+## Key Features
+
+- **Multiple strategies**: Trend-following directional trades and binary arbitrage when UP + DOWN tokens are mispriced
+- **Live market data**: CLOB WebSocket for order book updates and RTDS for price velocity tracking
+- **Configurable markets**: Support for BTC, ETH, SOL, XRP across multiple time periods (5-1440 minutes)
+- **Risk management**: Time-based exits, price thresholds, take profit/stop loss, and emergency position swaps
+- **Simulation mode**: Test strategies without placing actual orders
+
+<Callout type="warning">
+Order placement is commented out by default. The bot runs as a framework for market monitoring unless you explicitly enable trading functions.
+</Callout>
+
+## Installation
+
+```bash
+git clone https://github.com/Krypto-Hashers-Community/polymarket-trading-bot
+cd polymarket-trading-bot
+npm install
+```
+
+Create `.env` file:
+```bash
+POLYMARKET_PRIVATE_KEY=your_private_key_here
+PROXY_WALLET_ADDRESS=your_proxy_wallet_address
+```
+
+## Basic Usage
+
+Configure your strategy in `trade.toml`:
+
+```toml
+strategy = "trade_1"
+trade_usd = 100
+simulation = true
+
+[market]
+market_coin = "btc"
+market_period = "15"
+
+[trade_1]
+exit_time_ratio = 0.8
+exit_price_ratio = 0.3
+trading_range = [0.45, 0.55]
+```
+
+Run the bot:
+
+```bash
+npm run dev
+```
+
+## Notable Details
+
+- **Language**: TypeScript with Node.js ≥ 20.6.0 requirement
+- **Community**: 338 GitHub stars from crypto trading community
+- **License**: Not specified
+- **Risk**: Educational/experimental use only - involves real financial risk on Polymarket

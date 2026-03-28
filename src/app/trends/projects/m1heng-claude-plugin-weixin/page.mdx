@@ -1,0 +1,57 @@
+<GuideHeader tool="claude-plugin-weixin" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Claude WeChat Plugin
+
+A WeChat integration plugin for Claude Code that enables receiving and replying to WeChat messages directly from your terminal. Uses the WeChat iLink Bot API with HTTP long-polling, eliminating the need for public webhooks.
+
+## Key Features
+
+- Terminal-based WeChat message handling through Claude Code
+- QR code authentication for WeChat login
+- Local MCP server with long-polling (no public URLs required)
+- Message pairing system with approval codes
+- Allowlist management for sender control
+- Automatic credential storage
+
+## Installation
+
+<Callout type="info">
+Requires Claude Code v2.1.80+ and Bun runtime.
+</Callout>
+
+```bash
+# Add the marketplace (one-time setup)
+claude plugin marketplace add m1heng/claude-plugins
+
+# Install the plugin
+claude plugin install weixin@m1heng-plugins
+```
+
+## Basic Usage
+
+1. **Login with QR code:**
+```bash
+/weixin:configure login
+```
+
+2. **Start the channel:**
+```bash
+claude --dangerously-load-development-channels plugin:weixin@m1heng-plugins
+```
+
+3. **Pair your WeChat account:**
+   - Send a message to the bot on WeChat
+   - Copy the pairing code from the bot's reply
+   - Run `/weixin:access pair <code>` in Claude Code
+
+<Callout type="warning">
+The `--dangerously-load-development-channels` flag is required for non-official plugins during the channels research preview.
+</Callout>
+
+## Notable Details
+
+- **Language:** TypeScript
+- **License:** MIT
+- **Community:** 540+ GitHub stars
+- **Architecture:** Local MCP server with long-polling
+- **Unique feature:** Uses `context_token` for message threading (unlike Telegram/Feishu integrations)

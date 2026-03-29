@@ -1241,7 +1241,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v0.4.1",
       "blurb": "WeClaw is a Go-based bridge that connects WeChat to AI agents like Claude, Codex, Gemini, and Kimi. It allows users to interact with these AI agents directly through WeChat messages using simple commands and automatically handles media content conversion. The tool supports multiple agent communication protocols (ACP, CLI, HTTP) and can proactively send messages via both CLI and HTTP API."

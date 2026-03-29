@@ -1,0 +1,63 @@
+<GuideHeader tool="weclaw" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# WeClaw
+
+WeClaw is a WeChat AI agent bridge that connects WeChat messages to AI agents like Claude, Codex, Gemini, and Kimi. Built in Go, it automatically detects installed AI agents and routes WeChat conversations to them.
+
+## Key Features
+
+- Auto-detects AI agents (Claude, Codex, Gemini, Kimi, Cursor, OpenClaw)
+- Three agent modes: ACP (JSON-RPC), CLI (subprocess), HTTP (API)
+- Media message support (images, videos, files, voice-to-text)
+- Proactive messaging via CLI and HTTP API
+- Chat commands for agent switching and session management
+- Background daemon mode with system service support
+
+## Installation
+
+```bash
+# One-line install
+curl -sSL https://raw.githubusercontent.com/fastclaw-ai/weclaw/main/install.sh | sh
+
+# Via Go
+go install github.com/fastclaw-ai/weclaw@latest
+
+# Via Docker
+docker run -it -v ~/.weclaw:/root/.weclaw ghcr.io/fastclaw-ai/weclaw start
+```
+
+## Basic Usage
+
+```bash
+# Start (shows QR code on first run)
+weclaw start
+
+# Check status
+weclaw status
+
+# Send proactive message
+weclaw send --to "user_id@im.wechat" --text "Hello from weclaw"
+```
+
+<Callout type="info">
+On first start, scan the QR code with WeChat to login. WeClaw auto-saves config to `~/.weclaw/config.json`.
+</Callout>
+
+**Chat Commands:**
+- `hello` - Send to default agent
+- `/codex write a function` - Send to specific agent  
+- `/claude` - Switch default agent
+- `/new` - Start new conversation
+
+<Callout type="warning">
+Some agents require permission bypass flags like `--dangerously-skip-permissions` for Claude CLI to work in automated mode.
+</Callout>
+
+## Notable Details
+
+- **License:** MIT
+- **Language:** Go
+- **GitHub Stars:** 890
+- **Docker Support:** Full containerization with volume mounts
+- **HTTP API:** Runs on `127.0.0.1:18011` for proactive messaging
+- **Background Mode:** Daemon with systemd/launchd service files

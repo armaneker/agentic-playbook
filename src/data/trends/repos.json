@@ -3654,7 +3654,7 @@
     },
     "Flowseal/tg-ws-proxy": {
       "full_name": "Flowseal/tg-ws-proxy",
-      "description": "Local SOCKS5 proxy server for partial bypassing of Telegram loading",
+      "description": "Local MTProto proxy server for partial bypassing of Telegram loading",
       "language": "Python",
       "url": "https://github.com/Flowseal/tg-ws-proxy",
       "first_seen": "2026-03-27",
@@ -4046,6 +4046,28 @@
       "category": "AI / ML",
       "version": null,
       "blurb": "Prompt Master is a Claude skill that generates precise prompts for any AI tool including Claude, ChatGPT, Midjourney, and coding assistants. It eliminates wasted API calls by analyzing intent across 9 dimensions and producing optimized prompts that work on the first attempt. The system automatically detects the target tool and applies the appropriate prompt framework without showing the user its internal routing logic."
+    },
+    "legalize-dev/legalize-es": {
+      "full_name": "legalize-dev/legalize-es",
+      "description": "Spanish legislation as a Git repo — every law is a Markdown file, every reform a commit. 8,600+ laws.",
+      "language": "Unknown",
+      "url": "https://github.com/legalize-dev/legalize-es",
+      "first_seen": "2026-03-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "qiuzhi2046/Qclaw": {
+      "full_name": "qiuzhi2046/Qclaw",
+      "description": "不用命令行，小白也能轻松玩转 OpenClaw",
+      "language": "TypeScript",
+      "url": "https://github.com/qiuzhi2046/Qclaw",
+      "first_seen": "2026-03-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

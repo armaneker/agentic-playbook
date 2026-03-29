@@ -225,6 +225,51 @@ sed -i 's/old-value/new-value/' ~/mission-control/.env
 
 ---
 
+## 8. Device Pairing
+
+When Mission Control first connects to an OpenClaw gateway, OpenClaw doesn't recognize the device and requires a pairing approval. Task dispatch won't work until this is done.
+
+### Symptoms
+
+You create a task and assign it to an agent, but the task stays stuck in `assigned` status. The logs panel shows:
+
+```
+gateway connect failed: GatewayClientRequestError: pairing required
+Gateway call failed: Error: gateway closed (1008): pairing required
+```
+
+### Fix
+
+Find the Mission Control device ID:
+
+```bash
+openclaw devices list
+```
+
+Approve it:
+
+```bash
+openclaw devices approve <device-id>
+```
+
+You should see an `Approved` message.
+
+<Callout type="warning" title="CLI also gives pairing error?">
+If `openclaw devices approve` itself fails with a pairing error (circular dependency), use the request ID instead:
+
+```bash
+openclaw devices approve <request-id>
+```
+
+The request ID is shown next to each device in `openclaw devices list` output.
+</Callout>
+
+After approval, create a task in Mission Control and assign it to an agent. The task should now flow through `In Progress` → `Done`.
+
+This approval is a one-time step per Mission Control installation. Subsequent sessions don't require it.
+
+---
+
 ## Architecture
 
 ```

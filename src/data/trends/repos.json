@@ -4029,6 +4029,22 @@
       "category": "Other",
       "version": null,
       "blurb": "ASCII Studio is a TypeScript tool that converts video files into ASCII character-based animations. It allows developers to create terminal-friendly video playback by mapping pixel brightness to ASCII characters, useful for retro aesthetics, terminal applications, or bandwidth-constrained environments."
+    },
+    "nidhinjs/prompt-master": {
+      "full_name": "nidhinjs/prompt-master",
+      "description": "A Claude skill that writes the accurate prompts for any AI tool. Zero tokens or credits wasted. Full context and memory retention",
+      "language": "Unknown",
+      "url": "https://github.com/nidhinjs/prompt-master",
+      "first_seen": "2026-03-29",
+      "has_summary": false,
+      "topics": [
+        "claude-ai",
+        "claude-skills",
+        "llm",
+        "prompt-engineering"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

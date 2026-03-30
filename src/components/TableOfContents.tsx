@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { usePathname } from 'next/navigation';
 
 interface TocItem {
   id: string;
@@ -11,8 +12,11 @@ interface TocItem {
 export default function TableOfContents() {
   const [headings, setHeadings] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState('');
+  const pathname = usePathname();
 
   useEffect(() => {
+    // Re-query on each navigation — App Router layouts persist between routes
+    setActiveId('');
     const elements = Array.from(
       document.querySelectorAll('article h2, article h3')
     );
@@ -36,7 +40,7 @@ export default function TableOfContents() {
 
     elements.forEach((el) => observer.observe(el));
     return () => observer.disconnect();
-  }, []);
+  }, [pathname]);
 
   if (headings.length === 0) return null;
 

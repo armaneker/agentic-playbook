@@ -1329,7 +1329,7 @@
     },
     "garrytan/gstack": {
       "full_name": "garrytan/gstack",
-      "description": "Use Garry Tan's exact Claude Code setup: 15 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
+      "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
       "url": "https://github.com/garrytan/gstack",
       "first_seen": "2026-03-22",
@@ -1388,7 +1388,8 @@
       "has_summary": true,
       "topics": [],
       "category": "DevTools",
-      "blurb": "CLI-Anything is a Python framework that generates command-line interfaces for existing software applications to make them accessible to AI agents. It allows agents to programmatically control GUI applications, web services, and other software through standardized CLI commands with JSON output. The project includes a community hub with CLIs for 16+ applications and maintains 1,839 passing tests across its implementations."
+      "blurb": "CLI-Anything is a Python framework that generates command-line interfaces for existing software applications to make them accessible to AI agents. It allows agents to programmatically control GUI applications, web services, and other software through standardized CLI commands with JSON output. The project includes a community hub with CLIs for 16+ applications and maintains 1,839 passing tests across its implementations.",
+      "version": "v0.2.0"
     },
     "RightNow-AI/openfang": {
       "full_name": "RightNow-AI/openfang",
@@ -4290,6 +4291,17 @@
       "category": "Other",
       "version": null,
       "blurb": "opensessions is a terminal session manager that provides a sidebar interface for tmux, displaying session information, agent status, git branches, and enabling quick switching between sessions. It integrates into existing tmux workflows rather than replacing them, offering session management through a dedicated pane that shows context like working directories, localhost ports, and agent states. The tool includes a programmatic HTTP API that allows scripts and agents to push status updates, progress indicators, and logs to the sidebar interface."
+    },
+    "walkinglabs/awesome-harness-engineering": {
+      "full_name": "walkinglabs/awesome-harness-engineering",
+      "description": "🛠️ Awesome tools & guides for harness engineering.",
+      "language": "Unknown",
+      "url": "https://github.com/walkinglabs/awesome-harness-engineering",
+      "first_seen": "2026-03-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

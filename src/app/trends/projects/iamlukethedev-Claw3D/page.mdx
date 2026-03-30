@@ -1,0 +1,63 @@
+<GuideHeader tool="Claw3D" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Claw3D
+
+Claw3D is a 3D workspace for AI agents that turns automation into a visual workplace. Built on TypeScript, it provides a shared 3D environment where agents can collaborate, review code, and execute tasks.
+
+## Key Features
+
+- **Real-time agent visualization** - Watch AI agents work in a retro office environment
+- **Interactive workspaces** - Conduct standups, review PRs, and monitor QA pipelines in 3D
+- **Agent training gym** - Develop new skills for agents in dedicated training areas
+- **Fleet management** - Create, configure, and control multiple agents with runtime updates
+- **Office builder** - Design and customize 3D workspace layouts
+- **WebSocket proxy** - Gateway-first architecture connecting to OpenClaw backend
+
+## Installation
+
+<Callout type="warning">
+Requires a running OpenClaw gateway instance. Claw3D is the frontend layer only.
+</Callout>
+
+```bash
+git clone https://github.com/iamlukethedev/Claw3D.git
+cd Claw3D
+npm install
+cp .env.example .env
+npm run dev
+```
+
+## Basic Usage
+
+Configure your OpenClaw gateway connection:
+
+```bash
+# In .env file
+NEXT_PUBLIC_GATEWAY_URL=ws://localhost:18789
+CLAW3D_GATEWAY_TOKEN=your_gateway_token
+```
+
+Start the development server and navigate to `http://localhost:3000`. Configure the gateway URL and token in the Studio interface.
+
+```typescript
+// Basic agent interaction
+const agent = await createAgent({
+  name: "CodeReviewer",
+  type: "github",
+  workspace: "office_desk_1"
+});
+```
+
+<Callout type="info">
+For remote gateway setups, use Tailscale with `wss://&lt;gateway-host>.ts.net` or SSH tunneling.
+</Callout>
+
+## Notable Details
+
+**License**: MIT  
+**Language**: TypeScript  
+**Community**: 934 stars  
+**Tech Stack**: Next.js, Three.js, React Three Fiber, WebGL  
+**Dependencies**: Node.js 20+, npm 10+, OpenClaw gateway  
+
+The project uses a dual WebSocket architecture: Browser ↔ Studio ↔ OpenClaw Gateway, keeping agent state in OpenClaw while Studio handles UI preferences and visualization.

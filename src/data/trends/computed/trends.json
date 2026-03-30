@@ -1424,7 +1424,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a skill library that teaches AI agents to create high-performing direct response advertising, including paid ads, funnels, and copywriting based on proven frameworks like Eugene Schwartz's methods. It provides structured, opinionated skills that can be chained together to build complete campaign systems rather than just generating generic marketing content. The skills are designed specifically for paid traffic and real ad budgets, combining both strategic thinking and tactical execution."
     },
     {
       "full_name": "adamlyttleapps/notchy",
@@ -1439,7 +1439,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Notchy is a macOS menu bar app that integrates Claude Code into the MacBook's notch area. It provides a floating terminal panel that automatically detects open Xcode projects and supports multiple Claude Code sessions with features like git checkpoints and live status indicators. The app leverages the notch as an interactive UI element that reveals the terminal on hover."
     },
     {
       "full_name": "walter-grace/mac-code",
@@ -1469,7 +1469,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "**slides** is a Python tool that generates AI prompts for creating PowerPoint presentations in various visual styles like retro pop art, cyberpunk, and minimalist designs. It provides pre-configured prompts optimized for the nanobanana2 AI service to generate styled slide layouts with specific color schemes, typography, and design elements. The tool includes 11 different aesthetic styles with detailed prompt templates and recommended settings for 2K resolution output."
     },
     {
       "full_name": "apechurch/polymarket-arbitrage-trading-bot",
@@ -1499,7 +1499,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a structured equity research database containing reports on 1,735 Taiwan-listed companies across 99 industry sectors. It consolidates fragmented Chinese-language financial filings into searchable markdown reports with supply chain mapping and cross-referenced wikilinks that form a knowledge graph. The wikilink system enables queries like searching \"[[Apple]]\" to find all 207 Taiwanese companies in Apple's supply chain or \"[[CoWoS]]\" to map TSMC's advanced packaging ecosystem."
     },
     {
       "full_name": "0xNyk/awesome-hermes-agent",
@@ -1514,7 +1514,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "Awesome Hermes Agent is a curated list of skills, tools, integrations, and resources for Hermes Agent, a self-improving AI agent with a built-in learning loop developed by Nous Research. Developers use this repository to discover community-contributed skills, deployment tools, integrations, and documentation to enhance their Hermes Agent workflows. The list categorizes resources by maturity level (production, beta, experimental) to help users understand what's stable enough for production use."
     },
     {
       "full_name": "Nahuel990/ministack",
@@ -1529,7 +1529,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": "v1.1.1",
-      "blurb": null
+      "blurb": "MiniStack is an open-source local AWS emulator that serves as a drop-in replacement for LocalStack's now-paid services. It emulates 26 AWS services on a single port and works with existing AWS tooling like boto3, AWS CLI, and Terraform for local development and testing. The project offers a significantly smaller footprint (~150MB vs LocalStack's ~1GB) while spinning up real infrastructure components like actual Postgres containers for RDS emulation."
     },
     {
       "full_name": "TheAlgorithms/Python",
@@ -1784,7 +1784,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "EurekaClaw is a multi-agent AI research assistant that autonomously conducts research from initial questions to publishable papers. It crawls academic literature, generates and tests hypotheses, proves theorems, and writes LaTeX papers with the goal of automating the entire research pipeline. The system operates locally with privacy by design and includes continual learning capabilities that improve proof strategies over time."
     },
     {
       "full_name": "mauriceboe/TREK",
@@ -1934,7 +1934,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": null,
-      "blurb": null
+      "blurb": "This is a TypeScript arbitrage bot that executes dump-and-hedge strategies on Polymarket's 15-minute Up/Down prediction markets for crypto assets like BTC, ETH, SOL, and XRP. It automatically detects price dumps on one outcome, buys the dip, then hedges by buying the opposite side when the combined cost drops below a target threshold to lock in profit. The bot includes production-ready features like simulation mode by default, configurable risk parameters, and automatic market discovery with period rollover detection."
     },
     {
       "full_name": "creationix/rx",
@@ -1949,7 +1949,7 @@
       "has_summary": false,
       "category": "Database",
       "version": null,
-      "blurb": null
+      "blurb": "RX is an embedded data store that encodes JSON-shaped data into a queryable format with automatic deduplication and random access capabilities. It eliminates the need to parse entire documents by allowing direct queries on the encoded buffer, making it ideal for large artifacts that are written once and read sparsely. The encoded format remains human-readable text rather than binary, enabling debugging without special tooling."
     }
   ]
 }

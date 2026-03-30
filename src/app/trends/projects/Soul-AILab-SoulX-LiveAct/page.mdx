@@ -1,0 +1,81 @@
+<GuideHeader tool="SoulX-LiveAct" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# SoulX-LiveAct
+
+SoulX-LiveAct is a real-time human animation framework that generates high-fidelity, multimodal-controlled video streams. It uses novel Neighbor Forcing and ConvKV Memory techniques to enable hour-scale video generation with constant memory usage.
+
+## Key Features
+
+- **Real-time performance**: 20 FPS on dual H100/H200 GPUs, 6 FPS on single RTX 5090
+- **Hour-scale generation**: Constant memory usage through ConvKV Memory compression
+- **Multimodal control**: Audio-driven animation with action and emotion editing
+- **Optimized inference**: FP8 precision, sequence parallelism, and operator fusion
+- **Consumer GPU support**: Model offloading for RTX 4090/5090 with FP8 KV cache
+
+## Installation
+
+<Callout type="info">
+Requires CUDA-capable GPUs. H100/H200 recommended for real-time performance.
+</Callout>
+
+```bash
+# Create environment
+conda create -n liveact python=3.10
+conda activate liveact
+pip install -r requirements.txt
+conda install conda-forge::sox -y
+
+# Install dependencies
+pip install vllm==0.11.0
+
+# Install SageAttention for FP8 kernels
+git clone https://github.com/thu-ml/SageAttention.git
+cd SageAttention && git checkout v2.2.0 && python setup.py install
+
+# Install LightVAE
+git clone https://github.com/ModelTC/LightX2V
+cd LightX2V && python setup_vae.py install
+```
+
+Download models from [Hugging Face](https://huggingface.co/Soul-AILab/LiveAct) and [chinese-wav2vec2-base](https://huggingface.co/TencentGameMate/chinese-wav2vec2-base).
+
+## Basic Usage
+
+**Dual GPU real-time streaming:**
+```bash
+USE_CHANNELS_LAST_3D=1 CUDA_VISIBLE_DEVICES=0,1 \
+torchrun --nproc_per_node=2 --master_port=$(shuf -n 1 -i 10000-65535) \
+    generate.py \
+    --size 416*720 \
+    --ckpt_dir MODEL_PATH \
+    --wav2vec_dir chinese-wav2vec2-base \
+    --fps 20 \
+    --input_json examples/example.json \
+    --steam_audio
+```
+
+**Single RTX 5090:**
+```bash
+USE_CHANNELS_LAST_3D=1 CUDA_VISIBLE_DEVICES=0 \
+python generate.py \
+    --size 416*720 \
+    --ckpt_dir MODEL_PATH \
+    --wav2vec_dir chinese-wav2vec2-base \
+    --fps 24 \
+    --input_json examples/example.json \
+    --fp8_kv_cache \
+    --block_offload \
+    --t5_cpu
+```
+
+<Callout type="tip">
+Use `--fp8_kv_cache` and `--block_offload` for consumer GPUs to reduce memory usage.
+</Callout>
+
+## Notable Details
+
+- **Language**: Python
+- **License**: Unknown
+- **Community**: 1,033 GitHub stars
+- **Models**: 18B parameters (14B Wan2.1 + 4B audio module)
+- **Hardware**: Optimized for NVIDIA H100/H200, supports RTX 4090/5090

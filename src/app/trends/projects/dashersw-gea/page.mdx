@@ -1,0 +1,81 @@
+<GuideHeader tool="gea" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Gea
+
+Gea is a reactive JavaScript UI framework that compiles JSX to efficient HTML templates at build time. It uses proxy-based stores for state management and surgically patches only the DOM nodes that depend on changed data.
+
+## Key Features
+
+- **No virtual DOM** — compile-time JSX transforms generate targeted DOM patches
+- **Proxy-based reactivity** — mutate state directly (`this.count++`) and DOM updates automatically  
+- **Built-in state management and routing** — no additional packages needed
+- **Tiny bundle size** — ~13kb gzipped with router, ~10kb without
+- **Standard JSX** — use `class` instead of `className`, lowercase events (`click` vs `onClick`)
+- **Class and function components** — choose the right pattern for your use case
+
+<Callout type="info">
+Props containing objects/arrays are shared proxies between parent and child, enabling two-way binding without explicit callbacks or events.
+</Callout>
+
+## Installation
+
+```bash
+npm create gea@latest my-app
+cd my-app
+npm install
+npm run dev
+```
+
+This scaffolds a Vite project with TypeScript, sample components, and hot module replacement.
+
+## Basic Usage
+
+```jsx
+// counter-store.ts
+import { Store } from '@geajs/core'
+
+class CounterStore extends Store {
+  count = 0
+  increment() { this.count++ }
+  decrement() { this.count-- }
+}
+
+export default new CounterStore()
+```
+
+```jsx
+// app.tsx
+import { Component } from '@geajs/core'
+import counterStore from './counter-store'
+
+export default class App extends Component {
+  template() {
+    return (
+      &lt;div>
+        &lt;h1>{counterStore.count}</h1>
+        &lt;button click={counterStore.increment}>+</button>
+        &lt;button click={counterStore.decrement}>-</button>
+      </div>
+    )
+  }
+}
+```
+
+```ts
+// main.ts
+import App from './app'
+
+new App().render(document.getElementById('app'))
+```
+
+<Callout type="tip">
+The Vite plugin analyzes your code at compile time and automatically wires up reactivity — no signals, hooks, or dependency arrays required.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: JavaScript/TypeScript
+- **Community**: 771 GitHub stars
+- **Performance**: Weighted geometric mean of 1.03 in js-framework-benchmark
+- **Additional packages**: UI primitives (`@geajs/ui`), mobile components (`@geajs/mobile`)

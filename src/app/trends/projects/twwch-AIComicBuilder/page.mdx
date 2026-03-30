@@ -1,0 +1,64 @@
+<GuideHeader tool="AIComicBuilder" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# AIComicBuilder
+
+AIComicBuilder is an AI-powered animated comic generator that transforms scripts into fully animated videos. It provides an end-to-end pipeline from script analysis to final video synthesis with automated character design and storyboarding.
+
+## Key Features
+
+- **Script Import & Parsing** — Upload TXT/DOCX/PDF files with automatic text parsing, character extraction, and intelligent episode segmentation
+- **Character Management** — Generate four-view reference images (front/three-quarter/side/back) for visual consistency across frames
+- **Intelligent Storyboarding** — AI breaks down scripts into professional shot lists with composition, lighting, and camera movement instructions
+- **Frame Generation** — Create start/end keyframes for each shot with scene reference modes
+- **Video Synthesis** — Generate animated video segments using frame interpolation, then composite into final videos with subtitle burning
+- **Multi-Model Support** — Integrates OpenAI, Gemini, Kling, Seedance, and Veo for text, image, and video generation
+- **Multiple Aspect Ratios** — Supports 16:9, 9:16, 1:1, and adaptive ratios
+- **Style Adaptation** — Automatically detects script style (anime/realistic) and matches character/frame generation accordingly
+
+## Installation
+
+<Callout type="info">
+Requires Node.js 18+, pnpm, and FFmpeg for video processing.
+</Callout>
+
+```bash
+git clone https://github.com/twwch/AIComicBuilder.git
+cd AIComicBuilder
+pnpm install
+pnpm drizzle-kit push
+pnpm dev
+```
+
+Access at `http://localhost:3000` and configure AI model providers in settings.
+
+## Docker Deployment
+
+```bash
+docker run -d \
+  --name ai-comic-builder \
+  -p 3000:3000 \
+  -v ./data:/app/data \
+  -v ./uploads:/app/uploads \
+  --platform linux/amd64 \
+  twwch/aicomicbuilder:latest
+```
+
+## Basic Usage
+
+1. Create a new project and upload your script file
+2. Review extracted characters and generated episodes
+3. Generate four-view reference images for characters
+4. Create storyboard shots with AI-generated prompts
+5. Generate start/end frames for each shot
+6. Synthesize video segments and composite final output
+
+<Callout type="tip">
+The pipeline supports individual stage triggering or batch generation, giving you complete control over the workflow pace.
+</Callout>
+
+## Notable Details
+
+**License:** Apache-2.0  
+**Language:** TypeScript (Next.js 16, React 19, SQLite)  
+**Community:** 704 stars  
+**Tech Stack:** Uses Tailwind CSS, Drizzle ORM, FFmpeg, and multiple AI providers via unified SDK

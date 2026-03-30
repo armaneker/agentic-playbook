@@ -1211,7 +1211,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "This repository provides curated LaTeX CV templates specifically designed for PhD students and researchers transitioning between academia and industry. It addresses the critical gap between publication-heavy academic CVs and ATS-optimized industry resumes that can survive automated parsing systems. The templates are organized by use case, with specific guidance on reformatting academic achievements into project-driven narratives that industry recruiters actually want to see."
@@ -1454,7 +1454,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a curated list of resources for harness engineering, which is the practice of building reliable environments around AI agents to make them work dependably in production workflows. It focuses on tools and guides for context management, evaluation, observability, orchestration, and safe autonomy patterns that enable agents to handle long-running tasks like coding and research. The collection emphasizes that many AI agent failures are harness engineering problems rather than model limitations."
     },
     {
       "full_name": "walter-grace/mac-code",

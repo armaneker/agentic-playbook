@@ -1,0 +1,63 @@
+<GuideHeader tool="Awesome-PhD-CV" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Awesome-PhD-CV
+
+A curated collection of LaTeX CV templates designed specifically for PhD students, researchers, and academics transitioning to industry. The repository bridges the gap between academic CVs and industry-focused resumes with ATS-optimized formats.
+
+## Key Features
+
+- **Three specialized templates**: Academic CV, ATS-safe industry resume, and high-density professional format
+- **ATS optimization**: Industry templates designed to pass applicant tracking systems at big tech companies
+- **Project-driven approach**: Emphasizes engineering impact over publication lists for industry applications
+- **Modular design**: Easy-to-customize sections with clear separation between content types
+- **Multiple LaTeX engines**: Support for both pdfLaTeX and XeLaTeX depending on template choice
+
+## Installation
+
+Clone the repository and navigate to your preferred template:
+
+```bash
+git clone https://github.com/LimHyungTae/Awesome-PhD-CV.git
+cd Awesome-PhD-CV
+```
+
+<Callout type="info">
+Each template directory contains all necessary files. For XeLaTeX templates (Awesome-CV, Deedy), ensure you have a complete TeX distribution with font support.
+</Callout>
+
+## Basic Usage
+
+Choose your template based on target application:
+
+```bash
+# For academic positions (faculty, postdoc)
+cd research-cv/
+xelatex cv.tex
+
+# For industry/big tech (ATS-safe)
+cd jakes-format/
+pdflatex resume.tex
+
+# For experienced tech roles (high-density)
+cd deedy-format/
+xelatex resume.tex
+```
+
+<Callout type="warning">
+The Deedy format requires downloading the class file from the original repository. Jake's format is the most reliable for ATS systems.
+</Callout>
+
+## Template Selection Guide
+
+**Jake's Format**: Use for industry applications, especially big tech. Single-column, pdfLaTeX, ATS-optimized.
+
+**Deedy Format**: Two-column layout for experienced professionals. Higher information density but may have ATS compatibility issues.
+
+**Awesome-CV Format**: Multi-page academic CV with full publication lists, modular sections, and research focus.
+
+## Notable Details
+
+**Language**: TeX/LaTeX  
+**License**: Mixed (CC BY-SA 4.0 for Awesome-CV components)  
+**Community**: 862 GitHub stars  
+**Maintenance**: Actively maintained by robotics researcher with industry transition experience

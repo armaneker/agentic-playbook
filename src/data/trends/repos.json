@@ -2986,7 +2986,7 @@
       "language": "JavaScript",
       "url": "https://github.com/dashersw/gea",
       "first_seen": "2026-03-25",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": "@geajs/vite-plugin@1.0.4",
@@ -2998,7 +2998,7 @@
       "language": "TeX",
       "url": "https://github.com/LimHyungTae/Awesome-PhD-CV",
       "first_seen": "2026-03-25",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "academia-resume",
         "bigtech-resume",
@@ -3017,7 +3017,7 @@
       "language": "TypeScript",
       "url": "https://github.com/twwch/AIComicBuilder",
       "first_seen": "2026-03-25",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": "v0.1.0",
@@ -4301,7 +4301,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a curated list of resources for harness engineering, which is the practice of building reliable environments around AI agents to make them work dependably in production workflows. It focuses on tools and guides for context management, evaluation, observability, orchestration, and safe autonomy patterns that enable agents to handle long-running tasks like coding and research. The collection emphasizes that many AI agent failures are harness engineering problems rather than model limitations."
     }
   }
 }

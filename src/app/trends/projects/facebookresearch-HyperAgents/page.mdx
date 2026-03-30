@@ -1,0 +1,59 @@
+<GuideHeader tool="HyperAgents" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# HyperAgents
+
+HyperAgents is a self-referential self-improving agent system developed by Meta Research. The agents can recursively modify their own code to optimize performance on any computable task.
+
+## Key Features
+
+- **Self-modification**: Agents can rewrite their own implementation code
+- **Multi-domain optimization**: Works across different computational problem domains
+- **Foundation model integration**: Supports OpenAI, Anthropic, and Google models
+- **Experimental framework**: Complete setup for running self-improvement experiments
+- **Safety considerations**: Includes warnings and safeguards for code execution
+
+## Installation
+
+<Callout type="warning">
+This system executes model-generated code, which poses potential safety risks. Use in isolated environments.
+</Callout>
+
+```bash
+# Install system dependencies (Fedora/RHEL)
+sudo dnf install -y python3.12-devel graphviz graphviz-devel cmake ninja-build
+
+# Set up Python environment
+python3.12 -m venv venv_nat
+source venv_nat/bin/activate
+pip install -r requirements.txt
+
+# Configure API keys in .env
+echo "OPENAI_API_KEY=your_key_here" > .env
+echo "ANTHROPIC_API_KEY=your_key_here" >> .env
+
+# Initialize agents
+bash ./setup_initial.sh
+```
+
+## Basic Usage
+
+```bash
+# Run self-improvement loop on a specific domain
+python generate_loop.py --domains math_optimization
+
+# Results saved to outputs/ directory
+```
+
+The system will spawn agents that iteratively improve their own code while working on the specified computational domain.
+
+<Callout type="info">
+Check the `domains/` directory to see available problem domains you can optimize for.
+</Callout>
+
+## Notable Details
+
+- **License**: CC BY-NC-SA 4.0 (non-commercial use)
+- **Language**: Python 3.12+
+- **Community**: 1,875 GitHub stars
+- **Research**: Based on arXiv paper 2603.19461
+- **Docker support**: Available for containerized execution

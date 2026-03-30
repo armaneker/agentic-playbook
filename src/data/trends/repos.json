@@ -2933,7 +2933,7 @@
       "language": "Python",
       "url": "https://github.com/facebookresearch/HyperAgents",
       "first_seen": "2026-03-24",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Agentic",
       "version": null,
@@ -2945,7 +2945,7 @@
       "language": "Unknown",
       "url": "https://github.com/alvinunreal/awesome-autoresearch",
       "first_seen": "2026-03-24",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "agentic-systems",
         "ai-agents",
@@ -2973,7 +2973,7 @@
       "language": "Objective-C",
       "url": "https://github.com/opa334/darksword-kexploit",
       "first_seen": "2026-03-25",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -4247,7 +4247,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a macOS menu bar application that provides voice input functionality using Swift and the Apple Speech Recognition framework. Users can hold the Fn key to record speech which gets transcribed and automatically injected into the currently focused input field, with optional LLM-based refinement for improved accuracy especially with mixed Chinese-English content. The app features a polished HUD overlay with real-time audio waveforms during recording and runs as a menu bar-only application without a Dock icon."
     },
     "revfactory/harness": {
       "full_name": "revfactory/harness",
@@ -4263,7 +4264,8 @@
         "harness-engineering"
       ],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Harness is a Claude Code plugin that automatically designs domain-specific agent teams and generates the specialized skills they need to collaborate on complex tasks. It decomposes projects into coordinated teams using six architectural patterns (Pipeline, Fan-out/Fan-in, Expert Pool, etc.) and handles inter-agent communication, error handling, and orchestration protocols. The system supports both collaborative agent teams and simple subagent modes depending on task complexity."
     },
     "WecomTeam/wecom-cli": {
       "full_name": "WecomTeam/wecom-cli",
@@ -4274,7 +4276,8 @@
       "has_summary": false,
       "topics": [],
       "category": "DevTools",
-      "version": null
+      "version": null,
+      "blurb": "wecom-cli is a command-line interface for WeChat Work (企业微信) built in Rust that enables both humans and AI agents to interact with enterprise WeChat functionality from the terminal. It provides comprehensive coverage across 7 business domains including contacts, todos, meetings, messaging, scheduling, documents, and smart sheets, with 12 pre-built AI Agent skills for immediate integration. The tool is specifically designed for AI automation workflows and offers one-step setup after credential configuration."
     },
     "Ataraxy-Labs/opensessions": {
       "full_name": "Ataraxy-Labs/opensessions",
@@ -4285,7 +4288,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "opensessions is a terminal session manager that provides a sidebar interface for tmux, displaying session information, agent status, git branches, and enabling quick switching between sessions. It integrates into existing tmux workflows rather than replacing them, offering session management through a dedicated pane that shows context like working directories, localhost ports, and agent states. The tool includes a programmatic HTTP API that allows scripts and agents to push status updates, progress indicators, and logs to the sidebar interface."
     }
   }
 }

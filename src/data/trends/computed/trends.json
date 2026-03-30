@@ -1136,7 +1136,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "DarksSword is an iOS kernel exploit reimplemented in Objective-C that targets iOS versions 15.0 through 16.0.1. It provides kernel-level access for jailbreaking and security research purposes on compatible iOS devices. The implementation currently has hardcoded offsets specifically for iOS 15.x versions."
@@ -1304,7 +1304,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a macOS menu bar application that provides voice input functionality using Swift and the Apple Speech Recognition framework. Users can hold the Fn key to record speech which gets transcribed and automatically injected into the currently focused input field, with optional LLM-based refinement for improved accuracy especially with mixed Chinese-English content. The app features a polished HUD overlay with real-time audio waveforms during recording and runs as a menu bar-only application without a Dock icon."
     },
     {
       "full_name": "ryanstephen/lil-agents",
@@ -1364,7 +1364,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Harness is a Claude Code plugin that automatically designs domain-specific agent teams and generates the specialized skills they need to collaborate on complex tasks. It decomposes projects into coordinated teams using six architectural patterns (Pipeline, Fan-out/Fan-in, Expert Pool, etc.) and handles inter-agent communication, error handling, and orchestration protocols. The system supports both collaborative agent teams and simple subagent modes depending on task complexity."
     },
     {
       "full_name": "glommer/pgmicro",
@@ -1484,7 +1484,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": null,
-      "blurb": null
+      "blurb": "wecom-cli is a command-line interface for WeChat Work (企业微信) built in Rust that enables both humans and AI agents to interact with enterprise WeChat functionality from the terminal. It provides comprehensive coverage across 7 business domains including contacts, todos, meetings, messaging, scheduling, documents, and smart sheets, with 12 pre-built AI Agent skills for immediate integration. The tool is specifically designed for AI automation workflows and offers one-step setup after credential configuration."
     },
     {
       "full_name": "TheAlgorithms/Python",
@@ -1661,7 +1661,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": null,
       "blurb": "HyperAgents is a framework for creating self-referential agents that can modify their own code to improve performance on computational tasks. It allows agents to iteratively optimize themselves across different domains by generating, testing, and integrating code modifications using foundation models. The system executes untrusted model-generated code, requiring careful safety considerations in deployment."
@@ -1904,7 +1904,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "opensessions is a terminal session manager that provides a sidebar interface for tmux, displaying session information, agent status, git branches, and enabling quick switching between sessions. It integrates into existing tmux workflows rather than replacing them, offering session management through a dedicated pane that shows context like working directories, localhost ports, and agent states. The tool includes a programmatic HTTP API that allows scripts and agents to push status updates, progress indicators, and logs to the sidebar interface."
     },
     {
       "full_name": "polymarket-dev/Polymarket-Arbitrage-Bot",

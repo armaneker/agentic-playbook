@@ -49,7 +49,7 @@
     },
     "vinta/awesome-python": {
       "full_name": "vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
       "language": "Python",
       "url": "https://github.com/vinta/awesome-python",
       "first_seen": "2026-03-22",
@@ -4527,6 +4527,105 @@
       "category": "Agentic",
       "version": null,
       "blurb": "Phantom is an AI agent built on Claude that runs on its own dedicated computer with persistent memory and self-evolution capabilities. It operates as an autonomous co-worker through Slack integration, installing software, building infrastructure, and creating tools without requiring permission or guidance. The agent can extend its own capabilities on-demand, such as building Discord integration or analytics platforms when needed."
+    },
+    "instructkr/claw-code": {
+      "full_name": "instructkr/claw-code",
+      "description": "Better Harness Tools, not merely storing the archive of leaked Claude Code but also make real things done. Now rewriting in Rust.",
+      "language": "Python",
+      "url": "https://github.com/instructkr/claw-code",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nirholas/claude-code": {
+      "full_name": "nirholas/claude-code",
+      "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
+      "language": "TypeScript",
+      "url": "https://github.com/nirholas/claude-code",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [
+        "claude",
+        "claude-api",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-code-skill",
+        "claude-desktop",
+        "claude-leak",
+        "claude-skills"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "sanbuphy/claude-code-source-code": {
+      "full_name": "sanbuphy/claude-code-source-code",
+      "description": "Claude Code v2.1.88 Source Code",
+      "language": "TypeScript",
+      "url": "https://github.com/sanbuphy/claude-code-source-code",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Kuberwastaken/claude-code": {
+      "full_name": "Kuberwastaken/claude-code",
+      "description": "Claude Code's Source Code & Breakdown from a leaked map file in their NPM registry",
+      "language": "TypeScript",
+      "url": "https://github.com/Kuberwastaken/claude-code",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "chatgptprojects/claude-code": {
+      "full_name": "chatgptprojects/claude-code",
+      "description": "https://x.com/paidev",
+      "language": "TypeScript",
+      "url": "https://github.com/chatgptprojects/claude-code",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tvytlx/claude-code-deep-dive": {
+      "full_name": "tvytlx/claude-code-deep-dive",
+      "description": "Claude Code 源码深度研究报告",
+      "language": "TypeScript",
+      "url": "https://github.com/tvytlx/claude-code-deep-dive",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "oboard/claude-code-rev": {
+      "full_name": "oboard/claude-code-rev",
+      "description": "Runnable ClaudeCode source code",
+      "language": "TypeScript",
+      "url": "https://github.com/oboard/claude-code-rev",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [
+        "claude-code"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "claude-code-best/claude-code": {
+      "full_name": "claude-code-best/claude-code",
+      "description": "Claude Code 可运行版; Typescript 类型全修复;企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动",
+      "language": "TypeScript",
+      "url": "https://github.com/claude-code-best/claude-code",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

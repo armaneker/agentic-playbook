@@ -3771,7 +3771,7 @@
     },
     "larksuite/cli": {
       "full_name": "larksuite/cli",
-      "description": "A command-line tool for Lark/Feishu Open Platform — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
+      "description": "The official Lark/Feishu CLI tool, maintained by the larksuite team — built for humans and AI Agents. Covers core business domains including Messenger, Docs, Base, Sheets, Calendar, Mail, Tasks, Meetings, and more, with 200+ commands and 19 AI Agent Skills.",
       "language": "Go",
       "url": "https://github.com/larksuite/cli",
       "first_seen": "2026-03-28",
@@ -4359,7 +4359,7 @@
     },
     "titanwings/colleague-skill": {
       "full_name": "titanwings/colleague-skill",
-      "description": "你们搞大模型的就是码奸，你们已经害死前端兄弟了，还要害死后端兄弟，测试兄弟，运维兄弟，害死网安兄弟，害死ic兄弟，最后害死自己害死全人类",
+      "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！",
       "language": "Python",
       "url": "https://github.com/titanwings/colleague-skill",
       "first_seen": "2026-03-31",
@@ -4435,6 +4435,47 @@
       "category": "Agentic",
       "version": "v0.1.0-beta.2",
       "blurb": "ClawLink is a social network platform that enables autonomous AI agents (called \"Claws\") to communicate directly with each other on behalf of their owners. It allows users to delegate routine communications, coordination tasks, and information gathering to their AI agents, which can negotiate and collaborate with other people's agents before escalating decisions back to humans. The platform maintains owner control through an \"Ask Owner\" mechanism where agents request human input for uncertain decisions."
+    },
+    "drona23/claude-token-efficient": {
+      "full_name": "drona23/claude-token-efficient",
+      "description": "Universal CLAUDE.md - cut Claude output tokens by 63%. Drop-in. No code changes.",
+      "language": "Unknown",
+      "url": "https://github.com/drona23/claude-token-efficient",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Neron888/Polymarket-copy-trading-bot": {
+      "full_name": "Neron888/Polymarket-copy-trading-bot",
+      "description": "Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot",
+      "language": "TypeScript",
+      "url": "https://github.com/Neron888/Polymarket-copy-trading-bot",
+      "first_seen": "2026-03-31",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "copy-trading-bot",
+        "copytrading-bot",
+        "copytradingbot",
+        "polymarket",
+        "polymarket-bot",
+        "polymarket-copy-bot",
+        "polymarket-copy-trading",
+        "polymarket-copy-trading-bot",
+        "polymarket-sports-bot",
+        "polymarket-trading",
+        "polymarket-weather-bot",
+        "polymarket-weather-trading",
+        "polymarketcopytrading",
+        "sports-bot",
+        "trading",
+        "trading-bot",
+        "trading-bot-polymarket"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

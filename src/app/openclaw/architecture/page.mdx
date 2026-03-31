@@ -241,13 +241,57 @@ Each binding has:
 - `AGENTS.md` — Operational rules, protocols, workflow instructions. **Required.**
 - `USER.md` — User context — who interacts with this agent. **Recommended.**
 - `MEMORY.md` — Persistent memory across sessions. **Auto-managed.**
-- `HEARTBEAT.md` — Periodic task definitions (cron-like). **Optional.**
+- `HEARTBEAT.md` — Periodic task definitions (cron-like). **Optional.** See examples below.
 - `TOOLS.md` — Tool references, API endpoints, connection details. **Recommended.**
 - `skills/` — Agent-specific skill definitions. **Optional.**
 
 <Callout type="danger" title="Never Share Auth">
 Never reuse `agentDir` across agents — this causes auth and session collisions. Each workspace should be a separate private Git repo. Secrets belong in environment variables, never in workspace files.
 </Callout>
+
+### HEARTBEAT.md Examples
+
+The heartbeat system checks for scheduled tasks at a configurable interval (default: every 30 minutes). Define tasks in `HEARTBEAT.md` using natural time references:
+
+```markdown
+## Every morning at 6:00 AM
+- Check unread emails and draft a morning digest
+- Review today's calendar and flag conflicts
+- Check overnight alerts from monitoring dashboards
+
+## Every hour during business hours (9 AM – 6 PM)
+- Sweep inbox for urgent emails, summarize anything new
+- Check Linear for newly assigned tickets
+
+## Every Friday at 3:00 PM
+- Generate weekly summary: open tickets, PRs merged, KPIs
+- Draft weekend planning notes
+
+## Every evening at 9:00 PM
+- Write daily notes to MEMORY.md
+- Archive completed tasks
+```
+
+<Callout type="tip" title="Cost Control">
+Set `lightContext: true` on routine heartbeat tasks that don't need the full conversation history. This significantly reduces token costs for high-frequency checks.
+</Callout>
+
+### Skills and Hooks
+
+Agents extend their capabilities through skills (stored in the workspace `skills/` folder or the shared `~/.openclaw/skills/` directory).
+
+Common built-in skills:
+
+- **gog** — Gmail, Google Calendar, and Google Docs access via OAuth
+- **summarize** — Content summarization
+
+Hooks run automatically during agent sessions:
+
+- **Session memory** — Retains context across heartbeat cycles. **Enable this first — without it, agents forget between sessions.**
+- **Debug/optimization** — Logging and performance tracking
+- **Error tracking** — Captures and reports failures
+
+Community skills are available at ClawHub. Review any community skill before installing — only use skills from official bundles or known developers.
 
 ## Next Steps
 

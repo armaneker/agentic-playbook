@@ -1,0 +1,91 @@
+# Agent Communication
+
+OpenClaw agents can share data and delegate tasks through several patterns. Choose the simplest pattern that meets your needs.
+
+## Pattern 1: Sub-Agent Spawning (Primary)
+
+The coordinator agent uses `sessions_spawn` to delegate parallel tasks to lightweight sub-agents:
+
+```
+User → coordinator: "Prepare the weekly summary"
+
+coordinator spawns:
+  ├── sub-agent 1: "Query this week's transaction volume" (Sonnet, 120s timeout)
+  ├── sub-agent 2: "Summarize open tickets by priority"   (Sonnet, 60s timeout)
+  └── sub-agent 3: "Check API uptime this week"           (Sonnet, 60s timeout)
+
+Results flow back → coordinator synthesizes → sends the weekly brief
+```
+
+### Best practices for sub-agents
+
+- **Use cheaper models for sub-agents.** The coordinator on Opus does the synthesis; sub-agents on Sonnet do the data gathering.
+- **Set timeouts.** Sub-agents should have explicit `runTimeoutSeconds` to prevent runaway tasks.
+- **Limit concurrency.** The `maxConcurrent` setting in your config prevents overwhelming the LLM API.
+- **Include context in the task prompt.** Sub-agents don't inherit the full parent context — put critical instructions directly in the sub-agent task prompt or in `AGENTS.md`.
+
+```json
+"subagents": {
+  "maxConcurrent": 3,
+  "model": "anthropic/claude-sonnet-4-6",
+  "runTimeoutSeconds": 300
+}
+```
+
+<Callout type="warning" title="Context Inheritance">
+Sub-agents don't inherit full context from the parent agent. Put critical instructions in `AGENTS.md` or include them directly in the sub-agent task prompt — they get a smaller context window.
+</Callout>
+
+---
+
+## Pattern 2: Shared Files (Secondary)
+
+Agents don't need to talk directly for most use cases. Instead, use file-based data sharing:
+
+- The **risk agent** writes a daily risk summary to a shared location
+- The **coordinator** reads it during the morning brief
+- The **engineering agent** writes deployment logs
+- The **product agent** reads them when writing release notes
+
+Use a shared directory or Git-synced files for this. It's simpler than agent-to-agent messaging and more debuggable.
+
+### Example workflow
+
+```
+risk-agent writes → /shared/daily-risk-summary.md
+coordinator reads → /shared/daily-risk-summary.md (during morning brief)
+
+dev-agent writes  → /shared/deployment-log.md
+product-agent reads → /shared/deployment-log.md (for release notes)
+```
+
+<Callout type="tip">
+File-based sharing is the most debuggable communication pattern. You can always inspect the files to understand what each agent produced.
+</Callout>
+
+---
+
+## Pattern 3: Direct Agent-to-Agent (Use Cautiously)
+
+OpenClaw has an `agentToAgent.enabled` option in config, but there are known issues with this feature breaking `sessions_spawn` functionality.
+
+<Callout type="danger" title="Known Issues">
+Avoid enabling `agentToAgent` in your initial setup. There are known bugs where it breaks `sessions_spawn`. Use file-based sharing and sub-agent spawning instead.
+</Callout>
+
+---
+
+## Cost Considerations
+
+Each agent-to-agent handoff burns tokens. To manage costs:
+
+1. **Make specialists return structured output, not prose.** A JSON summary is cheaper to process downstream than a paragraph of text.
+2. **Use cheaper models for coordination** and stronger models for actual analytical work.
+3. **Monitor token costs per agent** and adjust model assignments based on usage patterns.
+4. **Limit sub-agent concurrency** to avoid API rate limits and cost spikes.
+
+| Communication Pattern | Token Cost | Complexity | Debuggability |
+|----------------------|------------|------------|---------------|
+| Sub-agent spawning | Medium | Low | Good |
+| Shared files | None | Very Low | Excellent |
+| Direct agent-to-agent | High | High | Poor |

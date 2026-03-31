@@ -1,0 +1,173 @@
+# Configuration
+
+All agents are configured through a single `openclaw.json` file. This page covers the structure, key settings, and the directory layout for a multi-agent deployment.
+
+## openclaw.json Structure
+
+```json
+{
+  "agents": {
+    "defaults": {
+      "heartbeat": { "every": "30m" },
+      "subagents": {
+        "maxConcurrent": 3,
+        "model": "anthropic/claude-sonnet-4-6",
+        "runTimeoutSeconds": 300
+      }
+    },
+    "list": [
+      {
+        "id": "coordinator",
+        "name": "Coordinator Agent",
+        "workspace": "~/.openclaw/workspace-coordinator",
+        "model": "anthropic/claude-opus-4-6"
+      },
+      {
+        "id": "dev-agent",
+        "name": "Engineering Agent",
+        "workspace": "~/.openclaw/workspace-dev",
+        "model": "anthropic/claude-sonnet-4-6",
+        "sandbox": { "enabled": true }
+      },
+      {
+        "id": "product-agent",
+        "name": "Product Agent",
+        "workspace": "~/.openclaw/workspace-product",
+        "model": "anthropic/claude-sonnet-4-6"
+      },
+      {
+        "id": "risk-agent",
+        "name": "Risk Agent",
+        "workspace": "~/.openclaw/workspace-risk",
+        "model": "anthropic/claude-opus-4-6"
+      }
+    ]
+  },
+  "bindings": [
+    {
+      "agentId": "coordinator",
+      "match": {
+        "channel": "teams",
+        "peer": { "kind": "direct", "id": "admin@example.com" }
+      }
+    },
+    {
+      "agentId": "dev-agent",
+      "match": {
+        "channel": "teams",
+        "guild": "YOUR_TEAM_ID",
+        "peer": { "kind": "group", "id": "engineering-channel-id" }
+      }
+    },
+    {
+      "agentId": "product-agent",
+      "match": {
+        "channel": "teams",
+        "guild": "YOUR_TEAM_ID",
+        "peer": { "kind": "group", "id": "product-channel-id" }
+      }
+    },
+    {
+      "agentId": "risk-agent",
+      "match": {
+        "channel": "teams",
+        "guild": "YOUR_TEAM_ID",
+        "peer": { "kind": "group", "id": "risk-channel-id" }
+      }
+    },
+    {
+      "agentId": "coordinator",
+      "match": { "channel": "teams" }
+    }
+  ],
+  "tools": {
+    "subagents": {
+      "tools": {
+        "deny": ["gateway", "cron"]
+      }
+    }
+  }
+}
+```
+
+## Binding Rules
+
+<Callout type="warning" title="Order Matters">
+Binding order matters — most specific bindings go first. The final `coordinator` binding with just `"channel": "teams"` acts as a catch-all default, so any message that doesn't match a more specific rule routes to your coordinator agent.
+</Callout>
+
+Each binding has:
+- **agentId** — Which agent handles the message
+- **match.channel** — The platform (`teams`, `slack`, `whatsapp`, `telegram`)
+- **match.guild** — The workspace/team ID (optional)
+- **match.peer** — The specific user or group
+  - `kind: "direct"` — A DM from a specific user
+  - `kind: "group"` — A message in a specific channel
+
+## Directory Structure
+
+```
+~/.openclaw/
+├── openclaw.json                    # Single config for all agents
+├── skills/                          # Shared skills (available to all agents)
+│   ├── sql-runner/
+│   ├── jira-integration/
+│   └── docs-writer/
+├── workspace-coordinator/           # Coordinator agent workspace
+│   ├── SOUL.md
+│   ├── AGENTS.md
+│   ├── USER.md
+│   ├── MEMORY.md
+│   ├── HEARTBEAT.md
+│   ├── TOOLS.md
+│   ├── memory/                      # Daily memory files
+│   └── skills/                      # Agent-specific skills
+├── workspace-dev/                   # Engineering agent workspace
+│   ├── SOUL.md
+│   ├── AGENTS.md
+│   ├── USER.md
+│   ├── MEMORY.md
+│   ├── TOOLS.md
+│   └── skills/
+├── workspace-product/
+│   └── ...
+├── workspace-risk/
+│   └── ...
+└── agents/                          # Auto-managed by OpenClaw
+    ├── coordinator/
+    │   ├── agent/
+    │   │   └── auth-profiles.json   # Per-agent auth
+    │   └── sessions/
+    ├── dev-agent/
+    │   ├── agent/
+    │   └── sessions/
+    ├── product-agent/
+    │   ├── agent/
+    │   └── sessions/
+    └── risk-agent/
+        ├── agent/
+        └── sessions/
+```
+
+## Critical Rules
+
+<Callout type="danger" title="Never Share Auth">
+Never reuse `agentDir` across agents — this causes auth and session collisions.
+</Callout>
+
+- Skills in `~/.openclaw/skills/` are **shared** across all agents
+- Skills in `<workspace>/skills/` are **agent-specific**
+- Each workspace should be a separate private Git repo for version control and backup
+- Secrets belong in **environment variables**, never in workspace files or `MEMORY.md`
+
+## Workspace Files Reference
+
+| File | Purpose | Required? |
+|------|---------|-----------|
+| `SOUL.md` | Agent persona, tone, domain knowledge, boundaries | Yes |
+| `AGENTS.md` | Operational rules, protocols, workflow instructions | Yes |
+| `USER.md` | User context — who interacts with this agent | Recommended |
+| `MEMORY.md` | Persistent memory across sessions | Auto-managed |
+| `HEARTBEAT.md` | Periodic task definitions (cron-like) | Optional |
+| `TOOLS.md` | Tool references, API endpoints, connection details | Recommended |
+| `skills/` | Agent-specific skill definitions | Optional |

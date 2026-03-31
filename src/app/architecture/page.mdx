@@ -1,0 +1,75 @@
+# Multi-Agent Architecture
+
+OpenClaw natively supports running multiple fully isolated agents within a single Gateway process. This is the recommended pattern: **one Gateway, multiple persistent agents**, each with its own isolated workspace.
+
+This is not multiple OpenClaw installations. It is one running process with multiple "brains" inside it.
+
+## What Each Agent Gets
+
+Every agent within the Gateway receives:
+
+- Its own **workspace directory** (`SOUL.md`, `AGENTS.md`, `USER.md`, `MEMORY.md`, skills)
+- Its own **state directory** (`agentDir`) for auth profiles and per-agent config
+- Its own **session store** (chat history + routing state) under `~/.openclaw/agents/<agentId>/sessions`
+- Its own **tool permissions** (allow/deny lists per agent)
+- Its own **model assignment** (different agents can use different LLMs)
+- Its own **skills** via the workspace `skills/` folder
+
+They share the same server process and config file (`~/.openclaw/openclaw.json`), so you run one gateway, not five.
+
+## Why NOT Separate Installations
+
+Running multiple OpenClaw Gateway processes would mean:
+
+- Multiple Node.js daemons to manage and monitor
+- Separate port bindings, separate health checks
+- No shared skills directory
+- No native cross-agent communication
+- More complex deployment and update process
+- Higher operational overhead for your team
+
+The single-gateway approach gives you **isolation where it matters** (memory, sessions, tools, permissions) while keeping operations simple.
+
+## Key Principles
+
+<Callout type="tip" title="Deterministic Routing">
+Use deterministic routing (bindings) for message classification, not AI. Deterministic routing means you can reason about where a message goes without tracing execution.
+</Callout>
+
+1. **One gateway, many agents** — Shared process, isolated workspaces
+2. **Bind agents to channels** — Each agent listens on specific channels/users via routing rules
+3. **Specific bindings first** — Binding order matters; most specific rules go first, with a catch-all default at the end
+4. **Minimal privilege** — Each agent gets only the tools it needs
+5. **Model-per-agent** — Use expensive models for complex reasoning, cheaper models for high-volume tasks
+
+## Architecture Diagram
+
+```
+Gateway Process (:18789)
+├── Agent: coordinator     (Opus — complex reasoning)
+│   ├── Workspace: ~/.openclaw/workspace-coordinator/
+│   ├── Sessions: ~/.openclaw/agents/coordinator/sessions/
+│   └── Bindings: DMs, catch-all default
+│
+├── Agent: dev-agent       (Sonnet — fast, code-focused)
+│   ├── Workspace: ~/.openclaw/workspace-dev/
+│   ├── Sessions: ~/.openclaw/agents/dev-agent/sessions/
+│   └── Bindings: #engineering channel
+│
+├── Agent: product-agent   (Sonnet — documentation)
+│   ├── Workspace: ~/.openclaw/workspace-product/
+│   ├── Sessions: ~/.openclaw/agents/product-agent/sessions/
+│   └── Bindings: #product channel
+│
+└── Agent: risk-agent      (Opus — financial analysis)
+    ├── Workspace: ~/.openclaw/workspace-risk/
+    ├── Sessions: ~/.openclaw/agents/risk-agent/sessions/
+    └── Bindings: #risk-analytics channel
+```
+
+## Next Steps
+
+- [Agent Roles](/architecture/agent-roles) — Example agent designs for common team functions
+- [Communication](/architecture/communication) — How agents share data and delegate tasks
+- [Configuration](/architecture/configuration) — The `openclaw.json` structure in detail
+- [Security](/architecture/security) — Tool policies and access control

@@ -1,5 +1,3 @@
-<GuideHeader tool="OpenClaw" difficulty="Intermediate" lastTested="2026-03" readTime="10 min" />
-
 # Agent Roles
 
 A well-designed multi-agent system assigns each agent a clear purpose, model, and tool set. Below are example agent roles that cover common organizational functions.
@@ -118,93 +116,13 @@ Always wrap database access for analytics agents in a custom skill with a read-o
 Deploy this agent after your first three or four agents are stable. Adding agents incrementally reduces coordination complexity.
 </Callout>
 
-## Personal Assistant Agent
-
-**Purpose:** Email triage, calendar management, meeting prep, daily digests. The most common first agent.
-
-**Recommended model:** `anthropic/claude-opus-4-6` (needs to understand nuance in communications)
-
-**Channel bindings:**
-- DMs from the primary user
-- Telegram or WhatsApp (for mobile access)
-
-**Tool access:**
-- `read`, `write`, `web_search`, `memory_search`
-- Gmail and Calendar via the `gog` skill
-- **Deny:** `exec`, `process`, `git` (no code execution needed)
-
-**Integrations:**
-- **Email** — Read inbox, draft replies, flag urgent items
-- **Calendar** — Surface conflicts, prep for upcoming meetings
-- **Linear/Jira** — Track assigned tasks, surface blockers
-
-**Workspace files:**
-- `SOUL.md` — Executive assistant persona, knows your communication preferences and priorities
-- `HEARTBEAT.md` — Morning digest (6 AM), hourly email sweep, evening wrap-up (9 PM)
-- `USER.md` — Your timezone, meeting habits, VIP contact list
-
-<Callout type="tip" title="Start Here">
-This is the best first agent. It delivers immediate value with low risk — reading and summarizing is safe. Add write access (sending emails, creating events) only after the agent proves reliable.
-</Callout>
-
----
-
-## Support Agent
-
-**Purpose:** Ticket triage, customer question routing, knowledge base lookups, escalation management.
-
-**Recommended model:** `anthropic/claude-sonnet-4-6` (conversational, cost-effective for volume)
-
-**Channel bindings:**
-- `#support` channel
-- Intercom or Zendesk webhook integration
-
-**Tool access:**
-- `read`, `write`, `web_search`, `memory_search`
-- **Deny:** `exec`, `process`, `git`, `gateway`, `sessions_spawn`
-
-**Integrations:**
-- **Intercom/Zendesk** — Read tickets, tag priorities, suggest responses
-- **Knowledge base** — Search internal docs for answers
-
-**Workspace files:**
-- `SOUL.md` — Support specialist persona, knows your product and common issues
-- `AGENTS.md` — Escalation rules (which issues go to humans), response templates, tone guidelines
-- `HEARTBEAT.md` — Hourly ticket review, daily support summary
-
----
-
-## Content / Marketing Agent
-
-**Purpose:** Social media drafts, content scheduling, competitor monitoring, website copy.
-
-**Recommended model:** `anthropic/claude-sonnet-4-6`
-
-**Channel bindings:**
-- `#marketing` channel
-- DMs from the marketing team lead
-
-**Tool access:**
-- `read`, `write`, `web_search`, `memory_search`
-- **Deny:** `exec`, `process`, `git`, `gateway`
-
-**Integrations:**
-- **Buffer/social APIs** — Draft and schedule posts (with human approval before publishing)
-- **Web search** — Monitor competitor activity, trending topics
-- **CMS** — Draft blog posts and website updates
-
-**Workspace files:**
-- `SOUL.md` — Brand voice, content guidelines, target audience, competitor list
-- `AGENTS.md` — Content calendar rules, approval workflow, posting frequency
-- `HEARTBEAT.md` — Daily trend scan, weekly content performance review
-
----
-
 ## Model Selection Guidelines
 
-- **Coordinator / Executive** — Opus. Complex reasoning, cross-domain synthesis.
-- **Engineering** — Sonnet. Fast, strong at code, cost-effective for volume.
-- **Product / Documentation** — Sonnet. Good writing quality at lower cost.
-- **Risk / Analytics** — Opus. Financial reasoning, regulatory analysis.
-- **Sales / Support** — Sonnet. Conversational, good enough for Q&A.
-- **Sub-agents (spawned)** — Sonnet. Cost control — the parent agent does synthesis.
+| Agent Type | Recommended Model | Rationale |
+|-----------|-------------------|-----------|
+| Coordinator / Executive | Opus | Complex reasoning, cross-domain synthesis |
+| Engineering | Sonnet | Fast, strong at code, cost-effective for volume |
+| Product / Documentation | Sonnet | Good writing quality at lower cost |
+| Risk / Analytics | Opus | Financial reasoning, regulatory analysis |
+| Sales / Support | Sonnet | Conversational, good enough for Q&A |
+| Sub-agents (spawned) | Sonnet | Cost control — the parent agent does synthesis |

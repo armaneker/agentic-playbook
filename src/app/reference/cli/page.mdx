@@ -1,0 +1,83 @@
+# CLI Reference
+
+Quick reference for common OpenClaw CLI commands.
+
+## Agent Management
+
+| Command | Description |
+|---------|-------------|
+| `openclaw agents add <id>` | Create a new agent |
+| `openclaw agents set-identity --agent <id> --name "Name"` | Set agent display name |
+| `openclaw agents list --bindings` | List all agents and their routing bindings |
+| `openclaw agents bind --agent <id> --bind slack:<account>` | Bind agent to a Slack account |
+| `openclaw agents unbind --agent <id> --bind slack:<account>` | Remove a Slack binding |
+
+## Gateway
+
+| Command | Description |
+|---------|-------------|
+| `openclaw gateway --port 18789` | Start the gateway on a specific port |
+| `openclaw gateway restart` | Restart the gateway process |
+| `openclaw onboard --install-daemon` | Install as a systemd daemon |
+
+## Channel & Connectivity
+
+| Command | Description |
+|---------|-------------|
+| `openclaw channels status --probe` | Check all channel connections |
+| `openclaw pairing list slack` | List pending Slack pairing requests |
+| `openclaw pairing approve slack <code> --account <account>` | Approve a Slack pairing code |
+
+## Diagnostics
+
+| Command | Description |
+|---------|-------------|
+| `openclaw doctor` | Run a full health check |
+
+## Common Workflows
+
+### Set up a new agent from scratch
+
+```bash
+# 1. Create the agent
+openclaw agents add my-agent
+
+# 2. Set its display name
+openclaw agents set-identity --agent my-agent --name "My Agent"
+
+# 3. Bind to a channel
+openclaw agents bind --agent my-agent --bind slack:my-account
+
+# 4. Restart the gateway
+openclaw gateway restart
+
+# 5. Verify
+openclaw agents list --bindings
+openclaw channels status --probe
+```
+
+### Diagnose a non-responsive agent
+
+```bash
+# Check the gateway is running
+openclaw doctor
+
+# Check channel connectivity
+openclaw channels status --probe
+
+# Verify the agent's bindings
+openclaw agents list --bindings
+
+# Check pairing status (for Slack)
+openclaw pairing list slack
+```
+
+### Approve a new Slack user
+
+```bash
+# List pending pairings
+openclaw pairing list slack
+
+# Approve a specific pairing code
+openclaw pairing approve slack <CODE> --account <account>
+```

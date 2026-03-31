@@ -1,0 +1,320 @@
+# How to Create a New OpenClaw Agent on Slack
+
+This guide walks through creating a new specialized OpenClaw agent and connecting it to Slack as an independent bot. The same process applies to any new agent — just change the names.
+
+## Prerequisites
+
+- OpenClaw installed and running on your server
+- An existing main agent already connected to Slack
+- Admin access to your Slack workspace
+- Terminal/SSH access to your OpenClaw server
+
+---
+
+## Part 1: Create the Agent in OpenClaw
+
+### Step 1: Add the agent
+
+Run the agent creation wizard:
+
+```bash
+openclaw agents add sales-agent
+```
+
+The wizard will prompt you through several options.
+
+### Step 2: Copy auth profiles
+
+When prompted:
+
+```
+Copy auth profiles from "main"?
+```
+
+Select **Yes**. This copies your existing API keys and OAuth tokens so the new agent can connect to your LLM provider immediately. The copy is independent — changing tokens on one agent won't affect the other.
+
+### Step 3: Configure the model
+
+When prompted:
+
+```
+Configure model/auth for this agent now?
+```
+
+Select **Yes** and enter your preferred model. For a conversational agent, `anthropic/claude-sonnet-4-6` offers a good balance of quality and cost. Reserve Opus for agents that need deep reasoning.
+
+### Step 4: Set the agent identity
+
+```bash
+openclaw agents set-identity --agent sales-agent --name "Sales Agent"
+```
+
+### Step 5: Verify creation
+
+```bash
+openclaw agents list --bindings
+```
+
+You should see your new agent listed alongside existing agents, each with its own workspace and agent directory.
+
+---
+
+## Part 2: Create a Slack Bot
+
+Each OpenClaw agent gets its own Slack bot. Your team sees separate bot identities in Slack — they DM one bot for sales, another for general tasks, etc.
+
+### Step 1: Create a new Slack App
+
+1. Go to **api.slack.com/apps**
+2. Click **Create New App** → **From scratch**
+3. Name it (e.g., "Sales Agent")
+4. Select your workspace
+
+<Callout type="tip">
+If you already have a manifest from an existing bot, use **Create New App → From manifest** and change the name. This saves time on scope and event configuration.
+</Callout>
+
+### Step 2: Enable Socket Mode
+
+1. In the sidebar, click **Socket Mode**
+2. Toggle it **on**
+3. Click **Generate Token and Scopes**
+4. Name it `openclaw-socket`
+5. Add the `connections:write` scope
+6. Click **Generate**
+7. Copy the **App-Level Token** (starts with `xapp-`)
+
+### Step 3: Configure Bot Token Scopes
+
+Go to **OAuth & Permissions** → **Bot Token Scopes** and add:
+
+| Scope | Purpose |
+|-------|---------|
+| `chat:write` | Send messages |
+| `channels:history` | Read channel messages |
+| `channels:read` | Discover channels |
+| `im:history` | Read DMs |
+| `im:read` | Discover DMs |
+| `im:write` | Open DM conversations |
+| `users:read` | Resolve user names |
+| `reactions:read` | See reactions |
+| `reactions:write` | Acknowledge reactions |
+| `files:write` | Upload files |
+| `files:read` | Read shared files |
+| `app_mentions:read` | Respond to @mentions |
+| `assistant:write` | Typing indicators in threads |
+| `commands` | Slash commands |
+
+### Step 4: Subscribe to Bot Events
+
+Go to **Event Subscriptions** → toggle **on** → under **Subscribe to bot events**, add:
+
+- `app_mention`
+- `message.channels`
+- `message.groups`
+- `message.im`
+- `message.mpim`
+- `reaction_added`
+- `reaction_removed`
+- `member_joined_channel`
+- `member_left_channel`
+- `channel_rename`
+- `pin_added`
+- `pin_removed`
+
+### Step 5: Enable App Home
+
+Go to **App Home** → enable **Messages Tab** (required for DMs to work).
+
+### Step 6: Install the App
+
+1. Go to **Install App**
+2. Click **Install to Workspace**
+3. Authorize when prompted
+4. Copy the **Bot User OAuth Token** (starts with `xoxb-`)
+
+You now have two tokens:
+
+| Token | Format | Where to find it |
+|-------|--------|-------------------|
+| App-Level Token | `xapp-1-...` | Basic Information → App-Level Tokens |
+| Bot Token | `xoxb-...` | OAuth & Permissions → Bot User OAuth Token |
+
+---
+
+## Part 3: Connect the Bot to OpenClaw
+
+### Step 1: Configure multi-account Slack
+
+Your Slack configuration needs to support multiple accounts. Update `openclaw.json` from single-bot to multi-account:
+
+**Before** (single bot):
+
+```json
+"slack": {
+  "enabled": true,
+  "mode": "socket",
+  "botToken": "xoxb-main-token",
+  "appToken": "xapp-1-main-token",
+  "groupPolicy": "allowlist"
+}
+```
+
+**After** (multiple bots):
+
+```json
+"slack": {
+  "enabled": true,
+  "mode": "socket",
+  "groupPolicy": "allowlist",
+  "streaming": "partial",
+  "nativeStreaming": true,
+  "channels": {
+    "your-channel-name": {
+      "requireMention": true
+    }
+  },
+  "accounts": {
+    "main": {
+      "botToken": "xoxb-main-token",
+      "appToken": "xapp-1-main-token"
+    },
+    "sales": {
+      "botToken": "xoxb-sales-token",
+      "appToken": "xapp-1-sales-token"
+    }
+  }
+}
+```
+
+Key points:
+- Shared settings (`mode`, `groupPolicy`, `streaming`) stay at the top level
+- Per-bot tokens go inside `accounts`
+- The account key name (e.g., `"sales"`) is what you'll use in bindings
+
+### Step 2: Create the routing binding
+
+```bash
+openclaw agents bind --agent sales-agent --bind slack:sales
+```
+
+If your main agent doesn't have an explicit Slack binding yet, add one:
+
+```bash
+openclaw agents bind --agent main --bind slack:main
+```
+
+### Step 3: Restart and verify
+
+```bash
+openclaw gateway restart
+openclaw channels status --probe
+openclaw agents list --bindings
+```
+
+---
+
+## Part 4: Approve Slack Pairing
+
+When someone sends the first DM to the new bot in Slack, OpenClaw generates a pairing code that needs approval.
+
+### Step 1: Check pending requests
+
+```bash
+openclaw pairing list slack
+```
+
+### Step 2: Approve the pairing code
+
+```bash
+openclaw pairing approve slack <CODE> --account sales
+```
+
+Replace `<CODE>` with the actual code shown in the pairing list.
+
+### Step 3: Test
+
+Send another message to the bot in Slack. It should now respond.
+
+---
+
+## Part 5: Configure the Workspace
+
+The agent is running but generic. Give it a personality and domain knowledge by editing its workspace files.
+
+```bash
+cd ~/.openclaw/workspace-sales-agent
+```
+
+### SOUL.md — Who the agent is
+
+Define the persona, tone, and boundaries:
+
+```markdown
+# Sales Agent
+
+You are the sales intelligence agent for the team.
+
+## Personality
+- Professional, knowledgeable, commercially minded
+- Direct but warm — you're helping the sales team close deals
+
+## Domain expertise
+- Your product domain and pricing models
+- B2B sales processes and pipeline management
+- Customer onboarding flows
+
+## Boundaries
+- Never share internal pricing with external parties
+- Never make commitments on behalf of the company
+- Escalate legal or compliance questions to the team
+```
+
+### AGENTS.md — How the agent operates
+
+Define operational rules, memory behavior, and workflow instructions.
+
+### USER.md — Who the users are
+
+Define who will interact with this agent and their context.
+
+### TOOLS.md — Available tools and conventions
+
+Reference any custom skills, API endpoints, or tools the agent can use.
+
+---
+
+## Verification Checklist
+
+- [ ] `openclaw agents list --bindings` shows the new agent with correct binding
+- [ ] `openclaw channels status --probe` shows both Slack accounts connected
+- [ ] DM to the new bot in Slack gets a response
+- [ ] @mention in a channel gets a response (if channel is in allowlist)
+- [ ] The agent responds with the correct persona (not the main agent's personality)
+- [ ] Workspace files (`SOUL.md`, `AGENTS.md`) are customized
+
+---
+
+## Troubleshooting
+
+### Bot doesn't respond in channels
+- Check `groupPolicy` — if set to `allowlist`, the channel must be listed in `channels`
+- Verify `requireMention` — channel messages are mention-gated by default
+- Invite the bot to the channel: `/invite @BotName`
+
+### Bot doesn't respond in DMs
+- Check pairing status: `openclaw pairing list slack`
+- Verify **App Home → Messages Tab** is enabled in Slack app settings
+
+### Socket Mode won't connect
+- Verify both tokens are correct (`xapp-` and `xoxb-`)
+- Regenerate the App-Level Token if it was created before Socket Mode was enabled
+
+### Messages go to the wrong agent
+- Run `openclaw agents list --bindings` to verify routing
+- Check that bindings reference the correct `accountId`
+- More specific bindings should be listed before general ones
+
+### Agent responds but with generic personality
+- Edit `SOUL.md` in the agent's workspace directory
+- Restart the gateway after changes: `openclaw gateway restart`

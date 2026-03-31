@@ -1,0 +1,281 @@
+import Callout from '../../../components/Callout';
+
+# How to Isolate Secrets Between OpenClaw Agents
+
+This guide walks through setting up Docker-based sandbox isolation so each agent can only access its own credentials — even if another agent is compromised or manipulated via prompt injection.
+
+## The Problem
+
+By default, OpenClaw loads credentials from `~/.openclaw/.env`. Since all agents run on the same host, any agent can read this file and access every credential — including ones it shouldn't touch.
+
+```
+# Without isolation: all agents see everything
+~/.openclaw/.env
+  FIGO_OP_USER=integrationarman       ← main, sales, product all see this
+  FIGO_REPORTING_PASS=secret123       ← main, sales, product all see this
+```
+
+## The Solution
+
+Run each agent inside its own Docker container (sandbox). Credentials are injected per-agent via config — the container only sees what you explicitly give it.
+
+```
+figo-sales container  → FIGO_OP_*, FIGO_REPORTING_*  ✅
+main container        → (none)                         ✅
+product container     → (none)                         ✅
+```
+
+---
+
+## Prerequisites
+
+- OpenClaw installed and running
+- Docker installed on the server (`docker --version`)
+- Terminal/SSH access to the server
+
+---
+
+## Part 1: Build the Sandbox Image
+
+The sandbox image is a minimal Debian container with basic tools. You build it once and reuse it.
+
+### Step 1: Create the Dockerfile
+
+```bash
+cat > /tmp/Dockerfile.sandbox << 'EOF'
+FROM debian:bookworm-slim
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    LANG=C.UTF-8 \
+    LC_ALL=C.UTF-8
+
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    bash \
+    curl \
+    ca-certificates \
+    jq \
+    git \
+    wget \
+    procps \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN groupadd -g 1000 openclaw && \
+    useradd -u 1000 -g openclaw -m -s /bin/bash openclaw
+
+RUN mkdir -p /workspace /tmp && \
+    chown openclaw:openclaw /workspace
+
+WORKDIR /workspace
+USER 1000:1000
+CMD ["/bin/bash"]
+EOF
+```
+
+### Step 2: Build the image
+
+```bash
+docker build -t openclaw-sandbox:bookworm-slim -f /tmp/Dockerfile.sandbox /tmp/
+```
+
+Build takes ~2–3 minutes. Verify:
+
+```bash
+docker images | grep openclaw-sandbox
+# openclaw-sandbox   bookworm-slim   ...   ~173MB
+```
+
+<Callout type="info" title="Network Access">
+This step requires internet access to Docker Hub (`registry-1.docker.io`, `production.cloudflare.docker.com`) and Debian package mirrors (`deb.debian.org`). After the image is built, these can be blocked again.
+</Callout>
+
+---
+
+## Part 2: Configure Sandbox and Per-Agent Secrets
+
+Edit `~/.openclaw/openclaw.json`.
+
+### Step 1: Enable sandbox for all agents (defaults)
+
+Add a `sandbox` block inside `agents.defaults`:
+
+```json
+{
+  "agents": {
+    "defaults": {
+      "sandbox": {
+        "mode": "all",
+        "scope": "agent",
+        "workspaceAccess": "rw",
+        "docker": {
+          "image": "openclaw-sandbox:bookworm-slim",
+          "network": "bridge"
+        }
+      }
+    }
+  }
+}
+```
+
+| Setting | Value | Why |
+|---|---|---|
+| `mode: "all"` | All sessions sandboxed | Full isolation |
+| `scope: "agent"` | One container per agent | Each agent has its own environment |
+| `workspaceAccess: "rw"` | Agent can read/write its own workspace | Agent still has access to its files |
+| `network: "bridge"` | Use bridge network | Agents can reach external APIs while maintaining isolation |
+
+<Callout type="danger" title="Do NOT use network: host">
+OpenClaw blocks `"network": "host"` for security reasons. If you set it, you'll get this error on restart:
+
+`agents.defaults.sandbox.docker.network: Sandbox security: network mode "host" is blocked. Use "bridge" or "none" instead.`
+
+Use `"bridge"` if your agents need to reach external APIs (Figo OP, Figo Reporting, Jira, etc.). Use `"none"` only if the agent should have zero network access.
+</Callout>
+
+### Step 2: Add credentials to the target agent
+
+Under the agent's entry in `agents.list`, add a `sandbox.docker.env` block with only the credentials that agent needs:
+
+```json
+{
+  "id": "figo-sales",
+  "sandbox": {
+    "docker": {
+      "env": {
+        "FIGO_OP_USER": "integrationarman",
+        "FIGO_OP_PASS": "...",
+        "FIGO_REPORTING_USER": "arman.eker",
+        "FIGO_REPORTING_PASS": "..."
+      }
+    }
+  }
+}
+```
+
+Other agents get no `env` block — they simply don't have those variables.
+
+### Step 3: Clear the shared .env file
+
+```bash
+echo "# Credentials are now managed per-agent in openclaw.json" > ~/.openclaw/.env
+```
+
+---
+
+## Part 3: Restart and Verify
+
+### Step 1: Restart the gateway
+
+```bash
+openclaw gateway restart
+```
+
+### Step 2: Verify isolation on main agent
+
+Ask your main agent to run:
+
+```
+env | grep FIGO
+```
+
+Expected result: **empty** — main agent cannot see the credentials.
+
+### Step 3: Verify the target agent has access
+
+Ask your target agent (e.g. Orion) to run:
+
+```
+env | grep FIGO
+```
+
+Expected result: credentials appear.
+
+### Step 4: Verify filesystem isolation
+
+Ask any non-privileged agent to run:
+
+```
+cat ~/.openclaw/.env
+```
+
+Expected result: `no access` — the host filesystem is not mounted inside the container.
+
+---
+
+## How It Works
+
+```
+HOST
+~/.openclaw/
+  openclaw.json          ← config lives here (not visible inside containers)
+  .env                   ← empty (credentials moved to config)
+  workspace-figo-sales/  ← mounted into figo-sales container at /workspace
+  workspace/             ← mounted into main container at /workspace
+
+figo-sales container
+  /workspace/            ← sees only its own workspace
+  env: FIGO_OP_USER=...  ← injected from config
+  env: FIGO_REPORTING_*  ← injected from config
+  ❌ cannot see other workspaces
+  ❌ cannot see host .env or openclaw.json
+
+main container
+  /workspace/            ← sees only its own workspace
+  ❌ no FIGO credentials
+  ❌ cannot see figo-sales workspace
+  ❌ cannot see host files
+```
+
+---
+
+## Adding Credentials to a New Agent
+
+When you add a new agent that needs specific credentials:
+
+1. Add its credentials under `agents.list[].sandbox.docker.env` in `openclaw.json`
+2. Restart: `openclaw gateway restart`
+
+That's it. No need to rebuild the Docker image.
+
+---
+
+## Troubleshooting
+
+### Agent can't reach external APIs
+
+Make sure `network: "bridge"` is set under `agents.defaults.sandbox.docker`. With `"none"`, containers have no network access at all and API calls will fail.
+
+<Callout type="warning">
+If you previously had `"network": "host"`, OpenClaw will reject the config on restart. Change it to `"bridge"` and restart again.
+</Callout>
+
+### Agent can't read/write its workspace files
+
+Check that `workspaceAccess: "rw"` is set. Without it, the workspace is not mounted.
+
+### Credentials not showing up in the agent
+
+Verify the agent `id` in `agents.list` matches exactly. Restart the gateway after any config change.
+
+### Image not found error
+
+Rebuild the sandbox image:
+
+```bash
+docker build -t openclaw-sandbox:bookworm-slim -f /tmp/Dockerfile.sandbox /tmp/
+```
+
+---
+
+## Updating the Sandbox Image
+
+If you need to add more tools to the container (e.g. `python3`, `node`):
+
+1. Edit the Dockerfile and add packages to the `apt-get install` line
+2. Rebuild: `docker build -t openclaw-sandbox:bookworm-slim -f /tmp/Dockerfile.sandbox /tmp/`
+3. Restart: `openclaw gateway restart`
+
+Requires temporary internet access to Docker Hub and Debian mirrors during rebuild only.
+
+---
+
+*Last updated: March 2026*

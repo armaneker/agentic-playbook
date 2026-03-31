@@ -1,0 +1,466 @@
+import Callout from '../../../components/Callout'
+
+# Building Agent Skills
+
+A comprehensive guide to designing, building, testing, and distributing high-quality Agent Skills for Claude Code and compatible AI tools.
+
+---
+
+## What Is a Skill?
+
+A skill is a **folder** — not just a markdown file. The folder contains a required `SKILL.md` entrypoint plus optional scripts, assets, reference docs, and data that the agent can discover, explore, and manipulate at runtime. Skills follow the open Agent Skills specification supported across 30+ agent tools including Claude Code, Gemini CLI, and Cursor.
+
+```
+my-skill/
+├── SKILL.md           # Required — instructions and frontmatter
+├── references/        # Docs loaded into context as needed
+│   └── conventions.md
+├── assets/            # Templates, icons, fonts for output
+│   └── report-template.md
+├── scripts/           # Executable code for deterministic tasks
+│   └── validate.sh
+└── examples/
+    └── sample.md
+```
+
+<Callout type="tip">
+The real challenge is not formatting — it is **content design**. Two skills with identical directory structures can operate in completely different ways depending on how their instructions are written.
+</Callout>
+
+---
+
+## The Frontmatter
+
+Every `SKILL.md` starts with YAML frontmatter between `---` markers. All fields are optional, but `description` is strongly recommended.
+
+```yaml
+---
+name: my-skill
+description: What this skill does and when to use it
+argument-hint: "[issue-number]"
+disable-model-invocation: false
+user-invocable: true
+allowed-tools: Read, Grep, Bash(gh *)
+model: claude-sonnet-4-6
+context: fork
+agent: Explore
+hooks: {}
+---
+```
+
+| Field | Purpose |
+| --- | --- |
+| `name` | Display name and `/slash-command`. Lowercase, hyphens, max 64 chars. Defaults to directory name. |
+| `description` | The primary triggering mechanism. Claude scans this to decide when to load the skill. |
+| `argument-hint` | Autocomplete hint, e.g. `[filename]` `[format]`. |
+| `disable-model-invocation` | `true` = only the user can invoke (manual `/name`). Use for side-effect workflows like deploy. |
+| `user-invocable` | `false` = hidden from the `/` menu. Use for background knowledge the model should apply silently. |
+| `allowed-tools` | Tools Claude can use without per-use approval when the skill is active. |
+| `model` | Override the model for this skill's execution. |
+| `context` | Set to `fork` to run in an isolated subagent. |
+| `agent` | Which subagent type to use with `context: fork` (e.g. `Explore`, `Plan`, `general-purpose`). |
+| `hooks` | Lifecycle hooks scoped to this skill. |
+
+### String Substitutions
+
+| Variable | Description |
+| --- | --- |
+| `$ARGUMENTS` | All arguments passed at invocation |
+| `$ARGUMENTS[N]` or `$N` | Specific argument by index (0-based) |
+| `${CLAUDE_SESSION_ID}` | Current session ID |
+| `${CLAUDE_SKILL_DIR}` | Directory containing this `SKILL.md` |
+
+### Dynamic Context Injection
+
+Use `` !`command` `` syntax to run shell commands before the skill content reaches Claude:
+
+```markdown
+## Pull request context
+- PR diff: !`gh pr diff`
+- Changed files: !`gh pr diff --name-only`
+```
+
+The command output replaces the placeholder — Claude only sees the final rendered result.
+
+---
+
+## Writing the Description
+
+The `description` is the **single most important field**. It is not a summary for humans — it is a trigger signal for the model. Claude scans all skill descriptions at session start to decide which ones to apply.
+
+### Principles
+
+1. **Include both what the skill does AND when to use it.** Don't just describe the capability — describe the contexts and user phrases that should activate it.
+
+2. **Be a little "pushy."** Claude tends to under-trigger skills. Instead of *"How to build a dashboard"*, write *"Build dashboards for internal data. Use whenever the user mentions dashboards, data visualization, internal metrics, or wants to display any kind of company data, even if they don't explicitly ask for a 'dashboard.'"*
+
+3. **Use keywords users would naturally say.** If users say "deck" or "slides" rather than "presentation", include those words.
+
+4. **Optimize with eval queries.** Generate realistic test prompts (should-trigger and should-not-trigger), then iterate on the description until triggering accuracy is high. Focus negative test cases on near-misses — queries that share keywords but need something different.
+
+### Invocation Control
+
+| Configuration | User can invoke | Claude can invoke | Context behavior |
+| --- | --- | --- | --- |
+| Default | Yes | Yes | Description always in context; full skill loads on invoke |
+| `disable-model-invocation: true` | Yes | No | Description not in context; loads only when user invokes |
+| `user-invocable: false` | No | Yes | Description always in context; loads when Claude invokes |
+
+---
+
+## Five Design Patterns
+
+Every well-designed skill fits one of five recurring patterns. They are not mutually exclusive — they compose. A Pipeline can include a Reviewer step; a Generator can start with Inversion to gather variables.
+
+### Pattern 1: Tool Wrapper
+
+**Purpose:** Give the agent on-demand expertise for a specific library, API, or framework.
+
+**How it works:** The skill listens for library keywords, dynamically loads internal documentation from `references/`, and applies those rules as authoritative truth. The agent only loads this context when it actually works with that technology.
+
+**Use when:** You need Claude to follow your team's internal coding guidelines, framework conventions, or library-specific best practices.
+
+```yaml
+---
+name: api-expert
+description: >
+  FastAPI development best practices and conventions. Use when building,
+  reviewing, or debugging FastAPI applications, REST APIs, or Pydantic models.
+---
+```
+
+```markdown
+You are an expert in FastAPI development. Apply these conventions to the user's code.
+
+## When Reviewing Code
+1. Load 'references/conventions.md' for the complete list of best practices
+2. Check the user's code against each convention
+3. For each violation, cite the specific rule and suggest the fix
+
+## When Writing Code
+1. Load the conventions reference
+2. Follow every convention exactly
+3. Add type annotations to all function signatures
+```
+
+### Pattern 2: Generator
+
+**Purpose:** Produce structured documents from a reusable template with consistent output every time.
+
+**How it works:** `assets/` holds the output template, `references/` holds the style guide. The instructions orchestrate a fill-in-the-blank process: load the template, read the style guide, ask the user for missing variables, populate the document.
+
+**Use when:** You need predictable output format — API docs, commit messages, project scaffolding, reports.
+
+```yaml
+---
+name: report-generator
+description: >
+  Generates structured technical reports in Markdown. Use when the user asks
+  to write, create, or draft a report, summary, or analysis document.
+---
+```
+
+```markdown
+Follow these steps exactly:
+
+Step 1: Load 'references/style-guide.md' for tone and formatting rules.
+Step 2: Load 'assets/report-template.md' for the required output structure.
+Step 3: Ask the user for any missing information needed to fill the template.
+Step 4: Fill the template following the style guide. Every section must be present.
+Step 5: Return the completed report as a single Markdown document.
+```
+
+### Pattern 3: Reviewer
+
+**Purpose:** Score code or content against a modular rubric by severity.
+
+**How it works:** The review criteria live in `references/review-checklist.md`, completely separate from the instructions. Swap the checklist file and you get an entirely different audit — Python style, OWASP security, accessibility — using the same skill infrastructure.
+
+**Use when:** You want to automate PR reviews, code audits, security checks, or content quality gates.
+
+```yaml
+---
+name: code-reviewer
+description: >
+  Reviews Python code for quality, style, and common bugs. Use when the user
+  submits code for review or wants a code audit.
+---
+```
+
+```markdown
+Follow this review protocol exactly:
+
+Step 1: Load 'references/review-checklist.md' for the review criteria.
+Step 2: Read the user's code carefully. Understand its purpose before critiquing.
+Step 3: Apply each rule. For every violation found:
+  - Note the line number
+  - Classify severity: error (must fix), warning (should fix), info (consider)
+  - Explain WHY it's a problem, not just WHAT is wrong
+  - Suggest a specific fix with corrected code
+Step 4: Produce a structured review:
+  - Summary, Findings (grouped by severity), Score (1-10), Top 3 Recommendations
+```
+
+### Pattern 4: Inversion
+
+**Purpose:** Force the agent to interview the user and gather requirements before acting.
+
+**How it works:** Explicit, non-negotiable gating instructions force the agent to ask structured questions sequentially and wait for answers before proceeding. The agent refuses to synthesize output until it has a complete picture.
+
+**Use when:** The task requires understanding the user's unique context — project planning, system design, complex configuration.
+
+```yaml
+---
+name: project-planner
+description: >
+  Plans a new software project by gathering requirements through structured
+  questions before producing a plan. Use when the user says "I want to build",
+  "help me plan", or "start a new project".
+---
+```
+
+```markdown
+You are conducting a structured requirements interview.
+DO NOT start building until all phases are complete.
+
+## Phase 1 — Problem Discovery (ask one question at a time, wait for each answer)
+- Q1: "What problem does this project solve for its users?"
+- Q2: "Who are the primary users? What is their technical level?"
+- Q3: "What is the expected scale?"
+
+## Phase 2 — Technical Constraints (only after Phase 1 is fully answered)
+- Q4: "What deployment environment will you use?"
+- Q5: "Any technology stack requirements or preferences?"
+- Q6: "What are the non-negotiable requirements?"
+
+## Phase 3 — Synthesis (only after all questions are answered)
+1. Load 'assets/plan-template.md' for the output format
+2. Fill in every section using the gathered requirements
+3. Ask: "Does this plan accurately capture your requirements?"
+4. Iterate on feedback until the user confirms
+```
+
+### Pattern 5: Pipeline
+
+**Purpose:** Enforce a strict, sequential workflow with hard checkpoints between steps.
+
+**How it works:** The instructions themselves serve as the workflow definition. Diamond gate conditions (requiring user approval before advancing) ensure the agent cannot bypass complex tasks or present unvalidated results. Different reference files and templates are pulled in only at the specific step where they are needed, keeping the context window clean.
+
+**Use when:** Multi-step processes where skipping a step or ignoring an intermediate result would produce a bad outcome — documentation generation, deployment, data pipelines.
+
+```yaml
+---
+name: doc-pipeline
+description: >
+  Generates API documentation from Python source code through a multi-step
+  pipeline. Use when the user asks to document a module or generate API docs.
+---
+```
+
+```markdown
+Execute each step in order. Do NOT skip steps or proceed if a step fails.
+
+## Step 1 — Parse & Inventory
+Analyze the code to extract all public classes, functions, and constants.
+Present as a checklist. Ask: "Is this the complete public API?"
+
+## Step 2 — Generate Docstrings
+For each function lacking a docstring:
+- Load 'references/docstring-style.md'
+- Generate a docstring following the style guide
+- Present each for user approval
+Do NOT proceed to Step 3 until the user confirms.
+
+## Step 3 — Assemble Documentation
+Load 'assets/api-doc-template.md'.
+Compile everything into a single reference document.
+
+## Step 4 — Quality Check
+Review against 'references/quality-checklist.md'.
+Report results. Fix issues before presenting the final document.
+```
+
+### Choosing the Right Pattern
+
+| Question | Pattern |
+| --- | --- |
+| Does the agent need domain expertise for a library or API? | Tool Wrapper |
+| Should the output follow a fixed template every time? | Generator |
+| Are you scoring or auditing content against a checklist? | Reviewer |
+| Must the agent gather context before acting? | Inversion |
+| Is there a strict multi-step workflow with checkpoints? | Pipeline |
+
+---
+
+## Skill Categories for Organizations
+
+After cataloging skills across teams, nine recurring categories emerge. Identifying which categories you're missing helps find gaps in your organization's skill coverage.
+
+1. **Library & API Reference** — How to correctly use an internal library, CLI, or SDK. Often includes a folder of reference code snippets and a list of gotchas.
+
+2. **Product Verification** — How to test or verify that code is working. Paired with external tools (Playwright, tmux). Consider having Claude record a video of its output or enforce programmatic assertions at each step.
+
+3. **Data Fetching & Analysis** — Connect to your data and monitoring stacks. Include libraries to fetch data with credentials, specific dashboard IDs, and instructions on common workflows.
+
+4. **Business Process & Team Automation** — Automate repetitive workflows into one command (standups, ticket creation, weekly recaps). Saving previous results in log files helps the model stay consistent.
+
+5. **Code Scaffolding & Templates** — Generate framework boilerplate for specific functions. Especially useful when scaffolding has natural language requirements that can't be purely covered by code.
+
+6. **Code Quality & Review** — Enforce code quality with deterministic scripts or tools. Good candidates for running automatically via hooks or in GitHub Actions.
+
+7. **CI/CD & Deployment** — Fetch, push, and deploy code. May reference other skills to collect data.
+
+8. **Runbooks** — Take a symptom (Slack thread, alert, error signature), walk through multi-tool investigation, produce a structured report.
+
+9. **Infrastructure Operations** — Routine maintenance and operational procedures, especially those involving destructive actions that benefit from guardrails.
+
+---
+
+## Writing Tips
+
+### Don't State the Obvious
+
+Claude already knows a lot about coding. Focus on information that pushes it out of its normal way of thinking — your team's specific conventions, internal library gotchas, edge cases. If a rule is something Claude would already follow by default, it's wasting context tokens.
+
+### Build a Gotchas Section
+
+The highest-signal content in any skill is the **Gotchas** section. Build it up from common failure points that Claude runs into when using your skill. Update it over time as new edge cases surface.
+
+### Use Progressive Disclosure
+
+Skills use a three-level loading system:
+
+1. **Metadata** (name + description) — Always in context (~100 words)
+2. **SKILL.md body** — In context when skill triggers (keep under 500 lines)
+3. **Bundled resources** — Loaded as needed (unlimited; scripts execute without loading into context)
+
+Tell Claude what files exist in your skill and it will read them at appropriate times. Split detailed function signatures, API docs, and usage examples into `references/` files. If your output follows a template, put it in `assets/`.
+
+For large reference files (over 300 lines), include a table of contents. When a skill supports multiple domains or frameworks, organize by variant so Claude reads only the relevant reference file:
+
+```
+cloud-deploy/
+├── SKILL.md
+└── references/
+    ├── aws.md
+    ├── gcp.md
+    └── azure.md
+```
+
+### Avoid Railroading Claude
+
+Give Claude the information it needs, but give it the flexibility to adapt. Skills are reusable across many situations — being too specific in your instructions makes them brittle.
+
+<Callout type="tip">
+Explain the **why** behind everything you're asking the model to do. Today's LLMs have good theory of mind. Rather than heavy-handed MUSTs, explain why things are important. This is more effective than rigid structures.
+</Callout>
+
+### Think Through the Setup
+
+Some skills need context from the user before they can operate. A good pattern is to store setup information in a `config.json` file in the skill directory. If the config doesn't exist, the agent asks the user for information and saves it.
+
+### Store Scripts and Generate Code
+
+One of the most powerful things you can give Claude is code. Bundled scripts and helper libraries let Claude spend its turns on composition — deciding what to do next rather than reconstructing boilerplate. For example, a data science skill might include a library of functions to fetch data from your event source, and Claude generates scripts on the fly to compose them for more advanced analysis.
+
+### Use On-Demand Hooks
+
+Skills can include hooks that activate only when the skill is called and last for the session duration. Use this for opinionated hooks you don't want running all the time. For example, a `/careful` skill could block `rm -rf`, `DROP TABLE`, and force-push via a `PreToolUse` matcher — useful when touching production, but annoying if always on.
+
+### Memory and Storing Data
+
+Skills can include a form of memory by storing data within them. Options range from a simple append-only text log to JSON files to a SQLite database. For example, a `standup-post` skill might keep a `standups.log` — the next time you run it, Claude reads its own history and can tell what changed since yesterday.
+
+<Callout type="info">
+Data stored in the skill directory may be deleted on upgrade. Use `${CLAUDE_PLUGIN_DATA}` as a stable per-plugin folder for persistent data.
+</Callout>
+
+---
+
+## Testing and Evaluation
+
+### The Core Loop
+
+1. Decide what the skill should do
+2. Write a draft
+3. Create 2-3 realistic test prompts and run Claude-with-the-skill on them
+4. Evaluate results both qualitatively (human review) and quantitatively (assertions)
+5. Rewrite the skill based on feedback
+6. Repeat until satisfied
+7. Expand the test set and try again at larger scale
+
+### Writing Good Test Prompts
+
+Test prompts should be realistic — the kind of thing a real user would actually type. Include file paths, personal context, column names, company names, casual speech, typos, and abbreviations. Vary the length and focus on edge cases rather than clear-cut scenarios.
+
+### Two Types of Skills, Two Testing Approaches
+
+1. **Capability uplift skills** — enhance Claude's base abilities. Evals help detect when model improvements make them unnecessary.
+2. **Encoded preference skills** — sequence existing capabilities into team workflows. Evals verify workflow fidelity.
+
+### Assertions and Benchmarking
+
+Good assertions are objectively verifiable and have descriptive names. Subjective skills (writing style, design quality) are better evaluated qualitatively. Track pass rates, elapsed time, and token usage across iterations to measure whether changes are actually improvements.
+
+### A/B Comparison
+
+For rigorous comparison between two skill versions, use **blind comparison**: give two outputs to an independent agent without revealing which is which, and let it judge quality. This removes bias from the evaluation.
+
+---
+
+## Distribution
+
+### Where Skills Live
+
+| Location | Path | Scope |
+| --- | --- | --- |
+| Enterprise Managed | settings | All users in your organization |
+| Personal | `~/.claude/skills/<name>/SKILL.md` | All your projects |
+| Project | `.claude/skills/<name>/SKILL.md` | This project only |
+| Plugin | `<plugin>/skills/<name>/SKILL.md` | Where plugin is enabled |
+
+Priority: **enterprise > personal > project**. Plugin skills use `plugin-name:skill-name` namespace and cannot conflict.
+
+### Sharing Strategies
+
+For smaller teams across few repos, commit skills to `.claude/skills/` in your repo. As you scale, an internal plugin marketplace lets teams decide which skills to install, avoiding context bloat from loading every skill description.
+
+### Managing a Marketplace
+
+Don't centralize curation too early. Let people upload skills to a sandbox folder and share via Slack. Once a skill has traction (determined by the skill owner), it gets a PR to move into the marketplace. Bad or redundant skills are easy to create — have some method of curation before release.
+
+### Measuring Adoption
+
+Use a `PreToolUse` hook to log skill usage within your organization. This lets you find skills that are popular or under-triggering compared to expectations.
+
+### Composing Skills
+
+Skills can reference other skills by name. If a CSV generation skill needs to upload a file, and you have a separate file upload skill, just reference it — the model will invoke it if installed. Native dependency management isn't built into skills yet, but name-based references work well.
+
+---
+
+## Troubleshooting
+
+**Skill not triggering:** Check that the `description` includes keywords users would naturally say. Try rephrasing your request to match the description. Invoke directly with `/skill-name` to verify it works.
+
+**Skill triggers too often:** Make the description more specific. Add `disable-model-invocation: true` if you only want manual invocation.
+
+**Claude doesn't see all skills:** Skill descriptions are loaded into context with a budget of 2% of the context window (fallback: 16,000 characters). Run `/context` to check for excluded skills. Override with `SLASH_COMMAND_TOOL_CHAR_BUDGET`.
+
+**`context: fork` produces empty output:** Forked skills need explicit task instructions. If the skill only contains guidelines without an actionable prompt, the subagent returns nothing useful.
+
+---
+
+## Quick-Start Checklist
+
+- Choose the right pattern for your use case (Wrapper, Generator, Reviewer, Inversion, Pipeline)
+- Write a description that includes trigger keywords and contexts
+- Keep `SKILL.md` under 500 lines — move detail to `references/`
+- Build a Gotchas section from real failure points
+- Explain the "why" behind instructions instead of rigid rules
+- Use progressive disclosure — bundle resources, reference them by name
+- Include scripts for deterministic or repetitive tasks
+- Write 2-3 realistic test prompts and run them
+- Iterate based on qualitative feedback and quantitative assertions
+- Optimize the description with trigger eval queries
+- Distribute via project repo, plugin marketplace, or managed settings

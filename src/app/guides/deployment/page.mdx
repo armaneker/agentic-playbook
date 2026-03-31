@@ -1,5 +1,3 @@
-<GuideHeader tool="OpenClaw" difficulty="Intermediate" lastTested="2026-03" readTime="12 min" />
-
 # Deployment
 
 This guide covers deploying OpenClaw on your own infrastructure, running it as a system daemon, and planning for growth.
@@ -87,56 +85,6 @@ A single server handles most use cases well:
 1. **Dedicated VPS** — Some cloud providers offer one-click OpenClaw deploys for straightforward scaling
 2. **Load-balanced gateways** — Multiple gateway instances behind a load balancer (advanced)
 3. **Separate gateways per team** — If teams are fully independent, separate installations may be simpler
-
-## Hardware Recommendations
-
-**Dedicated machine required.** OpenClaw has full filesystem access and can execute arbitrary commands. Never install it on a machine with sensitive data or active personal use.
-
-- **Mac Mini (M4, 16GB, 256GB)** — Quiet, low-power, reliable. Good for home/office setups.
-- **VPS** — DigitalOcean, Railway, Render, or Google Cloud. Best for teams that need uptime without managing hardware.
-- **Old laptop** — Fine for experimentation. Keep it plugged in and connected to the network.
-
-For physical hardware without a monitor: enable Screen Sharing and Remote Login in macOS System Settings, then SSH in from your main machine.
-
-## Cost Considerations
-
-Token costs depend on model choices, heartbeat frequency, and message volume.
-
-- **1–2 agents on Sonnet** — ~$100–200/month via API
-- **5–10 agents (mixed Opus + Sonnet)** — ~$500–1000/month via API
-- **Subscription-based** — Using an existing Claude or ChatGPT subscription is cheapest (~$20/month) but check the provider's terms of service for automated usage
-
-Cost levers:
-
-- **Model-per-agent** — Use Opus only for agents that need complex reasoning (coordinator, risk). Use Sonnet for everything else.
-- **Sub-agents on cheaper models** — The coordinator does synthesis; sub-agents do data gathering on Sonnet.
-- **Heartbeat frequency** — Fewer checks means fewer tokens. Most agents don't need checks more frequent than every 30 minutes.
-- **lightContext flag** — Set `lightContext: true` on heartbeat tasks that don't need full conversation history.
-
-## Troubleshooting
-
-**Agent not responding:**
-1. `openclaw doctor` — Check gateway health
-2. `openclaw channels status --probe` — Verify channel connections
-3. `openclaw agents list --bindings` — Confirm the agent is bound to the right channel
-
-**Agent forgetting tasks:**
-- Check that the session memory hook is enabled
-- Ask the agent to inspect its own crons and HEARTBEAT.md
-- Review `MEMORY.md` for unexpected or missing entries
-
-**Agent executing wrong actions:**
-- Review `TOOLS.md` for incorrect tool references
-- Check `SOUL.md` boundaries — they may need to be more explicit
-- Run `openclaw security audit` to check for permission gaps
-
-**Broken scheduling:**
-- Ask the agent to inspect and list its cron definitions
-- Verify `HEARTBEAT.md` has the correct format and intervals
-- Check that the heartbeat interval in `openclaw.json` is set (default: 30 minutes)
-
-**Recovery from severe breakage:**
-OpenClaw workspaces are just markdown files and JSON configs. You can debug them manually or use Claude Code to diagnose issues by pasting the workspace contents.
 
 ## Phased Rollout
 

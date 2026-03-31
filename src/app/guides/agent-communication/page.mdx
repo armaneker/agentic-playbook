@@ -1,0 +1,372 @@
+import Callout from '../../../components/Callout';
+
+# Setting Up Agent-to-Agent Communication
+
+This guide covers how to configure multiple OpenClaw agents to communicate with each other — the orchestrator pattern, sandbox exceptions, required config blocks, and common pitfalls.
+
+## Architecture Overview
+
+In a multi-agent setup, one agent acts as the **orchestrator** (typically your main agent) and delegates tasks to specialized sub-agents. The key architectural rule:
+
+```
+Main agent (orchestrator) → runs OUTSIDE sandbox
+Sub-agents (specialists)  → run INSIDE sandboxed containers
+```
+
+Why? A sandboxed container cannot connect back to the gateway to send messages to other agent sessions. The orchestrator must be unsandboxed to coordinate.
+
+```
+┌──────────────────────────────────────────────┐
+│  HOST                                         │
+│                                               │
+│  Main Agent (Nova)         ← sandbox: off     │
+│    ├── calls figo-sales    ← sandboxed        │
+│    ├── calls product-agent ← sandboxed        │
+│    └── calls product-docs  ← sandboxed        │
+│                                               │
+│  Gateway ← manages routing + sessions         │
+└──────────────────────────────────────────────┘
+```
+
+---
+
+## Prerequisites
+
+- Multiple agents created via `openclaw agents add`
+- Docker sandbox configured (see [Secret Isolation](/guides/secret-isolation))
+- Terminal/SSH access to the server
+
+---
+
+## Part 1: Sandbox Configuration for Multi-Agent
+
+### Step 1: Set sandbox defaults
+
+All agents get sandboxed by default:
+
+```json
+{
+  "agents": {
+    "defaults": {
+      "sandbox": {
+        "mode": "all",
+        "scope": "agent",
+        "workspaceAccess": "rw",
+        "docker": {
+          "image": "openclaw-sandbox:bookworm-slim",
+          "network": "bridge"
+        }
+      }
+    }
+  }
+}
+```
+
+### Step 2: Exempt the orchestrator
+
+The main agent must run outside the sandbox to orchestrate other agents:
+
+```json
+{
+  "id": "main",
+  "sandbox": { "mode": "off" },
+  "subagents": {
+    "allowAgents": ["product-docs-agent", "figo-sales", "product-agent"]
+  }
+}
+```
+
+<Callout type="danger" title="Orchestrator Must Be Unsandboxed">
+If your main agent is sandboxed, it cannot connect back to the gateway to send messages to other agent sessions. Agent-to-agent communication will silently fail. Always set `sandbox.mode: "off"` on your orchestrator.
+</Callout>
+
+---
+
+## Part 2: Enable Agent-to-Agent Communication
+
+Two separate config blocks are required. Missing either one results in a `forbidden` error.
+
+### Step 1: Define allowAgents on the orchestrator
+
+Under the main agent's entry in `agents.list`:
+
+```json
+{
+  "id": "main",
+  "subagents": {
+    "allowAgents": ["product-docs-agent", "figo-sales", "product-agent"]
+  }
+}
+```
+
+This tells OpenClaw which agents the orchestrator is allowed to call.
+
+### Step 2: Enable the tools config
+
+At the top level of `openclaw.json`, add:
+
+```json
+{
+  "tools": {
+    "sessions": {
+      "visibility": "all"
+    },
+    "agentToAgent": {
+      "enabled": true,
+      "allow": ["main", "figo-sales", "product-agent", "product-docs-agent"]
+    }
+  }
+}
+```
+
+| Setting | Purpose |
+|---|---|
+| `sessions.visibility: "all"` | Agents can see each other's sessions |
+| `agentToAgent.enabled: true` | Enables cross-agent messaging |
+| `agentToAgent.allow` | Whitelist of agents that can participate |
+
+<Callout type="warning" title="Both Configs Required">
+You need BOTH `allowAgents` on the agent AND the top-level `tools.agentToAgent` block. If either is missing, you'll get a `forbidden` error with no further explanation.
+</Callout>
+
+---
+
+## Part 3: sessions_send vs sessions_spawn
+
+OpenClaw has two methods for agent-to-agent communication:
+
+### sessions_spawn
+
+Creates a new session from scratch. The target agent starts with zero context.
+
+```
+main → sessions_spawn("figo-sales", "Get Q1 revenue data")
+       └── new session, no memory, no prior context
+```
+
+**Issues:**
+- Result return can be unreliable
+- Target agent has no context from previous conversations
+- Cold start every time
+
+### sessions_send (Recommended)
+
+Sends a message to an existing session. The target agent retains its memory and context.
+
+```
+main → sessions_send("figo-sales", session_id, "Get Q1 revenue data")
+       └── existing session, has memory, uses prior context
+```
+
+**Advantages:**
+- More reliable result delivery
+- Target agent can use its memory files and prior context
+- Better for ongoing collaboration patterns
+
+<Callout type="tip" title="Prefer sessions_send">
+Use `sessions_send` for most agent-to-agent communication. It's more reliable and the target agent benefits from accumulated context. Reserve `sessions_spawn` for truly independent, one-off tasks.
+</Callout>
+
+---
+
+## Part 4: Gateway Authentication
+
+Secure the gateway with an auth token to prevent unauthorized access:
+
+```json
+{
+  "gateway": {
+    "auth": {
+      "token": "your-strong-random-token-here"
+    }
+  }
+}
+```
+
+<Callout type="danger" title="Security Critical">
+Without gateway auth, OpenClaw will show a CRITICAL security warning on every startup. Generate a strong random token and set it before going to production.
+</Callout>
+
+---
+
+## Part 5: Plugin Permissions
+
+If your agents use external tool plugins, explicitly allow them:
+
+```json
+{
+  "plugins": {
+    "allow": ["openclaw-tool-api"]
+  }
+}
+```
+
+Only listed plugins can be loaded. This prevents unexpected tool access.
+
+---
+
+## Workspace Path Restrictions
+
+When using sandbox mode, bind mounts are restricted to the agent's own workspace directory. System paths like `/root`, `/opt`, `/etc` are blocked.
+
+If you need an agent to access a secrets file, place it inside the agent's workspace:
+
+```bash
+# ❌ This will fail
+/root/.secrets/api-keys.json
+
+# ✅ This works
+~/.openclaw/workspace-figo-sales/.secrets/api-keys.json
+```
+
+---
+
+## Binding ID Matching
+
+Every `agentId` in your bindings must exactly match an `id` in your `agents.list`. A mismatch causes a **silent failure** — messages won't reach the agent, and you won't get an error.
+
+```json
+// agents.list
+{ "id": "figo-sales", ... }
+
+// bindings — must match exactly
+{ "agentId": "figo-sales", ... }  ✅
+{ "agentId": "figo_sales", ... }  ❌ silent failure
+{ "agentId": "sales", ... }       ❌ silent failure
+```
+
+<Callout type="warning" title="Silent Failures">
+Binding ID mismatches don't produce errors. If an agent isn't responding to messages, check that the binding `agentId` exactly matches the agent's `id` in the config.
+</Callout>
+
+---
+
+## Complete Config Example
+
+Here's a minimal multi-agent config with communication enabled:
+
+```json
+{
+  "gateway": {
+    "auth": {
+      "token": "your-strong-random-token"
+    }
+  },
+  "agents": {
+    "defaults": {
+      "sandbox": {
+        "mode": "all",
+        "scope": "agent",
+        "workspaceAccess": "rw",
+        "docker": {
+          "image": "openclaw-sandbox:bookworm-slim",
+          "network": "bridge"
+        }
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "sandbox": { "mode": "off" },
+        "subagents": {
+          "allowAgents": ["figo-sales", "product-agent"]
+        }
+      },
+      {
+        "id": "figo-sales",
+        "sandbox": {
+          "docker": {
+            "env": {
+              "FIGO_OP_USER": "...",
+              "FIGO_REPORTING_USER": "..."
+            }
+          }
+        }
+      },
+      {
+        "id": "product-agent"
+      }
+    ]
+  },
+  "tools": {
+    "sessions": {
+      "visibility": "all"
+    },
+    "agentToAgent": {
+      "enabled": true,
+      "allow": ["main", "figo-sales", "product-agent"]
+    }
+  },
+  "plugins": {
+    "allow": ["openclaw-tool-api"]
+  }
+}
+```
+
+---
+
+## Setup Checklist
+
+After configuring agent communication:
+
+- [ ] Sandbox defaults set: `network: "bridge"`, `mode: "all"`
+- [ ] Orchestrator (main) agent: `sandbox.mode = "off"`
+- [ ] Orchestrator: `subagents.allowAgents` lists all target agents
+- [ ] `tools.agentToAgent.enabled = true` with `allow` list
+- [ ] `tools.sessions.visibility = "all"`
+- [ ] `gateway.auth.token` set (recommended)
+- [ ] `plugins.allow` configured (if using plugins)
+- [ ] All binding `agentId` values match `agents.list` IDs exactly
+- [ ] Secrets files placed inside agent workspace (not system paths)
+- [ ] Run `openclaw gateway restart` after every config change
+
+---
+
+## Troubleshooting
+
+### Agent-to-agent calls return "forbidden"
+
+Check both configs:
+1. `allowAgents` on the calling agent
+2. `tools.agentToAgent.enabled` + `allow` list at top level
+
+Both must include the target agent.
+
+### Subagent spawn returns no result
+
+Either use `sessions_send` instead, or ensure the orchestrator is **not** sandboxed (`sandbox.mode: "off"`).
+
+### Messages not reaching an agent
+
+Verify the binding `agentId` matches the agent `id` exactly. This is a silent failure — no error is logged.
+
+### Gateway ECONNREFUSED
+
+```bash
+openclaw gateway restart
+openclaw status
+```
+
+### network mode "host" is blocked
+
+Use `"bridge"` (for API access) or `"none"` (for full isolation). See [Secret Isolation](/guides/secret-isolation) for details.
+
+### bind mount targets blocked path
+
+Move the file into the agent's workspace directory. System paths outside the workspace are not mountable in sandbox mode.
+
+---
+
+## Useful Commands
+
+| Command | Purpose |
+|---|---|
+| `openclaw gateway restart` | Apply config changes |
+| `openclaw status` | Check gateway and agent status |
+| `openclaw logs --follow` | Live log stream |
+| `openclaw doctor --fix` | Auto-diagnose and fix common issues |
+| `openclaw security audit` | Run a security check |
+
+---
+
+*Last updated: March 2026*

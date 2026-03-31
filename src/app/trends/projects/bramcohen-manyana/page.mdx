@@ -1,0 +1,59 @@
+<GuideHeader tool="manyana" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Manyana
+
+Manyana is a version control system built on CRDTs (Conflict-Free Replicated Data Types) that provides eventual consistency for file merging. It eliminates the failure cases of traditional merge algorithms while providing more informative conflict presentations.
+
+## Key Features
+
+- **Commutative merges** — `merge(A, B)` produces identical results to `merge(B, A)`
+- **No merge failures** — Every merge operation produces a deterministic result
+- **History-aware conflict resolution** — Uses edit history to make better merge decisions
+- **Structural conflict presentation** — Shows what each side actually did, not just the final diff
+- **No line interleaving** — Concurrent insertions never get mixed together
+- **Linear complexity** — State size and merge operations scale linearly
+
+## Installation
+
+Clone and install from the repository:
+
+```bash
+git clone https://github.com/bramcohen/manyana
+cd manyana
+pip install -e .
+```
+
+## Basic Usage
+
+```python
+from manyana import initial_state, current_lines, update_state, merge_states
+
+# Create initial state
+state1 = initial_state(['def hello():', '    print("world")'])
+
+# Update the file
+state2 = update_state(state1, ['def hello():', '    print("universe")'])
+
+# Create a branch with different changes
+state3 = update_state(state1, ['def hello():', '    logging.info("called")', '    print("world")'])
+
+# Merge branches - always succeeds
+merged = merge_states(state2, state3)
+result = current_lines(merged)
+```
+
+<Callout type="info">
+Manyana shows conflicts by labeling what each side did (deleted, added) rather than presenting opaque blobs. This makes merge conflicts much easier to understand and resolve.
+</Callout>
+
+<Callout type="warning">
+The diff algorithm matters — different interpretations of the same edit get baked into the state permanently and affect future merge behavior.
+</Callout>
+
+## Notable Details
+
+- **Language:** Python
+- **License:** Unknown
+- **Community:** 448 stars
+- **Approach:** Academic research project exploring CRDT applications to version control
+- **Status:** Experimental — focuses on algorithmic foundations rather than practical tooling

@@ -1,0 +1,67 @@
+<GuideHeader tool="polymarket-arbitrage-trading-bot" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# Polymarket Arbitrage Trading Bot
+
+This TypeScript bot automates dump-and-hedge trading for Polymarket's 15-minute crypto Up/Down markets. It monitors price movements across BTC, ETH, SOL, and XRP markets to capture arbitrage opportunities when one side dumps while the other lags.
+
+## Key Features
+
+- **Multi-asset trading** across BTC, ETH, SOL, and XRP markets
+- **Auto-discovery** of active 15-minute Up/Down markets via Polymarket's Gamma API
+- **Dump detection** using configurable price movement thresholds
+- **Hedge logic** that buys opposite positions when combined cost is below target
+- **Risk controls** with configurable stop-loss hedging
+- **Settlement tracking** with automatic winner redemption
+- **Simulation mode** for testing strategies without real capital
+
+## Installation
+
+```bash
+git clone https://github.com/apechurch/polymarket-arbitrage-trading-bot.git
+cd polymarket-arbitrage-trading-bot
+npm install
+cp .env.example .env
+# Edit .env with your configuration
+npm run build
+```
+
+## Basic Usage
+
+Configure your environment variables in `.env`:
+
+```bash
+PRIVATE_KEY=your_private_key
+MARKETS=btc,eth
+DUMP_HEDGE_SHARES=10
+DUMP_HEDGE_SUM_TARGET=0.95
+DUMP_HEDGE_MOVE_THRESHOLD=0.15
+PRODUCTION=false
+```
+
+Run in simulation mode first:
+
+```bash
+npm run sim
+```
+
+For live trading:
+
+```bash
+npm run prod
+```
+
+<Callout type="warning">
+Always test in simulation mode first. This involves substantial financial risk including possible total loss of capital.
+</Callout>
+
+## Notable Details
+
+- **Language:** TypeScript with Node.js 16+ requirement
+- **License:** No license specified
+- **Community:** 417 GitHub stars
+- **Dependencies:** Built on official Polymarket CLOB client
+- **Network:** Operates on Polygon for USDC and CTF redemption
+
+<Callout type="tip">
+The bot includes comprehensive logging to `history.toml` for trade auditing and strategy analysis.
+</Callout>

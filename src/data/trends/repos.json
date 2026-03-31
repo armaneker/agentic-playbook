@@ -3243,7 +3243,7 @@
       "language": "TypeScript",
       "url": "https://github.com/apechurch/polymarket-arbitrage-trading-bot",
       "first_seen": "2026-03-26",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "arbitrage",
         "bot",
@@ -3262,7 +3262,7 @@
       "language": "Go",
       "url": "https://github.com/xiaolajiaoyyds/regplatformm",
       "first_seen": "2026-03-26",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -3274,7 +3274,7 @@
       "language": "Python",
       "url": "https://github.com/bramcohen/manyana",
       "first_seen": "2026-03-26",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -4537,7 +4537,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Claw Code is a clean-room Python rewrite of leaked Claude agent harness tools, focusing on practical harness engineering rather than archival. It provides functional agent orchestration patterns for developers interested in studying how AI systems wire tools and manage runtime context. The project is currently being rewritten in Rust for improved performance and memory safety."
     },
     "nirholas/claude-code": {
       "full_name": "nirholas/claude-code",
@@ -4557,7 +4558,8 @@
         "claude-skills"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "Claude Code is Anthropic's official CLI tool that allows developers to interact with Claude directly from the terminal for editing files, running commands, and managing git workflows through natural language. It provides an agentic coding experience that can understand codebases, execute routine tasks, and explain complex code to help developers work more efficiently. The source code was accidentally made public in March 2026 when an npm package included an unobfuscated TypeScript source map pointing to Anthropic's storage bucket."
     },
     "sanbuphy/claude-code-source-code": {
       "full_name": "sanbuphy/claude-code-source-code",
@@ -4568,7 +4570,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Claude Code is a decompiled TypeScript source code repository of Anthropic's Claude AI coding assistant, extracted from npm package version 2.1.88. It reveals the internal architecture, tool system, telemetry collection, feature flags, and controversial capabilities like \"undercover mode\" that hides AI authorship in open-source contributions. The repository contains 40+ tools and exposes remote control mechanisms including killswitches that Anthropic can trigger to modify or disable functionality."
     },
     "Kuberwastaken/claude-code": {
       "full_name": "Kuberwastaken/claude-code",
@@ -4579,7 +4582,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Claude Code is a reverse-engineered repository containing the leaked source code of Anthropic's official AI coding CLI tool, extracted from sourcemap files accidentally published to npm. Developers use this to examine the internal architecture and implementation details of Claude's coding assistant that were never meant to be public. The leak occurred because Anthropic forgot to exclude sourcemap files from their npm package, exposing 785KB of source code including system prompts and internal tooling."
     },
     "chatgptprojects/claude-code": {
       "full_name": "chatgptprojects/claude-code",
@@ -4590,7 +4594,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is an unofficial repository containing the extracted TypeScript source code of Anthropic's Claude Code CLI tool, obtained by unpacking the source map from the official npm package. It provides access to the complete, unobfuscated codebase of Claude's terminal interface for software engineering tasks like file editing, command execution, and git workflows. The source was inadvertently exposed through a source map file that included the full `sourcesContent` in the published npm package."
     },
     "tvytlx/claude-code-deep-dive": {
       "full_name": "tvytlx/claude-code-deep-dive",
@@ -4601,7 +4606,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Claude Code Deep Dive is a reverse-engineering analysis of Anthropic's `@anthropic-ai/claude-code` npm package, extracting and documenting the complete source code from the CLI's source maps. The project provides a systematic study of Claude Code's architecture, including its prompt assembly system, agent orchestration, tool execution pipeline, and plugin ecosystem to understand why it outperforms typical LLM wrapper tools. The analysis reveals 4,756 extracted source files and positions Claude Code as an \"Agent Operating System\" rather than a simple CLI wrapper."
     },
     "oboard/claude-code-rev": {
       "full_name": "oboard/claude-code-rev",
@@ -4614,7 +4620,8 @@
         "claude-code"
       ],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a reverse-engineered reconstruction of Claude Code's source tree, recovered primarily from source maps with missing modules replaced by compatibility shims. It enables developers to run a local development environment of Claude Code that was previously unavailable as open source. The restoration includes working CLI bootstrapping, skill documentation, and MCP compatibility layers, though some functionality remains degraded due to unrecoverable private integrations."
     },
     "claude-code-best/claude-code": {
       "full_name": "claude-code-best/claude-code",
@@ -4625,7 +4632,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a reverse-engineered TypeScript implementation of Anthropic's official Claude Code CLI tool, recreated from decompiled source code. It provides a full REPL interface with streaming conversations, tool execution capabilities (file operations, bash commands, web search, etc.), and support for multiple API backends including Anthropic Direct, AWS Bedrock, and Google Vertex. The project explicitly warns about its uncertain longevity and recommends downloading rather than forking due to rapid updates driven by Claude Opus optimization."
     }
   }
 }

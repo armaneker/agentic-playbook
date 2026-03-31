@@ -1,0 +1,55 @@
+<GuideHeader tool="opencli-rs" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# opencli-rs
+
+Opencli-rs is a blazing fast, memory-safe command-line tool built in Rust that fetches information from any website with a single command. A complete rewrite of the original OpenCLI (TypeScript), delivering up to 12x faster performance with 10x less memory usage.
+
+## Key Features
+
+- **55 sites, 333 commands** — Covers Twitter/X, Reddit, YouTube, HackerNews, Bilibili, Zhihu, Xiaohongshu, and more
+- **Browser session reuse** — Leverage logged-in Chrome sessions via extension, no token management
+- **Declarative YAML Pipeline** — Add new adapters with zero code using YAML workflows
+- **AI-native discovery** — Auto-analyze websites and generate adapters
+- **Media downloads** — Download videos (yt-dlp) and articles as Markdown
+- **External CLI passthrough** — Integrate GitHub CLI, Docker, Kubernetes tools
+- **Multi-format output** — JSON, YAML, CSV, Markdown, table formats
+- **Single 4.7MB binary** — Zero runtime dependencies
+
+## Installation
+
+One-line install for macOS/Linux:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/nashsu/opencli-rs/main/scripts/install.sh | sh
+```
+
+Or download the binary for your platform from [GitHub Releases](https://github.com/nashsu/opencli-rs/releases/latest) and add to PATH.
+
+<Callout type="info">
+Public commands (HackerNews, DevTo) work immediately. Browser commands require the Chrome extension from releases.
+</Callout>
+
+## Basic Usage
+
+```bash
+# Get HackerNews top stories (no browser needed)
+opencli-rs hackernews top --limit 10
+
+# Search Twitter (requires browser + login)
+opencli-rs twitter search "rust lang" --limit 10
+
+# Get Bilibili trending (requires browser session)
+opencli-rs bilibili hot --limit 20 --format json
+
+# View all available commands
+opencli-rs --help
+```
+
+## Notable Details
+
+- **Language**: Rust
+- **License**: Unknown
+- **GitHub Stars**: 1,045
+- **Performance**: 6-12x faster than Node.js version with 10x less memory
+- **AI Integration**: Built for AI agents with auto-discovery capabilities
+- **Supported Platforms**: macOS (Intel/Apple Silicon), Linux (x86_64/ARM64), Windows

@@ -3192,7 +3192,7 @@
       "language": "Python",
       "url": "https://github.com/TheAlgorithms/Python",
       "first_seen": "2026-03-26",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "algorithm",
         "algorithm-competitions",
@@ -3219,7 +3219,7 @@
       "language": "Rust",
       "url": "https://github.com/nashsu/opencli-rs",
       "first_seen": "2026-03-26",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": "v0.1.0",
@@ -3231,7 +3231,7 @@
       "language": "HTML",
       "url": "https://github.com/zengwenliang416/ppt-agent",
       "first_seen": "2026-03-26",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Agentic",
       "version": null,
@@ -4488,7 +4488,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Claude Code is a leaked TypeScript source snapshot of Anthropic's CLI tool for terminal-based software engineering interactions with Claude. It provides capabilities for file editing, command execution, codebase searching, and workflow coordination through a React-based terminal UI. The source became publicly accessible through an exposed source map file in the npm distribution on March 31, 2026."
     },
     "ChinaSiro/claude-code-sourcemap": {
       "full_name": "ChinaSiro/claude-code-sourcemap",
@@ -4499,7 +4500,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a reverse-engineered TypeScript reconstruction of Anthropic's Claude Code CLI tool, extracted from source maps in the published npm package `@anthropic-ai/claude-code`. It provides insight into the internal structure and implementation of Claude's code analysis capabilities, including tools for file editing, git operations, and multi-agent coordination. The repository contains 4,756 restored files from version 2.1.88, created purely for research purposes."
     },
     "ghostwright/phantom": {
       "full_name": "ghostwright/phantom",
@@ -4523,7 +4525,8 @@
         "typescript"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "Phantom is an AI agent built on Claude that runs on its own dedicated computer with persistent memory and self-evolution capabilities. It operates as an autonomous co-worker through Slack integration, installing software, building infrastructure, and creating tools without requiring permission or guidance. The agent can extend its own capabilities on-demand, such as building Discord integration or analytics platforms when needed."
     }
   }
 }

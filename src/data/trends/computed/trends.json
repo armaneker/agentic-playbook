@@ -974,7 +974,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Claude Code is a leaked TypeScript source snapshot of Anthropic's CLI tool for terminal-based software engineering interactions with Claude. It provides capabilities for file editing, command execution, codebase searching, and workflow coordination through a React-based terminal UI. The source became publicly accessible through an exposed source map file in the npm distribution on March 31, 2026."
     },
     {
       "full_name": "larksuite/cli",
@@ -1109,7 +1109,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a reverse-engineered TypeScript reconstruction of Anthropic's Claude Code CLI tool, extracted from source maps in the published npm package `@anthropic-ai/claude-code`. It provides insight into the internal structure and implementation of Claude's code analysis capabilities, including tools for file editing, git operations, and multi-agent coordination. The repository contains 4,756 restored files from version 2.1.88, created purely for research purposes."
     },
     {
       "full_name": "qiuzhi2046/Qclaw",
@@ -1211,7 +1211,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v0.1.0",
       "blurb": "opencli-rs is a Rust-based command-line tool that scrapes data from 55+ websites including Twitter, Reddit, YouTube, and HackerNews with a single command. It provides a unified interface for fetching web data and can integrate with existing CLI tools like Docker and kubectl, making it particularly useful for AI agents that need web access. The Rust rewrite delivers up to 12x performance improvement over the original TypeScript version while using 10x less memory."
@@ -1421,7 +1421,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "TheAlgorithms/Python is a comprehensive collection of algorithm implementations written in Python for educational purposes. It serves as a learning resource for students, interview preparation, and algorithm competitions, covering everything from basic sorting and searching to advanced data structures. The implementations prioritize clarity over performance and may be less efficient than standard library equivalents."
@@ -1754,7 +1754,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "Phantom is an AI agent built on Claude that runs on its own dedicated computer with persistent memory and self-evolution capabilities. It operates as an autonomous co-worker through Slack integration, installing software, building infrastructure, and creating tools without requiring permission or guidance. The agent can extend its own capabilities on-demand, such as building Discord integration or analytics platforms when needed."
     },
     {
       "full_name": "productdevbook/hucre",

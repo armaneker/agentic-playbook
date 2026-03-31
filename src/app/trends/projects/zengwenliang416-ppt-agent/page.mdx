@@ -1,0 +1,66 @@
+<GuideHeader tool="ppt-agent" difficulty="Beginner" lastTested="2026-03" readTime="5 min" />
+
+# PPT Agent
+
+PPT Agent is a multi-agent workflow that generates presentation slides with automated content research and design. It combines LLM generation with Gemini review to output SVG-based slides in 1280×720 Bento Grid layouts.
+
+## Key Features
+
+- **Multi-agent pipeline**: Research, content planning, design generation, and quality review
+- **Cross-platform support**: Works with GPT-5.4, MiniMax M2.5, Claude Opus across different hosts
+- **Automated research**: Searches and collects materials based on your topic
+- **Quality control**: Gemini-powered review with scoring and iterative improvements
+- **Brand customization**: Custom color schemes and style presets
+- **Structured output**: Interactive HTML preview with speaker notes
+
+<Callout type="info">
+The system includes 17 built-in style presets including business, tech, creative, minimal, and blueprint themes.
+</Callout>
+
+## Installation
+
+```bash
+claude plugin marketplace add zengwenliang416/ppt-agent
+claude plugin install ppt-agent
+```
+
+## Basic Usage
+
+Generate slides by providing a topic or description:
+
+```bash
+/ppt-agent:ppt 帮我收集一下新一代小米su7的发布会资料然后做一套PPT
+```
+
+### With Custom Branding
+
+Create a brand colors file:
+
+```yaml
+brand:
+  primary: "#FF6900"
+  secondary: "#000000" 
+  logo_text: "Mi"
+```
+
+Then use it:
+
+```bash
+/ppt-agent:ppt --brand-colors=brand.yaml --style=tech 小米SU7发布会
+```
+
+## Workflow
+
+The system runs through 7 stages: initialization, requirements research, material collection, outline planning, draft generation, design + review cycles, and final delivery. Hard stops at key points allow user confirmation before proceeding.
+
+<Callout type="tip">
+Quality standards require a weighted score ≥7.0 with layout and readability scores ≥6. The system supports resuming interrupted runs using `--run-id`.
+</Callout>
+
+## Notable Details
+
+- **Language**: HTML/JavaScript with SVG generation
+- **License**: MIT
+- **Community**: 559 GitHub stars
+- **Output**: SVG slides with interactive HTML preview and speaker notes
+- **Quality gates**: Automated scoring with minimum thresholds for release

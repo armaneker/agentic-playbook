@@ -4720,7 +4720,7 @@
     },
     "chatgptprojects/clear-code": {
       "full_name": "chatgptprojects/clear-code",
-      "description": "https://x.com/paidev",
+      "description": "See your claude code logs in clear details in your dashboard",
       "language": "Unknown",
       "url": "https://github.com/chatgptprojects/clear-code",
       "first_seen": "2026-04-01",
@@ -4811,6 +4811,122 @@
       "category": "Other",
       "version": null,
       "blurb": "This is a reverse-engineered TypeScript codebase of Anthropic's `@anthropic-ai/claude-code` CLI tool, reconstructed from npm package source maps. It reveals numerous hidden features that are feature-flagged or restricted to internal users, including an AI pet system (Buddy), persistent assistant mode (Kairos), cloud-based deep planning (Ultraplan), and multi-agent coordination capabilities. The project is unofficial and intended for research purposes only, containing 1,987 TypeScript files with functionality not available in the public release."
+    },
+    "sindresorhus/awesome": {
+      "full_name": "sindresorhus/awesome",
+      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "language": "Unknown",
+      "url": "https://github.com/sindresorhus/awesome",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "lists",
+        "resources",
+        "unicorns"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "sanbuphy/learn-coding-agent": {
+      "full_name": "sanbuphy/learn-coding-agent",
+      "description": "Research on Coding Agents",
+      "language": "Unknown",
+      "url": "https://github.com/sanbuphy/learn-coding-agent",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "Kuberwastaken/claurst": {
+      "full_name": "Kuberwastaken/claurst",
+      "description": "Your favorite Terminal Coding Agent, now in Rust & a Breakdown of the Claude Code leak & discoveries",
+      "language": "Rust",
+      "url": "https://github.com/Kuberwastaken/claurst",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "codeany-ai/open-agent-sdk-typescript": {
+      "full_name": "codeany-ai/open-agent-sdk-typescript",
+      "description": "Agent-SDK without CLI dependencies, as an alternative to claude-agent-sdk, completely open source",
+      "language": "TypeScript",
+      "url": "https://github.com/codeany-ai/open-agent-sdk-typescript",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [
+        "agent-sdk",
+        "claude-agent-sdk",
+        "claude-code",
+        "open-agent-sdk"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Leonxlnx/agentic-ai-prompt-research": {
+      "full_name": "Leonxlnx/agentic-ai-prompt-research",
+      "description": "Research into how agentic AI coding assistants work — reconstructed prompt patterns, agent coordination, and security classification",
+      "language": "Unknown",
+      "url": "https://github.com/Leonxlnx/agentic-ai-prompt-research",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-research",
+        "claude",
+        "prompt-engineering",
+        "system-prompts"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "JackChen-me/open-multi-agent": {
+      "full_name": "JackChen-me/open-multi-agent",
+      "description": "Production-grade multi-agent orchestration framework. Model-agnostic, supports team collaboration, task scheduling, and inter-agent communication.",
+      "language": "TypeScript",
+      "url": "https://github.com/JackChen-me/open-multi-agent",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [
+        "agent-framework",
+        "ai-agents",
+        "claude",
+        "llm",
+        "model-agnostic",
+        "multi-agent",
+        "openai",
+        "orchestration",
+        "task-scheduling",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Gitlawb/openclaude": {
+      "full_name": "Gitlawb/openclaude",
+      "description": "Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via OpenAI-compatible API shim",
+      "language": "TypeScript",
+      "url": "https://github.com/Gitlawb/openclaude",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "therealXiaomanChu/ex-skill": {
+      "full_name": "therealXiaomanChu/ex-skill",
+      "description": "把前任蒸馏成 AI Skill，用ta的方式跟你说话。Inspired by colleague-skill（同事skill）. ",
+      "language": "Python",
+      "url": "https://github.com/therealXiaomanChu/ex-skill",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

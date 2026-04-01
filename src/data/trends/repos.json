@@ -4438,7 +4438,7 @@
     },
     "drona23/claude-token-efficient": {
       "full_name": "drona23/claude-token-efficient",
-      "description": "Universal CLAUDE.md - cut Claude output tokens by 63%. Drop-in. No code changes.",
+      "description": "One CLAUDE.md file. Keeps Claude responses terse. Reduces output verbosity on heavy workflows. Drop-in, no code changes.",
       "language": "Unknown",
       "url": "https://github.com/drona23/claude-token-efficient",
       "first_seen": "2026-03-31",
@@ -4530,7 +4530,7 @@
     },
     "instructkr/claw-code": {
       "full_name": "instructkr/claw-code",
-      "description": "The fastest repo in history to surpass 50K stars ⭐, reaching the milestone in just 2 hours after publication. Better Harness Tools that make real things done. Now writing in Rust using oh-my-codex.",
+      "description": "The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.",
       "language": "Rust",
       "url": "https://github.com/instructkr/claw-code",
       "first_seen": "2026-03-31",
@@ -4935,6 +4935,17 @@
       "category": "Other",
       "version": null,
       "blurb": "Ex-skill is a Python tool that creates AI personas based on your ex-partner's communication patterns using chat logs, social media, and photos. It analyzes relationship data to generate a conversational AI that mimics their speech patterns, personality traits, and shared memories for personal reflection or emotional processing. The system supports multiple Chinese messaging platforms (WeChat, QQ) and includes version management for iterating on the AI persona over time."
+    },
+    "Leonxlnx/claw-dev": {
+      "full_name": "Leonxlnx/claw-dev",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Leonxlnx/claw-dev",
+      "first_seen": "2026-04-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

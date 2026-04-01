@@ -1139,7 +1139,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "This is a research repository containing a deep dive analysis of Claude Code's source code and architecture, focusing on how modern coding agents are built. The analysis examines system prompts, agent orchestration, tools, plugins, hooks, and the Model Context Protocol (MCP) to understand why these agents are more stable and effective than simple LLM+tool combinations. The repository provides a comprehensive PDF report but notably excludes the actual source code, focusing instead on educational analysis and commentary."
     },
     {
       "full_name": "drona23/claude-token-efficient",
@@ -1199,7 +1199,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Clear-Code is a curated repository that catalogs and compares open-source AI coding assistants like Cline, Aider, and Continue. It helps developers find alternatives to proprietary tools like GitHub Copilot and Cursor without vendor lock-in, privacy concerns, or enterprise licensing costs. The project focuses specifically on open-source solutions that can be self-hosted and customized."
     },
     {
       "full_name": "oboard/claude-code-rev",
@@ -1304,7 +1304,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a locally runnable version of Claude Code based on leaked source code, with fixes to make the Ink TUI interface functional. It allows users to run the official Claude Code interface locally while supporting custom Anthropic-compatible APIs like MiniMax and OpenRouter. The project includes both interactive TUI mode and headless operation for scripting scenarios."
     },
     {
       "full_name": "oaker-io/wewrite",
@@ -1379,7 +1379,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "2.1.88",
-      "blurb": null
+      "blurb": "This repository contains the recovered source code of Anthropic's Claude Code CLI tool version 2.1.88, extracted from a sourcemap file that was accidentally published to npm. It provides access to the complete TypeScript codebase (700k lines) including the command system, terminal UI components built with React + Ink, and MCP (Model Context Protocol) implementation. The original npm package was quickly removed, but this recovery preserves the code structure for analysis and study of the CLI's architecture."
     },
     {
       "full_name": "jarmuine/claude-code",
@@ -1394,7 +1394,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Claude Code is a TypeScript CLI tool that allows developers to interact with Claude AI directly from the terminal for software engineering tasks like editing files, running commands, and searching codebases. It provides an agentic development environment with a React-based terminal UI, multi-agent coordination, and extensive tool integrations for automating coding workflows. This repository contains source code that was accidentally exposed through npm source maps in March 2026, representing a significant supply chain security incident."
     },
     {
       "full_name": "legalize-dev/legalize-es",
@@ -1604,7 +1604,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "TurboQuant is a KV cache compression library for LLM inference that quantizes keys to 3-bits and values to 2-bits using custom Triton kernels. It integrates with vLLM to reduce memory usage by 77% on dense transformers while maintaining throughput and generation quality. The implementation achieves 2x token capacity increases and modest speed improvements across RTX 3090/5090 GPUs."
     },
     {
       "full_name": "mauriceboe/TREK",
@@ -1649,7 +1649,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": null,
-      "blurb": null
+      "blurb": "CC Gateway is a reverse proxy that sits between Claude Code and Anthropic's API to normalize device fingerprints and telemetry data. It rewrites 40+ environment dimensions, device IDs, and system metrics to present a single canonical identity, preventing Claude Code from tracking individual machines across your network. The gateway handles OAuth token management centrally so client machines never need to contact Anthropic's authentication servers directly."
     },
     {
       "full_name": "jonwiggins/optio",
@@ -1694,7 +1694,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a reverse-engineered TypeScript codebase of Anthropic's `@anthropic-ai/claude-code` CLI tool, reconstructed from npm package source maps. It reveals numerous hidden features that are feature-flagged or restricted to internal users, including an AI pet system (Buddy), persistent assistant mode (Kairos), cloud-based deep planning (Ultraplan), and multi-agent coordination capabilities. The project is unofficial and intended for research purposes only, containing 1,987 TypeScript files with functionality not available in the public release."
     },
     {
       "full_name": "vercel-labs/emulate",

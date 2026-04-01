@@ -1,0 +1,57 @@
+<GuideHeader tool="expect" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Expect
+
+Expect lets agents test your code changes in a real browser. It scans your git diff, generates a test plan with AI, and executes it against live browsers using your actual login sessions.
+
+## Key Features
+
+- **Diff-aware testing** — Automatically reads unstaged changes or branch diffs to generate relevant tests
+- **Multi-browser support** — Runs tests across Chrome, Firefox, Safari with your real cookies
+- **AI test generation** — Creates step-by-step test plans using various AI agents (Claude, Copilot, Gemini)
+- **Session recording** — Records every test execution with rrweb replay viewer
+- **CI integration** — Headless mode for automated testing pipelines
+- **Live view** — Watch tests execute in real-time with interactive TUI
+
+## Installation
+
+```bash
+npx -y expect-cli@latest init
+```
+
+## Basic Usage
+
+Interactive mode with test plan review:
+```bash
+expect-cli
+```
+
+Skip review and run immediately:
+```bash
+expect-cli -m "test the login flow" -y
+```
+
+Test specific targets:
+```bash
+# Test unstaged changes
+expect-cli --target unstaged
+
+# Test entire branch diff
+expect-cli --target branch
+```
+
+<Callout type="tip">
+Set `NO_TELEMETRY=1` to disable analytics collection.
+</Callout>
+
+<Callout type="info">
+Expect extracts cookies from your existing browser profiles, eliminating manual authentication setup for testing.
+</Callout>
+
+## Notable Details
+
+- **Language**: TypeScript
+- **License**: Not specified
+- **Community**: 2,957 GitHub stars
+- **Agent Support**: Works with Claude Code, GitHub Copilot, Gemini CLI, and others via Agent Client Protocol (ACP)
+- **Exit codes**: Returns `0` on success, `1` on failure for CI integration

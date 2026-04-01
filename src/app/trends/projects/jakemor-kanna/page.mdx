@@ -1,0 +1,64 @@
+<GuideHeader tool="kanna" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Kanna
+
+Kanna is a web-based UI that provides a beautiful interface for Claude Code and Codex CLIs. It replaces command-line interactions with an intuitive browser-based chat interface.
+
+## Key Features
+
+- **Multi-provider support** — Switch between Claude and Codex with per-provider model selection and reasoning controls
+- **Project-first sidebar** — Chats grouped under projects with live status indicators
+- **Drag-and-drop ordering** — Reorder project groups with persistent state
+- **Local project discovery** — Auto-discovers projects from Claude and Codex history
+- **Rich transcript rendering** — Hydrated tool calls, collapsible groups, and interactive prompts
+- **Plan mode** — Review and approve agent plans before execution
+- **Session resumption** — Resume agent sessions with full context preservation
+- **Real-time updates** — WebSocket-driven with reactive state broadcasting
+
+## Installation
+
+Install globally using Bun:
+
+```bash
+bun install -g kanna-code
+```
+
+If Bun isn't installed:
+
+```bash
+curl -fsSL https://bun.sh/install | bash
+```
+
+<Callout type="info">
+Requires Bun v1.3.5+ and a working Claude Code environment. Codex CLI is optional for Codex provider support.
+</Callout>
+
+## Basic Usage
+
+Start Kanna from any project directory:
+
+```bash
+kanna                  # Default: localhost:3210
+kanna --port 4000      # Custom port
+kanna --no-open        # Don't open browser
+kanna --share          # Create public share URL with QR code
+```
+
+For network access:
+
+```bash
+kanna --remote                     # Bind all interfaces
+kanna --host 192.168.1.x           # Bind specific IP
+kanna --host dev-box               # Bind hostname
+```
+
+The interface opens at `http://localhost:3210` by default. Chat with your agents through the web UI instead of the command line.
+
+## Notable Details
+
+**Language:** TypeScript  
+**License:** Not specified  
+**Community:** 447 GitHub stars  
+**Architecture:** Event sourcing with CQRS pattern, WebSocket-driven real-time updates
+
+Data is stored locally at `~/.kanna/data/` using JSONL event logs with snapshot compaction.

@@ -1496,7 +1496,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": "v0.4.0",
       "blurb": "mcp-brasil is a Model Context Protocol (MCP) server that provides access to 28 Brazilian public APIs covering government, economic, legislative, judicial, and transparency data. It enables AI agents like Claude and GPT to query Brazilian government data sources including IBGE statistics, congressional records, public spending, court decisions, and electoral information through 213 tools with natural language queries. The server includes smart discovery that filters relevant tools using BM25 search and supports cross-referencing multiple APIs in a single query plan."
@@ -1664,7 +1664,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a repository archiving leaked source code from Anthropic's \"Claude Code\" AI coding tool. Developers use it to study the architecture, memory systems, and implementation details of a commercial AI coding assistant. The repository includes both the original TypeScript source and analysis materials, with a notable clean-room Python reimplementation containing only ~1300 lines of code."
     },
     {
       "full_name": "twbs/bootstrap",

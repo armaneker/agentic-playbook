@@ -1,0 +1,69 @@
+<GuideHeader tool="mcp-brasil" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# MCP Brasil
+
+MCP Brasil is a Model Context Protocol server that provides access to 41 Brazilian public APIs. It connects AI agents like Claude to government data across economy, legislation, transparency, judiciary, elections, environment, health, and public security.
+
+## Key Features
+
+- **326 tools** across 41 features covering 11 thematic areas
+- **Cross-referencing** with `planejar_consulta` — creates execution plans combining multiple APIs
+- **Batch execution** with `executar_lote` — runs parallel queries in a single call
+- **Smart discovery** — BM25 search filters 326 tools to show only contextually relevant ones
+- **Auto-registry** — adding a feature requires only creating a folder
+- **Async architecture** with httpx async, Pydantic v2, and rate limiting
+
+<Callout type="info">
+38 APIs work without any keys. Only 3 APIs require free registration (takes 1 minute).
+</Callout>
+
+## Installation
+
+```bash
+pip install mcp-brasil
+```
+
+For Claude Desktop, add to `claude_desktop_config.json`:
+
+```json
+{
+  "mcpServers": {
+    "mcp-brasil": {
+      "command": "uvx",
+      "args": ["--from", "mcp-brasil", "python", "-m", "mcp_brasil.server"],
+      "env": {
+        "TRANSPARENCIA_API_KEY": "your-key-here",
+        "DATAJUD_API_KEY": "your-key-here",
+        "META_ACCESS_TOKEN": "your-token-here"
+      }
+    }
+  }
+}
+```
+
+## Basic Usage
+
+Once connected, query in natural language:
+
+```
+"What AI-related bills were introduced in Congress in 2024? Who authored them?"
+
+"What's the Selic rate trend over the last 12 months? Compare with IPCA inflation."
+
+"What are the 10 largest federal government contracts in 2024? Who are the suppliers?"
+```
+
+The server automatically selects relevant APIs from categories like:
+- **Economy**: Banco Central (Selic, IPCA, exchange rates), BNDES financing
+- **Legislative**: Chamber of Deputies, Senate (bills, voting, expenses)
+- **Transparency**: Portal da Transparência, Court of Accounts data
+- **Judiciary**: DataJud processes, Supreme Court decisions
+- **Health**: ANVISA drugs, vaccination data, hospital registry
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Python
+- **Community**: 1,111 GitHub stars
+- **Coverage**: 11 thematic areas with 326 tools, 80 resources, 62 prompts
+- **Repository**: [jxnxts/mcp-brasil](https://github.com/jxnxts/mcp-brasil)

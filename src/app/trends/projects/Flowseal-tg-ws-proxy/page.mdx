@@ -1,0 +1,76 @@
+<GuideHeader tool="tg-ws-proxy" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# TG WS Proxy
+
+TG WS Proxy is a local MTProto proxy server that accelerates Telegram Desktop by routing traffic through WebSocket connections. It intercepts Telegram connections and automatically switches between WebSocket and direct TCP based on availability.
+
+## Key Features
+
+- **Local MTProto proxy** - Runs on `127.0.0.1:1443` with no external servers required
+- **Automatic fallback** - Switches to direct TCP if WebSocket is unavailable (302 redirects)
+- **DC detection** - Extracts Data Center ID from MTProto obfuscation packets
+- **Cross-platform** - Windows, macOS, and Linux support with system tray integration
+- **Auto-configuration** - One-click Telegram Desktop setup via `tg://proxy` links
+
+<Callout type="warning">
+Windows Defender may flag the executable as Wacatac. Download the win7 version or temporarily disable antivirus during installation if blocked.
+</Callout>
+
+## Installation
+
+### From Releases
+Download prebuilt binaries from the [releases page](https://github.com/Flowseal/tg-ws-proxy/releases):
+- Windows: `TgWsProxy_windows.exe`
+- macOS: `TgWsProxy_macos_universal.dmg`
+- Linux: `TgWsProxy_linux_amd64.deb`
+
+### From Source
+```bash
+pip install -e .
+tg-ws-proxy
+```
+
+For GUI with system tray:
+```bash
+# Windows
+tg-ws-proxy-tray-win
+
+# macOS  
+tg-ws-proxy-tray-macos
+
+# Linux
+tg-ws-proxy-tray-linux
+```
+
+## Basic Usage
+
+### Console Mode
+```bash
+# Default: localhost:1443
+tg-ws-proxy
+
+# Custom port with additional DCs
+tg-ws-proxy --port 9050 --dc-ip 1:149.154.175.205 --dc-ip 2:149.154.167.220
+
+# Verbose logging
+tg-ws-proxy -v --log-file proxy.log
+```
+
+### Telegram Configuration
+Right-click system tray icon → **"Open in Telegram"** for automatic setup, or manually configure:
+- Type: MTProto
+- Server: `127.0.0.1`
+- Port: `1443`
+- Secret: From logs or settings
+
+<Callout type="tip">
+Configuration is stored in `%APPDATA%/TgWsProxy` (Windows), `~/Library/Application Support/TgWsProxy` (macOS), or `~/.config/TgWsProxy` (Linux).
+</Callout>
+
+## Notable Details
+
+- **Language**: Python
+- **License**: MIT
+- **Community**: 4,041 GitHub stars
+- **Minimum OS**: Windows 7+, macOS 10.15+, Linux x86_64
+- **Dependencies**: AppIndicator required for Linux system tray

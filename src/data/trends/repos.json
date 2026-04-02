@@ -4710,7 +4710,7 @@
     "tvytlx/ai-agent-deep-dive": {
       "full_name": "tvytlx/ai-agent-deep-dive",
       "description": "AI Agent 源码深度研究报告",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/tvytlx/ai-agent-deep-dive",
       "first_seen": "2026-04-01",
       "has_summary": false,
@@ -4722,7 +4722,7 @@
     "chatgptprojects/clear-code": {
       "full_name": "chatgptprojects/clear-code",
       "description": "See your claude code logs in clear details in your dashboard",
-      "language": "Unknown",
+      "language": "Shell",
       "url": "https://github.com/chatgptprojects/clear-code",
       "first_seen": "2026-04-01",
       "has_summary": false,
@@ -4951,13 +4951,18 @@
     },
     "emdash-cms/emdash": {
       "full_name": "emdash-cms/emdash",
-      "description": "",
+      "description": "EmDash is a full-stack TypeScript CMS based on Astro; the spiritual successor to WordPress",
       "language": "TypeScript",
       "url": "https://github.com/emdash-cms/emdash",
       "first_seen": "2026-04-02",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "astro",
+        "cms",
+        "emdash",
+        "typescript"
+      ],
+      "category": "Web Framework",
       "version": "@emdash-cms/auth@0.1.0",
       "blurb": "EmDash is a full-stack TypeScript CMS built on Astro and Cloudflare that reimagines WordPress with modern serverless architecture. It provides WordPress-like extensibility and admin UX while solving fundamental security issues by running plugins in sandboxed Worker isolates with declared capability manifests. Content is stored as structured JSON (Portable Text) rather than HTML, decoupling content from presentation for multi-platform rendering."
     },
@@ -5017,7 +5022,7 @@
     },
     "ultraworkers/claw-code": {
       "full_name": "ultraworkers/claw-code",
-      "description": "The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.",
+      "description": "[Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.",
       "language": "Rust",
       "url": "https://github.com/ultraworkers/claw-code",
       "first_seen": "2026-04-02",
@@ -5060,6 +5065,17 @@
       "category": "Other",
       "version": null,
       "blurb": "This is a collection of Python-based automation workflows designed to integrate with Claude Code for marketing and sales operations, covering everything from A/B testing and lead generation to content creation and pipeline management. Marketing teams use it to automate complex workflows like visitor-to-lead conversion, content quality scoring, and revenue attribution that would otherwise require manual work or expensive SaaS tools. The workflows implement production-grade algorithms like bootstrap confidence intervals and multi-layer scoring systems rather than simple prompt-based solutions."
+    },
+    "chauncygu/collection-claude-code-source-code": {
+      "full_name": "chauncygu/collection-claude-code-source-code",
+      "description": "🔥 A collection of the newest Claude Code open source",
+      "language": "TypeScript",
+      "url": "https://github.com/chauncygu/collection-claude-code-source-code",
+      "first_seen": "2026-04-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

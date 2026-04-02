@@ -1381,7 +1381,7 @@
     },
     "HKUDS/CLI-Anything": {
       "full_name": "HKUDS/CLI-Anything",
-      "description": "CLI-Anything: Making ALL Software Agent-Native",
+      "description": "CLI-Anything: Making ALL Software Agent-Native -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
       "url": "https://github.com/HKUDS/CLI-Anything",
       "first_seen": "2026-03-22",
@@ -4892,7 +4892,7 @@
     },
     "JackChen-me/open-multi-agent": {
       "full_name": "JackChen-me/open-multi-agent",
-      "description": "Production-grade multi-agent orchestration framework. Model-agnostic, supports team collaboration, task scheduling, and inter-agent communication.",
+      "description": "Lightweight multi-agent framework — describe a goal, the framework auto-decomposes it into tasks and runs them in parallel. Works with Claude, GPT, and local models.",
       "language": "TypeScript",
       "url": "https://github.com/JackChen-me/open-multi-agent",
       "first_seen": "2026-04-01",
@@ -5077,6 +5077,28 @@
       "category": "Other",
       "version": null,
       "blurb": "This is a repository archiving leaked source code from Anthropic's \"Claude Code\" AI coding tool. Developers use it to study the architecture, memory systems, and implementation details of a commercial AI coding assistant. The repository includes both the original TypeScript source and analysis materials, with a notable clean-room Python reimplementation containing only ~1300 lines of code."
+    },
+    "ultraworkers/claw-code-parity": {
+      "full_name": "ultraworkers/claw-code-parity",
+      "description": "claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration",
+      "language": "Rust",
+      "url": "https://github.com/ultraworkers/claw-code-parity",
+      "first_seen": "2026-04-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "HKUDS/OpenHarness": {
+      "full_name": "HKUDS/OpenHarness",
+      "description": "\"OpenHarness: Open Agent Harness\"",
+      "language": "Python",
+      "url": "https://github.com/HKUDS/OpenHarness",
+      "first_seen": "2026-04-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

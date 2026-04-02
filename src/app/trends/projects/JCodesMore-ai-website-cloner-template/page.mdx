@@ -1,0 +1,58 @@
+<GuideHeader tool="ai-website-cloner-template" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# AI Website Cloner Template
+
+A TypeScript template that reverse-engineers any website into a clean Next.js codebase using AI coding agents. Point it at a URL, run `/clone-website`, and watch AI agents inspect, extract design tokens, and reconstruct the entire site.
+
+## Key Features
+
+- **Single-command cloning** — `/clone-website &lt;url>` handles the entire pipeline
+- **Multi-phase extraction** — screenshots, design tokens, asset downloads, component specs
+- **Parallel building** — dispatches multiple AI agents using git worktrees for concurrent development
+- **Precise reconstruction** — extracts exact `getComputedStyle()` values, responsive breakpoints, and interaction states
+- **Modern stack** — Next.js 16, React 19, shadcn/ui, Tailwind CSS v4
+- **Cross-platform AI support** — works with Claude Code, Cursor, Windsurf, Aider, and 10+ other agents
+
+<Callout type="tip">
+Claude Code with Opus 4.6 delivers the best results, though other AI coding agents work fine.
+</Callout>
+
+## Installation
+
+```bash
+git clone https://github.com/JCodesMore/ai-website-cloner-template.git my-clone
+cd my-clone
+npm install
+```
+
+## Basic Usage
+
+Start your AI agent and run the clone command:
+
+```bash
+# With Claude Code
+claude --chrome
+# Then in the agent:
+/clone-website https://example.com
+
+# With other agents, open AGENTS.md for platform-specific instructions
+```
+
+The agent will:
+1. Screenshot and analyze the target site
+2. Extract fonts, colors, and assets 
+3. Write detailed component specifications
+4. Build sections in parallel using git worktrees
+5. Merge everything into a working Next.js app
+
+<Callout type="warning">
+Only clone sites you own or have permission to reproduce. Check terms of service and respect intellectual property.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript with strict mode
+- **Community**: 6.9k GitHub stars
+- **Requirements**: Node.js 24+, any supported AI coding agent
+- **Use cases**: Platform migrations, recovering lost source code, learning from production sites

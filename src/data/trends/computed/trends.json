@@ -1274,7 +1274,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "@emdash-cms/auth@0.1.0",
-      "blurb": null
+      "blurb": "EmDash is a full-stack TypeScript CMS built on Astro and Cloudflare that reimagines WordPress with modern serverless architecture. It provides WordPress-like extensibility and admin UX while solving fundamental security issues by running plugins in sandboxed Worker isolates with declared capability manifests. Content is stored as structured JSON (Portable Text) rather than HTML, decoupling content from presentation for multi-platform rendering."
     },
     {
       "full_name": "revfactory/harness",
@@ -1364,7 +1364,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "VoltAgent/awesome-design-md is a curated collection of DESIGN.md files that capture the design systems of popular websites in a standardized markdown format. Developers can drop these files into their projects and use them with AI coding agents to generate UI components that match the visual style of sites like Claude, Cohere, or ElevenLabs. The DESIGN.md format follows Google Stitch specifications and includes detailed sections covering color palettes, typography, components, and layout principles that LLMs can easily parse."
     },
     {
       "full_name": "oaker-io/wewrite",
@@ -1436,7 +1436,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": "v0.2.0",
       "blurb": "This is a TypeScript template that uses Claude Code to automatically reverse-engineer and rebuild websites as pixel-perfect clones. It analyzes a target URL through Chrome MCP to extract design tokens, assets, and component specifications, then dispatches parallel AI agents to reconstruct each section in isolated git worktrees. The system handles the complete pipeline from reconnaissance and asset extraction to component building and visual diff validation against the original site."
@@ -1619,7 +1619,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Repo Task Proof Loop is a Python workflow skill that implements a structured approach to coding tasks using AI subagents and a strict build-verify loop within a repository. It creates persistent task folders with evidence collection, spawns project-scoped Codex and Claude subagents for different phases (spec freezing, building, verification, fixing), and maintains all proof artifacts locally for resumability and auditing. The system supports adaptive fan-out for parallel work when tasks can be cleanly decomposed."
     },
     {
       "full_name": "openyak/openyak",
@@ -1634,7 +1634,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": "v1.0.3",
-      "blurb": null
+      "blurb": "OpenYak is an open-source desktop AI agent that processes documents and files entirely on your local machine without uploading data to external services. It provides access to 100+ AI models from 20+ providers (cloud or local via Ollama) and includes 20+ built-in tools for file management, document creation, data analysis, and workflow automation. The platform offers free usage with 1M tokens per week on free models and connects to 46+ services through built-in connectors or MCP integration."
     },
     {
       "full_name": "walter-grace/mac-code",

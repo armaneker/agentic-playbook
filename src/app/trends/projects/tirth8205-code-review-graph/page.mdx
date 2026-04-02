@@ -1,0 +1,60 @@
+<GuideHeader tool="code-review-graph" difficulty="Beginner" lastTested="2026-01" readTime="5 min" />
+
+# code-review-graph
+
+`code-review-graph` builds a persistent knowledge graph of your codebase that reduces Claude's token usage by 6.8× on reviews and up to 49× on daily coding tasks. It uses Tree-sitter to parse code structure and tracks changes incrementally, giving Claude precise context instead of re-reading entire codebases.
+
+## Key Features
+
+- **Token reduction**: 8.2× average reduction by sending only relevant code context
+- **Incremental updates**: Re-indexes changed files in under 2 seconds via git hooks
+- **Multi-language support**: 19 languages including Python, TypeScript, Go, Rust, Java
+- **Blast radius analysis**: Traces callers, dependents, and affected tests automatically
+- **MCP integration**: Works with Claude Code, Cursor, Windsurf, Zed, Continue, and more
+- **Jupyter notebook support**: Parses `.ipynb` files with multi-language cell detection
+
+## Installation
+
+```bash
+pip install code-review-graph
+# or
+pipx install code-review-graph
+```
+
+<Callout type="info">
+Requires Python 3.10+. Install [uv](https://docs.astral.sh/uv/) for optimal MCP configuration.
+</Callout>
+
+## Basic Usage
+
+```bash
+# Auto-detect and configure all supported AI tools
+code-review-graph install
+
+# Build the initial code graph
+code-review-graph build
+
+# Configure specific platforms only
+code-review-graph install --platform cursor
+code-review-graph install --platform claude-code
+```
+
+After installation, restart your AI coding tool and ask:
+
+```
+Build the code review graph for this project
+```
+
+The initial build takes ~10 seconds for 500 files. The graph updates automatically on file edits and git commits.
+
+<Callout type="tip">
+The graph approach works best on multi-file changes. Single-file edits may show higher token usage due to structural metadata overhead.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Python
+- **Community**: 3.9K GitHub stars
+- **Accuracy**: 100% recall (never misses impacted files), 0.54 average F1 score
+- **Performance**: Sub-millisecond search latency, supports projects with 1000+ files

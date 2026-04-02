@@ -1,0 +1,61 @@
+<GuideHeader tool="agent-flow" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Agent Flow
+
+Agent Flow provides real-time visualization of Claude Code agent orchestration, revealing how agents think, branch, and coordinate as they work. It transforms Claude's black-box execution into an interactive visual graph.
+
+## Key Features
+
+- **Live agent visualization** — Interactive node graph showing real-time tool calls, branching, and return flows
+- **Auto-detection** — Automatically discovers active Claude Code sessions in your workspace
+- **Multi-session support** — Track multiple concurrent agent sessions with tabs
+- **Timeline & transcript panels** — Review execution history, file attention heatmap, and message logs
+- **JSONL replay** — Point at any JSONL event log to replay or watch agent activity
+- **Zero-latency streaming** — Lightweight HTTP hook server for real-time event capture
+
+## Installation
+
+<Callout type="info">
+Node.js 20+ and Claude Code CLI are required.
+</Callout>
+
+### Quick Start (Browser)
+
+```bash
+npx agent-flow-app
+```
+
+### VS Code Extension
+
+Install from the VS Code marketplace, then run:
+- Command Palette → **Agent Flow: Open Agent Flow**
+- Keyboard shortcut: `Cmd+Alt+A` (Mac) / `Ctrl+Alt+A` (Win/Linux)
+
+### From Source
+
+```bash
+git clone https://github.com/patoles/agent-flow.git
+cd agent-flow
+pnpm i
+pnpm run setup      # configure Claude Code hooks
+pnpm run dev        # start web app + event relay
+```
+
+## Basic Usage
+
+Start Agent Flow, then launch a Claude Code session in another terminal. Events stream automatically to the visualization. Pan and zoom the canvas, click nodes to inspect details, and use the timeline panel to review execution history.
+
+```bash
+# Terminal 1
+npx agent-flow-app
+
+# Terminal 2  
+claude-code "Build a simple calculator app"
+```
+
+## Notable Details
+
+**License:** Apache-2.0  
+**Language:** TypeScript  
+**Community:** 576 GitHub stars  
+**Creator:** Simon Patole ([CraftMyGame](https://craftmygame.com))

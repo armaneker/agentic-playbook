@@ -3492,7 +3492,7 @@
       "language": "TypeScript",
       "url": "https://github.com/patoles/agent-flow",
       "first_seen": "2026-03-27",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "agent-visualization",
         "ai-agents",
@@ -3511,7 +3511,7 @@
       "language": "Python",
       "url": "https://github.com/tirth8205/code-review-graph",
       "first_seen": "2026-03-27",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-coding",
         "claude",
@@ -3536,7 +3536,7 @@
       "language": "TypeScript",
       "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "first_seen": "2026-03-27",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai",
         "ai-agents",
@@ -4957,7 +4957,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "@emdash-cms/auth@0.1.0"
+      "version": "@emdash-cms/auth@0.1.0",
+      "blurb": "EmDash is a full-stack TypeScript CMS built on Astro and Cloudflare that reimagines WordPress with modern serverless architecture. It provides WordPress-like extensibility and admin UX while solving fundamental security issues by running plugins in sandboxed Worker isolates with declared capability manifests. Content is stored as structured JSON (Portable Text) rather than HTML, decoupling content from presentation for multi-platform rendering."
     },
     "VoltAgent/awesome-design-md": {
       "full_name": "VoltAgent/awesome-design-md",
@@ -4976,7 +4977,8 @@
         "landing-page"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "VoltAgent/awesome-design-md is a curated collection of DESIGN.md files that capture the design systems of popular websites in a standardized markdown format. Developers can drop these files into their projects and use them with AI coding agents to generate UI components that match the visual style of sites like Claude, Cohere, or ElevenLabs. The DESIGN.md format follows Google Stitch specifications and includes detailed sections covering color palettes, typography, components, and layout principles that LLMs can easily parse."
     },
     "DenisSergeevitch/repo-task-proof-loop": {
       "full_name": "DenisSergeevitch/repo-task-proof-loop",
@@ -4987,7 +4989,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Repo Task Proof Loop is a Python workflow skill that implements a structured approach to coding tasks using AI subagents and a strict build-verify loop within a repository. It creates persistent task folders with evidence collection, spawns project-scoped Codex and Claude subagents for different phases (spec freezing, building, verification, fixing), and maintains all proof artifacts locally for resumability and auditing. The system supports adaptive fan-out for parallel work when tasks can be cleanly decomposed."
     },
     "openyak/openyak": {
       "full_name": "openyak/openyak",
@@ -5008,7 +5011,8 @@
         "tools"
       ],
       "category": "Agentic",
-      "version": "v1.0.3"
+      "version": "v1.0.3",
+      "blurb": "OpenYak is an open-source desktop AI agent that processes documents and files entirely on your local machine without uploading data to external services. It provides access to 100+ AI models from 20+ providers (cloud or local via Ollama) and includes 20+ built-in tools for file management, document creation, data analysis, and workflow automation. The platform offers free usage with 1M tokens per week on free models and connects to 46+ services through built-in connectors or MCP integration."
     }
   }
 }

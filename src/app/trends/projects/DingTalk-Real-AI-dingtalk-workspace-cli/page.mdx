@@ -1,0 +1,66 @@
+<GuideHeader tool="dingtalk-workspace-cli" difficulty="Beginner" lastTested="2026-01" readTime="5 min" />
+
+# DingTalk Workspace CLI
+
+DingTalk Workspace CLI (`dws`) is an officially open-sourced cross-platform CLI tool that unifies DingTalk's full suite of product capabilities into a single package. It's designed for both human users and AI agent scenarios with structured JSON responses and built-in agent skills.
+
+## Key Features
+
+- **Human-friendly interface** — `--help` for usage, `--dry-run` to preview requests, `-f table/json/raw` for output formats
+- **AI agent ready** — structured JSON responses with built-in Agent Skills out of the box
+- **Enterprise security** — zero-trust architecture with OAuth device-flow auth, domain allowlisting, and least-privilege scoping
+- **Self-upgrading** — built-in upgrade capability with SHA256 integrity verification and automatic backup
+- **Cross-platform** — supports macOS, Linux, and Windows (amd64/arm64)
+
+## Installation
+
+**macOS / Linux:**
+```bash
+curl -fsSL https://raw.githubusercontent.com/DingTalk-Real-AI/dingtalk-workspace-cli/main/scripts/install.sh | sh
+```
+
+**Windows (PowerShell):**
+```powershell
+irm https://raw.githubusercontent.com/DingTalk-Real-AI/dingtalk-workspace-cli/main/scripts/install.ps1 | iex
+```
+
+<Callout type="info">
+Pre-built binaries are available from [GitHub Releases](https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli/releases). Build from source requires Go 1.25+.
+</Callout>
+
+## Basic Usage
+
+First, authenticate with your DingTalk organization:
+
+```bash
+dws auth login            # browser opens automatically
+dws auth login --device   # for headless environments
+```
+
+Then use the various DingTalk services:
+
+```bash
+# Search contacts
+dws contact user search --keyword "engineering"
+
+# List calendar events
+dws calendar event list
+
+# Create a todo task
+dws todo task create --title "Quarterly report" --executors "&lt;your-userId>"
+
+# Preview commands without executing
+dws todo task list --dry-run
+```
+
+<Callout type="warning">
+This project is in co-creation phase and requires enterprise admin authorization to access DingTalk enterprise data. Join the DingTalk DWS co-creation group for support.
+</Callout>
+
+## Notable Details
+
+- **License:** Apache 2.0
+- **Language:** Go
+- **GitHub Stars:** 1,562
+- **AI Integration:** Built-in skills for agents with structured JSON responses
+- **Security:** Enterprise-grade with OAuth device flow and audit capabilities

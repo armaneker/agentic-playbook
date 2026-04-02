@@ -1,0 +1,73 @@
+<GuideHeader tool="markit" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# markit
+
+Markit converts files and URLs to markdown with support for PDFs, Word docs, images, audio, and more. It includes pluggable converters and built-in LLM providers for AI-powered image descriptions and audio transcription.
+
+## Key Features
+
+- **Universal conversion**: PDF, DOCX, PPTX, XLSX, HTML, EPUB, Jupyter notebooks, images, audio files
+- **AI-powered processing**: Image descriptions and audio transcription via OpenAI/Anthropic
+- **Web content extraction**: Direct URL conversion with Wikipedia support
+- **Plugin system**: Extensible architecture for custom formats and LLM providers
+- **Dual interface**: Works as CLI tool and TypeScript library
+- **Multiple output modes**: Standard, JSON, and raw markdown formats
+
+## Installation
+
+```bash
+npm install -g markit-ai
+```
+
+<Callout type="info">
+For AI features (image descriptions, audio transcription), set `OPENAI_API_KEY` or `ANTHROPIC_API_KEY`
+</Callout>
+
+## Basic Usage
+
+```bash
+# Convert documents
+markit report.pdf
+markit document.docx -o output.md
+
+# Web content
+markit https://example.com/article
+
+# AI-powered media conversion
+markit photo.jpg -p "Extract all text from this image"
+markit recording.mp3  # Transcription + metadata
+
+# Library usage
+import { Markit } from "markit-ai";
+
+const markit = new Markit();
+const { markdown } = await markit.convertFile("report.pdf");
+const { markdown } = await markit.convertUrl("https://example.com");
+```
+
+## Plugin Development
+
+```typescript
+import type { MarkitPluginAPI } from "markit-ai";
+
+export default function(api: MarkitPluginAPI) {
+  api.registerConverter({
+    name: "custom-format",
+    accepts: (info) => info.extension === ".xyz",
+    convert: async (input, info) => {
+      return { markdown: "converted content" };
+    }
+  });
+}
+```
+
+<Callout type="tip">
+Plugin converters run before built-ins, allowing you to override any default format handler
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript
+- **Community**: 1,009 GitHub stars
+- **Repository**: [Michaelliv/markit](https://github.com/Michaelliv/markit)

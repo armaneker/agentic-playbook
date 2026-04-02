@@ -3673,7 +3673,7 @@
       "language": "JavaScript",
       "url": "https://github.com/NomaDamas/k-skill",
       "first_seen": "2026-03-27",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -3685,7 +3685,7 @@
       "language": "TypeScript",
       "url": "https://github.com/Michaelliv/markit",
       "first_seen": "2026-03-27",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": "v0.2.0",
@@ -3697,7 +3697,7 @@
       "language": "Go",
       "url": "https://github.com/DingTalk-Real-AI/dingtalk-workspace-cli",
       "first_seen": "2026-03-28",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "DevTools",
       "version": "v1.0.0",
@@ -5087,7 +5087,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a temporary Rust port of the claw-code project while the original repository undergoes migration. It serves as a drop-in replacement during the transition period, providing continuity for users who depend on the claw-code functionality. The repository appears to be part of a broader effort to rewrite agent harness tools, with the Rust implementation targeting improved performance and memory safety."
     },
     "HKUDS/OpenHarness": {
       "full_name": "HKUDS/OpenHarness",
@@ -5098,7 +5099,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "OpenHarness is an open-source Python implementation of an agent harness that provides the complete infrastructure (tools, memory, safety boundaries) to wrap around LLMs and make them functional agents. It offers 43+ tools and is designed for researchers to understand, experiment with, and extend production AI agent architectures. The project is 44x lighter than Claude Code while maintaining 98% tool compatibility and includes comprehensive testing with 114 unit tests."
     }
   }
 }

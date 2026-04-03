@@ -736,6 +736,7 @@
       "has_summary": true,
       "topics": [
         "antigravity-skills",
+        "business-knowledge",
         "claude-code",
         "claude-skills",
         "codex",
@@ -4892,7 +4893,7 @@
     },
     "JackChen-me/open-multi-agent": {
       "full_name": "JackChen-me/open-multi-agent",
-      "description": "Lightweight multi-agent framework — describe a goal, the framework auto-decomposes it into tasks and runs them in parallel. Works with Claude, GPT, and local models.",
+      "description": "TypeScript multi-agent framework — one runTeam() call from goal to result. Auto task decomposition, parallel execution. 3 dependencies, deploys anywhere Node.js runs.",
       "language": "TypeScript",
       "url": "https://github.com/JackChen-me/open-multi-agent",
       "first_seen": "2026-04-01",
@@ -4900,13 +4901,18 @@
       "topics": [
         "agent-framework",
         "ai-agents",
+        "anthropic",
         "claude",
         "llm",
         "model-agnostic",
         "multi-agent",
+        "nodejs",
+        "ollama",
         "openai",
         "orchestration",
+        "structured-output",
         "task-scheduling",
+        "tool-use",
         "typescript"
       ],
       "category": "Agentic",
@@ -5034,7 +5040,7 @@
     },
     "lintsinghua/claude-code-book": {
       "full_name": "lintsinghua/claude-code-book",
-      "description": "42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站：",
+      "description": "《御舆：解码 Agent Harness》42万字拆解 AI Agent 的Harness骨架与神经 —— Claude Code 架构深度剖析，15 章从对话循环到构建你自己的 Agent Harness。在线阅读网站：",
       "language": "Unknown",
       "url": "https://github.com/lintsinghua/claude-code-book",
       "first_seen": "2026-04-02",
@@ -5196,6 +5202,22 @@
       "category": "Other",
       "version": null,
       "blurb": "OmniVoice is a zero-shot multilingual text-to-speech model that supports voice synthesis in over 600 languages. It enables voice cloning from short reference audio samples and voice design through controllable attributes like gender, age, and accent, with fast inference speeds up to 40x real-time. The model is built on a novel diffusion language model architecture that aims to balance both quality and speed."
+    },
+    "yasasbanukaofficial/claude-code": {
+      "full_name": "yasasbanukaofficial/claude-code",
+      "description": "🚀 Open source Claude Code CLI source code. Advanced AI Agent for developers. Includes TypeScript codebase for LLM tool-calling, agentic workflows, and terminal UI. Remember this is just the skeleton not the brain itself. Found by Chaofan Shou. ",
+      "language": "TypeScript",
+      "url": "https://github.com/yasasbanukaofficial/claude-code",
+      "first_seen": "2026-04-03",
+      "has_summary": false,
+      "topics": [
+        "claude-ai",
+        "claude-code",
+        "leaked-claude-code",
+        "leaked-code"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

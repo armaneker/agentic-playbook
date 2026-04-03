@@ -1,0 +1,82 @@
+<GuideHeader tool="everything-claude-code" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Everything Claude Code
+
+Everything Claude Code is an agent harness performance optimization system built for Claude Code, Codex, Cursor, and other AI development tools. This system provides skills, memory persistence, security scanning, and continuous learning capabilities evolved from 10+ months of production use.
+
+## Key Features
+
+- **Agent performance optimization** — Token optimization, memory persistence, and continuous learning loops
+- **Security scanning** — AgentShield component with vulnerability detection and sanitization
+- **Cross-platform support** — Works with Claude Code, Cursor, Codex CLI/app, and OpenCode
+- **Skills library** — 50+ specialized skills for TypeScript, Python, Go, Java, Kotlin, and 7 other languages
+- **Memory system** — Hooks that automatically save/load context across sessions
+- **Verification loops** — Checkpoint and continuous evaluation with grader metrics
+- **Subagent orchestration** — Git worktree parallelization and cascade methods
+
+## Installation
+
+Install the universal package:
+
+```bash
+npm install -g ecc-universal
+```
+
+For security features:
+
+```bash
+npm install -g ecc-agentshield
+```
+
+Clone and run selective install:
+
+```bash
+git clone https://github.com/affaan-m/everything-claude-code
+cd everything-claude-code
+node install-plan.js
+node install-apply.js
+```
+
+<Callout type="info">
+Use `ECC_HOOK_PROFILE=minimal|standard|strict` and `ECC_DISABLED_HOOKS=...` to control runtime behavior without editing hook files.
+</Callout>
+
+## Basic Usage
+
+Initialize in your Claude Code workspace:
+
+```bash
+# Setup for Claude Code
+ecc init --harness claude-code
+
+# For Codex CLI
+ecc codex-setup
+
+# Enable specific skills
+ecc skill enable typescript-reviewer
+ecc skill enable memory-persistence
+```
+
+Basic harness commands:
+
+```javascript
+// In your AI chat
+/harness-audit    // Performance scoring
+/loop-start       // Begin continuous eval
+/quality-gate     // Checkpoint validation
+/model-route      // Switch model strategies
+```
+
+<Callout type="tip">
+Start with the Shorthand Guide on the project's social media for setup fundamentals, then reference the Longform Guide for advanced token optimization.
+</Callout>
+
+## Notable Details
+
+**License:** MIT  
+**Language:** JavaScript with TypeScript, Python, Go, Java support  
+**Community:** 135K+ stars, 6K+ forks, 30+ contributors  
+**Languages supported:** 7 (English, Portuguese, Chinese, Japanese, Korean, Turkish)  
+**Origin:** Anthropic Hackathon Winner
+
+The project includes 997 internal tests and maintains compatibility across major AI development harnesses through a manifest-driven install system.

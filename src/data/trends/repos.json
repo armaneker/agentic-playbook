@@ -3859,7 +3859,7 @@
       "language": "JavaScript",
       "url": "https://github.com/affaan-m/everything-claude-code",
       "first_seen": "2026-03-29",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-agents",
         "anthropic",
@@ -3880,7 +3880,7 @@
       "language": "Unknown",
       "url": "https://github.com/WecoAI/awesome-autoresearch",
       "first_seen": "2026-03-29",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-agents",
         "ai-research",
@@ -3905,7 +3905,7 @@
       "language": "Unknown",
       "url": "https://github.com/happyboy4ty25/pump-analyzer",
       "first_seen": "2026-03-29",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "analytics",
         "crypto",
@@ -5229,7 +5229,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "AutoAgent is a Python framework for autonomous agent harness engineering that uses a meta-agent to iteratively improve AI agent configurations. It automatically modifies system prompts, tools, agent configuration, and orchestration based on benchmark performance, allowing developers to define agent requirements in a Markdown file rather than manually tuning Python code. The system hill-climbs on benchmark scores by testing changes overnight and keeping improvements while discarding degradations."
     }
   }
 }

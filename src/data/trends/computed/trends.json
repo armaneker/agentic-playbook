@@ -866,7 +866,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": "v1.9.0",
       "blurb": "Everything Claude Code is a performance optimization system for AI agent harnesses, providing skills, instincts, memory, and security capabilities for Claude Code, Codex, and similar tools. It offers production-ready configurations, hooks, and MCP setups developed through 10+ months of intensive daily use building real products, focusing on token optimization, memory persistence, and security scanning. The project won an Anthropic hackathon and has accumulated over 100k GitHub stars."
@@ -1529,7 +1529,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "AutoAgent is a Python framework for autonomous agent harness engineering that uses a meta-agent to iteratively improve AI agent configurations. It automatically modifies system prompts, tools, agent configuration, and orchestration based on benchmark performance, allowing developers to define agent requirements in a Markdown file rather than manually tuning Python code. The system hill-climbs on benchmark scores by testing changes overnight and keeping improvements while discarding degradations."
     },
     {
       "full_name": "0xSero/turboquant",

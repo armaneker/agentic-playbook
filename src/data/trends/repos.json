@@ -5028,7 +5028,7 @@
     },
     "ultraworkers/claw-code": {
       "full_name": "ultraworkers/claw-code",
-      "description": "[Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Better Harness Tools that make real things done. Built in Rust using oh-my-codex.",
+      "description": "[Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
       "language": "Rust",
       "url": "https://github.com/ultraworkers/claw-code",
       "first_seen": "2026-04-02",
@@ -5086,7 +5086,7 @@
     },
     "ultraworkers/claw-code-parity": {
       "full_name": "ultraworkers/claw-code-parity",
-      "description": "claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration",
+      "description": "Join Discord: https://discord.gg/5TUQKqFWd /  claw-code Rust port parity work - it is temporary work while claw-code repo is doing migration",
       "language": "Rust",
       "url": "https://github.com/ultraworkers/claw-code-parity",
       "first_seen": "2026-04-02",
@@ -5219,6 +5219,17 @@
       "category": "Other",
       "version": null,
       "blurb": "Claude Code is a leaked TypeScript CLI tool from Anthropic that provides an AI coding assistant with terminal UI, featuring 40+ development tools and agentic workflows. Developers would use it for AI-powered code assistance, debugging, and automated development tasks through a React-based terminal interface. The source was accidentally exposed via npm sourcemaps and includes internal features like \"Undercover Mode\" to prevent Anthropic employees from revealing internal information when contributing to public repositories."
+    },
+    "kevinrgu/autoagent": {
+      "full_name": "kevinrgu/autoagent",
+      "description": "autonomous harness engineering",
+      "language": "Python",
+      "url": "https://github.com/kevinrgu/autoagent",
+      "first_seen": "2026-04-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

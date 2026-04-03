@@ -4626,7 +4626,7 @@
     },
     "claude-code-best/claude-code": {
       "full_name": "claude-code-best/claude-code",
-      "description": "原汁原昧 Claude Code 可运行,可构建版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动",
+      "description": "原汁原昧 Claude Code 可运行,可构建, 可调试版; Typescript 类型全修复; 企业级可靠性; 安全无毒, lock 文件保真, 可直接 bun i; bun run dev 启动",
       "language": "TypeScript",
       "url": "https://github.com/claude-code-best/claude-code",
       "first_seen": "2026-03-31",
@@ -4915,7 +4915,7 @@
     },
     "Gitlawb/openclaude": {
       "full_name": "Gitlawb/openclaude",
-      "description": "Claude Code opened to any LLM — OpenAI, Gemini, DeepSeek, Ollama, and 200+ models via OpenAI-compatible API shim",
+      "description": "Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.",
       "language": "TypeScript",
       "url": "https://github.com/Gitlawb/openclaude",
       "first_seen": "2026-04-01",
@@ -5172,6 +5172,28 @@
       "category": "Other",
       "version": null,
       "blurb": "Claude Code is a terminal-based AI coding assistant that integrates with codebases to perform software engineering tasks through natural language commands. It handles routine development work like file editing, git workflows, code search, and command execution while understanding project context. This repository contains leaked Anthropic source code from 2026, revealing a ~500k line TypeScript codebase built on React/Ink with extensive tooling for agent-based development workflows."
+    },
+    "NanmiCoder/cc-haha": {
+      "full_name": "NanmiCoder/cc-haha",
+      "description": "Claude Code 泄露源码 - 本地可运行版本",
+      "language": "TypeScript",
+      "url": "https://github.com/NanmiCoder/cc-haha",
+      "first_seen": "2026-04-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "k2-fsa/OmniVoice": {
+      "full_name": "k2-fsa/OmniVoice",
+      "description": "High-Quality Voice Cloning TTS for 600+ Languages",
+      "language": "Python",
+      "url": "https://github.com/k2-fsa/OmniVoice",
+      "first_seen": "2026-04-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

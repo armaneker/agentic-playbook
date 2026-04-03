@@ -1,0 +1,449 @@
+{
+  "date": "2026-04-03",
+  "data": {
+    "sindresorhus/awesome": {
+      "stars": 451257,
+      "forks": 33907
+    },
+    "freeCodeCamp/freeCodeCamp": {
+      "stars": 440586,
+      "forks": 43972
+    },
+    "openclaw/openclaw": {
+      "stars": 346024,
+      "forks": 68848
+    },
+    "vinta/awesome-python": {
+      "stars": 290342,
+      "forks": 27562
+    },
+    "awesome-selfhosted/awesome-selfhosted": {
+      "stars": 283595,
+      "forks": 13059
+    },
+    "facebook/react": {
+      "stars": 244346,
+      "forks": 50879
+    },
+    "torvalds/linux": {
+      "stars": 226629,
+      "forks": 61340
+    },
+    "TheAlgorithms/Python": {
+      "stars": 219232,
+      "forks": 50296
+    },
+    "tensorflow/tensorflow": {
+      "stars": 194440,
+      "forks": 75257
+    },
+    "microsoft/vscode": {
+      "stars": 183338,
+      "forks": 38909
+    },
+    "Significant-Gravitas/AutoGPT": {
+      "stars": 183068,
+      "forks": 46219
+    },
+    "n8n-io/n8n": {
+      "stars": 182218,
+      "forks": 56418
+    },
+    "flutter/flutter": {
+      "stars": 175807,
+      "forks": 30212
+    },
+    "twbs/bootstrap": {
+      "stars": 174117,
+      "forks": 79013
+    },
+    "avelino/awesome-go": {
+      "stars": 168916,
+      "forks": 13101
+    },
+    "ollama/ollama": {
+      "stars": 166846,
+      "forks": 15277
+    },
+    "huggingface/transformers": {
+      "stars": 158708,
+      "forks": 32713
+    },
+    "f/prompts.chat": {
+      "stars": 156733,
+      "forks": 20566
+    },
+    "Snailclimb/JavaGuide": {
+      "stars": 154617,
+      "forks": 46141
+    },
+    "langflow-ai/langflow": {
+      "stars": 146512,
+      "forks": 8685
+    },
+    "vercel/next.js": {
+      "stars": 138587,
+      "forks": 30750
+    },
+    "anomalyco/opencode": {
+      "stars": 135823,
+      "forks": 14773
+    },
+    "langgenius/dify": {
+      "stars": 135526,
+      "forks": 21116
+    },
+    "affaan-m/everything-claude-code": {
+      "stars": 133577,
+      "forks": 19398
+    },
+    "golang/go": {
+      "stars": 133245,
+      "forks": 18888
+    },
+    "obra/superpowers": {
+      "stars": 132163,
+      "forks": 10966
+    },
+    "langchain-ai/langchain": {
+      "stars": 132134,
+      "forks": 21790
+    },
+    "microsoft/PowerToys": {
+      "stars": 131257,
+      "forks": 7850
+    },
+    "open-webui/open-webui": {
+      "stars": 129715,
+      "forks": 18369
+    },
+    "facebook/react-native": {
+      "stars": 125679,
+      "forks": 25135
+    },
+    "ultraworkers/claw-code": {
+      "stars": 150009,
+      "forks": 101354
+    },
+    "sanbuphy/learn-coding-agent": {
+      "stars": 11000,
+      "forks": 19522
+    },
+    "openai/codex-plugin-cc": {
+      "stars": 10613,
+      "forks": 538
+    },
+    "claude-code-best/claude-code": {
+      "stars": 10502,
+      "forks": 11925
+    },
+    "ChinaSiro/claude-code-sourcemap": {
+      "stars": 7993,
+      "forks": 13552
+    },
+    "Gitlawb/openclaude": {
+      "stars": 7472,
+      "forks": 2849
+    },
+    "Kuberwastaken/claurst": {
+      "stars": 7363,
+      "forks": 7194
+    },
+    "titanwings/colleague-skill": {
+      "stars": 5399,
+      "forks": 308
+    },
+    "tvytlx/ai-agent-deep-dive": {
+      "stars": 4426,
+      "forks": 1390
+    },
+    "emdash-cms/emdash": {
+      "stars": 4270,
+      "forks": 266
+    },
+    "NanmiCoder/claude-code-haha": {
+      "stars": 4020,
+      "forks": 4644
+    },
+    "VoltAgent/awesome-design-md": {
+      "stars": 3473,
+      "forks": 470
+    },
+    "JackChen-me/open-multi-agent": {
+      "stars": 2737,
+      "forks": 1461
+    },
+    "drona23/claude-token-efficient": {
+      "stars": 2626,
+      "forks": 165
+    },
+    "ultraworkers/claw-code-parity": {
+      "stars": 2520,
+      "forks": 2369
+    },
+    "oboard/claude-code-rev": {
+      "stars": 2490,
+      "forks": 3280
+    },
+    "codeany-ai/open-agent-sdk-typescript": {
+      "stars": 2113,
+      "forks": 845
+    },
+    "motiful/cc-gateway": {
+      "stars": 2091,
+      "forks": 395
+    },
+    "chatgptprojects/clear-code": {
+      "stars": 1903,
+      "forks": 2125
+    },
+    "Leonxlnx/agentic-ai-prompt-research": {
+      "stars": 1900,
+      "forks": 918
+    },
+    "garinasset/leak-check": {
+      "stars": 1838,
+      "forks": 231
+    },
+    "qiuzhi2046/Qclaw": {
+      "stars": 1776,
+      "forks": 225
+    },
+    "ponponon/claude_code_src": {
+      "stars": 1708,
+      "forks": 2980
+    },
+    "jarmuine/claude-code": {
+      "stars": 1645,
+      "forks": 5045
+    },
+    "yetone/voice-input-src": {
+      "stars": 1527,
+      "forks": 159
+    },
+    "WecomTeam/wecom-cli": {
+      "stars": 1446,
+      "forks": 84
+    },
+    "lintsinghua/claude-code-book": {
+      "stars": 1378,
+      "forks": 390
+    },
+    "therealXiaomanChu/ex-skill": {
+      "stars": 1373,
+      "forks": 144
+    },
+    "Windy3f3f3f3f/how-claude-code-works": {
+      "stars": 1226,
+      "forks": 390
+    },
+    "walkinglabs/awesome-harness-engineering": {
+      "stars": 1140,
+      "forks": 72
+    },
+    "EbookFoundation/free-programming-books": {
+      "stars": 384920,
+      "forks": 66084
+    },
+    "kamranahmedse/developer-roadmap": {
+      "stars": 352100,
+      "forks": 43864
+    },
+    "ossu/computer-science": {
+      "stars": 202883,
+      "forks": 25223
+    },
+    "ohmyzsh/ohmyzsh": {
+      "stars": 185860,
+      "forks": 26314
+    },
+    "yt-dlp/yt-dlp": {
+      "stars": 154492,
+      "forks": 12608
+    },
+    "521xueweihan/HelloGitHub": {
+      "stars": 148544,
+      "forks": 11291
+    },
+    "Genymobile/scrcpy": {
+      "stars": 137930,
+      "forks": 12852
+    },
+    "karpathy/autoresearch": {
+      "stars": 64314,
+      "forks": 9096
+    },
+    "garrytan/gstack": {
+      "stars": 62124,
+      "forks": 8253
+    },
+    "chenglou/pretext": {
+      "stars": 33938,
+      "forks": 1761
+    },
+    "HKUDS/CLI-Anything": {
+      "stars": 27102,
+      "forks": 2509
+    },
+    "NVIDIA/NemoClaw": {
+      "stars": 18229,
+      "forks": 2145
+    },
+    "tanweai/pua": {
+      "stars": 14703,
+      "forks": 805
+    },
+    "THU-MAIC/OpenMAIC": {
+      "stars": 13597,
+      "forks": 2261
+    },
+    "microsoft/RustTraining": {
+      "stars": 12276,
+      "forks": 871
+    },
+    "jackwener/opencli": {
+      "stars": 11482,
+      "forks": 987
+    },
+    "aiming-lab/AutoResearchClaw": {
+      "stars": 10058,
+      "forks": 1109
+    },
+    "MiniMax-AI/skills": {
+      "stars": 8820,
+      "forks": 699
+    },
+    "calesthio/Crucix": {
+      "stars": 8314,
+      "forks": 1312
+    },
+    "Lum1104/Understand-Anything": {
+      "stars": 7630,
+      "forks": 605
+    },
+    "JCodesMore/ai-website-cloner-template": {
+      "stars": 7118,
+      "forks": 932
+    },
+    "larksuite/cli": {
+      "stars": 6261,
+      "forks": 338
+    },
+    "slavingia/skills": {
+      "stars": 6115,
+      "forks": 469
+    },
+    "wanshuiyin/Auto-claude-code-research-in-sleep": {
+      "stars": 5301,
+      "forks": 440
+    },
+    "TheTom/turboquant_plus": {
+      "stars": 5230,
+      "forks": 709
+    },
+    "tiajinsha/JKVideo": {
+      "stars": 4901,
+      "forks": 2945
+    },
+    "webadderall/Recordly": {
+      "stars": 4900,
+      "forks": 334
+    },
+    "nidhinjs/prompt-master": {
+      "stars": 4414,
+      "forks": 422
+    },
+    "HKUDS/OpenSpace": {
+      "stars": 3566,
+      "forks": 404
+    },
+    "zc-zhangchen/any-auto-register": {
+      "stars": 2013,
+      "forks": 780
+    },
+    "dou-jiang/codex-console": {
+      "stars": 1644,
+      "forks": 919
+    },
+    "GAIR-NLP/daVinci-MagiHuman": {
+      "stars": 1546,
+      "forks": 130
+    },
+    "Nahuel990/ministack": {
+      "stars": 1408,
+      "forks": 67
+    },
+    "oaker-io/wewrite": {
+      "stars": 1244,
+      "forks": 207
+    },
+    "jxnxts/mcp-brasil": {
+      "stars": 1187,
+      "forks": 161
+    },
+    "HKUDS/OpenHarness": {
+      "stars": 822,
+      "forks": 156
+    },
+    "adamlyttleapps/claude-skill-aso-appstore-screenshots": {
+      "stars": 788,
+      "forks": 124
+    },
+    "tonbistudio/turboquant-pytorch": {
+      "stars": 774,
+      "forks": 94
+    },
+    "ericosiu/ai-marketing-skills": {
+      "stars": 737,
+      "forks": 146
+    },
+    "wquguru/harness-books": {
+      "stars": 693,
+      "forks": 90
+    },
+    "0xSero/turboquant": {
+      "stars": 670,
+      "forks": 79
+    },
+    "hitmux/HitCC": {
+      "stars": 651,
+      "forks": 235
+    },
+    "openyak/openyak": {
+      "stars": 598,
+      "forks": 82
+    },
+    "elder-plinius/G0DM0D3": {
+      "stars": 2893,
+      "forks": 630
+    },
+    "louislva/claude-peers-mcp": {
+      "stars": 1688,
+      "forks": 182
+    },
+    "chauncygu/collection-claude-code-source-code": {
+      "stars": 1068,
+      "forks": 1453
+    },
+    "Michaelliv/markit": {
+      "stars": 1021,
+      "forks": 41
+    },
+    "ghostwright/phantom": {
+      "stars": 1016,
+      "forks": 115
+    },
+    "wong2/weixin-agent-sdk": {
+      "stars": 997,
+      "forks": 109
+    },
+    "codeaashu/claude-code": {
+      "stars": 997,
+      "forks": 1695
+    },
+    "tanbiralam/claude-code": {
+      "stars": 960,
+      "forks": 1714
+    }
+  }
+}

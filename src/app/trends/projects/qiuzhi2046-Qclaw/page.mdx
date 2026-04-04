@@ -1,0 +1,52 @@
+<GuideHeader tool="Qclaw" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Qclaw
+
+Qclaw is a desktop GUI application that provides a user-friendly interface for OpenClaw, eliminating the need for command line operations. It's built with Electron, React, and TypeScript to make AI agent deployment accessible to non-technical users.
+
+## Key Features
+
+- **Environment auto-detection** — Automatically detects and installs Node.js and OpenClaw CLI when missing
+- **Full OpenClaw model support** — Integrates all OpenClaw models with custom model addition capability
+- **One-click IM integration** — QR code setup for Feishu, WeChat, DingTalk, and QQ with automatic plugin installation
+- **Visual configuration management** — GUI-based setup replacing complex command line configurations
+- **Real-time gateway monitoring** — Status monitoring, one-click restart, and repair functionality
+- **Skills management** — Centralized management of skills from various sources
+- **Automatic backup** — Both scheduled and manual backup options
+- **Cross-platform support** — macOS ready, Windows in development
+- **Auto-updates** — Keeps OpenClaw updated to latest versions
+
+## Installation
+
+Download the latest release from the [official website](https://qclawai.com/) or [GitHub releases](https://github.com/qiuzhi2046/Qclaw/releases).
+
+<Callout type="info">
+macOS 11+ required. Windows 10+ support is currently in development.
+</Callout>
+
+## Basic Usage
+
+1. **Environment Setup**: Run the built-in environment checker to detect existing OpenClaw configurations or install required dependencies
+2. **Model Configuration**: Select AI models from the provider interface (supports OAuth for compatible models)
+3. **IM Integration** (optional): Choose your preferred platform and follow the guided setup process
+4. **Start Chatting**: Use the built-in chat interface or test through your configured IM platform
+
+```bash
+# For development
+git clone https://github.com/qiuzhi2046/Qclaw.git
+cd Qclaw
+npm install
+npm run dev
+```
+
+<Callout type="tip">
+Closing the Qclaw window doesn't stop OpenClaw — your IM integrations continue running in the background.
+</Callout>
+
+## Notable Details
+
+- **License**: Apache-2.0
+- **Language**: TypeScript with React frontend
+- **Community**: 1,882 GitHub stars with active Chinese-language community
+- **Tech Stack**: Electron + React + Vite + Mantine + Tailwind CSS
+- **Architecture**: Main process handles CLI operations while renderer manages the UI through secure IPC communication

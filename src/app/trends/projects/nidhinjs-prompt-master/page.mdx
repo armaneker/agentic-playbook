@@ -1,0 +1,69 @@
+<GuideHeader tool="prompt-master" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Prompt Master
+
+A Claude skill that writes accurate prompts for any AI tool, eliminating wasted tokens and the need for re-prompting. It extracts intent, applies targeted frameworks, and delivers clean, efficient prompts that work on the first attempt.
+
+## Key Features
+
+- **Universal AI tool support** — Works with Claude, ChatGPT, Gemini, o1/o3, Cursor, GitHub Copilot, Midjourney, DALL-E, Stable Diffusion, and 20+ other tools
+- **Structured prompt pipeline** — Detects target tool, extracts 9 dimensions of intent, asks max 3 clarifying questions
+- **Framework routing** — Automatically applies the correct prompt architecture based on the target AI system
+- **Token efficiency audit** — Strips every non-essential word while maintaining output quality
+- **Context retention** — Maintains full memory between interactions to avoid repetitive prompting
+
+## Installation
+
+### Recommended: Claude.ai Browser
+
+1. Download the repository as a ZIP file
+2. Go to **claude.ai → Sidebar → Customize → Skills → Upload a Skill**
+3. Upload the ZIP file
+
+### Alternative: Clone to Claude Code
+
+```bash
+mkdir -p ~/.claude/skills
+git clone https://github.com/nidhinjs/prompt-master.git ~/.claude/skills/prompt-master
+```
+
+<Callout type="tip">
+The browser installation method is recommended for most users as it integrates directly with Claude's interface.
+</Callout>
+
+## Basic Usage
+
+Invoke naturally in Claude:
+
+```
+Write me a prompt for Cursor to refactor my auth module
+```
+
+```
+Generate a Midjourney prompt for a cyberpunk city at night
+```
+
+```
+Here's a bad prompt I wrote for GPT-4o, fix it: [paste prompt]
+```
+
+Or use explicit invocation:
+
+```
+/prompt-master
+
+I want to ask Claude Code to build a todo app with React and Supabase
+```
+
+The skill will analyze your request, ask up to 3 targeted questions if needed, then deliver a clean, copyable prompt with a strategy note explaining the approach.
+
+<Callout type="info">
+Prompt Master includes specific optimization profiles for 30+ AI tools and uses a Universal Fingerprint system for any unlisted tools.
+</Callout>
+
+## Notable Details
+
+- **License:** MIT
+- **Community:** 4,553 GitHub stars
+- **Approach:** Token-efficient prompting over verbose instructions
+- **Philosophy:** "The best prompt is not the longest. It's the one where every word is load-bearing."

@@ -4040,7 +4040,7 @@
       "language": "Unknown",
       "url": "https://github.com/nidhinjs/prompt-master",
       "first_seen": "2026-03-29",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "claude-ai",
         "claude-skills",
@@ -4057,7 +4057,7 @@
       "language": "Unknown",
       "url": "https://github.com/legalize-dev/legalize-es",
       "first_seen": "2026-03-29",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -4069,7 +4069,7 @@
       "language": "TypeScript",
       "url": "https://github.com/qiuzhi2046/Qclaw",
       "first_seen": "2026-03-29",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -5277,7 +5277,8 @@
         "tutorial"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "This is a machine learning primer that builds understanding from first principles using engineering analogies rather than mathematical theory. It teaches engineers when and why to use different ML tools by explaining concepts like neurons as polarizing filters, depth as paper folding, and gradient flow as pipeline valves. The content is organized as a single comprehensive markdown file covering fundamentals, architectures, and control systems with a focus on practical decision-making."
     }
   }
 }

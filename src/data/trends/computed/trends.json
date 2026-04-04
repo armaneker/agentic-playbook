@@ -1226,7 +1226,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "Qclaw is a desktop GUI application that provides a no-code interface for managing OpenClaw AI assistant configurations. It allows non-technical users to easily set up AI models, integrate with messaging platforms (Feishu, WeChat, DingTalk, QQ), and manage OpenClaw instances without using command line tools. The application includes automatic environment detection, one-click integrations, and real-time gateway monitoring built with Electron and TypeScript."
@@ -1484,7 +1484,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "This is a machine learning primer that builds understanding from first principles using engineering analogies rather than mathematical theory. It teaches engineers when and why to use different ML tools by explaining concepts like neurons as polarizing filters, depth as paper folding, and gradient flow as pipeline valves. The content is organized as a single comprehensive markdown file covering fundamentals, architectures, and control systems with a focus on practical decision-making."
     },
     {
       "full_name": "yasasbanukaofficial/claude-code",

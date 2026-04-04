@@ -1,0 +1,64 @@
+<GuideHeader tool="legalize-es" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# legalize-es
+
+Spanish legislation as a Git repository — every law is a Markdown file, every reform a commit. 12,235+ consolidated laws across Spain and its 17 autonomous communities, updated daily.
+
+## Key Features
+
+- **Complete coverage**: 8,646 state laws plus regional legislation
+- **Git-versioned history**: Track exact changes to laws over time using standard Git tools
+- **Structured format**: YAML frontmatter with metadata, hierarchical Markdown content
+- **Daily updates**: Automated sync with official BOE (Spanish Official Gazette) data
+- **Historical accuracy**: Commits use actual publication dates from official sources
+- **Standard identifiers**: ELI and BOE identifiers for cross-referencing
+
+<Callout type="warning">
+This repository is in early development. File structure and commit history may undergo significant changes.
+</Callout>
+
+## Installation
+
+```bash
+git clone https://github.com/legalize-dev/legalize-es.git
+cd legalize-es
+```
+
+## Basic Usage
+
+```bash
+# Find specific constitutional article
+grep -A 5 "Artículo 14" es/BOE-A-1978-31229.md
+
+# Track reforms to the Criminal Code
+git log --oneline -- es/BOE-A-1995-25444.md
+
+# View exact changes from a specific reform
+git show &lt;commit> -- es/BOE-A-1995-25444.md
+
+# Browse regional laws (Catalonia example)
+ls es-ct/
+```
+
+## Repository Structure
+
+```
+es/                    # State legislation (8,646 laws)
+es-an/                # Andalucía
+es-ct/                # Cataluña  
+es-md/                # Madrid
+es-pv/                # País Vasco
+... (17 jurisdictions total)
+```
+
+<Callout type="info">
+Legal texts are public domain. The structuring and formatting are MIT licensed.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Community**: 1,036 GitHub stars
+- **Data source**: Official BOE open data API
+- **Creator**: Part of the broader [Legalize project](https://legalize.dev)
+- **Coverage**: Includes Constitution, Criminal Code, Civil Code, Workers' Statute, and thousands more

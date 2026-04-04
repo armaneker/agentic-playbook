@@ -5231,6 +5231,31 @@
       "category": "Agentic",
       "version": null,
       "blurb": "AutoAgent is a Python framework for autonomous agent harness engineering that uses a meta-agent to iteratively improve AI agent configurations. It automatically modifies system prompts, tools, agent configuration, and orchestration based on benchmark performance, allowing developers to define agent requirements in a Markdown file rather than manually tuning Python code. The system hill-climbs on benchmark scores by testing changes overnight and keeping improvements while discarding degradations."
+    },
+    "github/gitignore": {
+      "full_name": "github/gitignore",
+      "description": "A collection of useful .gitignore templates",
+      "language": "Unknown",
+      "url": "https://github.com/github/gitignore",
+      "first_seen": "2026-04-04",
+      "has_summary": false,
+      "topics": [
+        "git",
+        "gitignore"
+      ],
+      "category": "DevTools",
+      "version": null
+    },
+    "0xGF/boneyard": {
+      "full_name": "0xGF/boneyard",
+      "description": "Auto generated skeleton loading framework",
+      "language": "TypeScript",
+      "url": "https://github.com/0xGF/boneyard",
+      "first_seen": "2026-04-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

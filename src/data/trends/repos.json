@@ -5028,7 +5028,7 @@
     },
     "ultraworkers/claw-code": {
       "full_name": "ultraworkers/claw-code",
-      "description": "[Notice] The repo temporarily locked while ownership transfer. in the meantime we maintain on here: https://github.com/ultraworkers/claw-code-parity. The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
+      "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
       "language": "Rust",
       "url": "https://github.com/ultraworkers/claw-code",
       "first_seen": "2026-04-02",
@@ -5081,7 +5081,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v1.01",
       "blurb": "This is a repository archiving leaked source code from Anthropic's \"Claude Code\" AI coding tool. Developers use it to study the architecture, memory systems, and implementation details of a commercial AI coding assistant. The repository includes both the original TypeScript source and analysis materials, with a notable clean-room Python reimplementation containing only ~1300 lines of code."
     },
     "ultraworkers/claw-code-parity": {
@@ -5200,7 +5200,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "0.1.2",
       "blurb": "OmniVoice is a zero-shot multilingual text-to-speech model that supports voice synthesis in over 600 languages. It enables voice cloning from short reference audio samples and voice design through controllable attributes like gender, age, and accent, with fast inference speeds up to 40x real-time. The model is built on a novel diffusion language model architecture that aims to balance both quality and speed."
     },
     "yasasbanukaofficial/claude-code": {
@@ -5258,6 +5258,26 @@
       "category": "Other",
       "version": null,
       "blurb": "Boneyard is a TypeScript framework that automatically generates pixel-perfect skeleton loading screens by extracting DOM element positions from your actual components. It eliminates the need to manually create placeholder layouts by using `getBoundingClientRect()` to capture real element dimensions and positions, then rendering matching gray rectangles during loading states. The framework includes responsive breakpoint support and generates skeletons via a CLI build step that snapshots your running application."
+    },
+    "dreddnafious/thereisnospoon": {
+      "full_name": "dreddnafious/thereisnospoon",
+      "description": "A machine learning primer built from first principles. For engineers who want to reason about ML systems the way they reason about software systems.",
+      "language": "Python",
+      "url": "https://github.com/dreddnafious/thereisnospoon",
+      "first_seen": "2026-04-04",
+      "has_summary": false,
+      "topics": [
+        "deep-learning",
+        "engineering",
+        "fundamentals",
+        "machine-learning",
+        "neural-networks",
+        "primer",
+        "transformers",
+        "tutorial"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

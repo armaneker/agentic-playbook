@@ -1,0 +1,69 @@
+<GuideHeader tool="EurekaClaw" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# EurekaClaw
+
+EurekaClaw is a multi-agent AI research assistant that autonomously goes from research questions to publishable results. It crawls literature, generates hypotheses, proves theorems, and writes LaTeX papers from your terminal or browser.
+
+## Key Features
+
+- **Literature crawler** — Fetches and summarizes papers from arXiv and Semantic Scholar
+- **Theorem prover** — Generates and verifies formal proofs via 7-stage pipeline
+- **Paper writer** — Drafts camera-ready LaTeX with citations and theorem environments
+- **Local-first** — Runs entirely on your machine with privacy by design
+- **Continual learning** — Distills proof strategies into reusable skills
+- **Browser UI** — React interface with live agent tracking and pause/resume
+
+<Callout type="info">
+Compatible with all major LLM APIs (OpenAI, Anthropic, etc.) or local models
+</Callout>
+
+## Installation
+
+**macOS/Linux:**
+```bash
+curl -fsSL https://eurekaclaw.ai/install.sh | bash
+eurekaclaw onboard  # Configure API keys
+```
+
+**Windows:**
+```powershell
+powershell -c "irm https://eurekaclaw.ai/install_win.ps1 | iex"
+```
+
+**Docker (recommended for servers):**
+```bash
+docker run --rm -it -p 8080:8080 -e ANTHROPIC_API_KEY=sk-ant-... eurekaclaw/eurekaclaw
+# Open http://localhost:8080
+```
+
+## Basic Usage
+
+**CLI mode:**
+```bash
+# Prove a theorem with literature search
+eurekaclaw prove "Find recent papers on sparse attention + prove efficiency bound"
+
+# Explore a research area
+eurekaclaw explore "multi-armed bandit theory"
+
+# Generate ideas from specific papers
+eurekaclaw from-papers "attention.pdf" "transformer_analysis.pdf"
+```
+
+**Browser UI:**
+```bash
+eurekaclaw ui
+# Opens http://localhost:8080 with full interface
+```
+
+<Callout type="tip">
+The system crawls arXiv, generates hypotheses, writes formal proofs, and outputs LaTeX papers automatically
+</Callout>
+
+## Notable Details
+
+- **Language:** Python 3.11+
+- **License:** Apache 2.0
+- **Community:** 652+ GitHub stars, active Discord
+- **Architecture:** Multi-agent system with local-first privacy
+- **Output:** Camera-ready LaTeX papers with formal theorem environments

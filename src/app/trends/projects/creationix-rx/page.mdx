@@ -1,0 +1,64 @@
+<GuideHeader tool="rx" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# RX Data Store
+
+RX is an embedded data store for JSON-shaped data that encodes once and queries in place without parsing. Think of it as no-SQL SQLite: unstructured data with database-style random access and automatic deduplication.
+
+## Key Features
+
+- **Zero-parse queries** — direct buffer reads with O(1) array access and O(log n) object lookups
+- **Automatic deduplication** — shared values and key layouts reduce size dramatically
+- **Text-based encoding** — safe to copy-paste and embed in strings, no binary tooling required
+- **Sparse reads** — only decode the values you actually access
+- **Full JavaScript interop** — supports Object.keys(), Array methods, destructuring, and JSON.stringify()
+
+## Installation
+
+```bash
+npm install @creationix/rx     # library
+npm install -g @creationix/rx  # CLI (global)
+```
+
+## Basic Usage
+
+```typescript
+import { stringify, parse, encode, open } from "@creationix/rx";
+
+// Encode to RX string
+const rx = stringify({ users: ["alice", "bob"], version: 3 });
+
+// Decode from RX string (returns read-only Proxy)
+const data = parse(rx) as any;
+data.users[0];        // "alice" - direct buffer read
+data.version;         // 3
+
+// For performance-critical paths, use Uint8Array API
+const buf = encode({ path: "/api/users", status: 200 });
+const fastData = open(buf) as any;
+fastData.path;        // "/api/users"
+```
+
+<Callout type="tip">
+RX excels with large datasets and sparse reads. On a 92MB deployment manifest, RX reduced size to 5.1MB and lookup time from 69ms to 0.003ms.
+</Callout>
+
+## CLI Usage
+
+```bash
+rx data.rx                    # pretty-print as tree
+rx data.rx -j                # convert to JSON
+rx data.json -r              # convert to RX
+rx data.rx -s key 0 sub      # select sub-value
+```
+
+<Callout type="info">
+Best for build manifests, route tables, and deployment artifacts where you write once and read sparsely. Not suitable for small documents, human-authored configs, or write-heavy workloads.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript
+- **Community**: 374 GitHub stars
+- **Format**: Text-based encoding with right-to-left parsing
+- **Performance**: Minimal heap allocations (~10 vs 2.5M for equivalent JSON)

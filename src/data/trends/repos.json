@@ -4251,7 +4251,7 @@
       "language": "Unknown",
       "url": "https://github.com/yetone/voice-input-src",
       "first_seen": "2026-03-30",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -4263,7 +4263,7 @@
       "language": "HTML",
       "url": "https://github.com/revfactory/harness",
       "first_seen": "2026-03-30",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "claude-code",
         "claude-code-plugin",
@@ -5325,7 +5325,8 @@
         "rag"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "This is a curated list of production-proven open-source AI projects, models, tools, and infrastructure organized into 14 categories from core frameworks to specialized domains. Engineers use it to discover vetted AI tools and libraries that have been battle-tested in production environments rather than wading through experimental or toy projects. The maintainer emphasizes \"elite-tier\" projects only, filtering for quality over quantity."
     },
     "JuliusBrussee/caveman": {
       "full_name": "JuliusBrussee/caveman",
@@ -5347,7 +5348,8 @@
         "tokens"
       ],
       "category": "AI / ML",
-      "version": "v1.1.0"
+      "version": "v1.1.0",
+      "blurb": "Caveman is a Claude Code skill that forces the AI to communicate using simplified \"caveman-speak\" syntax. It reduces token usage by approximately 75% while maintaining technical accuracy, making responses faster and more cost-effective. The approach is backed by research showing that brevity constraints can actually improve LLM accuracy by 26 percentage points on certain benchmarks."
     }
   }
 }

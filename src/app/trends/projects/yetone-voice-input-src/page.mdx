@@ -1,0 +1,51 @@
+<GuideHeader tool="voice-input-src" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Voice Input for macOS
+
+A menu bar voice input app that lets you hold the Fn key to record speech and inject transcribed text into any focused input field. Built specifically for macOS 14+ with native Apple Speech Recognition.
+
+## Key Features
+
+- Hold Fn key to record, release to inject text via simulated paste
+- Real-time streaming transcription with live waveform visualization
+- Multi-language support (Chinese, English, Japanese, Korean) with automatic input method switching
+- Elegant floating capsule UI that appears during recording
+- Optional LLM integration for improving transcription accuracy
+- Runs as menu bar app only (no dock icon)
+
+## Installation
+
+Clone and build from source:
+
+```bash
+git clone https://github.com/yetone/voice-input-src.git
+cd voice-input-src
+make build
+make install
+```
+
+<Callout type="info">
+Pre-built binaries are available at [voice-input-dist](https://github.com/yetone/voice-input-dist)
+</Callout>
+
+## Basic Usage
+
+1. Launch the app — a microphone icon appears in your menu bar
+2. Click any text field to focus it
+3. Hold the Fn key and speak
+4. Release Fn key to inject the transcribed text
+
+The floating recording window shows real-time waveforms and live transcription. Configure language and LLM settings through the menu bar dropdown.
+
+<Callout type="warning">
+App requires microphone and accessibility permissions to function properly
+</Callout>
+
+## Notable Details
+
+**Language:** Swift  
+**License:** Unknown  
+**Community:** 1,797 stars  
+**Platform:** macOS 14+ only
+
+The project includes detailed prompt engineering for Claude AI that generated the entire codebase, making it an interesting case study in AI-assisted development.

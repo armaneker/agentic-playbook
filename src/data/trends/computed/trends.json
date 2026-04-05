@@ -1301,7 +1301,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "This is a macOS menu bar application that provides voice input functionality using Swift and the Apple Speech Recognition framework. Users can hold the Fn key to record speech which gets transcribed and automatically injected into the currently focused input field, with optional LLM-based refinement for improved accuracy especially with mixed Chinese-English content. The app features a polished HUD overlay with real-time audio waveforms during recording and runs as a menu bar-only application without a Dock icon."
@@ -1379,7 +1379,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "This is a curated list of production-proven open-source AI projects, models, tools, and infrastructure organized into 14 categories from core frameworks to specialized domains. Engineers use it to discover vetted AI tools and libraries that have been battle-tested in production environments rather than wading through experimental or toy projects. The maintainer emphasizes \"elite-tier\" projects only, filtering for quality over quantity."
     },
     {
       "full_name": "garinasset/leak-check",
@@ -1454,7 +1454,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": "v1.1.0",
-      "blurb": null
+      "blurb": "Caveman is a Claude Code skill that forces the AI to communicate using simplified \"caveman-speak\" syntax. It reduces token usage by approximately 75% while maintaining technical accuracy, making responses faster and more cost-effective. The approach is backed by research showing that brevity constraints can actually improve LLM accuracy by 26 percentage points on certain benchmarks."
     },
     {
       "full_name": "dreddnafious/thereisnospoon",

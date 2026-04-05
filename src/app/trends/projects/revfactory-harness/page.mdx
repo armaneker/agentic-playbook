@@ -1,0 +1,73 @@
+<GuideHeader tool="harness" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Harness
+
+Harness is a Claude Code plugin that automatically designs domain-specific agent teams and generates the specialized skills they need. It decomposes complex tasks into coordinated teams of specialized agents.
+
+## Key Features
+
+- **Agent Team Design** — 6 architectural patterns: Pipeline, Fan-out/Fan-in, Expert Pool, Producer-Reviewer, Supervisor, and Hierarchical Delegation
+- **Skill Generation** — Auto-generates skills with Progressive Disclosure for efficient context management
+- **Orchestration** — Inter-agent data passing, error handling, and team coordination protocols
+- **Validation** — Trigger verification, dry-run testing, and comparison tests
+
+## Installation
+
+### Via Marketplace
+
+```shell
+# Add the marketplace
+/plugin marketplace add revfactory/harness
+
+# Install the plugin
+/plugin install harness@harness
+```
+
+### Direct Installation
+
+```shell
+# Copy to global skills directory
+cp -r skills/harness ~/.claude/skills/harness
+```
+
+<Callout type="info">
+Harness requires Claude Code's agent team system to function properly.
+</Callout>
+
+## Basic Usage
+
+Trigger Harness with simple prompts:
+
+```
+Build a harness for this project
+Design an agent team for full-stack website development
+Set up a harness for YouTube content creation
+```
+
+Harness follows a 6-phase workflow: Domain Analysis → Team Architecture Design → Agent Definition Generation → Skill Generation → Integration & Orchestration → Validation & Testing.
+
+## Output Structure
+
+```
+your-project/
+├── .claude/
+│   ├── agents/          # Agent definition files
+│   │   ├── analyst.md
+│   │   ├── builder.md
+│   │   └── qa.md
+│   └── skills/          # Generated skills
+│       ├── analyze/
+│       └── build/
+```
+
+<Callout type="tip">
+The plugin automatically selects between Agent Teams mode (for collaborative tasks) and Subagents mode (for independent tasks) based on your domain requirements.
+</Callout>
+
+## Notable Details
+
+- **License:** Apache-2.0
+- **Language:** HTML (with MDX documentation)
+- **Community:** 1,893 GitHub stars
+- **Ecosystem:** Powers [Harness 100](https://github.com/revfactory/harness-100) with 200 production-ready agent team packages
+- **Research:** A/B testing shows 60% improvement in output quality over unstructured approaches

@@ -311,7 +311,7 @@
       "delta_week": 1226,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "This is a Python-based API for detecting personal information leaks in data breaches. It provides programmatic access to check if personal data (likely email addresses, usernames, or other identifiers) has been compromised in known security incidents. The project offers a simple bash-based installation script for quick deployment."

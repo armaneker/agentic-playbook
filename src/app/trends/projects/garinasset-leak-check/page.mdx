@@ -1,0 +1,73 @@
+<GuideHeader tool="leak-check" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# leak-check
+
+A Python interface for detecting personal information "leaks" in publicly available internet datasets. The tool helps you check if your personal data appears in compromised databases without storing your query history.
+
+## Key Features
+
+- Search for personal information across leaked datasets
+- SQLite-based storage for flexibility with any database backend
+- Zero query logging for privacy protection
+- No additional personal information exposure beyond search results
+- Simple API interface for programmatic access
+- Support for multiple data types (phone, email, name, address, etc.)
+
+## Installation
+
+Use the provided installation script to set up the development environment:
+
+```bash
+curl -LsSf https://raw.githubusercontent.com/garinasset/leak-check/refs/heads/main/install.sh | bash
+```
+
+<Callout type="info">
+The project uses SQLite by default but supports any database backend you prefer.
+</Callout>
+
+## Basic Usage
+
+First, set up the database schema:
+
+```bash
+cd leak-check
+sqlite3 ./db/leak-check.db
+```
+
+Create the required tables:
+
+```sql
+CREATE TABLE source (
+    id INTEGER PRIMARY KEY,
+    source TEXT DEFAULT NULL
+);
+
+CREATE TABLE person(
+    id TEXT DEFAULT NULL,
+    name TEXT DEFAULT NULL,
+    receiver TEXT DEFAULT NULL,
+    phone TEXT DEFAULT NULL,
+    email TEXT DEFAULT NULL,
+    address TEXT DEFAULT NULL,
+    source_id INTEGER DEFAULT 0,
+    FOREIGN KEY (source_id) REFERENCES source(id)
+);
+```
+
+<Callout type="warning">
+This project does not provide data copies. You need to populate the database with your own datasets.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Python
+- **GitHub Stars**: 1,874
+- **Privacy Promise**: No query logging, no additional data exposure
+- **Database**: SQLite (configurable)
+
+To completely remove the installation:
+
+```bash
+rm -rf leak-check/
+```

@@ -956,7 +956,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v1.0.0",
       "blurb": "This is a Claude Code plugin that integrates OpenAI's Codex for code review and task delegation directly within the Claude Code editor. It provides commands for conducting standard or adversarial code reviews, delegating development tasks to Codex, and managing background jobs without leaving your existing workflow. The plugin supports both ChatGPT subscriptions and OpenAI API keys, with steerable adversarial reviews that can challenge design decisions and implementation choices."

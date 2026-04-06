@@ -1,0 +1,81 @@
+<GuideHeader tool="codex-plugin-cc" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Codex Plugin for Claude Code
+
+A Claude Code plugin that integrates OpenAI Codex for code reviews and task delegation. The plugin provides slash commands to run Codex reviews or delegate work to Codex from within your existing Claude Code workflow.
+
+## Key Features
+
+- **Code review commands** - `/codex:review` for standard reviews, `/codex:adversarial-review` for challenging design decisions
+- **Task delegation** - `/codex:rescue` to hand off investigations, bug fixes, or implementation tasks to Codex
+- **Background job management** - Run long tasks in the background with status tracking and cancellation
+- **Review gate integration** - Optional automatic review of Claude responses before execution
+
+<Callout type="info">
+Requires a ChatGPT subscription or OpenAI API key. Usage counts toward your Codex limits.
+</Callout>
+
+## Installation
+
+Add the marketplace and install the plugin:
+
+```bash
+/plugin marketplace add openai/codex-plugin-cc
+/plugin install codex@openai-codex
+/reload-plugins
+```
+
+Run the setup command:
+
+```bash
+/codex:setup
+```
+
+If Codex isn't installed globally, install it:
+
+```bash
+npm install -g @openai/codex
+codex login
+```
+
+## Basic Usage
+
+Review your current changes:
+
+```bash
+/codex:review --background
+/codex:status
+/codex:result
+```
+
+Delegate a task to Codex:
+
+```bash
+/codex:rescue investigate why the tests are failing
+```
+
+Run a challenging design review:
+
+```bash
+/codex:adversarial-review --base main look for race conditions
+```
+
+<Callout type="warning">
+The review gate feature can create long Claude/Codex loops that drain usage limits quickly. Monitor sessions actively when enabled.
+</Callout>
+
+## Configuration
+
+Configure default model and reasoning effort in `.codex/config.toml`:
+
+```toml
+model = "gpt-5.4-mini"
+model_reasoning_effort = "high"
+```
+
+## Notable Details
+
+- **License**: Apache-2.0
+- **Language**: JavaScript
+- **Community**: 12K+ stars
+- **Requirements**: Node.js 18.18+, ChatGPT subscription or OpenAI API key

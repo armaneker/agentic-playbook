@@ -1,0 +1,62 @@
+<GuideHeader tool="hucre" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# hucre
+
+hucre is a zero-dependency spreadsheet engine written in pure TypeScript. It provides a lightweight, tree-shakeable solution for reading and writing XLSX, CSV, and ODS files that works in any JavaScript runtime.
+
+## Key Features
+
+- **Zero dependencies** - No external packages or security vulnerabilities
+- **Multi-format support** - XLSX, CSV, and ODS reading and writing
+- **Streaming capabilities** - Handle large files efficiently with streaming read/write
+- **Tree-shakeable** - Import only what you need (~2-18KB gzipped)
+- **Schema validation** - Built-in data validation and type checking
+- **Round-trip preservation** - Maintains formatting and structure when reading/writing
+- **Cross-platform** - Works in browsers, Node.js, and edge runtimes
+- **Advanced features** - Cell styling, formulas, charts, conditional formatting, images
+
+## Installation
+
+```bash
+npm install hucre
+```
+
+## Basic Usage
+
+```typescript
+import { readXlsx, writeXlsx } from "hucre";
+
+// Read a spreadsheet
+const workbook = await readXlsx(buffer);
+console.log(workbook.sheets[0].rows);
+
+// Write a spreadsheet
+const xlsx = await writeXlsx({
+  sheets: [
+    {
+      name: "Sales",
+      columns: [
+        { header: "Product", key: "name", width: 25 },
+        { header: "Price", key: "price", width: 12, numFmt: "$#,##0.00" },
+        { header: "Stock", key: "stock", width: 10 },
+      ],
+      data: [
+        { name: "Widget", price: 9.99, stock: 142 },
+        { name: "Gadget", price: 24.5, stock: 87 },
+      ],
+    },
+  ],
+});
+```
+
+<Callout type="tip">
+Use format-specific imports for smaller bundles: `import { readXlsx } from "hucre/xlsx"` (~14KB) or `import { parseCsv } from "hucre/csv"` (~2KB)
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript with full type safety
+- **Community**: 804+ GitHub stars
+- **Bundle size**: 18KB gzipped (full), 2-14KB for individual formats
+- **CSP compliant**: No `eval()` usage, safe for strict security policies

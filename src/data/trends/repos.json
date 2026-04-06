@@ -4858,7 +4858,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v0.0.8",
       "blurb": "Claurst is a Rust reimplementation of Claude Code, Anthropic's AI coding CLI terminal agent, created after the original source code was leaked via an npm sourcemap. It provides the same AI-powered coding assistance and terminal integration as Claude Code but written in idiomatic Rust rather than TypeScript. The project was built using clean-room engineering principles, with separate AI agents handling specification and implementation phases to avoid copyright issues."
     },
     "codeany-ai/open-agent-sdk-typescript": {
@@ -5333,7 +5333,7 @@
     },
     "JuliusBrussee/caveman": {
       "full_name": "JuliusBrussee/caveman",
-      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 75% of tokens by talking like caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
       "language": "Python",
       "url": "https://github.com/JuliusBrussee/caveman",
       "first_seen": "2026-04-05",
@@ -5408,6 +5408,17 @@
       "category": "Other",
       "version": null,
       "blurb": "METATRON is a CLI-based AI penetration testing assistant that runs entirely locally on Parrot OS without requiring cloud services or API keys. It automates reconnaissance using tools like nmap, whois, and nikto, then feeds results to a local LLM (metatron-qwen) for vulnerability analysis, exploit suggestions, and remediation recommendations, with all data stored in MariaDB. The system uses a fine-tuned Qwen model that requires at least 8.4GB of RAM and can export scan results to PDF or HTML formats."
+    },
+    "arman-bd/guppylm": {
+      "full_name": "arman-bd/guppylm",
+      "description": "A ~9M parameter LLM that talks like a small fish.",
+      "language": "Python",
+      "url": "https://github.com/arman-bd/guppylm",
+      "first_seen": "2026-04-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

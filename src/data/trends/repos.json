@@ -4370,7 +4370,7 @@
       "language": "Python",
       "url": "https://github.com/titanwings/colleague-skill",
       "first_seen": "2026-03-31",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -4382,7 +4382,7 @@
       "language": "HTML",
       "url": "https://github.com/LeoYeAI/openclaw-auto-dream",
       "first_seen": "2026-03-31",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "ai-agent",
         "auto-dream",
@@ -5418,7 +5418,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "GuppyLM is a 9M parameter language model trained to behave like a pet fish, speaking in short lowercase sentences about water, food, and tank life. It serves as an educational project demonstrating that building a complete LLM from scratch—including data generation, tokenization, and training—can be done in 5 minutes on a single Colab GPU. The model uses a vanilla transformer architecture with no modern optimizations, making it simple to understand and modify."
     }
   }
 }

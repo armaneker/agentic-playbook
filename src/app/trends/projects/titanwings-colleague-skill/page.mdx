@@ -1,0 +1,70 @@
+<GuideHeader tool="colleague-skill" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# colleague-skill
+
+colleague-skill transforms departing colleagues into AI skills by analyzing their communications, documents, and work patterns. It preserves their technical knowledge, work style, and personality quirks in a callable AI skill format.
+
+## Key Features
+
+- **Multi-source data collection** - Extracts from Feishu, DingTalk, Slack, WeChat, emails, PDFs, and screenshots
+- **Dual-layer architecture** - Separates work capabilities from personality traits for realistic interactions
+- **Automated skill generation** - Creates callable AI skills with colleague's coding style, decision patterns, and communication quirks
+- **Evolution mechanisms** - Skills improve through additional data and conversational corrections
+- **Version management** - Rollback support for skill iterations
+
+## Installation
+
+### Claude Code
+
+```bash
+# Install to current project (run from git repository root)
+mkdir -p .claude/skills
+git clone https://github.com/titanwings/colleague-skill .claude/skills/create-colleague
+
+# Or install globally
+git clone https://github.com/titanwings/colleague-skill ~/.claude/skills/create-colleague
+```
+
+### Dependencies
+
+```bash
+pip3 install -r requirements.txt
+```
+
+<Callout type="info">
+Feishu/DingTalk auto-collection requires App credentials. See INSTALL.md for configuration details.
+</Callout>
+
+## Basic Usage
+
+In Claude Code, run:
+
+```bash
+/create-colleague
+```
+
+Follow prompts to input colleague name, role (e.g., "ByteDance 2-1 Backend Engineer"), personality tags, and select data sources. All fields are optional.
+
+Once generated, invoke the skill:
+
+```bash
+/{slug}              # Full skill (persona + work)
+/{slug}-work         # Work capabilities only
+/{slug}-persona      # Personality only
+/list-colleagues     # List all generated skills
+```
+
+<Callout type="tip">
+Higher quality input data (chat logs + long documents) produces more accurate skills than manual descriptions alone.
+</Callout>
+
+## Notable Details
+
+- **Language**: Python
+- **License**: MIT
+- **Stars**: 8,457
+- **Standard**: Follows [AgentSkills](https://agentskills.io) open standard
+- **Architecture**: Two-layer system separating work skills from personality traits
+- **Supported roles**: Major tech companies (ByteDance, Alibaba, Tencent, etc.) with proper job levels
+
+The project includes pre-built example colleagues and supports personality tags like "perfectionist," "blame-shifter," and company culture markers ("ByteDance style," "startup mentality").

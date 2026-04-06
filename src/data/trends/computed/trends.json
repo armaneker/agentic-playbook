@@ -1016,7 +1016,7 @@
       "delta_week": 0,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": null,
       "blurb": "This is a tongue-in-cheek Python project that generates AI skills to replicate departed colleagues' work patterns and personalities. It ingests workplace data (Feishu/DingTalk messages, documents, emails) along with personality descriptions to create AI personas that can write code in their style, answer questions in their voice, and even exhibit their blame-shifting tendencies. The project follows AgentSkills standards and includes automatic data collection from enterprise platforms plus conversation-based corrections to refine the generated personas."
@@ -1394,7 +1394,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "GuppyLM is a 9M parameter language model trained to behave like a pet fish, speaking in short lowercase sentences about water, food, and tank life. It serves as an educational project demonstrating that building a complete LLM from scratch—including data generation, tokenization, and training—can be done in 5 minutes on a single Colab GPU. The model uses a vanilla transformer architecture with no modern optimizations, making it simple to understand and modify."
     },
     {
       "full_name": "wquguru/harness-books",

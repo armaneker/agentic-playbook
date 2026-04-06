@@ -1,0 +1,68 @@
+<GuideHeader tool="openclaw-auto-dream" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# OpenClaw Auto-Dream
+
+OpenClaw Auto-Dream implements automatic memory consolidation for AI agents through periodic "dream cycles" that organize, score, and connect knowledge across five cognitive layers. It transforms raw agent logs into structured, interconnected memories with importance scoring and forgetting curves.
+
+## Key Features
+
+- **Five-layer memory architecture** — Working, episodic, long-term, procedural, and index layers that mirror cognitive neuroscience
+- **Automated dream cycles** — Runs via cron to scan logs, extract insights, route to appropriate layers, and score importance
+- **Importance scoring system** — Combines base weight, recency factors, and reference frequency to prioritize memories
+- **Forgetting curves** — Gradually archives low-importance entries after 90 days while preserving high-value memories
+- **Knowledge graph linking** — Creates semantic connections between related entries with unique IDs
+- **Health monitoring** — Five-metric dashboard tracking memory system performance and trends
+- **Cross-instance portability** — Export/import memory bundles between different agent instances
+
+## Installation
+
+<Callout type="info">
+Requires OpenClaw agent runtime. Install directly from ClawHub or clone the repository.
+</Callout>
+
+```bash
+# Via ClawHub (recommended)
+openclaw skill install auto-dream
+
+# Or clone repository
+git clone https://github.com/LeoYeAI/openclaw-auto-dream.git
+cd openclaw-auto-dream
+./install.sh
+```
+
+The installer configures cron jobs, creates memory directories, and sets up the five-layer architecture automatically.
+
+## Basic Usage
+
+Auto-Dream runs autonomously but accepts manual triggers:
+
+```bash
+# Trigger dream cycle manually
+./dream-cycle.sh
+
+# View memory dashboard
+./dashboard.sh
+
+# Export memory bundle
+./export-bundle.sh memories-backup-2024.json
+```
+
+Mark important content in your logs using priority markers:
+
+```markdown
+⚠️ PERMANENT: Critical decision about project architecture
+🔥 HIGH: Major breakthrough in debugging approach
+📌 PIN: Important client preference to remember
+<!-- important -->This workflow saves 2 hours daily
+```
+
+## Notable Details
+
+**License:** MIT  
+**Language:** HTML/Shell scripting  
+**Community:** 631 GitHub stars  
+**Integration:** Part of the MyClaw.ai ecosystem with dedicated server infrastructure
+
+<Callout type="tip">
+Auto-Dream is specifically designed for persistent AI agents running on dedicated infrastructure, not ephemeral chat sessions.
+</Callout>

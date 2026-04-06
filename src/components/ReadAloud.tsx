@@ -1,7 +1,8 @@
 'use client';
 
-import { useState, useRef, useCallback } from 'react';
+import { useState, useRef, useCallback, useEffect } from 'react';
 import { Play, Pause, Square, Globe, Loader2 } from 'lucide-react';
+import { usePathname } from 'next/navigation';
 
 type Status = 'idle' | 'loading' | 'playing' | 'paused';
 
@@ -16,28 +17,50 @@ const LANGUAGES = [
   { code: 'ko', label: '한국어' },
 ];
 
+/**
+ * Convert pathname like /openclaw/architecture/ to static audio filename
+ * e.g. openclaw-architecture-en.mp3
+ */
+function pathnameToAudioSlug(pathname: string): string {
+  return pathname
+    .replace(/^\//, '')
+    .replace(/\/$/, '')
+    .replace(/\//g, '-');
+}
+
 function extractPageText(): string {
   const article = document.querySelector('article');
   if (!article) return '';
 
-  // Clone to avoid modifying the DOM
   const clone = article.cloneNode(true) as HTMLElement;
-
-  // Remove code blocks, nav elements, and the header itself
   clone.querySelectorAll('pre, code, nav, .not-prose').forEach((el) => el.remove());
 
-  // Get clean text
   const text = clone.textContent ?? '';
-  // Collapse whitespace
   return text.replace(/\s+/g, ' ').trim();
 }
 
 export default function ReadAloud() {
+  const pathname = usePathname();
   const [status, setStatus] = useState<Status>('idle');
   const [language, setLanguage] = useState('en');
   const [showLangMenu, setShowLangMenu] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const blobUrlRef = useRef<string | null>(null);
+
+  // Clean up on unmount or pathname change
+  useEffect(() => {
+    return () => {
+      if (audioRef.current) {
+        audioRef.current.pause();
+        audioRef.current.removeAttribute('src');
+        audioRef.current = null;
+      }
+      if (blobUrlRef.current) {
+        URL.revokeObjectURL(blobUrlRef.current);
+        blobUrlRef.current = null;
+      }
+    };
+  }, [pathname]);
 
   const cleanup = useCallback(() => {
     if (audioRef.current) {
@@ -64,34 +87,49 @@ export default function ReadAloud() {
       return;
     }
 
-    // Fresh play — fetch audio
+    // Fresh play
     cleanup();
     setStatus('loading');
 
-    const text = extractPageText();
-    if (!text) {
-      setStatus('idle');
-      return;
-    }
-
     try {
-      const res = await fetch('/api/tts', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ text, language }),
-      });
+      let audioUrl: string | null = null;
 
-      if (!res.ok) {
-        console.error('TTS API error:', res.status);
-        setStatus('idle');
-        return;
+      // For English, try static pre-generated file first
+      if (language === 'en') {
+        const slug = pathnameToAudioSlug(pathname);
+        const staticPath = `/audio/${slug}-en.mp3`;
+        const check = await fetch(staticPath, { method: 'HEAD' });
+        if (check.ok) {
+          audioUrl = staticPath;
+        }
       }
 
-      const blob = await res.blob();
-      const url = URL.createObjectURL(blob);
-      blobUrlRef.current = url;
+      // Fall back to on-demand API (for non-English or missing static files)
+      if (!audioUrl) {
+        const text = extractPageText();
+        if (!text) {
+          setStatus('idle');
+          return;
+        }
 
-      const audio = new Audio(url);
+        const res = await fetch('/api/tts', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ text: text.slice(0, 5000), language }),
+        });
+
+        if (!res.ok) {
+          console.error('TTS API error:', res.status);
+          setStatus('idle');
+          return;
+        }
+
+        const blob = await res.blob();
+        audioUrl = URL.createObjectURL(blob);
+        blobUrlRef.current = audioUrl;
+      }
+
+      const audio = new Audio(audioUrl);
       audioRef.current = audio;
 
       audio.addEventListener('ended', () => {
@@ -107,10 +145,10 @@ export default function ReadAloud() {
       await audio.play();
       setStatus('playing');
     } catch (err) {
-      console.error('TTS failed:', err);
+      console.error('Audio playback failed:', err);
       setStatus('idle');
     }
-  }, [status, language, cleanup]);
+  }, [status, language, pathname, cleanup]);
 
   const handleStop = useCallback(() => {
     cleanup();
@@ -121,7 +159,6 @@ export default function ReadAloud() {
     (code: string) => {
       setLanguage(code);
       setShowLangMenu(false);
-      // If currently playing, stop — user will need to press play again for new language
       if (status !== 'idle') {
         cleanup();
         setStatus('idle');
@@ -150,7 +187,7 @@ export default function ReadAloud() {
         )}
       </button>
 
-      {/* Stop (only visible when playing or paused) */}
+      {/* Stop */}
       {(status === 'playing' || status === 'paused') && (
         <button
           onClick={handleStop}
@@ -174,12 +211,10 @@ export default function ReadAloud() {
 
         {showLangMenu && (
           <>
-            {/* Backdrop */}
             <div
               className="fixed inset-0 z-40"
               onClick={() => setShowLangMenu(false)}
             />
-            {/* Menu */}
             <div className="absolute right-0 top-full mt-1 z-50 w-36 rounded-lg border border-gray-700 bg-gray-900 py-1 shadow-xl">
               {LANGUAGES.map((lang) => (
                 <button

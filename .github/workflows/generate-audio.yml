@@ -1,0 +1,66 @@
+name: Generate Audio Files
+
+on:
+  # Regenerate when guide content changes
+  push:
+    branches: [main]
+    paths:
+      - 'src/app/getting-started/**/page.mdx'
+      - 'src/app/openclaw/**/page.mdx'
+      - 'src/app/skills/**/page.mdx'
+      - 'src/app/about/**/page.mdx'
+  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Force regenerate all audio files'
+        required: false
+        default: 'false'
+        type: boolean
+      page:
+        description: 'Single page to regenerate (e.g. openclaw/architecture)'
+        required: false
+        type: string
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Generate audio files
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          INPUT_FORCE: ${{ inputs.force }}
+          INPUT_PAGE: ${{ inputs.page }}
+        run: |
+          ARGS=""
+          if [ "$INPUT_FORCE" = "true" ]; then
+            ARGS="--force"
+          fi
+          if [ -n "$INPUT_PAGE" ]; then
+            ARGS="$ARGS --page $INPUT_PAGE"
+          fi
+          node scripts/generate-audio.mjs $ARGS
+
+      - name: Commit audio files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/audio/ src/data/audio-manifest.json
+          if git diff --staged --quiet; then
+            echo "No audio changes to commit"
+          else
+            git commit -m "chore: regenerate audio files for guide pages"
+            git push
+          fi

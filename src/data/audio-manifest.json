@@ -1,1 +1,138 @@
-{}
+{
+  "getting-started/first-agent": {
+    "hash": "fd964dcd28b3d313084b58b6653a3441",
+    "file": "getting-started-first-agent-en.mp3",
+    "language": "en",
+    "size": 2161440,
+    "generatedAt": "2026-04-06T19:37:32.132Z",
+    "charCount": 1694
+  },
+  "getting-started/agent-memory": {
+    "hash": "e9b11399c337981cdb95ebd788a5073a",
+    "file": "getting-started-agent-memory-en.mp3",
+    "language": "en",
+    "size": 7076160,
+    "generatedAt": "2026-04-06T19:38:47.871Z",
+    "charCount": 5741
+  },
+  "openclaw/architecture": {
+    "hash": "80ffc3257b43d52d1ddda597c909514b",
+    "file": "openclaw-architecture-en.mp3",
+    "language": "en",
+    "size": 7940160,
+    "generatedAt": "2026-04-06T19:39:59.555Z",
+    "charCount": 6477
+  },
+  "openclaw/agent-roles": {
+    "hash": "69444dd906124c7a851cb969078eaec6",
+    "file": "openclaw-agent-roles-en.mp3",
+    "language": "en",
+    "size": 8436000,
+    "generatedAt": "2026-04-06T19:41:57.744Z",
+    "charCount": 6961
+  },
+  "openclaw/create-slack-agent": {
+    "hash": "dbeda4b4695ae368d096ab4a671df36f",
+    "file": "openclaw-create-slack-agent-en.mp3",
+    "language": "en",
+    "size": 7401600,
+    "generatedAt": "2026-04-06T19:43:03.405Z",
+    "charCount": 5949
+  },
+  "openclaw/cli-reference": {
+    "hash": "f4ca26df5d161e4315c650b12261d179",
+    "file": "openclaw-cli-reference-en.mp3",
+    "language": "en",
+    "size": 1620000,
+    "generatedAt": "2026-04-06T19:43:22.076Z",
+    "charCount": 1308
+  },
+  "openclaw/deployment": {
+    "hash": "a0e30e0318294f81a4f6cb6bb0bed352",
+    "file": "openclaw-deployment-en.mp3",
+    "language": "en",
+    "size": 6540960,
+    "generatedAt": "2026-04-06T19:44:29.468Z",
+    "charCount": 5141
+  },
+  "openclaw/security": {
+    "hash": "964080354d57e022c4def0d0cde3e722",
+    "file": "openclaw-security-en.mp3",
+    "language": "en",
+    "size": 5408640,
+    "generatedAt": "2026-04-06T19:45:25.057Z",
+    "charCount": 4399
+  },
+  "openclaw/mission-control": {
+    "hash": "075d4808630e32d9b0e5e608cd7d25c3",
+    "file": "openclaw-mission-control-en.mp3",
+    "language": "en",
+    "size": 3998880,
+    "generatedAt": "2026-04-06T19:46:04.481Z",
+    "charCount": 3108
+  },
+  "skills/anatomy": {
+    "hash": "df5c9975b18eba9a00e2fbf79192f10b",
+    "file": "skills-anatomy-en.mp3",
+    "language": "en",
+    "size": 4133280,
+    "generatedAt": "2026-04-06T19:46:35.069Z",
+    "charCount": 3244
+  },
+  "skills/frontmatter": {
+    "hash": "8e08a5ed466da8c9598d001fc944f64f",
+    "file": "skills-frontmatter-en.mp3",
+    "language": "en",
+    "size": 1648800,
+    "generatedAt": "2026-04-06T19:46:53.491Z",
+    "charCount": 1327
+  },
+  "skills/steps": {
+    "hash": "48fe0eacb661d780be8958972c4cc93e",
+    "file": "skills-steps-en.mp3",
+    "language": "en",
+    "size": 1961760,
+    "generatedAt": "2026-04-06T19:47:21.738Z",
+    "charCount": 1587
+  },
+  "skills/references": {
+    "hash": "282c75552f8be70b0204efdfb6c5cc71",
+    "file": "skills-references-en.mp3",
+    "language": "en",
+    "size": 1804320,
+    "generatedAt": "2026-04-06T19:47:46.995Z",
+    "charCount": 1458
+  },
+  "skills/scripts": {
+    "hash": "e9a70292fc44ad78b970e3e23010d8f6",
+    "file": "skills-scripts-en.mp3",
+    "language": "en",
+    "size": 2269920,
+    "generatedAt": "2026-04-06T19:48:22.188Z",
+    "charCount": 1870
+  },
+  "skills/progressive-loading": {
+    "hash": "43aa81036db5eb4dd9913900d2414d60",
+    "file": "skills-progressive-loading-en.mp3",
+    "language": "en",
+    "size": 4439040,
+    "generatedAt": "2026-04-06T19:49:09.390Z",
+    "charCount": 3417
+  },
+  "skills/testing": {
+    "hash": "749ee4d728e4657c7520825e5da64723",
+    "file": "skills-testing-en.mp3",
+    "language": "en",
+    "size": 13800480,
+    "generatedAt": "2026-04-06T19:51:22.245Z",
+    "charCount": 11035
+  },
+  "about/contributing": {
+    "hash": "6d2a82a819ab9c535851101504719e9a",
+    "file": "about-contributing-en.mp3",
+    "language": "en",
+    "size": 1922880,
+    "generatedAt": "2026-04-06T19:51:42.675Z",
+    "charCount": 1551
+  }
+}

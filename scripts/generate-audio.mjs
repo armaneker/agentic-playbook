@@ -43,11 +43,6 @@ const GUIDE_PAGES = [
 
 const LANGUAGE = 'en'; // Pre-generate English only; other languages use API fallback
 
-function getOpenAI() {
-  const OpenAI = (await import('openai')).default;
-  return new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-}
-
 let openaiClient = null;
 async function getClient() {
   if (!openaiClient) {

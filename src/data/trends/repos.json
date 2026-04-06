@@ -2409,7 +2409,9 @@
         "language",
         "rust"
       ],
-      "blurb": "This is the main source code repository for the Rust programming language, containing the compiler, standard library, and documentation. It provides a systems programming language that enforces memory and thread safety at compile-time while delivering performance comparable to C and C++. The codebase is primarily written in Rust itself, demonstrating the language's capability for self-hosting compiler development."
+      "blurb": "This is the main source code repository for the Rust programming language, containing the compiler, standard library, and documentation. It provides a systems programming language that enforces memory and thread safety at compile-time while delivering performance comparable to C and C++. The codebase is primarily written in Rust itself, demonstrating the language's capability for self-hosting compiler development.",
+      "category": "Language",
+      "version": "1.94.1"
     },
     "louislva/claude-peers-mcp": {
       "full_name": "louislva/claude-peers-mcp",
@@ -5350,6 +5352,58 @@
       "category": "AI / ML",
       "version": "v1.1.0",
       "blurb": "Caveman is a Claude Code skill that forces the AI to communicate using simplified \"caveman-speak\" syntax. It reduces token usage by approximately 75% while maintaining technical accuracy, making responses faster and more cost-effective. The approach is backed by research showing that brevity constraints can actually improve LLM accuracy by 26 percentage points on certain benchmarks."
+    },
+    "axios/axios": {
+      "full_name": "axios/axios",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "language": "JavaScript",
+      "url": "https://github.com/axios/axios",
+      "first_seen": "2026-04-06",
+      "has_summary": false,
+      "topics": [
+        "hacktoberfest",
+        "http-client",
+        "javascript",
+        "nodejs",
+        "promise"
+      ],
+      "category": "Other",
+      "version": "v1.14.0"
+    },
+    "santifer/career-ops": {
+      "full_name": "santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "language": "Go",
+      "url": "https://github.com/santifer/career-ops",
+      "first_seen": "2026-04-06",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "anthropic",
+        "automation",
+        "career",
+        "claude",
+        "claude-code",
+        "cli",
+        "golang",
+        "interview-prep",
+        "job-search",
+        "open-source",
+        "resume"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "sooryathejas/METATRON": {
+      "full_name": "sooryathejas/METATRON",
+      "description": "AI-powered penetration testing assistant using local LLM on linux (Parrot OS)",
+      "language": "Python",
+      "url": "https://github.com/sooryathejas/METATRON",
+      "first_seen": "2026-04-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

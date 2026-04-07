@@ -1319,7 +1319,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.3.1",
-      "blurb": null
+      "blurb": "Graphify is an AI coding assistant skill that converts folders of code, documentation, papers, or images into queryable knowledge graphs. It helps developers understand codebases faster by extracting and visualizing relationships between components, architectural decisions, and design rationale across multiple file types. The tool uses a two-pass approach combining deterministic AST parsing with Claude-powered concept extraction, requiring 71.5x fewer tokens per query compared to reading raw files."
     },
     {
       "full_name": "yasasbanukaofficial/claude-code",

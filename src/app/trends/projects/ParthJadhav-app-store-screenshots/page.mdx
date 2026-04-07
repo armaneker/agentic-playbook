@@ -1,0 +1,63 @@
+<GuideHeader tool="app-store-screenshots" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# App Store Screenshots Generator
+
+A skill for AI coding agents that generates App Store screenshots for iOS apps by scaffolding a Next.js project and designing advertisement-style marketing screenshots. It exports screenshots at all required Apple resolutions with built-in iPhone mockups.
+
+## Key Features
+
+- Scaffolds Next.js project or integrates with existing codebase
+- Designs screenshots as advertisements, not UI showcases
+- Writes compelling copy using proven App Store patterns
+- Exports PNGs at all 4 Apple-required sizes (6.9", 6.5", 6.3", 6.1")
+- Supports multi-language screenshot sets with RTL-aware layouts
+- Includes reusable theme presets for rapid art direction testing
+- Provides bulk export across locale/device/theme combinations
+
+## Installation
+
+<Callout type="tip">
+Use 6.1 inch simulator to capture starting screenshots — this prevents image adjustment issues later.
+</Callout>
+
+Install using npx skills (works with Claude Code, Cursor, Windsurf):
+
+```bash
+npx skills add ParthJadhav/app-store-screenshots
+```
+
+Install globally across all projects:
+
+```bash
+npx skills add ParthJadhav/app-store-screenshots -g
+```
+
+Manual installation:
+
+```bash
+git clone https://github.com/ParthJadhav/app-store-screenshots ~/.claude/skills/app-store-screenshots
+```
+
+## Basic Usage
+
+The skill triggers automatically when you ask your AI agent to build App Store screenshots:
+
+```text
+Build App Store screenshots for my habit tracker.
+The app helps people stay consistent with daily routines.
+I want 6 slides, clean/minimal style, warm neutrals, and a calm premium feel.
+```
+
+The agent will ask about your app's brand colors, features, style direction, and number of slides before generating the complete screenshot system.
+
+<Callout type="info">
+Screenshots are designed at 1320x2868 (largest resolution) and automatically scaled down for smaller device sizes.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript/React with Next.js
+- **Community**: 3,515 GitHub stars
+- **Tech Stack**: Next.js, Tailwind CSS, html-to-image for PNG export
+- **Apple Approved**: Example app (Bloom) successfully approved and published

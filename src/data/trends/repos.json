@@ -4402,7 +4402,7 @@
       "language": "Unknown",
       "url": "https://github.com/ParthJadhav/app-store-screenshots",
       "first_seen": "2026-03-31",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "agentic-ai",
         "apple",
@@ -4432,7 +4432,7 @@
       "language": "TypeScript",
       "url": "https://github.com/CN-Syndra/ClawLink",
       "first_seen": "2026-03-31",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [
         "agent",
         "agent-social-network",
@@ -5437,7 +5437,8 @@
         "skills"
       ],
       "category": "Other",
-      "version": "v0.3.1"
+      "version": "v0.3.1",
+      "blurb": "Graphify is an AI coding assistant skill that converts folders of code, documentation, papers, or images into queryable knowledge graphs. It helps developers understand codebases faster by extracting and visualizing relationships between components, architectural decisions, and design rationale across multiple file types. The tool uses a two-pass approach combining deterministic AST parsing with Claude-powered concept extraction, requiring 71.5x fewer tokens per query compared to reading raw files."
     }
   }
 }

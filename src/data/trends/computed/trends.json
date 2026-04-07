@@ -1019,7 +1019,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "`free-code` is a modified build of Anthropic's Claude Code CLI tool with telemetry, security guardrails, and experimental feature gates removed. It provides a terminal-native AI coding agent that works with multiple model providers (Anthropic, OpenAI, etc.) without phoning home or applying additional prompt-level restrictions beyond the model's inherent training. The project unlocks 54 experimental features that are disabled in the official release and eliminates all analytics/crash reporting functionality."
     },
     {
       "full_name": "HKUDS/OpenHarness",

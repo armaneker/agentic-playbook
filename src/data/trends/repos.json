@@ -4492,7 +4492,7 @@
       "language": "TypeScript",
       "url": "https://github.com/instructkr/claude-code",
       "first_seen": "2026-03-31",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -5480,7 +5480,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "`free-code` is a modified build of Anthropic's Claude Code CLI tool with telemetry, security guardrails, and experimental feature gates removed. It provides a terminal-native AI coding agent that works with multiple model providers (Anthropic, OpenAI, etc.) without phoning home or applying additional prompt-level restrictions beyond the model's inherent training. The project unlocks 54 experimental features that are disabled in the official release and eliminates all analytics/crash reporting functionality."
     }
   }
 }

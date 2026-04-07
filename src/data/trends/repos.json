@@ -5394,7 +5394,7 @@
         "resume"
       ],
       "category": "Agentic",
-      "version": null,
+      "version": "v1.2.0",
       "blurb": "Career-Ops is an AI-powered job search automation system built on Claude Code that provides structured evaluation, tracking, and application generation for software engineering roles. It automatically scores job opportunities using a weighted A-F system across 10 dimensions, generates ATS-optimized PDFs tailored to specific job descriptions, and scrapes job portals in batch to maintain a centralized pipeline dashboard. The system is designed to be customized by Claude itself, allowing users to modify scoring criteria, company lists, and evaluation frameworks through natural language requests."
     },
     "sooryathejas/METATRON": {

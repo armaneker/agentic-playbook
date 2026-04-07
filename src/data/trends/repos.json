@@ -5262,7 +5262,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v1.6.4",
       "blurb": "Boneyard is a TypeScript framework that automatically generates pixel-perfect skeleton loading screens by extracting DOM element positions from your actual components. It eliminates the need to manually create placeholder layouts by using `getBoundingClientRect()` to capture real element dimensions and positions, then rendering matching gray rectangles during loading states. The framework includes responsive breakpoint support and generates skeletons via a CLI build step that snapshots your running application."
     },
     "dreddnafious/thereisnospoon": {
@@ -5420,6 +5420,24 @@
       "category": "Other",
       "version": null,
       "blurb": "GuppyLM is a 9M parameter language model trained to behave like a pet fish, speaking in short lowercase sentences about water, food, and tank life. It serves as an educational project demonstrating that building a complete LLM from scratch—including data generation, tokenization, and training—can be done in 5 minutes on a single Colab GPU. The model uses a vanilla transformer architecture with no modern optimizations, making it simple to understand and modify."
+    },
+    "safishamsi/graphify": {
+      "full_name": "safishamsi/graphify",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, OpenClaw). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "language": "Python",
+      "url": "https://github.com/safishamsi/graphify",
+      "first_seen": "2026-04-07",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "codex",
+        "graphrag",
+        "knowledge-graph",
+        "openclaw",
+        "skills"
+      ],
+      "category": "Other",
+      "version": "v0.3.1"
     }
   }
 }

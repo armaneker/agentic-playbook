@@ -1,0 +1,61 @@
+<GuideHeader tool="claude-code-sourcemap" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# claude-code-sourcemap
+
+An unofficial reconstruction of Anthropic's Claude Code CLI source from the published npm package's source maps. This repository reverse-engineers the TypeScript source code from version 2.1.88 of `@anthropic-ai/claude-code`.
+
+## What it does
+
+- **Source reconstruction** - Extracts 4,756 files (1,884 TypeScript/TSX) from `cli.js.map`
+- **Tool implementations** - Provides 30+ tools including Bash, FileEdit, Grep, and MCP integrations
+- **Command system** - Implements 40+ commands for commit, review, config operations
+- **Multi-agent coordination** - Includes coordinator patterns and assistant modes
+- **Plugin architecture** - Supports extensible plugin and skills systems
+- **Voice interaction** - Contains voice interface components
+- **Vim integration** - Includes Vim mode support
+
+<Callout type="warning">
+This is an **unofficial** reconstruction for research purposes only. It does not represent Anthropic's internal development structure and should not be used commercially.
+</Callout>
+
+## Installation
+
+The original package can be installed from npm:
+
+```bash
+npm install @anthropic-ai/claude-code
+```
+
+For the reconstructed source:
+
+```bash
+git clone https://github.com/ChinaSiro/claude-code-sourcemap.git
+cd claude-code-sourcemap
+npm install
+```
+
+## Basic usage
+
+The CLI entry point is located in `restored-src/src/main.tsx`. Key components include:
+
+```typescript
+// Tool usage example
+import { BashTool } from './tools/bash';
+import { FileEditTool } from './tools/file-edit';
+
+// Command execution
+import { CommitCommand } from './commands/commit';
+import { ReviewCommand } from './commands/review';
+```
+
+<Callout type="info">
+The reconstructed source maintains the original directory structure with tools, commands, services, and utilities organized in separate modules.
+</Callout>
+
+## Notable details
+
+- **Language**: TypeScript/TSX with React components
+- **License**: Unknown (source code copyright belongs to Anthropic)
+- **Community**: 8,582 GitHub stars
+- **Version**: Reconstructed from npm package version 2.1.88
+- **Architecture**: CLI-based with plugin system, multi-agent coordination, and voice interface support

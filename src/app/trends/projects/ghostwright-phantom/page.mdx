@@ -1,0 +1,59 @@
+<GuideHeader tool="phantom" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Phantom
+
+Phantom is an AI co-worker that runs on its own dedicated computer with persistent memory and self-evolving capabilities. Built on the Claude Agent SDK, it operates through Slack, email, and other channels to build real infrastructure and tools.
+
+## Key Features
+
+- **Persistent workspace** - Runs on its own VM, installs software, manages databases
+- **Self-evolution** - Creates and registers new tools as MCP resources
+- **Multi-channel communication** - Slack, email, Telegram, webhooks
+- **Secure credential management** - Handles API keys and secrets safely
+- **Infrastructure building** - Spins up databases, creates dashboards, builds APIs
+- **Memory retention** - Remembers context across sessions and conversations
+- **Public deployment** - Built tools get URLs you can share with teams
+
+## Installation
+
+### Docker (Recommended)
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/ghostwright/phantom/main/docker-compose.user.yaml -o docker-compose.yaml
+curl -fsSL https://raw.githubusercontent.com/ghostwright/phantom/main/.env.example -o .env
+# Edit .env - add ANTHROPIC_API_KEY, Slack tokens, and OWNER_SLACK_USER_ID
+docker compose up -d
+```
+
+<Callout type="warning">
+The Docker setup mounts `/var/run/docker.sock` giving Phantom root-equivalent access to the Docker daemon. Run on a dedicated machine, not your personal workstation.
+</Callout>
+
+### Managed Option
+
+Get a free Phantom on a dedicated VM at [ghostwright.dev/phantom](https://ghostwright.dev/phantom).
+
+## Basic Usage
+
+Once running, Phantom will DM you on Slack when ready. You can then:
+
+```
+"Build me a dashboard showing our GitHub issues"
+"Set up a dev Postgres database for the new project"
+"Create a Chrome extension that highlights overdue emails"
+"Monitor this API and alert me if it goes down"
+```
+
+Phantom builds infrastructure on its own machine and provides public URLs for dashboards, APIs, and tools.
+
+<Callout type="tip">
+Unlike chatbots, Phantom remembers what you built last week and can extend or modify previous work without starting from scratch.
+</Callout>
+
+## Notable Details
+
+- **License**: Apache 2.0
+- **Language**: TypeScript (runs on Bun)
+- **Community**: 1,222 stars on GitHub
+- **MCP Integration**: Works as both client and server in the Model Context Protocol ecosystem
+- **Test Coverage**: 822 passing tests

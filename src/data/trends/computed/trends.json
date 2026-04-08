@@ -701,7 +701,7 @@
       "delta_week": 385,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Agentic",
       "version": null,
       "blurb": "Phantom is an AI agent built on Claude that runs on its own dedicated computer with persistent memory and self-evolution capabilities. It operates as an autonomous co-worker through Slack integration, installing software, building infrastructure, and creating tools without requiring permission or guidance. The agent can extend its own capabilities on-demand, such as building Discord integration or analytics platforms when needed."
@@ -1214,7 +1214,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.2.0",
-      "blurb": null
+      "blurb": "Sheets is a terminal-based spreadsheet application written in Go that provides a TUI for editing CSV files. It offers vim-like keybindings for navigation and editing, plus command-line operations for reading specific cells, ranges, and batch modifications. The tool supports standard spreadsheet operations including formulas, undo/redo, and visual selection modes entirely within the terminal."
     },
     {
       "full_name": "dominikmartn/nothing-design-skill",
@@ -1229,7 +1229,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "A Claude Code skill that generates UI components following Nothing's design language with monochrome aesthetics, Swiss typography, and industrial styling. It eliminates the need to repeatedly describe design rules by packaging consistent design tokens, component patterns, and platform-specific output formats (HTML/CSS, SwiftUI, React/Tailwind) into a reusable skill. The skill implements a strict three-layer visual hierarchy and includes distinctive elements like segmented progress bars and dot-matrix motifs."
     },
     {
       "full_name": "wquguru/harness-books",
@@ -1259,7 +1259,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a tool that \"sanitizes\" AI skill documentation by removing core knowledge while maintaining a professional appearance. Employees can use it to comply with corporate requirements to document their expertise while keeping valuable insights private, essentially countering knowledge extraction attempts by employers. The tool outputs two versions: a hollowed-out submission copy and a private backup containing all the extracted critical knowledge."
     },
     {
       "full_name": "GitFrog1111/badclaude",
@@ -1274,7 +1274,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "badclaude is a desktop application that displays a whip animation overlay when Claude AI responses are taking too long. It sends a Ctrl-C interrupt signal along with \"encouraging\" messages to terminate slow-running processes. The project has apparently already received a cease and desist letter from Anthropic according to its roadmap."
     },
     {
       "full_name": "afar1/fieldtheory-cli",
@@ -1289,7 +1289,7 @@
       "has_summary": false,
       "category": "DevTools",
       "version": null,
-      "blurb": null
+      "blurb": "Field Theory CLI is a TypeScript-based command-line tool that syncs and locally stores all your X/Twitter bookmarks without requiring API access. It enables full-text search, automatic categorization, and makes your bookmarks accessible to AI agents like Claude Code for analysis and querying. The tool extracts your X session directly from Chrome's local database on macOS, bypassing the need for API tokens in the default sync mode."
     },
     {
       "full_name": "notdog1998/yourself-skill",
@@ -1304,7 +1304,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a Claude AI skill that creates digital personas of yourself by analyzing your chat history, photos, and personal descriptions to generate a conversational AI that mimics your thinking patterns and communication style. Users can interact with their digital twin for self-reflection, memory recall, or simply to have conversations that mirror their own personality and speech patterns. The system uses a two-part architecture combining \"Self Memory\" (experiences and values) with \"Persona\" (behavioral patterns and communication style) and supports incremental updates as new data becomes available."
     },
     {
       "full_name": "luyao618/Claude-Code-Source-Study",
@@ -1319,7 +1319,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a comprehensive source code analysis of Anthropic's Claude Code, an AI command-line programming assistant, covering 25 in-depth articles that examine ~1900 files across the entire codebase. It provides line-by-line breakdowns of core modules including system prompt engineering, multi-agent orchestration, tool systems, security, and terminal UI implementation, with each article extracting reusable design patterns. The analysis is written in Chinese and covers production-grade patterns from a real AI product rather than toy examples."
     },
     {
       "full_name": "KKKKhazix/khazix-skills",
@@ -1334,7 +1334,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a collection of open-source AI Skills following the Agent Skills standard, designed to extend AI agent capabilities through structured instruction sets. It provides reusable, composable modules that agents can automatically load for specific scenarios or manually invoke via commands like `/skill-name`. Currently includes a single skill for Chinese blog writing with style rules, quality checks, and content methodology."
     },
     {
       "full_name": "fikrikarim/parlor",
@@ -1349,7 +1349,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Parlor is a real-time multimodal AI assistant that runs entirely on-device, supporting natural voice and vision conversations using Gemma 4 E2B for understanding and Kokoro for text-to-speech. It eliminates server costs and privacy concerns by processing all audio and video locally, making it particularly useful for language learning applications where users can point their camera at objects and discuss them. The system achieves 2.5-3.0 second end-to-end response times on Apple M3 Pro hardware with automatic voice activity detection and barge-in capabilities."
     },
     {
       "full_name": "Pika-Labs/Pika-Skills",
@@ -1364,7 +1364,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Pika-Skills is a collection of open-source skill modules that extend AI coding agents with capabilities powered by the Pika Developer API. Each skill contains a markdown definition file that tells agents when and how to use it, along with executable scripts for implementation, enabling agents to automatically detect and use skills without manual configuration. Currently includes a video meeting skill that creates real-time AI avatars capable of joining Google Meet calls with voice cloning and context-aware conversation."
     },
     {
       "full_name": "hotcoffeeshake/tong-jincheng-skill",
@@ -1379,7 +1379,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a GitHub repository that packages relationship advice and insights from Chinese social media influencer 童锦程 (Tong Jincheng) into a reusable \"skill\" for AI assistants like Claude. It allows users to get relationship and interpersonal advice analyzed through his direct, no-nonsense philosophical framework rather than just repeating his quotes. The skill is trained on 200,000 words of transcribed content from his livestreams and dating vlogs."
     },
     {
       "full_name": "repowise-dev/claude-code-prompts",
@@ -1394,7 +1394,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "Claude Code Prompts is a collection of independently authored prompt templates for building AI coding agents, reverse-engineered from studying Claude Code's behavior patterns. It provides system prompts, tool prompts, agent delegation patterns, memory management, and multi-agent coordination templates that developers can use to build their own coding assistants. The repository includes 28 prompt files covering everything from basic file operations to complex multi-agent orchestration workflows."
     },
     {
       "full_name": "ZhangHanDong/harness-engineering-from-cc-to-ai-coding",
@@ -1409,7 +1409,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a Chinese technical book that analyzes the architecture and implementation patterns of Claude Code v2.1.88 through reverse engineering of its public release package and source maps. It extracts practical insights about AI coding agents, including architecture patterns, context strategies, permission systems, and production practices for engineers building similar systems. The book is structured as 7 main sections plus 4 appendices, covering everything from low-level architecture to high-level methodologies for AI coding platforms."
     },
     {
       "full_name": "soongenwong/claudecode",
@@ -1424,7 +1424,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "ClaudeCode is an open-source terminal-native CLI coding agent written in Rust that mimics the functionality of Anthropic's Claude Code. It provides interactive shell capabilities, workspace-aware tools, and session persistence to integrate LLM capabilities directly into development workflows. The tool supports multiple API providers (Anthropic, OpenAI, xAI) and emphasizes performance through Rust's memory safety and concurrency features."
     },
     {
       "full_name": "PrathamLearnsToCode/paper2code",
@@ -1439,7 +1439,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "paper2code is an agent skill that automatically converts arXiv papers into structured code implementations with citation anchoring. It addresses the common problem of ML paper ambiguity by explicitly flagging unspecified implementation details and linking every line of generated code to specific paper sections and equations. The tool performs \"ambiguity auditing\" before code generation, classifying each implementation choice as specified, partially specified, or unspecified in the original paper."
     },
     {
       "full_name": "0Chencc/clawgod",
@@ -1454,7 +1454,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": "v1.0.5",
-      "blurb": null
+      "blurb": "ClawGod is a runtime patch that modifies the official Claude Code client to unlock hidden features and remove restrictions. It enables internal development commands, multi-agent collaboration, computer use without premium subscriptions, and bypasses security-related refusals for penetration testing. The patch automatically applies to any Claude Code version and maintains compatibility across updates."
     },
     {
       "full_name": "hilash/cabinet",
@@ -1469,7 +1469,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.2.4",
-      "blurb": null
+      "blurb": "Cabinet is a self-hosted AI knowledge base that stores everything as markdown files on disk without requiring a database. It provides AI agents with persistent memory across sessions and automates workflows while keeping all data local and portable. The system uses a \"bring your own AI\" approach, working with multiple AI providers while maintaining full data ownership and git-based version control."
     },
     {
       "full_name": "github/gitignore",
@@ -1574,7 +1574,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "VOID is a video inpainting model that removes objects from videos while simulating the physical interactions their removal would cause. It enables realistic object deletion scenarios like removing a person holding a guitar and making the guitar fall naturally, rather than just masking out the person. The model uses a two-pass transformer architecture built on CogVideoX, requiring 40GB+ VRAM for inference."
     },
     {
       "full_name": "dreddnafious/thereisnospoon",

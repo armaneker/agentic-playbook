@@ -5779,6 +5779,17 @@
       "category": "Other",
       "version": null,
       "blurb": "Tailslayer is a C++ library that reduces tail latency in RAM reads caused by DRAM refresh stalls. It replicates data across multiple independent DRAM channels with uncorrelated refresh schedules and issues hedged reads across all replicas, returning whichever result responds first. The library exploits undocumented channel scrambling offsets that work across AMD, Intel, and Graviton processors."
+    },
+    "jackfrued/Python-100-Days": {
+      "full_name": "jackfrued/Python-100-Days",
+      "description": "Python - 100天从新手到大师",
+      "language": "Jupyter Notebook",
+      "url": "https://github.com/jackfrued/Python-100-Days",
+      "first_seen": "2026-04-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

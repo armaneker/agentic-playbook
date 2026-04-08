@@ -5808,7 +5808,8 @@
         "cli"
       ],
       "category": "Agentic",
-      "version": "v1.6.9"
+      "version": "v1.6.9",
+      "blurb": "OpenCLI is a universal CLI hub that converts websites, Electron apps, and local binaries into standardized command-line interfaces. It enables both humans and AI agents to interact with web services through deterministic CLI commands instead of browser automation, while reusing existing logged-in browser sessions. The tool includes 70+ pre-built adapters for popular sites and can generate new adapters by recording browser interactions."
     }
   }
 }

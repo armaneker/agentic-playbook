@@ -5959,7 +5959,8 @@
         "persona-distill"
       ],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "A curated collection of \"persona distillation\" skills that extract communication styles, decision frameworks, and behavioral patterns from chat logs, documents, and digital traces of various personas including colleagues, mentors, public figures, and personal relationships. Users can create AI agents that mimic specific individuals' interaction styles for purposes like memory preservation, communication training, or applying notable figures' methodologies to their own work. The project emphasizes that persona distillation extracts interaction patterns rather than attempting complete personality replication of real individuals."
     },
     "Houseofmvps/codesight": {
       "full_name": "Houseofmvps/codesight",
@@ -5985,7 +5986,8 @@
         "token-savings"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "Codesight is a CLI tool that generates compressed, AI-optimized context summaries of codebases to reduce token usage in AI coding assistants. It analyzes project structure, dependencies, and code patterns to create concise documentation that helps AI tools understand your codebase without needing to process thousands of tokens repeatedly. It supports 13+ languages with AST-level precision for TypeScript and includes 30+ framework detectors plus MCP server capabilities."
     }
   }
 }

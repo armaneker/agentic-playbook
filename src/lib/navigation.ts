@@ -12,6 +12,7 @@ export const navigation: NavItem[] = [
       { title: 'What is Agentic Playbook?', href: '/getting-started' },
       { title: 'Your First Agent in 15 Minutes', href: '/getting-started/first-agent' },
       { title: 'AI Agents & Memory', href: '/getting-started/agent-memory' },
+      { title: 'The RPI Loop', href: '/getting-started/rpi-loop' },
     ],
   },
   {

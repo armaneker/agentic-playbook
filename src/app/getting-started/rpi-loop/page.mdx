@@ -1,0 +1,99 @@
+<GuideHeader tool="General" difficulty="Beginner" lastTested="2026-04" readTime="10 min" />
+
+# The Research-Plan-Implement Loop
+
+A structured workflow for using AI agents as engineering collaborators instead of autocomplete tools.
+
+## Why a Loop?
+
+AI agents lack business judgment. They'll write hundreds of lines of code based on wrong assumptions if you let them. The RPI loop prevents this by separating discovery, design, and execution into distinct phases — each with its own constraints.
+
+The core idea: a bad line of research leads to a bad plan, which leads to hundreds of lines of bad code. Catch mistakes early.
+
+## Phase 1: Research
+
+Goal: achieve complete system discovery without writing a single line of code.
+
+Use a restricted mode where the agent can read files and search the codebase but cannot edit anything. This prevents premature assumptions that cascade into broken implementations.
+
+**What to do in this phase:**
+
+- **System mapping** — identify exactly which files, APIs, and data structures are involved in the task
+- **Pattern discovery** — ask the agent to find existing conventions in the codebase (e.g., "How are error states handled in our existing controllers?")
+- **Edge case brainstorming** — use the agent's breadth of knowledge to surface unknowns you haven't considered
+
+**Output:** a research document (Markdown) that summarizes the current state and the proposed technical path. Commit it to the repo.
+
+<Callout type="tip" title="Restricted Mode">
+  Most AI coding tools support a read-only or "ask" mode. Use it. The agent should explore and report, not execute.
+</Callout>
+
+## Phase 2: Planning
+
+Planning is the highest-leverage use of your engineering time. Transform the research document into a rigorous execution spec.
+
+**A good plan includes:**
+
+- **Scope boundaries** — explicitly define what the agent should *not* touch to prevent regressions
+- **Step-by-step filesystem changes** — list the specific files to create or modify
+- **Verification commands** — define the exact test commands (`npm test`, `pytest`, etc.) that confirm success at each step
+
+**Store the plan in the repo** (e.g., in a `/plans` directory). This creates an audit trail and gives the agent a concrete reference during implementation.
+
+<Callout type="warning" title="Don't Skip Planning">
+  Engineers who jump from research to implementation consistently produce more rework. The plan is where you exercise judgment — the agent handles execution.
+</Callout>
+
+## Phase 3: Implementation
+
+Start a fresh session for implementation. Do not carry over the entire research transcript.
+
+### The Context Window Problem
+
+LLM performance degrades once the context window fills past ~50%. Two strategies to manage this:
+
+- **Context isolation** — start a new session. Only provide the plan file and the specific files identified during research.
+- **Summary and reset** — if a debugging session gets long, ask the agent to summarize progress, then start a new session with that summary as the starting point.
+
+### Verification at Each Step
+
+After each step in the plan, run the verification command before moving on. If a step fails, fix it before the agent continues — errors compound fast.
+
+## Standardizing Agent Behavior
+
+Use metadata files in the repo root so every agent session starts with the same context.
+
+### CLAUDE.md (or agents.md)
+
+This is the "README" for your AI collaborator. Include:
+
+- **Conventions** — linting rules, naming patterns, architectural preferences
+- **Environment context** — build commands, test suites, deployment triggers
+- **Approval gates** — tools the agent can use autonomously vs. those requiring human confirmation
+
+### Skills
+
+Reusable playbooks for recurring workflows (e.g., "updating the changelog," "generating API docs," "optimizing database queries"). Skills load on demand to keep the primary context window clean. See the [Skills section](/skills) for how to structure them.
+
+## The Model Context Protocol (MCP)
+
+MCP lets agents interact with tools beyond the IDE:
+
+- **GitHub MCP** — look up pull requests, issues, and historical comments for architectural context
+- **Documentation MCP** — fetch up-to-date framework docs, bypassing the LLM's training cutoff
+- **Database MCP** — query schema definitions directly
+
+<Callout type="info" title="Token Budget">
+  Every enabled MCP server adds system prompt weight. Disable MCPs you don't need for the current task — token bloat degrades agent focus.
+</Callout>
+
+## Checklist
+
+Before starting any agentic engineering task:
+
+- **Isolate** — one task per session
+- **Research first** — read-only mode, no edits until you have a plan
+- **Plan in the repo** — commit the plan file before implementation starts
+- **Monitor context** — watch the context window; reset if performance degrades
+- **Persist rules** — keep conventions in `CLAUDE.md`, not in chat history
+- **Review everything** — treat every agent output as you would a junior engineer's work

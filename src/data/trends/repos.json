@@ -5820,7 +5820,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v1.1"
+      "version": "v1.1",
+      "blurb": "Gemma Multimodal Fine-Tuner is a tool for fine-tuning Google's Gemma language models on text, image, and audio data using Apple Silicon Macs. It enables training multimodal LoRA adapters without requiring NVIDIA GPUs, and supports streaming large datasets from cloud storage (GCS/BigQuery) without filling local storage. The tool includes a real-time training visualizer that displays loss curves, attention heatmaps, and token predictions in a browser interface during training."
     },
     "Nightmare-Eclipse/BlueHammer": {
       "full_name": "Nightmare-Eclipse/BlueHammer",
@@ -5831,7 +5832,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "BlueHammer is a proof-of-concept exploit for an undisclosed vulnerability, hosted as a C-based repository. Security researchers would use this to understand the attack vector and develop appropriate mitigations. The author notes there are bugs in the current PoC that may prevent it from functioning properly."
     },
     "snarktank/clawchief": {
       "full_name": "snarktank/clawchief",
@@ -5842,7 +5844,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v3.0.0"
+      "version": "v3.0.0",
+      "blurb": "clawchief is a Python-based starter kit that transforms OpenClaw into a chief-of-staff operating system for founders and executives. It provides an opinionated workflow architecture with Todoist integration for task management, Google Workspace automation scripts, and policy files for prioritization, meeting notes, and knowledge compilation. The system separates concerns across nine distinct layers, from priority mapping to live task execution, designed to create a portable and deterministic executive workflow."
     },
     "LarsenCundric/port-whisperer": {
       "full_name": "LarsenCundric/port-whisperer",
@@ -5853,7 +5856,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Port-whisperer is a CLI tool that displays all processes listening on network ports in a formatted table with framework detection and process details. It helps developers quickly identify which services are running on specific ports and manage them interactively, filtering out system processes by default to focus on development servers. The tool includes Docker container identification and can kill processes by port number or PID."
     },
     "jinchenma94/bazi-skill": {
       "full_name": "jinchenma94/bazi-skill",
@@ -5864,7 +5868,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "A Claude Code skill that performs traditional Chinese Bazi (Four Pillars) fortune telling analysis by collecting birth information and generating astrological charts. It systematically analyzes the user's birth data against nine classical Chinese divination texts to provide insights on career, relationships, and health. The tool references traditional texts like \"Qiong Tong Bao Dian\" and \"San Ming Tong Hui\" for authentic fortune-telling methodology."
     },
     "phuryn/claude-usage": {
       "full_name": "phuryn/claude-usage",
@@ -5877,7 +5882,8 @@
         "claude-code"
       ],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Claude Code Usage Dashboard is a local Python tool that parses Claude Code's JSONL usage logs to provide token usage tracking and cost estimates. It fills visibility gaps in Anthropic's official UI by showing detailed statistics, charts, and session history for API, Pro, and Max plan users across CLI, VS Code extension, and dispatched sessions. The tool requires zero dependencies beyond Python's standard library and uses incremental scanning to efficiently process only new or changed log files."
     },
     "wxtsky/CodeIsland": {
       "full_name": "wxtsky/CodeIsland",
@@ -5888,7 +5894,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v1.0.16"
+      "version": "v1.0.16",
+      "blurb": "CodeIsland is a macOS menubar app that displays real-time status of AI coding agents in the MacBook's Dynamic Island/notch area. It connects to 9 different AI coding tools via Unix sockets to show active sessions, tool calls, and permission requests without requiring window switching. The app features pixel-art mascots for each AI tool and can jump directly to the corresponding terminal tab or IDE window when clicked."
     },
     "alchaincyf/steve-jobs-skill": {
       "full_name": "alchaincyf/steve-jobs-skill",
@@ -5899,7 +5906,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a Chinese GitHub project that implements a cognitive operating system based on Steve Jobs' thinking patterns, containing 6 mental models, 8 decision heuristics, and communication DNA extracted from 30+ primary sources. It allows users to interact with an AI that responds using Jobs' actual cognitive frameworks rather than just repeating famous quotes. The project was generated using a \"Nuwa.skill\" framework and includes detailed research documentation and conversation examples."
     },
     "adamlyttleapps/claude-skill-app-onboarding-questionnaire": {
       "full_name": "adamlyttleapps/claude-skill-app-onboarding-questionnaire",
@@ -5910,7 +5918,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "A Claude Code skill that automatically generates high-converting questionnaire-style onboarding flows for mobile apps by analyzing your codebase and applying proven conversion patterns from successful subscription apps. It creates a complete 14-screen psychological framework including copy, interactive elements, and functional code in your app's native framework (SwiftUI, React Native, Flutter). Unlike basic questionnaire generators, it builds an actual mini-demo of your app's core functionality within the onboarding flow and auto-detects required permissions to create benefit-framed priming screens."
     },
     "alchaincyf/zhangxuefeng-skill": {
       "full_name": "alchaincyf/zhangxuefeng-skill",
@@ -5921,7 +5930,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a conversational AI skill that simulates the cognitive framework and decision-making approach of Zhang Xuefeng, a prominent Chinese educational consultant known for pragmatic college and career advice. It provides guidance on academic choices, career planning, and life decisions using Zhang's signature analytical methods like \"employment backward reasoning\" and \"social filter theory\" rather than simply parroting his quotes. The skill was generated using the Nuwa.skill framework and is based on extensive research including 5 books, 15+ interviews, and 30+ direct quotes from Zhang Xuefeng."
     },
     "ShandaAI/AlayaRenderer": {
       "full_name": "ShandaAI/AlayaRenderer",
@@ -5932,7 +5942,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "AlayaRenderer is an AI-native rendering system for games and virtual worlds that uses fine-tuned video diffusion models for inverse and forward rendering tasks. It enables decomposing RGB videos into G-buffer maps (albedo, normal, depth, etc.) and synthesizing stylized RGB videos from G-buffers with text-controllable lighting and style. The project includes a large-scale dataset with 4M+ frames from AAA games like Cyberpunk 2077 and Black Myth: Wukong, featuring synchronized RGB and G-buffer channels."
     }
   }
 }

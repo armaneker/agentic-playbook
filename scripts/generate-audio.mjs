@@ -13,33 +13,14 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
+import { GUIDE_PAGES } from './lib/guide-pages.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, '..');
 const APP_DIR = path.join(ROOT, 'src/app');
 const AUDIO_DIR = path.join(ROOT, 'public/audio');
+const TRANSCRIPT_DIR = path.join(ROOT, 'public/transcripts');
 const MANIFEST_PATH = path.join(ROOT, 'src/data/audio-manifest.json');
-
-// Guide pages to generate audio for (relative to src/app/)
-const GUIDE_PAGES = [
-  'getting-started/first-agent',
-  'getting-started/agent-memory',
-  'openclaw/architecture',
-  'openclaw/agent-roles',
-  'openclaw/create-slack-agent',
-  'openclaw/cli-reference',
-  'openclaw/deployment',
-  'openclaw/security',
-  'openclaw/mission-control',
-  'skills/anatomy',
-  'skills/frontmatter',
-  'skills/steps',
-  'skills/references',
-  'skills/scripts',
-  'skills/progressive-loading',
-  'skills/testing',
-  'about/contributing',
-];
 
 const LANGUAGE = 'en'; // Pre-generate English only; other languages use API fallback
 
@@ -208,12 +189,19 @@ async function main() {
       continue;
     }
 
-    const mdxContent = fs.readFileSync(mdxPath, 'utf-8');
-    const plainText = mdxToPlainText(mdxContent);
-    const contentHash = hashContent(plainText);
-
-    // Check if already generated and unchanged
     const slug = pagePath.replace(/\//g, '-');
+
+    // Prefer human-readable transcript over regex-stripped MDX
+    const transcriptPath = path.join(TRANSCRIPT_DIR, `${slug}.md`);
+    let plainText;
+    if (fs.existsSync(transcriptPath)) {
+      plainText = fs.readFileSync(transcriptPath, 'utf-8').trim();
+    } else {
+      const mdxContent = fs.readFileSync(mdxPath, 'utf-8');
+      plainText = mdxToPlainText(mdxContent);
+      console.log(`    WARN: No transcript found, using MDX fallback`);
+    }
+    const contentHash = hashContent(plainText);
     const audioPath = path.join(AUDIO_DIR, `${slug}-${LANGUAGE}.mp3`);
 
     if (!force && manifest[pagePath]?.hash === contentHash && fs.existsSync(audioPath)) {

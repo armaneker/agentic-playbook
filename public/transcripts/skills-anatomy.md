@@ -1,0 +1,17 @@
+A skill is essentially a folder that contains one mandatory file, known as SKILL.md, along with optional directories that can provide additional support. The structure is designed with three tiers of progressive loading, which means the agent only retrieves the information it needs at the moment it needs it.
+
+The required SKILL.md file serves as the core of the skill, containing metadata and instructions. While everything else is optional, it can enhance the skill's functionality. The optional directories include one for references, which might contain static documents, examples, or data, and another for scripts, which can hold executable code.
+
+The first tier is always loaded and consists of the YAML frontmatter. This section defines the skill's identity, including its name, description, and any tools it requires. The description is particularly crucial, as it determines whether the agent will activate the skill. A clear and specific description will improve the skill's chances of being triggered effectively.
+
+In the second tier, when the agent determines that a skill is relevant, it loads the full markdown body of SKILL.md. This section includes sequential steps that outline how the skill should operate, guidelines that apply across all steps, and the expected output format. Each step begins with an action verb, and sub-items clarify conditions and exceptions. References to files in the third tier are included inline, allowing the agent to know precisely when to access them.
+
+The third tier consists of the references and scripts directories, which contain supporting material that is loaded only when necessary. The references directory holds large, static content such as API documentation, calculation methodologies, and examples. The scripts directory contains executable code for tasks that require deterministic results, such as API integrations and data parsing.
+
+The importance of progressive loading cannot be overstated. Without it, every skill would load its entire content into the agent's context at startup. For instance, if you had 50 skills averaging 3,000 tokens each, that would consume 150,000 tokens before any user interaction. With the three-tier approach, only the essential components are loaded, significantly reducing memory usage and maintaining performance.
+
+To illustrate, consider a minimal skill designed to check deployment status. The YAML frontmatter contains a name and description that triggers on specific user queries. The steps outline how to identify the target service, check the current status using a script, and report back the findings. The guidelines ensure that the skill operates within defined boundaries, such as never triggering a deployment.
+
+In summary, the agent continuously references the description to determine relevance. When a user asks a specific question, the agent matches it, loads the necessary steps, executes the script, and provides a response based on real data rather than generating a potentially inaccurate answer. 
+
+For further development, you can explore topics such as writing effective YAML frontmatter, structuring steps for consistent execution, organizing supporting documentation, and incorporating executable code into skills.

@@ -3,6 +3,7 @@
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { Play, Pause, Square, Globe, Loader2 } from 'lucide-react';
 import { usePathname } from 'next/navigation';
+import { pathnameToSlug } from '@/lib/slug';
 
 type Status = 'idle' | 'loading' | 'playing' | 'paused';
 
@@ -16,17 +17,6 @@ const LANGUAGES = [
   { code: 'zh', label: '中文' },
   { code: 'ko', label: '한국어' },
 ];
-
-/**
- * Convert pathname like /openclaw/architecture/ to static audio filename
- * e.g. openclaw-architecture-en.mp3
- */
-function pathnameToAudioSlug(pathname: string): string {
-  return pathname
-    .replace(/^\//, '')
-    .replace(/\/$/, '')
-    .replace(/\//g, '-');
-}
 
 function extractPageText(): string {
   const article = document.querySelector('article');
@@ -96,7 +86,7 @@ export default function ReadAloud() {
 
       // For English, try static pre-generated file first
       if (language === 'en') {
-        const slug = pathnameToAudioSlug(pathname);
+        const slug = pathnameToSlug(pathname);
         const staticPath = `/audio/${slug}-en.mp3`;
         const check = await fetch(staticPath, { method: 'HEAD' });
         if (check.ok) {

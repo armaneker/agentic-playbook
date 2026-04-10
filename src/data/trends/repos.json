@@ -6029,6 +6029,88 @@
       "category": "Agentic",
       "version": null,
       "blurb": "This is a comprehensive guide book for Hermes Agent, an open-source AI Agent framework by Nous Research. It provides practical tutorials covering the framework's core mechanisms (learning loops, memory systems, skill creation) and real-world implementation scenarios for developers wanting to build AI agents. The guide is available as a free PDF download in both Chinese and English, structured as 17 chapters across 5 parts from basic concepts to advanced multi-agent scenarios."
+    },
+    "kessler/gemma-gem": {
+      "full_name": "kessler/gemma-gem",
+      "description": "Gemma Gem runs Google's Gemma 4 model entirely on-device via WebGPU — no API keys, no cloud, no data leaving your machine.",
+      "language": "TypeScript",
+      "url": "https://github.com/kessler/gemma-gem",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "chrome-extension",
+        "gemma4",
+        "gemma4-2b",
+        "gemma4-agent-skills",
+        "llm"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "xtclovver/RKNHardering": {
+      "full_name": "xtclovver/RKNHardering",
+      "description": "",
+      "language": "Kotlin",
+      "url": "https://github.com/xtclovver/RKNHardering",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.1.0"
+    },
+    "alchaincyf/x-mentor-skill": {
+      "full_name": "alchaincyf/x-mentor-skill",
+      "description": "X导师.skill — 女娲的第一个「非人类」作品。蒸馏6位顶级X创作者方法论 + 开源算法数据，提炼完整的选题-写作-增长操作手册。Made with 女娲.skill",
+      "language": "Unknown",
+      "url": "https://github.com/alchaincyf/x-mentor-skill",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tmstack/awesome-persona-skills": {
+      "full_name": "tmstack/awesome-persona-skills",
+      "description": "同事.skill、老板.skill、前任.skill、自己.skill、永生.skill、女娲.skill……  ",
+      "language": "Unknown",
+      "url": "https://github.com/tmstack/awesome-persona-skills",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "calesthio/OpenMontage": {
+      "full_name": "calesthio/OpenMontage",
+      "description": "World's first open-source, agentic video production system. 11 pipelines, 49 tools, 400+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "language": "Python",
+      "url": "https://github.com/calesthio/OpenMontage",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "ai",
+        "claude",
+        "copilot",
+        "cursor",
+        "elevenlabs",
+        "ffmpeg",
+        "flux",
+        "image-generation",
+        "open-source",
+        "openai",
+        "python",
+        "remotion",
+        "stable-diffusion",
+        "text-to-speech",
+        "text-to-video",
+        "video-generation",
+        "video-production"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

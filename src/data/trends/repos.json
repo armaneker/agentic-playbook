@@ -6126,7 +6126,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a static analysis repository documenting leaked TypeScript source code from Anthropic's Claude Code tool, which was inadvertently exposed through unremoved source maps in an npm package containing 1,902 files and 513,237 lines of code. The analysis examines the software architecture, security mechanisms, agent memory systems, tool integration capabilities, and sandbox isolation features of what appears to be a local code agent platform. The leak occurred in March 2026 when a security researcher discovered the complete source code publicly accessible via npm."
     }
   }
 }

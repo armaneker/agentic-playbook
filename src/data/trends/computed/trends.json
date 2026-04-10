@@ -1589,7 +1589,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "Gemma Gem is a Chrome extension that runs Google's Gemma 4 language model locally in the browser using WebGPU. It provides an AI assistant that can interact with web pages by reading content, clicking elements, filling forms, and executing JavaScript without sending any data to external servers. The extension uses an offscreen document architecture to handle model inference while content scripts manage DOM manipulation tools."
     },
     {
       "full_name": "xtclovver/RKNHardering",
@@ -1604,7 +1604,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v2.1.0",
-      "blurb": null
+      "blurb": "RKNHardering is an Android application that detects VPN and proxy usage on devices using methods developed by Russia's internet regulator (RKN). It runs six independent detection modules in parallel to identify circumvention tools through GeoIP analysis, system capabilities inspection, network interface scanning, location signals, and localhost bypass detection. The app implements the official RKN methodology for identifying tools used to bypass internet blocks and censorship."
     },
     {
       "full_name": "alchaincyf/x-mentor-skill",
@@ -1619,7 +1619,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "X导师.skill is a knowledge distillation system that encapsulates the content creation methodologies of six seven-figure X/Twitter creators into an AI skill framework. It provides topic selection, writing assistance, content review, and growth strategy guidance specifically optimized for X platform algorithms and engagement patterns. The project uses a progressive disclosure architecture where core execution logic is separated from detailed knowledge bases that load on-demand."
     },
     {
       "full_name": "tmstack/awesome-persona-skills",
@@ -1634,7 +1634,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Awesome Persona Skills is a curated collection of AI \"skills\" that allow users to distill and interact with digital personas of various people in their lives, from colleagues and bosses to ex-partners and famous figures. Users can create conversational AI agents based on chat logs, meeting notes, and other materials to simulate interactions with these personas for professional guidance, emotional support, or entertainment. The project spans categories from workplace relationships to business thinking, with some repositories offering anti-distillation tools for those who don't want to be \"distilled\" themselves."
     },
     {
       "full_name": "jackfrued/Python-100-Days",
@@ -1754,7 +1754,7 @@
       "has_summary": false,
       "category": "Agentic",
       "version": null,
-      "blurb": null
+      "blurb": "OpenMontage is an open-source agentic AI system that automates video production workflows through natural language prompts. It handles the complete pipeline from concept to final video including research, scripting, asset generation, editing, and composition using 11 specialized pipelines and 49 tools. The system integrates with AI coding assistants and can produce complete videos for under $2 using various AI providers for generation and Remotion for composition."
     },
     {
       "full_name": "0xGF/boneyard",

@@ -5108,14 +5108,14 @@
     },
     "HKUDS/OpenHarness": {
       "full_name": "HKUDS/OpenHarness",
-      "description": "\"OpenHarness: Open Agent Harness\"",
+      "description": "OpenHarness: Open Agent Harness with a built-in personal agent, Ohmo!",
       "language": "Python",
       "url": "https://github.com/HKUDS/OpenHarness",
       "first_seen": "2026-04-02",
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v0.1.6",
       "blurb": "OpenHarness is an open-source Python implementation of an agent harness that provides the complete infrastructure (tools, memory, safety boundaries) to wrap around LLMs and make them functional agents. It offers 43+ tools and is designed for researchers to understand, experiment with, and extend production AI agent architectures. The project is 44x lighter than Claude Code while maintaining 98% tool compatibility and includes comprehensive testing with 114 unit tests."
     },
     "Windy3f3f3f3f/how-claude-code-works": {
@@ -5427,7 +5427,7 @@
     },
     "safishamsi/graphify": {
       "full_name": "safishamsi/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, or images into a queryable knowledge graph",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, OpenClaw, Factory Droid, Trae). Turn any folder of code, docs, papers, images, videos, or YouTube links into a queryable knowledge graph",
       "language": "Python",
       "url": "https://github.com/safishamsi/graphify",
       "first_seen": "2026-04-07",
@@ -5993,7 +5993,7 @@
     },
     "Keychron/Keychron-Keyboards-Hardware-Design": {
       "full_name": "Keychron/Keychron-Keyboards-Hardware-Design",
-      "description": "All the industrial design files for Keychron keyboards and mice. Includes CAD models (case, plate, stabilizer, encoder, keycap) for Q, Q Pro, Q HE, K Pro, K Max, K HE, V Max, P HE series and M1–M7 mice. 100+ models. STEP/DXF/PDF formats. This project is source-available. Commercial use is strictly prohibited.",
+      "description": "Industrial design files for Keychron keyboards and mice. 100+ models with CAD assets in STEP, DXF, DWG, and PDF. Source-available, with commercial use allowed for original compatible accessories within the license terms.",
       "language": "Python",
       "url": "https://github.com/Keychron/Keychron-Keyboards-Hardware-Design",
       "first_seen": "2026-04-09",

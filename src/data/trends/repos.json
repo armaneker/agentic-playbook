@@ -4982,7 +4982,7 @@
     },
     "VoltAgent/awesome-design-md": {
       "full_name": "VoltAgent/awesome-design-md",
-      "description": "Collection of DESIGN.md files that capture design systems from popular websites. Drop one into your project and let coding agents build matching UI.",
+      "description": "A collection of DESIGN.md files inspired by popular brand design systems. Drop one into your project and let coding agents generate a matching UI.",
       "language": "HTML",
       "url": "https://github.com/VoltAgent/awesome-design-md",
       "first_seen": "2026-04-02",
@@ -4994,7 +4994,9 @@
         "design-tokens",
         "figma",
         "google-stitch",
-        "landing-page"
+        "landing-page",
+        "vibe-coding",
+        "vibe-design"
       ],
       "category": "Agentic",
       "version": null,
@@ -5797,7 +5799,7 @@
     "jackwener/OpenCLI": {
       "full_name": "jackwener/OpenCLI",
       "description": "Make Any Website & Tool Your CLI. A universal CLI Hub and AI-native runtime. Transform any website, Electron app, or local binary into a standardized command-line interface. Built for AI Agents to discover, learn, and execute tools seamlessly via a unified AGENT.md integration.",
-      "language": "TypeScript",
+      "language": "JavaScript",
       "url": "https://github.com/jackwener/OpenCLI",
       "first_seen": "2026-04-08",
       "has_summary": false,
@@ -6128,6 +6130,28 @@
       "category": "Other",
       "version": null,
       "blurb": "This is a static analysis repository documenting leaked TypeScript source code from Anthropic's Claude Code tool, which was inadvertently exposed through unremoved source maps in an npm package containing 1,902 files and 513,237 lines of code. The analysis examines the software architecture, security mechanisms, agent memory systems, tool integration capabilities, and sandbox isolation features of what appears to be a local code agent platform. The leak occurred in March 2026 when a security researcher discovered the complete source code publicly accessible via npm."
+    },
+    "garrytan/gbrain": {
+      "full_name": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "url": "https://github.com/garrytan/gbrain",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nesquena/hermes-webui": {
+      "full_name": "nesquena/hermes-webui",
+      "description": "Hermes WebUI",
+      "language": "Python",
+      "url": "https://github.com/nesquena/hermes-webui",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.43.1"
     }
   }
 }

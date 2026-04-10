@@ -6116,6 +6116,17 @@
       "category": "Agentic",
       "version": null,
       "blurb": "OpenMontage is an open-source agentic AI system that automates video production workflows through natural language prompts. It handles the complete pipeline from concept to final video including research, scripting, asset generation, editing, and composition using 11 specialized pipelines and 49 tools. The system integrates with AI coding assistants and can produce complete videos for under $2 using various AI providers for generation and Remotion for composition."
+    },
+    "liuup/claude-code-analysis": {
+      "full_name": "liuup/claude-code-analysis",
+      "description": "🤖 The analysis of Claude Code",
+      "language": "TypeScript",
+      "url": "https://github.com/liuup/claude-code-analysis",
+      "first_seen": "2026-04-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

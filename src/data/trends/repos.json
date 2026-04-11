@@ -5108,7 +5108,7 @@
     },
     "HKUDS/OpenHarness": {
       "full_name": "HKUDS/OpenHarness",
-      "description": "OpenHarness: Open Agent Harness with a built-in personal agent, Ohmo!",
+      "description": "\"OpenHarness: Open Agent Harness with a Built-in Personal Agent--Ohmo!\"",
       "language": "Python",
       "url": "https://github.com/HKUDS/OpenHarness",
       "first_seen": "2026-04-02",
@@ -6219,7 +6219,7 @@
     "yizhiyanhua-ai/fireworks-tech-graph": {
       "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
       "description": "Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.",
-      "language": "Unknown",
+      "language": "Shell",
       "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
       "first_seen": "2026-04-11",
       "has_summary": false,
@@ -6227,6 +6227,17 @@
       "category": "Other",
       "version": null,
       "blurb": "A Claude Code skill that generates production-quality technical diagrams from natural language descriptions, outputting both SVG and high-resolution PNG formats. It specializes in AI/Agent system architectures with built-in knowledge of patterns like RAG, multi-agent flows, and memory architectures, supporting 8 diagram types across 5 visual styles. The tool uses semantic shape vocabulary (hexagons for agents, cylinders for databases) and color-coded arrows to automatically convey technical relationships."
+    },
+    "QLHazyCoder/codex-oauth-automation-extension": {
+      "full_name": "QLHazyCoder/codex-oauth-automation-extension",
+      "description": "Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复",
+      "language": "JavaScript",
+      "url": "https://github.com/QLHazyCoder/codex-oauth-automation-extension",
+      "first_seen": "2026-04-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v4.0.0"
     }
   }
 }

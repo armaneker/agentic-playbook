@@ -4941,7 +4941,7 @@
     },
     "therealXiaomanChu/ex-skill": {
       "full_name": "therealXiaomanChu/ex-skill",
-      "description": "把前任蒸馏成 AI Skill，用ta的方式跟你说话。Inspired by colleague-skill（同事skill）. ",
+      "description": "把前任蒸馏成 AI Skill，用ta的方式跟你说话。",
       "language": "Python",
       "url": "https://github.com/therealXiaomanChu/ex-skill",
       "first_seen": "2026-04-01",
@@ -6215,6 +6215,17 @@
       "category": "AI / ML",
       "version": null,
       "blurb": "This is an educational repository providing end-to-end guides for fine-tuning large language models like Llama3, Qwen, and DeepSeek using PyTorch and Unsloth. It targets beginners and developers who want to learn LLM fine-tuning from scratch, offering reproducible workflows for supervised fine-tuning, data processing, and model deployment within resource constraints like Google Colab. The project emphasizes accessibility by requiring only a browser and free cloud environment to get started."
+    },
+    "yizhiyanhua-ai/fireworks-tech-graph": {
+      "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
+      "description": "Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.",
+      "language": "Unknown",
+      "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
+      "first_seen": "2026-04-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

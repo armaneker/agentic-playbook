@@ -729,7 +729,7 @@
     },
     "Lum1104/Understand-Anything": {
       "full_name": "Lum1104/Understand-Anything",
-      "description": "Turn any codebase, knowledge base (Karpathy LLM wiki), or docs into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "description": "Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Graphs that teach > graphs that impress. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "first_seen": "2026-03-22",
@@ -6153,7 +6153,10 @@
       "has_summary": false,
       "topics": [
         "agent",
-        "hermes"
+        "ai-agents",
+        "hermes",
+        "hermes-agent",
+        "nous-research"
       ],
       "category": "Agentic",
       "version": "v0.43.1",
@@ -6223,7 +6226,7 @@
     "yizhiyanhua-ai/fireworks-tech-graph": {
       "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
       "description": "Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.",
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
       "first_seen": "2026-04-11",
       "has_summary": false,
@@ -6360,6 +6363,17 @@
       "category": "AI / ML",
       "version": "v1.4.3",
       "blurb": "This is a Claude-powered plugin that automatically builds and maintains an Obsidian knowledge vault by ingesting sources, extracting entities and concepts, and creating cross-references without manual organization. It enables persistent knowledge accumulation where every added source gets integrated and every question pulls from the entire accumulated knowledge base with specific page citations. The system implements Andrej Karpathy's LLM Wiki pattern with autonomous features like contradiction detection, vault maintenance, and multi-round web research."
+    },
+    "jd-opensource/JoyAI-Image": {
+      "full_name": "jd-opensource/JoyAI-Image",
+      "description": "JoyAI-Image is the unified multimodal foundation model for image understanding, text-to-image generation, and instruction-guided image editing.",
+      "language": "Python",
+      "url": "https://github.com/jd-opensource/JoyAI-Image",
+      "first_seen": "2026-04-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -6396,7 +6396,8 @@
         "windows"
       ],
       "category": "Other",
-      "version": "v2.4.7"
+      "version": "v2.4.7",
+      "blurb": "Clash Verge Rev is a cross-platform GUI client for Clash Meta proxy software, built with Tauri and TypeScript for Windows, macOS, and Linux. It provides a modern interface for managing proxy configurations, rules, and connections with features like visual node editing, profile management, and system-wide proxy integration. This is a continuation fork of the original Clash Verge project with active development and over 110k GitHub stars."
     },
     "microsoft/generative-ai-for-beginners": {
       "full_name": "microsoft/generative-ai-for-beginners",
@@ -6422,7 +6423,8 @@
         "transformers"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "This is a structured curriculum with 21 lessons designed to teach generative AI fundamentals through Jupyter notebooks. It provides hands-on tutorials covering key concepts like prompt engineering, LLMs, and building AI applications using OpenAI and Azure services. The course is automatically translated into over 40 languages via GitHub Actions."
     },
     "vyfor/rattles": {
       "full_name": "vyfor/rattles",
@@ -6444,7 +6446,8 @@
         "tui"
       ],
       "category": "DevTools",
-      "version": null
+      "version": null,
+      "blurb": "Rattles is a minimal terminal spinner library for Rust that provides an extensive collection of presets and supports custom spinner definitions at compile time. It's designed for developers who need simple animation feedback in CLI applications without the overhead of actors or widgets, requiring no runtime or lifecycle management. The library has zero dependencies and supports no_std environments with alternative animation driving methods."
     },
     "agents-io/PokeClaw": {
       "full_name": "agents-io/PokeClaw",
@@ -6468,7 +6471,8 @@
         "tool-calling"
       ],
       "category": "Agentic",
-      "version": "v0.6.0"
+      "version": "v0.6.0",
+      "blurb": "PokeClaw is an open-source Android app that runs AI agents locally on-device to automate phone interactions and control apps. It uses Gemma 4 with LiteRT for local execution without requiring API keys or cloud services, while offering optional cloud model integration for more complex tasks. The app can perform context-aware automation like monitoring WhatsApp conversations and generating appropriate responses based on chat history."
     },
     "idawnlight/ShichiZip": {
       "full_name": "idawnlight/ShichiZip",
@@ -6479,7 +6483,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "ShichiZip is a native macOS GUI application for 7-Zip functionality, written in Swift. It provides Mac users with a proper interface for creating and extracting 7z archives, filling the gap left by the lack of official 7-Zip support on macOS. The project includes a Zstandard compression variant alongside the standard implementation."
     },
     "AMAP-ML/SkillClaw": {
       "full_name": "AMAP-ML/SkillClaw",
@@ -6490,7 +6495,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "SkillClaw is a framework for collective skill evolution in multi-agent LLM systems that automatically distills reusable skills from real user interactions and shares them across agent clusters via cloud storage. It operates transparently through a proxy that intercepts agent API calls, records session data, and syncs evolved skills back to agents without requiring changes to existing workflows. The system offers two evolution backends: a fixed 3-stage LLM workflow and an autonomous OpenClaw agent that can directly manipulate skill files."
     },
     "kzhrknt/awesome-design-md-jp": {
       "full_name": "kzhrknt/awesome-design-md-jp",
@@ -6501,7 +6507,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "A curated collection of DESIGN.md files specifically for Japanese web services that extends Google Stitch's format with CJK typography specifications. It addresses the gap in existing design systems that lack proper Japanese typographic rules, enabling AI agents to generate Japanese UI with correct font stacks, line-height, letter-spacing, and punctuation handling. The collection covers 17+ major Japanese services across different industries, from Toyota to pixiv."
     },
     "alchaincyf/obsidian-ai-orange-book": {
       "full_name": "alchaincyf/obsidian-ai-orange-book",
@@ -6512,7 +6519,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a comprehensive guide for integrating Obsidian with Claude Code to build an AI-powered personal knowledge management system. It provides methodology and practical implementation steps for using AI to maintain and navigate knowledge bases through Markdown files, rather than traditional RAG approaches. The guide is written in Chinese with an English translation available, and emphasizes that simple CLAUDE.md + index.md files can handle 80% of the functionality without complex MCP setups."
     },
     "retlehs/quien": {
       "full_name": "retlehs/quien",
@@ -6544,7 +6552,8 @@
         "whois"
       ],
       "category": "DevTools",
-      "version": "v0.5.0"
+      "version": "v0.5.0",
+      "blurb": "quien is an interactive TUI tool for domain and IP lookups that extends traditional WHOIS functionality with DNS, mail configuration, SSL/TLS, HTTP headers, tech stack detection, and SEO analysis in tabbed views. It provides comprehensive domain intelligence including RDAP-first lookups with WHOIS fallback, mail security auditing (SPF/DMARC/DKIM), Core Web Vitals metrics via CrUX API, and ASN/BGP data enrichment. The tool can be tried instantly without installation via SSH at quien.sh."
     },
     "cherepavel/VPN-Detector": {
       "full_name": "cherepavel/VPN-Detector",
@@ -6555,7 +6564,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v0.0.2"
+      "version": "v0.0.2",
+      "blurb": "VPN-Detector is an Android research tool that demonstrates various methods for detecting VPN usage on Android devices. It combines multiple detection techniques including network capability analysis, interface enumeration, and VPN app detection to identify VPN presence even when using split tunneling configurations. The tool serves as a proof-of-concept for understanding how apps can bypass VPN privacy protections."
     },
     "momenbasel/PureMac": {
       "full_name": "momenbasel/PureMac",
@@ -6586,7 +6596,8 @@
         "xcode-cleaner"
       ],
       "category": "Mobile",
-      "version": "v1.0.1"
+      "version": "v1.0.1",
+      "blurb": "PureMac is a free, open-source macOS disk cleaner built with SwiftUI that serves as a privacy-focused alternative to CleanMyMac. It removes system caches, Xcode/Homebrew artifacts, large files, and other disk clutter with scheduled auto-cleaning capabilities, while operating entirely offline with zero telemetry. The app is signed and notarized by Apple, eliminating Gatekeeper security warnings during installation."
     },
     "DLYuanGod/MegaTrain": {
       "full_name": "DLYuanGod/MegaTrain",
@@ -6597,7 +6608,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "MegaTrain is a memory optimization framework that enables full-precision training of 100B+ parameter language models on a single GPU. It uses a RAM-centric architecture that stores model parameters in CPU memory while treating the GPU as a compute engine, allowing massive models to be trained without traditional multi-GPU setups. The system achieves 1.84x speedup over DeepSpeed ZeRO-3 on 14B models through pipelined double-buffered execution."
     },
     "perkfly/ex-skill": {
       "full_name": "perkfly/ex-skill",
@@ -6608,7 +6620,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "ex-skill is a Python tool that generates AI skills mimicking an ex-partner's communication patterns from chat histories, photos, and social media data. It creates personalized AI personas that respond using the ex's language style, emotional patterns, and behavioral quirks extracted from WeChat, iMessage, SMS, and other digital footprints. The generated skills support incremental updates, conversation corrections, and version rollbacks for evolving accuracy."
     }
   }
 }

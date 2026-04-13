@@ -1154,7 +1154,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v2.1.104",
-      "blurb": null
+      "blurb": "Claude Code is an agentic coding tool that runs in your terminal and understands your codebase to execute tasks through natural language commands. It handles routine coding tasks, code explanation, and git workflows, allowing developers to work faster without context switching between tools. The tool integrates with terminals, IDEs, and GitHub through @claude mentions."
     },
     {
       "full_name": "rust-lang/rust",
@@ -1559,7 +1559,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "talk-normal is a system prompt designed to make LLMs produce concise, direct responses instead of verbose, corporate-sounding output. It reduces response length by ~70% while preserving all useful information, working with any LLM model through prompt engineering. The project provides a single reusable prompt that eliminates AI \"slop\" like unnecessary introductions, bullet points, and filler phrases."
     },
     {
       "full_name": "kzhrknt/awesome-design-md-jp",

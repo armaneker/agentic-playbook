@@ -729,7 +729,7 @@
     },
     "Lum1104/Understand-Anything": {
       "full_name": "Lum1104/Understand-Anything",
-      "description": "Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Graphs that teach > graphs that impress. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
+      "description": "Graphs that teach > graphs that impress. Turn any code, or knowledge base (Karpathy LLM wiki), into an interactive knowledge graph you can explore, search, and ask questions about. Works with Claude Code, Codex, Cursor, Copilot, Gemini CLI, and more.",
       "language": "TypeScript",
       "url": "https://github.com/Lum1104/Understand-Anything",
       "first_seen": "2026-03-22",
@@ -6336,13 +6336,18 @@
       "first_seen": "2026-04-12",
       "has_summary": false,
       "topics": [
+        "ai-agent",
+        "algorithmic-trading",
         "backtesting",
+        "fintech",
+        "llm",
+        "mcp",
         "multi-agent",
+        "python",
         "quantitative-finance",
-        "swarm",
         "trading"
       ],
-      "category": "Other",
+      "category": "Agentic",
       "version": "v0.1.4",
       "blurb": "Vibe-Trading is a Python-based multi-agent trading system that provides comprehensive quantitative trading capabilities through a command-line interface and API. It enables users to deploy AI trading agents with backtesting, swarm intelligence, and integration across multiple markets including stocks, futures, forex, and options. The system supports 68 trading skills, 29 swarm presets, and can export strategies to Pine Script for TradingView."
     },

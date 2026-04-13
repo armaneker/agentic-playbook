@@ -1559,7 +1559,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a Claude Code skill that provides comprehensive guidance for implementing Google's Material Design 3 (Material You) UI system across multiple platforms. It enables developers to generate MD3-compliant components, themes, and layouts with proper design tokens and accessibility patterns, primarily focused on Jetpack Compose with secondary support for Flutter and limited web support. The skill includes 30+ component references and an MD3 compliance audit feature that scores applications across 10 categories."
     },
     {
       "full_name": "retlehs/quien",

@@ -6666,12 +6666,17 @@
     },
     "sterlingcrispin/nothing-ever-happens": {
       "full_name": "sterlingcrispin/nothing-ever-happens",
-      "description": "",
+      "description": "Polymarket bot that buys \"No\" on all non-sports markets",
       "language": "Python",
       "url": "https://github.com/sterlingcrispin/nothing-ever-happens",
       "first_seen": "2026-04-14",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "meme",
+        "not-financial-advice",
+        "nothing-ever-happens",
+        "polymarket"
+      ],
       "category": "Other",
       "version": null,
       "blurb": "Nothing Ever Happens is a Python bot that automatically trades on Polymarket by buying \"No\" positions on standalone non-sports yes/no markets. It's designed for users who believe most dramatic events that people bet on won't actually happen, providing automated execution with safety controls and position tracking. The bot requires three specific environment variables to be set before it will execute real trades, otherwise it runs in paper trading mode."
@@ -6806,7 +6811,7 @@
     },
     "Mouseww/anything-analyzer": {
       "full_name": "Mouseww/anything-analyzer",
-      "description": "利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器行为 的协议分析文档",
+      "description": "利用 browser + CDP capture + AI analysis  傻瓜式生成 注册机 | 2API | 其他浏览器或应用行为 的协议分析文档",
       "language": "TypeScript",
       "url": "https://github.com/Mouseww/anything-analyzer",
       "first_seen": "2026-04-14",
@@ -6928,6 +6933,17 @@
       "category": "Other",
       "version": null,
       "blurb": "See-through is a framework that decomposes single anime character illustrations into manipulatable layers, automatically separating elements like hair, face, clothing, and accessories into up to 23 distinct semantic layers. It enables artists and developers to convert static anime artwork into 2.5D models with proper depth ordering and fully inpainted backgrounds for animation or interactive applications. The system uses a combination of diffusion models, depth estimation, and semantic segmentation specifically fine-tuned for anime artwork."
+    },
+    "alejandrobalderas/claude-code-from-source": {
+      "full_name": "alejandrobalderas/claude-code-from-source",
+      "description": "Architecture, patterns & internals of Anthropic's AI coding agent — reverse-engineered from source maps",
+      "language": "TypeScript",
+      "url": "https://github.com/alejandrobalderas/claude-code-from-source",
+      "first_seen": "2026-04-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

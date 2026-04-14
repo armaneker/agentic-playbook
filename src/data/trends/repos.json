@@ -6673,7 +6673,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Nothing Ever Happens is a Python bot that automatically trades on Polymarket by buying \"No\" positions on standalone non-sports yes/no markets. It's designed for users who believe most dramatic events that people bet on won't actually happen, providing automated execution with safety controls and position tracking. The bot requires three specific environment variables to be set before it will execute real trades, otherwise it runs in paper trading mode."
     },
     "Xiangyue-Zhang/auto-deep-researcher-24x7": {
       "full_name": "Xiangyue-Zhang/auto-deep-researcher-24x7",
@@ -6697,7 +6698,8 @@
         "research-automation"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "Deep Researcher Agent is an autonomous AI system that manages deep learning experiment workflows without human intervention. It automates the iterative cycle of code modification, training execution, result analysis, and experiment planning, allowing researchers to run continuous experiments 24/7. The system uses a leader-worker architecture with constant-size memory to prevent token growth over long experiment cycles."
     },
     "dominikmartn/ProgressiveBlurHeader": {
       "full_name": "dominikmartn/ProgressiveBlurHeader",
@@ -6717,7 +6719,8 @@
         "uikit"
       ],
       "category": "Mobile",
-      "version": null
+      "version": null,
+      "blurb": "ProgressiveBlurHeader is a SwiftUI component that creates sticky headers with progressive blur effects, mimicking the behavior found in Apple Music, Photos, and App Store apps. It allows scrollable content to pass underneath the header with increasing blur intensity rather than being clipped, solving a common UI pattern that's difficult to implement natively in SwiftUI. The component uses Apple's private variable blur API (via the VariableBlur dependency) to achieve the same visual effect that Apple uses in their own apps."
     },
     "loop-uh/yourvpndead": {
       "full_name": "loop-uh/yourvpndead",
@@ -6728,7 +6731,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v21"
+      "version": "v21",
+      "blurb": "YourVPNDead is an Android application that demonstrates how any app can detect VPN usage and extract VPN server IPs through local SOCKS5 vulnerabilities without requiring root access or special permissions. It performs comprehensive VPN detection by checking system network capabilities, analyzing network interfaces, scanning localhost ports, and exploiting unprotected SOCKS5 proxies created by popular VPN clients like v2rayNG and sing-box. The tool serves as a proof-of-concept for potential government surveillance capabilities, showing users exactly what information about their VPN setup can be harvested by malicious applications."
     },
     "UnluckyNinja/SBTI-test": {
       "full_name": "UnluckyNinja/SBTI-test",
@@ -6739,7 +6743,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "SBTI-test is a mirror repository of a web-based psychological test originally created by a Bilibili user. It provides a hosted version of the test with separated HTML and image assets for easier access and potential self-hosting. The repository explicitly lacks a license since the original author didn't provide one, requiring users to exercise caution regarding usage rights."
     },
     "NyxTides/SimpleAuthFlow": {
       "full_name": "NyxTides/SimpleAuthFlow",
@@ -6750,7 +6755,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "SimpleAuthFlow is a Chrome extension that automates ChatGPT OAuth registration and authorization flows. It eliminates manual configuration requirements by providing a zero-setup solution that works out of the box without needing personal email accounts or phone numbers. The extension includes robust error handling and manual override capabilities for cases where the automated flow encounters interruptions."
     },
     "OpenMOSS/MOSS-TTS-Nano": {
       "full_name": "OpenMOSS/MOSS-TTS-Nano",
@@ -6771,7 +6777,8 @@
         "voice-clone"
       ],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "MOSS-TTS-Nano is a 0.1B parameter multilingual text-to-speech model that runs on CPU without requiring a GPU. It's designed for real-time speech generation with simple deployment for local demos, web serving, and lightweight product integration. The model uses an autoregressive Audio Tokenizer + LLM pipeline and outputs native 48 kHz, 2-channel audio."
     },
     "renatoworks/3dsvg": {
       "full_name": "renatoworks/3dsvg",
@@ -6782,7 +6789,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "3dsvg is a TypeScript library that converts SVG files and text into interactive 3D React components using Three.js and React Three Fiber. It provides a declarative API for creating extruded 3D objects with configurable materials, animations, and lighting, plus includes a visual web editor for designing and exporting 3D scenes. The library supports 10 material presets (gold, glass, chrome, etc.), 7 animation types, and can export to multiple formats including PNG, video, and 3D model files."
     },
     "cnitlrt/AutoTeam": {
       "full_name": "cnitlrt/AutoTeam",
@@ -6793,7 +6801,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "AutoTeam is a Python tool for automatically managing and rotating ChatGPT Team accounts. It handles account creation, registration, Codex authentication, quota monitoring, and intelligent account switching to maintain continuous service availability. The tool uses Playwright for browser automation and includes a web dashboard for management, though it comes with clear disclaimers about potentially violating OpenAI's terms of service."
     },
     "Mouseww/anything-analyzer": {
       "full_name": "Mouseww/anything-analyzer",
@@ -6804,7 +6813,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v2.3.0"
+      "version": "v2.3.0",
+      "blurb": "Anything Analyzer is an Electron desktop application that captures web traffic and browser behavior using Chrome DevTools Protocol, then uses AI to analyze the captured data for protocol reverse engineering. It provides comprehensive network interception (HTTP, WebSocket, SSE), JavaScript hooking (fetch, XHR, crypto APIs), and storage monitoring to generate detailed protocol analysis reports. The tool includes an embedded multi-tab browser with automatic popup capture, making it particularly useful for analyzing complex authentication flows like OAuth."
     },
     "jure/webphysics": {
       "full_name": "jure/webphysics",
@@ -6815,7 +6825,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "webphysics is an experimental WebGPU-based physics engine that implements rigid-body and soft-body simulation using the AVBD (Augmented Vertex Block Descent) solver. It provides GPU-accelerated physics simulation for web applications, enabling high-performance collision detection, constraint solving, and dynamics computation directly in the browser. The implementation follows the complete AVBD pipeline including broad-phase collision detection with LBVH, narrow-phase contact generation, and parallel constraint solving with body coloring."
     }
   }
 }

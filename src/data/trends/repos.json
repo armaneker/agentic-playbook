@@ -6271,7 +6271,7 @@
     "joeynyc/hermes-hudui": {
       "full_name": "joeynyc/hermes-hudui",
       "description": "Web UI consciousness monitor for Hermes — the AI agent with persistent memory",
-      "language": "Python",
+      "language": "TypeScript",
       "url": "https://github.com/joeynyc/hermes-hudui",
       "first_seen": "2026-04-12",
       "has_summary": false,
@@ -6861,6 +6861,69 @@
       "category": "Mobile",
       "version": "v0.2.0",
       "blurb": "Capso is an open-source screenshot and screen recording application for macOS built with Swift 6.0 and SwiftUI. It provides a free, native alternative to paid tools like CleanShot X, offering features like area/window capture, scrolling screenshots, video/GIF recording with webcam PiP, annotation tools, OCR text recognition, and screenshot history management. The project is architected as modular SPM packages (CaptureKit, AnnotationKit, OCRKit) that can be reused in other applications."
+    },
+    "AgentSeal/codeburn": {
+      "full_name": "AgentSeal/codeburn",
+      "description": "See where your AI coding tokens go. Interactive TUI dashboard for Claude Code and Codex cost observability.",
+      "language": "TypeScript",
+      "url": "https://github.com/AgentSeal/codeburn",
+      "first_seen": "2026-04-14",
+      "has_summary": false,
+      "topics": [
+        "ai-coding",
+        "claude-code",
+        "cli",
+        "codex",
+        "cost-tracking",
+        "developer-tools",
+        "observability",
+        "terminal-ui",
+        "token-usage"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "alchaincyf/darwin-skill": {
+      "full_name": "alchaincyf/darwin-skill",
+      "description": "达尔文.skill —— 一个让你的Skill无限进化的系统：评估→改进→测试→保留或回滚 | Autoresearch-inspired autonomous skill optimization for Claude Code. Evaluate, improve, test, keep or revert.",
+      "language": "HTML",
+      "url": "https://github.com/alchaincyf/darwin-skill",
+      "first_seen": "2026-04-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yaojingang/GEOFlow": {
+      "full_name": "yaojingang/GEOFlow",
+      "description": "Open-source GEO content production system with AI tasks, review workflow, and publishing.",
+      "language": "PHP",
+      "url": "https://github.com/yaojingang/GEOFlow",
+      "first_seen": "2026-04-14",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "cms",
+        "content-automation",
+        "geo",
+        "openai-compatible",
+        "php",
+        "postgresql",
+        "seo"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "shitagaki-lab/see-through": {
+      "full_name": "shitagaki-lab/see-through",
+      "description": "\"Single-image Layer Decomposition for Anime Characters\" (SIGGRAPH 2026, Conditionally Accepted)",
+      "language": "Python",
+      "url": "https://github.com/shitagaki-lab/see-through",
+      "first_seen": "2026-04-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -1754,7 +1754,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This repository contains a reverse-engineered analysis of Anthropic's Claude Code AI agent, documented as an 18-chapter technical book based on TypeScript source maps that were accidentally shipped with the npm package. Engineers can use it to understand production AI agent architecture patterns, multi-agent orchestration, and implementation trade-offs for building their own agentic systems. The content is purely educational pseudocode with no actual Claude source code included."
     }
   ]
 }

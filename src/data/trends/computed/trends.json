@@ -1499,7 +1499,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v1.0",
-      "blurb": null
+      "blurb": "SNI-Spoofing is a Python tool that manipulates IP and TCP headers to bypass Deep Packet Inspection (DPI) systems. It allows users to circumvent network censorship and filtering by spoofing Server Name Indication (SNI) fields in TLS handshakes. The project appears to target Persian-speaking users based on the Farsi text in the documentation."
     },
     {
       "full_name": "cnitlrt/AutoTeam",
@@ -1589,7 +1589,7 @@
       "has_summary": false,
       "category": "Mobile",
       "version": "v0.2.0",
-      "blurb": null
+      "blurb": "Capso is an open-source screenshot and screen recording application for macOS built with Swift 6.0 and SwiftUI. It provides a free, native alternative to paid tools like CleanShot X, offering features like area/window capture, scrolling screenshots, video/GIF recording with webcam PiP, annotation tools, OCR text recognition, and screenshot history management. The project is architected as modular SPM packages (CaptureKit, AnnotationKit, OCRKit) that can be reused in other applications."
     },
     {
       "full_name": "MemPalace/mempalace",

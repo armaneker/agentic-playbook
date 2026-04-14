@@ -6881,7 +6881,8 @@
         "token-usage"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "CodeBurn is a terminal dashboard that tracks AI coding token usage and costs by parsing Claude Code session transcripts locally. It provides detailed breakdowns by task type, model, project, and success rates to help developers understand where their AI coding budget goes and identify inefficient retry patterns. The tool operates without API keys or proxies by reading session data directly from disk and includes a macOS menu bar widget for quick cost monitoring."
     },
     "alchaincyf/darwin-skill": {
       "full_name": "alchaincyf/darwin-skill",
@@ -6892,7 +6893,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Darwin-skill is an autonomous optimization system for Agent Skills that continuously evaluates, improves, tests, and either keeps or reverts changes using a ratchet mechanism that only preserves measurable improvements. It addresses the challenge of maintaining large skill collections (60+ skills) by providing both structural analysis and actual performance testing with an 8-dimensional scoring system, rather than just format validation. Inspired by Karpathy's autoresearch, it implements a human-in-the-loop approach where the system autonomously optimizes individual SKILL.md files but pauses between phases for user confirmation."
     },
     "yaojingang/GEOFlow": {
       "full_name": "yaojingang/GEOFlow",
@@ -6912,7 +6914,8 @@
         "seo"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "GEOFlow is an open-source content production system designed for GEO/SEO content operations, built with PHP and PostgreSQL. It automates the entire content pipeline from AI model configuration and asset management to task scheduling, draft review, and publishing, enabling automated content sites and internal content operations. The system supports OpenAI-compatible APIs and includes Docker deployment with built-in scheduling and worker processes."
     },
     "shitagaki-lab/see-through": {
       "full_name": "shitagaki-lab/see-through",
@@ -6923,7 +6926,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "See-through is a framework that decomposes single anime character illustrations into manipulatable layers, automatically separating elements like hair, face, clothing, and accessories into up to 23 distinct semantic layers. It enables artists and developers to convert static anime artwork into 2.5D models with proper depth ordering and fully inpainted backgrounds for animation or interactive applications. The system uses a combination of diffusion models, depth estimation, and semantic segmentation specifically fine-tuned for anime artwork."
     }
   }
 }

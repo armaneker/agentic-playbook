@@ -1379,7 +1379,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "0.1.1",
-      "blurb": null
+      "blurb": "Anubis is an Android app manager that freezes and unfreezes groups of applications based on VPN connection state. It ensures apps only run with their intended network configuration by completely disabling them at the system level using `pm disable-user`, preventing any network detection or data transmission. Unlike sandbox solutions that isolate apps in work profiles, disabled apps cannot execute any code or inspect the shared network stack to detect VPN presence."
     },
     {
       "full_name": "andrewjiang/palantir-for-family-trips",

@@ -7081,6 +7081,17 @@
       "category": "Other",
       "version": null,
       "blurb": "DFlash-mlx implements the DFlash speculative decoding algorithm optimized for Apple Silicon using MLX, where a small draft model generates 16 tokens in parallel that are then verified by a larger target model. It accelerates language model inference by 1.35x to 4.13x while maintaining lossless output quality, making it useful for faster text generation on Apple hardware. The implementation includes custom Metal kernels for tape-replay rollback and numerical stability to handle the complexities of speculative decoding with recurrent model states."
+    },
+    "761696148/Game-Map-Tracker": {
+      "full_name": "761696148/Game-Map-Tracker",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/761696148/Game-Map-Tracker",
+      "first_seen": "2026-04-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -7091,7 +7091,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Game Map Real-time Tracker is a computer vision tool that automatically identifies the mini-map in games and displays the player's real-time position on a high-resolution overlay map. It enables players to track their exact location without alt-tabbing to external maps, using either traditional SIFT feature matching or deep learning-based LoFTR for robust tracking even with UI occlusion. The AI mode has been optimized to run on less than 1GB of VRAM, making it accessible for lower-end hardware."
     }
   }
 }

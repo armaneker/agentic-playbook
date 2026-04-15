@@ -37,6 +37,7 @@ export const navigation: NavItem[] = [
       { title: 'Agent Roles', href: '/openclaw/agent-roles' },
       { title: 'Create a Slack Agent', href: '/openclaw/create-slack-agent' },
       { title: 'CLI Reference', href: '/openclaw/cli-reference' },
+      { title: 'Local Ollama Models', href: '/openclaw/ollama' },
       { title: 'Mission Control', href: '/openclaw/mission-control' },
       { title: 'Deployment', href: '/openclaw/deployment' },
       { title: 'Security', href: '/openclaw/security' },

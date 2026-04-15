@@ -10,6 +10,7 @@ export const GUIDE_PAGES = [
   'openclaw/agent-roles',
   'openclaw/create-slack-agent',
   'openclaw/cli-reference',
+  'openclaw/ollama',
   'openclaw/deployment',
   'openclaw/security',
   'openclaw/mission-control',

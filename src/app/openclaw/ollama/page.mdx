@@ -1,0 +1,110 @@
+<GuideHeader tool="OpenClaw" difficulty="Intermediate" lastTested="2026-04" readTime="10 min" />
+
+# Connecting Agents to Local Ollama Models
+
+How to route a specific OpenClaw agent to a local Ollama model without changing global defaults.
+
+## Why Route Individual Agents
+
+Running a local model through Ollama saves API cost, keeps sensitive data on your network, and gives you control over latency. But you usually don't want every agent switched over — cloud models still win for complex reasoning. The right pattern is per-agent routing: keep your default provider intact, swap just the agents that benefit from a local model.
+
+## The Problem with 2026.3
+
+OpenClaw 2026.3 tightened its config validation. Two things that used to work silently now fail:
+
+- Standard CLI patterns like `agents.growth-agent.model` don't resolve because agents live in an array, not a keyed object
+- Tool-calling protocols clash with distilled local models that don't implement the `tools` field, producing `400 - does not support tools`
+
+Both are solvable. The fix is three steps.
+
+## 1. Register the Ollama Provider
+
+OpenClaw needs to know the provider exists before any agent can reference it. Every model entry requires both `id` and `name` in 2026.3 — the schema will reject partial definitions.
+
+```bash
+openclaw config set models.providers.ollama '{
+  "baseUrl": "http://10.20.170.2:11434",
+  "apiKey": "ollama-local",
+  "api": "ollama",
+  "models": [
+    {"id": "glm-4.7-flash:latest", "name": "GLM 4.7 Flash"},
+    {"id": "qwen3.5:27b", "name": "Qwen 3.5 27B"}
+  ]
+}' --json
+```
+
+The `apiKey` is required by the schema but unused by Ollama — any non-empty string works.
+
+<Callout type="info" title="Bind Ollama to All Interfaces">
+  If your Ollama host is on a different machine, start it with `OLLAMA_HOST=0.0.0.0 ollama serve`. By default Ollama only listens on localhost, which blocks remote connections.
+</Callout>
+
+## 2. Assign the Model to One Agent
+
+Agents are stored as an array in the config, not a map. Target them by index.
+
+Find the position of the agent you want to change:
+
+```bash
+openclaw agents list --verbose
+```
+
+Note the index of `growth-agent` in the output, then set the model on that slot:
+
+```bash
+# agents.list.5 = growth-agent's configuration slot
+openclaw config set agents.list.5.model "ollama/glm-4.7-flash:latest"
+```
+
+The `provider/model` format is required — bare model IDs won't resolve.
+
+<Callout type="warning" title="Index Stability">
+  Agent indexes shift when you add or remove agents. If you're scripting this, parse the output of `agents list --json` to find the index dynamically instead of hardcoding it.
+</Callout>
+
+## 3. Fix Tool Calling Errors
+
+Distilled and smaller models often don't support the `tools` API. When OpenClaw sends a tool-enabled request, Ollama returns `400 - does not support tools` and the agent fails silently.
+
+Two ways to handle it:
+
+- **Switch to a tool-capable model** — `glm-4.7-flash`, `qwen3.5:27b` instruct variants, and most non-distilled instruction-tuned models handle tools correctly
+- **Use an alias** — if you're stuck with a specific base model, tag it under a name OpenClaw's protocol detection already handles:
+
+```bash
+ollama cp original-model-name qwen2.5:latest
+```
+
+The alias lets OpenClaw send the standard protocol without modifying the underlying weights.
+
+## Verification
+
+Check the configuration took effect:
+
+```bash
+openclaw agents list --verbose | grep -A 5 "growth-agent"
+```
+
+Then restart the gateway and send a test prompt:
+
+```bash
+openclaw gateway --force
+```
+
+If the agent responds normally, the routing is working. If it hangs or errors, check the gateway logs for schema validation failures or tool-call rejections.
+
+## Performance Notes
+
+- **VRAM** — `glm-4.7-flash` needs 19–21GB. Running on a 16GB card will either refuse to load or spill to CPU (slow). Monitor with `nvidia-smi` while the agent runs.
+- **Network latency** — local LAN (10.x.x.x) adds 2–5ms per token vs. loopback. Usually negligible, but on a multi-turn agent with long outputs it adds up. Keep Ollama and the gateway in the same subnet.
+- **First-token latency** — Ollama keeps models loaded for 5 minutes by default. The first request after idle pays a load-time tax. If your agent is bursty, consider `OLLAMA_KEEP_ALIVE=-1` to pin the model.
+
+## When Local Models Make Sense
+
+Not every agent benefits. Use local models when:
+
+- The agent processes sensitive data that shouldn't leave your network
+- The task is narrow and a smaller model is good enough (summarization, classification, formatting)
+- Cost per request matters more than latency or peak quality
+
+Keep cloud models for agents doing complex reasoning, long-horizon planning, or tasks where model quality directly affects output value.

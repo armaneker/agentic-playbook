@@ -1454,7 +1454,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v0.2.0",
-      "blurb": null
+      "blurb": "ACGTI is a TypeScript-based web application that implements an MBTI-inspired personality quiz for anime/manga (ACG) characters. Users answer situational questions to discover their anime personality archetype and get matched with specific characters from popular series like Evangelion, Detective Conan, and Genshin Impact. The application runs entirely in the browser with no backend, processing all calculations locally for privacy."
     },
     {
       "full_name": "dominikmartn/ProgressiveBlurHeader",
@@ -1529,7 +1529,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "A React-based dashboard that applies military/intelligence UI patterns to family trip coordination, tracking multiple families' routes, timelines, and logistics for shared vacations. It treats trip planning as an \"operation\" with convoy tracking, mission timelines, and command-center aesthetics instead of traditional calendar tools. The project is intentionally overengineered as a UI experiment that makes coordinating a weekend cabin trip feel like running a live ops room."
     },
     {
       "full_name": "MemPalace/mempalace",
@@ -1739,7 +1739,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "JSON Alexander is a browser extension that provides an enhanced JSON viewer for web pages serving JSON responses. It automatically detects and replaces raw JSON with an interactive tree view featuring syntax highlighting, collapsible nodes, multiple display modes, and path copying functionality. The extension requires disabling Firefox's native JSON viewer to function properly on that browser."
     },
     {
       "full_name": "zmeyer44/Locker",
@@ -1754,7 +1754,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Locker is an open-source, self-hostable file storage and knowledge platform that serves as an alternative to Dropbox and Google Drive. It provides file management capabilities with AI-powered features like document transcription, semantic search, and a knowledge base that can ingest and chat about uploaded documents. The platform supports multiple storage backends, extensible plugins, and includes a virtual bash filesystem for command-line file navigation."
     },
     {
       "full_name": "kessler/gemma-gem",
@@ -1784,7 +1784,7 @@
       "has_summary": false,
       "category": "Other",
       "version": "v2.2.0",
-      "blurb": null
+      "blurb": "This is a TypeScript tool that modifies Claude Code's companion pet system to let users customize their buddy's appearance and traits beyond the default options. Users can select custom species, rarity levels, eye styles, hats, and names through an interactive terminal interface or command-line flags. The project is now deprecated as Anthropic removed the buddy feature from Claude Code in version 0.97."
     },
     {
       "full_name": "mrdoob/three.wasm",
@@ -1799,7 +1799,7 @@
       "has_summary": false,
       "category": "Language",
       "version": null,
-      "blurb": null
+      "blurb": "three.wasm is a WebAssembly rewrite of the Three.js 3D graphics library that claims 8x performance improvements. It provides a minimal 10KB binary for rendering 3D graphics without JavaScript's garbage collection overhead or JIT compilation delays. The project appears to be a proof-of-concept or satire, as it only demonstrates a spinning cube despite the grandiose claims."
     },
     {
       "full_name": "AICoderTudou/claude-code-tudou",
@@ -1814,7 +1814,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "Claude Code Tudou is a locally enhanced fork of leaked Claude Code source that provides both terminal TUI and Electron desktop interfaces for AI-assisted coding. It fixes critical bugs in the original codebase (startup failures, input handling, missing dependencies) and adds support for third-party Anthropic-compatible APIs through environment variables. The project includes built-in agent tools for bash execution, file editing, and code search capabilities."
     },
     {
       "full_name": "atomicmemory/llm-wiki-compiler",
@@ -1829,7 +1829,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": "v0.1.0",
-      "blurb": null
+      "blurb": "llm-wiki-compiler is a TypeScript CLI tool that converts raw sources (URLs, files, documents) into an interlinked markdown wiki using LLM-powered concept extraction. It addresses the limitation of RAG systems that re-discover knowledge at query time by compiling sources once into a persistent, browsable knowledge base where concepts get dedicated pages and relationships accumulate over time. The tool uses a two-phase pipeline with incremental compilation and hash-based change detection to avoid reprocessing unchanged sources."
     },
     {
       "full_name": "code-yeongyu/not-claude-code-emulator",
@@ -1844,7 +1844,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "A proxy server that emulates Claude's API by handling OAuth authentication and providing an OpenAPI-compatible Messages API with token management. It allows developers to integrate with Claude's services through a standardized REST interface with built-in streaming support and automatic token handling. The project has been archived in favor of CLIProxyAPI, which supports multiple AI providers including Claude, Gemini, and ChatGPT."
     }
   ]
 }

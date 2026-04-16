@@ -1259,7 +1259,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "BuilderPulse is an AI-powered intelligence service that analyzes 300+ daily signals from platforms like Hacker News, GitHub, Product Hunt, and Reddit to identify building opportunities for indie hackers. It delivers actionable insights through daily reports that highlight trending topics, market gaps, and specific 2-hour project suggestions based on real user demand and discussion patterns. The service provides bilingual coverage (English/Chinese) and maintains a public archive of daily analyses accessible via GitHub."
     },
     {
       "full_name": "Tencent-Hunyuan/HY-World-2.0",
@@ -1274,7 +1274,7 @@
       "has_summary": false,
       "category": "AI / ML",
       "version": null,
-      "blurb": null
+      "blurb": "HY-World 2.0 is a multi-modal world model framework that generates and reconstructs 3D worlds from diverse inputs including text, single images, multi-view images, and videos. It enables synthesis of navigable 3D scenes from minimal input and performs 3D reconstruction through a unified feed-forward model called WorldMirror 2.0 that predicts depth, normals, camera parameters, and 3D Gaussian Splatting attributes in a single pass. The system uses a four-stage pipeline combining panorama generation, trajectory planning, world expansion, and world composition components."
     },
     {
       "full_name": "retlehs/quien",
@@ -1754,7 +1754,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "isolet is a TypeScript library that packages any component into a self-contained, isolated widget using shadow DOM. It supports multiple frameworks (React, Solid, Svelte, vanilla JS) and can output widgets as script tags, ESM imports, or CommonJS modules with scoped styles that don't leak. The CLI automatically inlines CSS assets as data URIs and resolves dependencies at build time for truly portable widgets."
     }
   ]
 }

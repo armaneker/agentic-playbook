@@ -1,0 +1,54 @@
+<GuideHeader tool="claurst" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Claurst
+
+Claurst is an open-source terminal coding agent built in Rust that started as a clean-room reimplementation of Claude Code's behavior. It provides a fast, memory-efficient TUI pair programmer with multi-provider AI support, chat forking, memory consolidation, and a plugin system.
+
+## Key Features
+
+- **Multi-provider AI support** - Works with Anthropic, OpenAI, Google, GitHub Copilot, Ollama, DeepSeek, Groq, Mistral, and 30+ other providers
+- **Managed agents system** - Manager-Executor relation for improved performance at lower cost
+- **Terminal UI** - Rich TUI interface with chat forking and memory consolidation
+- **Plugin system** - Extensible architecture for custom functionality
+- **Speech modes** - Different conversation styles (rocky, caveman, normal)
+- **No telemetry** - Fully private with no tracking or data collection
+
+## Installation
+
+Download pre-built binaries from [GitHub Releases](https://github.com/kuberwastaken/claurst/releases) for Windows, Linux (x86_64/aarch64), and macOS (Intel/Apple Silicon).
+
+Or build from source:
+
+```bash
+git clone https://github.com/kuberwastaken/claurst.git
+cd claurst/src-rust
+cargo build --release --package claurst
+```
+
+## Basic Usage
+
+Set your API key and start the interactive terminal:
+
+```bash
+export ANTHROPIC_API_KEY=sk-ant-...
+claurst
+```
+
+For one-shot queries without the TUI:
+
+```bash
+claurst -p "explain this codebase"
+```
+
+<Callout type="tip">
+Use `/connect` within Claurst to configure different AI providers, or `/managed-agents` to try the experimental multi-agent system.
+</Callout>
+
+## Notable Details
+
+**License:** GPL-3.0  
+**Language:** Rust  
+**Community:** 9,102 GitHub stars  
+**Architecture:** Clean-room implementation following legal precedents from Phoenix Technologies v. IBM (1984)
+
+The project emphasizes being a behavioral reimplementation rather than a code port, with separate specification and implementation phases to ensure clean-room engineering practices.

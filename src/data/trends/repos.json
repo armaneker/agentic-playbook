@@ -5940,12 +5940,20 @@
     },
     "ShandaAI/AlayaRenderer": {
       "full_name": "ShandaAI/AlayaRenderer",
-      "description": "AI-native Renderer for Games and Virtual Worlds, with Data and Tools",
+      "description": "Generative World Renderer: an AI-native Renderer for Games and Virtual Worlds. 面向游戏与虚拟世界的AI原生渲染引擎",
       "language": "Python",
       "url": "https://github.com/ShandaAI/AlayaRenderer",
       "first_seen": "2026-04-09",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "diffusion-model",
+        "g-buffer",
+        "game-rendering",
+        "inverse-rendering",
+        "neural-rendering",
+        "video-diffusion",
+        "video-generation"
+      ],
       "category": "Other",
       "version": null,
       "blurb": "AlayaRenderer is an AI-native rendering system for games and virtual worlds that uses fine-tuned video diffusion models for inverse and forward rendering tasks. It enables decomposing RGB videos into G-buffer maps (albedo, normal, depth, etc.) and synthesizing stylized RGB videos from G-buffers with text-controllable lighting and style. The project includes a large-scale dataset with 4M+ frames from AAA games like Cyberpunk 2077 and Black Myth: Wukong, featuring synchronized RGB and G-buffer channels."
@@ -7106,6 +7114,186 @@
       "category": "Other",
       "version": "0.1.1",
       "blurb": "Anubis is an Android app manager that freezes and unfreezes groups of applications based on VPN connection state. It ensures apps only run with their intended network configuration by completely disabling them at the system level using `pm disable-user`, preventing any network detection or data transmission. Unlike sandbox solutions that isolate apps in work profiles, disabled apps cannot execute any code or inspect the shared network stack to detect VPN presence."
+    },
+    "amitshekhariitbhu/llm-internals": {
+      "full_name": "amitshekhariitbhu/llm-internals",
+      "description": "Learn LLM internals step by step - from tokenization to attention to inference optimization.",
+      "language": "Unknown",
+      "url": "https://github.com/amitshekhariitbhu/llm-internals",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [
+        "attention-is-all-you-need",
+        "attention-mechanism",
+        "large-language-models",
+        "learn-llm",
+        "llm",
+        "llm-internals"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "vercel-labs/wterm": {
+      "full_name": "vercel-labs/wterm",
+      "description": "A terminal emulator for the web",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/wterm",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.7"
+    },
+    "mohi-devhub/antivibe": {
+      "full_name": "mohi-devhub/antivibe",
+      "description": "Learn what AI writes, not just accept it. A Claude Code skill that turns AI-generated code into educational deep dives.",
+      "language": "Shell",
+      "url": "https://github.com/mohi-devhub/antivibe",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "claude-code",
+        "claude-code-skill",
+        "code-explanation",
+        "education",
+        "learning",
+        "vibecoding"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "CITGuru/openduck": {
+      "full_name": "CITGuru/openduck",
+      "description": "Distributed DuckDB - dual execution and differential storage",
+      "language": "C++",
+      "url": "https://github.com/CITGuru/openduck",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "rasbt/mini-coding-agent": {
+      "full_name": "rasbt/mini-coding-agent",
+      "description": "Minimal and readable coding agent harness implementation in Python to explain the core components of coding agents.",
+      "language": "Python",
+      "url": "https://github.com/rasbt/mini-coding-agent",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "large-language-models",
+        "llms",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "SAGAR-TAMANG/friday-tony-stark-demo": {
+      "full_name": "SAGAR-TAMANG/friday-tony-stark-demo",
+      "description": "Demo of tools of capabilities of Tony Stark.",
+      "language": "Python",
+      "url": "https://github.com/SAGAR-TAMANG/friday-tony-stark-demo",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kargnas/damn-my-slow-kt": {
+      "full_name": "kargnas/damn-my-slow-kt",
+      "description": "명령어 설치 한번으로 한달 KT 인터넷 요금을 무료로 쓸 수 있습니다. 귀찮은 공문 작성 필요 없습니다.",
+      "language": "TypeScript",
+      "url": "https://github.com/kargnas/damn-my-slow-kt",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "internet",
+        "kt",
+        "legal"
+      ],
+      "category": "DevTools",
+      "version": "v0.5.21"
+    },
+    "lucasastorian/llmwiki": {
+      "full_name": "lucasastorian/llmwiki",
+      "description": "Open Source Implementation of Karpathy's LLM Wiki. Upload documents, connect your Claude account via MCP, and have it write your wiki ! ",
+      "language": "TypeScript",
+      "url": "https://github.com/lucasastorian/llmwiki",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai-agents",
+        "claude",
+        "karpathy",
+        "knowledge-base",
+        "llm",
+        "llm-wiki",
+        "mcp",
+        "mcp-server",
+        "rag",
+        "supabase"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "bddicken/tuitter": {
+      "full_name": "bddicken/tuitter",
+      "description": "tuitter",
+      "language": "TypeScript",
+      "url": "https://github.com/bddicken/tuitter",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "IyadhKhalfallah/clauditor": {
+      "full_name": "IyadhKhalfallah/clauditor",
+      "description": "Stop Claude Code from burning through your quota in 20 minutes. Auto-rotates oversized sessions and preserves context.",
+      "language": "TypeScript",
+      "url": "https://github.com/IyadhKhalfallah/clauditor",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "cli",
+        "hooks",
+        "token-optimization"
+      ],
+      "category": "DevTools",
+      "version": "v1.30.0"
+    },
+    "millionco/cli-to-js": {
+      "full_name": "millionco/cli-to-js",
+      "description": "Turn any CLI into a JavaScript API",
+      "language": "TypeScript",
+      "url": "https://github.com/millionco/cli-to-js",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "api",
+        "cli",
+        "node"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "JrCx7scC/claude-code-source": {
+      "full_name": "JrCx7scC/claude-code-source",
+      "description": "Claude Code complete source restoration from npm package — all native modules, no features cut",
+      "language": "TypeScript",
+      "url": "https://github.com/JrCx7scC/claude-code-source",
+      "first_seen": "2026-04-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -1,0 +1,68 @@
+<GuideHeader tool="superpowers" difficulty="Beginner" lastTested="2026-01" readTime="5 min" />
+
+# Superpowers
+
+Superpowers is a complete software development methodology for coding agents, built on composable skills and systematic workflows. It transforms agents from code-first tools into methodical engineers that spec, plan, and execute through structured processes.
+
+## Key Features
+
+- **Systematic workflow enforcement** - Agents follow brainstorming → planning → TDD implementation cycles automatically
+- **Subagent-driven development** - Parallel task execution with two-stage review (spec compliance, then code quality)
+- **True test-driven development** - RED-GREEN-REFACTOR cycle with anti-pattern detection
+- **Git worktree integration** - Isolated workspaces for parallel development branches
+- **Automatic skill activation** - Skills trigger based on context without manual intervention
+- **Cross-platform agent support** - Works with Claude, Cursor, Copilot, Gemini, and others
+
+## Installation
+
+<Callout type="info">
+Installation varies by coding agent platform. Choose your agent below.
+</Callout>
+
+**Claude Code (Official Marketplace)**
+```bash
+/plugin install superpowers@claude-plugins-official
+```
+
+**Cursor**
+```text
+/add-plugin superpowers
+```
+
+**GitHub Copilot CLI**
+```bash
+copilot plugin marketplace add obra/superpowers-marketplace
+copilot plugin install superpowers@superpowers-marketplace
+```
+
+**Gemini CLI**
+```bash
+gemini extensions install https://github.com/obra/superpowers
+```
+
+## Basic Usage
+
+Once installed, Superpowers activates automatically. When you start a coding session:
+
+```text
+"I want to build a REST API for managing todo items"
+```
+
+The agent will:
+1. **Brainstorm** - Ask clarifying questions and present a design spec
+2. **Plan** - Break work into 2-5 minute tasks with exact file paths
+3. **Execute** - Use TDD cycles with subagent review for each task
+4. **Review** - Verify against plan and run systematic debugging if needed
+
+<Callout type="tip">
+Agents can work autonomously for hours following the established plan without deviating.
+</Callout>
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Shell scripts
+- **Community**: 157K+ stars, active Discord community
+- **Creator**: Jesse Vincent ([Prime Radiant](https://primeradiant.com))
+- **Philosophy**: Test-driven, systematic over ad-hoc, complexity reduction
+- **Support**: [Discord](https://discord.gg/35wsABTejz) for community help

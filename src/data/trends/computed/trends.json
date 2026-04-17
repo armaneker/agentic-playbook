@@ -41,7 +41,7 @@
       "delta_week": 12065,
       "delta_month": 0,
       "delta_year": 0,
-      "has_summary": false,
+      "has_summary": true,
       "category": "Other",
       "version": "v5.0.7",
       "blurb": "Superpowers is an agentic skills framework that provides a structured software development workflow for coding agents through composable skills and initial instructions. It enforces a disciplined process where agents gather requirements, create validated designs, generate detailed implementation plans, and execute work through subagent-driven development rather than jumping straight into coding. The framework supports multiple AI coding platforms including Claude Code, Cursor, and others through plugin marketplaces or manual installation."

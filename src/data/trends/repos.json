@@ -6913,7 +6913,7 @@
         "token-usage"
       ],
       "category": "Agentic",
-      "version": null,
+      "version": "v0.7.0",
       "blurb": "CodeBurn is a terminal dashboard that tracks AI coding token usage and costs by parsing Claude Code session transcripts locally. It provides detailed breakdowns by task type, model, project, and success rates to help developers understand where their AI coding budget goes and identify inefficient retry patterns. The tool operates without API keys or proxies by reading session data directly from disk and includes a macOS menu bar widget for quick cost monitoring."
     },
     "alchaincyf/darwin-skill": {
@@ -7514,6 +7514,92 @@
       "category": "Agentic",
       "version": null,
       "blurb": "DocsAgent is a local-first AI document assistant that provides secure indexing and search across thousands of desktop files without cloud dependencies. It integrates with AI agents through the Model Context Protocol (MCP) to give them access to your private documents while maintaining complete data privacy. The system uses a native C++ engine for millisecond-level retrieval performance and supports PDF, Word, and PowerPoint formats."
+    },
+    "EKKOLearnAI/hermes-web-ui": {
+      "full_name": "EKKOLearnAI/hermes-web-ui",
+      "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp)",
+      "language": "Vue",
+      "url": "https://github.com/EKKOLearnAI/hermes-web-ui",
+      "first_seen": "2026-04-17",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "chat-ui",
+        "chatbot",
+        "cron-jobs",
+        "dashboard",
+        "discord-bot",
+        "hermes-agent",
+        "i18n",
+        "llm",
+        "multi-platform",
+        "naive-ui",
+        "nousresearch",
+        "session-management",
+        "slack-bot",
+        "telegram-bot",
+        "typescript",
+        "vue3",
+        "web-terminal",
+        "whatsapp"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "WeianMao/triattention": {
+      "full_name": "WeianMao/triattention",
+      "description": "TriAttention — Efficient long reasoning with trigonometric KV cache compression. Enables OpenClaw local deployment on memory-constrained GPUs.",
+      "language": "Python",
+      "url": "https://github.com/WeianMao/triattention",
+      "first_seen": "2026-04-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Tencent-Hunyuan/HY-Embodied": {
+      "full_name": "Tencent-Hunyuan/HY-Embodied",
+      "description": "HY-Embodied: Embodied Foundation Models for Real-World Agents",
+      "language": "Python",
+      "url": "https://github.com/Tencent-Hunyuan/HY-Embodied",
+      "first_seen": "2026-04-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Jakubantalik/border-beam": {
+      "full_name": "Jakubantalik/border-beam",
+      "description": "Animated border beam effect for React",
+      "language": "TypeScript",
+      "url": "https://github.com/Jakubantalik/border-beam",
+      "first_seen": "2026-04-17",
+      "has_summary": false,
+      "topics": [
+        "beam",
+        "design",
+        "effect",
+        "glow",
+        "motion",
+        "product"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "millionco/claude-doctor": {
+      "full_name": "millionco/claude-doctor",
+      "description": "Diagnose your Claude Code sessions",
+      "language": "TypeScript",
+      "url": "https://github.com/millionco/claude-doctor",
+      "first_seen": "2026-04-17",
+      "has_summary": false,
+      "topics": [
+        "claude",
+        "code",
+        "doctor"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

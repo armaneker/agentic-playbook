@@ -7198,7 +7198,7 @@
     "CITGuru/openduck": {
       "full_name": "CITGuru/openduck",
       "description": "Distributed DuckDB - dual execution and differential storage",
-      "language": "C++",
+      "language": "Rust",
       "url": "https://github.com/CITGuru/openduck",
       "first_seen": "2026-04-16",
       "has_summary": false,
@@ -7676,6 +7676,104 @@
       "category": "Agentic",
       "version": null,
       "blurb": "Agentic Inbox is a self-hosted email client that runs entirely on Cloudflare Workers infrastructure, using Email Routing for message delivery, Durable Objects for per-mailbox SQLite storage, and R2 for attachments. It provides a full-featured web email interface with an integrated AI agent that can read messages, search conversations, and automatically draft replies using Cloudflare's Workers AI platform. The AI agent automatically generates draft replies for incoming emails but requires explicit user confirmation before sending."
+    },
+    "massgravel/Microsoft-Activation-Scripts": {
+      "full_name": "massgravel/Microsoft-Activation-Scripts",
+      "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+      "language": "Batchfile",
+      "url": "https://github.com/massgravel/Microsoft-Activation-Scripts",
+      "first_seen": "2026-04-18",
+      "has_summary": false,
+      "topics": [
+        "activator",
+        "hwid",
+        "kms",
+        "kms38",
+        "massgrave",
+        "massgravel",
+        "microsoft",
+        "microsoft365",
+        "office",
+        "office365",
+        "ohook",
+        "powershell",
+        "tsforge",
+        "windows",
+        "windows-10",
+        "windows-11"
+      ],
+      "category": "Other",
+      "version": "3.10"
+    },
+    "poteto/how": {
+      "full_name": "poteto/how",
+      "description": "skill for explaining architecture",
+      "language": "Unknown",
+      "url": "https://github.com/poteto/how",
+      "first_seen": "2026-04-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Lazarus-AI/clearwing": {
+      "full_name": "Lazarus-AI/clearwing",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Lazarus-AI/clearwing",
+      "first_seen": "2026-04-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "stanford-iris-lab/meta-harness": {
+      "full_name": "stanford-iris-lab/meta-harness",
+      "description": "Reference code for the Meta-Harness paper.",
+      "language": "Python",
+      "url": "https://github.com/stanford-iris-lab/meta-harness",
+      "first_seen": "2026-04-18",
+      "has_summary": false,
+      "topics": [
+        "harness-engineering",
+        "llm-agents"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "maeil-mail/maeil-mail-contents": {
+      "full_name": "maeil-mail/maeil-mail-contents",
+      "description": "📮 매일메일 기술 면접 컨텐츠 아카이브 (FE, BE)",
+      "language": "Unknown",
+      "url": "https://github.com/maeil-mail/maeil-mail-contents",
+      "first_seen": "2026-04-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "EvolutionAPI/evo-nexus": {
+      "full_name": "EvolutionAPI/evo-nexus",
+      "description": "The open source operating system for AI-powered businesses",
+      "language": "TypeScript",
+      "url": "https://github.com/EvolutionAPI/evo-nexus",
+      "first_seen": "2026-04-18",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "ai-workspace",
+        "anthropic",
+        "automation",
+        "business-automation",
+        "claude",
+        "claude-code",
+        "dashboard",
+        "multi-agent",
+        "open-source",
+        "openclaw"
+      ],
+      "category": "Agentic",
+      "version": "v0.24.0"
     }
   }
 }

@@ -1,0 +1,70 @@
+<GuideHeader tool="claude-skill-aso-appstore-screenshots" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Claude Skill: ASO App Store Screenshots
+
+A Claude Code skill that generates high-converting App Store screenshots for iOS apps by analyzing your codebase and creating professional images with AI enhancement.
+
+## Key Features
+
+- **Benefit Discovery** — Analyzes your app's codebase to identify 3-5 core benefits that drive downloads
+- **Screenshot Pairing** — Reviews simulator screenshots, rates them, and pairs each with the optimal benefit
+- **Two-Stage Generation** — Creates scaffolds with deterministic positioning, then enhances with AI for visual polish
+- **Showcase Creation** — Generates preview images with all screenshots side-by-side
+- **App Store Ready** — Outputs screenshots at exact Apple dimensions (1290×2796px for iPhone 6.7")
+
+## Installation
+
+Install the Claude Code skill:
+
+```bash
+claude install-skill github.com/adamlyttleapps/claude-skill-aso-appstore-screenshots
+```
+
+Install Python dependencies:
+
+```bash
+pip install Pillow
+```
+
+<Callout type="warning">
+Requires **SF Pro Display Black** font at `/Library/Fonts/SF-Pro-Display-Black.otf`. Download from [Apple's developer fonts](https://developer.apple.com/fonts/).
+</Callout>
+
+Set up Gemini MCP for AI enhancement:
+
+```bash
+npm install -g @houtini/gemini-mcp
+```
+
+Add to your Claude Code MCP configuration.
+
+## Basic Usage
+
+Navigate to your app's project directory and run:
+
+```bash
+/aso-appstore-screenshots
+```
+
+The skill guides you through each phase interactively. Progress saves to Claude Code's memory system for resuming across conversations.
+
+## Output Structure
+
+Screenshots are organized in your project's `screenshots/` directory:
+
+```
+screenshots/
+  01-benefit-slug/
+    scaffold.png            # Deterministic layout
+    v1.png, v2.png         # AI-enhanced versions
+  final/                   # App Store-ready screenshots
+    01-benefit-slug.png
+  showcase.png             # Side-by-side preview
+```
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: Python
+- **Stars**: 1,143
+- **Architecture**: Deterministic scaffold generation + AI enhancement pipeline ensures consistent layouts while maintaining creative visual polish

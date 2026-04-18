@@ -1,0 +1,103 @@
+<GuideHeader tool="open-agent-sdk-typescript" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Open Agent SDK (TypeScript)
+
+Open Agent SDK is an in-process TypeScript agent framework that eliminates CLI dependencies while supporting both Anthropic and OpenAI-compatible APIs. It serves as an open-source alternative to claude-agent-sdk with full agent loop execution in your application runtime.
+
+## Key Features
+
+- **In-process execution** — no subprocess or CLI overhead
+- **Multi-provider support** — Anthropic, OpenAI, DeepSeek, Qwen, Mistral, and OpenAI-compatible endpoints
+- **Flexible deployment** — cloud, serverless, Docker, CI/CD environments
+- **Custom tools** — Zod schema validation or low-level tool definitions
+- **MCP server integration** — connect external tools and services
+- **Subagent support** — delegate specialized tasks to focused agents
+- **Built-in skills** — reusable prompt templates (simplify, commit, review, debug, test)
+- **Permission system** — granular tool access controls
+
+## Installation
+
+```bash
+npm install @codeany/open-agent-sdk
+```
+
+Set your API key:
+
+```bash
+export CODEANY_API_KEY=your-api-key
+```
+
+<Callout type="info">
+For OpenAI-compatible providers, set `CODEANY_API_TYPE=openai-completions` and configure `CODEANY_BASE_URL` and `CODEANY_MODEL`.
+</Callout>
+
+## Basic Usage
+
+### Simple Query
+
+```typescript
+import { createAgent } from "@codeany/open-agent-sdk";
+
+const agent = createAgent({ model: "claude-sonnet-4-6" });
+const result = await agent.prompt("What files are in this project?");
+
+console.log(result.text);
+console.log(`Tokens: ${result.usage.input_tokens + result.usage.output_tokens}`);
+```
+
+### Streaming Query
+
+```typescript
+import { query } from "@codeany/open-agent-sdk";
+
+for await (const message of query({
+  prompt: "Read package.json and tell me the project name.",
+  options: {
+    allowedTools: ["Read", "Glob"],
+    permissionMode: "bypassPermissions",
+  },
+})) {
+  if (message.type === "assistant") {
+    for (const block of message.message.content) {
+      if ("text" in block) console.log(block.text);
+    }
+  }
+}
+```
+
+### Custom Tool with Zod
+
+```typescript
+import { z } from "zod";
+import { tool, createSdkMcpServer, query } from "@codeany/open-agent-sdk";
+
+const getWeather = tool(
+  "get_weather",
+  "Get the temperature for a city",
+  { city: z.string().describe("City name") },
+  async ({ city }) => ({
+    content: [{ type: "text", text: `${city}: 22°C, sunny` }],
+  }),
+);
+
+const server = createSdkMcpServer({ name: "weather", tools: [getWeather] });
+
+for await (const msg of query({
+  prompt: "What is the weather in Tokyo?",
+  options: { mcpServers: { weather: server } },
+})) {
+  if (msg.type === "result") console.log(`Cost: $${msg.total_cost_usd?.toFixed(4)}`);
+}
+```
+
+## Notable Details
+
+- **License**: MIT
+- **Language**: TypeScript (requires Node.js ≥18)
+- **Community**: 2,581 GitHub stars
+- **Companion**: Go version available at [open-agent-sdk-go](https://github.com/codeany-ai/open-agent-sdk-go)
+- **Web UI**: Includes built-in chat interface for testing
+
+<Callout type="tip">
+The SDK auto-detects API type from model names — models containing `gpt-`, `o1`, `deepseek`, `qwen`, etc. automatically use OpenAI-compatible mode.
+</Callout>

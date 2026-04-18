@@ -7780,6 +7780,17 @@
       "category": "Agentic",
       "version": "v0.24.0",
       "blurb": "EvoNexus is a TypeScript-based multi-agent operating system that orchestrates 38 specialized AI agents for business operations and software development workflows. It provides automated daily routines including financial reporting, community monitoring, code reviews, and strategic planning while supporting multiple LLM providers (Anthropic, OpenAI, Google, etc.) through a unified interface. The system uses markdown-based agent definitions rather than code, making it extensible without requiring compilation or SDK knowledge."
+    },
+    "codejunkie99/agentic-stack": {
+      "full_name": "codejunkie99/agentic-stack",
+      "description": "One brain, many harnesses. Portable .agent/ folder (memory + skills + protocols) that plugs into Claude Code, Cursor, Windsurf, OpenCode, OpenClaw, Hermes, or DIY Python — and keeps its knowledge when you switch.",
+      "language": "Python",
+      "url": "https://github.com/codejunkie99/agentic-stack",
+      "first_seen": "2026-04-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.6.0"
     }
   }
 }

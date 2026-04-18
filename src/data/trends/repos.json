@@ -5196,14 +5196,14 @@
     },
     "NanmiCoder/cc-haha": {
       "full_name": "NanmiCoder/cc-haha",
-      "description": "Claude Code 泄露源码 - 本地可运行版本（附带核心模块解析）",
+      "description": "Claude Code 泄露源码 - 本地可运行版本，新增跨平台桌面端软件补齐Computer Use（附带核心模块解析）",
       "language": "TypeScript",
       "url": "https://github.com/NanmiCoder/cc-haha",
       "first_seen": "2026-04-03",
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v0.1.0",
       "blurb": "cc-haha is a locally runnable version of Claude Code based on leaked source code that has been fixed and patched. It provides a complete Ink TUI interface and supports integration with any Anthropic-compatible API (like MiniMax, OpenRouter) for AI-assisted coding tasks. The project fixes multiple blocking issues from the original leaked source to make the full interactive terminal interface functional locally."
     },
     "k2-fsa/OmniVoice": {

@@ -7910,6 +7910,39 @@
       "category": "Other",
       "version": null,
       "blurb": "This is a Python tool that extracts and visualizes WeChat favorites data from the encrypted local database on macOS. It provides an end-to-end pipeline to decrypt WeChat's SQLCipher database and generate interactive HTML reports with statistics, trends, word clouds, and searchable content browsing. The implementation uses Frida to hook system PBKDF2 functions for key extraction, which is necessary because WeChat's favorites database keys are only loaded when the user opens the favorites page."
+    },
+    "cathrynlavery/diagram-design": {
+      "full_name": "cathrynlavery/diagram-design",
+      "description": "Thirteen editorial diagram types for Claude Code. Self-contained HTML + SVG. No shadows, no Mermaid-slop.",
+      "language": "HTML",
+      "url": "https://github.com/cathrynlavery/diagram-design",
+      "first_seen": "2026-04-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "NikolayS/pgque": {
+      "full_name": "NikolayS/pgque",
+      "description": "PgQue – Zero-bloat Postgres queue. One SQL file to install, pg_cron to tick.",
+      "language": "PLpgSQL",
+      "url": "https://github.com/NikolayS/pgque",
+      "first_seen": "2026-04-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "QuipNetwork/quip-protocol-rs": {
+      "full_name": "QuipNetwork/quip-protocol-rs",
+      "description": "A rust implementation of the Quip Protocol forked from Substrate",
+      "language": "Rust",
+      "url": "https://github.com/QuipNetwork/quip-protocol-rs",
+      "first_seen": "2026-04-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

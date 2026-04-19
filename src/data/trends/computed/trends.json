@@ -1514,7 +1514,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "This is a collection of 13 editorial-quality diagram templates delivered as self-contained HTML+SVG files. It functions as a Claude Code skill to generate custom diagrams in your brand colors and typography, replacing generic Mermaid output. Each diagram type ships in minimal light, minimal dark, and full-editorial variants with no build dependencies."
     },
     {
       "full_name": "NikolayS/pgque",
@@ -1529,7 +1529,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "PgQue is a PostgreSQL-based message queue implemented entirely in PL/pgSQL that runs on any Postgres 14+ instance without requiring extensions or external daemons. It provides a durable event stream with independent per-consumer cursors and avoids the performance degradation common in SKIP LOCKED queues by using snapshot-based batching and table rotation instead of row-level deletion. The implementation is based on the battle-tested PgQ architecture originally designed at Skype but rebuilt to work on managed Postgres providers."
     },
     {
       "full_name": "stanford-iris-lab/meta-harness",
@@ -1649,7 +1649,7 @@
       "has_summary": false,
       "category": "Other",
       "version": null,
-      "blurb": null
+      "blurb": "QuipNetwork/quip-protocol-rs is a Rust implementation of the Quip Protocol built on the Substrate blockchain framework. It provides a ready-to-use node template for building custom blockchains with Substrate's modular runtime architecture and consensus mechanisms. Despite having 5,041 stars, the repository appears to still contain mostly unmodified Substrate node template documentation."
     },
     {
       "full_name": "OpenMOSS/MOSS-TTS-Nano",

@@ -1,0 +1,77 @@
+<GuideHeader tool="cc-haha" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Claude Code Haha
+
+A locally runnable version based on leaked Claude Code source code, enhanced with Computer Use functionality and cross-platform desktop client. Supports any Anthropic-compatible API endpoints including MiniMax and OpenRouter.
+
+## Key Features
+
+- Complete Ink TUI interface matching official Claude Code
+- Headless mode with `--print` flag for CI/scripting
+- MCP server, plugin, and Skills system support
+- Custom API endpoints and third-party model integration
+- Cross-session persistent memory system
+- Multi-agent orchestration with parallel task execution
+- Extensible Skills system with custom workflows
+- Remote control via Telegram/Feishu/Discord channels
+- Computer Use desktop control (screenshots, mouse, keyboard)
+- Cross-platform desktop client built with Tauri 2 + React
+- Recovery CLI mode fallback
+
+## Installation
+
+Install Bun runtime first:
+
+```bash
+# macOS/Linux
+curl -fsSL https://bun.sh/install | bash
+
+# Windows (PowerShell)
+powershell -c "irm bun.sh/install.ps1 | iex"
+```
+
+Clone and setup:
+
+```bash
+git clone https://github.com/NanmiCoder/cc-haha
+cd cc-haha
+bun install
+cp .env.example .env
+# Edit .env with your API key
+```
+
+## Basic Usage
+
+**macOS/Linux:**
+```bash
+./bin/claude-haha                          # Interactive TUI mode
+./bin/claude-haha -p "your prompt here"    # Headless mode
+```
+
+**Windows:**
+```powershell
+bun --env-file=.env ./src/entrypoints/cli.tsx
+```
+
+<Callout type="info">
+Windows users must install [Git for Windows](https://git-scm.com/download/win) as a prerequisite.
+</Callout>
+
+For desktop client development, start the API server separately:
+
+```bash
+SERVER_PORT=3456 bun run src/server/index.ts
+```
+
+## Notable Details
+
+- **Language:** TypeScript with Bun runtime
+- **License:** No license specified
+- **Community:** 6,695 GitHub stars
+- **Tech Stack:** React + Ink for TUI, Tauri 2 for desktop client
+- **Protocol Support:** MCP, LSP integration
+- **API Compatibility:** Anthropic SDK with custom endpoint support
+
+<Callout type="tip">
+The project includes extensive Chinese documentation covering memory systems, multi-agent architecture, and Computer Use implementation details.
+</Callout>

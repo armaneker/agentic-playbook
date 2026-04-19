@@ -1,0 +1,47 @@
+<GuideHeader tool="ai-agent-deep-dive" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# AI Agent Deep Dive
+
+A research repository containing in-depth source code analysis reports of AI agents, plus a minimal educational Python agent implementation for learning core architectural patterns.
+
+## What it does
+
+- **Research reports**: PDF analyses of popular AI agent frameworks (ClaudeCode, Hermes Agent)
+- **Educational agent**: Minimal Python implementation demonstrating core agent structure
+- **Teaching materials**: Documentation focused on agent main loops, skill discovery, and CLI interfaces
+- **Modular design**: Clean separation between LLM interface, skills system, and agent core
+
+## Installation
+
+This project uses Poetry for dependency management:
+
+```bash
+git clone https://github.com/tvytlx/ai-agent-deep-dive.git
+cd ai-agent-deep-dive
+poetry install
+```
+
+## Basic usage
+
+Run the minimal teaching agent:
+
+```bash
+# Basic interaction
+poetry run agt "你好"
+
+# List available skills
+poetry run agt --skills-dir ./skills --list-skills
+```
+
+<Callout type="info">
+The current implementation uses a fake LLM for educational purposes. It returns test responses in streaming format to demonstrate the interface structure before connecting real model APIs.
+</Callout>
+
+## Notable details
+
+**Language**: Python  
+**License**: Unknown  
+**Community**: 5,559 GitHub stars  
+**Focus**: Educational code structure over production complexity
+
+The core agent logic lives in `src/agt/agent.py` with CLI entry at `src/agt/cli.py`. Research PDFs are available directly in the repository, with additional reports in the author's knowledge community.

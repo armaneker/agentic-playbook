@@ -4722,7 +4722,7 @@
       "language": "Python",
       "url": "https://github.com/tvytlx/ai-agent-deep-dive",
       "first_seen": "2026-04-01",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Agentic",
       "version": null,
@@ -7818,7 +7818,8 @@
         "token-usage"
       ],
       "category": "Agentic",
-      "version": "mac-v0.7.5"
+      "version": "mac-v0.7.5",
+      "blurb": "CodeBurn is a terminal-based dashboard that tracks token usage and costs across AI coding tools like Claude Code, Codex, Cursor, and GitHub Copilot. It helps developers monitor where their AI coding budget is being spent by analyzing session data, tracking success rates, and identifying inefficient usage patterns. The tool works by directly reading session data from disk without requiring API keys or proxies, and includes a native macOS menubar app."
     },
     "bwjoke/BTC-Trading-Since-2020": {
       "full_name": "bwjoke/BTC-Trading-Since-2020",
@@ -7836,7 +7837,8 @@
         "trading"
       ],
       "category": "Other",
-      "version": "data-2026-04-18-fix7"
+      "version": "data-2026-04-18-fix7",
+      "blurb": "This is a public dataset containing nearly six years of real Bitcoin trading data from a single account, including 43k+ orders and 173k+ execution records from BitMEX. It provides researchers and traders with a complete, timestamped archive of actual trading decisions and outcomes across multiple market cycles, rather than selective narratives or curated performance stories. The dataset emphasizes decision-making under uncertainty and includes comprehensive execution ledgers, wallet histories, and position snapshots that were made public before outcomes were known."
     },
     "bergside/design-md-chrome": {
       "full_name": "bergside/design-md-chrome",
@@ -7858,7 +7860,8 @@
         "typeui"
       ],
       "category": "AI / ML",
-      "version": "v0.4.0"
+      "version": "v0.4.0",
+      "blurb": "A Chrome extension that extracts design system elements (typography, colors, spacing, etc.) from any website and generates standardized DESIGN.md or SKILL.md files. It enables developers to quickly capture and document design patterns from existing sites for use with AI coding tools like Claude and GitHub Copilot. The extension outputs files in the TypeUI DESIGN.md format, providing structured documentation that includes style foundations, accessibility requirements, and implementation rules."
     },
     "lewislulu/llm-wiki-skill": {
       "full_name": "lewislulu/llm-wiki-skill",
@@ -7869,7 +7872,8 @@
       "has_summary": false,
       "topics": [],
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "This is an OpenClaw/Codex agent skill that builds persistent, cross-linked Markdown knowledge bases where LLMs compile and organize raw sources into a structured wiki format, inspired by Andrej Karpathy's approach. It replaces traditional RAG retrieval with a compounding knowledge system where each compile/ingest/query cycle makes the wiki richer, with the LLM handling all writing and cross-referencing while humans provide sources and feedback. The project includes Obsidian plugin integration and a local web viewer with audit capabilities for iterative knowledge base improvement."
     },
     "imbue-ai/bouncer": {
       "full_name": "imbue-ai/bouncer",
@@ -7880,7 +7884,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Bouncer is a browser extension that uses AI to filter unwanted posts from Twitter/X feeds based on natural language filter definitions. It allows users to define filter topics in plain language (like \"crypto\" or \"engagement bait\") and automatically hides matching posts in real-time using various AI models. The extension supports both local on-device inference via WebGPU and cloud-based AI services, with multimodal capabilities to filter based on both text and images."
     }
   }
 }

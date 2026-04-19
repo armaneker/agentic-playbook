@@ -7946,6 +7946,28 @@
       "category": "Other",
       "version": null,
       "blurb": "QuipNetwork/quip-protocol-rs is a Rust implementation of the Quip Protocol built on the Substrate blockchain framework. It provides a ready-to-use node template for building custom blockchains with Substrate's modular runtime architecture and consensus mechanisms. Despite having 5,041 stars, the repository appears to still contain mostly unmodified Substrate node template documentation."
+    },
+    "kyegomez/OpenMythos": {
+      "full_name": "kyegomez/OpenMythos",
+      "description": "A theoretical reconstruction of the Claude Mythos architecture, built from first principles using the available research literature.",
+      "language": "Python",
+      "url": "https://github.com/kyegomez/OpenMythos",
+      "first_seen": "2026-04-19",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "attention",
+        "claude",
+        "claude-ai",
+        "claude-code",
+        "gpt-5",
+        "gpt-7",
+        "looped-transformers",
+        "ml",
+        "sonnet"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

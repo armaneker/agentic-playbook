@@ -1,0 +1,62 @@
+<GuideHeader tool="claude_code_src" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Claude Code 2.1.88 Source Recovery
+
+This repository contains the recovered source code from Claude Code version 2.1.88, which was accidentally published to npm with a 57MB source map file containing the complete codebase. The recovered code includes 700,000 lines of TypeScript implementing Claude's CLI architecture.
+
+<Callout type="warning">
+This is not an official Anthropic repository. The source code was recovered from a source map file accidentally included in npm package 2.1.88.
+</Callout>
+
+## Key Features
+
+- **Complete CLI command system** - Login, MCP integration, code review, task management
+- **React + Ink terminal UI** - Complex interactive interfaces built with React components
+- **Model Context Protocol (MCP)** - Deep integration of MCP for AI model interactions  
+- **Dynamic command loading** - Support for built-in commands, skills, plugins, and MCP commands
+- **Feature flag system** - Extensive build-time configuration and feature control
+- **700k lines of production code** - Full implementation details of Claude's CLI tool
+
+## Installation
+
+Since version 2.1.88 was removed from npm, install via Tencent's cached mirror:
+
+```bash
+npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz
+```
+
+<Callout type="info">
+The original npm package is no longer available. The mirror cache may also be removed at any time.
+</Callout>
+
+## Basic Usage
+
+The recovered source reveals the core command structure:
+
+```typescript
+// Command loading mechanism from src/commands/
+const commands = {
+  login: () => import('./commands/login'),
+  mcp: () => import('./commands/mcp'), 
+  review: () => import('./commands/review'),
+  tasks: () => import('./commands/tasks')
+};
+
+// Terminal UI components from src/components/
+import { Box, Text } from 'ink';
+import { useState, useEffect } from 'react';
+```
+
+Key directories include `src/entrypoints/` for CLI initialization, `src/commands/` for the command system, `src/components/` for React-based terminal UI, and `src/services/` for core business logic.
+
+## Notable Details
+
+**License:** Unknown  
+**Language:** TypeScript  
+**Community:** 2,174 GitHub stars  
+**Architecture:** React + Ink for terminal UI, extensive MCP integration  
+**Code size:** 700,000 lines recovered from source maps
+
+<Callout type="danger">
+This code is for research and analysis only. Original copyright belongs to Anthropic. Evaluate legal risks before any commercial use.
+</Callout>

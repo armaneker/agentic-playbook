@@ -4758,7 +4758,7 @@
       "language": "TypeScript",
       "url": "https://github.com/ponponon/claude_code_src",
       "first_seen": "2026-04-01",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": "2.1.88",
@@ -7967,7 +7967,8 @@
         "sonnet"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "OpenMythos is a theoretical reconstruction of Claude's Mythos architecture implemented as a Recurrent-Depth Transformer (RDT) that loops a subset of transformer layers multiple times per forward pass. It enables compute-adaptive reasoning by allowing variable loop iterations during inference, potentially improving systematic generalization without generating intermediate tokens. The implementation uses input injection at each loop iteration to prevent hidden state drift and includes switchable attention mechanisms (MLA/GQA) with sparse MoE layers."
     }
   }
 }

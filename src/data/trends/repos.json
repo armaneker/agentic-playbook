@@ -4734,7 +4734,7 @@
       "language": "Shell",
       "url": "https://github.com/chatgptprojects/clear-code",
       "first_seen": "2026-04-01",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -7896,7 +7896,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "Browser Harness is a self-healing Python library that connects LLMs directly to Chrome via CDP to automate browser tasks. It allows LLMs to modify their own helper functions mid-task when encountering missing functionality, requiring no predefined recipes or framework constraints. The entire codebase is ~592 lines with no abstraction layers between the agent and the browser websocket connection."
     },
     "zhuyansen/wx-favorites-report": {
       "full_name": "zhuyansen/wx-favorites-report",
@@ -7907,7 +7908,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "This is a Python tool that extracts and visualizes WeChat favorites data from the encrypted local database on macOS. It provides an end-to-end pipeline to decrypt WeChat's SQLCipher database and generate interactive HTML reports with statistics, trends, word clouds, and searchable content browsing. The implementation uses Frida to hook system PBKDF2 functions for key extraction, which is necessary because WeChat's favorites database keys are only loaded when the user opens the favorites page."
     }
   }
 }

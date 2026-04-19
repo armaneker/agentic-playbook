@@ -1,0 +1,54 @@
+<GuideHeader tool="clear-code" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Clear-Code
+
+Clear-Code provides visibility into Claude Code requests by logging every API call, file access, and token usage through a simple proxy setup. It's a monitoring and debugging tool for Claude Code workflows.
+
+## Key Features
+
+- **Complete request logging** - Captures every Claude Code API call with full request/response details
+- **Token usage tracking** - Monitor consumption and costs across all Claude Code sessions  
+- **File access visibility** - See exactly which files Claude Code reads during execution
+- **Zero code changes** - Works by redirecting API calls through a proxy URL
+- **Dashboard interface** - Web-based logs viewer at app.leanmcp.com
+- **Real-time monitoring** - Live visibility into ongoing Claude Code operations
+
+## Installation
+
+Set up the proxy configuration by updating your environment variables:
+
+```bash
+export ANTHROPIC_BASE_URL=https://aigateway.leanmcp.com/v1/anthropic
+export ANTHROPIC_API_KEY=your_leanmcp_key
+```
+
+Get your API key from [app.leanmcp.com/billing](https://app.leanmcp.com/billing).
+
+<Callout type="info">
+No code changes required - this works by intercepting API calls at the network level.
+</Callout>
+
+## Basic Usage
+
+After setting the environment variables, run Claude Code normally:
+
+```bash
+# Any Claude Code command will now be logged
+claude-code "refactor this function"
+claude-code "add error handling to main.py"
+```
+
+View logs and analytics at [app.leanmcp.com](https://app.leanmcp.com).
+
+<Callout type="tip">
+The dashboard shows request patterns, token costs, and file access patterns to help optimize Claude Code usage.
+</Callout>
+
+## Project Details
+
+**License:** MIT  
+**Language:** Shell  
+**Stars:** 2,057  
+**Repository:** [chatgptprojects/clear-code](https://github.com/chatgptprojects/clear-code)
+
+Active community on [Discord](https://discord.com/invite/DsRcA3GwPy) with regular updates and Claude Code optimization discussions.

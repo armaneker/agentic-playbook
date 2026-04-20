@@ -7969,6 +7969,143 @@
       "category": "AI / ML",
       "version": null,
       "blurb": "OpenMythos is a theoretical reconstruction of Claude's Mythos architecture implemented as a Recurrent-Depth Transformer (RDT) that loops a subset of transformer layers multiple times per forward pass. It enables compute-adaptive reasoning by allowing variable loop iterations during inference, potentially improving systematic generalization without generating intermediate tokens. The implementation uses input injection at each loop iteration to prevent hidden state drift and includes switchable attention mechanisms (MLA/GQA) with sparse MoE layers."
+    },
+    "EvoLinkAI/awesome-gpt-image-2-prompts": {
+      "full_name": "EvoLinkAI/awesome-gpt-image-2-prompts",
+      "description": "Curated GPT-Image-2 prompts and image examples across portraits, posters, UI mockups, character sheets, and community experiments.",
+      "language": "Unknown",
+      "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [
+        "ai-art",
+        "awesome-list",
+        "evolink",
+        "gpt-image-2",
+        "image-generation",
+        "prompts"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "VoltAgent/awesome-claude-design": {
+      "full_name": "VoltAgent/awesome-claude-design",
+      "description": "Awesome Claude Design: 68 ready-to-use design system inspirations in DESIGN.md format. Drop one in, scaffold a full UI in one shot.",
+      "language": "Unknown",
+      "url": "https://github.com/VoltAgent/awesome-claude-design",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "claude-design",
+        "design-md",
+        "design-system",
+        "figma"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "ZJU-REAL/ClawGUI": {
+      "full_name": "ZJU-REAL/ClawGUI",
+      "description": "Build, Evaluate, and Deploy GUI Agents — online RL training, standardized benchmarks, and real-device deployment in one framework.",
+      "language": "Python",
+      "url": "https://github.com/ZJU-REAL/ClawGUI",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [
+        "agentrl",
+        "guiagents",
+        "mobile-agent",
+        "onlinerl",
+        "openclaw",
+        "rl-training"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "kapishdima/remocn": {
+      "full_name": "kapishdima/remocn",
+      "description": "Production-ready animations, transitions, backgrounds, and scenes for Remotion. A shadcn registry that lets you `npx shadcn add` polished video components into any Remotion project. Built for solo builders shipping demo videos fast",
+      "language": "TypeScript",
+      "url": "https://github.com/kapishdima/remocn",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "joyehuang/Learn-Open-Harness": {
+      "full_name": "joyehuang/Learn-Open-Harness",
+      "description": "🤖 Official Interactive Tutorial for OpenHarness – Zero to Hero in 12 Chapters | Learn OpenHarness like Claude Code: Agent Loop, Tools, Memory, Multi-Agent | 面向零基础的 AI Agent 交互式教程",
+      "language": "TypeScript",
+      "url": "https://github.com/joyehuang/Learn-Open-Harness",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [
+        "agent-harness",
+        "agent-loop",
+        "ai-agent",
+        "ai-agent-tutorial",
+        "ai-harness",
+        "ai-infrastructure",
+        "chinese",
+        "claude-code",
+        "generative-ai",
+        "harness-engineering",
+        "interactive-learning",
+        "interactive-tutorial",
+        "llm",
+        "nextjs",
+        "openharness",
+        "openharness-tutorial",
+        "shadcn-ui",
+        "zero-to-hero"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "bitjaru/styleseed": {
+      "full_name": "bitjaru/styleseed",
+      "description": "Claude Code & Cursor design system. Stop generating ugly AI UI. 69 design rules + 48 shadcn components + Toss/Stripe/Linear/Vercel/Notion brand skins. Tailwind v4 + Radix.",
+      "language": "TypeScript",
+      "url": "https://github.com/bitjaru/styleseed",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [
+        "ai-coding",
+        "ai-ui",
+        "claude-code",
+        "claude-skills",
+        "cursor",
+        "cursor-rules",
+        "design-system",
+        "design-tokens",
+        "nextjs",
+        "radix-ui",
+        "react",
+        "react-components",
+        "shadcn",
+        "shadcn-ui",
+        "tailwind-css",
+        "tailwindcss",
+        "toss",
+        "typescript",
+        "ui-ux",
+        "vibe-coding"
+      ],
+      "category": "Web Framework",
+      "version": "v2.1.1"
+    },
+    "ConardLi/easy-agent": {
+      "full_name": "ConardLi/easy-agent",
+      "description": "Fully recreating Claude Code from scratch, so anyone can learn how it works.",
+      "language": "TypeScript",
+      "url": "https://github.com/ConardLi/easy-agent",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

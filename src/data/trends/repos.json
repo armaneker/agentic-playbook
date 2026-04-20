@@ -4770,7 +4770,7 @@
       "language": "TypeScript",
       "url": "https://github.com/jarmuine/claude-code",
       "first_seen": "2026-04-01",
-      "has_summary": false,
+      "has_summary": true,
       "topics": [],
       "category": "Other",
       "version": null,
@@ -7986,7 +7986,8 @@
         "prompts"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": null,
+      "blurb": "This is a curated collection of high-quality prompts and image examples for GPT-Image-2, covering categories like portraits, posters, UI mockups, and character sheets. It serves as a reference library for developers and creators looking to generate specific types of images with effective prompt patterns. The repository sources examples from X/Twitter, creator communities, and public demos to provide real-world use cases."
     },
     "VoltAgent/awesome-claude-design": {
       "full_name": "VoltAgent/awesome-claude-design",
@@ -8003,7 +8004,8 @@
         "figma"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "This is a curated collection of 68 ready-to-use DESIGN.md files that work with Claude Design to generate complete UI design systems from a single file upload. Teams use it to skip the blank-page problem when starting design projects by selecting an aesthetic template that Claude Design then expands into a full design system with colors, typography, components, and working UI kits. The DESIGN.md format bridges human design intent with AI actionability by combining specific design tokens with the rationale behind design decisions."
     },
     "ZJU-REAL/ClawGUI": {
       "full_name": "ZJU-REAL/ClawGUI",
@@ -8021,7 +8023,8 @@
         "rl-training"
       ],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "ClawGUI is a unified framework for building, evaluating, and deploying GUI agents that can control graphical interfaces through natural language commands. It provides online reinforcement learning training with parallel environments, standardized benchmarking across multiple datasets, and real-device deployment capabilities for mobile agents. The framework includes GiGPO (a novel RL algorithm) and demonstrates end-to-end validation with ClawGUI-2B, which achieves 17.1% success rate on MobileWorld compared to an 11.1% baseline."
     },
     "kapishdima/remocn": {
       "full_name": "kapishdima/remocn",
@@ -8032,7 +8035,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": null,
+      "blurb": "remocn is a shadcn-style component registry that provides production-ready animations, transitions, and video scenes for Remotion projects. It allows developers to quickly add polished video components via `npx shadcn add` instead of building every animation from scratch, targeting solo builders and small teams who need demo videos shipped fast. The library includes 64+ components across text animations, backgrounds, transitions, UI blocks, and full compositions that get copied into your codebase for full ownership and customization."
     },
     "joyehuang/Learn-Open-Harness": {
       "full_name": "joyehuang/Learn-Open-Harness",
@@ -8062,7 +8066,8 @@
         "zero-to-hero"
       ],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "This is an interactive tutorial for learning OpenHarness, the open-source AI agent framework that powers tools like Claude Code and Cursor. It breaks down OpenHarness's 11,700+ lines of infrastructure code into 12 digestible chapters covering agent loops, tools, memory systems, and multi-agent collaboration through hands-on simulators and quizzes. The tutorial was built immediately after OpenHarness launched to make the complex agent harness pattern accessible to developers without AI experience."
     },
     "bitjaru/styleseed": {
       "full_name": "bitjaru/styleseed",
@@ -8094,7 +8099,8 @@
         "vibe-coding"
       ],
       "category": "Web Framework",
-      "version": "v2.1.1"
+      "version": "v2.1.1",
+      "blurb": "StyleSeed is a design system that provides 69 visual design rules and brand skins for AI coding tools like Claude Code and Cursor to generate professional-looking UIs. It teaches LLMs design judgment rather than just design data, helping avoid the generic appearance typical of AI-generated interfaces. Components can instantly switch between brand styles (Toss, Stripe, Linear, etc.) using a simple `data-skin` attribute without code rewrites."
     },
     "ConardLi/easy-agent": {
       "full_name": "ConardLi/easy-agent",
@@ -8105,7 +8111,8 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
-      "version": null
+      "version": null,
+      "blurb": "Easy Agent is an open-source TypeScript project that recreates Claude Code's functionality from scratch as a terminal-native coding agent. It provides a local agentic coding system with multi-turn orchestration, tool execution, and extensibility for developers who want to understand or customize how AI coding assistants work. The project uses a five-layer architecture separating concerns from model communication to terminal UI, currently in active development following a 30-phase roadmap."
     }
   }
 }

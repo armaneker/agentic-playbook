@@ -1,0 +1,79 @@
+<GuideHeader tool="claude-code" difficulty="Beginner" lastTested="2026-04" readTime="5 min" />
+
+# Claude Code
+
+Claude Code is Anthropic's CLI tool for interacting with Claude from the terminal to perform software engineering tasks. This repository contains a publicly exposed source snapshot from March 31, 2026, maintained for educational and security research purposes.
+
+## Key Features
+
+- **File Operations**: Read, write, and edit files including images, PDFs, and Jupyter notebooks
+- **Shell Integration**: Execute bash commands with permission controls
+- **Code Search**: Use ripgrep and glob patterns to search codebases
+- **Agent System**: Spawn sub-agents and coordinate multi-agent workflows
+- **IDE Bridge**: Bidirectional communication with VS Code and JetBrains extensions
+- **MCP Integration**: Connect to Model Context Protocol servers
+- **LSP Support**: Language Server Protocol integration for code intelligence
+- **Task Management**: Create and manage development tasks
+- **Voice Input**: Voice command interface (feature-flagged)
+- **Git Integration**: Worktree isolation and commit assistance
+
+<Callout type="warning">
+This is a research mirror of an accidentally exposed source snapshot, not an official Anthropic repository.
+</Callout>
+
+## Installation
+
+This snapshot is for analysis only. The original Claude Code would be installed via:
+
+```bash
+npm install -g @anthropic-ai/claude-code
+```
+
+## Basic Usage
+
+The tool provides slash commands and an interactive REPL:
+
+```bash
+# Start interactive session
+claude-code
+
+# Use slash commands
+/commit "Add new feature"
+/review src/components/
+/tasks list
+/mcp connect my-server
+```
+
+Example tool interactions:
+
+```typescript
+// File editing with string replacement
+await fileEdit('src/app.ts', 'old code', 'new code')
+
+// Search codebase
+await grep('function.*Component', { include: '*.tsx' })
+
+// Execute shell commands
+await bash('npm test')
+```
+
+## Architecture Details
+
+Built with TypeScript and Bun runtime, featuring:
+- **~1,900 files, 512k+ lines of code**
+- **React + Ink** for terminal UI
+- **50+ slash commands** and **40+ agent tools**
+- **Feature flags** for dead code elimination
+- **Permission system** with user approval flows
+
+<Callout type="info">
+The codebase uses Bun's feature flag system to conditionally compile features like voice mode and proactive agents.
+</Callout>
+
+## Notable Details
+
+- **Language**: TypeScript
+- **Stars**: 2,040
+- **License**: Unknown
+- **Exposure Date**: March 31, 2026
+- **Research Focus**: Supply chain security, agentic tooling architecture

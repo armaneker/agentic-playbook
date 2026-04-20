@@ -8132,6 +8132,37 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "assai-id/nemesis": {
+      "full_name": "assai-id/nemesis",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/assai-id/nemesis",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "drasimwagan/mdv": {
+      "full_name": "drasimwagan/mdv",
+      "description": "MDV — a Markdown superset for documents, dashboards, and slides with embedded data and visualizations. HTML + PDF export, live preview, VS Code extension.",
+      "language": "TypeScript",
+      "url": "https://github.com/drasimwagan/mdv",
+      "first_seen": "2026-04-20",
+      "has_summary": false,
+      "topics": [
+        "charts",
+        "cli",
+        "commonmark",
+        "dashboards",
+        "data-visualization",
+        "markdown",
+        "typescript",
+        "vscode-extension"
+      ],
+      "category": "DevTools",
+      "version": "vscode-v0.1.1"
     }
   }
 }

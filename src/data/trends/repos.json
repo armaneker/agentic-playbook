@@ -2877,7 +2877,7 @@
     },
     "slavingia/skills": {
       "full_name": "slavingia/skills",
-      "description": "Claude Code skills based on The Minimalist Entrepreneur by Sahil Lavingia",
+      "description": "Based on The Minimalist Entrepreneur by Sahil Lavingia",
       "language": "Unknown",
       "url": "https://github.com/slavingia/skills",
       "first_seen": "2026-03-24",
@@ -8163,6 +8163,111 @@
       ],
       "category": "DevTools",
       "version": "vscode-v0.1.1"
+    },
+    "anthropics/skills": {
+      "full_name": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
+      "language": "Python",
+      "url": "https://github.com/anthropics/skills",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [
+        "agent-skills"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "ZeroZ-lab/cc-design": {
+      "full_name": "ZeroZ-lab/cc-design",
+      "description": "High-fidelity HTML design and prototype guidance skill for AI agents",
+      "language": "JavaScript",
+      "url": "https://github.com/ZeroZ-lab/cc-design",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jackwener/wx-cli": {
+      "full_name": "jackwener/wx-cli",
+      "description": "WeChat local data CLI with daemon architecture",
+      "language": "Rust",
+      "url": "https://github.com/jackwener/wx-cli",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": "v0.1.10"
+    },
+    "SteveTheKiller/KillerPDF": {
+      "full_name": "SteveTheKiller/KillerPDF",
+      "description": "Portable PDF editor for Windows. GPLv3. No installer, no account, no subscription, no telemetry.",
+      "language": "C#",
+      "url": "https://github.com/SteveTheKiller/KillerPDF",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [
+        "dotnet",
+        "gplv3",
+        "opensource",
+        "pdf",
+        "pdf-editor",
+        "portable",
+        "windows",
+        "wpf"
+      ],
+      "category": "Other",
+      "version": "v1.1.1"
+    },
+    "kangarooking/cangjie-skill": {
+      "full_name": "kangarooking/cangjie-skill",
+      "description": "把一本书蒸馏成一组可执行的 Agent Skills",
+      "language": "Unknown",
+      "url": "https://github.com/kangarooking/cangjie-skill",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [
+        "agent-workflows",
+        "ai-skills",
+        "automation",
+        "book-to-skill",
+        "knowledge-distillation",
+        "prompt-engineering",
+        "skill-generator",
+        "templates"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "Creators-of-Aeronautics/Simulated-Project": {
+      "full_name": "Creators-of-Aeronautics/Simulated-Project",
+      "description": "Build anything from airships to planes and cars!",
+      "language": "Java",
+      "url": "https://github.com/Creators-of-Aeronautics/Simulated-Project",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [
+        "minecraft",
+        "minecraft-mod",
+        "neoforge"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Ademking/MD-This-Page": {
+      "full_name": "Ademking/MD-This-Page",
+      "description": "Convert any web page to clean, readable Markdown with just one click.",
+      "language": "TypeScript",
+      "url": "https://github.com/Ademking/MD-This-Page",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [
+        "chrome-extension",
+        "firefox-extension",
+        "markdown"
+      ],
+      "category": "Other",
+      "version": "1.0.0"
     }
   }
 }

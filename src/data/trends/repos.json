@@ -7851,9 +7851,13 @@
         "ai",
         "chrome",
         "chrome-extension",
+        "claude",
+        "claude-design",
+        "codex",
         "design-md",
         "design-skills",
         "extension",
+        "gemini",
         "open-source",
         "skills",
         "skills-ai",
@@ -7981,7 +7985,7 @@
     "EvoLinkAI/awesome-gpt-image-2-prompts": {
       "full_name": "EvoLinkAI/awesome-gpt-image-2-prompts",
       "description": "Curated GPT-Image-2 prompts and image examples across portraits, posters, UI mockups, character sheets, and community experiments.",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
       "first_seen": "2026-04-20",
       "has_summary": false,
@@ -8290,6 +8294,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.4"
+    },
+    "tw93/Kami": {
+      "full_name": "tw93/Kami",
+      "description": "👩‍🚒 Good content deserves good paper.",
+      "language": "HTML",
+      "url": "https://github.com/tw93/Kami",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "V1.0.0"
     }
   }
 }

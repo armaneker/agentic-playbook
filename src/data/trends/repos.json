@@ -8268,6 +8268,28 @@
       ],
       "category": "Other",
       "version": "1.0.0"
+    },
+    "alchaincyf/huashu-design": {
+      "full_name": "alchaincyf/huashu-design",
+      "description": "Huashu Design · HTML-native design skill for Claude Code · Claude Code 里 HTML 原生的设计 skill · 高保真原型 / 幻灯片 / 动画 + 20 设计哲学 + 5 维评审 + MP4 导出 · Agent-agnostic",
+      "language": "HTML",
+      "url": "https://github.com/alchaincyf/huashu-design",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.0"
+    },
+    "golbin/hop": {
+      "full_name": "golbin/hop",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/golbin/hop",
+      "first_seen": "2026-04-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.4"
     }
   }
 }

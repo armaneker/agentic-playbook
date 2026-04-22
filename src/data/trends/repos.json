@@ -8368,6 +8368,60 @@
       ],
       "category": "Agentic",
       "version": "v0.3.4"
+    },
+    "OpenCoworkAI/open-codesign": {
+      "full_name": "OpenCoworkAI/open-codesign",
+      "description": "Open-source Claude Design alternative. One-click import your Claude Code / Codex API key. Prompt → prototype / slides / PDF. Multi-model (Claude, GPT, Gemini, Kimi, GLM, Ollama). BYOK, local-first, MIT.",
+      "language": "TypeScript",
+      "url": "https://github.com/OpenCoworkAI/open-codesign",
+      "first_seen": "2026-04-22",
+      "has_summary": false,
+      "topics": [
+        "ai-design",
+        "anthropic",
+        "byok",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "claude-design-alternative",
+        "deepseek",
+        "design-to-code",
+        "desktop-app",
+        "electron",
+        "figma-alternative",
+        "gemini",
+        "local-first",
+        "multi-model",
+        "ollama",
+        "openai",
+        "openrouter",
+        "typescript",
+        "ui-generator"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.3"
+    },
+    "masterking32/MasterHttpRelayVPN": {
+      "full_name": "masterking32/MasterHttpRelayVPN",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/masterking32/MasterHttpRelayVPN",
+      "first_seen": "2026-04-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "basketikun/chatgpt2api": {
+      "full_name": "basketikun/chatgpt2api",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/basketikun/chatgpt2api",
+      "first_seen": "2026-04-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

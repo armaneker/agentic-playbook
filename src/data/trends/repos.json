@@ -8327,6 +8327,47 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "432539/gpt2api": {
+      "full_name": "432539/gpt2api",
+      "description": "基于 chatgpt.com 逆向的 OpenAI 兼容 SaaS 网关 · GPT-IMAGE-2 稳定 · 批量出图 · 多账号池 · 高并发调度 · 积分计费 · 技术交流QQ 群 382446",
+      "language": "Go",
+      "url": "https://github.com/432539/gpt2api",
+      "first_seen": "2026-04-22",
+      "has_summary": false,
+      "topics": [
+        "chatgpt",
+        "gpt-image-2",
+        "openai"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "google-labs-code/design.md": {
+      "full_name": "google-labs-code/design.md",
+      "description": "A format specification for describing a visual identity to coding agents. DESIGN.md gives agents a persistent, structured understanding of a design system.",
+      "language": "TypeScript",
+      "url": "https://github.com/google-labs-code/design.md",
+      "first_seen": "2026-04-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.1.0"
+    },
+    "cosmicstack-labs/mercury-agent": {
+      "full_name": "cosmicstack-labs/mercury-agent",
+      "description": "Soul-driven AI agent with permission-hardened tools, token budgets, and multi-channel access. Runs 24/7 from CLI or Telegram.",
+      "language": "TypeScript",
+      "url": "https://github.com/cosmicstack-labs/mercury-agent",
+      "first_seen": "2026-04-22",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "llm"
+      ],
+      "category": "Agentic",
+      "version": "v0.3.4"
     }
   }
 }

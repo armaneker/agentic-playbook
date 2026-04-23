@@ -4642,7 +4642,7 @@
       "has_summary": true,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v1.9.3",
       "blurb": "This is a reverse-engineered TypeScript implementation of Anthropic's official Claude Code CLI tool, recreated from decompiled source code. It provides a full REPL interface with streaming conversations, tool execution capabilities (file operations, bash commands, web search, etc.), and support for multiple API backends including Anthropic Direct, AWS Bedrock, and Google Vertex. The project explicitly warns about its uncertain longevity and recommends downloading rather than forking due to rapid updates driven by Claude Opus optimization."
     },
     "obra/superpowers": {
@@ -5484,7 +5484,7 @@
     },
     "paoloanzn/free-code": {
       "full_name": "paoloanzn/free-code",
-      "description": "[NOTE] Parent repo is migrating ownership, until the operation is done this repo is blocked. The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.",
+      "description": "The free build of Claude Code. All telemetry removed, security-prompt guardrails stripped, all experimental features enabled.",
       "language": "TypeScript",
       "url": "https://github.com/paoloanzn/free-code",
       "first_seen": "2026-04-07",
@@ -7625,7 +7625,7 @@
     },
     "browser-use/video-use": {
       "full_name": "browser-use/video-use",
-      "description": "",
+      "description": "Edit videos with coding agents",
       "language": "Python",
       "url": "https://github.com/browser-use/video-use",
       "first_seen": "2026-04-17",
@@ -7894,7 +7894,7 @@
     },
     "browser-use/browser-harness": {
       "full_name": "browser-use/browser-harness",
-      "description": "Self-healing browser harness that enables LLMs to complete any task.",
+      "description": "Browser Harness | Self-healing harness that enables LLMs to complete any task.",
       "language": "Python",
       "url": "https://github.com/browser-use/browser-harness",
       "first_seen": "2026-04-19",
@@ -8542,6 +8542,28 @@
       "description": "An AI agent skill that transforms AI-generated web pages from \"functional\" to \"stunning.\"(Inspired by Claude Design)",
       "language": "CSS",
       "url": "https://github.com/ConardLi/web-design-skill",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "deepseek-ai/TileKernels": {
+      "full_name": "deepseek-ai/TileKernels",
+      "description": "A kernel library written in tilelang",
+      "language": "Python",
+      "url": "https://github.com/deepseek-ai/TileKernels",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Einsia/OpenChronicle": {
+      "full_name": "Einsia/OpenChronicle",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Einsia/OpenChronicle",
       "first_seen": "2026-04-23",
       "has_summary": false,
       "topics": [],

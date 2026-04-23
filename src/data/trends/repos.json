@@ -8445,6 +8445,60 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "TheRealSeanDonahoe/agents-md": {
+      "full_name": "TheRealSeanDonahoe/agents-md",
+      "description": "Drop-in AGENTS.md that makes every coding agent behave like a senior engineer instead of an eager intern. Kills sycophancy, stops drive-by refactors, forces verification loops. Synthesizes Karpathy's four principles and Boris Cherny's Claude Code workflow. Works with Claude Code, Codex, Gemini CLI, Cursor, and the open standard.",
+      "language": "Unknown",
+      "url": "https://github.com/TheRealSeanDonahoe/agents-md",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "openai/privacy-filter": {
+      "full_name": "openai/privacy-filter",
+      "description": "OpenAI Privacy Filter",
+      "language": "Python",
+      "url": "https://github.com/openai/privacy-filter",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Quorinex/Freebuff2API": {
+      "full_name": "Quorinex/Freebuff2API",
+      "description": "🚀 OpenAI-compatible Freebuff proxy with dynamic free-agent tracking, token rotation, and ready-to-use Docker deployment.",
+      "language": "Go",
+      "url": "https://github.com/Quorinex/Freebuff2API",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "iamzhihuix/skills-manage": {
+      "full_name": "iamzhihuix/skills-manage",
+      "description": "Desktop app to manage AI coding agent skills across Claude Code, Cursor, Gemini CLI, Codex, and 20+ platforms from one place.",
+      "language": "TypeScript",
+      "url": "https://github.com/iamzhihuix/skills-manage",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "claude-code",
+        "cursor",
+        "desktop-app",
+        "llm",
+        "react",
+        "rust",
+        "skills",
+        "tauri"
+      ],
+      "category": "AI / ML",
+      "version": "v0.8.0"
     }
   }
 }

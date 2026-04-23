@@ -7985,18 +7985,27 @@
     },
     "EvoLinkAI/awesome-gpt-image-2-prompts": {
       "full_name": "EvoLinkAI/awesome-gpt-image-2-prompts",
-      "description": "Curated GPT-Image-2 prompts and image examples across portraits, posters, UI mockups, character sheets, and community experiments.",
+      "description": "Curated GPT-Image-2 prompts fot the Openai API：image examples across portraits, posters, UI mockups, character sheets, and community experiments.",
       "language": "Python",
       "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-prompts",
       "first_seen": "2026-04-20",
       "has_summary": false,
       "topics": [
-        "ai-art",
+        "api",
         "awesome-list",
-        "evolink",
+        "chatgpt",
+        "generative-",
         "gpt-image-2",
+        "gpt-image-2-api",
+        "gpt-image-2-prompts",
         "image-generation",
-        "prompts"
+        "image-prompt",
+        "image-to-image",
+        "openai",
+        "prompt-",
+        "prompt-collection",
+        "prompts",
+        "text-to-image"
       ],
       "category": "AI / ML",
       "version": null,
@@ -8499,6 +8508,45 @@
       ],
       "category": "AI / ML",
       "version": "v0.8.0"
+    },
+    "YouMind-OpenLab/awesome-gpt-image-2": {
+      "full_name": "YouMind-OpenLab/awesome-gpt-image-2",
+      "description": "🚀 Curated GPT Image 2 prompt library — OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. 16 languages. Free & open source.",
+      "language": "TypeScript",
+      "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [
+        "ai-image-generation",
+        "ai-prompts",
+        "awesome",
+        "awesome-list",
+        "commercial-illustration",
+        "duct-tape",
+        "gpt",
+        "gpt-image",
+        "gpt-image-2",
+        "image-generation",
+        "multilingual",
+        "openai",
+        "openai-image",
+        "prompt-engineering",
+        "prompts",
+        "text-rendering"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "ConardLi/web-design-skill": {
+      "full_name": "ConardLi/web-design-skill",
+      "description": "An AI agent skill that transforms AI-generated web pages from \"functional\" to \"stunning.\"(Inspired by Claude Design)",
+      "language": "CSS",
+      "url": "https://github.com/ConardLi/web-design-skill",
+      "first_seen": "2026-04-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

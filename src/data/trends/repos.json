@@ -8671,6 +8671,33 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "iFurySt/open-codex-computer-use": {
+      "full_name": "iFurySt/open-codex-computer-use",
+      "description": "👾 Open Computer Use – Open-Source Alternative to Codex Computer Use",
+      "language": "Swift",
+      "url": "https://github.com/iFurySt/open-codex-computer-use",
+      "first_seen": "2026-04-24",
+      "has_summary": false,
+      "topics": [
+        "codex-computer-use",
+        "computer-use",
+        "open-computer-use",
+        "open-computer-use-mcp"
+      ],
+      "category": "Other",
+      "version": "v0.1.36"
+    },
+    "guokaigdg/animal-island-ui": {
+      "full_name": "guokaigdg/animal-island-ui",
+      "description": "Animal 风格的 React 组件库 灵感来源于任天堂集合啦！动物森友会游戏界面",
+      "language": "TypeScript",
+      "url": "https://github.com/guokaigdg/animal-island-ui",
+      "first_seen": "2026-04-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

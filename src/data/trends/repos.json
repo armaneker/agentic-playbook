@@ -8432,7 +8432,7 @@
     "basketikun/chatgpt2api": {
       "full_name": "basketikun/chatgpt2api",
       "description": "",
-      "language": "TypeScript",
+      "language": "Python",
       "url": "https://github.com/basketikun/chatgpt2api",
       "first_seen": "2026-04-22",
       "has_summary": false,
@@ -8518,7 +8518,7 @@
     },
     "YouMind-OpenLab/awesome-gpt-image-2": {
       "full_name": "YouMind-OpenLab/awesome-gpt-image-2",
-      "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 1000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
+      "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 1500+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
       "language": "TypeScript",
       "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
       "first_seen": "2026-04-23",
@@ -8693,6 +8693,17 @@
       "description": "Animal 风格的 React 组件库 灵感来源于任天堂集合啦！动物森友会游戏界面",
       "language": "TypeScript",
       "url": "https://github.com/guokaigdg/animal-island-ui",
+      "first_seen": "2026-04-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "victorchen96/deepseek_v4_rolepaly_instruct": {
+      "full_name": "victorchen96/deepseek_v4_rolepaly_instruct",
+      "description": "对于DeepSeek-V4角色扮演的特殊控制指令的说明",
+      "language": "Unknown",
+      "url": "https://github.com/victorchen96/deepseek_v4_rolepaly_instruct",
       "first_seen": "2026-04-24",
       "has_summary": false,
       "topics": [],

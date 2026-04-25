@@ -8776,6 +8776,50 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.0"
+    },
+    "GammaLabTechnologies/harmonist": {
+      "full_name": "GammaLabTechnologies/harmonist",
+      "description": "Portable AI agent orchestration with mechanical protocol enforcement. 186 agents, zero runtime dependencies.",
+      "language": "Python",
+      "url": "https://github.com/GammaLabTechnologies/harmonist",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [
+        "agent-framework",
+        "agent-system",
+        "ai-agents",
+        "claude-code",
+        "cursor-ide",
+        "llm",
+        "multi-agent-framework",
+        "orchestration",
+        "prompt-engineering",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "QuipNetwork/xq-rs": {
+      "full_name": "QuipNetwork/xq-rs",
+      "description": "A rust implementation of the Quip Network's quantum virtual machine.",
+      "language": "Rust",
+      "url": "https://github.com/QuipNetwork/xq-rs",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "akinloluwami/avnac": {
+      "full_name": "akinloluwami/avnac",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/akinloluwami/avnac",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

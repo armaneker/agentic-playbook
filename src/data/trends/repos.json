@@ -8518,7 +8518,7 @@
     },
     "YouMind-OpenLab/awesome-gpt-image-2": {
       "full_name": "YouMind-OpenLab/awesome-gpt-image-2",
-      "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 1500+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
+      "description": "🚀 World's largest GPT Image 2 prompt library, updated daily — 2000+ curated prompts with preview images, 16 languages. OpenAI's next-gen image model with pixel-perfect text rendering, cross-image consistency, and commercial-grade illustration. Free & open source.",
       "language": "TypeScript",
       "url": "https://github.com/YouMind-OpenLab/awesome-gpt-image-2",
       "first_seen": "2026-04-23",
@@ -8815,6 +8815,35 @@
       "description": "",
       "language": "TypeScript",
       "url": "https://github.com/akinloluwami/avnac",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ConardLi/garden-skills": {
+      "full_name": "ConardLi/garden-skills",
+      "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
+      "language": "JavaScript",
+      "url": "https://github.com/ConardLi/garden-skills",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "claude",
+        "gpt-image-2",
+        "rag",
+        "skills",
+        "web-design"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "tashfeenahmed/freellmapi": {
+      "full_name": "tashfeenahmed/freellmapi",
+      "description": "OpenAI-compatible proxy that aggregates free-tier keys from ~14 AI providers with automatic failover. For personal experimentation only.",
+      "language": "TypeScript",
+      "url": "https://github.com/tashfeenahmed/freellmapi",
       "first_seen": "2026-04-25",
       "has_summary": false,
       "topics": [],

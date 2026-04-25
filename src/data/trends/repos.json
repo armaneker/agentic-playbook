@@ -8709,6 +8709,73 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "russellromney/honker": {
+      "full_name": "russellromney/honker",
+      "description": "SQLite extension + bindings for Postgres NOTIFY/LISTEN semantics with durable queues, streams, pub/sub, and scheduler",
+      "language": "Python",
+      "url": "https://github.com/russellromney/honker",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "fancyai-official/skills": {
+      "full_name": "fancyai-official/skills",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/fancyai-official/skills",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "rexa-developer/tiks": {
+      "full_name": "rexa-developer/tiks",
+      "description": "Procedural UI sounds for the web. Zero audio files. Pure synthesis.",
+      "language": "TypeScript",
+      "url": "https://github.com/rexa-developer/tiks",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "itayinbarr/little-coder": {
+      "full_name": "itayinbarr/little-coder",
+      "description": "A coding agent optimized to smaller LLMs",
+      "language": "TypeScript",
+      "url": "https://github.com/itayinbarr/little-coder",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [
+        "ai-coding-assistant",
+        "aider-polygot",
+        "benchmark",
+        "code-generation",
+        "coding-agent",
+        "coding-agents",
+        "local-llm",
+        "ollama",
+        "qwen",
+        "small-language-models",
+        "tool-use"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "injaneity/pi-computer-use": {
+      "full_name": "injaneity/pi-computer-use",
+      "description": "control your applications using pi-coding-agent. fully invisible.",
+      "language": "TypeScript",
+      "url": "https://github.com/injaneity/pi-computer-use",
+      "first_seen": "2026-04-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0"
     }
   }
 }

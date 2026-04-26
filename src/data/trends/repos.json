@@ -8849,6 +8849,162 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "NousResearch/hermes-agent": {
+      "full_name": "NousResearch/hermes-agent",
+      "description": "The agent that grows with you",
+      "language": "Python",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "anthropic",
+        "chatgpt",
+        "claude",
+        "claude-code",
+        "clawdbot",
+        "codex",
+        "hermes",
+        "hermes-agent",
+        "llm",
+        "moltbot",
+        "nous-research",
+        "openai",
+        "openclaw"
+      ],
+      "category": "Agentic",
+      "version": "v2026.4.23"
+    },
+    "openclaw/clawsweeper": {
+      "full_name": "openclaw/clawsweeper",
+      "description": "ClawSweeper scans all issues and PRs and suggest what we can close, and why. It runs every PR / Issue once a week.",
+      "language": "JavaScript",
+      "url": "https://github.com/openclaw/clawsweeper",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "earthtojake/text-to-cad": {
+      "full_name": "earthtojake/text-to-cad",
+      "description": "An open source harness for generating CAD models",
+      "language": "JavaScript",
+      "url": "https://github.com/earthtojake/text-to-cad",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "cad",
+        "text-to-cad",
+        "wasm"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "wuyoscar/gpt_image_2_skill": {
+      "full_name": "wuyoscar/gpt_image_2_skill",
+      "description": "GPT Image 2 prompt gallery, image prompt library, agentic skill, and CLI for OpenAI image generation/editing",
+      "language": "Python",
+      "url": "https://github.com/wuyoscar/gpt_image_2_skill",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-image-prompts",
+        "claude-code-skill",
+        "cli",
+        "codex-skill",
+        "gpt-image",
+        "gpt-image-2",
+        "gpt-image-2-prompts",
+        "image-editing",
+        "image-generation",
+        "image-prompt",
+        "openai",
+        "prompt-engineering",
+        "prompt-gallery",
+        "prompt-library",
+        "prompt-templates",
+        "research-figures",
+        "text-to-image",
+        "typography",
+        "ui-mockups"
+      ],
+      "category": "AI / ML",
+      "version": "v0.2.0"
+    },
+    "0x0funky/agent-sprite-forge": {
+      "full_name": "0x0funky/agent-sprite-forge",
+      "description": "Agent Skill for generating 2D sprite sheets and map, transparent PNG frames, and animated GIFs from prompts.",
+      "language": "Python",
+      "url": "https://github.com/0x0funky/agent-sprite-forge",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "codex",
+        "pixel-art",
+        "sprite-generator"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "future-agi/future-agi": {
+      "full_name": "future-agi/future-agi",
+      "description": "Open-source, end-to-end platform for evaluating, observing, and improving LLM and AI agent applications. Tracing · Evals · Simulations · Datasets · Gateway · Guardrails. Self-hostable. Apache 2.0.",
+      "language": "Python",
+      "url": "https://github.com/future-agi/future-agi",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-gateway",
+        "evals",
+        "llm",
+        "observability",
+        "simulation"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "levelsio/superlevels": {
+      "full_name": "levelsio/superlevels",
+      "description": "A super Chrome extension I made that's safer than installing external malware/spyware-filled extensions that form a massive security risk, this one is open source and you can read and check the source code (with AI) before you install it, and customize it to your liking!",
+      "language": "JavaScript",
+      "url": "https://github.com/levelsio/superlevels",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MoonshotAI/FlashKDA": {
+      "full_name": "MoonshotAI/FlashKDA",
+      "description": "FlashKDA: high-performance Kimi Delta Attention kernels",
+      "language": "Cuda",
+      "url": "https://github.com/MoonshotAI/FlashKDA",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "stainlu/openclaw-managed-agents": {
+      "full_name": "stainlu/openclaw-managed-agents",
+      "description": "OpenClaw Managed Agents — the open alternative to Claude Managed Agents & ChatGPT Workspace Agents. Any model, any cloud, open source.",
+      "language": "TypeScript",
+      "url": "https://github.com/stainlu/openclaw-managed-agents",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

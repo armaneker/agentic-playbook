@@ -8927,14 +8927,10 @@
         "image-generation",
         "image-prompt",
         "openai",
-        "prompt-engineering",
-        "prompt-gallery",
         "prompt-library",
         "prompt-templates",
         "research-figures",
-        "text-to-image",
-        "typography",
-        "ui-mockups"
+        "text-to-image"
       ],
       "category": "AI / ML",
       "version": "v0.2.0"
@@ -9054,6 +9050,28 @@
       ],
       "category": "Agentic",
       "version": "v0.3.5"
+    },
+    "freestylefly/awesome-gpt-image-2": {
+      "full_name": "freestylefly/awesome-gpt-image-2",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库 - 329个案例逆向工程，13套工业级模板",
+      "language": "Unknown",
+      "url": "https://github.com/freestylefly/awesome-gpt-image-2",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "AI / ML",
+      "version": null
+    },
+    "h4ckf0r0day/obscura": {
+      "full_name": "h4ckf0r0day/obscura",
+      "description": "The headless browser for AI agents and web scraping",
+      "language": "Rust",
+      "url": "https://github.com/h4ckf0r0day/obscura",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
     }
   }
 }

@@ -4901,7 +4901,7 @@
     },
     "JackChen-me/open-multi-agent": {
       "full_name": "JackChen-me/open-multi-agent",
-      "description": "TypeScript multi-agent orchestration engine — one runTeam() call from goal to result. Multi-model teams, auto task decomposition, parallel execution. 3 runtime dependencies.",
+      "description": "From a goal to a task DAG, automatically. TypeScript-native multi-agent orchestration with multi-model teams and parallel execution. Three runtime dependencies.",
       "language": "TypeScript",
       "url": "https://github.com/JackChen-me/open-multi-agent",
       "first_seen": "2026-04-01",
@@ -9035,6 +9035,25 @@
       ],
       "category": "Other",
       "version": "4.0"
+    },
+    "thClaws/thClaws": {
+      "full_name": "thClaws/thClaws",
+      "description": "Open-source agent harness platform. Native Rust, multi-provider, runs on your own machine. Sovereign by design.",
+      "language": "Rust",
+      "url": "https://github.com/thClaws/thClaws",
+      "first_seen": "2026-04-26",
+      "has_summary": false,
+      "topics": [
+        "agent-harness",
+        "ai-agent",
+        "desktop-app",
+        "local-first",
+        "multi-provider",
+        "rust",
+        "tauri"
+      ],
+      "category": "Agentic",
+      "version": "v0.3.5"
     }
   }
 }

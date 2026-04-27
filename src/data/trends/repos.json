@@ -9210,6 +9210,44 @@
       ],
       "category": "AI / ML",
       "version": "v0.1.0"
+    },
+    "worldwonderer/oh-story-claudecode": {
+      "full_name": "worldwonderer/oh-story-claudecode",
+      "description": "网文写作 skill 包，覆盖长篇与短篇网络小说的扫榜、拆文、写作、去AI味全流程",
+      "language": "Shell",
+      "url": "https://github.com/worldwonderer/oh-story-claudecode",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [
+        "ai-writing",
+        "claude-code",
+        "claude-skills",
+        "creative-writing",
+        "novel-writing",
+        "openclaw",
+        "writing-assistant"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "PrimeOrder-Labs/polymarket-copy-trading-bot": {
+      "full_name": "PrimeOrder-Labs/polymarket-copy-trading-bot",
+      "description": "polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,",
+      "language": "JavaScript",
+      "url": "https://github.com/PrimeOrder-Labs/polymarket-copy-trading-bot",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [
+        "bitcoin-market",
+        "copy-trading-bot",
+        "politics-market",
+        "polymarket",
+        "polymarket-copy-trading-bot",
+        "sports-market",
+        "trading-bot"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

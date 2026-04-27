@@ -9041,7 +9041,9 @@
       "has_summary": false,
       "topics": [
         "agent-harness",
+        "ai",
         "ai-agent",
+        "ai-agents",
         "desktop-app",
         "local-first",
         "multi-provider",
@@ -9072,6 +9074,142 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.1"
+    },
+    "NullLatency/FlowDriver": {
+      "full_name": "NullLatency/FlowDriver",
+      "description": "Bypass restrictive networks by tunneling SOCKS5 traffic through legitimate Google Drive API requests.",
+      "language": "Go",
+      "url": "https://github.com/NullLatency/FlowDriver",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [
+        "covert-transport",
+        "dpi",
+        "google-drive",
+        "google-drive-api",
+        "sni",
+        "tunneling",
+        "vpn"
+      ],
+      "category": "Other",
+      "version": "v0.0.4"
+    },
+    "chekusu/wanman": {
+      "full_name": "chekusu/wanman",
+      "description": "wanman is an open-source agent matrix runtime inspired by Japanese one-man trains. It lets human users step back into an observer role while local agent runtimes coordinate autonomous multi-agent workflows, task execution, and artifacts.",
+      "language": "TypeScript",
+      "url": "https://github.com/chekusu/wanman",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "claude-code",
+        "codex",
+        "llm"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "epoko77-ai/im-not-ai": {
+      "full_name": "epoko77-ai/im-not-ai",
+      "description": "AI가 쓴 글이 아닌 것처럼 윤문해주는 스킬",
+      "language": "Python",
+      "url": "https://github.com/epoko77-ai/im-not-ai",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.5.0"
+    },
+    "chiefautism/privacy-parser": {
+      "full_name": "chiefautism/privacy-parser",
+      "description": "Reverse of OpenAI Privacy Filter: same 1.5B model, returns PII as structured spans instead of masking.",
+      "language": "Python",
+      "url": "https://github.com/chiefautism/privacy-parser",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "seulee26/mckinsey-pptx": {
+      "full_name": "seulee26/mckinsey-pptx",
+      "description": "McKinsey-style PPTX generator — Claude Code plugin with 40 slide templates + subagent that picks the right template and defends its choice. Built by AX Labs (이승필).",
+      "language": "Python",
+      "url": "https://github.com/seulee26/mckinsey-pptx",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [
+        "ai-presentation",
+        "ax-labs",
+        "claude-code",
+        "claude-code-plugin",
+        "consulting",
+        "mckinsey",
+        "powerpoint",
+        "pptx",
+        "python-pptx",
+        "slides"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "ArcaneNibble/awawausb": {
+      "full_name": "ArcaneNibble/awawausb",
+      "description": "WebUSB for fopses",
+      "language": "Rust",
+      "url": "https://github.com/ArcaneNibble/awawausb",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1"
+    },
+    "alash3al/stash": {
+      "full_name": "alash3al/stash",
+      "description": "Stash — persistent memory layer for AI agents. Episodes, facts, and working context stored in Postgres. MCP server included. Self-hosted, single binary, no cloud required.",
+      "language": "Go",
+      "url": "https://github.com/alash3al/stash",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-memory",
+        "memory"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.6"
+    },
+    "browser-use/browser-harness-js": {
+      "full_name": "browser-use/browser-harness-js",
+      "description": "Self-healing browser harness that enables LLMs to complete any task",
+      "language": "TypeScript",
+      "url": "https://github.com/browser-use/browser-harness-js",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xiaochong/hi-kid": {
+      "full_name": "xiaochong/hi-kid",
+      "description": "HiKid - Your AI English Pal. A desktop app built with React and TypeScript, targeting children in non-English-speaking countries who want to practice English speaking and listening.",
+      "language": "TypeScript",
+      "url": "https://github.com/xiaochong/hi-kid",
+      "first_seen": "2026-04-27",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "english-learning",
+        "kids-education",
+        "local-ai",
+        "offline-ai",
+        "speaking-practice",
+        "voice-chat"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.0"
     }
   }
 }

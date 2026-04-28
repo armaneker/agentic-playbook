@@ -9258,7 +9258,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.1.0"
     },
     "charlie947/social-media-skills": {
       "full_name": "charlie947/social-media-skills",
@@ -9373,6 +9373,49 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
+      "version": null
+    },
+    "SignalBot-Labs/aster-bot": {
+      "full_name": "SignalBot-Labs/aster-bot",
+      "description": "asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp trading bot, asterDEX trading bot, perp tra",
+      "language": "TypeScript",
+      "url": "https://github.com/SignalBot-Labs/aster-bot",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [
+        "algorithmic-trading",
+        "algotrading",
+        "aster",
+        "asterdex",
+        "asterusdt",
+        "automated-trading",
+        "crypto",
+        "crypto-trading",
+        "cryptocurrency",
+        "defi",
+        "dex",
+        "futures",
+        "nextjs",
+        "nodejs",
+        "perp",
+        "perpetual",
+        "perpetual-futures",
+        "risk-management",
+        "trading-bot",
+        "typescript"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "inclusionAI/LLaDA2.0-Uni": {
+      "full_name": "inclusionAI/LLaDA2.0-Uni",
+      "description": "LLaDA2.0-Uni: Understanding and Generation the World. ",
+      "language": "Python",
+      "url": "https://github.com/inclusionAI/LLaDA2.0-Uni",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

@@ -9055,7 +9055,7 @@
     },
     "freestylefly/awesome-gpt-image-2": {
       "full_name": "freestylefly/awesome-gpt-image-2",
-      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库 - 329个案例逆向工程，13套工业级模板",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库 - 329个案例逆向工程，13套工业级模板，且不断更新中。",
       "language": "Unknown",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "first_seen": "2026-04-26",
@@ -9331,6 +9331,49 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.0"
+    },
+    "PolyPulse-Analytics/hyperliquid-trading-bot": {
+      "full_name": "PolyPulse-Analytics/hyperliquid-trading-bot",
+      "description": "hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, hyperliquid trading bot, ",
+      "language": "Python",
+      "url": "https://github.com/PolyPulse-Analytics/hyperliquid-trading-bot",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [
+        "algorithmic-trading",
+        "automated-trading",
+        "blockchain",
+        "crypto-trading",
+        "cryptocurrency",
+        "decentralized-exchange",
+        "defi",
+        "derivatives",
+        "dex",
+        "ethereum",
+        "grid-trading",
+        "hyperliquid",
+        "nodejs",
+        "perpetuals",
+        "python",
+        "quantitative-trading",
+        "spot-trading",
+        "trading-bot",
+        "typescript",
+        "web3"
+      ],
+      "category": "Data",
+      "version": null
+    },
+    "raroque/boop-agent": {
+      "full_name": "raroque/boop-agent",
+      "description": "Your new best friend 🐶 A proactive iMessage based agent built on the Claude Agent SDK (Ready to be customized with pre built multi-agent architecture, robust memory, automations, and integrations)",
+      "language": "TypeScript",
+      "url": "https://github.com/raroque/boop-agent",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

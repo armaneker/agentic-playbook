@@ -8431,14 +8431,14 @@
     },
     "basketikun/chatgpt2api": {
       "full_name": "basketikun/chatgpt2api",
-      "description": "",
-      "language": "Python",
+      "description": "ChatGPT官网接口纯协议的逆向实现，支持注册机维持号池额度，支持GPT-Image-2模型、文本模型，兼容多OpenAI接口协议，在线批量生成图像，号池管理，支持导入CPA、sub2api号池 、支持接入Cherry  Studio、New Api 等软件",
+      "language": "TypeScript",
       "url": "https://github.com/basketikun/chatgpt2api",
       "first_seen": "2026-04-22",
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.1.1"
     },
     "OranAi-Ltd/oransim": {
       "full_name": "OranAi-Ltd/oransim",
@@ -9259,6 +9259,78 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "charlie947/social-media-skills": {
+      "full_name": "charlie947/social-media-skills",
+      "description": "",
+      "language": "Shell",
+      "url": "https://github.com/charlie947/social-media-skills",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "CookSleep/gpt_image_playground": {
+      "full_name": "CookSleep/gpt_image_playground",
+      "description": "基于 OpenAI gpt-image-2 接口的图片生成与编辑工具",
+      "language": "TypeScript",
+      "url": "https://github.com/CookSleep/gpt_image_playground",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [
+        "gpt-image",
+        "image-editing",
+        "image-generation",
+        "openai",
+        "react",
+        "tailwindcss",
+        "typescript",
+        "vite"
+      ],
+      "category": "AI / ML",
+      "version": "v0.2.15"
+    },
+    "Orbital-Alpha/polymarket-copy-trading-bot": {
+      "full_name": "Orbital-Alpha/polymarket-copy-trading-bot",
+      "description": "polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,polymarket trading bot,polymarket copy trading bot,",
+      "language": "JavaScript",
+      "url": "https://github.com/Orbital-Alpha/polymarket-copy-trading-bot",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [
+        "bitcoin-market",
+        "copy-trading-bot",
+        "politics-market",
+        "polymarket",
+        "polymarket-copy-trading-bot",
+        "sports-market",
+        "trading-bot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "NyxTides/ppt-image-first": {
+      "full_name": "NyxTides/ppt-image-first",
+      "description": "PPT image-first skill for Codex/Claude Code/Opencode CLI",
+      "language": "Python",
+      "url": "https://github.com/NyxTides/ppt-image-first",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "samyns/Unit-3": {
+      "full_name": "samyns/Unit-3",
+      "description": "Hyprland + Quickshell + Waybar rice for Arch Linux, NieR:Automata themed",
+      "language": "QML",
+      "url": "https://github.com/samyns/Unit-3",
+      "first_seen": "2026-04-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
     }
   }
 }

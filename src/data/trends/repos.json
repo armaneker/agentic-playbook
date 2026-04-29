@@ -9471,6 +9471,107 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "ksimback/tech-debt-skill": {
+      "full_name": "ksimback/tech-debt-skill",
+      "description": "Claude Code skill that produces a thorough, file-cited tech debt audit of an entire codebase",
+      "language": "Unknown",
+      "url": "https://github.com/ksimback/tech-debt-skill",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Kianmhz/GooseRelayVPN": {
+      "full_name": "Kianmhz/GooseRelayVPN",
+      "description": "Socks5 VPN that tunnels raw TCP through Google Apps Script to your VPS exit server (AES‑256‑GCM, domain‑fronted).",
+      "language": "Go",
+      "url": "https://github.com/Kianmhz/GooseRelayVPN",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [
+        "aes-gcm",
+        "mitm",
+        "proxy",
+        "sni",
+        "socks5",
+        "tunneling",
+        "vpn"
+      ],
+      "category": "Infra",
+      "version": "v1.3.0"
+    },
+    "hiteshchoudhary/gitbackup": {
+      "full_name": "hiteshchoudhary/gitbackup",
+      "description": "It was personal script but now it is a complete desktop application to take backup of your github account",
+      "language": "TypeScript",
+      "url": "https://github.com/hiteshchoudhary/gitbackup",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "browser-use/bux": {
+      "full_name": "browser-use/bux",
+      "description": "A 24/7 Claude Code agent with Browser Harness, on any box you own.",
+      "language": "Python",
+      "url": "https://github.com/browser-use/bux",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "YGYOOO/WorldX": {
+      "full_name": "YGYOOO/WorldX",
+      "description": "One sentence creates an AI-driven world — generate maps, characters, and watch stories emerge on their own. 一句话生成一个AI自主驱动的世界.",
+      "language": "TypeScript",
+      "url": "https://github.com/YGYOOO/WorldX",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "ai-characters",
+        "ai-simulation",
+        "ai-world",
+        "emergent-behavior",
+        "game-ai",
+        "generative-agents",
+        "generative-ai",
+        "llm",
+        "llm-agents",
+        "multi-agent-simulation",
+        "open-source",
+        "phaser",
+        "pixel-art",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "akazwz/hostc": {
+      "full_name": "akazwz/hostc",
+      "description": "Localhost to the edge. Secure, fast, and zero-config edge tunnels powered by Cloudflare Workers.",
+      "language": "TypeScript",
+      "url": "https://github.com/akazwz/hostc",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "cloudflare-workers",
+        "developer-tools",
+        "durable-objects",
+        "localhost",
+        "ngrok-alternative",
+        "tunnel",
+        "websocket"
+      ],
+      "category": "DevTools",
+      "version": "v1.2.6"
     }
   }
 }

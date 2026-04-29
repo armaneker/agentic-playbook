@@ -4939,8 +4939,14 @@
       "url": "https://github.com/Gitlawb/openclaude",
       "first_seen": "2026-04-01",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-tools",
+        "cli",
+        "coding"
+      ],
+      "category": "Agentic",
       "version": "v0.1.8",
       "blurb": "OpenClaude is a fork of the leaked Claude Code source that adds support for any OpenAI-compatible LLM instead of just Claude. It allows developers to use Claude Code's full toolset (bash, file operations, agents, MCP) with models like GPT-4o, DeepSeek, Gemini, or local models through Ollama. The project originated from Claude Code source maps that were accidentally exposed via npm in March 2026."
     },
@@ -9586,6 +9592,20 @@
         "protocol"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "bonused/monthly-bonus-stake": {
+      "full_name": "bonused/monthly-bonus-stake",
+      "description": "Stake Monthly Bonus is one of the most anticipated and valuable rewards available to loyal players on Stake casino. Designed to reward consistent activity, long-term loyalty, and VIP progression, the monthly bonus acts as a powerful cashback-style reward that can significantly increase your overall returns from gameplay.",
+      "language": "Unknown",
+      "url": "https://github.com/bonused/monthly-bonus-stake",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [
+        "stake",
+        "stake-monthly-bonus"
+      ],
+      "category": "Other",
       "version": null
     }
   }

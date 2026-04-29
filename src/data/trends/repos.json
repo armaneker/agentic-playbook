@@ -9426,7 +9426,7 @@
     },
     "nexu-io/open-design": {
       "full_name": "nexu-io/open-design",
-      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen.",
+      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
       "language": "TypeScript",
       "url": "https://github.com/nexu-io/open-design",
       "first_seen": "2026-04-28",
@@ -9607,6 +9607,28 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "cursor/cookbook": {
+      "full_name": "cursor/cookbook",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/cursor/cookbook",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ps5-linux/ps5-linux-loader": {
+      "full_name": "ps5-linux/ps5-linux-loader",
+      "description": "Linux payload implementing the HV exploit and a custom bootloader",
+      "language": "C",
+      "url": "https://github.com/ps5-linux/ps5-linux-loader",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0"
     }
   }
 }

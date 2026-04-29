@@ -4901,7 +4901,7 @@
     },
     "JackChen-me/open-multi-agent": {
       "full_name": "JackChen-me/open-multi-agent",
-      "description": "From a goal to a task DAG, automatically. TypeScript-native multi-agent orchestration with multi-model teams and parallel execution. Three runtime dependencies.",
+      "description": "From a goal to a task DAG, automatically. TypeScript-native multi-agent orchestration with MCP and live tracing. Three runtime dependencies.",
       "language": "TypeScript",
       "url": "https://github.com/JackChen-me/open-multi-agent",
       "first_seen": "2026-04-01",
@@ -9420,7 +9420,7 @@
     },
     "nexu-io/open-design": {
       "full_name": "nexu-io/open-design",
-      "description": "🎨 Local-first open replica of Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen.",
+      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen.",
       "language": "TypeScript",
       "url": "https://github.com/nexu-io/open-design",
       "first_seen": "2026-04-28",
@@ -9572,6 +9572,21 @@
       ],
       "category": "DevTools",
       "version": "v1.2.6"
+    },
+    "machinepulse-ai/world2agent": {
+      "full_name": "machinepulse-ai/world2agent",
+      "description": "World2Agent(W2A) is an open protocol that standardizes how Al agents perceive the real world.",
+      "language": "TypeScript",
+      "url": "https://github.com/machinepulse-ai/world2agent",
+      "first_seen": "2026-04-29",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "proactive-agent",
+        "protocol"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

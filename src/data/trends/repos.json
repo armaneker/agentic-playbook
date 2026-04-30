@@ -8830,7 +8830,7 @@
     "ConardLi/garden-skills": {
       "full_name": "ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "language": "JavaScript",
+      "language": "TypeScript",
       "url": "https://github.com/ConardLi/garden-skills",
       "first_seen": "2026-04-25",
       "has_summary": false,
@@ -9817,6 +9817,28 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
+      "version": null
+    },
+    "b-nnett/codex-plusplus": {
+      "full_name": "b-nnett/codex-plusplus",
+      "description": "Codex++ tweak system for the Codex desktop app",
+      "language": "TypeScript",
+      "url": "https://github.com/b-nnett/codex-plusplus",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "ka-pi-ba-la/AIbijia": {
+      "full_name": "ka-pi-ba-la/AIbijia",
+      "description": "分享便宜靠谱Token，抹平信息差",
+      "language": "Unknown",
+      "url": "https://github.com/ka-pi-ba-la/AIbijia",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

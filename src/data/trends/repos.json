@@ -4934,7 +4934,7 @@
     },
     "Gitlawb/openclaude": {
       "full_name": "Gitlawb/openclaude",
-      "description": "Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.",
+      "description": "Any model. Every tool. Zero limits.",
       "language": "TypeScript",
       "url": "https://github.com/Gitlawb/openclaude",
       "first_seen": "2026-04-01",
@@ -8891,8 +8891,13 @@
       "url": "https://github.com/openclaw/clawsweeper",
       "first_seen": "2026-04-26",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "bot",
+        "openclaw",
+        "review"
+      ],
+      "category": "AI / ML",
       "version": null
     },
     "earthtojake/text-to-cad": {
@@ -9629,6 +9634,89 @@
       "topics": [],
       "category": "Other",
       "version": "v1.0"
+    },
+    "GENEXIS-AI/chromex": {
+      "full_name": "GENEXIS-AI/chromex",
+      "description": "A Codex-powered Chrome side-panel assistant for page context, tabs, voice, and image workflows.",
+      "language": "TypeScript",
+      "url": "https://github.com/GENEXIS-AI/chromex",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.2"
+    },
+    "DanOps-1/gpt-pp-team": {
+      "full_name": "DanOps-1/gpt-pp-team",
+      "description": "ChatGPT Team 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit for ChatGPT Team subscription with from-scratch hCaptcha solver and empirical anti-fraud research",
+      "language": "Python",
+      "url": "https://github.com/DanOps-1/gpt-pp-team",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [
+        "adversarial-ml",
+        "anti-fraud",
+        "bug-bounty",
+        "captcha-solver",
+        "chatgpt",
+        "ctf-tools",
+        "hcaptcha-solver",
+        "mitmproxy",
+        "playwright",
+        "protocol-replay",
+        "stripe",
+        "vlm"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "denuitt1/mhr-cfw": {
+      "full_name": "denuitt1/mhr-cfw",
+      "description": "A Domain-Fronting Relay that routes traffic though GAS (Google Apps Script) and forwards it to Cloudflare Workers. Designed to bypass DPI.",
+      "language": "Python",
+      "url": "https://github.com/denuitt1/mhr-cfw",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.0.0"
+    },
+    "QwenLM/FlashQLA": {
+      "full_name": "QwenLM/FlashQLA",
+      "description": "high-performance linear attention kernel library built on TileLang",
+      "language": "Python",
+      "url": "https://github.com/QwenLM/FlashQLA",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "vthinkxie/illustrated-explainer-spec": {
+      "full_name": "vthinkxie/illustrated-explainer-spec",
+      "description": "Spec for an infinite drill-down illustrated explainer — type a topic, click anywhere on the image to generate the next page.",
+      "language": "Unknown",
+      "url": "https://github.com/vthinkxie/illustrated-explainer-spec",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "google/skills": {
+      "full_name": "google/skills",
+      "description": "Agent Skills for Google products and technologies",
+      "language": "Unknown",
+      "url": "https://github.com/google/skills",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [
+        "google",
+        "googlecloud",
+        "skills"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

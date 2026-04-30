@@ -4934,7 +4934,7 @@
     },
     "Gitlawb/openclaude": {
       "full_name": "Gitlawb/openclaude",
-      "description": "Any model. Every tool. Zero limits.",
+      "description": "runs anywhere. uses anything",
       "language": "TypeScript",
       "url": "https://github.com/Gitlawb/openclaude",
       "first_seen": "2026-04-01",
@@ -9452,7 +9452,7 @@
         "design-tools",
         "gemini-cli",
         "generative-ai",
-        "llm",
+        "hermes-agent",
         "local-first",
         "react",
         "skills",
@@ -9717,6 +9717,68 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "theori-io/copy-fail-CVE-2026-31431": {
+      "full_name": "theori-io/copy-fail-CVE-2026-31431",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "DanOps-1/Gpt-Agreement-Payment": {
+      "full_name": "DanOps-1/Gpt-Agreement-Payment",
+      "description": "ChatGPT Team 订阅协议端到端重放工具集 · hCaptcha 视觉求解器 · 反欺诈机制实证研究 / End-to-end protocol replay toolkit for ChatGPT Team subscription with from-scratch hCaptcha solver and empirical anti-fraud research",
+      "language": "Python",
+      "url": "https://github.com/DanOps-1/Gpt-Agreement-Payment",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [
+        "adversarial-ml",
+        "anti-fraud",
+        "bug-bounty",
+        "captcha-solver",
+        "chatgpt",
+        "ctf-tools",
+        "hcaptcha-solver",
+        "mitmproxy",
+        "playwright",
+        "protocol-replay",
+        "stripe",
+        "vlm"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "t8y2/dbx": {
+      "full_name": "t8y2/dbx",
+      "description": "Open-source, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server.",
+      "language": "Vue",
+      "url": "https://github.com/t8y2/dbx",
+      "first_seen": "2026-04-30",
+      "has_summary": false,
+      "topics": [
+        "clickhouse",
+        "database",
+        "database-client",
+        "database-management",
+        "duckdb",
+        "gui",
+        "mongodb",
+        "mysql",
+        "postgresql",
+        "redis",
+        "rust",
+        "sql-server",
+        "sqlite",
+        "tauri",
+        "vue"
+      ],
+      "category": "Database",
+      "version": "v0.2.0"
     }
   }
 }

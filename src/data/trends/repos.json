@@ -9840,6 +9840,136 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "val1813/kwcode": {
+      "full_name": "val1813/kwcode",
+      "description": "一个能持续增强本地开源模型的cli，专门为本地部署模型优化的coding窗口。目前仍然处于mvp未能大规模测试和端到端跑通，欢迎指正🙏🏻🙏🏻🙏🏻",
+      "language": "Python",
+      "url": "https://github.com/val1813/kwcode",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Yuan1z0825/nature-skills": {
+      "full_name": "Yuan1z0825/nature-skills",
+      "description": "符合nature论文学术表达和科研绘图的Skill",
+      "language": "Unknown",
+      "url": "https://github.com/Yuan1z0825/nature-skills",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "dnshe/DNSHE-FreeDomains": {
+      "full_name": "dnshe/DNSHE-FreeDomains",
+      "description": "🌐 DNSHE Official - Stable & Free Subdomains for Developers. Support 180-day renewal window, Anycast DNS, and REST API. (us.ci, cc.cd, de5.net, ccwu.cc)",
+      "language": "Unknown",
+      "url": "https://github.com/dnshe/DNSHE-FreeDomains",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "sandeco/reversa": {
+      "full_name": "sandeco/reversa",
+      "description": "Transform legacy systems into executable specifications for AI coding agents",
+      "language": "JavaScript",
+      "url": "https://github.com/sandeco/reversa",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "rootsecdev/cve_2026_31431": {
+      "full_name": "rootsecdev/cve_2026_31431",
+      "description": "Exploit POC for CVE_2026_31431",
+      "language": "Python",
+      "url": "https://github.com/rootsecdev/cve_2026_31431",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "1bananachicken/MaaNTE": {
+      "full_name": "1bananachicken/MaaNTE",
+      "description": "MAA异环小助手，由MAAFramework强力驱动！QQ交流群：1103323319",
+      "language": "Python",
+      "url": "https://github.com/1bananachicken/MaaNTE",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [
+        "maaframework",
+        "neverness-to-everness",
+        "neverness-to-everness-software",
+        "nte"
+      ],
+      "category": "Other",
+      "version": "v0.0.3"
+    },
+    "QuipNetwork/xq-py": {
+      "full_name": "QuipNetwork/xq-py",
+      "description": "A python implementation of the Quip Network's quantum virtual machine",
+      "language": "Unknown",
+      "url": "https://github.com/QuipNetwork/xq-py",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "QuipNetwork/quip-node-manager": {
+      "full_name": "QuipNetwork/quip-node-manager",
+      "description": "A simple GUI client to manage a Quip Network node",
+      "language": "Rust",
+      "url": "https://github.com/QuipNetwork/quip-node-manager",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "TencentCloud/CubeSandbox": {
+      "full_name": "TencentCloud/CubeSandbox",
+      "description": "Instant, Concurrent, Secure & Lightweight Sandbox for AI Agents.",
+      "language": "Rust",
+      "url": "https://github.com/TencentCloud/CubeSandbox",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "container",
+        "sandbox"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.2"
+    },
+    "OpenSenseNova/SenseNova-U1": {
+      "full_name": "OpenSenseNova/SenseNova-U1",
+      "description": "SenseNova-U series: Native Unified Paradigm with NEO-Unify from the First Principles",
+      "language": "Python",
+      "url": "https://github.com/OpenSenseNova/SenseNova-U1",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ammaarreshi/gemma-chat": {
+      "full_name": "ammaarreshi/gemma-chat",
+      "description": "Local AI chat + coding agent for Apple Silicon, powered by Gemma 4 via MLX / Supports Ollama",
+      "language": "TypeScript",
+      "url": "https://github.com/ammaarreshi/gemma-chat",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -5438,7 +5438,7 @@
     },
     "safishamsi/graphify": {
       "full_name": "safishamsi/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, GitHub Copilot CLI, OpenClaw, Factory Droid, Trae, Google Antigravity). Turn any folder of code, docs, papers, images, or videos into a queryable knowledge graph",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "language": "Python",
       "url": "https://github.com/safishamsi/graphify",
       "first_seen": "2026-04-07",
@@ -9965,6 +9965,17 @@
       "description": "Local AI chat + coding agent for Apple Silicon, powered by Gemma 4 via MLX / Supports Ollama",
       "language": "TypeScript",
       "url": "https://github.com/ammaarreshi/gemma-chat",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "wrongly-cuddly-obsession/NTSB_FOIA_MU5735": {
+      "full_name": "wrongly-cuddly-obsession/NTSB_FOIA_MU5735",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/wrongly-cuddly-obsession/NTSB_FOIA_MU5735",
       "first_seen": "2026-05-01",
       "has_summary": false,
       "topics": [],

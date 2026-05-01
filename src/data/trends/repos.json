@@ -9437,35 +9437,35 @@
     },
     "nexu-io/open-design": {
       "full_name": "nexu-io/open-design",
-      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems · 🖼️ sandboxed preview · 📦 HTML/PDF/PPTX export. 🤖 Runs on Claude Code / Codex / Cursor / Gemini CLI / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
       "language": "TypeScript",
       "url": "https://github.com/nexu-io/open-design",
       "first_seen": "2026-04-28",
       "has_summary": false,
       "topics": [
+        "agent-skills",
         "ai-agents",
         "ai-design",
-        "anthropic",
         "byok",
         "claude",
-        "claude-code",
+        "claude-code-for-design",
         "claude-design",
-        "codex",
         "coding-agents",
-        "cursor",
-        "design",
         "design-systems",
         "design-tools",
-        "gemini-cli",
+        "desktop-app",
+        "figma-alternative",
         "generative-ai",
         "hermes-agent",
         "local-first",
-        "react",
-        "skills",
-        "typescript"
+        "nextjs",
+        "no-code",
+        "prototyping",
+        "ui-generator",
+        "vibe-coding"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "open-design-v0.1.0"
     },
     "evanklem/evanflow": {
       "full_name": "evanklem/evanflow",
@@ -9981,6 +9981,31 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "darrylmorley/whatcable": {
+      "full_name": "darrylmorley/whatcable",
+      "description": "macOS menu bar app that tells you, in plain English, what each USB-C cable plugged into your Mac can actually do",
+      "language": "Swift",
+      "url": "https://github.com/darrylmorley/whatcable",
+      "first_seen": "2026-05-01",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "hardware-info",
+        "iokit",
+        "mac-app",
+        "macos",
+        "menubar",
+        "menubar-app",
+        "swift",
+        "swiftui",
+        "thunderbolt",
+        "usb-c",
+        "usb-power-delivery",
+        "utility"
+      ],
+      "category": "Mobile",
+      "version": "v0.5.6"
     }
   }
 }

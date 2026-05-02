@@ -10073,6 +10073,73 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "appergb/openless": {
+      "full_name": "appergb/openless",
+      "description": "Hold a key, speak, release — AI-polished text appears at your cursor in any app. Open-source voice input for macOS & Windows. (按住快捷键说话，松开即得润色后的文字)",
+      "language": "HTML",
+      "url": "https://github.com/appergb/openless",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [
+        "ai-prompt",
+        "asr",
+        "dictation",
+        "llm",
+        "macos",
+        "open-source",
+        "prompt-engineering",
+        "rust",
+        "speech-to-text",
+        "swift",
+        "tauri",
+        "typeless",
+        "typeless-alternative",
+        "voice-input",
+        "windows",
+        "wispr-flow-alternative"
+      ],
+      "category": "AI / ML",
+      "version": "v1.2.11-tauri"
+    },
+    "tiangolo/library-skills": {
+      "full_name": "tiangolo/library-skills",
+      "description": "Library Agent Skills",
+      "language": "Python",
+      "url": "https://github.com/tiangolo/library-skills",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.0.5"
+    },
+    "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts": {
+      "full_name": "EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "description": "GPT-Image-2 API and Prompts",
+      "language": "Python",
+      "url": "https://github.com/EvoLinkAI/awesome-gpt-image-2-API-and-Prompts",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [
+        "api",
+        "awesome",
+        "awesome-list",
+        "chatgpt",
+        "generative-",
+        "gpt-image-2",
+        "gpt-image-2-api",
+        "gpt-image-2-prompts",
+        "image-generation",
+        "image-prompt",
+        "image-to-image",
+        "openai",
+        "prompt-",
+        "prompt-collection",
+        "prompts",
+        "text-to-image"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

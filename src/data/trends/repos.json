@@ -5438,7 +5438,7 @@
     },
     "safishamsi/graphify": {
       "full_name": "safishamsi/graphify",
-      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
+      "description": "AI coding assistant skill (Claude Code, Codex, OpenCode, Cursor, Gemini CLI, and more). Turn any folder of code, SQL schemas, R scripts, shell scripts, docs, papers, images, or videos into a queryable knowledge graph. App code + database schema + infrastructure in one graph.",
       "language": "Python",
       "url": "https://github.com/safishamsi/graphify",
       "first_seen": "2026-04-07",
@@ -5450,10 +5450,13 @@
         "gemini",
         "graphrag",
         "knowledge-graph",
+        "leiden",
         "openclaw",
-        "skills"
+        "rag",
+        "skills",
+        "tree-sitter"
       ],
-      "category": "Other",
+      "category": "AI / ML",
       "version": "v0.3.1",
       "blurb": "Graphify is an AI coding assistant skill that converts folders of code, documentation, papers, or images into queryable knowledge graphs. It helps developers understand codebases faster by extracting and visualizing relationships between components, architectural decisions, and design rationale across multiple file types. The tool uses a two-pass approach combining deterministic AST parsing with Claude-powered concept extraction, requiring 71.5x fewer tokens per query compared to reading raw files."
     },
@@ -5970,7 +5973,7 @@
     },
     "xixu-me/awesome-persona-distill-skills": {
       "full_name": "xixu-me/awesome-persona-distill-skills",
-      "description": "同事.skill, 女娲.skill, 前任.skill… Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives",
+      "description": "Curated list of Agent Skills centered on people, relationships, commemorative scenes, and methodological perspectives",
       "language": "JavaScript",
       "url": "https://github.com/xixu-me/awesome-persona-distill-skills",
       "first_seen": "2026-04-09",
@@ -9066,7 +9069,7 @@
     },
     "freestylefly/awesome-gpt-image-2": {
       "full_name": "freestylefly/awesome-gpt-image-2",
-      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库 - 329个案例逆向工程，13套工业级模板，且不断更新中。",
+      "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，370+ 个案例逆向工程，20+ 套工业级模板，持续更新中",
       "language": "Unknown",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "first_seen": "2026-04-26",
@@ -10006,6 +10009,70 @@
       ],
       "category": "Mobile",
       "version": "v0.5.6"
+    },
+    "EvanBacon/serve-sim": {
+      "full_name": "EvanBacon/serve-sim",
+      "description": "The `npx serve` of Apple Simulators.",
+      "language": "TypeScript",
+      "url": "https://github.com/EvanBacon/serve-sim",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mattpocock/dictionary-of-ai-coding": {
+      "full_name": "mattpocock/dictionary-of-ai-coding",
+      "description": "AI coding jargon, explained in plain English.",
+      "language": "TypeScript",
+      "url": "https://github.com/mattpocock/dictionary-of-ai-coding",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "amirshaker000/netlify-relay": {
+      "full_name": "amirshaker000/netlify-relay",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/amirshaker000/netlify-relay",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "FrankBarretta/LSFG-Android": {
+      "full_name": "FrankBarretta/LSFG-Android",
+      "description": "Lossless Scaling Frames Generator (LSFG) Application for Android",
+      "language": "Unknown",
+      "url": "https://github.com/FrankBarretta/LSFG-Android",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.1.1-Fix"
+    },
+    "HKUSTDial/Supervisor-Skills": {
+      "full_name": "HKUSTDial/Supervisor-Skills",
+      "description": "将博导十年科研经验炼化为可直接调用的 AI 技能。从 Idea 构思到论文投稿，你的 AI 科研副导师。",
+      "language": "Python",
+      "url": "https://github.com/HKUSTDial/Supervisor-Skills",
+      "first_seen": "2026-05-02",
+      "has_summary": false,
+      "topics": [
+        "ai-research",
+        "ai-researcher",
+        "awesome",
+        "awesome-list",
+        "phd-research",
+        "research-skills",
+        "skills",
+        "vibe-research"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

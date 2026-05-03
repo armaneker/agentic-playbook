@@ -8672,7 +8672,7 @@
         "security-tools"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.1.0"
     },
     "op7418/guizang-ppt-skill": {
       "full_name": "op7418/guizang-ppt-skill",
@@ -10199,6 +10199,39 @@
       "topics": [],
       "category": "Other",
       "version": "v1.0.11"
+    },
+    "vibeforge1111/keep-codex-fast": {
+      "full_name": "vibeforge1111/keep-codex-fast",
+      "description": "A backup-first Codex skill for keeping local Codex state fast, clean, and recoverable.",
+      "language": "Python",
+      "url": "https://github.com/vibeforge1111/keep-codex-fast",
+      "first_seen": "2026-05-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "esengine/reasonix": {
+      "full_name": "esengine/reasonix",
+      "description": "DeepSeek-native agent framework: Cache-First Loop, R1 Thought Harvesting, Tool-Call Repair. TypeScript + Ink TUI.",
+      "language": "TypeScript",
+      "url": "https://github.com/esengine/reasonix",
+      "first_seen": "2026-05-03",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-framework",
+        "deepseek",
+        "ink",
+        "llm",
+        "prompt-caching",
+        "r1",
+        "tool-use",
+        "tui",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

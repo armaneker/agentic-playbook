@@ -6375,7 +6375,7 @@
     "AgriciDaniel/claude-obsidian": {
       "full_name": "AgriciDaniel/claude-obsidian",
       "description": "Claude + Obsidian knowledge companion. Persistent, compounding wiki vault based on Karpathy's LLM Wiki pattern. /wiki /save /autoresearch",
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/AgriciDaniel/claude-obsidian",
       "first_seen": "2026-04-12",
       "has_summary": false,
@@ -8650,13 +8650,28 @@
     },
     "oritera/Cairn": {
       "full_name": "oritera/Cairn",
-      "description": "AI 自动化通用问题解决 / AI 自动化渗透测试系统",
-      "language": "Unknown",
+      "description": "A general-purpose state-space search engine, validated first on autonomous penetration testing.",
+      "language": "Python",
       "url": "https://github.com/oritera/Cairn",
       "first_seen": "2026-04-24",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "ai-agent",
+        "ai-cybersecurity",
+        "ai-hacker",
+        "ai-hacking",
+        "blackbox-testing",
+        "ctf",
+        "ctf-tools",
+        "llm",
+        "penetration-testing",
+        "pentesting",
+        "red-teaming",
+        "security-automation",
+        "security-tools"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "op7418/guizang-ppt-skill": {
@@ -10140,6 +10155,50 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "noonghunna/club-3090": {
+      "full_name": "noonghunna/club-3090",
+      "description": "Community recipes for serving LLMs on RTX 3090. Multi-engine (vLLM, llama.cpp, SGLang) and model-agnostic. Currently shipping Qwen3.6-27B configs for 1× and 2× cards.",
+      "language": "Shell",
+      "url": "https://github.com/noonghunna/club-3090",
+      "first_seen": "2026-05-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "talkie-lm/talkie": {
+      "full_name": "talkie-lm/talkie",
+      "description": "talkie is a vintage language model from 1930",
+      "language": "Python",
+      "url": "https://github.com/talkie-lm/talkie",
+      "first_seen": "2026-05-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "stripe/link-cli": {
+      "full_name": "stripe/link-cli",
+      "description": "Let your agents spend on your behalf. Your payment credentials are never exposed. You approve every purchase.",
+      "language": "TypeScript",
+      "url": "https://github.com/stripe/link-cli",
+      "first_seen": "2026-05-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": "@stripe/link-cli@0.4.2"
+    },
+    "arcsin1/oh-my-ppt": {
+      "full_name": "arcsin1/oh-my-ppt",
+      "description": "Local-first AI PPT generator with Desktop APP for entrepreneurs. Clean HTML slides, no cloud lock-in. Write prompt → get deck.",
+      "language": "TypeScript",
+      "url": "https://github.com/arcsin1/oh-my-ppt",
+      "first_seen": "2026-05-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.11"
     }
   }
 }

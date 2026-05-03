@@ -9779,7 +9779,7 @@
     },
     "t8y2/dbx": {
       "full_name": "t8y2/dbx",
-      "description": "lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.",
+      "description": "15MB，lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.",
       "language": "Vue",
       "url": "https://github.com/t8y2/dbx",
       "first_seen": "2026-04-30",
@@ -9916,7 +9916,7 @@
     },
     "1bananachicken/MaaNTE": {
       "full_name": "1bananachicken/MaaNTE",
-      "description": "MAA异环小助手，由MAAFramework强力驱动！QQ交流群：1103323319",
+      "description": "MAA异环小助手，由MAAFramework强力驱动！QQ交流群: 1075143235",
       "language": "Python",
       "url": "https://github.com/1bananachicken/MaaNTE",
       "first_seen": "2026-05-01",
@@ -10232,6 +10232,21 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "1weiho/open-slide": {
+      "full_name": "1weiho/open-slide",
+      "description": "A slide framework built for agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/1weiho/open-slide",
+      "first_seen": "2026-05-03",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "react",
+        "slides"
+      ],
+      "category": "Agentic",
+      "version": "@open-slide/cli@1.0.4"
     }
   }
 }

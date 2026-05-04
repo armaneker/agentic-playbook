@@ -6249,13 +6249,20 @@
     },
     "yizhiyanhua-ai/fireworks-tech-graph": {
       "full_name": "yizhiyanhua-ai/fireworks-tech-graph",
-      "description": "Claude Code skill for generating production-quality SVG+PNG technical diagrams. Supports 8 diagram types, 5 visual styles, and deep AI/Agent domain knowledge.",
+      "description": "Generate production-quality SVG+PNG technical diagrams from natural language. 7 styles, UML support, and AI/Agent workflow patterns.",
       "language": "Python",
       "url": "https://github.com/yizhiyanhua-ai/fireworks-tech-graph",
       "first_seen": "2026-04-11",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "agent-workflows",
+        "ai",
+        "claude-code",
+        "developer-tools",
+        "diagrams",
+        "svg"
+      ],
+      "category": "AI / ML",
       "version": null,
       "blurb": "A Claude Code skill that generates production-quality technical diagrams from natural language descriptions, outputting both SVG and high-resolution PNG formats. It specializes in AI/Agent system architectures with built-in knowledge of patterns like RAG, multi-agent flows, and memory architectures, supporting 8 diagram types across 5 visual styles. The tool uses semantic shape vocabulary (hexagons for agents, cylinders for databases) and color-coded arrows to automatically convey technical relationships."
     },
@@ -10241,7 +10248,7 @@
         "typescript"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.24.1"
     },
     "1weiho/open-slide": {
       "full_name": "1weiho/open-slide",
@@ -10366,6 +10373,17 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "Snaplii-Inc/agent-to-merchant-payments": {
+      "full_name": "Snaplii-Inc/agent-to-merchant-payments",
+      "description": "Payments are broken for AI agents.  Snaplii unlocks real-world commerce with a safe, tokenized payment layer — powered by 500+ merchant gift cards — and is the only one that actually saves you money (up to 10% per transaction), on top of any existing deals or promotions.",
+      "language": "Python",
+      "url": "https://github.com/Snaplii-Inc/agent-to-merchant-payments",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
       "version": null
     }
   }

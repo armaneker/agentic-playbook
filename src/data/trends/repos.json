@@ -9717,8 +9717,18 @@
       "url": "https://github.com/denuitt1/mhr-cfw",
       "first_seen": "2026-04-30",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "cloudflare-workers",
+        "domain-fronting",
+        "dpi",
+        "dpi-bypass",
+        "google-apps-script",
+        "http",
+        "mitm",
+        "proxy",
+        "sni"
+      ],
+      "category": "Infra",
       "version": "v2.0.0"
     },
     "QwenLM/FlashQLA": {
@@ -10176,7 +10186,7 @@
     "noonghunna/club-3090": {
       "full_name": "noonghunna/club-3090",
       "description": "Community recipes for serving LLMs on RTX 3090. Multi-engine (vLLM, llama.cpp, SGLang) and model-agnostic. Currently shipping Qwen3.6-27B configs for 1× and 2× cards.",
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/noonghunna/club-3090",
       "first_seen": "2026-05-03",
       "has_summary": false,
@@ -10385,6 +10395,41 @@
       "topics": [],
       "category": "Agentic",
       "version": null
+    },
+    "tddworks/baguette": {
+      "full_name": "tddworks/baguette",
+      "description": "Headless iOS Simulator manager/farm + host-side input injection for iOS 26 — taps, swipes, multi-finger gestures, and 60 fps streaming",
+      "language": "Swift",
+      "url": "https://github.com/tddworks/baguette",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "apple",
+        "cli",
+        "devicefarm",
+        "indigohid",
+        "ios",
+        "simulator",
+        "simulatorkit",
+        "streaming"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.65"
+    },
+    "pluk-inc/md-preview": {
+      "full_name": "pluk-inc/md-preview",
+      "description": "A simple Markdown viewer for reading .md files",
+      "language": "Swift",
+      "url": "https://github.com/pluk-inc/md-preview",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [
+        "macos",
+        "markdown"
+      ],
+      "category": "Other",
+      "version": "v0.0.11"
     }
   }
 }

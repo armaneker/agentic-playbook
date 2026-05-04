@@ -9086,12 +9086,20 @@
     "freestylefly/awesome-gpt-image-2": {
       "full_name": "freestylefly/awesome-gpt-image-2",
       "description": "Prompt as Code | GPT-Image2 工业级提示词引擎与模板库，370+ 个案例逆向工程，20+ 套工业级模板，持续更新中",
-      "language": "Unknown",
+      "language": "JavaScript",
       "url": "https://github.com/freestylefly/awesome-gpt-image-2",
       "first_seen": "2026-04-26",
       "has_summary": false,
-      "topics": [],
-      "category": "AI / ML",
+      "topics": [
+        "agents",
+        "ai-image-generation",
+        "gpt-image-2",
+        "image-prompts",
+        "prompt-as-code",
+        "prompt-engineering",
+        "workflow-automation"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "h4ckf0r0day/obscura": {
@@ -9923,12 +9931,13 @@
       "first_seen": "2026-05-01",
       "has_summary": false,
       "topics": [
+        "computer-vision",
         "maaframework",
         "neverness-to-everness",
         "neverness-to-everness-software",
         "nte"
       ],
-      "category": "Other",
+      "category": "AI / ML",
       "version": "v0.0.3"
     },
     "QuipNetwork/xq-py": {
@@ -10320,6 +10329,39 @@
       "description": "Official implementation of Tuna-2: Pixel Embeddings Beat Vision Encoders for Unified Understanding and Generation",
       "language": "Python",
       "url": "https://github.com/facebookresearch/tuna-2",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "WeritoP/LInjector-FORKED-": {
+      "full_name": "WeritoP/LInjector-FORKED-",
+      "description": "🔨 LInjector. An open-source Luau Script IDE allowing easy integration with diverse purposes. Working version at the website below. ⬇️",
+      "language": "Unknown",
+      "url": "https://github.com/WeritoP/LInjector-FORKED-",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "3.4.6"
+    },
+    "WeritoP/FL-STUDIO-PATCHER": {
+      "full_name": "WeritoP/FL-STUDIO-PATCHER",
+      "description": "Fl Stduio patch for lifetime works",
+      "language": "Unknown",
+      "url": "https://github.com/WeritoP/FL-STUDIO-PATCHER",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.0.1"
+    },
+    "aattaran/deepclaude": {
+      "full_name": "aattaran/deepclaude",
+      "description": "Use Claude Code's autonomous agent loop with DeepSeek V4 Pro, OpenRouter, or any Anthropic-compatible backend. Same UX, 17x cheaper.",
+      "language": "JavaScript",
+      "url": "https://github.com/aattaran/deepclaude",
       "first_seen": "2026-05-04",
       "has_summary": false,
       "topics": [],

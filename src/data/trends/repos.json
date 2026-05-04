@@ -538,7 +538,7 @@
     },
     "langchain-ai/langchain": {
       "full_name": "langchain-ai/langchain",
-      "description": "The agent engineering platform",
+      "description": "The agent engineering platform. Available in TypeScript!",
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "first_seen": "2026-03-22",
@@ -562,7 +562,8 @@
         "openai",
         "pydantic",
         "python",
-        "rag"
+        "rag",
+        "typescript"
       ],
       "category": "Agentic",
       "version": "langchain-core==1.2.20",
@@ -10247,6 +10248,83 @@
       ],
       "category": "Agentic",
       "version": "@open-slide/cli@1.0.4"
+    },
+    "Cuimao777/cuimao-translator": {
+      "full_name": "Cuimao777/cuimao-translator",
+      "description": "一键将英文PDF翻译为流畅中文的Claude Code技能",
+      "language": "Unknown",
+      "url": "https://github.com/Cuimao777/cuimao-translator",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py": {
+      "full_name": "watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/watchtowrlabs/watchTowr-vs-cPanel-WHM-AuthBypass-to-RCE.py",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Tommy-yw/RunbookHermes": {
+      "full_name": "Tommy-yw/RunbookHermes",
+      "description": "Hermes-native AIOps agent for evidence-driven incident response, approval-gated remediation, and runbook learning.",
+      "language": "Python",
+      "url": "https://github.com/Tommy-yw/RunbookHermes",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "UzenUPozitiv4ik/gpt-image-2-skill": {
+      "full_name": "UzenUPozitiv4ik/gpt-image-2-skill",
+      "description": "A universal skill for generating realistic images",
+      "language": "Unknown",
+      "url": "https://github.com/UzenUPozitiv4ik/gpt-image-2-skill",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "AI / ML",
+      "version": null
+    },
+    "badsectorlabs/copyfail-go": {
+      "full_name": "badsectorlabs/copyfail-go",
+      "description": "A Go implementation of copyfail (CVE-2026-31431)",
+      "language": "Assembly",
+      "url": "https://github.com/badsectorlabs/copyfail-go",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "1.2.0"
+    },
+    "bradautomates/claude-video": {
+      "full_name": "bradautomates/claude-video",
+      "description": "Give Claude the ability to watch any video. /watch downloads, extracts frames, transcribes, hands it all to Claude.",
+      "language": "Python",
+      "url": "https://github.com/bradautomates/claude-video",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.2"
+    },
+    "facebookresearch/tuna-2": {
+      "full_name": "facebookresearch/tuna-2",
+      "description": "Official implementation of Tuna-2: Pixel Embeddings Beat Vision Encoders for Unified Understanding and Generation",
+      "language": "Python",
+      "url": "https://github.com/facebookresearch/tuna-2",
+      "first_seen": "2026-05-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

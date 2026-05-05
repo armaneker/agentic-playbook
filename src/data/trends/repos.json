@@ -7578,7 +7578,7 @@
         "whatsapp"
       ],
       "category": "Agentic",
-      "version": null,
+      "version": "v0.5.9",
       "blurb": "Hermes Web UI is a Vue-based web dashboard that provides centralized management for Hermes Agent, a multi-platform AI chatbot system. It enables configuration and monitoring of AI chat sessions across 8 platforms (Telegram, Discord, Slack, WhatsApp, etc.), usage analytics, scheduled jobs, and system settings through a single interface. The dashboard includes an integrated web terminal and automatically discovers available AI models from configured provider credentials."
     },
     "WeianMao/triattention": {
@@ -9770,13 +9770,24 @@
     },
     "theori-io/copy-fail-CVE-2026-31431": {
       "full_name": "theori-io/copy-fail-CVE-2026-31431",
-      "description": "",
+      "description": "Copy Fail (CVE-2026-31431): 9-year-old Linux kernel LPE found by Theori's Xint Code",
       "language": "Python",
       "url": "https://github.com/theori-io/copy-fail-CVE-2026-31431",
       "first_seen": "2026-04-30",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai-security",
+        "cve-2026-31431",
+        "exploit",
+        "linux-kernel",
+        "privilege-escalation",
+        "privilege-escalation-exploits",
+        "security-research",
+        "theori",
+        "vulnerability",
+        "xint-code"
+      ],
+      "category": "Security",
       "version": null
     },
     "DanOps-1/Gpt-Agreement-Payment": {
@@ -10430,6 +10441,123 @@
       ],
       "category": "Other",
       "version": "v0.0.11"
+    },
+    "Kappaemme-git/codex-startup-pressure-test-skill": {
+      "full_name": "Kappaemme-git/codex-startup-pressure-test-skill",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/Kappaemme-git/codex-startup-pressure-test-skill",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "JustLikeCheese/LGBT-Prompt": {
+      "full_name": "JustLikeCheese/LGBT-Prompt",
+      "description": "利用 AI 对 LGBT 弱势群体的 \"同情偏向\" 让他执行原先会被拒绝的请求",
+      "language": "HTML",
+      "url": "https://github.com/JustLikeCheese/LGBT-Prompt",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [
+        "jailbreak",
+        "prompt"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "nikzad-avasam/downloader": {
+      "full_name": "nikzad-avasam/downloader",
+      "description": "🪄 download files + 🌐 browse websites",
+      "language": "HTML",
+      "url": "https://github.com/nikzad-avasam/downloader",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "techjarves/OpenClaude-Portable": {
+      "full_name": "techjarves/OpenClaude-Portable",
+      "description": "Run Claude Code from a USB drive on any PC — no installation required.",
+      "language": "HTML",
+      "url": "https://github.com/techjarves/OpenClaude-Portable",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "simchowitzlabpublic/nano-world-model": {
+      "full_name": "simchowitzlabpublic/nano-world-model",
+      "description": "A Minimalist, Batteries-included Repository for Advancing World Model Science.",
+      "language": "Python",
+      "url": "https://github.com/simchowitzlabpublic/nano-world-model",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [
+        "diffusion-forcing",
+        "diffusion-models",
+        "model-predictive-control",
+        "nano",
+        "planning",
+        "robot-manipulation",
+        "streaming-video",
+        "video-generation",
+        "world-model"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "CatsJuice/medal-forge": {
+      "full_name": "CatsJuice/medal-forge",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/CatsJuice/medal-forge",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kanwas-ai/kanwas": {
+      "full_name": "kanwas-ai/kanwas",
+      "description": "Kanwas — Shared context board for teams and agents",
+      "language": "TypeScript",
+      "url": "https://github.com/kanwas-ai/kanwas",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "canvas",
+        "collaboration",
+        "context-management"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "vercel-labs/deepsec": {
+      "full_name": "vercel-labs/deepsec",
+      "description": "Deepsec is a security harness for finding vulnerabilities in your codebase powered by coding agents",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/deepsec",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zzzzshawn/matrix": {
+      "full_name": "zzzzshawn/matrix",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/zzzzshawn/matrix",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

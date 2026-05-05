@@ -10558,6 +10558,39 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "matthart1983/syswatch": {
+      "full_name": "matthart1983/syswatch",
+      "description": "Single-host system diagnostics TUI. Sibling to netwatch. Twelve tabs, plain-English insights, session scrubber. macOS + Linux.",
+      "language": "Rust",
+      "url": "https://github.com/matthart1983/syswatch",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "context-labs/HALO": {
+      "full_name": "context-labs/HALO",
+      "description": "Hierarchal Agent Loop Optimizer",
+      "language": "Python",
+      "url": "https://github.com/context-labs/HALO",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "crafter-station/petdex": {
+      "full_name": "crafter-station/petdex",
+      "description": "Public gallery of animated Codex pets",
+      "language": "TypeScript",
+      "url": "https://github.com/crafter-station/petdex",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

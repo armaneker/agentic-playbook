@@ -10197,7 +10197,7 @@
     "noonghunna/club-3090": {
       "full_name": "noonghunna/club-3090",
       "description": "Community recipes for serving LLMs on RTX 3090. Multi-engine (vLLM, llama.cpp, SGLang) and model-agnostic. Currently shipping Qwen3.6-27B configs for 1× and 2× cards.",
-      "language": "Python",
+      "language": "Shell",
       "url": "https://github.com/noonghunna/club-3090",
       "first_seen": "2026-05-03",
       "has_summary": false,
@@ -10251,7 +10251,7 @@
     },
     "esengine/reasonix": {
       "full_name": "esengine/reasonix",
-      "description": "DeepSeek-native agent framework: Cache-First Loop, R1 Thought Harvesting, Tool-Call Repair. TypeScript + Ink TUI.",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
       "language": "TypeScript",
       "url": "https://github.com/esengine/reasonix",
       "first_seen": "2026-05-03",
@@ -10599,7 +10599,7 @@
     "raiyanyahya/how-to-train-your-gpt": {
       "full_name": "raiyanyahya/how-to-train-your-gpt",
       "description": "Build a modern LLM from scratch. Every line commented. Explained like we are five.",
-      "language": "Unknown",
+      "language": "Jupyter Notebook",
       "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
       "first_seen": "2026-05-05",
       "has_summary": false,
@@ -10622,6 +10622,28 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "LayrKits/Sprite-Pipeline": {
+      "full_name": "LayrKits/Sprite-Pipeline",
+      "description": "2D Sprite Sheet Creation Pipeline",
+      "language": "Python",
+      "url": "https://github.com/LayrKits/Sprite-Pipeline",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "joelbqz/writer-computer": {
+      "full_name": "joelbqz/writer-computer",
+      "description": "Local-first desktop markdown editor",
+      "language": "TypeScript",
+      "url": "https://github.com/joelbqz/writer-computer",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.0.28"
     }
   }
 }

@@ -9004,7 +9004,7 @@
         "simulation"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": "0.5.3"
     },
     "levelsio/superlevels": {
       "full_name": "levelsio/superlevels",
@@ -10259,11 +10259,17 @@
       "topics": [
         "agent",
         "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
         "deepseek",
+        "developer-tools",
         "ink",
         "llm",
         "prompt-caching",
         "r1",
+        "terminal",
         "tool-use",
         "tui",
         "typescript"
@@ -10416,10 +10422,8 @@
       "has_summary": false,
       "topics": [
         "agent",
-        "apple",
         "cli",
         "devicefarm",
-        "indigohid",
         "ios",
         "simulator",
         "simulatorkit",
@@ -10590,6 +10594,33 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "raiyanyahya/how-to-train-your-gpt": {
+      "full_name": "raiyanyahya/how-to-train-your-gpt",
+      "description": "Build a modern LLM from scratch. Every line commented. Explained like we are five.",
+      "language": "Unknown",
+      "url": "https://github.com/raiyanyahya/how-to-train-your-gpt",
+      "first_seen": "2026-05-05",
+      "has_summary": false,
+      "topics": [
+        "attention-mechanism",
+        "deep-learning",
+        "educational",
+        "from-scratch",
+        "gpt",
+        "language-model",
+        "llama",
+        "llm",
+        "machine-learning",
+        "natural-language-processing",
+        "python",
+        "pytorch",
+        "tokenisation",
+        "transformers",
+        "tutorial"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

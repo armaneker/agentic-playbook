@@ -6268,7 +6268,7 @@
     },
     "QLHazyCoder/codex-oauth-automation-extension": {
       "full_name": "QLHazyCoder/codex-oauth-automation-extension",
-      "description": "Chrome扩展：支持OpenAI OAuth注册、验证码获取、CPA回调验证与自动恢复",
+      "description": "Chrome扩展：支持OpenAI OAuth注册(自动开通plus账号)、验证码获取、CPA/sub/cpdex2api回调验证与自动恢复",
       "language": "JavaScript",
       "url": "https://github.com/QLHazyCoder/codex-oauth-automation-extension",
       "first_seen": "2026-04-11",
@@ -10197,7 +10197,7 @@
     "noonghunna/club-3090": {
       "full_name": "noonghunna/club-3090",
       "description": "Community recipes for serving LLMs on RTX 3090. Multi-engine (vLLM, llama.cpp, SGLang) and model-agnostic. Currently shipping Qwen3.6-27B configs for 1× and 2× cards.",
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/noonghunna/club-3090",
       "first_seen": "2026-05-03",
       "has_summary": false,
@@ -10644,6 +10644,55 @@
       "topics": [],
       "category": "Other",
       "version": "v0.0.28"
+    },
+    "skydoves/compose-performance-skills": {
+      "full_name": "skydoves/compose-performance-skills",
+      "description": "⚡️ A curated library of Agent Skills focused on Jetpack Compose performance.",
+      "language": "Shell",
+      "url": "https://github.com/skydoves/compose-performance-skills",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "android",
+        "claude",
+        "claude-code",
+        "compose",
+        "compose-performance",
+        "jetpack-compose",
+        "kotlin",
+        "llm-tools",
+        "recomposition",
+        "skydoves"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "ynsmroztas/cPanelSniper": {
+      "full_name": "ynsmroztas/cPanelSniper",
+      "description": "CVE-2026-41940 — cPanel & WHM Authentication Bypass via Session-File CRLF Injection",
+      "language": "Python",
+      "url": "https://github.com/ynsmroztas/cPanelSniper",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mrslimslim/gpt-image-canvas": {
+      "full_name": "mrslimslim/gpt-image-canvas",
+      "description": "Local professional AI canvas built with tldraw.",
+      "language": "TypeScript",
+      "url": "https://github.com/mrslimslim/gpt-image-canvas",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-tools",
+        "aiimagegenerator"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

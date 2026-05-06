@@ -10822,6 +10822,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "virgiliojr94/book-to-skill": {
+      "full_name": "virgiliojr94/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "url": "https://github.com/virgiliojr94/book-to-skill",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "DestinyLinker/MingLi-Bench": {
+      "full_name": "DestinyLinker/MingLi-Bench",
+      "description": "A benchmark for evaluating LLMs on Chinese traditional fortune telling — Bazi (八字) and Ziwei Doushu (紫微斗数).",
+      "language": "Python",
+      "url": "https://github.com/DestinyLinker/MingLi-Bench",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

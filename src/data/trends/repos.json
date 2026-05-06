@@ -10693,6 +10693,76 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "XBuilderLAB/cheat-on-content": {
+      "full_name": "XBuilderLAB/cheat-on-content",
+      "description": "Content is already a cheat-code race—whoever cracks the patterns first wins the traffic. Your auto-evolving ops expert that learns YOUR account, not the global average. The Claude Code workflow behind 1M followers in 1 month.",
+      "language": "Python",
+      "url": "https://github.com/XBuilderLAB/cheat-on-content",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "WeritoP/BetterNitroDiscord": {
+      "full_name": "WeritoP/BetterNitroDiscord",
+      "description": "BetterDiscord Plugin for Nitro features. Unlock screensharing modes, use cross-server and gif emotes and much more!",
+      "language": "Unknown",
+      "url": "https://github.com/WeritoP/BetterNitroDiscord",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "1.13.4"
+    },
+    "jherrodthomas/automotive-skills-suite": {
+      "full_name": "jherrodthomas/automotive-skills-suite",
+      "description": "100+ installable Claude skills covering Engineering areas such as, ISO 26262 functional safety, ISO/SAE 21434 cybersecurity, ISO 21448 SOTIF, AIAG-VDA quality (APQP/PPAP/FMEA), Automotive SPICE, and continuous improvement tools — every builder paired with a confirmation reviewer.",
+      "language": "Unknown",
+      "url": "https://github.com/jherrodthomas/automotive-skills-suite",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [
+        "apqp",
+        "aspice",
+        "automotive",
+        "autosar",
+        "engineering",
+        "fusa",
+        "hardware",
+        "software-engineering",
+        "system"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "elementalsouls/Claude-OSINT": {
+      "full_name": "elementalsouls/Claude-OSINT",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/elementalsouls/Claude-OSINT",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zhouxiyu1997/friendmaker": {
+      "full_name": "zhouxiyu1997/friendmaker",
+      "description": "Friend Maker is a macOS/Windows toolkit for turning images into pixel grids and ESP32 controller scripts, enabling automatic drawing on Nintendo Switch in Tomodachi Life and related workflows.",
+      "language": "TypeScript",
+      "url": "https://github.com/zhouxiyu1997/friendmaker",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [
+        "esp32",
+        "nintendo-switch",
+        "pro-controller-emulator",
+        "tomodachi-life"
+      ],
+      "category": "Other",
+      "version": "v0.4.5"
     }
   }
 }

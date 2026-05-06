@@ -9910,7 +9910,7 @@
     "Yuan1z0825/nature-skills": {
       "full_name": "Yuan1z0825/nature-skills",
       "description": "符合nature论文学术表达和科研绘图的Skill",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/Yuan1z0825/nature-skills",
       "first_seen": "2026-05-01",
       "has_summary": false,
@@ -10763,6 +10763,65 @@
       ],
       "category": "Other",
       "version": "v0.4.5"
+    },
+    "NamKhoa-07/Voidstrap": {
+      "full_name": "NamKhoa-07/Voidstrap",
+      "description": "Voidstrap is a simple yet advanced fork of Bloxstrap, advanced customization and improvements.",
+      "language": "C#",
+      "url": "https://github.com/NamKhoa-07/Voidstrap",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [
+        "bloxstrap",
+        "open-source",
+        "roblox",
+        "voidstrap"
+      ],
+      "category": "Other",
+      "version": "v1.1.0.6"
+    },
+    "jherrodthomas/robotics-skills-suite": {
+      "full_name": "jherrodthomas/robotics-skills-suite",
+      "description": "76 audit-ready Claude skills automating the industrial robot, cobot, AMR, ROS2, V&V, AI/ML, and IEC 62443 lifecycle. 38 builder + reviewer pairs anchored to ISO 10218, 13849, 62061, 12100, 9283, 15066, 3691-4, and IEC 62443.",
+      "language": "Unknown",
+      "url": "https://github.com/jherrodthomas/robotics-skills-suite",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [
+        "amr",
+        "anthropic",
+        "ce-marking",
+        "claude",
+        "claude-skills",
+        "cobot",
+        "fat-sat",
+        "functional-safety",
+        "iec62061",
+        "iec62443",
+        "industrial-robotics",
+        "iso10218",
+        "iso13849",
+        "iso15066",
+        "machinery-safety",
+        "nav2",
+        "ot-cybersecurity",
+        "robotics",
+        "ros2",
+        "urdf"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "b3-fun/b3os": {
+      "full_name": "b3-fun/b3os",
+      "description": "B3OS is your automation platform for cross-chain workflows. Build automated strategies, schedule transactions, and execute complex on-chain operations.",
+      "language": "TypeScript",
+      "url": "https://github.com/b3-fun/b3os",
+      "first_seen": "2026-05-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

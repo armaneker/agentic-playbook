@@ -139,7 +139,7 @@
     },
     "ohmyzsh/ohmyzsh": {
       "full_name": "ohmyzsh/ohmyzsh",
-      "description": "🙃   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "description": "🙃   A delightful community-driven (with 2,500+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
       "language": "Shell",
       "url": "https://github.com/ohmyzsh/ohmyzsh",
       "first_seen": "2026-03-22",
@@ -10843,6 +10843,45 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "StartupHakk/OpenMonoAgent.ai": {
+      "full_name": "StartupHakk/OpenMonoAgent.ai",
+      "description": "(BETA) AI shouldn't have a meter. Unlimited tokens. Forever. Your machine. Your agent. Use it from anywhere. Terminal-native coding agent powered by local LLMs — 100% open source, free forever, and installed with a single command. Proudly built on C#/.NET, because AI tooling should be infrastructure, not a subscription.",
+      "language": "C#",
+      "url": "https://github.com/StartupHakk/OpenMonoAgent.ai",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "b-nnett/codex-plusplus-ios-simulator": {
+      "full_name": "b-nnett/codex-plusplus-ios-simulator",
+      "description": "iOS Simulator tweak for Codex++ — embeds a headless, mirrored simulator in Codex's right panel.",
+      "language": "JavaScript",
+      "url": "https://github.com/b-nnett/codex-plusplus-ios-simulator",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "yaojingang/yao-open-prompts": {
+      "full_name": "yaojingang/yao-open-prompts",
+      "description": "Yao Open Prompts：中文 AI 提示词库，覆盖工作、学习、内容、营销和生活场景",
+      "language": "Python",
+      "url": "https://github.com/yaojingang/yao-open-prompts",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "chinese-prompts",
+        "geo",
+        "prompt-engineering",
+        "prompts"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

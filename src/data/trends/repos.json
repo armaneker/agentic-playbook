@@ -10920,6 +10920,53 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "strukto-ai/mirage": {
+      "full_name": "strukto-ai/mirage",
+      "description": "A Unified Virtual Filesystem For AI Agents",
+      "language": "TypeScript",
+      "url": "https://github.com/strukto-ai/mirage",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [
+        "agent-sandbox",
+        "agent-tools",
+        "ai-agents",
+        "bash",
+        "claude-code",
+        "fuse",
+        "langchain",
+        "llm-agents",
+        "openai-agents",
+        "python",
+        "typescript",
+        "vfs",
+        "virtual-filesystem"
+      ],
+      "category": "Agentic",
+      "version": "v0.0.1"
+    },
+    "MayersScott/rkn-block-checker": {
+      "full_name": "MayersScott/rkn-block-checker",
+      "description": "Diagnose RKN/TSPU internet blocks layer by layer (DNS, TCP, TLS, HTTP)",
+      "language": "Python",
+      "url": "https://github.com/MayersScott/rkn-block-checker",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [
+        "censorship",
+        "cli",
+        "dns",
+        "dpi",
+        "network-diagnostics",
+        "networking",
+        "python",
+        "rkn",
+        "tls",
+        "tspu"
+      ],
+      "category": "DevTools",
+      "version": "v0.3.2"
     }
   }
 }

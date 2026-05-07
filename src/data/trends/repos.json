@@ -10967,6 +10967,21 @@
       ],
       "category": "DevTools",
       "version": "v0.3.2"
+    },
+    "jingyaogong/minimind-o": {
+      "full_name": "jingyaogong/minimind-o",
+      "description": "🎙️ 「大模型」从0训练0.1B能听能说能看的全模态Omni模型！A 0.1B Omni model trained from scratch, capable of listening, speaking, and seeing!",
+      "language": "Python",
+      "url": "https://github.com/jingyaogong/minimind-o",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [
+        "artificial-intelligence",
+        "chatgpt",
+        "omni"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

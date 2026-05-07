@@ -10739,13 +10739,17 @@
     },
     "elementalsouls/Claude-OSINT": {
       "full_name": "elementalsouls/Claude-OSINT",
-      "description": "",
+      "description": "Two paired Claude skills · 90+ recon modules · 48 secret-regex patterns · 80+ dorks · 9 read-only credential validators · 27 attack-path templates · 5,500+ lines of structured tradecraft. Drop-in SKILL.md files that turn Claude into a god-mode external recon operator for authorized red-team and bug-bounty engagements.",
       "language": "Python",
       "url": "https://github.com/elementalsouls/Claude-OSINT",
       "first_seen": "2026-05-06",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "agentskills",
+        "claude",
+        "skills"
+      ],
+      "category": "AI / ML",
       "version": null
     },
     "zhouxiyu1997/friendmaker": {
@@ -10882,6 +10886,39 @@
         "prompts"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "lightseekorg/tokenspeed": {
+      "full_name": "lightseekorg/tokenspeed",
+      "description": "TokenSpeed is a speed-of-light LLM inference engine.",
+      "language": "Python",
+      "url": "https://github.com/lightseekorg/tokenspeed",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [
+        "blackwell",
+        "deepseek",
+        "gpt-oss",
+        "kimi",
+        "lightseek",
+        "llm",
+        "minimax",
+        "qwen",
+        "speed-of-light",
+        "tokenspeed"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "BuluBulugege/Free-BAI": {
+      "full_name": "BuluBulugege/Free-BAI",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/BuluBulugege/Free-BAI",
+      "first_seen": "2026-05-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

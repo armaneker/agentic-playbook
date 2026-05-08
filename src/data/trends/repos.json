@@ -10700,7 +10700,7 @@
     "XBuilderLAB/cheat-on-content": {
       "full_name": "XBuilderLAB/cheat-on-content",
       "description": "Content is already a cheat-code race—whoever cracks the patterns first wins the traffic. Your auto-evolving ops expert that learns YOUR account, not the global average. The Claude Code workflow behind 1M followers in 1 month.",
-      "language": "Python",
+      "language": "Shell",
       "url": "https://github.com/XBuilderLAB/cheat-on-content",
       "first_seen": "2026-05-06",
       "has_summary": false,
@@ -11088,6 +11088,31 @@
         "trading"
       ],
       "category": "DevTools",
+      "version": null
+    },
+    "Angus184527/Atingle-Executor": {
+      "full_name": "Angus184527/Atingle-Executor",
+      "description": "Open-Source, roblox script injector & executor",
+      "language": "C++",
+      "url": "https://github.com/Angus184527/Atingle-Executor",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [
+        "roblox",
+        "roblox-script-lua"
+      ],
+      "category": "Other",
+      "version": "v1.4.3"
+    },
+    "Ch1rpy2613/Mirrai": {
+      "full_name": "Ch1rpy2613/Mirrai",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Ch1rpy2613/Mirrai",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

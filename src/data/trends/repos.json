@@ -8437,9 +8437,12 @@
       "has_summary": false,
       "topics": [
         "dpi",
+        "google",
         "http",
+        "masterhttprelayvpn",
         "mitm",
         "proxy",
+        "relay",
         "sni",
         "vpn"
       ],
@@ -10981,6 +10984,80 @@
         "omni"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "antirez/ds4": {
+      "full_name": "antirez/ds4",
+      "description": "DeepSeek 4 Flash local inference engine for Metal",
+      "language": "C",
+      "url": "https://github.com/antirez/ds4",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "V4bel/dirtyfrag": {
+      "full_name": "V4bel/dirtyfrag",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/V4bel/dirtyfrag",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "NamKhoa-07/wallet-recovery-seed": {
+      "full_name": "NamKhoa-07/wallet-recovery-seed",
+      "description": "ethereum wallet recovery password multithread tool, baked from pyethrecover and pyethereum, for using keystore v3 json file to help recover your lost password if you know some phrases using both brute and wordlist technique, start + end words, whole ascii or just numbers",
+      "language": "Python",
+      "url": "https://github.com/NamKhoa-07/wallet-recovery-seed",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [
+        "bruteforce",
+        "etherium",
+        "generator",
+        "json",
+        "password",
+        "python",
+        "wallet"
+      ],
+      "category": "Other",
+      "version": "0.0.1"
+    },
+    "zarazhangrui/beautiful-html-templates": {
+      "full_name": "zarazhangrui/beautiful-html-templates",
+      "description": "A library of HTML slide templates designed so any coding agent can pick the right one and produce a beautiful deck on the user's behalf, automatically.",
+      "language": "HTML",
+      "url": "https://github.com/zarazhangrui/beautiful-html-templates",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lessweb/deepcode-cli": {
+      "full_name": "lessweb/deepcode-cli",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/lessweb/deepcode-cli",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": null
+    },
+    "moxailoo/univ3-pool-lens": {
+      "full_name": "moxailoo/univ3-pool-lens",
+      "description": "A focused TypeScript toolkit for inspecting Uniswap V3 pools — liquidity distribution, fee yield, and impermanent-loss math from your terminal.",
+      "language": "TypeScript",
+      "url": "https://github.com/moxailoo/univ3-pool-lens",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

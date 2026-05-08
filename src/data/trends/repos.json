@@ -8859,7 +8859,7 @@
     "ConardLi/garden-skills": {
       "full_name": "ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
-      "language": "TypeScript",
+      "language": "CSS",
       "url": "https://github.com/ConardLi/garden-skills",
       "first_seen": "2026-04-25",
       "has_summary": false,
@@ -8872,7 +8872,7 @@
         "web-design"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "web-video-presentation-v1.1.3"
     },
     "tashfeenahmed/freellmapi": {
       "full_name": "tashfeenahmed/freellmapi",
@@ -9956,7 +9956,7 @@
     },
     "1bananachicken/MaaNTE": {
       "full_name": "1bananachicken/MaaNTE",
-      "description": "MAA异环小助手，由MAAFramework强力驱动！QQ交流群: 1075143235",
+      "description": "MAA异环小助手，由MAAFramework强力驱动！QQ交流群: 713114598",
       "language": "Python",
       "url": "https://github.com/1bananachicken/MaaNTE",
       "first_seen": "2026-05-01",
@@ -10699,7 +10699,7 @@
     },
     "XBuilderLAB/cheat-on-content": {
       "full_name": "XBuilderLAB/cheat-on-content",
-      "description": "Content is already a cheat-code race—whoever cracks the patterns first wins the traffic. Your auto-evolving ops expert that learns YOUR account, not the global average. The Claude Code workflow behind 1M followers in 1 month.",
+      "description": "You're reading this. The skill predicted it. A workflow that turns every post into a calibrated experiment—score, blind-predict, retro, evolve. The future doesn't reward effort, it rewards those who see the pattern first. 1M followers in a month — not luck, system.",
       "language": "Shell",
       "url": "https://github.com/XBuilderLAB/cheat-on-content",
       "first_seen": "2026-05-06",
@@ -11114,6 +11114,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "zzzhhh1/Sing-Flare-Auto": {
+      "full_name": "zzzhhh1/Sing-Flare-Auto",
+      "description": "本项目提供了一个基于 Docker 容器的轻量级、高隐匿性科学上网节点部署方案。通过集成 sing-box 和 cloudflared，你可以轻松地在各类云平台（如 Koyeb、Render 等）或个人 VPS 上一键构建安全隧道。下方是详细的视频教程链接：",
+      "language": "Dockerfile",
+      "url": "https://github.com/zzzhhh1/Sing-Flare-Auto",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "openai/openai-cli": {
+      "full_name": "openai/openai-cli",
+      "description": "Official CLI for the OpenAI API",
+      "language": "Go",
+      "url": "https://github.com/openai/openai-cli",
+      "first_seen": "2026-05-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": "v1.1.2"
     }
   }
 }

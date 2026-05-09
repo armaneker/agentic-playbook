@@ -11058,7 +11058,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "version1.9.5"
     },
     "nikzad-avasam/youtube-dl": {
       "full_name": "nikzad-avasam/youtube-dl",
@@ -11174,7 +11174,7 @@
     },
     "thcp/stemdeck": {
       "full_name": "thcp/stemdeck",
-      "description": "Stemdeck is an AI-powered stem extraction platform for musicians and producers, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+      "description": "Stemdeck is an modern stem extraction platform for musicians and producers, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
       "language": "JavaScript",
       "url": "https://github.com/thcp/stemdeck",
       "first_seen": "2026-05-09",
@@ -11295,6 +11295,17 @@
         "llm"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "kitft/natural_language_autoencoders": {
+      "full_name": "kitft/natural_language_autoencoders",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/kitft/natural_language_autoencoders",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

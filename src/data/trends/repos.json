@@ -11136,6 +11136,107 @@
       "topics": [],
       "category": "DevTools",
       "version": "v1.1.2"
+    },
+    "WenyuChiou/awesome-agentic-ai-zh": {
+      "full_name": "WenyuChiou/awesome-agentic-ai-zh",
+      "description": "AI Agent 中文學習地圖 — 從零開始的結構化學習路徑，每階段有必做練習跟必修閱讀。三語對照（繁中／简中／English）。歡迎社群一起貢獻、優化內容。",
+      "language": "Python",
+      "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "awesome-list",
+        "bilingual",
+        "claude-code",
+        "claude-skills",
+        "cli",
+        "learning-roadmap",
+        "llm-agents",
+        "mcp",
+        "model-context-protocol",
+        "tutorial"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "facebookresearch/ProgramBench": {
+      "full_name": "facebookresearch/ProgramBench",
+      "description": "Can Language Models Rebuild Programs From Scratch?",
+      "language": "Python",
+      "url": "https://github.com/facebookresearch/ProgramBench",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "thcp/stemdeck": {
+      "full_name": "thcp/stemdeck",
+      "description": "Stemdeck is an AI-powered stem extraction platform for musicians and producers, designed to isolate vocals, drums, bass, piano and guitar  for practice, transcription, remixing, and creative audio workflows through a modern and interactive interface",
+      "language": "JavaScript",
+      "url": "https://github.com/thcp/stemdeck",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0-alpha.3"
+    },
+    "NyxFoundation/speca": {
+      "full_name": "NyxFoundation/speca",
+      "description": "SPECA: Specification-to-Checklist Agentic Auditing Framework",
+      "language": "Python",
+      "url": "https://github.com/NyxFoundation/speca",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.9.1"
+    },
+    "joshawome/chainreason": {
+      "full_name": "joshawome/chainreason",
+      "description": "A benchmark for evaluating LLM reasoning on Ethereum and DeFi tasks",
+      "language": "Python",
+      "url": "https://github.com/joshawome/chainreason",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper": {
+      "full_name": "L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper",
+      "description": "Proof of concept to show that Edge stores credentials in cleartext",
+      "language": "C#",
+      "url": "https://github.com/L1v1ng0ffTh3L4N/EdgeSavedPasswordsDumper",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "butthtio/solidity-cot-auditor": {
+      "full_name": "butthtio/solidity-cot-auditor",
+      "description": "Multi-role chain-of-thought LLM pipeline for Solidity security auditing, layered on top of Slither output.",
+      "language": "Python",
+      "url": "https://github.com/butthtio/solidity-cot-auditor",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Jiawei-Yang/FD-Loss": {
+      "full_name": "Jiawei-Yang/FD-Loss",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Jiawei-Yang/FD-Loss",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

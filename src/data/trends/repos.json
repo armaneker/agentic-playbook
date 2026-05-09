@@ -11237,6 +11237,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "vercel-labs/zero-native": {
+      "full_name": "vercel-labs/zero-native",
+      "description": "Build native desktop + mobile apps with web UI and Zig",
+      "language": "Zig",
+      "url": "https://github.com/vercel-labs/zero-native",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.9"
+    },
+    "BigPizzaV3/CodexPlusPlus": {
+      "full_name": "BigPizzaV3/CodexPlusPlus",
+      "description": "一个CodexApp的增强工具",
+      "language": "Python",
+      "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
+      "first_seen": "2026-05-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

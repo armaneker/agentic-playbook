@@ -7550,7 +7550,7 @@
     },
     "EKKOLearnAI/hermes-web-ui": {
       "full_name": "EKKOLearnAI/hermes-web-ui",
-      "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics & channel configuration (Telegram, Discord, Slack, WhatsApp)",
+      "description": "Web dashboard for Hermes Agent — multi-platform AI chat, session management, scheduled jobs, usage analytics ",
       "language": "TypeScript",
       "url": "https://github.com/EKKOLearnAI/hermes-web-ui",
       "first_seen": "2026-04-17",
@@ -7559,23 +7559,17 @@
         "agent",
         "ai-agent",
         "chat-ui",
-        "chatbot",
-        "claude",
         "dashboard",
-        "discord-bot",
         "hermes",
         "hermes-agent",
-        "hermes-webui",
+        "hermes-web-ui",
         "llm",
         "multi-model",
         "multi-platform",
         "self-hosted",
-        "slack-bot",
-        "telegram-bot",
         "typescript",
         "vue3",
-        "web-ui",
-        "whatsapp"
+        "web-ui"
       ],
       "category": "Agentic",
       "version": "v0.5.9",
@@ -11351,6 +11345,36 @@
       "topics": [],
       "category": "Agentic",
       "version": null
+    },
+    "thakur-works/DarkGPT": {
+      "full_name": "thakur-works/DarkGPT",
+      "description": "Darkgpt mod free #chatgpt",
+      "language": "Unknown",
+      "url": "https://github.com/thakur-works/DarkGPT",
+      "first_seen": "2026-05-10",
+      "has_summary": false,
+      "topics": [
+        "chatgpt-bypass",
+        "chatgpt5",
+        "darkgpt"
+      ],
+      "category": "Other",
+      "version": "2.0.1"
+    },
+    "thakur-works/Velocity-Executor": {
+      "full_name": "thakur-works/Velocity-Executor",
+      "description": "This repository contains Velocity Executor — a free Roblox script executor for PC built for fast injection, stable performance, and easy access. Includes Level 8 execution in 2026 with no ads, no key checkpoints, and no extra verification.",
+      "language": "Unknown",
+      "url": "https://github.com/thakur-works/Velocity-Executor",
+      "first_seen": "2026-05-10",
+      "has_summary": false,
+      "topics": [
+        "roblox",
+        "velocity",
+        "velocity-roblox"
+      ],
+      "category": "Other",
+      "version": "1.4.3"
     }
   }
 }

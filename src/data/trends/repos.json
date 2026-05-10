@@ -11056,7 +11056,7 @@
     },
     "nikzad-avasam/youtube-dl": {
       "full_name": "nikzad-avasam/youtube-dl",
-      "description": "🎬 You tube Downloader to your github repository .",
+      "description": "⚠️ اگه این ریپازیتوری کار نکرد از نسخه ۲ استفاده کنید لینک پایین هست ",
       "language": "Unknown",
       "url": "https://github.com/nikzad-avasam/youtube-dl",
       "first_seen": "2026-05-08",
@@ -11375,6 +11375,17 @@
       ],
       "category": "Other",
       "version": "1.4.3"
+    },
+    "huangserva/3DCellForge": {
+      "full_name": "huangserva/3DCellForge",
+      "description": "AI-powered interactive 3D cell generation and exploration studio.",
+      "language": "JavaScript",
+      "url": "https://github.com/huangserva/3DCellForge",
+      "first_seen": "2026-05-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

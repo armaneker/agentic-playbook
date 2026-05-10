@@ -10206,7 +10206,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v2026.05.09"
     },
     "talkie-lm/talkie": {
       "full_name": "talkie-lm/talkie",
@@ -11240,7 +11240,7 @@
     },
     "vercel-labs/zero-native": {
       "full_name": "vercel-labs/zero-native",
-      "description": "Build native desktop + mobile apps with web UI and Zig",
+      "description": "Build desktop + mobile apps with Zig and web UI",
       "language": "Zig",
       "url": "https://github.com/vercel-labs/zero-native",
       "first_seen": "2026-05-09",
@@ -11306,6 +11306,50 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "jmerelnyc/Photo-agents": {
+      "full_name": "jmerelnyc/Photo-agents",
+      "description": "Autonomous self-evolving agents. Vision-grounded layered memory and self-written skills for LLM agents that operate your computer.",
+      "language": "Python",
+      "url": "https://github.com/jmerelnyc/Photo-agents",
+      "first_seen": "2026-05-10",
+      "has_summary": false,
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "autonomous-agents",
+        "computer-use",
+        "llm",
+        "photo-agents",
+        "photographic-memory",
+        "python",
+        "self-evolving-agents",
+        "vision-agents"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Kurdeus/Meli-Action": {
+      "full_name": "Kurdeus/Meli-Action",
+      "description": "دانلود فایل از لینک مستقیم، یوتیوب، تلگرام، گوگل پلی، و ذخیره صفحات وب در فیلترینگ شدید اینترنت ملی (پروژه بزرگ ضد فیلترینگ)",
+      "language": "Python",
+      "url": "https://github.com/Kurdeus/Meli-Action",
+      "first_seen": "2026-05-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Agent-3-7/hermes-agent-mission-control": {
+      "full_name": "Agent-3-7/hermes-agent-mission-control",
+      "description": "Mission Control Kanban for your Hermes Agent",
+      "language": "TypeScript",
+      "url": "https://github.com/Agent-3-7/hermes-agent-mission-control",
+      "first_seen": "2026-05-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
       "version": null
     }
   }

@@ -11034,7 +11034,7 @@
     },
     "lessweb/deepcode-cli": {
       "full_name": "lessweb/deepcode-cli",
-      "description": "",
+      "description": "Deep Code 是专为 deepseek-v4 模型优化的终端 AI 编码助手，支持深度思考、推理强度控制以及 Agent Skills。",
       "language": "TypeScript",
       "url": "https://github.com/lessweb/deepcode-cli",
       "first_seen": "2026-05-08",
@@ -11502,6 +11502,17 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "ajavadinezhad/zyrln": {
+      "full_name": "ajavadinezhad/zyrln",
+      "description": "Domain-fronting relay that routes traffic through Google infrastructure to bypass DPI-based censorship,  Android VPN    app + desktop proxy  https://t.me/z_yrln",
+      "language": "Go",
+      "url": "https://github.com/ajavadinezhad/zyrln",
+      "first_seen": "2026-05-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.4.0"
     }
   }
 }

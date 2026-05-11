@@ -538,7 +538,7 @@
     },
     "langchain-ai/langchain": {
       "full_name": "langchain-ai/langchain",
-      "description": "The agent engineering platform. Available in TypeScript!",
+      "description": "The agent engineering platform.",
       "language": "Python",
       "url": "https://github.com/langchain-ai/langchain",
       "first_seen": "2026-03-22",
@@ -10584,7 +10584,7 @@
     },
     "crafter-station/petdex": {
       "full_name": "crafter-station/petdex",
-      "description": "Public gallery of animated Codex pets",
+      "description": "The public gallery of animated pet for Codex, Claude Code, OpenCode y Gemini CLI",
       "language": "TypeScript",
       "url": "https://github.com/crafter-station/petdex",
       "first_seen": "2026-05-05",
@@ -11468,6 +11468,40 @@
       ],
       "category": "Infra",
       "version": "v1.3.0"
+    },
+    "alchaincyf/huashu-md-html": {
+      "full_name": "alchaincyf/huashu-md-html",
+      "description": "md/html 双向流水线 · 三个能力一站式：万物→md / md→精美html / html→md。封装 markitdown + Pandoc + html-to-markdown + trafilatura。4 套反 AI slop 主题。Claude Code skill.",
+      "language": "CSS",
+      "url": "https://github.com/alchaincyf/huashu-md-html",
+      "first_seen": "2026-05-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "darkrishabh/agent-skills-eval": {
+      "full_name": "darkrishabh/agent-skills-eval",
+      "description": "A test runner for agentskills.io-style AI agent skills",
+      "language": "TypeScript",
+      "url": "https://github.com/darkrishabh/agent-skills-eval",
+      "first_seen": "2026-05-11",
+      "has_summary": false,
+      "topics": [
+        "agent-evals",
+        "agent-skills",
+        "agentskills",
+        "ai-agents",
+        "cli",
+        "jsonl",
+        "llm-evals",
+        "llm-evaluation",
+        "openai-compatible",
+        "typescript",
+        "yaml"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

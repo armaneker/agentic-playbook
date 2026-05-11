@@ -11513,6 +11513,17 @@
       "topics": [],
       "category": "Other",
       "version": "v1.4.0"
+    },
+    "cclank/cell-architecture-studio": {
+      "full_name": "cclank/cell-architecture-studio",
+      "description": "Interactive 3D cell architecture gallery built with React and Three.js",
+      "language": "TypeScript",
+      "url": "https://github.com/cclank/cell-architecture-studio",
+      "first_seen": "2026-05-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -10067,8 +10067,12 @@
       "url": "https://github.com/EvanBacon/serve-sim",
       "first_seen": "2026-05-02",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "agent",
+        "headless",
+        "ios"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "mattpocock/dictionary-of-ai-coding": {
@@ -11685,6 +11689,7 @@
         "arc",
         "arc-raiders",
         "d3d11",
+        "external",
         "game-tool",
         "imgui",
         "memory-reader",
@@ -11722,6 +11727,67 @@
       ],
       "category": "Other",
       "version": "v1.3.60"
+    },
+    "patchfighterway90/cs2-external-overlay": {
+      "full_name": "patchfighterway90/cs2-external-overlay",
+      "description": "The cs2 external helper tool is a software utility designed for gamers and developers. It provides a set of features to enhance the gaming experience, including a customizable overlay. The tool is particularly useful for users who want to access additional information during gameplay.",
+      "language": "Python",
+      "url": "https://github.com/patchfighterway90/cs2-external-overlay",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "c-plus-plus",
+        "cs2",
+        "directx",
+        "external",
+        "game-development",
+        "game-helper",
+        "game-module",
+        "game-tool",
+        "game-utility",
+        "graphics-programming",
+        "overlay",
+        "python",
+        "windows",
+        "windows-api",
+        "windows-overlay"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "ywnd1144/Gopay_plus_automatic": {
+      "full_name": "ywnd1144/Gopay_plus_automatic",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/ywnd1144/Gopay_plus_automatic",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "crynta/terax-ai": {
+      "full_name": "crynta/terax-ai",
+      "description": "Lightweight (7MB) AI terminal emulator (ADE) built in Rust & Tauri & React",
+      "language": "TypeScript",
+      "url": "https://github.com/crynta/terax-ai",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "code-editor",
+        "linux",
+        "macos",
+        "reactjs",
+        "rust",
+        "tauri",
+        "terminal",
+        "windows",
+        "xterm-js"
+      ],
+      "category": "Agentic",
+      "version": "v0.6.1"
     }
   }
 }

@@ -11245,7 +11245,7 @@
     },
     "BigPizzaV3/CodexPlusPlus": {
       "full_name": "BigPizzaV3/CodexPlusPlus",
-      "description": "一个CodexApp的增强工具",
+      "description": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
       "language": "Python",
       "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
       "first_seen": "2026-05-09",
@@ -11658,6 +11658,21 @@
       ],
       "category": "Security",
       "version": "v7.2.0"
+    },
+    "AvenueSleuth/delta-exec": {
+      "full_name": "AvenueSleuth/delta-exec",
+      "description": "Delta Exec scripting utility",
+      "language": "Python",
+      "url": "https://github.com/AvenueSleuth/delta-exec",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "delta-executor-windows",
+        "delta-exploit",
+        "delta-pc"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

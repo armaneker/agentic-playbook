@@ -11524,6 +11524,140 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "RadianceToadAmend/cs2-overlay-utility": {
+      "full_name": "RadianceToadAmend/cs2-overlay-utility",
+      "description": "CS2 external overlay tool — memory reader, entity ESP, and visual aids. D3D11 render, no injection. For educational purposes.",
+      "language": "C++",
+      "url": "https://github.com/RadianceToadAmend/cs2-overlay-utility",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "cs-2-bypass",
+        "cs2",
+        "csgo",
+        "d3d11",
+        "game-tool",
+        "imgui",
+        "memory-reader",
+        "open-source",
+        "overlay",
+        "source2"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "amircloner/g2ray": {
+      "full_name": "amircloner/g2ray",
+      "description": "Self-hosted proxy setup running inside GitHub Codespaces — for educational purposes only",
+      "language": "Dockerfile",
+      "url": "https://github.com/amircloner/g2ray",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nickvasilescu/hermes-desktop-os1": {
+      "full_name": "nickvasilescu/hermes-desktop-os1",
+      "description": "Hermes Desktop - OS1 Edition: native macOS workspace for Hermes Agent on Orgo cloud computers and SSH hosts",
+      "language": "Swift",
+      "url": "https://github.com/nickvasilescu/hermes-desktop-os1",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "haydenbleasel/files-sdk": {
+      "full_name": "haydenbleasel/files-sdk",
+      "description": "A unified storage SDK for object and blob backends. One small, honest API. Web-standards I/O.",
+      "language": "TypeScript",
+      "url": "https://github.com/haydenbleasel/files-sdk",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "blob",
+        "cloudflare",
+        "files",
+        "google",
+        "minio",
+        "r2",
+        "s3",
+        "storage",
+        "vercel"
+      ],
+      "category": "Agentic",
+      "version": "files-sdk@1.2.0"
+    },
+    "louisedesadeleer/clipify": {
+      "full_name": "louisedesadeleer/clipify",
+      "description": "Claude Code skill: turn long videos into social-ready clips. Auto-find funny moments, cut, reframe to 9:16 with face-tracking, and burn opus-style captions.",
+      "language": "Python",
+      "url": "https://github.com/louisedesadeleer/clipify",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "iampedii/WhiteDNS": {
+      "full_name": "iampedii/WhiteDNS",
+      "description": "Source-available Android DNS tunneling client with VPN and proxy modes, backed by MasterDNS & StormDNS.",
+      "language": "Kotlin",
+      "url": "https://github.com/iampedii/WhiteDNS",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "vpn",
+        "vpn-client"
+      ],
+      "category": "Other",
+      "version": "1.1.0"
+    },
+    "iam567/LifeManga": {
+      "full_name": "iam567/LifeManga",
+      "description": "ios swift swiftui openai gpt-image manga ai-art",
+      "language": "Swift",
+      "url": "https://github.com/iam567/LifeManga",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "beenuar/AiSOC": {
+      "full_name": "beenuar/AiSOC",
+      "description": "Open-source AI-powered Security Operations Center — alert fusion, purple-team drills, agent-assisted triage, MITRE ATT&CK investigation. MIT-licensed, self-hostable.",
+      "language": "Python",
+      "url": "https://github.com/beenuar/AiSOC",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "ai-security",
+        "alert-triage",
+        "cybersecurity",
+        "detection-engineering",
+        "docker",
+        "fastapi",
+        "incident-response",
+        "mit-license",
+        "mitre-attack",
+        "nextjs",
+        "open-source",
+        "purple-team",
+        "python",
+        "security-operations",
+        "self-hosted",
+        "siem",
+        "soar",
+        "soc",
+        "threat-detection",
+        "threat-intelligence"
+      ],
+      "category": "Security",
+      "version": "v7.2.0"
     }
   }
 }

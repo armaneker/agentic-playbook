@@ -10982,7 +10982,7 @@
     },
     "antirez/ds4": {
       "full_name": "antirez/ds4",
-      "description": "DeepSeek 4 Flash local inference engine for Metal",
+      "description": "DeepSeek 4 Flash local inference engine for Metal and CUDA",
       "language": "C",
       "url": "https://github.com/antirez/ds4",
       "first_seen": "2026-05-08",
@@ -11673,6 +11673,55 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "RadianceToadAmend/ARC-Raiders-External-Tool": {
+      "full_name": "RadianceToadAmend/ARC-Raiders-External-Tool",
+      "description": "External overlay tool for ARC Raiders. UE5 memory reader, entity , radar, performance monitor. D3D11 render, no injection. For offline training purposes only.",
+      "language": "C++",
+      "url": "https://github.com/RadianceToadAmend/ARC-Raiders-External-Tool",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "arc",
+        "arc-raiders",
+        "d3d11",
+        "game-tool",
+        "imgui",
+        "memory-reader",
+        "mit-license",
+        "overlay",
+        "ue5",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "setube/stackprism": {
+      "full_name": "setube/stackprism",
+      "description": "StackPrism是一款用于检测网页技术栈的浏览器插件。",
+      "language": "TypeScript",
+      "url": "https://github.com/setube/stackprism",
+      "first_seen": "2026-05-12",
+      "has_summary": false,
+      "topics": [
+        "advertising-detection",
+        "analytics-detection",
+        "browser-extension",
+        "cdn-detection",
+        "chrome-extension",
+        "cms-detection",
+        "edge-extension",
+        "manifest-v3",
+        "saas-detection",
+        "security-research",
+        "stackprism",
+        "tech-stack",
+        "technology-detection",
+        "technology-detector",
+        "web-technology"
+      ],
+      "category": "Other",
+      "version": "v1.3.60"
     }
   }
 }

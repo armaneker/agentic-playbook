@@ -11788,6 +11788,80 @@
       ],
       "category": "Agentic",
       "version": "v0.6.1"
+    },
+    "FULU-Foundation/OrcaSlicer-bambulab": {
+      "full_name": "FULU-Foundation/OrcaSlicer-bambulab",
+      "description": "",
+      "language": "C++",
+      "url": "https://github.com/FULU-Foundation/OrcaSlicer-bambulab",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "RadianceToadAmend/Fortnite-Cheats-2026": {
+      "full_name": "RadianceToadAmend/Fortnite-Cheats-2026",
+      "description": "⭐️ Fortnite Cheats 2026 | Aimbot ESP WH | Triggerbot NoRecoil Glow | Skin Changer | AntiAFK Auto Farm Heal | Mod Menu Loader Injector | Full Version Latest Build Pro | PC Epic Windows 10/11 ⭐️",
+      "language": "Unknown",
+      "url": "https://github.com/RadianceToadAmend/Fortnite-Cheats-2026",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [
+        "1hack",
+        "aimassist",
+        "fortnite",
+        "fov-changer",
+        "gamehacks",
+        "ogfn",
+        "prefire-macros"
+      ],
+      "category": "Other",
+      "version": "v2026.1"
+    },
+    "alvinunreal/openpets": {
+      "full_name": "alvinunreal/openpets",
+      "description": "Desktop pets for AI coding agents. Install pets, connect Claude Code via MCP, and see live coding status on your desktop.",
+      "language": "TypeScript",
+      "url": "https://github.com/alvinunreal/openpets",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "bun",
+        "claude-code",
+        "coding-agents",
+        "desktop-pet",
+        "electron",
+        "mcp",
+        "opencode",
+        "openpets",
+        "pixel-art"
+      ],
+      "category": "Agentic",
+      "version": "v2.0.5"
+    },
+    "ComposioHQ/trustclaw": {
+      "full_name": "ComposioHQ/trustclaw",
+      "description": "A self-hostable personal AI agent with vector memory, Composio tools, and Telegram.",
+      "language": "TypeScript",
+      "url": "https://github.com/ComposioHQ/trustclaw",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "debba/gh-dashboard": {
+      "full_name": "debba/gh-dashboard",
+      "description": "Open-source Github dashboard built on REST and GraphQL APIs: repositories, issues, pull requests, traffic, Actions, contributors, dependents, and a kanban board view.",
+      "language": "TypeScript",
+      "url": "https://github.com/debba/gh-dashboard",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

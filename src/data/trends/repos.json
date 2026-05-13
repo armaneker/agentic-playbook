@@ -9911,7 +9911,11 @@
       "url": "https://github.com/Yuan1z0825/nature-skills",
       "first_seen": "2026-05-01",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "codex-skills",
+        "nature",
+        "nature-skills"
+      ],
       "category": "Other",
       "version": null
     },
@@ -11868,6 +11872,17 @@
       "description": "YellowKey Bitlocker Bypass Vulnerability",
       "language": "Unknown",
       "url": "https://github.com/Nightmare-Eclipse/YellowKey",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "HermannBjorgvin/Clawdmeter": {
+      "full_name": "HermannBjorgvin/Clawdmeter",
+      "description": "ESP32 desk dashboard that shows Claude Code usage",
+      "language": "C",
+      "url": "https://github.com/HermannBjorgvin/Clawdmeter",
       "first_seen": "2026-05-13",
       "has_summary": false,
       "topics": [],

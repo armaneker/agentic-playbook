@@ -11888,6 +11888,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "TencentARC/Pixal3D": {
+      "full_name": "TencentARC/Pixal3D",
+      "description": "[SIGGRAPH 2026] Pixal3D: Pixel-Aligned 3D Generation from Images",
+      "language": "Python",
+      "url": "https://github.com/TencentARC/Pixal3D",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "simonlin1212/a-stock-data": {
+      "full_name": "simonlin1212/a-stock-data",
+      "description": "A 股全栈数据工具包 — 6层架构 · 15个端点 · 7个数据源 | AI Skill for China A-Share Market Data",
+      "language": "Unknown",
+      "url": "https://github.com/simonlin1212/a-stock-data",
+      "first_seen": "2026-05-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.1.0"
     }
   }
 }

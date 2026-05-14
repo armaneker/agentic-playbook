@@ -8925,17 +8925,31 @@
     },
     "earthtojake/text-to-cad": {
       "full_name": "earthtojake/text-to-cad",
-      "description": "An open source harness for generating CAD models",
+      "description": "A collection of agent skills for CAD, robotics and hardware design",
       "language": "JavaScript",
       "url": "https://github.com/earthtojake/text-to-cad",
       "first_seen": "2026-04-26",
       "has_summary": false,
       "topics": [
+        "3mf",
         "agents",
         "ai",
         "ai-agents",
+        "build123d",
         "cad",
+        "cad-skill",
+        "dxf",
+        "glb",
+        "mechanical-engineering",
+        "opencascade",
+        "robotics",
+        "sdf",
+        "srdf",
+        "step",
+        "stl",
+        "stp",
         "text-to-cad",
+        "urdf",
         "wasm"
       ],
       "category": "Agentic",
@@ -11264,24 +11278,26 @@
     },
     "nduckmink/arkon": {
       "full_name": "nduckmink/arkon",
-      "description": "Arkon gives organizations centralized control over how employees use any Ai Client. Admins manage resources, access policies, and workspace contexts from a single portal. Employees connect once via the Model Context Protocol (MCP) and get the right context automatically.",
+      "description": "Arkon: Enterprise AI Knowledge Hub & MCP Server. Self-hosted knowledge base for teams to manage RAG contexts, access policies, and AI skills. Connect Claude and other LLMs via Model Context Protocol (MCP) for automated, secure organizational knowledge integration.",
       "language": "Python",
       "url": "https://github.com/nduckmink/arkon",
       "first_seen": "2026-05-09",
       "has_summary": false,
       "topics": [
-        "ai",
-        "claude",
-        "knowledge-base",
-        "knowledge-management",
-        "knowledge-sharing",
-        "knowledgebase",
-        "llm-wiki",
-        "llm-wiki-knowledge-base",
-        "llm-wiki-organization-knowledge-base",
-        "wiki-llm"
+        "enterprise-ai",
+        "knowledge-base-embeddings",
+        "knowledge-based-systems",
+        "knowledge-bases",
+        "llm-wiki-personal-knowledge-base",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "organizational-knowledge",
+        "rag",
+        "self-hosted",
+        "wiki"
       ],
-      "category": "AI / ML",
+      "category": "Agentic",
       "version": "v0.2.5"
     },
     "chorus-codes/chorus": {
@@ -11386,7 +11402,7 @@
     },
     "huangserva/3DCellForge": {
       "full_name": "huangserva/3DCellForge",
-      "description": "AI-powered interactive 3D cell generation and exploration studio.",
+      "description": "AI-powered interactive 3D model generation, inspection, and presentation studio.",
       "language": "JavaScript",
       "url": "https://github.com/huangserva/3DCellForge",
       "first_seen": "2026-05-10",
@@ -12179,6 +12195,65 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "jasonkneen/tiny-world-builder": {
+      "full_name": "jasonkneen/tiny-world-builder",
+      "description": "tiny-world-builder",
+      "language": "HTML",
+      "url": "https://github.com/jasonkneen/tiny-world-builder",
+      "first_seen": "2026-05-14",
+      "has_summary": false,
+      "topics": [
+        "build",
+        "minecraft",
+        "voxel"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "vercel-labs/mdxg": {
+      "full_name": "vercel-labs/mdxg",
+      "description": "Spec for markdown presentation and interaction",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/mdxg",
+      "first_seen": "2026-05-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "TheSashaDev/girl-agent": {
+      "full_name": "TheSashaDev/girl-agent",
+      "description": "ИИ-девушка с человеческим поведением: сон, настроение, расписание, память, стадии отношений и конфликты. Userbot mode через MTProto — реагирует, печатает, ставит реакции. Anti-AI промпт убирает ChatGPT-повадки. Не чат-бот — персонаж с состоянием.",
+      "language": "TypeScript",
+      "url": "https://github.com/TheSashaDev/girl-agent",
+      "first_seen": "2026-05-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "Renhuai123/ziwei-doushu": {
+      "full_name": "Renhuai123/ziwei-doushu",
+      "description": "紫微斗数开源排盘引擎 — 基于倪海夏《天纪》体系，含完整排盘算法、四化系统、格局知识库、古籍原文数据",
+      "language": "TypeScript",
+      "url": "https://github.com/Renhuai123/ziwei-doushu",
+      "first_seen": "2026-05-14",
+      "has_summary": false,
+      "topics": [
+        "bazi",
+        "chinese-astrology",
+        "divination",
+        "fortune-telling",
+        "nextjs",
+        "open-source",
+        "purple-star-astrology",
+        "typescript",
+        "zi-wei-dou-shu",
+        "ziwei-doushu"
+      ],
+      "category": "Web Framework",
+      "version": "v3.0-samples"
     }
   }
 }

@@ -7910,8 +7910,18 @@
       "url": "https://github.com/browser-use/browser-harness",
       "first_seen": "2026-04-19",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai-agent",
+        "browser-agent",
+        "browser-automation",
+        "browser-use",
+        "cdp",
+        "cloud-browser",
+        "llm",
+        "playwright",
+        "web-automation"
+      ],
+      "category": "Agentic",
       "version": null,
       "blurb": "Browser Harness is a self-healing Python library that connects LLMs directly to Chrome via CDP to automate browser tasks. It allows LLMs to modify their own helper functions mid-task when encountering missing functionality, requiring no predefined recipes or framework constraints. The entire codebase is ~592 lines with no abstraction layers between the agent and the browser websocket connection."
     },
@@ -12302,12 +12312,24 @@
     },
     "ChristianJR19/p-peg": {
       "full_name": "ChristianJR19/p-peg",
-      "description": "",
-      "language": "Python",
+      "description": "pinocchio peg stability module + on-chain creature engine.",
+      "language": "Rust",
       "url": "https://github.com/ChristianJR19/p-peg",
       "first_seen": "2026-05-14",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "creatures",
+        "defi",
+        "no-std",
+        "on-chain",
+        "p-token",
+        "pinocchio",
+        "rust",
+        "solana",
+        "stablecoin",
+        "typescript",
+        "zero-copy"
+      ],
       "category": "Other",
       "version": "v0.1.0"
     },
@@ -12381,6 +12403,69 @@
       ],
       "category": "Other",
       "version": "Tomodachi"
+    },
+    "trong776/Roblox-Hub-2026": {
+      "full_name": "trong776/Roblox-Hub-2026",
+      "description": "Developer utilities for Roblox game testing — Lua tools for exploring game mechanics and performance. MIT License.",
+      "language": "Unknown",
+      "url": "https://github.com/trong776/Roblox-Hub-2026",
+      "first_seen": "2026-05-15",
+      "has_summary": false,
+      "topics": [
+        "lua",
+        "roblox"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "DepthFirstDisclosures/Nginx-Rift": {
+      "full_name": "DepthFirstDisclosures/Nginx-Rift",
+      "description": "exploit for CVE-2026-42945",
+      "language": "Python",
+      "url": "https://github.com/DepthFirstDisclosures/Nginx-Rift",
+      "first_seen": "2026-05-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "opensquilla/opensquilla": {
+      "full_name": "opensquilla/opensquilla",
+      "description": "OpenSquilla — Token-Efficient AI Agent with same budget, higher intelligence density",
+      "language": "Python",
+      "url": "https://github.com/opensquilla/opensquilla",
+      "first_seen": "2026-05-15",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "deep-learning",
+        "foundation-models",
+        "llm",
+        "mcp",
+        "memory",
+        "openclaw",
+        "python",
+        "skills"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "eduwass/tmux-palette": {
+      "full_name": "eduwass/tmux-palette",
+      "description": "Raycast-style command palette for tmux — fast, scriptable, easy to extend",
+      "language": "TypeScript",
+      "url": "https://github.com/eduwass/tmux-palette",
+      "first_seen": "2026-05-15",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "command-palette",
+        "tmux"
+      ],
+      "category": "DevTools",
+      "version": null
     }
   }
 }

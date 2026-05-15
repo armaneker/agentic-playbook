@@ -12534,6 +12534,56 @@
       ],
       "category": "AI / ML",
       "version": "v0.1.6"
+    },
+    "trong776/gta-5-mod-menu": {
+      "full_name": "trong776/gta-5-mod-menu",
+      "description": "External game enhancement for GTA V single-player. ImGui overlay, no injection, minimal FPS impact. Windows x64, C++17.",
+      "language": "Unknown",
+      "url": "https://github.com/trong776/gta-5-mod-menu",
+      "first_seen": "2026-05-15",
+      "has_summary": false,
+      "topics": [
+        "cpp",
+        "directx",
+        "enhancement",
+        "gaming-tool",
+        "gta-5",
+        "imgui",
+        "open-source",
+        "trainer",
+        "utility",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "Menu"
+    },
+    "esengine/DeepSeek-Reasonix": {
+      "full_name": "esengine/DeepSeek-Reasonix",
+      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
+      "language": "TypeScript",
+      "url": "https://github.com/esengine/DeepSeek-Reasonix",
+      "first_seen": "2026-05-15",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-framework",
+        "ai-agent",
+        "ai-coding",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "developer-tools",
+        "ink",
+        "llm",
+        "prompt-caching",
+        "r1",
+        "terminal",
+        "tool-use",
+        "tui",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.43.0"
     }
   }
 }

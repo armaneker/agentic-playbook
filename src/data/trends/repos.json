@@ -12624,6 +12624,37 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "StrucksTech/Zelda-TP-Native-Port": {
+      "full_name": "StrucksTech/Zelda-TP-Native-Port",
+      "description": "Zelda Twilight Princess PC: GameCube ROM download, Wii ISO, Wii U HD download. Dolphin emulator settings, Cemu setup guide, 60 FPS patch, 4K texture pack, widescreen hack. Heart pieces locations, Poe souls map, Golden bugs guide, Master Sword unlock, Snowpeak Ruins walkthrough, HD texture pack Henrico.",
+      "language": "TypeScript",
+      "url": "https://github.com/StrucksTech/Zelda-TP-Native-Port",
+      "first_seen": "2026-05-16",
+      "has_summary": false,
+      "topics": [
+        "legend-of-zelda",
+        "legend-of-zelda-pc",
+        "minish-cap",
+        "nintendo",
+        "nintendo-switch",
+        "nintendo-switch-hacking",
+        "nintendoswitch",
+        "pcport",
+        "twilight-princess",
+        "twilightprincess",
+        "zelda",
+        "zelda-botw",
+        "zelda-desktop",
+        "zelda-minish-cap",
+        "zelda-minish-cap-pc",
+        "zelda-pc",
+        "zelda-totk",
+        "zelda-twilight-princess",
+        "zeldatp"
+      ],
+      "category": "Other",
+      "version": "GamePort"
     }
   }
 }

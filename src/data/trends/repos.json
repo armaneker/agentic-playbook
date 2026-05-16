@@ -12584,6 +12584,46 @@
       ],
       "category": "Agentic",
       "version": "v0.43.0"
+    },
+    "laishiwen/sven-family": {
+      "full_name": "laishiwen/sven-family",
+      "description": "Sven Family is an AI-native product suite that connects creation, collaboration, publishing, and operations into one integrated platform.",
+      "language": "TypeScript",
+      "url": "https://github.com/laishiwen/sven-family",
+      "first_seen": "2026-05-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zhilin1112/YellowKey-Bitlocker": {
+      "full_name": "zhilin1112/YellowKey-Bitlocker",
+      "description": "YellowKey BitLocker Bypass Vulnerability : Zero-day exploit, proof-of-concept PoC, Chaotic Eclipse GitHub. Windows 11 bypass, Windows Server 2022 2025. WinRE recovery image, FsTx directory, System Volume Information, USB drive files, winpeshl.ini deletion, Transactional NTFS flaw, CTRL key shell, TPM-only backdoor.",
+      "language": "TypeScript",
+      "url": "https://github.com/zhilin1112/YellowKey-Bitlocker",
+      "first_seen": "2026-05-16",
+      "has_summary": false,
+      "topics": [
+        "bitlocker",
+        "bitlocker-drive-encryption",
+        "bitlocker-drive-management",
+        "bitlocker-lock",
+        "yellowkey",
+        "yellowkey-bitlocker"
+      ],
+      "category": "Other",
+      "version": "Software"
+    },
+    "Sayhi-bzb/AIEden": {
+      "full_name": "Sayhi-bzb/AIEden",
+      "description": "an LLM-native world and civilization",
+      "language": "TypeScript",
+      "url": "https://github.com/Sayhi-bzb/AIEden",
+      "first_seen": "2026-05-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

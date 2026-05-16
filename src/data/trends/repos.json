@@ -12666,6 +12666,49 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.1"
+    },
+    "shefys/animus": {
+      "full_name": "shefys/animus",
+      "description": "Persistent AI companion engine — personality, memory, dreams, and evolution for any LLM. The foundation behind living AI companions.",
+      "language": "Python",
+      "url": "https://github.com/shefys/animus",
+      "first_seen": "2026-05-16",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "dreams",
+        "evolution",
+        "memory",
+        "python",
+        "spirit-animal"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "DenisSergeevitch/agents-best-practices": {
+      "full_name": "DenisSergeevitch/agents-best-practices",
+      "description": "Provider-neutral Agent Skill for Codex, Claude Code, and agentic harness design.",
+      "language": "Unknown",
+      "url": "https://github.com/DenisSergeevitch/agents-best-practices",
+      "first_seen": "2026-05-16",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "agent-skills",
+        "agentic-workflows",
+        "agents",
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "codex",
+        "codex-skill",
+        "mcp",
+        "prompt-engineering"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

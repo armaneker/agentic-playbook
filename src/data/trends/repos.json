@@ -12655,6 +12655,17 @@
       ],
       "category": "Other",
       "version": "GamePort"
+    },
+    "vercel-labs/zero": {
+      "full_name": "vercel-labs/zero",
+      "description": "The programming language for agents",
+      "language": "C",
+      "url": "https://github.com/vercel-labs/zero",
+      "first_seen": "2026-05-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
     }
   }
 }

@@ -11183,7 +11183,7 @@
     },
     "WenyuChiou/awesome-agentic-ai-zh": {
       "full_name": "WenyuChiou/awesome-agentic-ai-zh",
-      "description": "AI Agent 中文學習地圖 — 從零開始的結構化學習路徑，每階段有必做練習跟必修閱讀。三語對照（繁中／简中／English）。歡迎社群一起貢獻、優化內容。",
+      "description": "A structured, trilingual (繁中 / 简中 / English) learning roadmap for agentic AI — from LLM basics to multi-agent systems. 8 stages · 145+ curated projects · hands-on exercises. 中文 AI agent 學習地圖。",
       "language": "Python",
       "url": "https://github.com/WenyuChiou/awesome-agentic-ai-zh",
       "first_seen": "2026-05-09",
@@ -11192,7 +11192,6 @@
         "agentic-ai",
         "ai-agents",
         "awesome-list",
-        "bilingual",
         "claude-code",
         "claude-skills",
         "cli",
@@ -11200,6 +11199,7 @@
         "llm-agents",
         "mcp",
         "model-context-protocol",
+        "trilingual",
         "tutorial"
       ],
       "category": "Agentic",
@@ -12383,6 +12383,7 @@
         "claude-design-ai",
         "claude-design-alternative",
         "claude-design-download",
+        "claude-design-free",
         "claude-design-install",
         "claude-design-installer"
       ],
@@ -13069,6 +13070,90 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "facebookresearch/vggt-omega": {
+      "full_name": "facebookresearch/vggt-omega",
+      "description": "[CVPR 2026 Oral] VGGT Omega",
+      "language": "Python",
+      "url": "https://github.com/facebookresearch/vggt-omega",
+      "first_seen": "2026-05-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Kappaemme-git/codex-complexity-optimizer": {
+      "full_name": "Kappaemme-git/codex-complexity-optimizer",
+      "description": "Codex skill for safe codebase complexity analysis and performance optimization reports",
+      "language": "Python",
+      "url": "https://github.com/Kappaemme-git/codex-complexity-optimizer",
+      "first_seen": "2026-05-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "boona13/mykonos-island-voxels": {
+      "full_name": "boona13/mykonos-island-voxels",
+      "description": "A browser-based isometric island builder with the soft, sun-bleached look of Mykonos. Vanilla ES modules, no bundler, mobile-friendly.",
+      "language": "JavaScript",
+      "url": "https://github.com/boona13/mykonos-island-voxels",
+      "first_seen": "2026-05-17",
+      "has_summary": false,
+      "topics": [
+        "canvas2d",
+        "city-builder",
+        "html5-game",
+        "isometric-game",
+        "mobile-friendly",
+        "open-source",
+        "vanilla-js"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "0xdeadbeefnetwork/ssh-keysign-pwn": {
+      "full_name": "0xdeadbeefnetwork/ssh-keysign-pwn",
+      "description": "Steal SSH host private keys and /etc/shadow via the ptrace_may_access mm-NULL bypass + pidfd_getfd. Pre-31e62c2ebbfd kernels.",
+      "language": "C",
+      "url": "https://github.com/0xdeadbeefnetwork/ssh-keysign-pwn",
+      "first_seen": "2026-05-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "snoozinjs/Delta-exec": {
+      "full_name": "snoozinjs/Delta-exec",
+      "description": "Delta exec Roblox PC mobile game assistant Autofarm, automatic questing, item collector, world teleports, chest tracker. Supported modes: Blox Fruits, Pet Simulator 99, Anime Defenders, MM2, Sol’s RNG. Speed simulator, high jump, flight mode, infinite resources, mobile optimization, cloud configs.",
+      "language": "C++",
+      "url": "https://github.com/snoozinjs/Delta-exec",
+      "first_seen": "2026-05-17",
+      "has_summary": false,
+      "topics": [
+        "adopt-me-dupe-2026",
+        "adopt-me-script-spawn-pets",
+        "blox-fruits-auto-farm-2026",
+        "blox-fruits-autofarm-2026",
+        "blox-fruits-script-2025",
+        "blox-fruits-script-auto-bounty",
+        "blox-fruits-script-auto-farm-no-key",
+        "delta",
+        "delta-exploit",
+        "delta-exploits",
+        "delta-exucator",
+        "delta-new",
+        "delta-new-update",
+        "delta-pc",
+        "delta-queue",
+        "document-delta",
+        "free-pets",
+        "pet-simulator-script",
+        "pet-simulator-x",
+        "trade-glitch"
+      ],
+      "category": "Other",
+      "version": "Roblox"
     }
   }
 }

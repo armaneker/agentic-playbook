@@ -11946,7 +11946,7 @@
     },
     "simonlin1212/a-stock-data": {
       "full_name": "simonlin1212/a-stock-data",
-      "description": "A 股全栈数据工具包 — 6层架构 · 15个端点 · 7个数据源 | AI Skill for China A-Share Market Data",
+      "description": "A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants",
       "language": "Unknown",
       "url": "https://github.com/simonlin1212/a-stock-data",
       "first_seen": "2026-05-13",
@@ -13058,6 +13058,17 @@
       ],
       "category": "DevTools",
       "version": "Tool"
+    },
+    "simplifaisoul/osiris": {
+      "full_name": "simplifaisoul/osiris",
+      "description": "Open Source Global Intelligence Platform - Real-Time OSINT Dashboard - A Palantir Alternative",
+      "language": "TypeScript",
+      "url": "https://github.com/simplifaisoul/osiris",
+      "first_seen": "2026-05-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

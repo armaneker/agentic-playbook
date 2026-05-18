@@ -13447,6 +13447,17 @@
       ],
       "category": "Other",
       "version": "GameTools"
+    },
+    "v12-security/pocs": {
+      "full_name": "v12-security/pocs",
+      "description": "poc it like it's hot",
+      "language": "C",
+      "url": "https://github.com/v12-security/pocs",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Security",
+      "version": null
     }
   }
 }

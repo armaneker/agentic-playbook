@@ -13154,6 +13154,144 @@
       ],
       "category": "Other",
       "version": "Roblox"
+    },
+    "Juwluuu/Subnautica-2-Release": {
+      "full_name": "Juwluuu/Subnautica-2-Release",
+      "description": "Subnautica 2: Early Access release, Have Multiplayer 4-player co-op multiplayer, Planet Zazura exploration, DNA BioMod system, Tadpole modular submersible, new Leviathans list, CICADA crash site lore. Xbox Game Pass, Steam preload, base building blueprints, ocean currents, crafting recipes",
+      "language": "C++",
+      "url": "https://github.com/Juwluuu/Subnautica-2-Release",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [
+        "early-access-subnautica-2",
+        "nitrox-pirate",
+        "pc-ports",
+        "playstation-5",
+        "porting-game",
+        "ps5-bot",
+        "ps5-stock",
+        "subnautica",
+        "subnautica-2",
+        "subnautica-2-coming-to-ps5",
+        "subnautica-2-multiplayer",
+        "subnautica-2-on-ps5",
+        "subnautica-2-release",
+        "subnautica-2-release-date-ps5",
+        "subnautica-2-steam",
+        "subnautica-2-xbox",
+        "subnautica-multiplayer",
+        "unknown-worlds"
+      ],
+      "category": "Other",
+      "version": "Games"
+    },
+    "DARKHOLEUM/VoidStrap-For-Roblox": {
+      "full_name": "DARKHOLEUM/VoidStrap-For-Roblox",
+      "description": "VoidStrap: Roblox bootstrapper, launcher utility. FFlag Editor, FastFlags, FPS Unlocker, memory trimmer, CPU watcher. UI customization, Aero theme, AniWatch layout, Nvidia Profile Inspector, .NET 10. Font sharpening, skybox changer, Join-Game Notify, AppSettings JSON, client optimization.",
+      "language": "C#",
+      "url": "https://github.com/DARKHOLEUM/VoidStrap-For-Roblox",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [
+        "bloxstrap",
+        "bootstrapper",
+        "client-optimizer",
+        "customizations",
+        "fps-unlocker",
+        "launcher",
+        "modding",
+        "performance-optimizations",
+        "roblox",
+        "smooth-roblox-pc",
+        "voidstrap",
+        "voidstrap-client",
+        "voidstrap-download",
+        "voidstrap-roblox"
+      ],
+      "category": "Other",
+      "version": "GameClient"
+    },
+    "gi-dellav/zerostack": {
+      "full_name": "gi-dellav/zerostack",
+      "description": "Minimalistic coding agent written in Rust, optimized for memory footprint and performance",
+      "language": "Rust",
+      "url": "https://github.com/gi-dellav/zerostack",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.0"
+    },
+    "avacocloud/XHTTP-Installer": {
+      "full_name": "avacocloud/XHTTP-Installer",
+      "description": "VLESS+XHTTP+TLS Auto-Installer for Ubuntu — Vercel / Netlify relay",
+      "language": "HTML",
+      "url": "https://github.com/avacocloud/XHTTP-Installer",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.2"
+    },
+    "TheRunicDev/MaaNTE": {
+      "full_name": "TheRunicDev/MaaNTE",
+      "description": "MaaNTE Neverness to Everness (NTE) MAAFramework  强力驱动！QQ交流群 异环小助手，由 Automation assistant for Neverness to Everness Auto fishing, auto-sell fish, auto-buy bait. Features: auto coffee making, cafe revenue extraction, auto-skip story dialogue, auto-claim daily rewards.",
+      "language": "Unknown",
+      "url": "https://github.com/TheRunicDev/MaaNTE",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [
+        "computer-vision",
+        "genshin-impact",
+        "maaframework",
+        "neverness-to-everness-software",
+        "nevernesstoeverness",
+        "nte",
+        "nte-auto-fish",
+        "nte-ray-tracing"
+      ],
+      "category": "AI / ML",
+      "version": "NTE"
+    },
+    "jiaoyanming0-bot/OPAutoClicker": {
+      "full_name": "jiaoyanming0-bot/OPAutoClicker",
+      "description": "OP Auto Clicker: Fast click interval, milliseconds, seconds. Left, right, middle button. keyboard auto clicker Single, double, triple click. Repeat until stopped, fixed count. Current location, pick coordinates. Hotkey trigger, start stop shortcut. Record playback, macro, Roblox AFK, Minecraft, mouse emulator, portable. ",
+      "language": "C#",
+      "url": "https://github.com/jiaoyanming0-bot/OPAutoClicker",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [
+        "auto-clicker",
+        "auto-clicker-op",
+        "autoclick",
+        "autoclicktool",
+        "hotkey",
+        "macro",
+        "macros",
+        "op-auto-clicker",
+        "op-auto-clicker-download",
+        "op-auto-clicker-install",
+        "opclicker"
+      ],
+      "category": "Other",
+      "version": "AutoClicker"
+    },
+    "EnsignKazekage/Prodigy-Hacks": {
+      "full_name": "EnsignKazekage/Prodigy-Hacks",
+      "description": "Prodigymathgamehacking || prodigy hacks || prodigymathgame",
+      "language": "Python",
+      "url": "https://github.com/EnsignKazekage/Prodigy-Hacks",
+      "first_seen": "2026-05-18",
+      "has_summary": false,
+      "topics": [
+        "prodigy",
+        "prodigygame",
+        "prodigyhacks",
+        "prodigyhackscripts",
+        "prodigymathgamehacking"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

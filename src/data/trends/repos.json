@@ -13587,6 +13587,64 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.0"
+    },
+    "affaan-m/ECC": {
+      "full_name": "affaan-m/ECC",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "language": "JavaScript",
+      "url": "https://github.com/affaan-m/ECC",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "developer-tools",
+        "llm",
+        "mcp",
+        "productivity"
+      ],
+      "category": "Agentic",
+      "version": "v1.10.0"
+    },
+    "Doorman11991/smallcode": {
+      "full_name": "Doorman11991/smallcode",
+      "description": "AI coding agent optimized for small LLMs. 87% benchmark with 4B-active model.",
+      "language": "JavaScript",
+      "url": "https://github.com/Doorman11991/smallcode",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xw7872081123/wallpaper-engine-steam": {
+      "full_name": "xw7872081123/wallpaper-engine-steam",
+      "description": "Free Wallpaper Engine Steam: download PC windows 11, steam workshop downloader bypass, high CPU RAM usage fix, android apk mobile sync. 4k anime live wallpaper, black screen crash on startup, corsair icue razer chroma integration, ui32.exe error solution, scene web wallpaper, mobile connection pin, custom playlist screensaver, ",
+      "language": "TypeScript",
+      "url": "https://github.com/xw7872081123/wallpaper-engine-steam",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "animated-wallpaper",
+        "best-wallpaper-engine",
+        "downloadwallpaperengine",
+        "free-wallpapers-engine",
+        "linux-wallpaperengine",
+        "live-wallpapers",
+        "steamwallpaper",
+        "steamwallpaperengine",
+        "wallpaper-engine-features",
+        "wallpaperengine-download",
+        "wallpaperenginefree",
+        "wallpaperenginepc",
+        "wallpaperenginesteam",
+        "wallpapers",
+        "wallpapersengine"
+      ],
+      "category": "Other",
+      "version": "Wallpapers"
     }
   }
 }

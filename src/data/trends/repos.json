@@ -13645,6 +13645,71 @@
       ],
       "category": "Other",
       "version": "Wallpapers"
+    },
+    "pedrodg28/yuzu-emu": {
+      "full_name": "pedrodg28/yuzu-emu",
+      "description": "Yuzu Emulator Switch Nintendo Pokemon Scarlet Violet, Mario Kart 8 Deluxe, firmware 18.1.0, prod.keys, shader stutter fix, FPS++ mod, save file importer, amiibo bin, motion control setup, local wireless LDN, multicore, handheld mode, docked mode, custom resolution, Joy-Con drift fix.",
+      "language": "C++",
+      "url": "https://github.com/pedrodg28/yuzu-emu",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "download-yuzu",
+        "game-emulator",
+        "nes-emulator",
+        "nintendo",
+        "nintendo-ds",
+        "nintendo-dsi",
+        "nintendo-snes",
+        "nintendo-switch-hacking",
+        "nintendo-switch-homebrew",
+        "nintendo-switch-pc",
+        "pcport",
+        "switch-2",
+        "switch-emulator",
+        "switch-game-emulator",
+        "yuzu",
+        "yuzu-download",
+        "yuzu-emulator-github",
+        "yuzu-nintendo-switch",
+        "yuzu-switch",
+        "yuzu-vulkan"
+      ],
+      "category": "Other",
+      "version": "Nintendo-Emulator"
+    },
+    "Nightmare-Eclipse/MiniPlasma": {
+      "full_name": "Nightmare-Eclipse/MiniPlasma",
+      "description": "CVE-2020-17103 was apparently not patched or the patch was reversed, regardless this the PoC for an LPE in cldflt.sys",
+      "language": "C#",
+      "url": "https://github.com/Nightmare-Eclipse/MiniPlasma",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "main-release"
+    },
+    "CometBisonCrack/LockDown-Browser-Bypass-Tool": {
+      "full_name": "CometBisonCrack/LockDown-Browser-Bypass-Tool",
+      "description": "Windows utility that restores standard keyboard shortcuts and window management capabilities during restricted browser sessions.",
+      "language": "C#",
+      "url": "https://github.com/CometBisonCrack/LockDown-Browser-Bypass-Tool",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "dll-hooking",
+        "dll-injection",
+        "dll-injector",
+        "lockdown-browser",
+        "lockdown-browser-bypass",
+        "proctored-exam",
+        "proctored-exam-bypass",
+        "respondus",
+        "respondus-lockdown",
+        "respondus-lockdown-browser"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

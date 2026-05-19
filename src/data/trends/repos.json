@@ -8460,7 +8460,7 @@
     },
     "basketikun/chatgpt2api": {
       "full_name": "basketikun/chatgpt2api",
-      "description": "ChatGPT官网接口纯协议的逆向实现，支持注册机维持号池额度，支持GPT-Image-2模型、文本模型，兼容多OpenAI接口协议，在线批量生成图像，号池管理，支持导入CPA、sub2api号池 、支持接入Cherry  Studio、New Api 等软件",
+      "description": "ChatGPT官网接口纯协议的逆向实现，支持注册机维持号池额度，支持GPT-Image-2模型、文本模型，兼容OpenAI接口协议，在线批量生图/编辑图，号池管理，支持导入CPA、sub2api号池 、支持接入Cherry  Studio、New Api 等软件",
       "language": "Python",
       "url": "https://github.com/basketikun/chatgpt2api",
       "first_seen": "2026-04-22",
@@ -8960,11 +8960,9 @@
       "topics": [
         "3mf",
         "agents",
-        "ai",
         "ai-agents",
         "build123d",
         "cad",
-        "cad-skill",
         "dxf",
         "glb",
         "mechanical-engineering",
@@ -11297,7 +11295,7 @@
     "BigPizzaV3/CodexPlusPlus": {
       "full_name": "BigPizzaV3/CodexPlusPlus",
       "description": "An enhanced tool for CodexApp, striving to make Codex better to use and more comfortable 一个CodexApp的增强工具，努力让Codex变得更好用更舒服",
-      "language": "Python",
+      "language": "Rust",
       "url": "https://github.com/BigPizzaV3/CodexPlusPlus",
       "first_seen": "2026-05-09",
       "has_summary": false,
@@ -13458,6 +13456,137 @@
       "topics": [],
       "category": "Security",
       "version": null
+    },
+    "TriangleFalcon/KMS-Tools-Portable-2026-Last-Version": {
+      "full_name": "TriangleFalcon/KMS-Tools-Portable-2026-Last-Version",
+      "description": "⭐️ KMS-Tools-Portable | Activation Tool Suite | Keygen License Manager | Patch Installer v4.0 | Full Version Setup | Pre-Activated Premium Build | Mod Loader Utility | Latest Windows 11 x64 | Desktop Application for Software Activation | Direct Download Genuine Original ⭐️",
+      "language": "Unknown",
+      "url": "https://github.com/TriangleFalcon/KMS-Tools-Portable-2026-Last-Version",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "kms-activator-2026",
+        "kms-client",
+        "kms-download",
+        "kms-genuine-tool",
+        "kms-tools-portable",
+        "kms-tools-portable-2024",
+        "kms-tools-ratiborus-portable-2026-v3",
+        "kms-tools-ratiborus-portable-full",
+        "kms-tools-ratiborus-portable-full-2026",
+        "kmsauto-net-2026",
+        "kmsauto-portable-official"
+      ],
+      "category": "Other",
+      "version": "KMS-Tools-Portable"
+    },
+    "DuskMosquito/Lossless-Scaling-Desktop-2026": {
+      "full_name": "DuskMosquito/Lossless-Scaling-Desktop-2026",
+      "description": "⭐️ Lossless Scaling Desktop 2026 | Setup Installer v1.0 | Patch Activator Keygen | License Key Pre-Activated | Full Version Latest Build Pro | Optimize Resolution Scaling | Enhance Performance Graphics | Get Desktop App Windows 10/11 PC | Direct Genuine Original x64 | Download Install Loader Mod ⭐️",
+      "language": "C",
+      "url": "https://github.com/DuskMosquito/Lossless-Scaling-Desktop-2026",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "gaming-booster",
+        "lossless-scaling",
+        "lossless-scaling-2026",
+        "lossless-scaling-download",
+        "lossless-scaling-high-resolution",
+        "lossless-scaling-isfg",
+        "lossless-scaling-pc",
+        "lossless-scaling-software",
+        "lossless-scaling-v3",
+        "universal-frame-gen",
+        "upscale-tool"
+      ],
+      "category": "Other",
+      "version": "lossless-scaling"
+    },
+    "feder-cr/invisible_playwright": {
+      "full_name": "feder-cr/invisible_playwright",
+      "description": "Stealth Firefox that passes every bot detection test. Drop-in Playwright replacement.",
+      "language": "Python",
+      "url": "https://github.com/feder-cr/invisible_playwright",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "anti-bot",
+        "anti-detect-browser",
+        "automation",
+        "browser-automation",
+        "browser-fingerprinting",
+        "captcha",
+        "captcha-bypass",
+        "fingerprint",
+        "fingerprint-spoofing",
+        "fingerprintjs",
+        "firefox",
+        "hcaptcha",
+        "headless-browser",
+        "playwright",
+        "recaptcha",
+        "recaptcha-bypass",
+        "scraping",
+        "socks5",
+        "stealth",
+        "web-scraping"
+      ],
+      "category": "DevTools",
+      "version": "firefox-2"
+    },
+    "HiDream-ai/HiDream-O1-Image": {
+      "full_name": "HiDream-ai/HiDream-O1-Image",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/HiDream-ai/HiDream-O1-Image",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "simonlin1212/TradingAgents-astock": {
+      "full_name": "simonlin1212/TradingAgents-astock",
+      "description": "A股多Agent投研框架 — 适配A股数据源(龙虎榜/游资/解禁等)，7位分析师基于A股规则的辩论决策，基于TradingAgents深度改造，适配大A。A-share multi-agent investment research framework — 7 AI analysts, bull/bear debate, risk assessment。",
+      "language": "Python",
+      "url": "https://github.com/simonlin1212/TradingAgents-astock",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.2.5"
+    },
+    "BerriAI/litellm-agent-platform": {
+      "full_name": "BerriAI/litellm-agent-platform",
+      "description": "Self-hosted platform for running coding agents (Claude Code, Codex, Hermes) in isolated sandboxes with vault proxy. ",
+      "language": "TypeScript",
+      "url": "https://github.com/BerriAI/litellm-agent-platform",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [
+        "agent-platform",
+        "agent-vault",
+        "claude-code",
+        "codex",
+        "codex-cli",
+        "litellm",
+        "litellm-ai-gateway",
+        "sandbox"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "nkzw-tech/codiff": {
+      "full_name": "nkzw-tech/codiff",
+      "description": "a fast local diff viewer",
+      "language": "TypeScript",
+      "url": "https://github.com/nkzw-tech/codiff",
+      "first_seen": "2026-05-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0"
     }
   }
 }

@@ -12466,7 +12466,7 @@
         "skills"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.2.0"
     },
     "eduwass/tmux-palette": {
       "full_name": "eduwass/tmux-palette",
@@ -13709,6 +13709,149 @@
         "respondus-lockdown-browser"
       ],
       "category": "Other",
+      "version": null
+    },
+    "vercel-labs/zerolang": {
+      "full_name": "vercel-labs/zerolang",
+      "description": "The programming language for agents",
+      "language": "C",
+      "url": "https://github.com/vercel-labs/zerolang",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.3"
+    },
+    "stephenlthorn/auto-identity-remove": {
+      "full_name": "stephenlthorn/auto-identity-remove",
+      "description": "Automated data broker opt-out runner — removes your personal info from 30+ people-search sites on a monthly schedule",
+      "language": "JavaScript",
+      "url": "https://github.com/stephenlthorn/auto-identity-remove",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Flizorules05/ROM-MGBA-Pokemon-Emulator-PC": {
+      "full_name": "Flizorules05/ROM-MGBA-Pokemon-Emulator-PC",
+      "description": "ROM Emulator Pokemon mGBA eden emulator eden emulator switch 2: download GBA NDS 3DS Switch games, android APK, MelonDS setup guide, Citra Pokemon X Y, Ryujinx Scarlet Violet ROM hack, Pokemon Emerald Randomizer download. Safe ROMs site, Action Replay cheat codes, GameShark codes FireRed, real time clock RTC error fix, trade evolution",
+      "language": "Unknown",
+      "url": "https://github.com/Flizorules05/ROM-MGBA-Pokemon-Emulator-PC",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "emulator",
+        "gba",
+        "gba-emulator",
+        "mgba",
+        "mgba-api",
+        "mgba-emulator",
+        "pokemmo",
+        "pokemon",
+        "pokemon-battle",
+        "pokemon-emerald",
+        "pokemon-emulator-games",
+        "pokemon-emulator-pc",
+        "pokemon-gba",
+        "pokemon-pc-emulator",
+        "pokemon-red",
+        "pokemon-rom-emulator",
+        "rom",
+        "rom-emulator"
+      ],
+      "category": "Other",
+      "version": "GameEmulator"
+    },
+    "thongthaibm/Lossless-Scaling-LSFG": {
+      "full_name": "thongthaibm/Lossless-Scaling-LSFG",
+      "description": "Lossless Scaling github steam android: LSFG 3 frame generation steam, uncap FPS low end PC, AMD FSR NIS scaling, cursor lag fix. Double FPS laptop guide, windowed to borderless fullscreen, ghosting artifact solution, capture API DXGI GDI, half refresh rate VSync. Crack free bypass, anime4k setup, steam version latest release, latency reduction",
+      "language": "C#",
+      "url": "https://github.com/thongthaibm/Lossless-Scaling-LSFG",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "crimson-desert-lsfg",
+        "frame-generation",
+        "fsr-alternative",
+        "gaming-performance",
+        "integer-scaling",
+        "lossless-frame-generation",
+        "lossless-scaling",
+        "lossless-scaling-2026",
+        "lossless-scaling-download",
+        "lossless-scaling-github",
+        "lossless-scaling-isfg",
+        "lossless-scaling-lsfg",
+        "lossless-scaling-pc",
+        "lossless-scaling-software",
+        "lossless-scaling-v3",
+        "lsfg",
+        "lsfg-3",
+        "lsfg-ai-upscaling",
+        "smooth-gaming",
+        "windows-scaling-tool"
+      ],
+      "category": "Other",
+      "version": "GameTools"
+    },
+    "sapientinc/HRM-Text": {
+      "full_name": "sapientinc/HRM-Text",
+      "description": "HRM-Text is a 1B text generation model based on the HRM architecture, strengthened by task completion and latent space reasoning.",
+      "language": "Python",
+      "url": "https://github.com/sapientinc/HRM-Text",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "hierarchical-reasoning-model",
+        "hrm",
+        "large-language-models",
+        "pretraining"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "hero8152/Infinite-Canvas": {
+      "full_name": "hero8152/Infinite-Canvas",
+      "description": "Supports comfyui/API calls/modelscope calls",
+      "language": "Python",
+      "url": "https://github.com/hero8152/Infinite-Canvas",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "dex-original/okx-agent-trade-kit": {
+      "full_name": "dex-original/okx-agent-trade-kit",
+      "description": "okx trading bot okx agent mcp cli cryptocurrency okx api automated trading typescript okx trading bot model context protocol cursor ai trading crypto spot futures okx trading bot npm pnpm okx mcp open source quant defi cex okx trading bot algorithmic trading crypto bot okx trading bot okx api mcp okx trading bot crypto mcp",
+      "language": "TypeScript",
+      "url": "https://github.com/dex-original/okx-agent-trade-kit",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "ai-trading",
+        "algorithmic-trading",
+        "automated-trading",
+        "cex",
+        "cli",
+        "crypto",
+        "cryptocurrency",
+        "defi",
+        "futures",
+        "mcp",
+        "model-context-protocol",
+        "npm",
+        "okx",
+        "okx-api",
+        "open-source",
+        "pnpm",
+        "quant",
+        "spot",
+        "trading-bot",
+        "typescript"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

@@ -13853,6 +13853,55 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "FoundZiGu/GuJumpgate": {
+      "full_name": "FoundZiGu/GuJumpgate",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/FoundZiGu/GuJumpgate",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "Glazenovatag/hyperliquid-whale-order-tracking": {
+      "full_name": "Glazenovatag/hyperliquid-whale-order-tracking",
+      "description": "A real, working Hyperliquid whale tracker not a placeholder. The synthetic-message test passed and the WebSocket subscribe / reconnect logic was verified live.",
+      "language": "Python",
+      "url": "https://github.com/Glazenovatag/hyperliquid-whale-order-tracking",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "hyperliquid-whale-alert",
+        "hyperliquid-whale-tracker"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "SalhaNabil/CloakBrowser": {
+      "full_name": "SalhaNabil/CloakBrowser",
+      "description": "CloakBrowser Github: anti-detect browser download, source-level chromium patches, browser fingerprinting spoofing, multi-accounting tool, canvas webgl modification, proxy manager http socks5, cookie isolation, session import export, user-agent switcher, puppeteer playwright automation api, profile sharing, web scraping free, github ",
+      "language": "TypeScript",
+      "url": "https://github.com/SalhaNabil/CloakBrowser",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "anti-detect",
+        "anti-detect-browser",
+        "antidetect-browser",
+        "chromium",
+        "cloak-browser",
+        "cloak-browser-github",
+        "cloakbrowser",
+        "cloakbrowser-download",
+        "cloakbrowser-downloader",
+        "cloakbrowser-install",
+        "cloakbrowser-installer",
+        "stealth-browser"
+      ],
+      "category": "Other",
+      "version": "Chromium"
     }
   }
 }

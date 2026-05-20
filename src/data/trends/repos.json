@@ -11478,7 +11478,7 @@
         "deepseek"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.3.6"
     },
     "mykolaharmash/notelet": {
       "full_name": "mykolaharmash/notelet",
@@ -13999,6 +13999,44 @@
         "skills"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "trekhleb/javascript-algorithms": {
+      "full_name": "trekhleb/javascript-algorithms",
+      "description": "📝 Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "language": "JavaScript",
+      "url": "https://github.com/trekhleb/javascript-algorithms",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "algorithm",
+        "algorithms",
+        "computer-science",
+        "data-structures",
+        "interview",
+        "interview-preparation",
+        "javascript",
+        "javascript-algorithms"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "bytedance/Lance": {
+      "full_name": "bytedance/Lance",
+      "description": "A 3B-active-parameter native unified multimodal model for image and video understanding, generation, and editing.",
+      "language": "Python",
+      "url": "https://github.com/bytedance/Lance",
+      "first_seen": "2026-05-20",
+      "has_summary": false,
+      "topics": [
+        "image-editing",
+        "image-generation",
+        "image-understanding",
+        "unified-multimodal-models",
+        "video-generation",
+        "video-understanding"
+      ],
+      "category": "Other",
       "version": null
     }
   }

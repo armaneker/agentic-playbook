@@ -350,17 +350,17 @@
       "has_summary": true,
       "topics": [
         "agent",
+        "ai",
         "context-engineering",
+        "deepseek",
         "interview",
         "java",
-        "jvm",
         "mcp",
         "mysql",
         "redis",
         "redisson",
         "skills",
-        "spring",
-        "system",
+        "springai",
         "system-design"
       ],
       "category": "Agentic",
@@ -9509,7 +9509,7 @@
     },
     "nexu-io/open-design": {
       "full_name": "nexu-io/open-design",
-      "description": "🎨 Local-first, open-source alternative to Anthropic's Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+      "description": "🎨 Local-first, open-source alternative to Claude Design. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
       "language": "TypeScript",
       "url": "https://github.com/nexu-io/open-design",
       "first_seen": "2026-04-28",
@@ -14234,6 +14234,32 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "kageroumado/phosphene": {
+      "full_name": "kageroumado/phosphene",
+      "description": "A video wallpaper engine for macOS Tahoe",
+      "language": "Swift",
+      "url": "https://github.com/kageroumado/phosphene",
+      "first_seen": "2026-05-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0"
+    },
+    "LiuMengxuan04/shushu-internship-tool": {
+      "full_name": "LiuMengxuan04/shushu-internship-tool",
+      "description": "把岗位描述变项目，把项目变简历，把简历变面试。",
+      "language": "Python",
+      "url": "https://github.com/LiuMengxuan04/shushu-internship-tool",
+      "first_seen": "2026-05-21",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "skills"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

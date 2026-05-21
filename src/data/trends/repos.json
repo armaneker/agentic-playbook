@@ -14142,7 +14142,7 @@
         "self-evolution"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "latest"
     },
     "pro-tech-killers/binance-trading-bot": {
       "full_name": "pro-tech-killers/binance-trading-bot",
@@ -14193,6 +14193,48 @@
       ],
       "category": "Other",
       "version": "Bitlocker"
+    },
+    "littlefrogyq/UE4SS-Subnautica-2": {
+      "full_name": "littlefrogyq/UE4SS-Subnautica-2",
+      "description": "UE4SS Subnautica 2: UE4SS download github latest version, Subnautica 2 UE5 mod loader setup, xinput1_4.dll dwmapi.dll injector error. REUE4SS UE4SS-settings.ini config, console modding commands, Subnautica 2 crashes on launch fix, dump SDK C++ blueprints, Live Viewport object spacer, GuiConsole visible toggle. Unreal Engine 5.5 compatibility,",
+      "language": "C++",
+      "url": "https://github.com/littlefrogyq/UE4SS-Subnautica-2",
+      "first_seen": "2026-05-21",
+      "has_summary": false,
+      "topics": [
+        "early-access-subnautica-2",
+        "game-mod-manager",
+        "mod",
+        "mod-manager",
+        "modmanager",
+        "nitrox-pirate",
+        "subnautica",
+        "subnautica-2",
+        "subnautica-2-multiplayer",
+        "subnautica-2-on-ps5",
+        "subnautica-2-release",
+        "subnautica-2-release-date-ps5",
+        "subnautica-2-xbox",
+        "subnautica-modding",
+        "subnautica-multiplayer",
+        "subnautica2",
+        "subnautica2-mod",
+        "subnautica2modmanager",
+        "ue4ss-subnautica-2"
+      ],
+      "category": "Other",
+      "version": "Subnautica-2"
+    },
+    "yliust/Tactile": {
+      "full_name": "yliust/Tactile",
+      "description": "Tactile: an accessibility-first operating layer for agents.",
+      "language": "Python",
+      "url": "https://github.com/yliust/Tactile",
+      "first_seen": "2026-05-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

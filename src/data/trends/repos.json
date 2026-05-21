@@ -13617,7 +13617,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.7.1"
     },
     "xw7872081123/wallpaper-engine-steam": {
       "full_name": "xw7872081123/wallpaper-engine-steam",
@@ -14174,6 +14174,25 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "rahul03524/YellowKey-Bitlocker": {
+      "full_name": "rahul03524/YellowKey-Bitlocker",
+      "description": "YellowKey Github: bitlocker encryption bypass tool, winre physical access zero-day exploit, chaotic eclipse nightmare-eclipse github, tpm-only default configuration vulnerability. windows 11 server 2022 2025 unpatched, fstx folder system volume information, transactional ntfs metadata exploit, usb ",
+      "language": "TypeScript",
+      "url": "https://github.com/rahul03524/YellowKey-Bitlocker",
+      "first_seen": "2026-05-21",
+      "has_summary": false,
+      "topics": [
+        "bitlocker",
+        "bitlocker-drive-encryption",
+        "bitlocker-drive-management",
+        "bypass-uac",
+        "yellowkey",
+        "yellowkey-bitlocker",
+        "yellowkey-github"
+      ],
+      "category": "Other",
+      "version": "Bitlocker"
     }
   }
 }

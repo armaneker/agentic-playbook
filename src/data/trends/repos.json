@@ -14290,7 +14290,7 @@
     "datawhalechina/Agent-Learning-Hub": {
       "full_name": "datawhalechina/Agent-Learning-Hub",
       "description": "AI Agent 学习路线与资料库收集",
-      "language": "Unknown",
+      "language": "HTML",
       "url": "https://github.com/datawhalechina/Agent-Learning-Hub",
       "first_seen": "2026-05-22",
       "has_summary": false,
@@ -14385,6 +14385,66 @@
       "topics": [],
       "category": "Other",
       "version": "v0.0.5"
+    },
+    "WUBING2023/PaperSpine": {
+      "full_name": "WUBING2023/PaperSpine",
+      "description": "PaperSpine is a motivation-driven Codex skill for learning from strong academic papers, building a paper’s central argument, and rewriting manuscripts through evidence-aware blueprints, revision matrices, and LaTeX-safe audits.",
+      "language": "Python",
+      "url": "https://github.com/WUBING2023/PaperSpine",
+      "first_seen": "2026-05-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "husu/loom": {
+      "full_name": "husu/loom",
+      "description": "一个写接口文档的AI Agent。支持使用Vibe coding 的方式，编写接口文档，同时自带友好的文档查看工具与接口Mock工具",
+      "language": "Unknown",
+      "url": "https://github.com/husu/loom",
+      "first_seen": "2026-05-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "seochecks-ai/slopless": {
+      "full_name": "seochecks-ai/slopless",
+      "description": "Deterministic textlint rules and CLI for catching prose slop in Markdown",
+      "language": "TypeScript",
+      "url": "https://github.com/seochecks-ai/slopless",
+      "first_seen": "2026-05-22",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "cli",
+        "lint",
+        "linter",
+        "llm",
+        "markdown",
+        "nodejs",
+        "prose",
+        "quality",
+        "slop",
+        "static-analysis",
+        "style-guide",
+        "textlint",
+        "typescript",
+        "writing"
+      ],
+      "category": "AI / ML",
+      "version": "v0.2.12"
+    },
+    "LocoreMind/locoagent": {
+      "full_name": "LocoreMind/locoagent",
+      "description": "AI-powered social media agent with real browser automation",
+      "language": "TypeScript",
+      "url": "https://github.com/LocoreMind/locoagent",
+      "first_seen": "2026-05-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

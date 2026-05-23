@@ -14508,6 +14508,121 @@
       ],
       "category": "Other",
       "version": "v0.1.0"
+    },
+    "paradigmxyz/centaur": {
+      "full_name": "paradigmxyz/centaur",
+      "description": "Multiplayer, self-hosted, secure agents.",
+      "language": "Python",
+      "url": "https://github.com/paradigmxyz/centaur",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Jawaz-Keyzor/CS2-External-Cheat-2026": {
+      "full_name": "Jawaz-Keyzor/CS2-External-Cheat-2026",
+      "description": "External gameplay assistant for CS2. Provides visual overlay through screen capture analysis — wall transparency visualization, sound radar, grenade trajectory helper. No memory access, no injection. Educational project for studying computer vision and overlay rendering.",
+      "language": "Unknown",
+      "url": "https://github.com/Jawaz-Keyzor/CS2-External-Cheat-2026",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [
+        "cs2-tool-2026",
+        "gaming-overlay",
+        "wall-assistant",
+        "windows-11"
+      ],
+      "category": "Other",
+      "version": "v1.00"
+    },
+    "MediatorSpeak/dota2-gameplay-tools": {
+      "full_name": "MediatorSpeak/dota2-gameplay-tools",
+      "description": "A modular data visualization framework and telemetry toolkit for Dota 2. Designed for real-time match analysis, custom UI prototyping, and gameplay mechanics testing in controlled environments.",
+      "language": "Unknown",
+      "url": "https://github.com/MediatorSpeak/dota2-gameplay-tools",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [
+        "data-visualization",
+        "dota2",
+        "game-analytics",
+        "overlay-system",
+        "ui-framework"
+      ],
+      "category": "Other",
+      "version": "v2.7.5"
+    },
+    "perplexityai/bumblebee": {
+      "full_name": "perplexityai/bumblebee",
+      "description": "Read-only tool for inventorying packages, extensions, and developer-tool metadata on macOS and Linux developer endpoints, built for fast supply-chain exposure checks.",
+      "language": "Go",
+      "url": "https://github.com/perplexityai/bumblebee",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [
+        "golang",
+        "package-inventory",
+        "supply-chain-security"
+      ],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "xzf-thu/Mega-ASR": {
+      "full_name": "xzf-thu/Mega-ASR",
+      "description": "First foundation ASR built for the real world - 7 atomic acoustic conditions, 54 compound scenarios, 2.6M samples, and up to ~30% gains over SOTA where every other model falls apart. **You'll come back to MEGA-ASR, after the rest fail in the wild. ⭐**",
+      "language": "Python",
+      "url": "https://github.com/xzf-thu/Mega-ASR",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [
+        "asr",
+        "robust"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "OpenNSWM-Lab/FAROS": {
+      "full_name": "OpenNSWM-Lab/FAROS",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/OpenNSWM-Lab/FAROS",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pro-tech-killers/coinbase-trading-bot": {
+      "full_name": "pro-tech-killers/coinbase-trading-bot",
+      "description": "coinbase trading bot coinbase api advanced trade trading bot crypto trading bot automated trading coinbase trading bot typescript algorithmic trading ema atr coinbase bot crypto trading bot coinbase trading bot paper trading spot coinbase trading bot risk sizing zod nodejs coinbase trading bot fintech quant coinbase trading bot open source",
+      "language": "TypeScript",
+      "url": "https://github.com/pro-tech-killers/coinbase-trading-bot",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [
+        "advanced-trade",
+        "algorithmic-trading",
+        "atr",
+        "automated-trading",
+        "coinbase",
+        "coinbase-api",
+        "crypto-bot",
+        "cryptocurrency",
+        "ema",
+        "fintech",
+        "nodejs",
+        "open-source",
+        "paper-trading",
+        "quant",
+        "sol",
+        "spot",
+        "trading-bot",
+        "typescript",
+        "zod"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

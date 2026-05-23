@@ -14645,6 +14645,17 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "0xSero/codex-shim": {
+      "full_name": "0xSero/codex-shim",
+      "description": "Local Responses-API shim that exposes Factory BYOK models (and optional ChatGPT GPT-5.5 passthrough) to Codex Desktop.",
+      "language": "Python",
+      "url": "https://github.com/0xSero/codex-shim",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

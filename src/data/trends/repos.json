@@ -14555,7 +14555,7 @@
     },
     "perplexityai/bumblebee": {
       "full_name": "perplexityai/bumblebee",
-      "description": "Read-only tool for inventorying packages, extensions, and developer-tool metadata on macOS and Linux developer endpoints, built for fast supply-chain exposure checks.",
+      "description": "Read-only developer endpoint scanner for on-disk package, extension, and developer-tool metadata, built to check exposure to known software supply-chain compromises.",
       "language": "Go",
       "url": "https://github.com/perplexityai/bumblebee",
       "first_seen": "2026-05-23",
@@ -14621,6 +14621,28 @@
         "typescript",
         "zod"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "Achilng/floral-notepaper": {
+      "full_name": "Achilng/floral-notepaper",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Achilng/floral-notepaper",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.4"
+    },
+    "zarazhangrui/feishu-claude-code-bridge": {
+      "full_name": "zarazhangrui/feishu-claude-code-bridge",
+      "description": "Bot that bridges Feishu/Lark messenger with a local Claude Code CLI — streaming cards, per-chat sessions, multiple workspaces",
+      "language": "TypeScript",
+      "url": "https://github.com/zarazhangrui/feishu-claude-code-bridge",
+      "first_seen": "2026-05-23",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

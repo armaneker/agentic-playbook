@@ -15029,6 +15029,44 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "open-gsd/get-shit-done-redux": {
+      "full_name": "open-gsd/get-shit-done-redux",
+      "description": "Getting Shit Done, the Aftermath",
+      "language": "JavaScript",
+      "url": "https://github.com/open-gsd/get-shit-done-redux",
+      "first_seen": "2026-05-24",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "category": "Other",
+      "version": "v1.01.0"
+    },
+    "Tong89/smartNode": {
+      "full_name": "Tong89/smartNode",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Tong89/smartNode",
+      "first_seen": "2026-05-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nolanx-ai/nolanx.ai": {
+      "full_name": "nolanx-ai/nolanx.ai",
+      "description": "Nolanx, Open-sourced AI Netflix.",
+      "language": "Python",
+      "url": "https://github.com/nolanx-ai/nolanx.ai",
+      "first_seen": "2026-05-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

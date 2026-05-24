@@ -13505,7 +13505,7 @@
     },
     "feder-cr/invisible_playwright": {
       "full_name": "feder-cr/invisible_playwright",
-      "description": "First AI Browser, Stealth Firefox that passes every bot detection test. Drop-in Playwright replacement.",
+      "description": "AI Browser, Stealth Firefox that passes every bot detection test. Drop-in Playwright replacement.",
       "language": "Python",
       "url": "https://github.com/feder-cr/invisible_playwright",
       "first_seen": "2026-05-19",
@@ -14243,7 +14243,12 @@
       "url": "https://github.com/kageroumado/phosphene",
       "first_seen": "2026-05-21",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "animated-wallpaper",
+        "desktop-wallpaper",
+        "macos",
+        "macos-wallpaper"
+      ],
       "category": "Other",
       "version": "v1.0"
     },
@@ -15065,6 +15070,24 @@
       "first_seen": "2026-05-24",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pheejm/forza-horizon-6-ultimate-mod-pack": {
+      "full_name": "pheejm/forza-horizon-6-ultimate-mod-pack",
+      "description": "Forza Horizon 6 Best New CarPack Mods 2026 🚗🔥 Free Download & More Mods",
+      "language": "Unknown",
+      "url": "https://github.com/pheejm/forza-horizon-6-ultimate-mod-pack",
+      "first_seen": "2026-05-24",
+      "has_summary": false,
+      "topics": [
+        "fh6-mod",
+        "forza-horizon-6-carpack",
+        "forza-horizon-6-mod",
+        "forza-horizon-6-modpack",
+        "forza-mod",
+        "forza6-cars"
+      ],
       "category": "Other",
       "version": null
     }

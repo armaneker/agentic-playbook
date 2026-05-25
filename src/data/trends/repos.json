@@ -15167,6 +15167,140 @@
       ],
       "category": "DevTools",
       "version": "Tools"
+    },
+    "zhaoyue4810/pianke": {
+      "full_name": "zhaoyue4810/pianke",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/zhaoyue4810/pianke",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Unclecheng-li/poc-lab": {
+      "full_name": "Unclecheng-li/poc-lab",
+      "description": "Recent CVE PoC & reproduction scripts. Focused on high-severity vulnerabilities across Linux kernel, Windows, macOS and more.",
+      "language": "C",
+      "url": "https://github.com/Unclecheng-li/poc-lab",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [
+        "c",
+        "cybersecurity",
+        "linux",
+        "poc",
+        "python",
+        "python3",
+        "vulnerability"
+      ],
+      "category": "Security",
+      "version": null
+    },
+    "bonus-2026/casino-bonus": {
+      "full_name": "bonus-2026/casino-bonus",
+      "description": "Casino Bonus guide featuring a $250 USD no deposit welcome reward for new users with promo code DROP. Explore crypto casino bonuses, cashback systems, welcome offers, and gaming platform features",
+      "language": "Unknown",
+      "url": "https://github.com/bonus-2026/casino-bonus",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [
+        "casino-bonus-2026"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "KNG7-P/Se7en-Pro": {
+      "full_name": "KNG7-P/Se7en-Pro",
+      "description": "",
+      "language": "C#",
+      "url": "https://github.com/KNG7-P/Se7en-Pro",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "Tencent-Hunyuan/Hy-MT2": {
+      "full_name": "Tencent-Hunyuan/Hy-MT2",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-MT2",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ShinyaTomitsuka/arbitrage-trading-bot": {
+      "full_name": "ShinyaTomitsuka/arbitrage-trading-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot bot",
+      "language": "TypeScript",
+      "url": "https://github.com/ShinyaTomitsuka/arbitrage-trading-bot",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [
+        "arbitrage-bot",
+        "arbitrage-trading-bot",
+        "bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-trading-bot",
+        "trading-bot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "orchestration-agent/AgentOrchestration": {
+      "full_name": "orchestration-agent/AgentOrchestration",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/orchestration-agent/AgentOrchestration",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "mila89/polymarket-trading-bot": {
+      "full_name": "mila89/polymarket-trading-bot",
+      "description": "Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot Polymarket Trading Bot bot",
+      "language": "TypeScript",
+      "url": "https://github.com/mila89/polymarket-trading-bot",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [
+        "arbitrage-bot",
+        "arbitrage-trading-bot",
+        "bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-btc-arbitrage-bot",
+        "polymarket-trading-bot",
+        "trading-bot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Klotzkette/claude-fuer-deutsches-recht": {
+      "full_name": "Klotzkette/claude-fuer-deutsches-recht",
+      "description": "⚠️ Experimentelle Skill-Sammlung für deutsches Recht (Arbeits-, Gesellschafts-, Insolvenz-, Datenschutz-, Prozessrecht u.a.) – inzwischen verbessert und im Alltag getestet, aber weiterhin Experiment. Bitte selber ausprobieren, Issues/PRs willkommen! Keine Rechtsberatung. Mandatsgeheimnis (§§ 203/204 StGB, § 43e BRAO), DSGVO, US-Transfer, KI-VO & Co",
+      "language": "Python",
+      "url": "https://github.com/Klotzkette/claude-fuer-deutsches-recht",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [
+        "anthropic",
+        "bgh",
+        "claude-skills",
+        "deutsches-recht",
+        "dsgvo",
+        "german-law",
+        "kanzlei",
+        "legal-ai",
+        "legaltech"
+      ],
+      "category": "Other",
+      "version": "v9.0.0"
     }
   }
 }

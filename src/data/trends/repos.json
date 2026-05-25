@@ -15115,6 +15115,28 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "run-liyi/wechatpay": {
+      "full_name": "run-liyi/wechatpay",
+      "description": "微信账单分析工具 - 基于Electron的可视化账单分析应用",
+      "language": "JavaScript",
+      "url": "https://github.com/run-liyi/wechatpay",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MoonshotAI/kimi-code": {
+      "full_name": "MoonshotAI/kimi-code",
+      "description": "The Starting Point for Next-Gen Agents",
+      "language": "TypeScript",
+      "url": "https://github.com/MoonshotAI/kimi-code",
+      "first_seen": "2026-05-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

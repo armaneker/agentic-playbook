@@ -14382,7 +14382,7 @@
     },
     "basketikun/infinite-canvas": {
       "full_name": "basketikun/infinite-canvas",
-      "description": "面向AI创作的开源无限画布工作台，集成 AI 生图、参考图编辑、画布编排、对话助手、提示词库和素材管理等功能。",
+      "description": "面向AI创作的开源无限画布工作台，集成 AI 生图、参考图编辑、视频生成、画布编排、对话助手、提示词库和素材管理等功能、兼容OpenAI接口，支持chatgpt2api、grok2api、flow2api、newapi等接入。",
       "language": "TypeScript",
       "url": "https://github.com/basketikun/infinite-canvas",
       "first_seen": "2026-05-22",
@@ -15542,6 +15542,37 @@
       ],
       "category": "Agentic",
       "version": "v0.25.0"
+    },
+    "nv-tlabs/PiD": {
+      "full_name": "nv-tlabs/PiD",
+      "description": "PiD: Fast and High-Resolution Latent Decoding with Pixel Diffusion",
+      "language": "Python",
+      "url": "https://github.com/nv-tlabs/PiD",
+      "first_seen": "2026-05-26",
+      "has_summary": false,
+      "topics": [
+        "diffusion-decoder",
+        "pixel-diffusion"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "PandoraReads/apex-dashboard": {
+      "full_name": "PandoraReads/apex-dashboard",
+      "description": "Stop switching between Obsidian notes. One page. Everything you need. Memo your thoughts, crush your todos, track your projects — and make it look incredible doing it.",
+      "language": "TypeScript",
+      "url": "https://github.com/PandoraReads/apex-dashboard",
+      "first_seen": "2026-05-26",
+      "has_summary": false,
+      "topics": [
+        "dashboard",
+        "dashboard-templates",
+        "obsidian",
+        "obsidian-plugin",
+        "obsidian-plugins"
+      ],
+      "category": "Other",
+      "version": "v1.0.8"
     }
   }
 }

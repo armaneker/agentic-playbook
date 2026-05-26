@@ -15573,6 +15573,49 @@
       ],
       "category": "Other",
       "version": "v1.0.8"
+    },
+    "study8677/awesome-architecture": {
+      "full_name": "study8677/awesome-architecture",
+      "description": "🗺️ Think like a software architect, not just a coder — 21 architecture maps (incl. AI gateway, RAG, agents, inference serving, vector DB) + a language-agnostic system-design tutorial. Every template links to real open-source prototypes. 中英文双语。",
+      "language": "Vue",
+      "url": "https://github.com/study8677/awesome-architecture",
+      "first_seen": "2026-05-26",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "architecture-decision-records",
+        "architecture-patterns",
+        "awesome",
+        "backend",
+        "c4-model",
+        "chinese",
+        "design-patterns",
+        "distributed-systems",
+        "interview-preparation",
+        "learning-resources",
+        "llm",
+        "microservices",
+        "rag",
+        "scalability",
+        "software-architecture",
+        "software-engineering",
+        "system-design",
+        "system-design-interview",
+        "tech-interview"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "akitaonrails/ai-memory": {
+      "full_name": "akitaonrails/ai-memory",
+      "description": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors",
+      "language": "Rust",
+      "url": "https://github.com/akitaonrails/ai-memory",
+      "first_seen": "2026-05-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

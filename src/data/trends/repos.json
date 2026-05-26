@@ -9888,7 +9888,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.0.0"
     },
     "willchen96/mike": {
       "full_name": "willchen96/mike",
@@ -15136,7 +15136,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "@moonshot-ai/kimi-code@0.2.0"
     },
     "testerlingcodo/gemini-antigravity-cli": {
       "full_name": "testerlingcodo/gemini-antigravity-cli",
@@ -15505,6 +15505,43 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "joeseesun/wechat-radar": {
+      "full_name": "joeseesun/wechat-radar",
+      "description": "微信聊天情报看板：聚合群聊信号、话题、链接和趋势",
+      "language": "TypeScript",
+      "url": "https://github.com/joeseesun/wechat-radar",
+      "first_seen": "2026-05-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AzmxAI/azmx": {
+      "full_name": "AzmxAI/azmx",
+      "description": "AZMX AI — The sovereign agent platform.",
+      "language": "TypeScript",
+      "url": "https://github.com/AzmxAI/azmx",
+      "first_seen": "2026-05-26",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "ai-terminal",
+        "anthropic",
+        "byok",
+        "claude",
+        "local-first",
+        "mcp",
+        "ollama",
+        "openai",
+        "react",
+        "rust",
+        "sovereign-agent",
+        "tauri",
+        "terminal"
+      ],
+      "category": "Agentic",
+      "version": "v0.25.0"
     }
   }
 }

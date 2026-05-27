@@ -9854,8 +9854,8 @@
     },
     "t8y2/dbx": {
       "full_name": "t8y2/dbx",
-      "description": "15MB，lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.",
-      "language": "Vue",
+      "description": "15MB, lightweight, cross-platform database client. Supports MySQL, PostgreSQL, SQLite, Redis, MongoDB, DuckDB, ClickHouse, SQL Server and more.15MB，轻量级跨平台数据库客户端。支持 MySQL、PostgreSQL、SQLite、Redis、MongoDB、DuckDB、ClickHouse、SQL Server 等。",
+      "language": "Rust",
       "url": "https://github.com/t8y2/dbx",
       "first_seen": "2026-04-30",
       "has_summary": false,
@@ -15586,6 +15586,7 @@
         "architecture-decision-records",
         "architecture-patterns",
         "awesome",
+        "awesome-list",
         "backend",
         "c4-model",
         "chinese",
@@ -15593,15 +15594,14 @@
         "distributed-systems",
         "interview-preparation",
         "learning-resources",
-        "llm",
         "microservices",
-        "rag",
         "scalability",
         "software-architecture",
         "software-engineering",
         "system-design",
         "system-design-interview",
-        "tech-interview"
+        "tech-interview",
+        "vue"
       ],
       "category": "Agentic",
       "version": null
@@ -15615,7 +15615,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.3.2"
     },
     "microsoft/markitdown": {
       "full_name": "microsoft/markitdown",
@@ -15715,6 +15715,64 @@
       "topics": [],
       "category": "Other",
       "version": "v1.0.1"
+    },
+    "butterbase-ai/butterbase-oss": {
+      "full_name": "butterbase-ai/butterbase-oss",
+      "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
+      "language": "TypeScript",
+      "url": "https://github.com/butterbase-ai/butterbase-oss",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [
+        "baas",
+        "backend-as-a-service",
+        "mcp",
+        "open-source",
+        "postgres",
+        "supabase-alternative",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "SigmaTradeLabs/aster-bot": {
+      "full_name": "SigmaTradeLabs/aster-bot",
+      "description": "asterDEX trading bot, perp trading, asterDEX auto trading bot, asterDEX trading bot, perp trading, asterDEX auto trading bot, asterDEX trading bot, perp trading, asterDEX auto trading bot, asterDEX trading bot, perp trading, asterDEX auto trading bot, asterDEX trading bot, perp trading, asterDEX auto trading bot,",
+      "language": "TypeScript",
+      "url": "https://github.com/SigmaTradeLabs/aster-bot",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [
+        "algo-trading",
+        "aster-dex",
+        "asterdex",
+        "automated-trading",
+        "crypto-bot",
+        "crypto-trading-bot",
+        "cryptocurrency",
+        "decentralized-exchange",
+        "defi",
+        "dex-trading-bot",
+        "fapi-bot",
+        "futures-trading",
+        "perp-trading",
+        "perpetual-trading",
+        "trading-bot",
+        "typescript"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "jiujiu532/grok2api": {
+      "full_name": "jiujiu532/grok2api",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/jiujiu532/grok2api",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

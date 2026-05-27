@@ -6674,7 +6674,7 @@
     "anthropics/claude-code": {
       "full_name": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/anthropics/claude-code",
       "first_seen": "2026-04-13",
       "has_summary": false,
@@ -13505,7 +13505,7 @@
     },
     "feder-cr/invisible_playwright": {
       "full_name": "feder-cr/invisible_playwright",
-      "description": "AI Browser, Stealth Firefox that passes every bot detection test. Drop-in Playwright replacement.",
+      "description": "Anti-Detect Browser that passes every bot detection test. Drop-in Playwright replacement.",
       "language": "Python",
       "url": "https://github.com/feder-cr/invisible_playwright",
       "first_seen": "2026-05-19",
@@ -15616,6 +15616,105 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "microsoft/markitdown": {
+      "full_name": "microsoft/markitdown",
+      "description": "Python tool for converting files and office documents to Markdown.",
+      "language": "Python",
+      "url": "https://github.com/microsoft/markitdown",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [
+        "autogen",
+        "autogen-extension",
+        "langchain",
+        "markdown",
+        "microsoft-office",
+        "openai",
+        "pdf"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.6"
+    },
+    "open-gsd/gsd-pi": {
+      "full_name": "open-gsd/gsd-pi",
+      "description": "A powerful meta-prompting, context engineering and spec-driven development system that enables agents to work for long periods of time autonomously without losing track of the big picture",
+      "language": "TypeScript",
+      "url": "https://github.com/open-gsd/gsd-pi",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "category": "Other",
+      "version": "v1.0.2"
+    },
+    "modaic-ai/gepa-viz": {
+      "full_name": "modaic-ai/gepa-viz",
+      "description": "Interactive live visualizer for gepa runs",
+      "language": "TypeScript",
+      "url": "https://github.com/modaic-ai/gepa-viz",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "Outcome-Signal-Forge/trading-bot": {
+      "full_name": "Outcome-Signal-Forge/trading-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot",
+      "language": "TypeScript",
+      "url": "https://github.com/Outcome-Signal-Forge/trading-bot",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [
+        "arbitrage-trading-bot",
+        "polymarket-arbitrage-bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-trading-bot",
+        "trading-bot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "CylinderChairman/aida64": {
+      "full_name": "CylinderChairman/aida64",
+      "description": "aida64 unlocker extreme edition",
+      "language": "PowerShell",
+      "url": "https://github.com/CylinderChairman/aida64",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [
+        "aida64",
+        "aida64-extreme-patch",
+        "aida64-unlocker"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Nutlope/hallmark": {
+      "full_name": "Nutlope/hallmark",
+      "description": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+      "language": "CSS",
+      "url": "https://github.com/Nutlope/hallmark",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "google-deepmind/science-skills": {
+      "full_name": "google-deepmind/science-skills",
+      "description": "GDM Science Skills to speed up agentic scientific workflows with better grounding and higher token efficiency. Integrate insights from AlphaGenome, AFDB, UniProt and 30+ other databases and tools.",
+      "language": "Python",
+      "url": "https://github.com/google-deepmind/science-skills",
+      "first_seen": "2026-05-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
     }
   }
 }

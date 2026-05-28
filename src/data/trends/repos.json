@@ -9509,7 +9509,7 @@
     },
     "nexu-io/open-design": {
       "full_name": "nexu-io/open-design",
-      "description": "🎨 Local-first, open-source  Claude Design alternative. ⚡ 19 Skills · ✨ 71 brand-grade Design Systems 🖼 Generate web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Runs on Claude Code / Codex / Cursor / Gemini / OpenCode / Qwen / Copilot / Hermes / Kimi CLI.",
+      "description": "🎨 Local-first, open-source Claude Design alternative. 🖥️ Native desktop app. ⚡ 100+ Skills · ✨ 100+ Design Systems 🖼️ Web · desktop · mobile prototypes · slides · images · videos · HyperFrames 📦 Sandboxed preview · HTML/PDF/PPTX/MP4 export 🤖 Claude Code / OpenClaw / Codex / Cursor / OpenCode / Qwen / Copilot / Hermes / Kimi & 17+ CLIs.",
       "language": "TypeScript",
       "url": "https://github.com/nexu-io/open-design",
       "first_seen": "2026-04-28",
@@ -9519,10 +9519,11 @@
         "ai-agents",
         "ai-design",
         "byok",
-        "claude",
         "claude-code-for-design",
         "claude-design",
+        "codex-design",
         "coding-agents",
+        "cursor-design",
         "design-systems",
         "design-tools",
         "desktop-app",
@@ -9530,7 +9531,6 @@
         "generative-ai",
         "hermes-agent",
         "local-first",
-        "nextjs",
         "no-code",
         "prototyping",
         "ui-generator",
@@ -15996,6 +15996,17 @@
       ],
       "category": "AI / ML",
       "version": "0.3.3"
+    },
+    "MobiusQuant/OpenMobius-skill": {
+      "full_name": "MobiusQuant/OpenMobius-skill",
+      "description": "ICT/SMC trading-knowledge skill for AI coding agents (Claude Code / Codex / OpenClaw / Hermes)",
+      "language": "Python",
+      "url": "https://github.com/MobiusQuant/OpenMobius-skill",
+      "first_seen": "2026-05-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

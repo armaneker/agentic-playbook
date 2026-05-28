@@ -15940,6 +15940,62 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "OpenBMB/PilotDeck": {
+      "full_name": "OpenBMB/PilotDeck",
+      "description": "Task-oriented AI Agent productivity platform",
+      "language": "TypeScript",
+      "url": "https://github.com/OpenBMB/PilotDeck",
+      "first_seen": "2026-05-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.0.12"
+    },
+    "op7418/guizang-social-card-skill": {
+      "full_name": "op7418/guizang-social-card-skill",
+      "description": "🪧 Claude Code / Codex skill — generate Xiaohongshu carousels & WeChat 21:9+1:1 cover pairs. Editorial × Swiss visual systems, 28 layouts, 10 themes, single-file HTML → PNG. 小红书图文 + 公众号封面对",
+      "language": "HTML",
+      "url": "https://github.com/op7418/guizang-social-card-skill",
+      "first_seen": "2026-05-28",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "anthropic",
+        "claude-code",
+        "claude-skill",
+        "codex",
+        "editorial-design",
+        "html-template",
+        "image-generation",
+        "playwright",
+        "rednote",
+        "social-cards",
+        "swiss-design",
+        "wechat",
+        "xiaohongshu"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "rpamis/comet": {
+      "full_name": "rpamis/comet",
+      "description": "Comet: OpenSpec + Superpowers dual-star development workflow",
+      "language": "TypeScript",
+      "url": "https://github.com/rpamis/comet",
+      "first_seen": "2026-05-28",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "harness-engineering",
+        "sdd",
+        "skills",
+        "spec",
+        "spec-driven-development"
+      ],
+      "category": "AI / ML",
+      "version": "0.3.3"
     }
   }
 }

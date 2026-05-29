@@ -16373,6 +16373,68 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.0"
+    },
+    "open-gsd/gsd-core": {
+      "full_name": "open-gsd/gsd-core",
+      "description": "Getting Shit Done, the Aftermath",
+      "language": "JavaScript",
+      "url": "https://github.com/open-gsd/gsd-core",
+      "first_seen": "2026-05-29",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "context-engineering",
+        "meta-prompting",
+        "spec-driven-development"
+      ],
+      "category": "Other",
+      "version": "v1.01.0"
+    },
+    "Michaelliv/pi-dynamic-workflows": {
+      "full_name": "Michaelliv/pi-dynamic-workflows",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Michaelliv/pi-dynamic-workflows",
+      "first_seen": "2026-05-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "baoweise-bot/aimili-vpngate": {
+      "full_name": "baoweise-bot/aimili-vpngate",
+      "description": "aimili-vpngate是一个借助vpngate.net让Linux用干净ip出站的代理工具。",
+      "language": "Python",
+      "url": "https://github.com/baoweise-bot/aimili-vpngate",
+      "first_seen": "2026-05-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "2aronS/Duel-Agents": {
+      "full_name": "2aronS/Duel-Agents",
+      "description": "CLI, SDK, and IDE plugins for Duel Agents",
+      "language": "TypeScript",
+      "url": "https://github.com/2aronS/Duel-Agents",
+      "first_seen": "2026-05-29",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude-code",
+        "cli",
+        "cursor",
+        "duel-agents",
+        "llm",
+        "npm",
+        "openai-compatible",
+        "openclaw",
+        "sdk",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
     }
   }
 }

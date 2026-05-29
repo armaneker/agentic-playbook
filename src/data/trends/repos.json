@@ -16236,8 +16236,57 @@
       "url": "https://github.com/microsoft/SkillOpt",
       "first_seen": "2026-05-29",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "agent-skills",
+        "self-evolving-agents"
+      ],
       "category": "Other",
+      "version": null
+    },
+    "helloianneo/ian-xiaohei-illustrations": {
+      "full_name": "helloianneo/ian-xiaohei-illustrations",
+      "description": "中文小黑怪诞正文配图生成 Skill | 16:9 白底手绘 | 少量红橙蓝批注 | Codex Skill",
+      "language": "Unknown",
+      "url": "https://github.com/helloianneo/ian-xiaohei-illustrations",
+      "first_seen": "2026-05-29",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "chinese",
+        "codex-skill",
+        "handdrawn",
+        "illustration",
+        "image-generation",
+        "xiaohei"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "AmmarkoV/SAM3DBody-cpp": {
+      "full_name": "AmmarkoV/SAM3DBody-cpp",
+      "description": "Real-time 3D full-body reconstruction from a single camera, Multiperson BVH output, Pure C++ runtime, ONNX + ggml, 70-joint skeleton with hands.",
+      "language": "C",
+      "url": "https://github.com/AmmarkoV/SAM3DBody-cpp",
+      "first_seen": "2026-05-29",
+      "has_summary": false,
+      "topics": [
+        "3d-human-pose",
+        "bvh",
+        "computer-vision",
+        "cpp",
+        "cuda",
+        "ggml",
+        "motion-capture",
+        "multi-person-pose-estimation",
+        "onnx",
+        "opengl",
+        "pose-detection",
+        "pose-estimation",
+        "pose-tracking",
+        "real-time",
+        "sam-3d-body"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

@@ -16541,6 +16541,44 @@
       ],
       "category": "Other",
       "version": "osulazer"
+    },
+    "ytnrvdf/wha-spell-simulator": {
+      "full_name": "ytnrvdf/wha-spell-simulator",
+      "description": "A fan-made browser-based Witch Hat Atelier spell simulator.",
+      "language": "JavaScript",
+      "url": "https://github.com/ytnrvdf/wha-spell-simulator",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [
+        "witch-hat-atelier"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "neuralCPL/polymarket-trading-bot": {
+      "full_name": "neuralCPL/polymarket-trading-bot",
+      "description": "polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, ",
+      "language": "JavaScript",
+      "url": "https://github.com/neuralCPL/polymarket-trading-bot",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [
+        "arbitrage",
+        "automated-trading",
+        "btc-trading",
+        "clob",
+        "copy-trading",
+        "defi",
+        "ethereum",
+        "nodejs",
+        "polygon",
+        "polymarket",
+        "prediction-markets",
+        "trading-bot",
+        "websocket"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

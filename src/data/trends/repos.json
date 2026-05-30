@@ -15825,7 +15825,7 @@
     },
     "UditAkhourii/adhd": {
       "full_name": "UditAkhourii/adhd",
-      "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
+      "description": "ADHD — a skill for coding agents. Tree-of-thought with pruning, built on the Claude & Codex Agent SDK. Fans out parallel divergent thoughts under different cognitive frames, scores, prunes traps, deepens the survivors. The no-brainer skill for creative and interdisciplinary work.",
       "language": "TypeScript",
       "url": "https://github.com/UditAkhourii/adhd",
       "first_seen": "2026-05-27",
@@ -15851,7 +15851,7 @@
         "typescript"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.1.4"
     },
     "bryanyzhu/agentic-ai-system-course": {
       "full_name": "bryanyzhu/agentic-ai-system-course",
@@ -16579,6 +16579,56 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "OldenEraTemplateGenerator/Olden-Era-Template-Generator": {
+      "full_name": "OldenEraTemplateGenerator/Olden-Era-Template-Generator",
+      "description": "olden era template generator github Download heroes of might and magic homm random map rmg json custom map editor templates utility tool windows 11 latest version free preview zone layout multiplayer",
+      "language": "C#",
+      "url": "https://github.com/OldenEraTemplateGenerator/Olden-Era-Template-Generator",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [
+        "heroes-might-and-magic-olden-era",
+        "homm-olden-era",
+        "olden-era",
+        "oldenera",
+        "oldeneratemplategenerator",
+        "templategenerator"
+      ],
+      "category": "Other",
+      "version": "OldenEra"
+    },
+    "zhristophe/Claude-Mythos-AI-Anthropic-App": {
+      "full_name": "zhristophe/Claude-Mythos-AI-Anthropic-App",
+      "description": "claude mythos ai anthropic app github open source desktop mobile client abhishekk130804 anthropic api key creative writing roleplay character cards deep reasoning chain of thought system prompts jailbreak windows macos linux android apk next js electron tauri python rust download setup guide tutorial latest version 2026 free update",
+      "language": "TypeScript",
+      "url": "https://github.com/zhristophe/Claude-Mythos-AI-Anthropic-App",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [
+        "anthropic-claude-mythos",
+        "claude-ai-skills",
+        "claude-anthropic",
+        "claude-chat",
+        "claude-code-",
+        "claude-code-action",
+        "claude-code-cli",
+        "claude-code-hooks",
+        "claude-code-marketplace",
+        "claude-code-plugin",
+        "claude-code-skill",
+        "claude-code-skills",
+        "claude-design-download",
+        "claude-design-free",
+        "claude-desktop-app",
+        "claude-free",
+        "claude-mythos",
+        "claude-pro",
+        "claude-skills",
+        "mythos"
+      ],
+      "category": "Other",
+      "version": "Claude-Code"
     }
   }
 }

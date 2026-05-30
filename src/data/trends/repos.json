@@ -16629,6 +16629,101 @@
       ],
       "category": "Other",
       "version": "Claude-Code"
+    },
+    "nv-tlabs/Gamma-World": {
+      "full_name": "nv-tlabs/Gamma-World",
+      "description": "Implementation of Gamma-World: Generative Multi-Agent World Modeling Beyond Two Players",
+      "language": "Unknown",
+      "url": "https://github.com/nv-tlabs/Gamma-World",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [
+        "aigc",
+        "multi-agent",
+        "robotics",
+        "video-game",
+        "worldmodel"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "GordenSun/GordenPPTSkill": {
+      "full_name": "GordenSun/GordenPPTSkill",
+      "description": "AI-friendly PPT builder skill: 17 hand-polished Chinese PPTX templates + non-destructive text-only editing tools (python-pptx based). Pick a template, write edits.json, build a real .pptx with the layout intact. Personal/research use only.",
+      "language": "Python",
+      "url": "https://github.com/GordenSun/GordenPPTSkill",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Monke-Manager/MonkeModManager": {
+      "full_name": "Monke-Manager/MonkeModManager",
+      "description": "monkemodmanager download github gorilla tag mod installer manager bepinex cosmetics quest link steam vr custom maps utility tool windows 11 latest version 2026 free gameplay tutorial update guide fix error",
+      "language": "C#",
+      "url": "https://github.com/Monke-Manager/MonkeModManager",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [
+        "game-mod-manager",
+        "gorilla",
+        "gorilla-tag",
+        "gorillatag",
+        "gorillatagmenu",
+        "gorillatagmods",
+        "gorillatagvr",
+        "gtag",
+        "mod-manager",
+        "mod-managers",
+        "modmanager",
+        "monkemodmanager"
+      ],
+      "category": "Other",
+      "version": "monkemod"
+    },
+    "Stellarwolf001/forza-horizon-6-spotify-radio": {
+      "full_name": "Stellarwolf001/forza-horizon-6-spotify-radio",
+      "description": "forza horizon 6 spotify radio FH 6 spotify radio  mod download nexus mods github bigjohn0 spotify radio steam epic games xbox ps5",
+      "language": "TypeScript",
+      "url": "https://github.com/Stellarwolf001/forza-horizon-6-spotify-radio",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [
+        "fh5",
+        "fh6",
+        "fh6-spotify-radio",
+        "fh6rpc",
+        "forza",
+        "forza-horizon",
+        "forza-horizon-4",
+        "forza-horizon-5",
+        "forza-horizon-6",
+        "forza-horizon-6-pc",
+        "forza-horizon-6-release",
+        "forza-horizon-6-spotify",
+        "forza-horizon-6-spotify-download",
+        "forza-horizon-6-spotify-radio",
+        "forzahorizon3",
+        "spotify",
+        "spotify-desktop-client",
+        "spotify-playlist-exporter",
+        "spotify-radio-fh6",
+        "spotify-windows"
+      ],
+      "category": "Other",
+      "version": "Forza-Horizon-6"
+    },
+    "foru17/make-x-great-again": {
+      "full_name": "foru17/make-x-great-again",
+      "description": "Make X Great Again — passive ambient browser extension that makes X usable: spam shield, KOL signal score, profile digest, social graph hints. Public-good, open source.",
+      "language": "TypeScript",
+      "url": "https://github.com/foru17/make-x-great-again",
+      "first_seen": "2026-05-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.4.0"
     }
   }
 }

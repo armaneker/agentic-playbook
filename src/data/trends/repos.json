@@ -16227,7 +16227,7 @@
         "vibecoding"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v2.3.0"
     },
     "microsoft/SkillOpt": {
       "full_name": "microsoft/SkillOpt",
@@ -16821,6 +16821,60 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "pewdiepie-archdaemon/odysseus": {
+      "full_name": "pewdiepie-archdaemon/odysseus",
+      "description": "Self-hosted AI workspace. ",
+      "language": "JavaScript",
+      "url": "https://github.com/pewdiepie-archdaemon/odysseus",
+      "first_seen": "2026-05-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "BlackCandleLab/polymarket-trading-bot": {
+      "full_name": "BlackCandleLab/polymarket-trading-bot",
+      "description": "polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, polymarket trading bot, polymarket arbitrage bot, ",
+      "language": "JavaScript",
+      "url": "https://github.com/BlackCandleLab/polymarket-trading-bot",
+      "first_seen": "2026-05-31",
+      "has_summary": false,
+      "topics": [
+        "algorithmic-trading",
+        "arbitrage",
+        "automated-trading",
+        "btc-trading-bot",
+        "clob",
+        "copy-trading",
+        "crypto-trading-bot",
+        "defi",
+        "ethereum",
+        "market-making",
+        "nodejs",
+        "polygon",
+        "polymarket",
+        "polymarket-arbitrage-bot",
+        "polymarket-copy-trading-bot",
+        "polymarket-trading-bot",
+        "prediction-markets",
+        "trading-bot",
+        "usdc",
+        "web3"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "sandiiarov/skill-creator": {
+      "full_name": "sandiiarov/skill-creator",
+      "description": "Turn any MCP server, OpenAPI spec, or GraphQL endpoint into a CLI at runtime.",
+      "language": "TypeScript",
+      "url": "https://github.com/sandiiarov/skill-creator",
+      "first_seen": "2026-05-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.11"
     }
   }
 }

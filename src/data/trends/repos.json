@@ -16792,6 +16792,24 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Signal-Trade-Core/weather-prediction-bot": {
+      "full_name": "Signal-Trade-Core/weather-prediction-bot",
+      "description": "polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot",
+      "language": "TypeScript",
+      "url": "https://github.com/Signal-Trade-Core/weather-prediction-bot",
+      "first_seen": "2026-05-31",
+      "has_summary": false,
+      "topics": [
+        "polymarket-bot",
+        "polymarket-trading-bot",
+        "polymarket-weather-trading-bot",
+        "trading-bot",
+        "weather-bot",
+        "weather-prediction"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

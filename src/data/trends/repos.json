@@ -12712,7 +12712,7 @@
     },
     "firecrawl/firecrawl": {
       "full_name": "firecrawl/firecrawl",
-      "description": "🔥 Search, scrape, and clean the web for AI agents.",
+      "description": "The API to search, scrape, and interact with the web at scale. 🔥",
       "language": "TypeScript",
       "url": "https://github.com/firecrawl/firecrawl",
       "first_seen": "2026-05-17",
@@ -16376,7 +16376,7 @@
     },
     "open-gsd/gsd-core": {
       "full_name": "open-gsd/gsd-core",
-      "description": "Getting Shit Done, the Aftermath",
+      "description": "Git. Ship. Done - Core",
       "language": "JavaScript",
       "url": "https://github.com/open-gsd/gsd-core",
       "first_seen": "2026-05-29",
@@ -16724,6 +16724,74 @@
       "topics": [],
       "category": "Other",
       "version": "v0.4.0"
+    },
+    "AprilNEA/OpenLogi": {
+      "full_name": "AprilNEA/OpenLogi",
+      "description": "⚡️A native, local-first alternative to Logitech Options+, written in Rust 🦀 — remap buttons, DPI, and SmartShift over HID++. No account, no telemetry.",
+      "language": "Rust",
+      "url": "https://github.com/AprilNEA/OpenLogi",
+      "first_seen": "2026-05-31",
+      "has_summary": false,
+      "topics": [
+        "dpi",
+        "gpui",
+        "hid",
+        "hidpp",
+        "local-first",
+        "logitech",
+        "logitech-mouse",
+        "logitech-options",
+        "mouse-remapping",
+        "mx-master",
+        "privacy",
+        "rust",
+        "smartshift"
+      ],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "007FirstLight/007-First-Light-Release": {
+      "full_name": "007FirstLight/007-First-Light-Release",
+      "description": "007 first light release date game free download early access  gameplay windows review ps5 steam epic games pc xbox nintendo swtich 2 github ",
+      "language": "C++",
+      "url": "https://github.com/007FirstLight/007-First-Light-Release",
+      "first_seen": "2026-05-31",
+      "has_summary": false,
+      "topics": [
+        "007-the-first-light",
+        "007firstlight",
+        "007firstlight-desktop",
+        "007firstlight-download",
+        "007firstlight-early-access",
+        "007firstlight-embargo",
+        "007firstlight-epicgames",
+        "007firstlight-free",
+        "007firstlight-free-download",
+        "007firstlight-game",
+        "007firstlight-github",
+        "007firstlight-install",
+        "007firstlight-pc",
+        "007firstlight-ps5",
+        "007firstlight-release",
+        "007firstlight-release-date",
+        "007firstlight-steam",
+        "007firstlight-xbox",
+        "first-light-007-review",
+        "steam-007firstlight"
+      ],
+      "category": "Other",
+      "version": "Game"
+    },
+    "paraschopra/make-pages-interactive": {
+      "full_name": "paraschopra/make-pages-interactive",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/paraschopra/make-pages-interactive",
+      "first_seen": "2026-05-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

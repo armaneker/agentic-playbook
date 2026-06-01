@@ -17098,6 +17098,57 @@
       ],
       "category": "DevTools",
       "version": "CLAUDE-CODE"
+    },
+    "liyue-aigc/female-portrait-director": {
+      "full_name": "liyue-aigc/female-portrait-director",
+      "description": "A modular Codex Skill for directing and expanding detailed AI female portrait prompts.",
+      "language": "Unknown",
+      "url": "https://github.com/liyue-aigc/female-portrait-director",
+      "first_seen": "2026-06-01",
+      "has_summary": false,
+      "topics": [
+        "ai-image-generation",
+        "codex",
+        "codex-skill",
+        "open-source",
+        "prompt-engineering"
+      ],
+      "category": "AI / ML",
+      "version": "v1.4.0"
+    },
+    "jdevalk/specification.website": {
+      "full_name": "jdevalk/specification.website",
+      "description": "Website specification — HTML, accessibility, security, SEO, agent-readiness. Platform-agnostic, sourced, MIT.",
+      "language": "TypeScript",
+      "url": "https://github.com/jdevalk/specification.website",
+      "first_seen": "2026-06-01",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "agent-readiness",
+        "astro",
+        "cloudflare-pages",
+        "llms-txt",
+        "mcp",
+        "seo",
+        "specification",
+        "web-security",
+        "web-standards",
+        "well-known"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "QwenLM/Qwen-VLA": {
+      "full_name": "QwenLM/Qwen-VLA",
+      "description": "The official repository of Qwen-VLA",
+      "language": "Unknown",
+      "url": "https://github.com/QwenLM/Qwen-VLA",
+      "first_seen": "2026-06-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

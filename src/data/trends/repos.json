@@ -16813,13 +16813,20 @@
     },
     "VibeBench/VibeSearchBench": {
       "full_name": "VibeBench/VibeSearchBench",
-      "description": "",
+      "description": "🔍 The hardest search benchmark in the wild — vague, multi-turn, proactive. 200 long-horizon tasks with persona-driven progressive disclosure, scored by verifiable schema-free knowledge-graph evaluation. No vibes, just triplet F1.",
       "language": "Python",
       "url": "https://github.com/VibeBench/VibeSearchBench",
       "first_seen": "2026-05-31",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "agentic-ai",
+        "benchmark",
+        "llm",
+        "proactive-agent",
+        "search",
+        "search-agent"
+      ],
+      "category": "AI / ML",
       "version": null
     },
     "pewdiepie-archdaemon/odysseus": {
@@ -16932,6 +16939,32 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "HeroicLauncher/HeroicGamesLauncher": {
+      "full_name": "HeroicLauncher/HeroicGamesLauncher",
+      "description": "heroic games launcher Download github pc heroicgameslauncher steam epic games gog amazon prime gaming nile legendary open source windows 11 ",
+      "language": "TypeScript",
+      "url": "https://github.com/HeroicLauncher/HeroicGamesLauncher",
+      "first_seen": "2026-06-01",
+      "has_summary": false,
+      "topics": [
+        "amazon-prime",
+        "epic-games-launcher",
+        "epic-games-store",
+        "epic-store",
+        "gog",
+        "gog-galaxy",
+        "gtk",
+        "gtk4",
+        "heroic-game-launcher",
+        "heroic-games-launcher",
+        "heroicgames",
+        "heroicgameslauncher",
+        "heroiclauncher",
+        "play-games"
+      ],
+      "category": "Other",
+      "version": "heroic-launcher"
     }
   }
 }

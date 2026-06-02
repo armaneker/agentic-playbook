@@ -16241,7 +16241,7 @@
         "self-evolving-agents"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.1.0"
     },
     "helloianneo/ian-xiaohei-illustrations": {
       "full_name": "helloianneo/ian-xiaohei-illustrations",
@@ -17586,6 +17586,17 @@
       ],
       "category": "Agentic",
       "version": "v0.2.1"
+    },
+    "b-nnett/goose": {
+      "full_name": "b-nnett/goose",
+      "description": "Goose Swift proof-of-concept README",
+      "language": "Rust",
+      "url": "https://github.com/b-nnett/goose",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

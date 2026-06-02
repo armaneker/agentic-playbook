@@ -17319,6 +17319,193 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Gloridust/WechatOnCloud": {
+      "full_name": "Gloridust/WechatOnCloud",
+      "description": "云微WOC，云微信，自由连接",
+      "language": "TypeScript",
+      "url": "https://github.com/Gloridust/WechatOnCloud",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.1"
+    },
+    "ikeda042/PhenoPixel": {
+      "full_name": "ikeda042/PhenoPixel",
+      "description": "PhenoPixel: A web application for single-cell microscopy image analysis (deployed at Hiroshima University).",
+      "language": "TypeScript",
+      "url": "https://github.com/ikeda042/PhenoPixel",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [
+        "bacteria",
+        "bioinformatics-pipeline",
+        "cell-analysis",
+        "cell-contour",
+        "fastapi",
+        "fluorescence-microscopy-imaging",
+        "microbiology",
+        "nikon-nd2",
+        "opencv",
+        "react",
+        "single-cell-analysis"
+      ],
+      "category": "Web Framework",
+      "version": "v0.1.0"
+    },
+    "actuallyaridan/linux-devmgmt": {
+      "full_name": "actuallyaridan/linux-devmgmt",
+      "description": "A faithful recreation of the Windows Device Manager built with Qt6 and real hardware backends via sysfs/procfs. Best enjoyed with AeroThemePlasma, but looks great on regular KDE as well.",
+      "language": "C++",
+      "url": "https://github.com/actuallyaridan/linux-devmgmt",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [
+        "aerothemeplasma",
+        "device-management",
+        "device-manager",
+        "devmgmt",
+        "kde",
+        "linux",
+        "qt6",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v2.0"
+    },
+    "polymaxi2/polymarket-arbitrage-trading-bot": {
+      "full_name": "polymaxi2/polymarket-arbitrage-trading-bot",
+      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot polymarket trading bot",
+      "language": "Unknown",
+      "url": "https://github.com/polymaxi2/polymarket-arbitrage-trading-bot",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [
+        "15min",
+        "5min",
+        "ai",
+        "arbitrage",
+        "arbitragebot",
+        "bot",
+        "btc",
+        "polymarket",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-bot",
+        "polymarket-trading-bot",
+        "trading",
+        "tradingbot"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "BoundingBoxSoftware/CharacterController": {
+      "full_name": "BoundingBoxSoftware/CharacterController",
+      "description": "A character controller for Unity that covers many edge cases.",
+      "language": "C#",
+      "url": "https://github.com/BoundingBoxSoftware/CharacterController",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "cellinlab/how-pi-agent-works": {
+      "full_name": "cellinlab/how-pi-agent-works",
+      "description": "Pi Agent 原理与实现",
+      "language": "Unknown",
+      "url": "https://github.com/cellinlab/how-pi-agent-works",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "pi"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "qiuqiubuchongle-cloud/chokepoint-atlas": {
+      "full_name": "qiuqiubuchongle-cloud/chokepoint-atlas",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/qiuqiubuchongle-cloud/chokepoint-atlas",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "bonus-2026/crypto-casino-bonus": {
+      "full_name": "bonus-2026/crypto-casino-bonus",
+      "description": "Explore the best Crypto Casino Bonus - including no deposit welcome bonuses. Learn about Bitcoin casino rewards, free spins, cashback offers, crypto payments, mobile gaming, and responsible online casino promotions.",
+      "language": "Unknown",
+      "url": "https://github.com/bonus-2026/crypto-casino-bonus",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "next-1688/1688-common-html-report-generator": {
+      "full_name": "next-1688/1688-common-html-report-generator",
+      "description": "将文本数据报告快速转换为交互式可视化HTML网页。使用 Python 代码驱动预置模板，只需编写数据配置即可自动生成专业数据看板。适用于市场分析报告、运营数据复盘、行业调研报告、销售数据汇总等场景。触发词：生成HTML报告、生成网页报告、转成可视化网页、做成数据看板、数据可视化、生成HTML看板。",
+      "language": "Python",
+      "url": "https://github.com/next-1688/1688-common-html-report-generator",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "leochlon/ntkmirror": {
+      "full_name": "leochlon/ntkmirror",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/leochlon/ntkmirror",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "butterbase-ai/butterbase": {
+      "full_name": "butterbase-ai/butterbase",
+      "description": "Open-source backend-as-a-service. Postgres, auth, storage, functions, AI gateway, MCP.",
+      "language": "TypeScript",
+      "url": "https://github.com/butterbase-ai/butterbase",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [
+        "baas",
+        "backend-as-a-service",
+        "mcp",
+        "open-source",
+        "postgres",
+        "supabase-alternative",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "PredictiveFlow-Labs/polymarket-btc-5min-15min-up-down-arbitrage-bot": {
+      "full_name": "PredictiveFlow-Labs/polymarket-btc-5min-15min-up-down-arbitrage-bot",
+      "description": "polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot polymarket arbitrage bot ",
+      "language": "TypeScript",
+      "url": "https://github.com/PredictiveFlow-Labs/polymarket-btc-5min-15min-up-down-arbitrage-bot",
+      "first_seen": "2026-06-02",
+      "has_summary": false,
+      "topics": [
+        "polymarket-5min-15min-market-bot",
+        "polymarket-5min-bot",
+        "polymarket-arbitrage-bot",
+        "polymarket-arbitrage-trading-bot",
+        "polymarket-bt",
+        "polymarket-btc-arbitrage-bot",
+        "polymarket-trading-bot"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

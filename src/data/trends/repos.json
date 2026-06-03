@@ -11945,7 +11945,7 @@
     },
     "simonlin1212/a-stock-data": {
       "full_name": "simonlin1212/a-stock-data",
-      "description": "A股全栈数据工具包 — 7层架构 · 28端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants",
+      "description": "A股全栈数据工具包 — 7层架构 · 27端点 · 13数据源 · 零第三方依赖 | Full-stack China A-Share data toolkit for AI coding assistants",
       "language": "Unknown",
       "url": "https://github.com/simonlin1212/a-stock-data",
       "first_seen": "2026-05-13",
@@ -17760,6 +17760,27 @@
         "vram"
       ],
       "category": "Other",
+      "version": null
+    },
+    "cpaczek/skylight": {
+      "full_name": "cpaczek/skylight",
+      "description": "Project the aircraft passing overhead onto your ceiling in real time, from an RTL-SDR — with a live sky layer (sun, moon, stars, ISS) and where each plane is headed.",
+      "language": "TypeScript",
+      "url": "https://github.com/cpaczek/skylight",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [
+        "ads-b",
+        "aircraft",
+        "art-installation",
+        "flight-tracker",
+        "projector",
+        "raspberry-pi",
+        "react",
+        "rtl-sdr",
+        "typescript"
+      ],
+      "category": "Web Framework",
       "version": null
     }
   }

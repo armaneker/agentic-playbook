@@ -17597,6 +17597,127 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "zgwl/chinese-buy-us-stock-guide": {
+      "full_name": "zgwl/chinese-buy-us-stock-guide",
+      "description": "美股指南",
+      "language": "Unknown",
+      "url": "https://github.com/zgwl/chinese-buy-us-stock-guide",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "JuneYaooo/nihaisha-tcm": {
+      "full_name": "JuneYaooo/nihaisha-tcm",
+      "description": "倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 |  An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing.",
+      "language": "Python",
+      "url": "https://github.com/JuneYaooo/nihaisha-tcm",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [
+        "acupuncture",
+        "agent-skills",
+        "claude-code-skills",
+        "codex-skill",
+        "nihaisha",
+        "nihaixia",
+        "shennong",
+        "tcm",
+        "tcmcp",
+        "traditional-chinese-medicine",
+        "traditional-chinese-medicine-healthcare"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "ProxyShard/ShardBrowser": {
+      "full_name": "ProxyShard/ShardBrowser",
+      "description": "Free, open-source anti-detect browser launcher for web scraping and multi-accounting. By the ProxyShard team. Engine-level fingerprint spoofing in Chromium 148 (WebGL / WebGPU / Client Hints / fonts / TLS), 170+ device profiles bundled, stable QUIC + WebRTC over SOCKS5.",
+      "language": "TypeScript",
+      "url": "https://github.com/ProxyShard/ShardBrowser",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "anti-detect-browser",
+        "antidetect-browser",
+        "browser-fingerprinting",
+        "chromium",
+        "fingerprint",
+        "headless-browser",
+        "headless-chrome",
+        "multi-accounting",
+        "playwright",
+        "proxy",
+        "proxyshard",
+        "puppeteer",
+        "quic",
+        "stealth-browser",
+        "tauri",
+        "udp",
+        "web-scraping",
+        "webrtc",
+        "webscraping"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.3"
+    },
+    "VAST-AI-Research/TripoSplat": {
+      "full_name": "VAST-AI-Research/TripoSplat",
+      "description": "TripoSplat converts a single 2D image into high-quality and variable number of 3D Gaussians, developed by TripoAI.",
+      "language": "Python",
+      "url": "https://github.com/VAST-AI-Research/TripoSplat",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "WUBING2023/ExamPass-Assistant": {
+      "full_name": "WUBING2023/ExamPass-Assistant",
+      "description": "把课堂讲义变成考试利器 一键将 PPT、Word、PDF 课件转化为结构清晰的知识清单和交互式测试题，让复习事半功倍。 适用人群：大学生、各个阶段老师、其他需要对付短期考试的朋友",
+      "language": "Python",
+      "url": "https://github.com/WUBING2023/ExamPass-Assistant",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "microsoft/AI-Engineering-Coach": {
+      "full_name": "microsoft/AI-Engineering-Coach",
+      "description": "better agentic engineering",
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/AI-Engineering-Coach",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "avaturn-live/avtr-1": {
+      "full_name": "avaturn-live/avtr-1",
+      "description": "AVTR-1: Avatars that listen back",
+      "language": "Python",
+      "url": "https://github.com/avaturn-live/avtr-1",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "workos/auth.md": {
+      "full_name": "workos/auth.md",
+      "description": "An open protocol that lets agents register for services on behalf of users — discoverable through a Markdown file at your domain.",
+      "language": "TypeScript",
+      "url": "https://github.com/workos/auth.md",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -17729,6 +17729,38 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "SenhorH/tab-labeler": {
+      "full_name": "SenhorH/tab-labeler",
+      "description": "Rename browser tabs locally and bring order to chaotic sessions.",
+      "language": "TypeScript",
+      "url": "https://github.com/SenhorH/tab-labeler",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "c0deJedi/nbd-vram": {
+      "full_name": "c0deJedi/nbd-vram",
+      "description": "Use your NVIDIA GPU's VRAM as swap space on Linux. Built for laptops with soldered memory and no upgrade path. If you have an RTX card sitting there with 8GB of VRAM and you're getting swapped to SSD, this puts that VRAM to work",
+      "language": "Shell",
+      "url": "https://github.com/c0deJedi/nbd-vram",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [
+        "cuda",
+        "gpu",
+        "laptop",
+        "linux",
+        "memory",
+        "nbd",
+        "nvidia",
+        "swap",
+        "vram"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

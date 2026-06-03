@@ -1233,7 +1233,7 @@
     },
     "ollama/ollama": {
       "full_name": "ollama/ollama",
-      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "url": "https://github.com/ollama/ollama",
       "first_seen": "2026-03-22",
@@ -17713,6 +17713,17 @@
       "description": "An open protocol that lets agents register for services on behalf of users — discoverable through a Markdown file at your domain.",
       "language": "TypeScript",
       "url": "https://github.com/workos/auth.md",
+      "first_seen": "2026-06-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tiantianGPU/reg-factory": {
+      "full_name": "tiantianGPU/reg-factory",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/tiantianGPU/reg-factory",
       "first_seen": "2026-06-03",
       "has_summary": false,
       "topics": [],

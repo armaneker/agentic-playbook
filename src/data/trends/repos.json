@@ -17782,6 +17782,92 @@
       ],
       "category": "Web Framework",
       "version": null
+    },
+    "ideogram-oss/ideogram4": {
+      "full_name": "ideogram-oss/ideogram4",
+      "description": "Ideogram 4: Open image model at the forefront of design",
+      "language": "Python",
+      "url": "https://github.com/ideogram-oss/ideogram4",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "bytedance/Bernini": {
+      "full_name": "bytedance/Bernini",
+      "description": "Bernini is a unified framework for video generation and editing that combines an MLLM-based semantic planner with a DiT-based renderer.",
+      "language": "Python",
+      "url": "https://github.com/bytedance/Bernini",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [
+        "image-editing",
+        "image-generation",
+        "video-editing",
+        "video-generation"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "S-Sigdel/vimhjkl": {
+      "full_name": "S-Sigdel/vimhjkl",
+      "description": "learn vim from your terminal with spaced repetition",
+      "language": "Python",
+      "url": "https://github.com/S-Sigdel/vimhjkl",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "jd-opensource/JoyAI-Echo": {
+      "full_name": "jd-opensource/JoyAI-Echo",
+      "description": "JoyAI-Echo: Pushing the Frontier of Long Audio-Visual Generation",
+      "language": "Python",
+      "url": "https://github.com/jd-opensource/JoyAI-Echo",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "BarneyD66/open-warehouse-system": {
+      "full_name": "BarneyD66/open-warehouse-system",
+      "description": "Chinese-first open-source WMS starter for cross-border warehouse, fulfillment, inventory, billing, returns, and 3PL operations.",
+      "language": "TypeScript",
+      "url": "https://github.com/BarneyD66/open-warehouse-system",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "microsoft/coreutils": {
+      "full_name": "microsoft/coreutils",
+      "description": "Coreutils for Windows: Installer & Packaging",
+      "language": "Rust",
+      "url": "https://github.com/microsoft/coreutils",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [
+        "command-line-tool",
+        "coreutils",
+        "gnu-coreutils"
+      ],
+      "category": "Other",
+      "version": "v2026.5.29"
+    },
+    "unicity-astrid/sdk-js": {
+      "full_name": "unicity-astrid/sdk-js",
+      "description": "JavaScript / TypeScript SDK for building Astrid OS capsules. Companion to unicity-astrid/sdk-rust.",
+      "language": "TypeScript",
+      "url": "https://github.com/unicity-astrid/sdk-js",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
     }
   }
 }

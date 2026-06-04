@@ -17868,6 +17868,25 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.0"
+    },
+    "tastyeffectco/sandboxes": {
+      "full_name": "tastyeffectco/sandboxes",
+      "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
+      "language": "Go",
+      "url": "https://github.com/tastyeffectco/sandboxes",
+      "first_seen": "2026-06-04",
+      "has_summary": false,
+      "topics": [
+        "dev-environment",
+        "docker",
+        "isolation",
+        "preview",
+        "preview-environment",
+        "sandbox",
+        "self-hosted"
+      ],
+      "category": "DevTools",
+      "version": null
     }
   }
 }

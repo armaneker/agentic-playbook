@@ -16836,7 +16836,7 @@
     "pewdiepie-archdaemon/odysseus": {
       "full_name": "pewdiepie-archdaemon/odysseus",
       "description": "Self-hosted AI workspace. ",
-      "language": "JavaScript",
+      "language": "Python",
       "url": "https://github.com/pewdiepie-archdaemon/odysseus",
       "first_seen": "2026-05-31",
       "has_summary": false,
@@ -17924,6 +17924,121 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "Mochocyang/QMAI": {
+      "full_name": "Mochocyang/QMAI",
+      "description": "青幕AI写作软件，解决长篇小说写作问题，解决小说角色性格不统一，防止人设崩坏。",
+      "language": "TypeScript",
+      "url": "https://github.com/Mochocyang/QMAI",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.1.0"
+    },
+    "PentesterFlow/agent": {
+      "full_name": "PentesterFlow/agent",
+      "description": "Agentic offensive-security in your terminal",
+      "language": "TypeScript",
+      "url": "https://github.com/PentesterFlow/agent",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "bugbounty",
+        "penetration-testing",
+        "security-audit",
+        "security-automation"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.6"
+    },
+    "OnlyTerp/UltraCode-Shim": {
+      "full_name": "OnlyTerp/UltraCode-Shim",
+      "description": "Give Claude Code's ultracode mode to ANY model you already pay for. A tiny local proxy + one config.json. Point your AI at AGENTS.md and it sets itself up.",
+      "language": "Python",
+      "url": "https://github.com/OnlyTerp/UltraCode-Shim",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "r14dd/patent": {
+      "full_name": "r14dd/patent",
+      "description": "A prior-art search for your code ideas. Stop building what already exists.",
+      "language": "Rust",
+      "url": "https://github.com/r14dd/patent",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "developer-tools",
+        "ollama",
+        "rust",
+        "search",
+        "tui"
+      ],
+      "category": "DevTools",
+      "version": "v0.2.0"
+    },
+    "johnbean393/KeyType": {
+      "full_name": "johnbean393/KeyType",
+      "description": "An open-source Cotypist with macOS system wide AI autocomplete",
+      "language": "Swift",
+      "url": "https://github.com/johnbean393/KeyType",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-autocomplete",
+        "autocomplete",
+        "completions",
+        "cotabby",
+        "cotypist",
+        "gemma4",
+        "llm",
+        "macos",
+        "qwen3-5"
+      ],
+      "category": "AI / ML",
+      "version": "v1.4.0"
+    },
+    "vannyben7/course-learning-workspace": {
+      "full_name": "vannyben7/course-learning-workspace",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/vannyben7/course-learning-workspace",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "anthropics/defending-code-reference-harness": {
+      "full_name": "anthropics/defending-code-reference-harness",
+      "description": "Skills for threat modeling, scanning, triage, patching, plus an autonomous scanning harness you can /customize",
+      "language": "Python",
+      "url": "https://github.com/anthropics/defending-code-reference-harness",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "security"
+      ],
+      "category": "Security",
+      "version": null
+    },
+    "do-md/domd": {
+      "full_name": "do-md/domd",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/do-md/domd",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.2"
     }
   }
 }

@@ -15129,7 +15129,7 @@
     },
     "MoonshotAI/kimi-code": {
       "full_name": "MoonshotAI/kimi-code",
-      "description": "The Starting Point for Next-Gen Agents",
+      "description": "Kimi Code CLI  —  The Starting Point for Next-Gen Agents",
       "language": "TypeScript",
       "url": "https://github.com/MoonshotAI/kimi-code",
       "first_seen": "2026-05-25",
@@ -17518,8 +17518,21 @@
       "url": "https://github.com/ClaudioDrews/memory-os",
       "first_seen": "2026-06-02",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai-memory",
+        "context-injection",
+        "docker",
+        "ground-truth",
+        "hermes-agent",
+        "local-first",
+        "open-source",
+        "persistent-memory",
+        "qdrant",
+        "rag",
+        "self-hosted",
+        "vector-database"
+      ],
+      "category": "AI / ML",
       "version": null
     },
     "yb2460/harness-anything": {
@@ -18039,6 +18052,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.2"
+    },
+    "Fullive-AI/Anima": {
+      "full_name": "Fullive-AI/Anima",
+      "description": "Make Every Hardware Intelligent — an open-source Agent OS for hardware intelligence",
+      "language": "Python",
+      "url": "https://github.com/Fullive-AI/Anima",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

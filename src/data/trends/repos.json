@@ -17537,7 +17537,7 @@
     },
     "yb2460/harness-anything": {
       "full_name": "yb2460/harness-anything",
-      "description": "CLI harness for WPS Office -- let AI agents control Writer, Calc & Impress via COM automation",
+      "description": "Harness Anything - AI agent control hub: WPS, MS Office, Zotero, Photoshop, 47 CLI commands, 27 academic skills, SVG-to-PPTX",
       "language": "Python",
       "url": "https://github.com/yb2460/harness-anything",
       "first_seen": "2026-06-02",
@@ -18061,6 +18061,97 @@
       "first_seen": "2026-06-05",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ConiferKit/sage": {
+      "full_name": "ConiferKit/sage",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/ConiferKit/sage",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "desktop-v1.0.7"
+    },
+    "Jane-xiaoer/xiaoer-videolab": {
+      "full_name": "Jane-xiaoer/xiaoer-videolab",
+      "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
+      "language": "Python",
+      "url": "https://github.com/Jane-xiaoer/xiaoer-videolab",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "bilibili",
+        "chrome-extension",
+        "launchd",
+        "macos",
+        "manifest-v3",
+        "privacy-friendly",
+        "video-downloader",
+        "youtube-dl",
+        "yt-dlp"
+      ],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "chaitanyagiri/munder-difflin": {
+      "full_name": "chaitanyagiri/munder-difflin",
+      "description": "local multi-agent harness",
+      "language": "TypeScript",
+      "url": "https://github.com/chaitanyagiri/munder-difflin",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "claude-code",
+        "free",
+        "harness",
+        "harness-engineering",
+        "memory"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.8"
+    },
+    "alibaba/open-code-review": {
+      "full_name": "alibaba/open-code-review",
+      "description": "Battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in fine-tuned ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
+      "language": "Go",
+      "url": "https://github.com/alibaba/open-code-review",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "code-review",
+        "code-review-assistant",
+        "harness",
+        "repository-level-context"
+      ],
+      "category": "Agentic",
+      "version": "v1.1.20"
+    },
+    "JuneYaooo/nihaisha-nishi-tcm": {
+      "full_name": "JuneYaooo/nihaisha-nishi-tcm",
+      "description": "倪海厦中医课程资料的 Agent Skill：支持课程检索、方证穴位辨析、学习笔记整理与板书截图证据索引。 |  An Agent Skill for Ni Haisha TCM course study, formula-pattern lookup, acupoint reference, and screenshot evidence indexing.",
+      "language": "Python",
+      "url": "https://github.com/JuneYaooo/nihaisha-nishi-tcm",
+      "first_seen": "2026-06-05",
+      "has_summary": false,
+      "topics": [
+        "acupuncture",
+        "agent-skills",
+        "claude-code-skills",
+        "codex-skill",
+        "nihaisha",
+        "nihaixia",
+        "nishi",
+        "shennong",
+        "tcm",
+        "tcmcp",
+        "traditional-chinese-medicine",
+        "traditional-chinese-medicine-healthcare"
+      ],
       "category": "Other",
       "version": null
     }

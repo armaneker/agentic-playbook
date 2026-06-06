@@ -18264,6 +18264,22 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "zenhosta/9drive": {
+      "full_name": "zenhosta/9drive",
+      "description": "9Drive is a storage gateway web app for connecting multiple Google Drive accounts into one virtual storage dashboard. Users can connect Google Drive accounts, track quota, upload files, organize files with virtual folders, preview files, and let the backend route uploads to the Drive account with enough free space.",
+      "language": "TypeScript",
+      "url": "https://github.com/zenhosta/9drive",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [
+        "drive",
+        "gateway",
+        "google",
+        "storage"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

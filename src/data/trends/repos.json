@@ -18078,7 +18078,7 @@
     "Jane-xiaoer/xiaoer-videolab": {
       "full_name": "Jane-xiaoer/xiaoer-videolab",
       "description": "One click on the toolbar grabs the current page's video into ~/Downloads — local yt-dlp daemon, 1800+ sites. 小耳抓视频：一键把当前页视频抓到本地。",
-      "language": "Python",
+      "language": "JavaScript",
       "url": "https://github.com/Jane-xiaoer/xiaoer-videolab",
       "first_seen": "2026-06-05",
       "has_summary": false,
@@ -18154,6 +18154,72 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "marekkowalczyk/breathe-cli": {
+      "full_name": "marekkowalczyk/breathe-cli",
+      "description": "Paced resonance breathing in your terminal",
+      "language": "Python",
+      "url": "https://github.com/marekkowalczyk/breathe-cli",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [
+        "biofeedback",
+        "breathing",
+        "cli",
+        "health",
+        "heart-failure",
+        "heart-rate-variability",
+        "hrv",
+        "macos",
+        "resonance-breathing",
+        "terminal",
+        "vagal-tone"
+      ],
+      "category": "DevTools",
+      "version": "v1.9"
+    },
+    "MisoLabsAI/MisoTTS": {
+      "full_name": "MisoLabsAI/MisoTTS",
+      "description": "Miso TTS is an 8 billion, highly emotive text-to-speech model",
+      "language": "Python",
+      "url": "https://github.com/MisoLabsAI/MisoTTS",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Yeachan-Heo/gajae-code": {
+      "full_name": "Yeachan-Heo/gajae-code",
+      "description": "Gajae Code MVP",
+      "language": "TypeScript",
+      "url": "https://github.com/Yeachan-Heo/gajae-code",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.2"
+    },
+    "freestyle-voice/freestyle": {
+      "full_name": "freestyle-voice/freestyle",
+      "description": "Voice-to-text dictation app. Local first, free, and open source. ",
+      "language": "TypeScript",
+      "url": "https://github.com/freestyle-voice/freestyle",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [
+        "dictation",
+        "elevenlabs",
+        "parakeet",
+        "speech-to-text",
+        "transcribe",
+        "transcription",
+        "voice-to-text",
+        "whisper",
+        "wispr-flow-alternative"
+      ],
+      "category": "Other",
+      "version": "0.1.6"
     }
   }
 }

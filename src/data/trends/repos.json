@@ -17905,7 +17905,7 @@
         "self-hosted"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.1.0"
     },
     "V0id-v2/Void-Tools-v2.0": {
       "full_name": "V0id-v2/Void-Tools-v2.0",
@@ -18220,6 +18220,39 @@
       ],
       "category": "Other",
       "version": "0.1.6"
+    },
+    "duncatzat/vigils": {
+      "full_name": "duncatzat/vigils",
+      "description": "A local control plane for AI agents — see what they do, approve what matters, keep secrets out. Rust + Tauri + Chrome MV3.",
+      "language": "Rust",
+      "url": "https://github.com/duncatzat/vigils",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [
+        "agent-security",
+        "ai-agents",
+        "audit-log",
+        "desktop",
+        "llm",
+        "local-first",
+        "pii",
+        "rust",
+        "sandbox",
+        "tauri"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.15"
+    },
+    "jeff141/meatshell": {
+      "full_name": "jeff141/meatshell",
+      "description": "一个轻量级、低内存占用的 SSH / 终端客户端（A lightweight, low-memory SSH / terminal client）",
+      "language": "Rust",
+      "url": "https://github.com/jeff141/meatshell",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.3"
     }
   }
 }

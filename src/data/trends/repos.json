@@ -17337,7 +17337,7 @@
     },
     "ikeda042/PhenoPixel": {
       "full_name": "ikeda042/PhenoPixel",
-      "description": "PhenoPixel: A web application for single-cell microscopy image analysis (deployed at Hiroshima University).",
+      "description": "PhenoPixel: A web-based bioimage analysis platform for bacterial single-cell microscopy analytics.",
       "language": "TypeScript",
       "url": "https://github.com/ikeda042/PhenoPixel",
       "first_seen": "2026-06-02",
@@ -17745,7 +17745,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "1.0"
     },
     "SenhorH/tab-labeler": {
       "full_name": "SenhorH/tab-labeler",
@@ -18253,6 +18253,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.3"
+    },
+    "zzzhhh1/free-nodes": {
+      "full_name": "zzzhhh1/free-nodes",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/zzzhhh1/free-nodes",
+      "first_seen": "2026-06-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -18372,6 +18372,37 @@
       ],
       "category": "DevTools",
       "version": null
+    },
+    "nevertoday/zhongguo-traditional-colors": {
+      "full_name": "nevertoday/zhongguo-traditional-colors",
+      "description": "中华传统色演示、色卡浏览与颜色知识科普开源项目",
+      "language": "JavaScript",
+      "url": "https://github.com/nevertoday/zhongguo-traditional-colors",
+      "first_seen": "2026-06-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "razr001/align-dev": {
+      "full_name": "razr001/align-dev",
+      "description": "AlignDev helps AI-assisted frontend teams generate shared coding standards and SKILL.md so Claude Code, Codex, Cursor, Copilot, and other agents write consistently.",
+      "language": "TypeScript",
+      "url": "https://github.com/razr001/align-dev",
+      "first_seen": "2026-06-07",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "claude-code",
+        "codex",
+        "copilot",
+        "cursor",
+        "fronted",
+        "nextjs",
+        "skills"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

@@ -18403,6 +18403,28 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "tastyeffectco/sandboxd": {
+      "full_name": "tastyeffectco/sandboxd",
+      "description": "Self-hosted dev sandboxes with preview URLs. One command. No Kubernetes, perfect for coding agents and Saas factories",
+      "language": "Go",
+      "url": "https://github.com/tastyeffectco/sandboxd",
+      "first_seen": "2026-06-07",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agent",
+        "dev-environment",
+        "docker",
+        "isolation",
+        "pinokio",
+        "preview",
+        "preview-environment",
+        "sandbox",
+        "self-hosted"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
     }
   }
 }

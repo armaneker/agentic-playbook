@@ -5050,7 +5050,7 @@
     },
     "ultraworkers/claw-code": {
       "full_name": "ultraworkers/claw-code",
-      "description": "The repo is finally unlocked. enjoy the party! The fastest repo in history to surpass 100K stars ⭐. Join Discord: https://discord.gg/5TUQKqFWd Built in Rust using oh-my-codex.",
+      "description": "An agent-managed museum exhibit, built in Rust with Gajae-Code / LazyCodex — developed and maintained with no human intervention.",
       "language": "Rust",
       "url": "https://github.com/ultraworkers/claw-code",
       "first_seen": "2026-04-02",
@@ -18480,7 +18480,7 @@
     },
     "YuvBindal/produck-oss": {
       "full_name": "YuvBindal/produck-oss",
-      "description": "Testing if this quacks",
+      "description": "Great apps are built on good context",
       "language": "Unknown",
       "url": "https://github.com/YuvBindal/produck-oss",
       "first_seen": "2026-06-08",
@@ -18619,6 +18619,17 @@
       ],
       "category": "Data",
       "version": "v0.8.0"
+    },
+    "rednote-hilab/dots.tts": {
+      "full_name": "rednote-hilab/dots.tts",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/rednote-hilab/dots.tts",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

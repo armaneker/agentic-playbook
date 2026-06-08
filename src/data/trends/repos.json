@@ -18425,6 +18425,200 @@
       ],
       "category": "Agentic",
       "version": "v0.1.0"
+    },
+    "amElnagdy/guard-skills": {
+      "full_name": "amElnagdy/guard-skills",
+      "description": "Guard skills for coding agents, quality gates that catch AI-generated failure modes in code, tests, and docs",
+      "language": "Unknown",
+      "url": "https://github.com/amElnagdy/guard-skills",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai",
+        "claude",
+        "claude-code",
+        "code-review",
+        "codex",
+        "skills-sh",
+        "woocommerce",
+        "wordpress"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "JimLiu/baoyu-design": {
+      "full_name": "JimLiu/baoyu-design",
+      "description": "Run Claude Design locally as an Agent Skill — Cursor, Claude Code & more. Produce polished UI mockups, prototypes, decks & wireframes as self-contained HTML, without claude.ai/design. Best with Opus 4.8.",
+      "language": "JavaScript",
+      "url": "https://github.com/JimLiu/baoyu-design",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "cursor",
+        "design",
+        "prototyping",
+        "ui-design"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "NoopApp/noop": {
+      "full_name": "NoopApp/noop",
+      "description": "Offline WHOOP companion — pair your strap over Bluetooth, keep all data on your own device. No cloud, no account, no subscription.",
+      "language": "Swift",
+      "url": "https://github.com/NoopApp/noop",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2"
+    },
+    "YuvBindal/produck-oss": {
+      "full_name": "YuvBindal/produck-oss",
+      "description": "Testing if this quacks",
+      "language": "Unknown",
+      "url": "https://github.com/YuvBindal/produck-oss",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Parcle-AI/parcle-memory": {
+      "full_name": "Parcle-AI/parcle-memory",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/Parcle-AI/parcle-memory",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "torvalds/ScrollWheel": {
+      "full_name": "torvalds/ScrollWheel",
+      "description": "Minimalist RP2350 magnetic sensor scroll wheel toy project",
+      "language": "C",
+      "url": "https://github.com/torvalds/ScrollWheel",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mysk-research/loupe": {
+      "full_name": "mysk-research/loupe",
+      "description": "A privacy-focused iOS app that raises awareness about what native apps can see",
+      "language": "Unknown",
+      "url": "https://github.com/mysk-research/loupe",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zarazhangrui/beautiful-feishu-whiteboard": {
+      "full_name": "zarazhangrui/beautiful-feishu-whiteboard",
+      "description": "35 curated colour palette styles for building beautiful, editable Feishu / Lark (飞书) whiteboards. An agent skill.",
+      "language": "Shell",
+      "url": "https://github.com/zarazhangrui/beautiful-feishu-whiteboard",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Albert-Weasker/niubi_guard": {
+      "full_name": "Albert-Weasker/niubi_guard",
+      "description": "Open-source GitHub repository abuse detection and response system.",
+      "language": "TypeScript",
+      "url": "https://github.com/Albert-Weasker/niubi_guard",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [
+        "abuse-detection",
+        "cli",
+        "github",
+        "moderation",
+        "nextjs",
+        "open-source",
+        "security",
+        "spam-detection",
+        "typescript"
+      ],
+      "category": "Security",
+      "version": "v0.1.0"
+    },
+    "zonghaoyuan/infiplot": {
+      "full_name": "zonghaoyuan/infiplot",
+      "description": "InfiPlot is the world's first interactive plot game that AI generates all text and images in real-time. InfiPlot是全球首个由 AI 实时生成全部图文内容的交互式剧情游戏",
+      "language": "TypeScript",
+      "url": "https://github.com/zonghaoyuan/infiplot",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "openai/role-specific-plugins": {
+      "full_name": "openai/role-specific-plugins",
+      "description": "Role-specific Codex plugin templates",
+      "language": "Python",
+      "url": "https://github.com/openai/role-specific-plugins",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nexu-io/html-video": {
+      "full_name": "nexu-io/html-video",
+      "description": "Programmatic video for coding agents — HTML to video on your laptop. Turn HTML, CSS & data into real MP4s with pluggable render engines, 21 templates, AI soundtrack. Apache-2.0, no per-render fees. An official project by the Open Design team.",
+      "language": "HTML",
+      "url": "https://github.com/nexu-io/html-video",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "apache-2",
+        "coding-agent",
+        "css",
+        "ffmpeg",
+        "html",
+        "html-to-video",
+        "hyperframes",
+        "mp4",
+        "open-design",
+        "open-source",
+        "programmatic-video",
+        "video",
+        "video-as-code",
+        "video-generation"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "opengeos/GeoLibre": {
+      "full_name": "opengeos/GeoLibre",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data across desktop, mobile, and web environments.",
+      "language": "TypeScript",
+      "url": "https://github.com/opengeos/GeoLibre",
+      "first_seen": "2026-06-08",
+      "has_summary": false,
+      "topics": [
+        "data-science",
+        "geospatial",
+        "maplibre",
+        "maplibre-gl-js",
+        "tauri-app"
+      ],
+      "category": "Data",
+      "version": "v0.8.0"
     }
   }
 }

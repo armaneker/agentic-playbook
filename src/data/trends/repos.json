@@ -18753,6 +18753,28 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "xiaohuailabs/xiaohu-video-translate": {
+      "full_name": "xiaohuailabs/xiaohu-video-translate",
+      "description": "对 AI 说一句话，把外语视频自动配上中文字幕 —— 下载/转写/翻译/润色/烧录一条龙，全程本地，转写零 API 费",
+      "language": "Python",
+      "url": "https://github.com/xiaohuailabs/xiaohu-video-translate",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "wizenheimer/canary": {
+      "full_name": "wizenheimer/canary",
+      "description": "QA harness built for Claude Code | E2E testing with screen recordings, console logs, network HARs, and Playwright traces",
+      "language": "TypeScript",
+      "url": "https://github.com/wizenheimer/canary",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

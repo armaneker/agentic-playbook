@@ -18775,6 +18775,37 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "react/react": {
+      "full_name": "react/react",
+      "description": "The library for web and native user interfaces.",
+      "language": "JavaScript",
+      "url": "https://github.com/react/react",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [
+        "declarative",
+        "frontend",
+        "javascript",
+        "library",
+        "react",
+        "ui"
+      ],
+      "category": "Web Framework",
+      "version": "v19.2.7"
+    },
+    "Tencent-Hunyuan/UniRL": {
+      "full_name": "Tencent-Hunyuan/UniRL",
+      "description": "UniRL is a Framework for Unified Multimodal Model Reinforcement Learning",
+      "language": "Python",
+      "url": "https://github.com/Tencent-Hunyuan/UniRL",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [
+        "reinforcement-learning"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

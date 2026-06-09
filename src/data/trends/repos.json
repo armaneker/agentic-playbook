@@ -13713,8 +13713,8 @@
     },
     "vercel-labs/zerolang": {
       "full_name": "vercel-labs/zerolang",
-      "description": "The programming language for agents",
-      "language": "C",
+      "description": "The Programming Language for Agents",
+      "language": "C++",
       "url": "https://github.com/vercel-labs/zerolang",
       "first_seen": "2026-05-20",
       "has_summary": false,
@@ -18605,7 +18605,7 @@
     },
     "opengeos/GeoLibre": {
       "full_name": "opengeos/GeoLibre",
-      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data across desktop, mobile, and web environments.",
+      "description": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data across desktop and web environments, with a responsive layout for mobile screens.",
       "language": "TypeScript",
       "url": "https://github.com/opengeos/GeoLibre",
       "first_seen": "2026-06-08",
@@ -18652,6 +18652,106 @@
       "topics": [],
       "category": "Other",
       "version": "v0.9.6-rc.1"
+    },
+    "diffusionstudio/lottie": {
+      "full_name": "diffusionstudio/lottie",
+      "description": "Open-source skill and harness for generating production ready Lottie animations with codex/claude code",
+      "language": "TypeScript",
+      "url": "https://github.com/diffusionstudio/lottie",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "AI / ML",
+      "version": null
+    },
+    "Unicornronote/Microsoft-Office-Activated": {
+      "full_name": "Unicornronote/Microsoft-Office-Activated",
+      "description": "📊 Microsoft Office Professional Edition — Complete Productivity & Document Management Suite for Windows (2026)",
+      "language": "C++",
+      "url": "https://github.com/Unicornronote/Microsoft-Office-Activated",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [
+        "free-office",
+        "microsoft-365-free",
+        "microsoft-365-pro",
+        "microsoft-office",
+        "microsoft-office-365-activator",
+        "microsoft-office-365-product-key-generator",
+        "microsoft-suite",
+        "windows-10-pro-activator-kms"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "superloglabs/superlog": {
+      "full_name": "superloglabs/superlog",
+      "description": "Open-source observability tool that fixes your bugs",
+      "language": "TypeScript",
+      "url": "https://github.com/superloglabs/superlog",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "llm",
+        "memory",
+        "observability",
+        "opentelemetry",
+        "react",
+        "skills",
+        "typescript"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "vorpus/performativeUI": {
+      "full_name": "vorpus/performativeUI",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/vorpus/performativeUI",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "IvanSobolev/Neo3dEngine": {
+      "full_name": "IvanSobolev/Neo3dEngine",
+      "description": "A minimalist CPU-based 3D console engine in C# (.NET 8) built from scratch. Features Raycasting/Raytracing, dynamic lighting & shadows, .obj loader, and custom TCP-based multiplayer with real-time chat. No external graphics APIs.",
+      "language": "C#",
+      "url": "https://github.com/IvanSobolev/Neo3dEngine",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [
+        "3d-engine",
+        "console-app",
+        "csharp",
+        "custom-network-protocol",
+        "dotnet",
+        "game-engine",
+        "game-engine-3d",
+        "multiplayer",
+        "raycasting",
+        "raycasting-engine",
+        "tcp-socket"
+      ],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "hieunc229/mailflare": {
+      "full_name": "hieunc229/mailflare",
+      "description": "Email client with custom domain based on Cloudflare",
+      "language": "TypeScript",
+      "url": "https://github.com/hieunc229/mailflare",
+      "first_seen": "2026-06-09",
+      "has_summary": false,
+      "topics": [
+        "cloudflare",
+        "cloudflare-workers",
+        "email"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

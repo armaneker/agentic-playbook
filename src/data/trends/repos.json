@@ -18686,7 +18686,7 @@
     },
     "superloglabs/superlog": {
       "full_name": "superloglabs/superlog",
-      "description": "Open-source observability tool that fixes your bugs",
+      "description": "Open-source observability tool that uses AI agents to self-heal your software",
       "language": "TypeScript",
       "url": "https://github.com/superloglabs/superlog",
       "first_seen": "2026-06-09",
@@ -18698,6 +18698,7 @@
         "observability",
         "opentelemetry",
         "react",
+        "self-hosted",
         "skills",
         "typescript"
       ],

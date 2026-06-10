@@ -18655,7 +18655,7 @@
     },
     "diffusionstudio/lottie": {
       "full_name": "diffusionstudio/lottie",
-      "description": "Open-source skill and harness for generating production ready Lottie animations with codex/claude code",
+      "description": "Generate production-ready Lottie animations with Claude Code or Codex",
       "language": "TypeScript",
       "url": "https://github.com/diffusionstudio/lottie",
       "first_seen": "2026-06-09",
@@ -18909,6 +18909,39 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "ziqihe10-droid/xuefeng-agent": {
+      "full_name": "ziqihe10-droid/xuefeng-agent",
+      "description": "AI 高考志愿顾问 — 会追问、会分析、敢说真话",
+      "language": "Python",
+      "url": "https://github.com/ziqihe10-droid/xuefeng-agent",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "Health-Yang/MineEcho": {
+      "full_name": "Health-Yang/MineEcho",
+      "description": "Local-first Memory OS for personal AI assistants with L0-L3 memory, Wiki++ knowledge, skill routing, and TokenLess context compression.",
+      "language": "TypeScript",
+      "url": "https://github.com/Health-Yang/MineEcho",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "ai-assistant",
+        "knowledge-graph",
+        "local-first",
+        "memory",
+        "openclaw",
+        "personal-ai",
+        "rag",
+        "skills",
+        "typescript"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

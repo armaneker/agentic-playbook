@@ -18806,6 +18806,99 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "apple/coreai-models": {
+      "full_name": "apple/coreai-models",
+      "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
+      "language": "Python",
+      "url": "https://github.com/apple/coreai-models",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "JFGAtlas/aethergate-pro": {
+      "full_name": "JFGAtlas/aethergate-pro",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/JFGAtlas/aethergate-pro",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "hoolulu/deep-research": {
+      "full_name": "hoolulu/deep-research",
+      "description": "深度调研报告生成 Skill — 一个命令，十分钟，多语言，一份深度专业的调研报告 / Professional deep research report generation Skill · Supports 19 languages",
+      "language": "Python",
+      "url": "https://github.com/hoolulu/deep-research",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v4.2.0"
+    },
+    "jmmy9609-design/gpt-pp": {
+      "full_name": "jmmy9609-design/gpt-pp",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/jmmy9609-design/gpt-pp",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "AI / ML",
+      "version": "gpt-pp.0.1.1"
+    },
+    "tryproduck/produck-oss": {
+      "full_name": "tryproduck/produck-oss",
+      "description": "Helping startups accelerate PMF",
+      "language": "Unknown",
+      "url": "https://github.com/tryproduck/produck-oss",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "deeplethe/forkd": {
+      "full_name": "deeplethe/forkd",
+      "description": "Fork() for AI agent microVMs. Spawn 100 children in ~100ms from a warm parent; BRANCH a live VM in ~150ms. KVM-isolated, snapshot CoW.",
+      "language": "Rust",
+      "url": "https://github.com/deeplethe/forkd",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "copy-on-write",
+        "kvm",
+        "microvm",
+        "rust",
+        "sandbox",
+        "snapshot"
+      ],
+      "category": "Agentic",
+      "version": "v0.5.2"
+    },
+    "huawei-csl/KVarN": {
+      "full_name": "huawei-csl/KVarN",
+      "description": "KVarN is a native vLLM KV-cache quantization backend for your agents: 3-5x more context, throughput above FP16, and FP16-level accuracy. Calibration-free, one flag.",
+      "language": "Python",
+      "url": "https://github.com/huawei-csl/KVarN",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "kv-cache",
+        "llm",
+        "llm-inference",
+        "long-context",
+        "quantization",
+        "vllm"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

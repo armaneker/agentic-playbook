@@ -18492,7 +18492,7 @@
     "Parcle-AI/parcle-memory": {
       "full_name": "Parcle-AI/parcle-memory",
       "description": "",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/Parcle-AI/parcle-memory",
       "first_seen": "2026-06-08",
       "has_summary": false,
@@ -18612,6 +18612,7 @@
       "has_summary": false,
       "topics": [
         "data-science",
+        "duckdb",
         "geospatial",
         "maplibre",
         "maplibre-gl-js",
@@ -18943,6 +18944,39 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "shadcn/improve": {
+      "full_name": "shadcn/improve",
+      "description": "Use your most capable model to audit your codebase and write plans for cheaper models to execute.",
+      "language": "Unknown",
+      "url": "https://github.com/shadcn/improve",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "secret-tools/secret-tool": {
+      "full_name": "secret-tools/secret-tool",
+      "description": "Secret-Tools — classified discord utilities. Star the repo.",
+      "language": "Unknown",
+      "url": "https://github.com/secret-tools/secret-tool",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "KunAgent/Kun": {
+      "full_name": "KunAgent/Kun",
+      "description": "AI agent workspace for DeepSeek models, with Code and Claw modes built into your application.",
+      "language": "TypeScript",
+      "url": "https://github.com/KunAgent/Kun",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.2.8"
     }
   }
 }

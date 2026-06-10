@@ -18899,6 +18899,17 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "MSNightmare/RoguePlanet": {
+      "full_name": "MSNightmare/RoguePlanet",
+      "description": "RoguePlanet Windows Defender Vulnerability",
+      "language": "C++",
+      "url": "https://github.com/MSNightmare/RoguePlanet",
+      "first_seen": "2026-06-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

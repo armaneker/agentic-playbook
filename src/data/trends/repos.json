@@ -19018,6 +19018,39 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "jwangkun/claude-for-financial-services-cn": {
+      "full_name": "jwangkun/claude-for-financial-services-cn",
+      "description": " 63 个 Claude Skills，为 A 股金融从业者而生  基于 Anthropic 官方 claude-for-financial-services 深度适配国内市场，现已开源。",
+      "language": "Python",
+      "url": "https://github.com/jwangkun/claude-for-financial-services-cn",
+      "first_seen": "2026-06-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yux1azhengye/BestSerenitySkillFromAT": {
+      "full_name": "yux1azhengye/BestSerenitySkillFromAT",
+      "description": "BestSerenityFromAT(AlphaTerminal On The Way)",
+      "language": "Unknown",
+      "url": "https://github.com/yux1azhengye/BestSerenitySkillFromAT",
+      "first_seen": "2026-06-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "NuvioMedia/NuvioDesktop": {
+      "full_name": "NuvioMedia/NuvioDesktop",
+      "description": "",
+      "language": "Kotlin",
+      "url": "https://github.com/NuvioMedia/NuvioDesktop",
+      "first_seen": "2026-06-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

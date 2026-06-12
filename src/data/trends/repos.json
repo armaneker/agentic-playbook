@@ -514,7 +514,7 @@
     "microsoft/PowerToys": {
       "full_name": "microsoft/PowerToys",
       "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
-      "language": "C#",
+      "language": "C",
       "url": "https://github.com/microsoft/PowerToys",
       "first_seen": "2026-03-22",
       "has_summary": true,
@@ -19054,6 +19054,115 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "MSNightmare/GreatXML": {
+      "full_name": "MSNightmare/GreatXML",
+      "description": "GreatXML bitlocker bypass vulnerability",
+      "language": "Unknown",
+      "url": "https://github.com/MSNightmare/GreatXML",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "beijingcao/binance-deribit-btc": {
+      "full_name": "beijingcao/binance-deribit-btc",
+      "description": "Binance and Deribit BTC cross-exchange arbitrage bot with Redis state recovery, Telegram alerts, and a Flask monitoring dashboard.",
+      "language": "Python",
+      "url": "https://github.com/beijingcao/binance-deribit-btc",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [
+        "arbitrage",
+        "binance",
+        "btc",
+        "deribit",
+        "flask",
+        "redis",
+        "telegram",
+        "trading-bot"
+      ],
+      "category": "Database",
+      "version": null
+    },
+    "valkor-ai/loom": {
+      "full_name": "valkor-ai/loom",
+      "description": "Loop engineering for agentic software delivery.",
+      "language": "TypeScript",
+      "url": "https://github.com/valkor-ai/loom",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "XBuilderLAB/cheat-on-money": {
+      "full_name": "XBuilderLAB/cheat-on-money",
+      "description": "AI 时代靠谱兼职发现 + 反诈验证 skill：需求信号反推 + 实时时效核查 + 反诈 rubric + 个性化校准环",
+      "language": "JavaScript",
+      "url": "https://github.com/XBuilderLAB/cheat-on-money",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lbq110/weread-exporter": {
+      "full_name": "lbq110/weread-exporter",
+      "description": "微信读书全本导出工具 — Playwright + Canvas Hook 提取完整书籍内容为 Markdown",
+      "language": "Python",
+      "url": "https://github.com/lbq110/weread-exporter",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Mobile",
+      "version": null
+    },
+    "TwoSevenOneT/EDRChoker": {
+      "full_name": "TwoSevenOneT/EDRChoker",
+      "description": "A tool uses the QoS Policy (Pacer.sys) to throttle Endpoint Detection and Response (EDR) agents from connecting to the server.",
+      "language": "C#",
+      "url": "https://github.com/TwoSevenOneT/EDRChoker",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "main"
+    },
+    "haaarshsingh/loomix": {
+      "full_name": "haaarshsingh/loomix",
+      "description": "Drop-in video player component",
+      "language": "TypeScript",
+      "url": "https://github.com/haaarshsingh/loomix",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [
+        "hls",
+        "html5-video",
+        "media-player",
+        "mp4",
+        "react",
+        "shadcn",
+        "streaming",
+        "ui",
+        "video",
+        "webm",
+        "youtube"
+      ],
+      "category": "Web Framework",
+      "version": "v1.0.0"
+    },
+    "harborstremio/harbor": {
+      "full_name": "harborstremio/harbor",
+      "description": "A Custom Stremio Client Built for Adventure!",
+      "language": "TypeScript",
+      "url": "https://github.com/harborstremio/harbor",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.9.5"
     }
   }
 }

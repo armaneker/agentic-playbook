@@ -19228,6 +19228,42 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "plannotator/effective-html": {
+      "full_name": "plannotator/effective-html",
+      "description": "Agent skill for elegant and simple html plans, architecture diagrams, or whatever else you can think of.",
+      "language": "HTML",
+      "url": "https://github.com/plannotator/effective-html",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "skills"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "levy-street/world-of-claudecraft": {
+      "full_name": "levy-street/world-of-claudecraft",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/levy-street/world-of-claudecraft",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "trailer-v01"
+    },
+    "Danilaa1/slot-text": {
+      "full_name": "Danilaa1/slot-text",
+      "description": "Dependency-free text roll animation for vanilla JS, React, and Vue.",
+      "language": "TypeScript",
+      "url": "https://github.com/Danilaa1/slot-text",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

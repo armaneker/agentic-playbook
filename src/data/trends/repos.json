@@ -19196,6 +19196,38 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "khrisat/text-humanizer": {
+      "full_name": "khrisat/text-humanizer",
+      "description": "Advanced open-source AI humanizer designed to make AI-generated text undetectable by Turnitin, GPTZero, and other AI detection services.",
+      "language": "Python",
+      "url": "https://github.com/khrisat/text-humanizer",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [
+        "ai-detection",
+        "ai-detection-bypasser",
+        "ai-humanizer",
+        "humanizer",
+        "humanizer-ai",
+        "humanizer-de",
+        "text-humanizer"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "SkyBlue997/enableMacosAI": {
+      "full_name": "SkyBlue997/enableMacosAI",
+      "description": "国行 Mac 一键开启完整 Apple 智能(端侧 + Private Cloud Compute 云端)· macOS 27 / Apple Silicon",
+      "language": "Shell",
+      "url": "https://github.com/SkyBlue997/enableMacosAI",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [
+        "apple-intelligence"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

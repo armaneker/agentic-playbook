@@ -18972,7 +18972,7 @@
     },
     "KunAgent/Kun": {
       "full_name": "KunAgent/Kun",
-      "description": "AI agent workspace for DeepSeek models, with Code and Claw modes built into your application.",
+      "description": "AI agent workspace with Code and Write modes built into your application.",
       "language": "TypeScript",
       "url": "https://github.com/KunAgent/Kun",
       "first_seen": "2026-06-10",
@@ -19163,6 +19163,39 @@
       "topics": [],
       "category": "Other",
       "version": "v0.9.5"
+    },
+    "DietrichGebert/ponytail": {
+      "full_name": "DietrichGebert/ponytail",
+      "description": "Makes your AI agent think like the laziest senior dev in the room. The best code is the code you never wrote.",
+      "language": "JavaScript",
+      "url": "https://github.com/DietrichGebert/ponytail",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "cursor-rules",
+        "developer-tools",
+        "llm",
+        "prompt-engineering",
+        "yagni"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "joeseesun/qiaomu-goal-meta-skill": {
+      "full_name": "joeseesun/qiaomu-goal-meta-skill",
+      "description": "Turn vague or complex Codex tasks into strong `/goal` commands with outcome, verification, constraints, boundaries, iteration policy, completion evide",
+      "language": "Python",
+      "url": "https://github.com/joeseesun/qiaomu-goal-meta-skill",
+      "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

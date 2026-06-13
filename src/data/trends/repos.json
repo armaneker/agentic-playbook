@@ -19348,6 +19348,23 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "eli-labz/Third-Eye": {
+      "full_name": "eli-labz/Third-Eye",
+      "description": "A production-grade OSINT platform that provides situational awareness across multiple intelligence domains.",
+      "language": "TypeScript",
+      "url": "https://github.com/eli-labz/Third-Eye",
+      "first_seen": "2026-06-13",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agent",
+        "geospatial",
+        "maven-smart-system",
+        "palantir"
+      ],
+      "category": "Agentic",
+      "version": "Third-Eye"
     }
   }
 }

@@ -18814,7 +18814,7 @@
     "apple/coreai-models": {
       "full_name": "apple/coreai-models",
       "description": "Model export recipes, Python primitives, and Swift runtime utilities for on-device AI",
-      "language": "Python",
+      "language": "Swift",
       "url": "https://github.com/apple/coreai-models",
       "first_seen": "2026-06-10",
       "has_summary": false,
@@ -19260,6 +19260,35 @@
       "language": "TypeScript",
       "url": "https://github.com/Danilaa1/slot-text",
       "first_seen": "2026-06-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "coder/boo": {
+      "full_name": "coder/boo",
+      "description": "A GNU screen style terminal multiplexer built on libghostty.",
+      "language": "Zig",
+      "url": "https://github.com/coder/boo",
+      "first_seen": "2026-06-13",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "coding",
+        "ghostty",
+        "multiplexer",
+        "screen",
+        "terminal"
+      ],
+      "category": "AI / ML",
+      "version": "v0.5.15"
+    },
+    "dsta022/lerobot-rgb-rgbd-vla-dataset-toolkit": {
+      "full_name": "dsta022/lerobot-rgb-rgbd-vla-dataset-toolkit",
+      "description": "Toolkit for collecting, merging, auditing, visualizing, and publishing RGB/RGB-D LeRobot VLA datasets.",
+      "language": "Python",
+      "url": "https://github.com/dsta022/lerobot-rgb-rgbd-vla-dataset-toolkit",
+      "first_seen": "2026-06-13",
       "has_summary": false,
       "topics": [],
       "category": "Other",

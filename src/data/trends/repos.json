@@ -19293,6 +19293,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "lenucksi/aur-malware-check": {
+      "full_name": "lenucksi/aur-malware-check",
+      "description": "Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.",
+      "language": "Shell",
+      "url": "https://github.com/lenucksi/aur-malware-check",
+      "first_seen": "2026-06-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "inbrainfun/inbrain": {
+      "full_name": "inbrainfun/inbrain",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/inbrainfun/inbrain",
+      "first_seen": "2026-06-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

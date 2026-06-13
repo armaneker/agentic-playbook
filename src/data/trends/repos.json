@@ -19315,6 +19315,39 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "alchaincyf/fanbox": {
+      "full_name": "alchaincyf/fanbox",
+      "description": "vibe coding 的驾驶舱：左边文件，右边/下边终端，中间看清每一次改动。 / The cockpit for vibe coding: browse files on the left, command agents on the right, watch every change in between.",
+      "language": "JavaScript",
+      "url": "https://github.com/alchaincyf/fanbox",
+      "first_seen": "2026-06-13",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "claude",
+        "codex",
+        "electron",
+        "file-manager",
+        "local-first",
+        "macos",
+        "terminal",
+        "vibe-coding"
+      ],
+      "category": "Agentic",
+      "version": "v1.9.1"
+    },
+    "orange2ai/renwei-writing": {
+      "full_name": "orange2ai/renwei-writing",
+      "description": "人味儿写作 · An AI agent skill: edit people's words without erasing the person behind them",
+      "language": "Unknown",
+      "url": "https://github.com/orange2ai/renwei-writing",
+      "first_seen": "2026-06-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

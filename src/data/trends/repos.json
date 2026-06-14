@@ -17738,7 +17738,7 @@
     },
     "tiantianGPU/reg-factory": {
       "full_name": "tiantianGPU/reg-factory",
-      "description": "",
+      "description": "谷歌邮箱注册",
       "language": "Python",
       "url": "https://github.com/tiantianGPU/reg-factory",
       "first_seen": "2026-06-03",
@@ -19365,6 +19365,39 @@
       ],
       "category": "Agentic",
       "version": "Third-Eye"
+    },
+    "omnigent-ai/omnigent": {
+      "full_name": "omnigent-ai/omnigent",
+      "description": "A meta-harness for all your AI agents.  Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting, keep them in check with policies and sandboxing, and collaborate in real time on the same live session, from any device.",
+      "language": "Python",
+      "url": "https://github.com/omnigent-ai/omnigent",
+      "first_seen": "2026-06-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "DanMcInerney/architect-loop": {
+      "full_name": "DanMcInerney/architect-loop",
+      "description": "Claude Fable 5 as architect, GPT-5.5 Codex as builder, the repo as memory - a research-backed Claude Code skill for the cross-vendor agent loop",
+      "language": "HTML",
+      "url": "https://github.com/DanMcInerney/architect-loop",
+      "first_seen": "2026-06-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "andrewmccalip/kickbacks.ai": {
+      "full_name": "andrewmccalip/kickbacks.ai",
+      "description": "Get paid for waiting. The most-watched line on Earth now has a market. Kickbacks turns AI wait states into one sponsored status line, and users get 50% of ad revenue.",
+      "language": "TypeScript",
+      "url": "https://github.com/andrewmccalip/kickbacks.ai",
+      "first_seen": "2026-06-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

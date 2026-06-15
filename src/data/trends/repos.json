@@ -19430,6 +19430,103 @@
       ],
       "category": "AI / ML",
       "version": "v0.3.6"
+    },
+    "tamnd/kage": {
+      "full_name": "tamnd/kage",
+      "description": "Shadow any website for offline viewing, with the JavaScript stripped out",
+      "language": "Go",
+      "url": "https://github.com/tamnd/kage",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "EEliberto/IPA-Download": {
+      "full_name": "EEliberto/IPA-Download",
+      "description": "一款用于安装 IPA 历史版本的工具，适用于获取旧版应用并自动捕获数据包。下载后，可直接通过 AirDrop 传输至 iPhone、iPad 上并安装并使用。",
+      "language": "Swift",
+      "url": "https://github.com/EEliberto/IPA-Download",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "Pastel2"
+    },
+    "mrtooher/fable-mode": {
+      "full_name": "mrtooher/fable-mode",
+      "description": "A Claude skill that activates Fable-style agentic behavior: explicit multi-stage planning, sub-agent delegation, and self-verification.",
+      "language": "Unknown",
+      "url": "https://github.com/mrtooher/fable-mode",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "BuilderIO/skills": {
+      "full_name": "BuilderIO/skills",
+      "description": "Skills for coding agents",
+      "language": "JavaScript",
+      "url": "https://github.com/BuilderIO/skills",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [
+        "skills"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "visa/visa-vulnerability-agentic-harness": {
+      "full_name": "visa/visa-vulnerability-agentic-harness",
+      "description": "Visa Vulnerability Agentic Harness",
+      "language": "Python",
+      "url": "https://github.com/visa/visa-vulnerability-agentic-harness",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "nolangz/pixel2motion": {
+      "full_name": "nolangz/pixel2motion",
+      "description": "AI logo animation skill: turn raster logos into smooth SVG animation, animated HTML demos, GIF/video previews, and motion QA evidence.",
+      "language": "Python",
+      "url": "https://github.com/nolangz/pixel2motion",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [
+        "ai-design-tools",
+        "animated-logo",
+        "brand-motion",
+        "claude-skill",
+        "codex-skill",
+        "html-animation",
+        "logo-animation",
+        "logo-motion",
+        "logo-reveal",
+        "motion-design",
+        "pixel-to-svg",
+        "raster-to-svg",
+        "svg-animation",
+        "svg-motion",
+        "vector-animation"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "gajus/zod-compiler": {
+      "full_name": "gajus/zod-compiler",
+      "description": "Compile Zod schemas into zero-overhead validation functions at build time. Works with Vite, webpack, esbuild, Rollup, etc",
+      "language": "TypeScript",
+      "url": "https://github.com/gajus/zod-compiler",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [
+        "zod"
+      ],
+      "category": "Language",
+      "version": "v1.9.4"
     }
   }
 }

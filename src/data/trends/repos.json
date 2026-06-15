@@ -18663,7 +18663,7 @@
       "has_summary": false,
       "topics": [],
       "category": "AI / ML",
-      "version": null
+      "version": "v1.0.0"
     },
     "Unicornronote/Microsoft-Office-Activated": {
       "full_name": "Unicornronote/Microsoft-Office-Activated",
@@ -19601,6 +19601,17 @@
       "description": "Experimentation projects with Anthropic's new Claude models (Fable 5 / Mythos)",
       "language": "TypeScript",
       "url": "https://github.com/pulkitxm/claude-directory",
+      "first_seen": "2026-06-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "duckbugio/flock": {
+      "full_name": "duckbugio/flock",
+      "description": "Autonomous AI dev-team bot",
+      "language": "Go",
+      "url": "https://github.com/duckbugio/flock",
       "first_seen": "2026-06-15",
       "has_summary": false,
       "topics": [],

@@ -19775,6 +19775,50 @@
       ],
       "category": "AI / ML",
       "version": "v0.1.1"
+    },
+    "microsoft/fastcontext": {
+      "full_name": "microsoft/fastcontext",
+      "description": "FastContext: Training Efficient Repository Explorer for Coding Agents",
+      "language": "Python",
+      "url": "https://github.com/microsoft/fastcontext",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [
+        "code-explorer",
+        "sub-agent"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "NotPBShaw/burner-agents": {
+      "full_name": "NotPBShaw/burner-agents",
+      "description": "A swarm of disposable agents for unattributable web interaction. The user never acts on the web directly, delegating instead to agents that are destroyed on completion, leaving nothing that leads back.",
+      "language": "Python",
+      "url": "https://github.com/NotPBShaw/burner-agents",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "autonomous-agents",
+        "browser-automation",
+        "disposable-agents",
+        "privacy",
+        "stealth-browser",
+        "web-automation"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "NO6KIKO/gorest-2d-animation-spritesheet-generator": {
+      "full_name": "NO6KIKO/gorest-2d-animation-spritesheet-generator",
+      "description": "Codex-assisted local 2D animation spritesheet generator and scene compositing workspace.",
+      "language": "TypeScript",
+      "url": "https://github.com/NO6KIKO/gorest-2d-animation-spritesheet-generator",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

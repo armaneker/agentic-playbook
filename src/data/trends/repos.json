@@ -19373,8 +19373,16 @@
       "url": "https://github.com/omnigent-ai/omnigent",
       "first_seen": "2026-06-14",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "developer-tools",
+        "llm",
+        "ml",
+        "python"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "DanMcInerney/architect-loop": {
@@ -19726,6 +19734,47 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "alchaincyf/loop-engineering-orange-book": {
+      "full_name": "alchaincyf/loop-engineering-orange-book",
+      "description": "别再问我什么是 Loop Engineering — 橙皮书系列。A plain-language guide to loop engineering (中文 + English PDF). Free.",
+      "language": "Unknown",
+      "url": "https://github.com/alchaincyf/loop-engineering-orange-book",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "fguzman82/gateGPT": {
+      "full_name": "fguzman82/gateGPT",
+      "description": "Full Transformer into a custom chip. microGPT in RTL, generating names on a Virtex-5 FPGA at ~56k tokens/second.",
+      "language": "Verilog",
+      "url": "https://github.com/fguzman82/gateGPT",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "TestSprite/testsprite-cli": {
+      "full_name": "TestSprite/testsprite-cli",
+      "description": "Official TestSprite CLI — AI-powered automated testing from your terminal",
+      "language": "TypeScript",
+      "url": "https://github.com/TestSprite/testsprite-cli",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "cli",
+        "e2e-testing",
+        "playwright",
+        "qa",
+        "test-automation",
+        "testing"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.1"
     }
   }
 }

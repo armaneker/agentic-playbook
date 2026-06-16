@@ -19617,6 +19617,115 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "vorssaint/vorssaint-utils": {
+      "full_name": "vorssaint/vorssaint-utils",
+      "description": "",
+      "language": "Swift",
+      "url": "https://github.com/vorssaint/vorssaint-utils",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.14.0"
+    },
+    "SunJaycy/GoldenEye-Recomp": {
+      "full_name": "SunJaycy/GoldenEye-Recomp",
+      "description": "",
+      "language": "C++",
+      "url": "https://github.com/SunJaycy/GoldenEye-Recomp",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "Goldeneye"
+    },
+    "royalbhati/sqltoerdiagram": {
+      "full_name": "royalbhati/sqltoerdiagram",
+      "description": "ER diagram generator. Paste CREATE TABLE statements and get a clean, interactive ERD — runs 100% in your browser, nothing uploaded",
+      "language": "JavaScript",
+      "url": "https://github.com/royalbhati/sqltoerdiagram",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [
+        "data-modeling",
+        "database",
+        "database-schema",
+        "dbdiagram",
+        "dbml",
+        "developer-tools",
+        "diagram",
+        "entity-relationship-diagram",
+        "er-diagram",
+        "erd",
+        "mysql",
+        "open-source",
+        "postgresql",
+        "schema",
+        "sql",
+        "sql-parser",
+        "sqlite",
+        "vanilla-js",
+        "visualization",
+        "vite"
+      ],
+      "category": "Database",
+      "version": null
+    },
+    "LearnPrompt/luban-skill": {
+      "full_name": "LearnPrompt/luban-skill",
+      "description": "鲁班 | Luban — 把'能用的Skill'打磨成'能被装、能传播、能验证、能进化'的公共资产。Agent skill-polishing workshop: 验料·访行·过尺·慢刨·回炉",
+      "language": "Shell",
+      "url": "https://github.com/LearnPrompt/luban-skill",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "skydoves/compose-nav-graph": {
+      "full_name": "skydoves/compose-nav-graph",
+      "description": "⛵️ Compose Navigation Graph plugin for Android Studio that visualizes your entire app flow as an interactive map of rendered previews, typed arguments, and transitions.",
+      "language": "Kotlin",
+      "url": "https://github.com/skydoves/compose-nav-graph",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "compose",
+        "compose-multiplatform",
+        "jetpack-compose",
+        "jetpack-navigation",
+        "kmp",
+        "kotlin-multiplatform",
+        "navigation",
+        "navigation3",
+        "skydoves"
+      ],
+      "category": "Mobile",
+      "version": "0.1.1"
+    },
+    "learnwithu/mingli-master": {
+      "full_name": "learnwithu/mingli-master",
+      "description": "紫微斗数命盘解读 skill · 基于 iztro-py 精确排盘，生成可视化命盘 HTML",
+      "language": "Python",
+      "url": "https://github.com/learnwithu/mingli-master",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MiniMax-AI/MSA": {
+      "full_name": "MiniMax-AI/MSA",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/MiniMax-AI/MSA",
+      "first_seen": "2026-06-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

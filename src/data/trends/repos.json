@@ -19989,6 +19989,44 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "Plaer1/junction": {
+      "full_name": "Plaer1/junction",
+      "description": "VS Code chat sidebar for local AI coding agents",
+      "language": "TypeScript",
+      "url": "https://github.com/Plaer1/junction",
+      "first_seen": "2026-06-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "dongshuyan/compass-skills": {
+      "full_name": "dongshuyan/compass-skills",
+      "description": "司南：个性化 AI 任务总控 Skills 系统 /COMPASS: Personal Alignment Skills OS for AI Agents",
+      "language": "Python",
+      "url": "https://github.com/dongshuyan/compass-skills",
+      "first_seen": "2026-06-17",
+      "has_summary": false,
+      "topics": [
+        "agent-memory",
+        "agent-skills",
+        "ai-agents",
+        "ai-coding-agent",
+        "claude-code",
+        "claude-skills",
+        "codex-skills",
+        "developer-tools",
+        "local-first",
+        "openai-codex",
+        "personal-ai",
+        "prompt-engineering",
+        "skill-md",
+        "task-management",
+        "workflow-automation"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.0"
     }
   }
 }

@@ -18983,13 +18983,19 @@
     },
     "XiaomiMiMo/MiMo-Code": {
       "full_name": "XiaomiMiMo/MiMo-Code",
-      "description": "",
+      "description": "MiMo Code: Where Models and Agents Co-Evolve",
       "language": "TypeScript",
       "url": "https://github.com/XiaomiMiMo/MiMo-Code",
       "first_seen": "2026-06-11",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "cli",
+        "mimo",
+        "mimo-code"
+      ],
+      "category": "Agentic",
       "version": "v0.1.0"
     },
     "archiveakatsukibasin/Windows-Activator": {
@@ -19368,19 +19374,28 @@
     },
     "omnigent-ai/omnigent": {
       "full_name": "omnigent-ai/omnigent",
-      "description": "A meta-harness for all your AI agents.  Omnigent provides a common layer over Claude Code, Codex, Pi, and the agents you write yourself: swap or combine harnesses without rewriting, keep them in check with policies and sandboxing, and collaborate in real time on the same live session, from any device.",
+      "description": "Omnigent is an open-source AI agent framework and meta-harness: orchestrate Claude Code, Codex, Cursor, Pi, and custom agents — swap harnesses without rewriting, enforce policies and sandboxing, and collaborate in real time from any device.",
       "language": "Python",
       "url": "https://github.com/omnigent-ai/omnigent",
       "first_seen": "2026-06-14",
       "has_summary": false,
       "topics": [
+        "agent-framework",
+        "agent-governance",
+        "agent-orchestration",
         "agents",
         "ai",
+        "ai-agent",
         "ai-agents",
+        "claude-code",
+        "codex",
+        "coding-agents",
         "developer-tools",
         "llm",
         "ml",
-        "python"
+        "multi-agent",
+        "python",
+        "sandbox"
       ],
       "category": "Agentic",
       "version": null
@@ -19628,7 +19643,7 @@
     },
     "vorssaint/vorssaint-utils": {
       "full_name": "vorssaint/vorssaint-utils",
-      "description": "",
+      "description": "Vorssaint macOS app",
       "language": "Swift",
       "url": "https://github.com/vorssaint/vorssaint-utils",
       "first_seen": "2026-06-16",
@@ -20027,6 +20042,45 @@
       ],
       "category": "Agentic",
       "version": "v0.2.0"
+    },
+    "vercel/eve": {
+      "full_name": "vercel/eve",
+      "description": "The Framework for Building Agents",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel/eve",
+      "first_seen": "2026-06-17",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "framework",
+        "harness",
+        "javascript",
+        "markdown",
+        "sandbox",
+        "typescript",
+        "vercel",
+        "workflows"
+      ],
+      "category": "Agentic",
+      "version": "eve@0.11.4"
+    },
+    "baskduf/FableCodex": {
+      "full_name": "baskduf/FableCodex",
+      "description": "🗿 FableCodex is a Codex-style coding agent workflow that plans like Fable.",
+      "language": "Python",
+      "url": "https://github.com/baskduf/FableCodex",
+      "first_seen": "2026-06-17",
+      "has_summary": false,
+      "topics": [
+        "codex",
+        "context-engineering",
+        "fable-5",
+        "prompt-engineering",
+        "skills",
+        "workflow"
+      ],
+      "category": "AI / ML",
+      "version": "v0.4.1"
     }
   }
 }

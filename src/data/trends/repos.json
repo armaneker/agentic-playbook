@@ -19643,13 +19643,30 @@
     },
     "vorssaint/vorssaint-utils": {
       "full_name": "vorssaint/vorssaint-utils",
-      "description": "Vorssaint macOS app",
+      "description": "Free open-source macOS menu bar toolkit: per-app volume mixer, system monitor, keep awake, window switcher (Alt Tab), shelf, app uninstaller, and much more.",
       "language": "Swift",
       "url": "https://github.com/vorssaint/vorssaint-utils",
       "first_seen": "2026-06-16",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "alt-tab",
+        "app-uninstaller",
+        "appkit",
+        "finder",
+        "free",
+        "keep-awake",
+        "mac-os",
+        "menu-bar",
+        "menubar",
+        "open-source",
+        "swift",
+        "swift-ui",
+        "system-monitor",
+        "uninstaller",
+        "volume-mixer",
+        "window-switcher"
+      ],
+      "category": "Mobile",
       "version": "v2.14.0"
     },
     "SunJaycy/GoldenEye-Recomp": {
@@ -19838,7 +19855,7 @@
     "fivetaku/fablize": {
       "full_name": "fivetaku/fablize",
       "description": "A Claude Code plugin that makes Opus behave like Fable — completion, evidence, and verification enforced as procedure. Ships only what a Fable-vs-Opus comparison proved transferable.",
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/fivetaku/fablize",
       "first_seen": "2026-06-17",
       "has_summary": false,
@@ -19852,7 +19869,7 @@
         "opus"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v2.1.0"
     },
     "Nanako0129/coralline": {
       "full_name": "Nanako0129/coralline",

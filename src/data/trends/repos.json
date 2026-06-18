@@ -20081,6 +20081,91 @@
       ],
       "category": "AI / ML",
       "version": "v0.4.1"
+    },
+    "mattpocock/skills": {
+      "full_name": "mattpocock/skills",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "language": "Shell",
+      "url": "https://github.com/mattpocock/skills",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "bjarneo/ku": {
+      "full_name": "bjarneo/ku",
+      "description": "A fast, keyboard-driven Kubernetes TUI. Browse any resource, edit objects, follow logs, and shell into pods. ",
+      "language": "Go",
+      "url": "https://github.com/bjarneo/ku",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [
+        "bubbletea",
+        "charmlibs",
+        "cli",
+        "client-go",
+        "devops",
+        "go",
+        "golang",
+        "k8s",
+        "k9s",
+        "kubectl",
+        "kubernetes",
+        "terminal",
+        "tui"
+      ],
+      "category": "DevTools",
+      "version": "v0.6.2"
+    },
+    "privatenumber/mac-ocr": {
+      "full_name": "privatenumber/mac-ocr",
+      "description": "macOS CLI for OCR and searchable PDFs using Apple's Vision framework.",
+      "language": "Swift",
+      "url": "https://github.com/privatenumber/mac-ocr",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [
+        "apple-vision",
+        "cli",
+        "command-line-tool",
+        "image-to-text",
+        "macos",
+        "nodejs",
+        "ocr",
+        "pdf",
+        "searchable-pdf",
+        "swift",
+        "text-recognition",
+        "vision-framework"
+      ],
+      "category": "Mobile",
+      "version": "v1.0.0"
+    },
+    "buynao/aipath": {
+      "full_name": "buynao/aipath",
+      "description": "Interactive AI General Education Course — 30 Lessons, Zero Math",
+      "language": "JavaScript",
+      "url": "https://github.com/buynao/aipath",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "machine-learning"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "athcagithub/SlideSmith": {
+      "full_name": "athcagithub/SlideSmith",
+      "description": "TikTok Slideshow Generator",
+      "language": "TypeScript",
+      "url": "https://github.com/athcagithub/SlideSmith",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

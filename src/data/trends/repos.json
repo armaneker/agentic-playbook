@@ -19655,7 +19655,7 @@
     "SunJaycy/GoldenEye-Recomp": {
       "full_name": "SunJaycy/GoldenEye-Recomp",
       "description": "",
-      "language": "C++",
+      "language": "C",
       "url": "https://github.com/SunJaycy/GoldenEye-Recomp",
       "first_seen": "2026-06-16",
       "has_summary": false,
@@ -20165,6 +20165,71 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "Waishnav/devspace": {
+      "full_name": "Waishnav/devspace",
+      "description": "Turn ChatGPT into Codex",
+      "language": "TypeScript",
+      "url": "https://github.com/Waishnav/devspace",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "rebel0789/codexpro": {
+      "full_name": "rebel0789/codexpro",
+      "description": "Use ChatGPT Developer Mode as a local coding agent for your repo through MCP.",
+      "language": "JavaScript",
+      "url": "https://github.com/rebel0789/codexpro",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [
+        "apps-sdk",
+        "chatgpt",
+        "cloudflare-tunnel",
+        "codex",
+        "local-development",
+        "mcp",
+        "ngrok"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "EpicGames/lore": {
+      "full_name": "EpicGames/lore",
+      "description": "Lore is a next-generation, open source revision control system",
+      "language": "Rust",
+      "url": "https://github.com/EpicGames/lore",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [
+        "open-source"
+      ],
+      "category": "Other",
+      "version": "v0.8.3"
+    },
+    "dzcmemory-web/bazi-ziwei-skill": {
+      "full_name": "dzcmemory-web/bazi-ziwei-skill",
+      "description": "AI 八字 + 紫微斗数排盘与综合印证 Skill：算法精准排盘（不靠 LLM 猜），三种分析模式，一键生成水墨风 HTML 命盘海报。兼容 Claude / Codex / Cursor / Workbuddy 等 SKILL.md Agent。",
+      "language": "TypeScript",
+      "url": "https://github.com/dzcmemory-web/bazi-ziwei-skill",
+      "first_seen": "2026-06-18",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "bazi",
+        "bazi-suanming",
+        "chinese-astrology",
+        "claude-skill",
+        "fortune-telling",
+        "metaphysics",
+        "skill-md",
+        "ziwei",
+        "ziwei-doushu"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

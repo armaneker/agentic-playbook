@@ -19398,7 +19398,7 @@
         "sandbox"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.2.0"
     },
     "DanMcInerney/architect-loop": {
       "full_name": "DanMcInerney/architect-loop",
@@ -20293,6 +20293,17 @@
         "vercel-connect"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "majidmanzarpour/threejs-game-skills": {
+      "full_name": "majidmanzarpour/threejs-game-skills",
+      "description": "Agent skills for building playable, polished Three.js browser games with gameplay, AAA-style graphics, UI, QA, and optional AI-generated 3D, image, and audio assets.",
+      "language": "Python",
+      "url": "https://github.com/majidmanzarpour/threejs-game-skills",
+      "first_seen": "2026-06-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

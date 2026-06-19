@@ -19643,7 +19643,7 @@
     },
     "vorssaint/vorssaint-utils": {
       "full_name": "vorssaint/vorssaint-utils",
-      "description": "Free open-source macOS menu bar toolkit: per-app volume mixer, system monitor, keep awake, window switcher (Alt Tab), shelf, app uninstaller, and much more.",
+      "description": "Free open-source macOS menu bar toolkit. Per-app volume mixer, system monitor, keep awake, window switcher (Alt Tab), shelf, app uninstaller, and much more.",
       "language": "Swift",
       "url": "https://github.com/vorssaint/vorssaint-utils",
       "first_seen": "2026-06-16",
@@ -20216,7 +20216,7 @@
     },
     "EpicGames/lore": {
       "full_name": "EpicGames/lore",
-      "description": "Lore is a next-generation, open source revision control system",
+      "description": "Lore is a next-generation, open source version control system",
       "language": "Rust",
       "url": "https://github.com/EpicGames/lore",
       "first_seen": "2026-06-18",
@@ -20245,6 +20245,52 @@
         "skill-md",
         "ziwei",
         "ziwei-doushu"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "ApothecarySeize/Maya-2026-Animation-Workflow": {
+      "full_name": "ApothecarySeize/Maya-2026-Animation-Workflow",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/ApothecarySeize/Maya-2026-Animation-Workflow",
+      "first_seen": "2026-06-19",
+      "has_summary": false,
+      "topics": [
+        "maya",
+        "maya-api"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "boogu-project/Boogu-Image": {
+      "full_name": "boogu-project/Boogu-Image",
+      "description": "Boogu-Image-0.1 is an Apache-2.0 open-source image generation and editing model family that delivers near-closed-source performance with an order of magnitude less data.",
+      "language": "Python",
+      "url": "https://github.com/boogu-project/Boogu-Image",
+      "first_seen": "2026-06-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "vercel-labs/personal-agent-template": {
+      "full_name": "vercel-labs/personal-agent-template",
+      "description": "Open-source template for a durable personal AI agent — web chat, Slack, Linear, and long-term memory with user-approved saves. Eve, Nuxt, Better Auth, Vercel Connect.",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/personal-agent-template",
+      "first_seen": "2026-06-19",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "better-auth",
+        "eve",
+        "linear",
+        "memory",
+        "nuxt",
+        "personal-agent",
+        "slack",
+        "vercel-connect"
       ],
       "category": "Agentic",
       "version": null

@@ -20314,6 +20314,151 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "react/react-native": {
+      "full_name": "react/react-native",
+      "description": "A framework for building native applications using React",
+      "language": "C++",
+      "url": "https://github.com/react/react-native",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "app-framework",
+        "cross-platform",
+        "ios",
+        "mobile",
+        "mobile-development",
+        "react",
+        "react-native"
+      ],
+      "category": "Mobile",
+      "version": "v0.86.0"
+    },
+    "MstKail/polymarket-trading-bot-services-polyedge365": {
+      "full_name": "MstKail/polymarket-trading-bot-services-polyedge365",
+      "description": "polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot, polymarket hedge bot, polymarket maker bot, polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot, polymarket hedge bot, polymarket maker bot, polymarket trading bot services, polymarket copy trading bot, polymarket arbitrage bot",
+      "language": "Unknown",
+      "url": "https://github.com/MstKail/polymarket-trading-bot-services-polyedge365",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [
+        "arbitrage",
+        "bot",
+        "copy",
+        "hedge",
+        "market-marker",
+        "polyedge",
+        "polymarket",
+        "polymarket-arbitrage-bot",
+        "polymarket-copy-trading-bot",
+        "polymarket-hedge-bot",
+        "polymarket-maker-bot",
+        "polymarket-trading-bot",
+        "trading"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "nnecrkvenuOX/formcms": {
+      "full_name": "nnecrkvenuOX/formcms",
+      "description": "AI Agent: Open-source headless CMS built with ASP.NET Core (C#) and React, featuring REST APIs, GraphQL, and a GrapesJS page designer.",
+      "language": "C#",
+      "url": "https://github.com/nnecrkvenuOX/formcms",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ReulgeApmpetty0O/Back-End-Developer-Interview-Questions": {
+      "full_name": "ReulgeApmpetty0O/Back-End-Developer-Interview-Questions",
+      "description": "A list of back-end related questions you can be inspired from to interview potential candidates, test yourself or completely ignore",
+      "language": "Unknown",
+      "url": "https://github.com/ReulgeApmpetty0O/Back-End-Developer-Interview-Questions",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "rotejin/tomari-guruguru": {
+      "full_name": "rotejin/tomari-guruguru",
+      "description": "25方向のマウス追従と口パクに対応したトマリ用ブラウザアバター",
+      "language": "JavaScript",
+      "url": "https://github.com/rotejin/tomari-guruguru",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "gykim80/perfectpixel-studio": {
+      "full_name": "gykim80/perfectpixel-studio",
+      "description": "AI-powered animation sprite studio — generate character sprite sheets with 8 directions and 100+ actions from a single text prompt (Wails + Go + React)",
+      "language": "Go",
+      "url": "https://github.com/gykim80/perfectpixel-studio",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "game-development",
+        "golang",
+        "pixel-art",
+        "sprite",
+        "spritesheet",
+        "wails"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "fendouai/best-humanizer-handbook": {
+      "full_name": "fendouai/best-humanizer-handbook",
+      "description": "Best AI Humanizer Handbook A practical guide to making AI-assisted writing clearer, more credible, and more human",
+      "language": "Unknown",
+      "url": "https://github.com/fendouai/best-humanizer-handbook",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Jeidoban/Ironsmith": {
+      "full_name": "Jeidoban/Ironsmith",
+      "description": "Create personal Mac apps instantly with a prompt. Supports on-device and cloud LLMs",
+      "language": "Swift",
+      "url": "https://github.com/Jeidoban/Ironsmith",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "Tyxy-R/codex-referral-risk-research": {
+      "full_name": "Tyxy-R/codex-referral-risk-research",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Tyxy-R/codex-referral-risk-research",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "localai-org/privacy-filter.cpp": {
+      "full_name": "localai-org/privacy-filter.cpp",
+      "description": "OpenAI's privacy filter NER model architecture implemented in a minimal C++/GGML runtime",
+      "language": "C++",
+      "url": "https://github.com/localai-org/privacy-filter.cpp",
+      "first_seen": "2026-06-20",
+      "has_summary": false,
+      "topics": [
+        "ggml",
+        "ner",
+        "pii"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -20728,6 +20728,38 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "clent267/FUNCAPTCHAV3": {
+      "full_name": "clent267/FUNCAPTCHAV3",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/clent267/FUNCAPTCHAV3",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "StarTrail-org/PixelRAG": {
+      "full_name": "StarTrail-org/PixelRAG",
+      "description": "The end of web parsing. The beginning of scalable pixel-native search.",
+      "language": "Python",
+      "url": "https://github.com/StarTrail-org/PixelRAG",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "memory",
+        "multimodal",
+        "rag",
+        "search",
+        "searchengine",
+        "vision",
+        "vlm"
+      ],
+      "category": "Agentic",
+      "version": "chrome-150.0.7844.0"
     }
   }
 }

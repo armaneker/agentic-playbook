@@ -20195,7 +20195,7 @@
     },
     "Waishnav/devspace": {
       "full_name": "Waishnav/devspace",
-      "description": "Turn ChatGPT into Codex",
+      "description": "Turn ChatGPT into Codex and enjoy 2x rate limits :)",
       "language": "TypeScript",
       "url": "https://github.com/Waishnav/devspace",
       "first_seen": "2026-06-18",
@@ -20760,6 +20760,34 @@
       ],
       "category": "Agentic",
       "version": "chrome-150.0.7844.0"
+    },
+    "zhongerxin/Cowart": {
+      "full_name": "zhongerxin/Cowart",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/zhongerxin/Cowart",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Duclos76/confidence-surfing-bot": {
+      "full_name": "Duclos76/confidence-surfing-bot",
+      "description": "A high-perforomance automated trading bot for Polymarket's ultra-short crypto prediction markets - 5-minute and 15-minute Up/Down markets on XRP, BNB, ETH, SOL, BTC, and DOGE. Built around a crowd-momentum confirmation strategy rather than news prediction, latency arbitrage, or pure arbitrage.",
+      "language": "TypeScript",
+      "url": "https://github.com/Duclos76/confidence-surfing-bot",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "polymarket",
+        "polymarket-trading-bot",
+        "trading",
+        "trading-bot"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

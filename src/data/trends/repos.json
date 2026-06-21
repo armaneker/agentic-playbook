@@ -20580,7 +20580,7 @@
         "metaverse"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "website-v1.0.8"
     },
     "Comfy-Org/ComfyUI": {
       "full_name": "Comfy-Org/ComfyUI",
@@ -20712,6 +20712,17 @@
       "description": "",
       "language": "Python",
       "url": "https://github.com/jd-opensource/JoyAI-VL-Interaction",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zhongerxin/cowart": {
+      "full_name": "zhongerxin/cowart",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/zhongerxin/cowart",
       "first_seen": "2026-06-21",
       "has_summary": false,
       "topics": [],

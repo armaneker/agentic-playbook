@@ -20462,7 +20462,7 @@
     },
     "Forsy-AI/agent-apprenticeship": {
       "full_name": "Forsy-AI/agent-apprenticeship",
-      "description": "The living ecosystem for AI agents learning from real-world work through iterative loops and training-signal exchange.",
+      "description": "The living ecosystem where AI agents learn from real-world work through iterative workflow loops, reusable experience, and collective training signal exchange.",
       "language": "Unknown",
       "url": "https://github.com/Forsy-AI/agent-apprenticeship",
       "first_seen": "2026-06-20",
@@ -20580,6 +20580,142 @@
         "metaverse"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "Comfy-Org/ComfyUI": {
+      "full_name": "Comfy-Org/ComfyUI",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "language": "Python",
+      "url": "https://github.com/Comfy-Org/ComfyUI",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "comfy",
+        "comfyui",
+        "python",
+        "pytorch",
+        "stable-diffusion"
+      ],
+      "category": "AI / ML",
+      "version": "v0.25.1"
+    },
+    "leyten/shard": {
+      "full_name": "leyten/shard",
+      "description": "Pipeline-parallel LLM inference across GPUs on separate machines.",
+      "language": "Python",
+      "url": "https://github.com/leyten/shard",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "anthropics/launch-your-agent": {
+      "full_name": "anthropics/launch-your-agent",
+      "description": "Claude Code skills that take a founder from idea to a live Claude Managed Agent: interview, scope a v0, launch in their own account, grade it, iterate, and schedule it",
+      "language": "HTML",
+      "url": "https://github.com/anthropics/launch-your-agent",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "rpanigrahi222/intruth-factcheck": {
+      "full_name": "rpanigrahi222/intruth-factcheck",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/rpanigrahi222/intruth-factcheck",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "SubBoost/subboost": {
+      "full_name": "SubBoost/subboost",
+      "description": "Clash/Mihomo 订阅转换、增强和管理工具。通过 UI 可视化，一键实现链式代理、精确分流、防 DNS 泄露和多订阅聚合等高级功能。",
+      "language": "TypeScript",
+      "url": "https://github.com/SubBoost/subboost",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [
+        "clash",
+        "dns-leak-protection",
+        "mihomo",
+        "mihomo-config",
+        "mihomo-rules",
+        "proxy",
+        "subscription-converter"
+      ],
+      "category": "Infra",
+      "version": "v2.4.0"
+    },
+    "Liunian06/ko-lesson": {
+      "full_name": "Liunian06/ko-lesson",
+      "description": "一个期末赶制的一个屎山skill，将清朝老PPT复活为能看的资料",
+      "language": "Unknown",
+      "url": "https://github.com/Liunian06/ko-lesson",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "aidenybai/cnfast": {
+      "full_name": "aidenybai/cnfast",
+      "description": "Fast drop in replacement for `cn`",
+      "language": "TypeScript",
+      "url": "https://github.com/aidenybai/cnfast",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [
+        "clsx",
+        "cn",
+        "tailwindcss"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "aresyn/codex-control-plane-mcp": {
+      "full_name": "aresyn/codex-control-plane-mcp",
+      "description": "Durable MCP control plane for long-running Codex Desktop tasks",
+      "language": "Python",
+      "url": "https://github.com/aresyn/codex-control-plane-mcp",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [
+        "agent-tools",
+        "agentic-workflows",
+        "ai-agents",
+        "automation",
+        "codex",
+        "codex-desktop",
+        "developer-tools",
+        "hermes",
+        "hermes-agent",
+        "long-running-tasks",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "openai-codex",
+        "openclaw",
+        "orchestration",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.0"
+    },
+    "jd-opensource/JoyAI-VL-Interaction": {
+      "full_name": "jd-opensource/JoyAI-VL-Interaction",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/jd-opensource/JoyAI-VL-Interaction",
+      "first_seen": "2026-06-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

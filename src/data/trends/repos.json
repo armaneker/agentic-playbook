@@ -19312,7 +19312,7 @@
     "lenucksi/aur-malware-check": {
       "full_name": "lenucksi/aur-malware-check",
       "description": "Detection tools for the June 2026 atomic-lockfile AUR supply-chain attack. Consolidated from community Gists.",
-      "language": "Shell",
+      "language": "Python",
       "url": "https://github.com/lenucksi/aur-malware-check",
       "first_seen": "2026-06-13",
       "has_summary": false,
@@ -20195,7 +20195,7 @@
     },
     "Waishnav/devspace": {
       "full_name": "Waishnav/devspace",
-      "description": "Turn ChatGPT into Codex and enjoy 2x rate limits :)",
+      "description": "Turn ChatGPT into Codex and enjoy ChatGPT usage separately :)",
       "language": "TypeScript",
       "url": "https://github.com/Waishnav/devspace",
       "first_seen": "2026-06-18",
@@ -20932,6 +20932,74 @@
       "topics": [],
       "category": "Other",
       "version": "v1.2.1"
+    },
+    "kanavtwtgg/birds.cafe": {
+      "full_name": "kanavtwtgg/birds.cafe",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/kanavtwtgg/birds.cafe",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "raiyanyahya/recall": {
+      "full_name": "raiyanyahya/recall",
+      "description": "Stop wasting tokens and re-explaining your project every session. Recall gives Claude Code durable memory — entirely offline.",
+      "language": "Python",
+      "url": "https://github.com/raiyanyahya/recall",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-plugin",
+        "context",
+        "developer-tools",
+        "llm",
+        "local-first",
+        "memory",
+        "offline",
+        "privacy",
+        "productivity",
+        "python",
+        "summarization",
+        "textrank"
+      ],
+      "category": "Agentic",
+      "version": "v0.3.4"
+    },
+    "baidu/Unlimited-OCR": {
+      "full_name": "baidu/Unlimited-OCR",
+      "description": "Unlimited OCR Works: Welcome the Era of One-shot Long-horizon Parsing.",
+      "language": "Python",
+      "url": "https://github.com/baidu/Unlimited-OCR",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "renee-jia/scholar-loop": {
+      "full_name": "renee-jia/scholar-loop",
+      "description": "An autonomous AI scientist: a multi-agent loop over literature, experiments, self-critique and write-up, with deterministic guards against reward-hacking and hallucination.",
+      "language": "Python",
+      "url": "https://github.com/renee-jia/scholar-loop",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [
+        "ai-research",
+        "autonomous-agents",
+        "llm-tools",
+        "multi-agent"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

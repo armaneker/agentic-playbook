@@ -20051,9 +20051,11 @@
       "has_summary": false,
       "topics": [
         "agent-memory",
+        "agent-skill",
         "agent-skills",
         "ai-agents",
         "ai-coding-agent",
+        "ai-skills",
         "claude-code",
         "claude-skills",
         "codex-skills",
@@ -20063,6 +20065,9 @@
         "personal-ai",
         "prompt-engineering",
         "skill-md",
+        "skill-md-skillsmp",
+        "skills-sh",
+        "skillsmp",
         "task-management",
         "workflow-automation"
       ],
@@ -20999,6 +21004,58 @@
         "multi-agent"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "sums001/Windows-Copilot-API": {
+      "full_name": "sums001/Windows-Copilot-API",
+      "description": "Reverse engineered Windows Copilot into an OpenAI-compatible API. Access GPT-4 and GPT-5 models through a simple REST interface without API keys or billing.",
+      "language": "Python",
+      "url": "https://github.com/sums001/Windows-Copilot-API",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "api",
+        "copilot",
+        "llm",
+        "microsoft-copilot",
+        "openai"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "yo-WASSUP/Good-Badminton": {
+      "full_name": "yo-WASSUP/Good-Badminton",
+      "description": "🏸  AI Badminton Hawk-Eye System",
+      "language": "Python",
+      "url": "https://github.com/yo-WASSUP/Good-Badminton",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "unicity-astrid/book": {
+      "full_name": "unicity-astrid/book",
+      "description": "The canonical reference for Astrid OS: kernel, capsules, host ABI, the bus, and the security model.",
+      "language": "Perl",
+      "url": "https://github.com/unicity-astrid/book",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "unicity-astrid/handbook": {
+      "full_name": "unicity-astrid/handbook",
+      "description": "How to work on Astrid: the polyrepo, the kernel-is-dumb law, the RFC trigger, contribution tiers, and the release process.",
+      "language": "Unknown",
+      "url": "https://github.com/unicity-astrid/handbook",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

@@ -20788,6 +20788,123 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "ggml-org/llama.cpp": {
+      "full_name": "ggml-org/llama.cpp",
+      "description": "LLM inference in C/C++",
+      "language": "C++",
+      "url": "https://github.com/ggml-org/llama.cpp",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [
+        "ggml"
+      ],
+      "category": "Other",
+      "version": "b9754"
+    },
+    "overflowy/make-look-scanned": {
+      "full_name": "overflowy/make-look-scanned",
+      "description": "Makes PDFs look scanned (CLI or in the browser via WASM)",
+      "language": "Go",
+      "url": "https://github.com/overflowy/make-look-scanned",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [
+        "go",
+        "pdf",
+        "scan",
+        "wasm"
+      ],
+      "category": "Language",
+      "version": "v1.1.0"
+    },
+    "halfof8/patterngen-oss": {
+      "full_name": "halfof8/patterngen-oss",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/halfof8/patterngen-oss",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "cloudflare/security-audit-skill": {
+      "full_name": "cloudflare/security-audit-skill",
+      "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
+      "language": "JavaScript",
+      "url": "https://github.com/cloudflare/security-audit-skill",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Security",
+      "version": null
+    },
+    "PMTraderAdam/500-per-day-polymarket-bot": {
+      "full_name": "PMTraderAdam/500-per-day-polymarket-bot",
+      "description": "$500 Per Day Polymarket Trading Bot - PMTraderAdam",
+      "language": "TypeScript",
+      "url": "https://github.com/PMTraderAdam/500-per-day-polymarket-bot",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "polymarket",
+        "trading"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "FeijiangHan/PaperForge": {
+      "full_name": "FeijiangHan/PaperForge",
+      "description": "An active paper-reading skill that reconstructs author reasoning, explains methods mechanistically, stress-tests assumptions, and generates follow-up research ideas.",
+      "language": "Unknown",
+      "url": "https://github.com/FeijiangHan/PaperForge",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "eooce/transfer-api": {
+      "full_name": "eooce/transfer-api",
+      "description": "Cloudflare Worker adapter for unlimited.surf OpenAI/Anthropic-compatible API routes.",
+      "language": "JavaScript",
+      "url": "https://github.com/eooce/transfer-api",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "r3xmax/PhantomCtx": {
+      "full_name": "r3xmax/PhantomCtx",
+      "description": "Activation Context Hijacking Evasion Tool",
+      "language": "C",
+      "url": "https://github.com/r3xmax/PhantomCtx",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "NVlabs/SpatialClaw": {
+      "full_name": "NVlabs/SpatialClaw",
+      "description": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
+      "language": "Python",
+      "url": "https://github.com/NVlabs/SpatialClaw",
+      "first_seen": "2026-06-22",
+      "has_summary": false,
+      "topics": [
+        "4d-understanding",
+        "agent",
+        "agentic-ai",
+        "mllm-reasoning",
+        "spatial-reasoning",
+        "spatial-understanding"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

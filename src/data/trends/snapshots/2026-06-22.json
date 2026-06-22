@@ -1,0 +1,505 @@
+{
+  "date": "2026-06-22",
+  "data": {
+    "EbookFoundation/free-programming-books": {
+      "stars": 390603,
+      "forks": 66441
+    },
+    "openclaw/openclaw": {
+      "stars": 379825,
+      "forks": 79505
+    },
+    "awesome-selfhosted/awesome-selfhosted": {
+      "stars": 300456,
+      "forks": 14008
+    },
+    "torvalds/linux": {
+      "stars": 237161,
+      "forks": 62812
+    },
+    "obra/superpowers": {
+      "stars": 234995,
+      "forks": 20864
+    },
+    "affaan-m/ECC": {
+      "stars": 219323,
+      "forks": 33612
+    },
+    "NousResearch/hermes-agent": {
+      "stars": 198998,
+      "forks": 35338
+    },
+    "tensorflow/tensorflow": {
+      "stars": 195787,
+      "forks": 75196
+    },
+    "n8n-io/n8n": {
+      "stars": 193514,
+      "forks": 58733
+    },
+    "ohmyzsh/ohmyzsh": {
+      "stars": 188173,
+      "forks": 26374
+    },
+    "microsoft/vscode": {
+      "stars": 186589,
+      "forks": 40600
+    },
+    "flutter/flutter": {
+      "stars": 177015,
+      "forks": 30537
+    },
+    "anomalyco/opencode": {
+      "stars": 176992,
+      "forks": 21601
+    },
+    "ollama/ollama": {
+      "stars": 174676,
+      "forks": 16704
+    },
+    "twbs/bootstrap": {
+      "stars": 174372,
+      "forks": 78792
+    },
+    "yt-dlp/yt-dlp": {
+      "stars": 172389,
+      "forks": 14526
+    },
+    "f/prompts.chat": {
+      "stars": 164043,
+      "forks": 21256
+    },
+    "huggingface/transformers": {
+      "stars": 161776,
+      "forks": 33561
+    },
+    "langflow-ai/langflow": {
+      "stars": 149909,
+      "forks": 9312
+    },
+    "langgenius/dify": {
+      "stars": 146065,
+      "forks": 22972
+    },
+    "vercel/next.js": {
+      "stars": 140113,
+      "forks": 31235
+    },
+    "langchain-ai/langchain": {
+      "stars": 139822,
+      "forks": 23190
+    },
+    "firecrawl/firecrawl": {
+      "stars": 136325,
+      "forks": 7914
+    },
+    "microsoft/PowerToys": {
+      "stars": 135363,
+      "forks": 8128
+    },
+    "iptv-org/iptv": {
+      "stars": 127116,
+      "forks": 6980
+    },
+    "clash-verge-rev/clash-verge-rev": {
+      "stars": 126991,
+      "forks": 9234
+    },
+    "kubernetes/kubernetes": {
+      "stars": 123165,
+      "forks": 43264
+    },
+    "nodejs/node": {
+      "stars": 117890,
+      "forks": 35737
+    },
+    "Comfy-Org/ComfyUI": {
+      "stars": 117813,
+      "forks": 13776
+    },
+    "ggml-org/llama.cpp": {
+      "stars": 117569,
+      "forks": 19797
+    },
+    "vercel/eve": {
+      "stars": 2059,
+      "forks": 147
+    },
+    "zhongerxin/Cowart": {
+      "stars": 1146,
+      "forks": 104
+    },
+    "alchaincyf/loop-engineering-orange-book": {
+      "stars": 724,
+      "forks": 63
+    },
+    "rebel0789/codexpro": {
+      "stars": 616,
+      "forks": 57
+    },
+    "Forsy-AI/agent-apprenticeship": {
+      "stars": 609,
+      "forks": 1
+    },
+    "Plaer1/junction": {
+      "stars": 517,
+      "forks": 7
+    },
+    "ngrok/webernetes": {
+      "stars": 477,
+      "forks": 37
+    },
+    "dongshuyan/compass-skills": {
+      "stars": 423,
+      "forks": 35
+    },
+    "boogu-project/Boogu-Image": {
+      "stars": 392,
+      "forks": 19
+    },
+    "MstKail/polymarket-trading-bot-services-polyedge365": {
+      "stars": 378,
+      "forks": 710
+    },
+    "ReulgeApmpetty0O/Back-End-Developer-Interview-Questions": {
+      "stars": 363,
+      "forks": 751
+    },
+    "nnecrkvenuOX/formcms": {
+      "stars": 361,
+      "forks": 839
+    },
+    "aidenybai/cnfast": {
+      "stars": 349,
+      "forks": 5
+    },
+    "anthropics/launch-your-agent": {
+      "stars": 342,
+      "forks": 75
+    },
+    "MstKail/wc2026-crypto-sportsbook": {
+      "stars": 330,
+      "forks": 1295
+    },
+    "leyten/shard": {
+      "stars": 292,
+      "forks": 35
+    },
+    "fendouai/best-humanizer-handbook": {
+      "stars": 281,
+      "forks": 4
+    },
+    "rpanigrahi222/intruth-factcheck": {
+      "stars": 254,
+      "forks": 40
+    },
+    "overflowy/make-look-scanned": {
+      "stars": 249,
+      "forks": 8
+    },
+    "SubBoost/subboost": {
+      "stars": 247,
+      "forks": 48
+    },
+    "clent267/FUNCAPTCHAV3": {
+      "stars": 237,
+      "forks": 234
+    },
+    "halfof8/patterngen-oss": {
+      "stars": 235,
+      "forks": 14
+    },
+    "Liunian06/ko-lesson": {
+      "stars": 232,
+      "forks": 4
+    },
+    "cloudflare/security-audit-skill": {
+      "stars": 230,
+      "forks": 21
+    },
+    "Tyxy-R/codex-referral-risk-research": {
+      "stars": 229,
+      "forks": 132
+    },
+    "PMTraderAdam/500-per-day-polymarket-bot": {
+      "stars": 223,
+      "forks": 0
+    },
+    "FeijiangHan/PaperForge": {
+      "stars": 222,
+      "forks": 16
+    },
+    "aresyn/codex-control-plane-mcp": {
+      "stars": 221,
+      "forks": 4
+    },
+    "eooce/transfer-api": {
+      "stars": 216,
+      "forks": 899
+    },
+    "r3xmax/PhantomCtx": {
+      "stars": 213,
+      "forks": 32
+    },
+    "freeCodeCamp/freeCodeCamp": {
+      "stars": 450070,
+      "forks": 45192
+    },
+    "public-apis/public-apis": {
+      "stars": 443338,
+      "forks": 48593
+    },
+    "nilbuild/developer-roadmap": {
+      "stars": 357924,
+      "forks": 44246
+    },
+    "react/react": {
+      "stars": 245977,
+      "forks": 51078
+    },
+    "TheAlgorithms/Python": {
+      "stars": 222106,
+      "forks": 50772
+    },
+    "trekhleb/javascript-algorithms": {
+      "stars": 196109,
+      "forks": 31053
+    },
+    "Significant-Gravitas/AutoGPT": {
+      "stars": 185062,
+      "forks": 46120
+    },
+    "avelino/awesome-go": {
+      "stars": 176045,
+      "forks": 13337
+    },
+    "Snailclimb/JavaGuide": {
+      "stars": 156508,
+      "forks": 46147
+    },
+    "open-webui/open-webui": {
+      "stars": 142539,
+      "forks": 20494
+    },
+    "pewdiepie-archdaemon/odysseus": {
+      "stars": 75725,
+      "forks": 9844
+    },
+    "DietrichGebert/ponytail": {
+      "stars": 46020,
+      "forks": 2264
+    },
+    "XiaomiMiMo/MiMo-Code": {
+      "stars": 10181,
+      "forks": 948
+    },
+    "shadcn/improve": {
+      "stars": 5871,
+      "forks": 235
+    },
+    "helloianneo/ian-xiaohei-illustrations": {
+      "stars": 5531,
+      "forks": 652
+    },
+    "AprilNEA/OpenLogi": {
+      "stars": 5217,
+      "forks": 98
+    },
+    "zgwl/chinese-buy-us-stock-guide": {
+      "stars": 4791,
+      "forks": 736
+    },
+    "omnigent-ai/omnigent": {
+      "stars": 4320,
+      "forks": 490
+    },
+    "op7418/guizang-social-card-skill": {
+      "stars": 3846,
+      "forks": 336
+    },
+    "diffusionstudio/lottie": {
+      "stars": 3549,
+      "forks": 189
+    },
+    "nexu-io/html-video": {
+      "stars": 3403,
+      "forks": 419
+    },
+    "Gloridust/WechatOnCloud": {
+      "stars": 3038,
+      "forks": 720
+    },
+    "cpaczek/skylight": {
+      "stars": 2832,
+      "forks": 320
+    },
+    "V0id-v2/Void-Tools-v2.0": {
+      "stars": 2620,
+      "forks": 32
+    },
+    "b-nnett/goose": {
+      "stars": 2591,
+      "forks": 641
+    },
+    "StarTrail-org/PixelRAG": {
+      "stars": 2488,
+      "forks": 208
+    },
+    "BuilderIO/skills": {
+      "stars": 2332,
+      "forks": 126
+    },
+    "tamnd/kage": {
+      "stars": 2231,
+      "forks": 73
+    },
+    "ideogram-oss/ideogram4": {
+      "stars": 2176,
+      "forks": 221
+    },
+    "GordenSun/GordenPPTSkill": {
+      "stars": 2161,
+      "forks": 205
+    },
+    "Waishnav/devspace": {
+      "stars": 1905,
+      "forks": 185
+    },
+    "Sophomoresty/gemini-web2api": {
+      "stars": 1840,
+      "forks": 435
+    },
+    "NoopApp/noop": {
+      "stars": 1813,
+      "forks": 754
+    },
+    "MatinSenPai/SenPaiScanner": {
+      "stars": 1810,
+      "forks": 97
+    },
+    "code-yeongyu/lazycodex": {
+      "stars": 1713,
+      "forks": 96
+    },
+    "JimLiu/baoyu-design": {
+      "stars": 1712,
+      "forks": 129
+    },
+    "lenucksi/aur-malware-check": {
+      "stars": 1677,
+      "forks": 38
+    },
+    "jd-opensource/JoyAI-Echo": {
+      "stars": 1617,
+      "forks": 145
+    },
+    "SkyBlue997/enableMacosAI": {
+      "stars": 1473,
+      "forks": 80
+    },
+    "nolangz/pixel2motion": {
+      "stars": 888,
+      "forks": 79
+    },
+    "joeseesun/qiaomu-goal-meta-skill": {
+      "stars": 699,
+      "forks": 53
+    },
+    "Tencent-Hunyuan/UniRL": {
+      "stars": 664,
+      "forks": 41
+    },
+    "fivetaku/fablize": {
+      "stars": 574,
+      "forks": 79
+    },
+    "xiaohuailabs/xiaohu-video-translate": {
+      "stars": 549,
+      "forks": 87
+    },
+    "chubbyguan/chubbyskills": {
+      "stars": 431,
+      "forks": 66
+    },
+    "majidmanzarpour/threejs-game-skills": {
+      "stars": 413,
+      "forks": 45
+    },
+    "jmmy9609-design/gpt-pp": {
+      "stars": 396,
+      "forks": 204
+    },
+    "baskduf/FableCodex": {
+      "stars": 359,
+      "forks": 47
+    },
+    "MiniMax-AI/MSA": {
+      "stars": 336,
+      "forks": 30
+    },
+    "jd-opensource/JoyAI-VL-Interaction": {
+      "stars": 325,
+      "forks": 9
+    },
+    "joeseesun/qiaomu-novel-generator": {
+      "stars": 307,
+      "forks": 38
+    },
+    "NVlabs/SpatialClaw": {
+      "stars": 245,
+      "forks": 20
+    },
+    "levy-street/world-of-claudecraft": {
+      "stars": 1059,
+      "forks": 305
+    },
+    "NO6KIKO/gorest-2d-animation-spritesheet-generator": {
+      "stars": 798,
+      "forks": 115
+    },
+    "Danilaa1/slot-text": {
+      "stars": 753,
+      "forks": 18
+    },
+    "eli-labz/Third-Eye": {
+      "stars": 719,
+      "forks": 11
+    },
+    "TestSprite/testsprite-cli": {
+      "stars": 718,
+      "forks": 28
+    },
+    "dzcmemory-web/bazi-ziwei-skill": {
+      "stars": 460,
+      "forks": 58
+    },
+    "gajus/zod-compiler": {
+      "stars": 404,
+      "forks": 6
+    },
+    "valkor-ai/loom": {
+      "stars": 350,
+      "forks": 22
+    },
+    "vercel-labs/personal-agent-template": {
+      "stars": 343,
+      "forks": 26
+    },
+    "Duclos76/confidence-surfing-bot": {
+      "stars": 341,
+      "forks": 0
+    },
+    "Yves176/polymarket-trade-engine": {
+      "stars": 329,
+      "forks": 434
+    },
+    "inbrainfun/inbrain": {
+      "stars": 304,
+      "forks": 190
+    },
+    "xingwudao/xquant-beginner": {
+      "stars": 285,
+      "forks": 51
+    }
+  }
+}

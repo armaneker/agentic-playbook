@@ -21079,6 +21079,42 @@
       "topics": [],
       "category": "Agentic",
       "version": null
+    },
+    "hustvl/Moebius": {
+      "full_name": "hustvl/Moebius",
+      "description": "[ECCV 2026] Moebius: 0.2B Lightweight Image Inpainting Framework with 10B-Level Performance",
+      "language": "Python",
+      "url": "https://github.com/hustvl/Moebius",
+      "first_seen": "2026-06-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "SakanaAI/fugu": {
+      "full_name": "SakanaAI/fugu",
+      "description": "",
+      "language": "Shell",
+      "url": "https://github.com/SakanaAI/fugu",
+      "first_seen": "2026-06-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "media-v1"
+    },
+    "ale2348/trading-bot": {
+      "full_name": "ale2348/trading-bot",
+      "description": "Polymarket Arbitrage Bot || Polymarket Trading Bot || Polymarket Arbitrage Bot || Polymarket Trading Bot || Polymarket Arbitrage Bot || Polymarket Trading Bot || Polymarket Arbitrage Bot || Polymarket Trading Bot || Polymarket Arbitrage Bot || Polymarket Trading Bot || Polymarket Arbitrage Bot || Polymarket Trading Bot || Polymarket Arbitrage Bot",
+      "language": "TypeScript",
+      "url": "https://github.com/ale2348/trading-bot",
+      "first_seen": "2026-06-23",
+      "has_summary": false,
+      "topics": [
+        "polymarket-arbitrage-bot",
+        "polymarket-trading-bot"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

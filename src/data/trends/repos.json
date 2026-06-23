@@ -21057,6 +21057,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "world-action-models/awesome-world-action-models": {
+      "full_name": "world-action-models/awesome-world-action-models",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/world-action-models/awesome-world-action-models",
+      "first_seen": "2026-06-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "HKUDS/AgentSpace": {
+      "full_name": "HKUDS/AgentSpace",
+      "description": "\"AgentSpace: Human + Agents. One Team. One Workspace\"",
+      "language": "TypeScript",
+      "url": "https://github.com/HKUDS/AgentSpace",
+      "first_seen": "2026-06-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

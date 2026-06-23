@@ -20659,7 +20659,7 @@
     },
     "Liunian06/ko-lesson": {
       "full_name": "Liunian06/ko-lesson",
-      "description": "一个期末赶制的一个屎山skill，将清朝老PPT复活为能看的资料",
+      "description": "一个帮助大学牲期末复习的skill，能将清朝老PPT复活为能看的资料",
       "language": "Unknown",
       "url": "https://github.com/Liunian06/ko-lesson",
       "first_seen": "2026-06-21",
@@ -21113,6 +21113,17 @@
         "polymarket-arbitrage-bot",
         "polymarket-trading-bot"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "bozhouDev/codex-orange-book": {
+      "full_name": "bozhouDev/codex-orange-book",
+      "description": "Codex 橙皮书：从安装到实战案例的全链路 Codex 使用指南（非官方开源，含可下载 PDF）",
+      "language": "HTML",
+      "url": "https://github.com/bozhouDev/codex-orange-book",
+      "first_seen": "2026-06-23",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

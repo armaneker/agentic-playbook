@@ -21126,6 +21126,136 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "shadcn-labs/agentcn": {
+      "full_name": "shadcn-labs/agentcn",
+      "description": "shadcn/ui, but for building agents. 🤖",
+      "language": "TypeScript",
+      "url": "https://github.com/shadcn-labs/agentcn",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "samasante/liquid-glass": {
+      "full_name": "samasante/liquid-glass",
+      "description": "Apple-style Liquid Glass for the web — a headless React lens that refracts the live DOM in Safari, Firefox and Chrome. Zero dependencies.",
+      "language": "TypeScript",
+      "url": "https://github.com/samasante/liquid-glass",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ksimback/looper": {
+      "full_name": "ksimback/looper",
+      "description": "Design visual, review-gated agent loops for Claude Code before you run them.",
+      "language": "Python",
+      "url": "https://github.com/ksimback/looper",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "SarkAzia/baiyueguang-learning-skill": {
+      "full_name": "SarkAzia/baiyueguang-learning-skill",
+      "description": "用视奸前任白月光的方式学数学以及任何学科",
+      "language": "Unknown",
+      "url": "https://github.com/SarkAzia/baiyueguang-learning-skill",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Kato-Shoko705/Phoebe-Hub": {
+      "full_name": "Kato-Shoko705/Phoebe-Hub",
+      "description": "全球最可爱的鸣潮角色菲比表情包收集站",
+      "language": "JavaScript",
+      "url": "https://github.com/Kato-Shoko705/Phoebe-Hub",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yeet-src/httpinspect": {
+      "full_name": "yeet-src/httpinspect",
+      "description": "top, but for the HTTP endpoints on your host — a live dashboard of the most active plaintext HTTP endpoints, right in the terminal.",
+      "language": "JavaScript",
+      "url": "https://github.com/yeet-src/httpinspect",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [
+        "ebpf",
+        "http",
+        "interactive",
+        "javascript",
+        "observability",
+        "showcase",
+        "tui"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "goehou/tabbit-toy": {
+      "full_name": "goehou/tabbit-toy",
+      "description": "这是一个基于tabbit的研究包，可以转化成OAI格式出来，同时增加了会员认证功能和一键提取cookie的浏览器拓展，方便快速本地快速使用claude gpt等模型",
+      "language": "JavaScript",
+      "url": "https://github.com/goehou/tabbit-toy",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "zeropl/2FA": {
+      "full_name": "zeropl/2FA",
+      "description": "Easy2FA turns a 2FA secret into its live 6-digit code, entirely in your browser. There's no server, no sign-up, and no database — each \"account\" is just a bookmarkable URL with the secret in its #fragment (which browsers never send over the network).",
+      "language": "HTML",
+      "url": "https://github.com/zeropl/2FA",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [
+        "2fa"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "ruvnet/agent-harness-generator": {
+      "full_name": "ruvnet/agent-harness-generator",
+      "description": "🛠️ The meta-harness for AI agents — scaffold your own focused, branded agent harness with its own npx CLI, MCP server, memory, learning loop, and witness-signed releases. Works with Claude Code, Codex, pi.dev, Hermes, OpenClaw, and RVM (hardware-isolated sandbox).",
+      "language": "TypeScript",
+      "url": "https://github.com/ruvnet/agent-harness-generator",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [
+        "agent-harness",
+        "agent-harness-generator",
+        "agent-scaffolding",
+        "agentic-ai",
+        "agentic-framework",
+        "autonomous-agents",
+        "claude-code",
+        "codex",
+        "create-agent-harness",
+        "hermes-agent",
+        "mcp",
+        "mcp-server",
+        "multi-agent",
+        "openai-codex",
+        "openclaw",
+        "pi-dev",
+        "rvm",
+        "sandboxing",
+        "scaffold",
+        "scaffolding"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.3"
     }
   }
 }

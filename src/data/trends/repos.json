@@ -21278,6 +21278,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "QwenLM/Qwen-AgentWorld": {
+      "full_name": "QwenLM/Qwen-AgentWorld",
+      "description": "Qwen-AgentWorld: Language World Models for General Agents",
+      "language": "Python",
+      "url": "https://github.com/QwenLM/Qwen-AgentWorld",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "BohemiaInteractive/CWR": {
+      "full_name": "BohemiaInteractive/CWR",
+      "description": "Arma: Cold War Assault Remastered Source Code Repository.",
+      "language": "C++",
+      "url": "https://github.com/BohemiaInteractive/CWR",
+      "first_seen": "2026-06-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

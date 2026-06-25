@@ -20640,7 +20640,7 @@
     },
     "SubBoost/subboost": {
       "full_name": "SubBoost/subboost",
-      "description": "Clash/Mihomo 订阅转换、增强和管理工具。通过 UI 可视化，一键实现链式代理、精确分流、防 DNS 泄露和多订阅聚合等高级功能。",
+      "description": "Clash/Mihomo subscription conversion, enhancement, and management tool. Clash/Mihomo 订阅转换、增强和管理工具。通过 UI 可视化，一键实现链式代理、精确分流、防 DNS 泄露和多订阅聚合等高级功能。",
       "language": "TypeScript",
       "url": "https://github.com/SubBoost/subboost",
       "first_seen": "2026-06-21",
@@ -21509,6 +21509,45 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Th0rgal/open_oura": {
+      "full_name": "Th0rgal/open_oura",
+      "description": "A Rust toolkit for the Oura Ring (Gen 3/4/5): reverse-engineered BLE protocol, event decoders, and reimplemented data-processing algorithms. Sync, store, and analyze your data locally.",
+      "language": "Rust",
+      "url": "https://github.com/Th0rgal/open_oura",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "PMTraderAdam/PMTraderAdam": {
+      "full_name": "PMTraderAdam/PMTraderAdam",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/PMTraderAdam/PMTraderAdam",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nubjs/nub": {
+      "full_name": "nubjs/nub",
+      "description": "The fast all-in-one Node.js toolkit",
+      "language": "Rust",
+      "url": "https://github.com/nubjs/nub",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [
+        "javascript-runtime",
+        "node-version-manager",
+        "nodejs",
+        "package-manager",
+        "script-runner"
+      ],
+      "category": "DevTools",
+      "version": "v0.2.0"
     }
   }
 }

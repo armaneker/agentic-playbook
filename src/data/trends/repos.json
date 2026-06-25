@@ -20570,7 +20570,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "@ngrok/webernetes@0.1.1"
     },
     "tinyhumansai/tiny.place": {
       "full_name": "tinyhumansai/tiny.place",
@@ -21324,6 +21324,7 @@
         "screener",
         "self-hosted",
         "stock-analysis",
+        "tdx",
         "tickflow"
       ],
       "category": "Agentic",
@@ -21548,6 +21549,28 @@
       ],
       "category": "DevTools",
       "version": "v0.2.0"
+    },
+    "WangJunqing-coder/huasheng13-skill": {
+      "full_name": "WangJunqing-coder/huasheng13-skill",
+      "description": "基于花生十三公开教学体系、课程资料、历年正题整理得到的skill。",
+      "language": "Unknown",
+      "url": "https://github.com/WangJunqing-coder/huasheng13-skill",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "trotsky1997/OpenFugu": {
+      "full_name": "trotsky1997/OpenFugu",
+      "description": "Open reimplementation of Sakana Fugu — the 'one model to command them all' LLM orchestrator. Read → run → train → serve.",
+      "language": "Python",
+      "url": "https://github.com/trotsky1997/OpenFugu",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -21571,6 +21571,46 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "codecrafters-io/build-your-own-x": {
+      "full_name": "codecrafters-io/build-your-own-x",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "language": "Markdown",
+      "url": "https://github.com/codecrafters-io/build-your-own-x",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [
+        "awesome-list",
+        "free",
+        "programming",
+        "tutorial-code",
+        "tutorial-exercises",
+        "tutorials"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "m1ckc3s/claude-status-bar": {
+      "full_name": "m1ckc3s/claude-status-bar",
+      "description": "A tiny macOS menu bar status indicator for Claude Code: animated icons, elapsed timer, and open/close lifecycle.",
+      "language": "Swift",
+      "url": "https://github.com/m1ckc3s/claude-status-bar",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.2"
+    },
+    "PMTraderAdam/pm-adam-trader": {
+      "full_name": "PMTraderAdam/pm-adam-trader",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/PMTraderAdam/pm-adam-trader",
+      "first_seen": "2026-06-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

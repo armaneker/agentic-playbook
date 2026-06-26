@@ -20467,7 +20467,7 @@
     },
     "Forsy-AI/agent-apprenticeship": {
       "full_name": "Forsy-AI/agent-apprenticeship",
-      "description": "The living ecosystem where AI agents learn from real-world work through iterative workflow loops, reusable experience, and collective training signal exchange.",
+      "description": "The living ecosystem where AI agents run automated workflow loops on any task, improve through execution, and turn each run into reusable work experience + data to improve future agents.",
       "language": "Unknown",
       "url": "https://github.com/Forsy-AI/agent-apprenticeship",
       "first_seen": "2026-06-20",
@@ -21313,6 +21313,7 @@
         "ai-agent",
         "aigc",
         "backtesting",
+        "daily",
         "duckdb",
         "fastapi",
         "llm",
@@ -21323,6 +21324,7 @@
         "react",
         "screener",
         "self-hosted",
+        "stock",
         "stock-analysis",
         "tdx",
         "tickflow"
@@ -21828,6 +21830,17 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "byJoey/cfnew-deployer": {
+      "full_name": "byJoey/cfnew-deployer",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/byJoey/cfnew-deployer",
+      "first_seen": "2026-06-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.3"
     }
   }
 }

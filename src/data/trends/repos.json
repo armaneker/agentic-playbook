@@ -21741,6 +21741,53 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "amplifthq/opentag": {
+      "full_name": "amplifthq/opentag",
+      "description": "Open-source @agent mentions for Slack and GitHub. OpenTag routes tagged requests to Codex, Claude Code, then returns results in thread.",
+      "language": "TypeScript",
+      "url": "https://github.com/amplifthq/opentag",
+      "first_seen": "2026-06-26",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "codex",
+        "github",
+        "slack"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "cobusgreyling/loop-engineering": {
+      "full_name": "cobusgreyling/loop-engineering",
+      "description": "Practical patterns, starters & CLI tools for loop engineering with AI coding agents. Design systems that prompt and orchestrate agents (inspired by Addy Osmani and Boris Cherny). Includes loop-audit, loop-init, loop-cost.",
+      "language": "JavaScript",
+      "url": "https://github.com/cobusgreyling/loop-engineering",
+      "first_seen": "2026-06-26",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "ai-coding",
+        "anthropic",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "devops-automation",
+        "devtools",
+        "github-actions",
+        "grok",
+        "llm",
+        "loop-engineering",
+        "mcp",
+        "prompt-engineering"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

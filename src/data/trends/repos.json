@@ -21933,6 +21933,17 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "bikini/exploitarium": {
+      "full_name": "bikini/exploitarium",
+      "description": "A single archive of public exploit PoCs and vulnerability research writeups. At the time I post these, none have been reported. Feel free to report them yourself and take credit for the CVE if handed out lulz",
+      "language": "Python",
+      "url": "https://github.com/bikini/exploitarium",
+      "first_seen": "2026-06-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

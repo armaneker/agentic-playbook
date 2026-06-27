@@ -20200,7 +20200,7 @@
     },
     "Waishnav/devspace": {
       "full_name": "Waishnav/devspace",
-      "description": "Turn ChatGPT into Codex and enjoy ChatGPT usage separately :)",
+      "description": "Turn ChatGPT into Codex!",
       "language": "TypeScript",
       "url": "https://github.com/Waishnav/devspace",
       "first_seen": "2026-06-18",
@@ -21599,8 +21599,20 @@
       "url": "https://github.com/m1ckc3s/claude-status-bar",
       "first_seen": "2026-06-25",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "anthropic",
+        "claude",
+        "claude-code",
+        "claude-desktop",
+        "cli",
+        "indicator",
+        "macos",
+        "menu",
+        "permissions",
+        "status",
+        "statusbar"
+      ],
+      "category": "AI / ML",
       "version": "v0.2.2"
     },
     "PMTraderAdam/pm-adam-trader": {
@@ -21944,6 +21956,61 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "deepseek-ai/DeepSpec": {
+      "full_name": "deepseek-ai/DeepSpec",
+      "description": "DeepSpec: a full-stack codebase for training and evaluating speculative decoding algorithms",
+      "language": "Python",
+      "url": "https://github.com/deepseek-ai/DeepSpec",
+      "first_seen": "2026-06-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nova452/ComfyUI-Conditioning-Rebalance": {
+      "full_name": "nova452/ComfyUI-Conditioning-Rebalance",
+      "description": "Conditioning optimizer nodes offering IP-Adapter-like features for Krea 2 image reference editing along with bypassing the built in quality diluation from the trained safety filter and also works as a means to unfilter the model.",
+      "language": "Python",
+      "url": "https://github.com/nova452/ComfyUI-Conditioning-Rebalance",
+      "first_seen": "2026-06-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "playPlumtown/Plumtown": {
+      "full_name": "playPlumtown/Plumtown",
+      "description": "The cozy life-sim that pays. Build a home, master skills, climb careers — earn $PLUM and cash out real SOL. Free to play in your browser.",
+      "language": "JavaScript",
+      "url": "https://github.com/playPlumtown/Plumtown",
+      "first_seen": "2026-06-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "PMTraderAdam/pm-copy-trader": {
+      "full_name": "PMTraderAdam/pm-copy-trader",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/PMTraderAdam/pm-copy-trader",
+      "first_seen": "2026-06-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "XxHuberrr/Mineradio": {
+      "full_name": "XxHuberrr/Mineradio",
+      "description": "一款以电影镜头、粒子视觉和歌词舞台为核心的沉浸式音乐播放器。",
+      "language": "HTML",
+      "url": "https://github.com/XxHuberrr/Mineradio",
+      "first_seen": "2026-06-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.1"
     }
   }
 }

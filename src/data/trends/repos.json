@@ -22023,6 +22023,126 @@
       "topics": [],
       "category": "Other",
       "version": "v0.3.0"
+    },
+    "AlexandrosGounis/pdfx": {
+      "full_name": "AlexandrosGounis/pdfx",
+      "description": "An extension of the traditional PDF standard, allowing multiple files to be stored in a single file via metadata",
+      "language": "TypeScript",
+      "url": "https://github.com/AlexandrosGounis/pdfx",
+      "first_seen": "2026-06-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "abundantbeing/hermes-browser-extension": {
+      "full_name": "abundantbeing/hermes-browser-extension",
+      "description": "Browser-native side panel for Hermes Agent — connect web context to your local Hermes runtime.",
+      "language": "JavaScript",
+      "url": "https://github.com/abundantbeing/hermes-browser-extension",
+      "first_seen": "2026-06-28",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "browser-extension",
+        "chrome-extension",
+        "edge-extension",
+        "hermes-agent",
+        "local-first",
+        "nous-research",
+        "sidepanel"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.5"
+    },
+    "Forward-Future/loopy": {
+      "full_name": "Forward-Future/loopy",
+      "description": "A library of practical AI-agent loops and an installable skill for finding, adapting, and designing repeatable agent workflows.",
+      "language": "JavaScript",
+      "url": "https://github.com/Forward-Future/loopy",
+      "first_seen": "2026-06-28",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "agentic-workflows",
+        "ai-agents",
+        "automation",
+        "codex",
+        "prompt-engineering"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Verdi38/Silent-Crypto-Miner": {
+      "full_name": "Verdi38/Silent-Crypto-Miner",
+      "description": "Cryptocurrency mining toolkit with multi-algorithm CPU/GPU support, resource management, thermal throttling, activity-based pausing, scheduled mining, pool failover, hashrate optimization, real-time monitoring, and cross-platform builds for Windows, Linux, and macOS. Supports XMR, ETC, KAS, RVN, ERG, and BTG mining workflows.",
+      "language": "Python",
+      "url": "https://github.com/Verdi38/Silent-Crypto-Miner",
+      "first_seen": "2026-06-28",
+      "has_summary": false,
+      "topics": [
+        "ai-mining",
+        "bitcoin-mining-tools",
+        "bitcoinminer",
+        "browser-mining",
+        "cloud-mining",
+        "cpuminer",
+        "cryptojacking",
+        "cryptominer",
+        "gminer",
+        "gpu-mining",
+        "gpumining",
+        "miner",
+        "miner-monitoring",
+        "mining",
+        "mining-pool",
+        "mining-proxy",
+        "mining-rig",
+        "monero-mining",
+        "silentcryptominer",
+        "xmrig-miner"
+      ],
+      "category": "Other",
+      "version": "Silent-Crypto-Miner"
+    },
+    "MalcolmMcGough/polymarket-trading-bot-scalping": {
+      "full_name": "MalcolmMcGough/polymarket-trading-bot-scalping",
+      "description": "polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot | polymarket trading bot ",
+      "language": "TypeScript",
+      "url": "https://github.com/MalcolmMcGough/polymarket-trading-bot-scalping",
+      "first_seen": "2026-06-28",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "polymarket",
+        "polymarket-trading-bot",
+        "trading",
+        "trading-bot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "xxniiinxx/coinflip-casino-game": {
+      "full_name": "xxniiinxx/coinflip-casino-game",
+      "description": "A full-stack, peer-to-peer coinflip betting casino game on Solana. Players connect a wallet, create or join on-chain game rooms, and compete head-to-head for 2× the stake. The UI updates in real time over WebSockets, outcomes are resolved on-chain with Orao VRF, and the backend tracks rooms, chat, and match history in MongoDB. ",
+      "language": "TypeScript",
+      "url": "https://github.com/xxniiinxx/coinflip-casino-game",
+      "first_seen": "2026-06-28",
+      "has_summary": false,
+      "topics": [
+        "anchor",
+        "betting",
+        "blockchain-game",
+        "casino",
+        "coinflip",
+        "cryptocurrency",
+        "defi",
+        "fullstack",
+        "gambling",
+        "mongodb"
+      ],
+      "category": "Database",
+      "version": null
     }
   }
 }

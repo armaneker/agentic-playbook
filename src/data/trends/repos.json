@@ -21993,12 +21993,18 @@
     },
     "PMTraderAdam/pm-copy-trader": {
       "full_name": "PMTraderAdam/pm-copy-trader",
-      "description": "",
+      "description": "polymarket copytrading bot || polymarket copytradingbot || polymarket copy trading bot || polymarket copytrading bot || polymarket trading bot || polymarket trading bot",
       "language": "TypeScript",
       "url": "https://github.com/PMTraderAdam/pm-copy-trader",
       "first_seen": "2026-06-27",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "bot",
+        "copytrading",
+        "polymarket",
+        "polymarket-copy-trading-bot",
+        "polymarket-copytrading-bot"
+      ],
       "category": "Other",
       "version": null
     },
@@ -22238,6 +22244,40 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "tdeverx/contained-app": {
+      "full_name": "tdeverx/contained-app",
+      "description": "A native macOS app for Apple's Container CLI",
+      "language": "Swift",
+      "url": "https://github.com/tdeverx/contained-app",
+      "first_seen": "2026-06-29",
+      "has_summary": false,
+      "topics": [
+        "apple-container",
+        "apple-silicon",
+        "containers",
+        "devtools",
+        "docker-alternative",
+        "liquid-glass",
+        "macos",
+        "sparkle",
+        "swift",
+        "swiftpm",
+        "swiftui"
+      ],
+      "category": "Mobile",
+      "version": null
+    },
+    "Einsia/Browser-BC": {
+      "full_name": "Einsia/Browser-BC",
+      "description": "Agent behavior clone for browser using, targeting general GUI using and distributed trajectory collecting.",
+      "language": "TypeScript",
+      "url": "https://github.com/Einsia/Browser-BC",
+      "first_seen": "2026-06-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.9"
     }
   }
 }

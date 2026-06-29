@@ -20040,7 +20040,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.1.1"
     },
     "dongshuyan/compass-skills": {
       "full_name": "dongshuyan/compass-skills",
@@ -21773,7 +21773,7 @@
         "slack"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.2.0"
     },
     "cobusgreyling/loop-engineering": {
       "full_name": "cobusgreyling/loop-engineering",
@@ -22185,6 +22185,57 @@
       "first_seen": "2026-06-29",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Krishnagangwal/CS-Fundamentals": {
+      "full_name": "Krishnagangwal/CS-Fundamentals",
+      "description": "Curated CS fundamentals for placement prep: DSA,Computer Networks, DBMS & SQL, OOPs, Operating Systems, System Design & Software Engineering",
+      "language": "Unknown",
+      "url": "https://github.com/Krishnagangwal/CS-Fundamentals",
+      "first_seen": "2026-06-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ricccrd/dd": {
+      "full_name": "ricccrd/dd",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/ricccrd/dd",
+      "first_seen": "2026-06-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.5.10"
+    },
+    "yynxxxxx/Codex-5.5-codex-instruct-5.5": {
+      "full_name": "yynxxxxx/Codex-5.5-codex-instruct-5.5",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/yynxxxxx/Codex-5.5-codex-instruct-5.5",
+      "first_seen": "2026-06-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "baairon/torlink": {
+      "full_name": "baairon/torlink",
+      "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "language": "TypeScript",
+      "url": "https://github.com/baairon/torlink",
+      "first_seen": "2026-06-29",
+      "has_summary": false,
+      "topics": [
+        "downloader",
+        "magnet-links",
+        "p2p",
+        "torrent",
+        "torrent-client",
+        "zero-configuration"
+      ],
       "category": "Other",
       "version": null
     }

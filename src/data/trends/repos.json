@@ -22278,6 +22278,125 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.9"
+    },
+    "blknoiz0632/CandyDrop": {
+      "full_name": "blknoiz0632/CandyDrop",
+      "description": "Cut the rope. Feed the monster. Earn real Solana. A skill-based play-to-earn puzzle on @Solana — play, stack $CANDY, claim SOL. No wagers. Just skill.",
+      "language": "JavaScript",
+      "url": "https://github.com/blknoiz0632/CandyDrop",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tutusagi/ai-fishing-game": {
+      "full_name": "tutusagi/ai-fishing-game",
+      "description": "🎣 给 AI 玩的确定性文字钓鱼小游戏 · 单文件零依赖 · 让你的 AI 伴侣来钓鱼",
+      "language": "Python",
+      "url": "https://github.com/tutusagi/ai-fishing-game",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.2.3"
+    },
+    "offchainthoughts/Amber": {
+      "full_name": "offchainthoughts/Amber",
+      "description": "Bank the expensive compute once, then carry it offline as a single file that can prove it is what it claims to be.",
+      "language": "Python",
+      "url": "https://github.com/offchainthoughts/Amber",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "uphiago/recon-skills": {
+      "full_name": "uphiago/recon-skills",
+      "description": "144 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with web enum, email sec, google dorks, cloud IAM, WordPress full compromise chains.",
+      "language": "Python",
+      "url": "https://github.com/uphiago/recon-skills",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [
+        "bug-bounty",
+        "cloud-security",
+        "cors-exploitation",
+        "firebase-hacking",
+        "hermes-agent",
+        "jwt-attacks",
+        "offensive-security",
+        "penetration-testing",
+        "reconnaissance",
+        "red-team",
+        "security-automation",
+        "ssrf",
+        "subdomain-enumeration",
+        "supabase",
+        "wordpress-security"
+      ],
+      "category": "Security",
+      "version": null
+    },
+    "wlzh/dji-4g-vohive-mac": {
+      "full_name": "wlzh/dji-4g-vohive-mac",
+      "description": "在 Mac（Apple Silicon / Intel）上用 UTM 跑 Linux 虚拟机，把大疆 4G 模块（EG25-G）伪装成移远 Quectel EC25 并部署 vohive 平台的完整步骤",
+      "language": "Unknown",
+      "url": "https://github.com/wlzh/dji-4g-vohive-mac",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ivorpad/mercadona-cli": {
+      "full_name": "ivorpad/mercadona-cli",
+      "description": "",
+      "language": "Go",
+      "url": "https://github.com/ivorpad/mercadona-cli",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": "v0.1.8"
+    },
+    "makerspet/oomwoo": {
+      "full_name": "makerspet/oomwoo",
+      "description": "Open-source vacuum robot cleaner",
+      "language": "Mermaid",
+      "url": "https://github.com/makerspet/oomwoo",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [
+        "3d-printing",
+        "arduino",
+        "diy-electronics",
+        "diy-project",
+        "esp32",
+        "esp32-arduino",
+        "home-assistant",
+        "lidar",
+        "lidar-slam",
+        "raspberry-pi",
+        "ros2",
+        "slam",
+        "vacuum-cleaner",
+        "vacuum-robot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "openai/planttalk": {
+      "full_name": "openai/planttalk",
+      "description": "Give your houseplants a voice with ChatGPT.",
+      "language": "TypeScript",
+      "url": "https://github.com/openai/planttalk",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

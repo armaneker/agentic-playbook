@@ -21802,7 +21802,7 @@
         "prompt-engineering"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v1.5.0"
     },
     "winsznx/theeleven": {
       "full_name": "winsznx/theeleven",
@@ -22408,6 +22408,38 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1"
+    },
+    "TianhangZhuzth/Fundamental-Ava": {
+      "full_name": "TianhangZhuzth/Fundamental-Ava",
+      "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents.",
+      "language": "Python",
+      "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents"
+      ],
+      "category": "Agentic",
+      "version": "v0.4.1"
+    },
+    "lycorp-jp/sim-use": {
+      "full_name": "lycorp-jp/sim-use",
+      "description": "Give your AI agent eyes and hands on iOS Simulator and Android emulator/devices.",
+      "language": "Swift",
+      "url": "https://github.com/lycorp-jp/sim-use",
+      "first_seen": "2026-06-30",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "ai-agents",
+        "ai-development",
+        "android-emulator",
+        "ios-simulator",
+        "mobile-automation"
+      ],
+      "category": "Agentic",
+      "version": "v0.9.0"
     }
   }
 }

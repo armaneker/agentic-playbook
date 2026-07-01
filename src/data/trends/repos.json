@@ -22508,6 +22508,49 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.11"
+    },
+    "PMTraderAdam/500-per-day-trading-bot": {
+      "full_name": "PMTraderAdam/500-per-day-trading-bot",
+      "description": "polymarket copytrading bot || polymarket arbitrage trading bot || polymarket trading bot || polymarket copy trading bot || trading bot",
+      "language": "TypeScript",
+      "url": "https://github.com/PMTraderAdam/500-per-day-trading-bot",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "copytrading",
+        "polymarket",
+        "polymarket-arbitrage-bot",
+        "polymarket-copy-trading-bot",
+        "polymarket-copytrading-bot",
+        "polymarket-trading-bot"
+      ],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "almeidazs/better-drizzle": {
+      "full_name": "almeidazs/better-drizzle",
+      "description": "ORM, but better",
+      "language": "TypeScript",
+      "url": "https://github.com/almeidazs/better-drizzle",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [
+        "better",
+        "better-drizzle",
+        "database",
+        "drizzle",
+        "drizzle-orm",
+        "mysql",
+        "neon",
+        "nodejs",
+        "orm",
+        "postgresql",
+        "sqlite",
+        "typescript"
+      ],
+      "category": "Database",
+      "version": "@better-drizzle/soft-delete@0.1.1"
     }
   }
 }

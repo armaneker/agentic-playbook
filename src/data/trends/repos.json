@@ -22511,7 +22511,7 @@
     },
     "PMTraderAdam/500-per-day-trading-bot": {
       "full_name": "PMTraderAdam/500-per-day-trading-bot",
-      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket copy trading bot polymarket copytrading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot",
+      "description": "polymarket trading bot polymarket bot polymarket arbitrage bot polymarket bot polymarket copy trading bot polymarket copytrading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot",
       "language": "TypeScript",
       "url": "https://github.com/PMTraderAdam/500-per-day-trading-bot",
       "first_seen": "2026-07-01",
@@ -22572,6 +22572,22 @@
       "first_seen": "2026-07-01",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "aquace/CVE-2026-41940-PoC": {
+      "full_name": "aquace/CVE-2026-41940-PoC",
+      "description": "CVE-2026-41940 authentication bypass vulnerability proof-of-concept",
+      "language": "Python",
+      "url": "https://github.com/aquace/CVE-2026-41940-PoC",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [
+        "cpanel",
+        "cve",
+        "cve-2026-41940",
+        "cve-2026-41940-poc"
+      ],
       "category": "Other",
       "version": null
     }

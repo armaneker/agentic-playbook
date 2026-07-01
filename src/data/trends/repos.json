@@ -22037,8 +22037,24 @@
       "url": "https://github.com/AlexandrosGounis/pdfx",
       "first_seen": "2026-06-28",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "electron",
+        "electron-app",
+        "electronjs",
+        "liquid-glass",
+        "macos-app",
+        "open-source",
+        "pdf",
+        "pdf-generator",
+        "pdf-parser",
+        "pdf-processing",
+        "pdf-tools",
+        "pdf-viewer",
+        "react",
+        "spec",
+        "typescript"
+      ],
+      "category": "Web Framework",
       "version": null
     },
     "abundantbeing/hermes-browser-extension": {
@@ -22411,7 +22427,7 @@
     },
     "TianhangZhuzth/Fundamental-Ava": {
       "full_name": "TianhangZhuzth/Fundamental-Ava",
-      "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents.",
+      "description": "Build digital human beings — autonomous, collaborative, and socially intelligent agents. FNzgGxU31RWiDgLr3GvxxSa42nRntvZNSG6aBMQ1pump",
       "language": "Python",
       "url": "https://github.com/TianhangZhuzth/Fundamental-Ava",
       "first_seen": "2026-06-30",
@@ -22440,6 +22456,58 @@
       ],
       "category": "Agentic",
       "version": "v0.9.0"
+    },
+    "PMTraderAdam/pm-trader-adam-500-per-day-bot": {
+      "full_name": "PMTraderAdam/pm-trader-adam-500-per-day-bot",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/PMTraderAdam/pm-trader-adam-500-per-day-bot",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "copytrading",
+        "polymarket",
+        "polymarket-arbitrage-bot",
+        "polymarket-copy-trading-bot",
+        "polymarket-copytrading-bot",
+        "polymarket-trading-bot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Jia-Ethan/codex-keysmith": {
+      "full_name": "Jia-Ethan/codex-keysmith",
+      "description": "Codex CLI instruction-file installer for local configuration",
+      "language": "Python",
+      "url": "https://github.com/Jia-Ethan/codex-keysmith",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "FossPrime/Steam-Controller-Auto-Charge": {
+      "full_name": "FossPrime/Steam-Controller-Auto-Charge",
+      "description": "Slam the controller into the magnetic puck until it charges",
+      "language": "TypeScript",
+      "url": "https://github.com/FossPrime/Steam-Controller-Auto-Charge",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1"
+    },
+    "BennyKok/lfg": {
+      "full_name": "BennyKok/lfg",
+      "description": "lfg — run and manage your AI coding agents (Claude Code / Codex / OpenCode) on your own VPS",
+      "language": "TypeScript",
+      "url": "https://github.com/BennyKok/lfg",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.11"
     }
   }
 }

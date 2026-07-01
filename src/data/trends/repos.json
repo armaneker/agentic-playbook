@@ -22511,7 +22511,7 @@
     },
     "PMTraderAdam/500-per-day-trading-bot": {
       "full_name": "PMTraderAdam/500-per-day-trading-bot",
-      "description": "polymarket copytrading bot || polymarket arbitrage trading bot || polymarket trading bot || polymarket copy trading bot || trading bot",
+      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket copy trading bot polymarket copytrading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot",
       "language": "TypeScript",
       "url": "https://github.com/PMTraderAdam/500-per-day-trading-bot",
       "first_seen": "2026-07-01",
@@ -22521,6 +22521,7 @@
         "copytrading",
         "polymarket",
         "polymarket-arbitrage-bot",
+        "polymarket-bot",
         "polymarket-copy-trading-bot",
         "polymarket-copytrading-bot",
         "polymarket-trading-bot"
@@ -22551,6 +22552,28 @@
       ],
       "category": "Database",
       "version": "@better-drizzle/soft-delete@0.1.1"
+    },
+    "Kulaxyz/self-learning-skills": {
+      "full_name": "Kulaxyz/self-learning-skills",
+      "description": "A self-improving skill for AI coding agents (Claude Code, Cursor, AGENTS.md): recognize a hard-won golden path in a session and harvest it into a reusable skill/rule for next time.",
+      "language": "Unknown",
+      "url": "https://github.com/Kulaxyz/self-learning-skills",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mekos2772/ios-location-spoofer": {
+      "full_name": "mekos2772/ios-location-spoofer",
+      "description": "Standalone iOS app to spoof GPS location without jailbreak. Includes Shadowrocket/Surge/Loon/QX/Stash module.",
+      "language": "JavaScript",
+      "url": "https://github.com/mekos2772/ios-location-spoofer",
+      "first_seen": "2026-07-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

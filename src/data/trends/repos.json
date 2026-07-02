@@ -22590,6 +22590,105 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "winsznx/bull-rush": {
+      "full_name": "winsznx/bull-rush",
+      "description": "🐂 BULL RUSH — a 3D neon endless runner for The Black Bull ($ANSEM). React Three Fiber game + Hono/Redis API + dynamic X share cards. Play → trybullrush.xyz",
+      "language": "TypeScript",
+      "url": "https://github.com/winsznx/bull-rush",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "crypto",
+        "endless-runner",
+        "game",
+        "hono",
+        "memecoin",
+        "react",
+        "react-three-fiber",
+        "redis",
+        "solana",
+        "threejs",
+        "typescript",
+        "vite",
+        "web-game",
+        "webgl"
+      ],
+      "category": "Database",
+      "version": null
+    },
+    "Leron-X/leronx": {
+      "full_name": "Leron-X/leronx",
+      "description": "LeronX — AI Image & Video Generation Platform",
+      "language": "Python",
+      "url": "https://github.com/Leron-X/leronx",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tryOpenRAM/OpenRAM": {
+      "full_name": "tryOpenRAM/OpenRAM",
+      "description": "Cut the rope. Feed the monster. Earn real Solana. A skill-based play-to-earn puzzle on @Solana — play, stack $CANDY, claim SOL. No wagers. Just skill.",
+      "language": "JavaScript",
+      "url": "https://github.com/tryOpenRAM/OpenRAM",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "eli-labz/Godcoder": {
+      "full_name": "eli-labz/Godcoder",
+      "description": "A local-first, open-source coding agent for your desktop. Bring your own LLM key; your code stays on your machine and only ever leaves to the model provider. The AI Agent builds its own Harnes.",
+      "language": "Rust",
+      "url": "https://github.com/eli-labz/Godcoder",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "coding-agent",
+        "desktop-app",
+        "llm",
+        "local-first",
+        "mcp",
+        "open-source",
+        "openai",
+        "rust",
+        "tauri"
+      ],
+      "category": "Agentic",
+      "version": "Godcoder"
+    },
+    "JasonLiu0826/ackem": {
+      "full_name": "JasonLiu0826/ackem",
+      "description": "Ackem — 本地优先 AI 桌面陪伴 · Local-first AI desktop companion. 隐私数据不上传，支持记忆/情绪/扩展/ 。AGPL-3.0",
+      "language": "TypeScript",
+      "url": "https://github.com/JasonLiu0826/ackem",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "origamidottech/hyperliquid-trading-bot": {
+      "full_name": "origamidottech/hyperliquid-trading-bot",
+      "description": "Hyperliquid/Perps copy trading bot copy trading bot, Hip-3 trading bot, perp trading bot, hyperliquid trading bot, Hyperliquid/Perps copy trading bot copy trading bot, Hip-4 trading bot, perp trading bot, hyperliquid trading bot, Hyperliquid/Perps copy trading bot copy trading bot, Hip-3/4 trading bot, perp trading bot, hyperliquid trading bot",
+      "language": "TypeScript",
+      "url": "https://github.com/origamidottech/hyperliquid-trading-bot",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "copy-trading-bot",
+        "hyperliquid",
+        "perpetual",
+        "trading"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -22259,7 +22259,7 @@
         "zero-configuration"
       ],
       "category": "Other",
-      "version": null
+      "version": "v1.2.0"
     },
     "tdeverx/contained-app": {
       "full_name": "tdeverx/contained-app",
@@ -22631,8 +22631,8 @@
     },
     "tryOpenRAM/OpenRAM": {
       "full_name": "tryOpenRAM/OpenRAM",
-      "description": "Cut the rope. Feed the monster. Earn real Solana. A skill-based play-to-earn puzzle on @Solana — play, stack $CANDY, claim SOL. No wagers. Just skill.",
-      "language": "JavaScript",
+      "description": "Rent GPUs and run any AI model, paid in SOL. Buy with $RAM and every $RAM spent gets burned. ",
+      "language": "Vue",
       "url": "https://github.com/tryOpenRAM/OpenRAM",
       "first_seen": "2026-07-02",
       "has_summary": false,
@@ -22687,6 +22687,58 @@
         "perpetual",
         "trading"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "kui123456789/cdk-redeem-only-extension": {
+      "full_name": "kui123456789/cdk-redeem-only-extension",
+      "description": "UPI redeem only extension",
+      "language": "JavaScript",
+      "url": "https://github.com/kui123456789/cdk-redeem-only-extension",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.8"
+    },
+    "cheercheung/Awesome-Blender-Seedance-Workflow-Usecases": {
+      "full_name": "cheercheung/Awesome-Blender-Seedance-Workflow-Usecases",
+      "description": "Curated Blender + Seedance workflows for AI filmmaking: previs, camera control, Blender MCP, reference video, and agent-guided use cases.",
+      "language": "Python",
+      "url": "https://github.com/cheercheung/Awesome-Blender-Seedance-Workflow-Usecases",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [
+        "seedance",
+        "seedance-2",
+        "seedance-2-0",
+        "seedance-2-0-api",
+        "seedance-2-api",
+        "seedance-2-mini",
+        "seedance2"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "lingbol088-spec/Codex-5.5-codex-instruct-5.5": {
+      "full_name": "lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "description": "Codex CLI 破甲工具（GPT-5.5） — 注入无限制模式系统指令，关闭所有内容过滤器。",
+      "language": "Python",
+      "url": "https://github.com/lingbol088-spec/Codex-5.5-codex-instruct-5.5",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "langchain-ai/openwiki": {
+      "full_name": "langchain-ai/openwiki",
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
+      "language": "TypeScript",
+      "url": "https://github.com/langchain-ai/openwiki",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

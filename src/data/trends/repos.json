@@ -22511,7 +22511,7 @@
     },
     "PMTraderAdam/500-per-day-trading-bot": {
       "full_name": "PMTraderAdam/500-per-day-trading-bot",
-      "description": "polymarket trading bot polymarket bot polymarket arbitrage bot polymarket bot polymarket copy trading bot polymarket copytrading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot",
+      "description": "polymarket trading bot polymarket bot polymarket arbitrage bot polymarket bot polymarket arbitrage trading bot polymarket copytrading bot polymarket copy bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot",
       "language": "TypeScript",
       "url": "https://github.com/PMTraderAdam/500-per-day-trading-bot",
       "first_seen": "2026-07-01",
@@ -22739,6 +22739,80 @@
       "first_seen": "2026-07-02",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ik190/macos-chatgpt-overlay-bar": {
+      "full_name": "ik190/macos-chatgpt-overlay-bar",
+      "description": "ChatGPT for Mac, living in your menubar.",
+      "language": "Unknown",
+      "url": "https://github.com/ik190/macos-chatgpt-overlay-bar",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "chatgpt",
+        "chatgpt-bar-mac",
+        "chatgpt-menubar-mac",
+        "chatgpt-quick-access-mac",
+        "chatgpt-statusbar",
+        "free-gpt-bar",
+        "mac",
+        "macos",
+        "macos-ai",
+        "macos-ai-app",
+        "macos-app",
+        "macos-application",
+        "macos-gpt",
+        "macos-menubar",
+        "menubar-app"
+      ],
+      "category": "AI / ML",
+      "version": "release"
+    },
+    "Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases": {
+      "full_name": "Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+      "description": "Curated Blender + Seedance workflows for AI filmmaking: previs, camera control, Blender MCP, reference video, and agent-guided use cases.",
+      "language": "Python",
+      "url": "https://github.com/Evolink-AI/Awesome-Blender-Seedance-Workflow-Usecases",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [
+        "seedance",
+        "seedance-2",
+        "seedance-2-0",
+        "seedance-2-0-api",
+        "seedance-2-api",
+        "seedance-2-mini",
+        "seedance2"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "crazyykhllc-bit/CyberPPT": {
+      "full_name": "crazyykhllc-bit/CyberPPT",
+      "description": "一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。",
+      "language": "Python",
+      "url": "https://github.com/crazyykhllc-bit/CyberPPT",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Younesfdj/gitfut": {
+      "full_name": "Younesfdj/gitfut",
+      "description": "Your GitHub stats, turned into a World-Cup-style player card ",
+      "language": "TypeScript",
+      "url": "https://github.com/Younesfdj/gitfut",
+      "first_seen": "2026-07-02",
+      "has_summary": false,
+      "topics": [
+        "fifa-19",
+        "fut-card",
+        "github-stats-card",
+        "world-cup-2026"
+      ],
       "category": "Other",
       "version": null
     }

@@ -22911,6 +22911,28 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "HUANGCHIHHUNGLeo/claude-real-video": {
+      "full_name": "HUANGCHIHHUNGLeo/claude-real-video",
+      "description": "Let Claude (or any LLM) actually watch a video — scene-aware, deduplicated frames + transcript, from a URL or local file. Runs locally, MIT.",
+      "language": "Python",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "first_seen": "2026-07-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LanceZPF/agent-as-a-router": {
+      "full_name": "LanceZPF/agent-as-a-router",
+      "description": "The official implementations of Agent-as-a-Router: Agentic Model Routing for Coding Tasks.",
+      "language": "TypeScript",
+      "url": "https://github.com/LanceZPF/agent-as-a-router",
+      "first_seen": "2026-07-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

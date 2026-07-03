@@ -20467,8 +20467,8 @@
     },
     "Forsy-AI/agent-apprenticeship": {
       "full_name": "Forsy-AI/agent-apprenticeship",
-      "description": "The living ecosystem where AI agents run automated workflow loops on any task, improve through execution, and turn each run into reusable work experience + data to improve future agents.",
-      "language": "Unknown",
+      "description": "The living ecosystem where AI agents complete tasks through workflow loops, improve through iterative execution, are evaluated by mentor agents or humans in the loop, and turn completed work into reusable work experience and data to improve future agents.",
+      "language": "Python",
       "url": "https://github.com/Forsy-AI/agent-apprenticeship",
       "first_seen": "2026-06-20",
       "has_summary": false,
@@ -22869,7 +22869,7 @@
     },
     "PMTraderAdam/polymarket-trading-bot-500usd-daily": {
       "full_name": "PMTraderAdam/polymarket-trading-bot-500usd-daily",
-      "description": "polymarket bot polymarket arbitrage bot polymarket copytrading bot polymarket arbitrage bot polymarket copy trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot",
+      "description": "polymarket trading bot polymarket arbitrage bot polymarket copytrading bot polymarket arbitrage bot polymarket copy trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot",
       "language": "TypeScript",
       "url": "https://github.com/PMTraderAdam/polymarket-trading-bot-500usd-daily",
       "first_seen": "2026-07-03",
@@ -22932,6 +22932,54 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
+      "version": null
+    },
+    "xuchonglang/investing-for-beginners": {
+      "full_name": "xuchonglang/investing-for-beginners",
+      "description": "小隐寺投资百科官方公开索引：美股、期权与加密货币知识框架",
+      "language": "Unknown",
+      "url": "https://github.com/xuchonglang/investing-for-beginners",
+      "first_seen": "2026-07-03",
+      "has_summary": false,
+      "topics": [
+        "chinese",
+        "cryptocurrency",
+        "investing",
+        "options",
+        "xiaoyinsi"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "uzairansaruzi/hermex": {
+      "full_name": "uzairansaruzi/hermex",
+      "description": "Native iPhone app for your Hermes agent",
+      "language": "Swift",
+      "url": "https://github.com/uzairansaruzi/hermex",
+      "first_seen": "2026-07-03",
+      "has_summary": false,
+      "topics": [
+        "hermes",
+        "hermes-agent",
+        "hermex",
+        "ios",
+        "llm",
+        "self-hosted",
+        "swift",
+        "swiftui"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "spiritov/ds.css": {
+      "full_name": "spiritov/ds.css",
+      "description": "A css framework recreating the DS / DS Lite's UI",
+      "language": "CSS",
+      "url": "https://github.com/spiritov/ds.css",
+      "first_seen": "2026-07-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

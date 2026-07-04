@@ -22974,7 +22974,7 @@
     "spiritov/ds.css": {
       "full_name": "spiritov/ds.css",
       "description": "A css framework recreating the DS / DS Lite's UI",
-      "language": "CSS",
+      "language": "JavaScript",
       "url": "https://github.com/spiritov/ds.css",
       "first_seen": "2026-07-03",
       "has_summary": false,
@@ -23214,6 +23214,26 @@
       ],
       "category": "Web Framework",
       "version": "v0.1.3"
+    },
+    "practical-tutorials/project-based-learning": {
+      "full_name": "practical-tutorials/project-based-learning",
+      "description": "Curated list of project-based tutorials",
+      "language": "Python",
+      "url": "https://github.com/practical-tutorials/project-based-learning",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [
+        "beginner-project",
+        "cpp",
+        "golang",
+        "javascript",
+        "project",
+        "python",
+        "tutorial",
+        "webdevelopment"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

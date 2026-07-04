@@ -22974,7 +22974,7 @@
     "spiritov/ds.css": {
       "full_name": "spiritov/ds.css",
       "description": "A css framework recreating the DS / DS Lite's UI",
-      "language": "JavaScript",
+      "language": "CSS",
       "url": "https://github.com/spiritov/ds.css",
       "first_seen": "2026-07-03",
       "has_summary": false,
@@ -23232,6 +23232,17 @@
         "tutorial",
         "webdevelopment"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "Kulaxyz/token-diet": {
+      "full_name": "Kulaxyz/token-diet",
+      "description": "Always-on token-efficiency skill for coding agents (Claude Code, Codex, Cursor, Windsurf, Cline). ~31% lower bill on average, no loss of correctness.",
+      "language": "Shell",
+      "url": "https://github.com/Kulaxyz/token-diet",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

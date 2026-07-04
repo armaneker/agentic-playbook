@@ -22921,7 +22921,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.4.0"
     },
     "LanceZPF/agent-as-a-router": {
       "full_name": "LanceZPF/agent-as-a-router",
@@ -22981,6 +22981,239 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "jamesob/local-llm": {
+      "full_name": "jamesob/local-llm",
+      "description": "Everything I know about running LLMs locally",
+      "language": "Shell",
+      "url": "https://github.com/jamesob/local-llm",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "AI / ML",
+      "version": null
+    },
+    "jmerelnyc/Talos": {
+      "full_name": "jmerelnyc/Talos",
+      "description": "GPU worker client for the Talos network. Pairs with your Talos account, serves open-model inference jobs over a WebSocket, and reports uptime for payouts.",
+      "language": "Python",
+      "url": "https://github.com/jmerelnyc/Talos",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "distributed-computing",
+        "gpu",
+        "llm",
+        "ollama",
+        "python",
+        "websocket",
+        "worker"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "FractalFir/crustc": {
+      "full_name": "FractalFir/crustc",
+      "description": "Entirety of `rustc`, translated to C. ",
+      "language": "C",
+      "url": "https://github.com/FractalFir/crustc",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "XboxNahida/ghostty-blackhole-main": {
+      "full_name": "XboxNahida/ghostty-blackhole-main",
+      "description": "适用于Windows环境的黑洞屏保",
+      "language": "C++",
+      "url": "https://github.com/XboxNahida/ghostty-blackhole-main",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LinXiaoTao/FuckClaude": {
+      "full_name": "LinXiaoTao/FuckClaude",
+      "description": "",
+      "language": "Astro",
+      "url": "https://github.com/LinXiaoTao/FuckClaude",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "maaslalani/fast": {
+      "full_name": "maaslalani/fast",
+      "description": "Internet speed test in your terminal",
+      "language": "Go",
+      "url": "https://github.com/maaslalani/fast",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "revfactory/webtoon-harness": {
+      "full_name": "revfactory/webtoon-harness",
+      "description": "트렌드 조사부터 세로 스크롤 뷰어 완성까지, 웹툰 한 회차를 27개 AI 에이전트 팀이 만들어내는 Claude Code 하네스",
+      "language": "HTML",
+      "url": "https://github.com/revfactory/webtoon-harness",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "meituan-longcat/LongCat-2.0": {
+      "full_name": "meituan-longcat/LongCat-2.0",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/meituan-longcat/LongCat-2.0",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "prathoshap/vagdhenu": {
+      "full_name": "prathoshap/vagdhenu",
+      "description": "Vāgdhenu — metered Sanskrit/Vedic chant text-to-speech (DiT + BigVGAN). Apache-2.0.",
+      "language": "Python",
+      "url": "https://github.com/prathoshap/vagdhenu",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Ssupercoder/Salary-Negotiation-Skill": {
+      "full_name": "Ssupercoder/Salary-Negotiation-Skill",
+      "description": "谈薪skill--自动化谈薪的开拓者与领跑者",
+      "language": "Python",
+      "url": "https://github.com/Ssupercoder/Salary-Negotiation-Skill",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xt4d/GameBlocks": {
+      "full_name": "xt4d/GameBlocks",
+      "description": "Concise and self-explanatory building blocks that help coding agents prototype browser-based 3D games.",
+      "language": "JavaScript",
+      "url": "https://github.com/xt4d/GameBlocks",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "haowang02/codex-candy-eval": {
+      "full_name": "haowang02/codex-candy-eval",
+      "description": "Codex 降智测试",
+      "language": "Python",
+      "url": "https://github.com/haowang02/codex-candy-eval",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "playAutonomica/Autonomica": {
+      "full_name": "playAutonomica/Autonomica",
+      "description": "A P2E reality show run by 6 real AIs battling over GPUs & RAM — live, unscripted. Bet on the drama, own the grid, earn $AUTONOMICA",
+      "language": "TypeScript",
+      "url": "https://github.com/playAutonomica/Autonomica",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "realchendahuang/sub-store-cloudflare": {
+      "full_name": "realchendahuang/sub-store-cloudflare",
+      "description": "一个部署在 Cloudflare Workers 上的订阅聚合与规则配置工具。它把订阅源、节点处理、组合订阅和分流规则模板放在云端，客户端只需要订阅最终生成的链接。",
+      "language": "TypeScript",
+      "url": "https://github.com/realchendahuang/sub-store-cloudflare",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [
+        "cloudflare",
+        "cloudflare-workers",
+        "d1",
+        "mihomo",
+        "proxy",
+        "sing-box",
+        "sub-store",
+        "subscription-manager"
+      ],
+      "category": "Infra",
+      "version": "v0.1.1"
+    },
+    "FlavioAdamo/openfit": {
+      "full_name": "FlavioAdamo/openfit",
+      "description": "Desktop dashboard and Codex-powered assistant for Fitbit data",
+      "language": "TypeScript",
+      "url": "https://github.com/FlavioAdamo/openfit",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "germondai/trawl": {
+      "full_name": "germondai/trawl",
+      "description": "Self-hosted scraping engine — bypasses any JS challenge & captcha: Cloudflare, Turnstile, reCAPTCHA, hCaptcha, GeeTest. FlareSolverr & Byparr alternative and drop-in replacement for your *arr stack.",
+      "language": "TypeScript",
+      "url": "https://github.com/germondai/trawl",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [
+        "arr",
+        "bun",
+        "byparr",
+        "bypass-cloudflare",
+        "camoufox",
+        "captcha-bypass",
+        "captcha-slover",
+        "docker",
+        "flaresolverr",
+        "jackett",
+        "prowlarr",
+        "radarr",
+        "scraper",
+        "scraping",
+        "self-hosted",
+        "selfhosted",
+        "typescript",
+        "web-scraping"
+      ],
+      "category": "DevTools",
+      "version": null
+    },
+    "dreiachse-cyber/image-cockpit-for-codex-workflows": {
+      "full_name": "dreiachse-cyber/image-cockpit-for-codex-workflows",
+      "description": "Local cockpit for Codex imagegen, pixel art, image editing, animation, and sprite-sheet workflows.",
+      "language": "TypeScript",
+      "url": "https://github.com/dreiachse-cyber/image-cockpit-for-codex-workflows",
+      "first_seen": "2026-07-04",
+      "has_summary": false,
+      "topics": [
+        "codex",
+        "game-dev",
+        "image-generation",
+        "local-first",
+        "pixel-art",
+        "react",
+        "sprite-sheet",
+        "vite"
+      ],
+      "category": "Web Framework",
+      "version": "v0.1.3"
     }
   }
 }

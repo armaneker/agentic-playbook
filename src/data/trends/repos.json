@@ -23038,7 +23038,7 @@
     "LinXiaoTao/FuckClaude": {
       "full_name": "LinXiaoTao/FuckClaude",
       "description": "",
-      "language": "Astro",
+      "language": "TypeScript",
       "url": "https://github.com/LinXiaoTao/FuckClaude",
       "first_seen": "2026-07-04",
       "has_summary": false,
@@ -23408,6 +23408,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.17"
+    },
+    "HKUDS/OpenOPC": {
+      "full_name": "HKUDS/OpenOPC",
+      "description": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown",
+      "language": "Python",
+      "url": "https://github.com/HKUDS/OpenOPC",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

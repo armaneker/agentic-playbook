@@ -23380,6 +23380,34 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "elder-plinius/T3MP3ST": {
+      "full_name": "elder-plinius/T3MP3ST",
+      "description": "autonomous red teaming platform; multi-agent offensive-security meta-harness",
+      "language": "TypeScript",
+      "url": "https://github.com/elder-plinius/T3MP3ST",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "multi-agent",
+        "offensive-security",
+        "redteam"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "yynxxxxx/Codex-X": {
+      "full_name": "yynxxxxx/Codex-X",
+      "description": "Codex Switch & Instruct desktop manager",
+      "language": "TypeScript",
+      "url": "https://github.com/yynxxxxx/Codex-X",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.17"
     }
   }
 }

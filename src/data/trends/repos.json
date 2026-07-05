@@ -22330,7 +22330,7 @@
     },
     "uphiago/recon-skills": {
       "full_name": "uphiago/recon-skills",
-      "description": "156 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with browser fingerprint evasion, anti-bot bypass, hardcoded credential hunting, SCADA/ICS enumeration.",
+      "description": "162 offensive security skills for recon and pentest. Field-validated techniques from 600+ targets across 45+ sectors. Updated with origin IP discovery, subdomain takeover, GitHub secret hunting, browser fingerprint evasion, SCADA enumeration, and automated CMS detection.",
       "language": "Python",
       "url": "https://github.com/uphiago/recon-skills",
       "first_seen": "2026-06-30",
@@ -23401,7 +23401,7 @@
     "yynxxxxx/Codex-X": {
       "full_name": "yynxxxxx/Codex-X",
       "description": "Codex Switch & Instruct desktop manager",
-      "language": "TypeScript",
+      "language": "Rust",
       "url": "https://github.com/yynxxxxx/Codex-X",
       "first_seen": "2026-07-05",
       "has_summary": false,
@@ -23414,6 +23414,28 @@
       "description": "OpenOPC: Build Your Personal AI-Native Company — Self-Built, Self-Run, Self-Grown",
       "language": "Python",
       "url": "https://github.com/HKUDS/OpenOPC",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Archive228/loopkit": {
+      "full_name": "Archive228/loopkit",
+      "description": "33 battle-tested skills + minimal .claude harness for any coding agent (Claude Code, Cursor, Codex, Gemini CLI).",
+      "language": "JavaScript",
+      "url": "https://github.com/Archive228/loopkit",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "dzhng/skills": {
+      "full_name": "dzhng/skills",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/dzhng/skills",
       "first_seen": "2026-07-05",
       "has_summary": false,
       "topics": [],

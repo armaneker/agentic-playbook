@@ -23270,6 +23270,116 @@
       ],
       "category": "Agentic",
       "version": "v0.3.2"
+    },
+    "msitarzewski/agency-agents": {
+      "full_name": "msitarzewski/agency-agents",
+      "description": "A complete AI agency at your fingertips - From frontend wizards to Reddit community ninjas, from whimsy injectors to reality checkers. Each agent is a specialized expert with personality, processes, and proven deliverables.",
+      "language": "Shell",
+      "url": "https://github.com/msitarzewski/agency-agents",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "ammaarreshi/Generals-Mac-iOS-iPad": {
+      "full_name": "ammaarreshi/Generals-Mac-iOS-iPad",
+      "description": "Command & Conquer Generals: Zero Hour running natively on macOS, iPhone & iPad — real engine (EA GPL v3 source, via GeneralsX), DXVK/MoltenVK renderer, RTS touch controls. No game assets included.",
+      "language": "C++",
+      "url": "https://github.com/ammaarreshi/Generals-Mac-iOS-iPad",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "command-and-conquer",
+        "dxvk",
+        "game-port",
+        "generals-zero-hour",
+        "ios",
+        "ipad",
+        "macos",
+        "moltenvk",
+        "open-source-game",
+        "rts",
+        "sdl3"
+      ],
+      "category": "Mobile",
+      "version": null
+    },
+    "CalmNoteDepot/MECCHA-CHAMELEON-VISION": {
+      "full_name": "CalmNoteDepot/MECCHA-CHAMELEON-VISION",
+      "description": "🎨 Meccha Chameleon Vision — Desktop Tool 2026",
+      "language": "Unknown",
+      "url": "https://github.com/CalmNoteDepot/MECCHA-CHAMELEON-VISION",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [
+        "meccha-chameleon-download",
+        "meccha-chameleon-fps",
+        "meccha-chameleon-target-lock",
+        "meccha-chameleon-wh",
+        "meccha-chemeleon-fps-booster"
+      ],
+      "category": "Other",
+      "version": "MecchaChameleonVision"
+    },
+    "mistydew/tokenicode-deepseek-alpha": {
+      "full_name": "mistydew/tokenicode-deepseek-alpha",
+      "description": "TOKENICODE DeepSeek Alpha: a DeepSeek/CC Switch focused TOKENICODE fork",
+      "language": "TypeScript",
+      "url": "https://github.com/mistydew/tokenicode-deepseek-alpha",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.10.12-alpha.1"
+    },
+    "antiwork/chromeless": {
+      "full_name": "antiwork/chromeless",
+      "description": "The browser that isn't there — zero-chrome macOS browser for clean screenshots and fullscreen video. One Swift file.",
+      "language": "Swift",
+      "url": "https://github.com/antiwork/chromeless",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [
+        "browser",
+        "macos",
+        "screenshots",
+        "swift",
+        "webkit"
+      ],
+      "category": "Mobile",
+      "version": null
+    },
+    "tigicion/dao-code": {
+      "full_name": "tigicion/dao-code",
+      "description": "Open-source TypeScript terminal coding agent for DeepSeek-V4 — builds on DeepSeek's strong price-performance and ultra-cheap cache pricing, engineering byte-stable prefixes and cache-reusing forks so cross-session memory and a continuous self-correction layer add almost no token cost; 1M context, Skills/MCP/Hooks, Claude Code config compatible.",
+      "language": "TypeScript",
+      "url": "https://github.com/tigicion/dao-code",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "cli",
+        "coding-agent",
+        "deepseek",
+        "llm",
+        "terminal",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.4.0"
+    },
+    "jangles-byte/Pythia": {
+      "full_name": "jangles-byte/Pythia",
+      "description": "One local API call gives your agent the entire live state of the planet — every major world event at once, plus forecasts. 30+ free keyless feeds, runs entirely on Ollama. No cloud, no cost.  Keyless live feeds into one global view and forecasts what’s likely next. No cloud, no keys, no cost.  1d,1w,1m,1y predictions by Mirofish.",
+      "language": "TypeScript",
+      "url": "https://github.com/jangles-byte/Pythia",
+      "first_seen": "2026-07-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -22791,7 +22791,7 @@
     },
     "crazyykhllc-bit/CyberPPT": {
       "full_name": "crazyykhllc-bit/CyberPPT",
-      "description": "一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。",
+      "description": "三阶段工作流，一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。",
       "language": "Python",
       "url": "https://github.com/crazyykhllc-bit/CyberPPT",
       "first_seen": "2026-07-02",
@@ -23550,6 +23550,91 @@
       ],
       "category": "Agentic",
       "version": "v0.2.0"
+    },
+    "CalmNoteDepot/MECCHA-CHAMELEON-VISION-ULTIMATE": {
+      "full_name": "CalmNoteDepot/MECCHA-CHAMELEON-VISION-ULTIMATE",
+      "description": "🎯 Meccha Vision Ultimate — Ultimate Enhancement Tool for MECCHA CHAMELEON ESP · Aimbot · Fly Hack · Teleport · God Mode · Infinite Paint · Speed Hack · No Recoil",
+      "language": "Unknown",
+      "url": "https://github.com/CalmNoteDepot/MECCHA-CHAMELEON-VISION-ULTIMATE",
+      "first_seen": "2026-07-06",
+      "has_summary": false,
+      "topics": [
+        "meccha-chameleon-download",
+        "meccha-chameleon-fps",
+        "meccha-chameleon-target-lock",
+        "meccha-chameleon-wh",
+        "meccha-chemeleon-fps-booster"
+      ],
+      "category": "Other",
+      "version": "MecchaVisionUltimate"
+    },
+    "514-labs/dnsglobe": {
+      "full_name": "514-labs/dnsglobe",
+      "description": "Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers worldwide, on a world map in your terminal",
+      "language": "Rust",
+      "url": "https://github.com/514-labs/dnsglobe",
+      "first_seen": "2026-07-06",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "dns",
+        "dns-checker",
+        "dns-propagation",
+        "ratatui",
+        "rust",
+        "tui"
+      ],
+      "category": "DevTools",
+      "version": "v0.2.0"
+    },
+    "synthetic-sciences/openscience": {
+      "full_name": "synthetic-sciences/openscience",
+      "description": "The open-source AI workbench for scientific research",
+      "language": "TypeScript",
+      "url": "https://github.com/synthetic-sciences/openscience",
+      "first_seen": "2026-07-06",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "bun",
+        "cli",
+        "co-scientist",
+        "llm",
+        "ml",
+        "ml-engineering",
+        "open-source",
+        "research",
+        "research-tools",
+        "science",
+        "scientific-computing",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v1.2.7"
+    },
+    "funador/claude-code-merge-queue": {
+      "full_name": "funador/claude-code-merge-queue",
+      "description": "The local merge queue for parallel Claude Code agents. ",
+      "language": "TypeScript",
+      "url": "https://github.com/funador/claude-code-merge-queue",
+      "first_seen": "2026-07-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lxh77721/k12-reg": {
+      "full_name": "lxh77721/k12-reg",
+      "description": "多线程全自动注册free 强上K12空间 gmail版",
+      "language": "TypeScript",
+      "url": "https://github.com/lxh77721/k12-reg",
+      "first_seen": "2026-07-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

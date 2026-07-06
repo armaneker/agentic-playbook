@@ -21303,7 +21303,7 @@
     },
     "shy3130/tickflow-stock-panel": {
       "full_name": "shy3130/tickflow-stock-panel",
-      "description": "自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据 | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方个性化扩展数据",
+      "description": "自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
       "language": "TypeScript",
       "url": "https://github.com/shy3130/tickflow-stock-panel",
       "first_seen": "2026-06-25",
@@ -22791,7 +22791,7 @@
     },
     "crazyykhllc-bit/CyberPPT": {
       "full_name": "crazyykhllc-bit/CyberPPT",
-      "description": "三阶段工作流，一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。",
+      "description": "一个用于生成高密度、可编辑、咨询风格 PowerPoint 的 Codex Skill，支持 SCR 叙事、风格确认和 PPTX 质量检查。",
       "language": "Python",
       "url": "https://github.com/crazyykhllc-bit/CyberPPT",
       "first_seen": "2026-07-02",
@@ -23635,6 +23635,36 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "MaximeRivest/riddle": {
+      "full_name": "MaximeRivest/riddle",
+      "description": "The diary of Tom Riddle for the reMarkable Paper Pro — write with your pen, the page drinks your ink and answers in a flowing hand",
+      "language": "Rust",
+      "url": "https://github.com/MaximeRivest/riddle",
+      "first_seen": "2026-07-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "nagisanzenin/engram": {
+      "full_name": "nagisanzenin/engram",
+      "description": "Evidence-based learning engine for Claude Code — first-principles curricula, free-recall verification with receipts, FSRS-scheduled memory, and explorable artifacts. Learn anything; keep it.",
+      "language": "Python",
+      "url": "https://github.com/nagisanzenin/engram",
+      "first_seen": "2026-07-06",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "claude-code-plugin",
+        "education",
+        "fsrs",
+        "learning",
+        "learning-science",
+        "spaced-repetition"
+      ],
+      "category": "Other",
+      "version": "v0.3.0"
     }
   }
 }

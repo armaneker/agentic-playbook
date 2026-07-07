@@ -20200,7 +20200,7 @@
     },
     "Waishnav/devspace": {
       "full_name": "Waishnav/devspace",
-      "description": "Turn ChatGPT into Codex!",
+      "description": "Turn ChatGPT into Codex! OR Turn Claude Web into Claude Code!",
       "language": "TypeScript",
       "url": "https://github.com/Waishnav/devspace",
       "first_seen": "2026-06-18",
@@ -23829,6 +23829,43 @@
       "description": "access to david ondrej's personal agent skills",
       "language": "Unknown",
       "url": "https://github.com/davidondrej/skills",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Shpigford/knockoff": {
+      "full_name": "Shpigford/knockoff",
+      "description": "Chrome extension that filters pseudo-brand junk out of Amazon. Buy from real, established brands.",
+      "language": "JavaScript",
+      "url": "https://github.com/Shpigford/knockoff",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [
+        "amazon",
+        "browser-extension",
+        "chrome-extension"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "x4gKing/X4G": {
+      "full_name": "x4gKing/X4G",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/x4gKing/X4G",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ion-design/ditto.site": {
+      "full_name": "ion-design/ditto.site",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/ion-design/ditto.site",
       "first_seen": "2026-07-07",
       "has_summary": false,
       "topics": [],

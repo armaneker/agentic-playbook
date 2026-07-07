@@ -23503,7 +23503,7 @@
     "Pluviobyte/rnskill": {
       "full_name": "Pluviobyte/rnskill",
       "description": "雪踏乌云的 AI Agent Skills 集合",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/Pluviobyte/rnskill",
       "first_seen": "2026-07-06",
       "has_summary": false,
@@ -23723,6 +23723,95 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "isjiamu/gzh-design-skill": {
+      "full_name": "isjiamu/gzh-design-skill",
+      "description": "把 Markdown 一键排成可直接粘进公众号编辑器的精致 HTML —— 6 套精选主题 + 主题生成器 + 双关卡校验。An AI-agent skill that turns Markdown into paste-ready WeChat article HTML.",
+      "language": "HTML",
+      "url": "https://github.com/isjiamu/gzh-design-skill",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "cursor",
+        "gongzhonghao",
+        "html",
+        "markdown",
+        "rich-text",
+        "skill",
+        "typesetting",
+        "wechat",
+        "weixin"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "simonlin1212/Vibe-Research": {
+      "full_name": "simonlin1212/Vibe-Research",
+      "description": "Vibe-Research: Your Personal Trading Research Agent · A股/美股/港股 的个人投研 Agent：每日复盘、资讯雷达、个股数据、板块中心、我的持仓、研究记录。Vibe-Research 把数据和功能配齐，由你自己的 AI 驱动投资研究。",
+      "language": "TypeScript",
+      "url": "https://github.com/simonlin1212/Vibe-Research",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [
+        "a-stock",
+        "ai-agent",
+        "dashboard",
+        "fastapi",
+        "fintech",
+        "hk-stocks",
+        "investment-research",
+        "llm",
+        "mcp",
+        "python",
+        "react",
+        "stock-market",
+        "trading",
+        "us-stocks"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "InternScience/Agents-A1": {
+      "full_name": "InternScience/Agents-A1",
+      "description": "Scaling the Horizon, Not the Parameters",
+      "language": "Python",
+      "url": "https://github.com/InternScience/Agents-A1",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "ai4s-research/open-science": {
+      "full_name": "ai4s-research/open-science",
+      "description": "Open Science — an open AI workbench for scientists. Open-source alternative to Claude Science: local-first, model-agnostic, reproducible AI research desktop (macOS & Windows), built on Tauri + MCP + agent skills.",
+      "language": "TypeScript",
+      "url": "https://github.com/ai4s-research/open-science",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "ai-for-science",
+        "ai-scientist",
+        "ai4s",
+        "claude-science",
+        "claude-science-alternative",
+        "desktop-app",
+        "llm",
+        "local-first",
+        "mcp",
+        "open-science",
+        "reproducible-research",
+        "research-tools",
+        "scientific-research",
+        "tauri"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.3"
     }
   }
 }

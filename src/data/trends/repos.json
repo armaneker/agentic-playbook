@@ -23773,7 +23773,7 @@
         "us-stocks"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.1.1"
     },
     "InternScience/Agents-A1": {
       "full_name": "InternScience/Agents-A1",
@@ -23812,6 +23812,28 @@
       ],
       "category": "Agentic",
       "version": "v0.1.3"
+    },
+    "anthropics/jacobian-lens": {
+      "full_name": "anthropics/jacobian-lens",
+      "description": " Companion code for the global workspace interpretability paper",
+      "language": "Python",
+      "url": "https://github.com/anthropics/jacobian-lens",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "davidondrej/skills": {
+      "full_name": "davidondrej/skills",
+      "description": "access to david ondrej's personal agent skills",
+      "language": "Unknown",
+      "url": "https://github.com/davidondrej/skills",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

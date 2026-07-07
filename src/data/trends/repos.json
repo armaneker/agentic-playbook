@@ -23665,6 +23665,64 @@
       ],
       "category": "Other",
       "version": "v0.3.0"
+    },
+    "majidmanzarpour/threejs-procedural-dungeon": {
+      "full_name": "majidmanzarpour/threejs-procedural-dungeon",
+      "description": "Real-time procedural dungeon generator in Three.js - deterministic seeds, Delaunay/MST graph layouts, room semantics, five themes, and a custom bloom/tilt-shift pipeline.",
+      "language": "JavaScript",
+      "url": "https://github.com/majidmanzarpour/threejs-procedural-dungeon",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pocket-stack/pocketjs": {
+      "full_name": "pocket-stack/pocketjs",
+      "description": "High-performance JSX UI outside the browser, with hardware rendering, standard Vue Vapor and Solid support, a Tailwind design system, and 60 FPS animation under an 8 MB memory budget.",
+      "language": "TypeScript",
+      "url": "https://github.com/pocket-stack/pocketjs",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [
+        "embedded-ui",
+        "flexbox",
+        "frontend",
+        "jsx",
+        "native-ui",
+        "psp",
+        "quickjs",
+        "rust",
+        "solidjs",
+        "tailwindcss",
+        "vue",
+        "vue-vapor",
+        "webassembly"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "tomicz/fable-5-train-opus-skills-after-it-retires": {
+      "full_name": "tomicz/fable-5-train-opus-skills-after-it-retires",
+      "description": "Thsis is a prompt that will create skills by Fable 5 before it retires and your cheaper models can use those skills. ",
+      "language": "Unknown",
+      "url": "https://github.com/tomicz/fable-5-train-opus-skills-after-it-retires",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AstraCompute/AstraCompute": {
+      "full_name": "AstraCompute/AstraCompute",
+      "description": "Deploy GPU LLM endpoints in minutes. On-demand compute, OpenAI-compatible APIs, crypto-native billing — settled in USDC on Solana via x402.",
+      "language": "TypeScript",
+      "url": "https://github.com/AstraCompute/AstraCompute",
+      "first_seen": "2026-07-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -22251,6 +22251,7 @@
       "first_seen": "2026-06-29",
       "has_summary": false,
       "topics": [
+        "crossplatform",
         "downloader",
         "magnet-links",
         "p2p",
@@ -23945,6 +23946,32 @@
       "first_seen": "2026-07-08",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "makers-pet/oomwoo": {
+      "full_name": "makers-pet/oomwoo",
+      "description": "Open-source vacuum robot cleaner",
+      "language": "Python",
+      "url": "https://github.com/makers-pet/oomwoo",
+      "first_seen": "2026-07-08",
+      "has_summary": false,
+      "topics": [
+        "3d-printing",
+        "arduino",
+        "diy-electronics",
+        "diy-project",
+        "esp32",
+        "esp32-arduino",
+        "home-assistant",
+        "lidar",
+        "lidar-slam",
+        "raspberry-pi",
+        "ros2",
+        "slam",
+        "vacuum-cleaner",
+        "vacuum-robot"
+      ],
       "category": "Other",
       "version": null
     }

@@ -23487,7 +23487,7 @@
         "typescript"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v1.0.0"
     },
     "BenMakesEverything/Pocket-Lab-Power-Supply": {
       "full_name": "BenMakesEverything/Pocket-Lab-Power-Supply",
@@ -23914,6 +23914,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.4.1"
+    },
+    "wouterdebie/davit": {
+      "full_name": "wouterdebie/davit",
+      "description": "A native macOS UI for Apple's platform",
+      "language": "Swift",
+      "url": "https://github.com/wouterdebie/davit",
+      "first_seen": "2026-07-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.7"
     }
   }
 }

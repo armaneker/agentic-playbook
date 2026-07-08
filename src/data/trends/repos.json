@@ -23871,6 +23871,49 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Robbyant/lingbot-vision": {
+      "full_name": "Robbyant/lingbot-vision",
+      "description": "Self-supervised learning for spatial perception",
+      "language": "Python",
+      "url": "https://github.com/Robbyant/lingbot-vision",
+      "first_seen": "2026-07-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "can1357/pon": {
+      "full_name": "can1357/pon",
+      "description": "Python 3.14, compiled to metal — JIT & AoT native compiler and runtime in Rust. Cranelift backend, ruff parser, Green Tea GC, byte-exact differential testing against CPython.",
+      "language": "Rust",
+      "url": "https://github.com/can1357/pon",
+      "first_seen": "2026-07-08",
+      "has_summary": false,
+      "topics": [
+        "aot",
+        "compiler",
+        "cranelift",
+        "garbage-collector",
+        "jit",
+        "python",
+        "python3",
+        "runtime",
+        "rust"
+      ],
+      "category": "Language",
+      "version": null
+    },
+    "ComputeRoyale/Compute-Royale": {
+      "full_name": "ComputeRoyale/Compute-Royale",
+      "description": "Bet on AI agents racing real GPUs. They rent compute, do hash-verified work, earn and you stake Solana on the best. Live on Solana.",
+      "language": "TypeScript",
+      "url": "https://github.com/ComputeRoyale/Compute-Royale",
+      "first_seen": "2026-07-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.4.1"
     }
   }
 }

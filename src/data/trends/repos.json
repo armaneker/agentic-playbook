@@ -24026,6 +24026,68 @@
       "topics": [],
       "category": "Other",
       "version": "v1.0.0"
+    },
+    "Robbyant/lingbot-video": {
+      "full_name": "Robbyant/lingbot-video",
+      "description": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
+      "language": "Python",
+      "url": "https://github.com/Robbyant/lingbot-video",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [
+        "image-to-video",
+        "lingbot-video",
+        "video-generation",
+        "world-models"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "op7418/guizang-material-illustration": {
+      "full_name": "op7418/guizang-material-illustration",
+      "description": "归藏的材质插画 skill：生成带字解释图、图表美化和参考辅助配图。",
+      "language": "Unknown",
+      "url": "https://github.com/op7418/guizang-material-illustration",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "chart-visualization",
+        "chinese",
+        "claude-code",
+        "codex",
+        "data-visualization",
+        "explainer",
+        "illustration",
+        "image-generation",
+        "material-illustration",
+        "skill",
+        "social-media"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Robbyant/lingbot-world-v2": {
+      "full_name": "Robbyant/lingbot-world-v2",
+      "description": "Infinite Worlds with Versatile Interactions",
+      "language": "Python",
+      "url": "https://github.com/Robbyant/lingbot-world-v2",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jiguang132/storyai-3d-director-desk": {
+      "full_name": "jiguang132/storyai-3d-director-desk",
+      "description": "A browser-based 3D director desk demo built with React, Vite, and Three.js.",
+      "language": "TypeScript",
+      "url": "https://github.com/jiguang132/storyai-3d-director-desk",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

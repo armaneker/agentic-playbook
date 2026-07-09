@@ -23624,7 +23624,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.1.16"
     },
     "lxh77721/k12-reg": {
       "full_name": "lxh77721/k12-reg",
@@ -23974,6 +23974,58 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "frecodecasti/polymarket-weather-trading-bot": {
+      "full_name": "frecodecasti/polymarket-weather-trading-bot",
+      "description": "Polymarket weather trading bot | Polymarket weather trading bot | Polymarket weather trading bot | Polymarket weather trading bot | Polymarket weather trading bot | Polymarket weather trading bot | Polymarket weather trading bot | Polymarket weather trading bot | Polymarket weather trading bot",
+      "language": "TypeScript",
+      "url": "https://github.com/frecodecasti/polymarket-weather-trading-bot",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [
+        "polymarket",
+        "trading-bot",
+        "weather-trading"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "rolekkona/Polymarket-Arbitrage-Trading-Bot": {
+      "full_name": "rolekkona/Polymarket-Arbitrage-Trading-Bot",
+      "description": "polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot | | polymarket arbitrage trading Bot",
+      "language": "TypeScript",
+      "url": "https://github.com/rolekkona/Polymarket-Arbitrage-Trading-Bot",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [
+        "arbitrage",
+        "bot",
+        "polymarket"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "withmarbleapp/os-taxonomy": {
+      "full_name": "withmarbleapp/os-taxonomy",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/withmarbleapp/os-taxonomy",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jimparis/qr-font": {
+      "full_name": "jimparis/qr-font",
+      "description": "A QR code generator in a TrueType font: https://qr.jim.sh/",
+      "language": "Python",
+      "url": "https://github.com/jimparis/qr-font",
+      "first_seen": "2026-07-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
     }
   }
 }

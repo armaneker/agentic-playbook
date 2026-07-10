@@ -24166,7 +24166,7 @@
     "x4gKing/3x-ui-Upgrade": {
       "full_name": "x4gKing/3x-ui-Upgrade",
       "description": "",
-      "language": "Dockerfile",
+      "language": "HTML",
       "url": "https://github.com/x4gKing/3x-ui-Upgrade",
       "first_seen": "2026-07-10",
       "has_summary": false,
@@ -24211,6 +24211,23 @@
       ],
       "category": "Agentic",
       "version": "v0.4.0"
+    },
+    "donoaccestag/polymarket-sports-trading-bot": {
+      "full_name": "donoaccestag/polymarket-sports-trading-bot",
+      "description": "polymarket sports trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot",
+      "language": "TypeScript",
+      "url": "https://github.com/donoaccestag/polymarket-sports-trading-bot",
+      "first_seen": "2026-07-10",
+      "has_summary": false,
+      "topics": [
+        "arbitrage",
+        "bot",
+        "polymarket",
+        "sports",
+        "trading"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

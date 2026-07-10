@@ -23865,7 +23865,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "Update_9.5"
     },
     "ion-design/ditto.site": {
       "full_name": "ion-design/ditto.site",
@@ -24195,6 +24195,22 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "SmileLikeYe/agent-chief": {
+      "full_name": "SmileLikeYe/agent-chief",
+      "description": "Attention is your scarcest resource. Chief is the local-first layer that guards it — turning every agent, alert, and feed into one honest call: interrupt, or not.",
+      "language": "Python",
+      "url": "https://github.com/SmileLikeYe/agent-chief",
+      "first_seen": "2026-07-10",
+      "has_summary": false,
+      "topics": [
+        "harness",
+        "harness-engineering",
+        "llm",
+        "local-first"
+      ],
+      "category": "Agentic",
+      "version": "v0.4.0"
     }
   }
 }

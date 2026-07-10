@@ -22734,7 +22734,7 @@
     },
     "langchain-ai/openwiki": {
       "full_name": "langchain-ai/openwiki",
-      "description": "OpenWiki is a CLI that writes and maintains agent wikis for codebases or purpose memory.",
+      "description": "OpenWiki is a CLI that writes and maintains agent documentation for your codebase.",
       "language": "TypeScript",
       "url": "https://github.com/langchain-ai/openwiki",
       "first_seen": "2026-07-02",
@@ -24226,6 +24226,28 @@
         "sports",
         "trading"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "x4gKing/PasarGuard-Node": {
+      "full_name": "x4gKing/PasarGuard-Node",
+      "description": "",
+      "language": "Dockerfile",
+      "url": "https://github.com/x4gKing/PasarGuard-Node",
+      "first_seen": "2026-07-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "JustVugg/colibri": {
+      "full_name": "JustVugg/colibri",
+      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "language": "C",
+      "url": "https://github.com/JustVugg/colibri",
+      "first_seen": "2026-07-10",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

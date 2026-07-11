@@ -24250,6 +24250,121 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "nexu-io/motion-anything": {
+      "full_name": "nexu-io/motion-anything",
+      "description": "✨ The agentic motion layer — an open-source, chat-native motion engine. Describe the feeling; your AI ships the animation.",
+      "language": "JavaScript",
+      "url": "https://github.com/nexu-io/motion-anything",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "animation",
+        "claude",
+        "design-tools",
+        "figma-motion-alternative",
+        "motion-design",
+        "motion-graphics",
+        "webgl"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "mira-wm/mira": {
+      "full_name": "mira-wm/mira",
+      "description": "Code for MIRA: Multiplayer Interactive World Models with Representation Autoencoders",
+      "language": "Python",
+      "url": "https://github.com/mira-wm/mira",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0"
+    },
+    "Nanako0129/pilotfish": {
+      "full_name": "Nanako0129/pilotfish",
+      "description": "Multi-model orchestration layer for Claude Code — the frontier model plans, cheaper models execute, verification guards quality. One-prompt install.",
+      "language": "Unknown",
+      "url": "https://github.com/Nanako0129/pilotfish",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "multi-agent",
+        "orchestration"
+      ],
+      "category": "Agentic",
+      "version": "v1.1.2"
+    },
+    "tutti-os/tutti": {
+      "full_name": "tutti-os/tutti",
+      "description": "Where people and agents build in tune.",
+      "language": "TypeScript",
+      "url": "https://github.com/tutti-os/tutti",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.19"
+    },
+    "achrefelouafi/BuildingGeneratorThreeJS": {
+      "full_name": "achrefelouafi/BuildingGeneratorThreeJS",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/achrefelouafi/BuildingGeneratorThreeJS",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "wassermanproductions/motion-previs-studio": {
+      "full_name": "wassermanproductions/motion-previs-studio",
+      "description": "Open-source desktop app for AI-film motion, depth, pose, and camera-move previsualization.",
+      "language": "TypeScript",
+      "url": "https://github.com/wassermanproductions/motion-previs-studio",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [
+        "aiprevis",
+        "aivideocreation",
+        "previsualization"
+      ],
+      "category": "Other",
+      "version": "v4.1.0"
+    },
+    "bkingfilm/lapian-notes": {
+      "full_name": "bkingfilm/lapian-notes",
+      "description": "拉片笔记:把电影变成 AI 辅助的拉片笔记 - 本地抽帧/剧情泳道时间轴/结构树/情绪曲线/段落深拆",
+      "language": "TypeScript",
+      "url": "https://github.com/bkingfilm/lapian-notes",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "film-analysis",
+        "filmmaking",
+        "react",
+        "screenwriting",
+        "vite"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.3"
+    },
+    "yusukebe/ax": {
+      "full_name": "yusukebe/ax",
+      "description": "The AI-era curl",
+      "language": "TypeScript",
+      "url": "https://github.com/yusukebe/ax",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.7"
     }
   }
 }

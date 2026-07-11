@@ -23854,7 +23854,7 @@
         "chrome-extension"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.5.0"
     },
     "x4gKing/X4G": {
       "full_name": "x4gKing/X4G",
@@ -24365,6 +24365,24 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.7"
+    },
+    "Doriandarko/texts-to-transformer": {
+      "full_name": "Doriandarko/texts-to-transformer",
+      "description": "Train a tiny Transformer from scratch on your iMessage history, entirely on your Mac.",
+      "language": "Python",
+      "url": "https://github.com/Doriandarko/texts-to-transformer",
+      "first_seen": "2026-07-11",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "imessage",
+        "local-first",
+        "machine-learning",
+        "mlx",
+        "transformer"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

@@ -24519,6 +24519,17 @@
       ],
       "category": "AI / ML",
       "version": "v1.4.0"
+    },
+    "vinhhien112/Three.js-Object-Sculptor-Codex-Plugin": {
+      "full_name": "vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
+      "description": "Codex plugin that turns attached object images into code-only, animation-ready procedural Three.js models.",
+      "language": "Python",
+      "url": "https://github.com/vinhhien112/Three.js-Object-Sculptor-Codex-Plugin",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -23840,7 +23840,7 @@
     "davidondrej/skills": {
       "full_name": "davidondrej/skills",
       "description": "access to david ondrej's personal agent skills",
-      "language": "Unknown",
+      "language": "Shell",
       "url": "https://github.com/davidondrej/skills",
       "first_seen": "2026-07-07",
       "has_summary": false,
@@ -24529,6 +24529,27 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "mereyabdenbekuly-ctrl/clodex-ide": {
+      "full_name": "mereyabdenbekuly-ctrl/clodex-ide",
+      "description": "Local-first, zero-trust agentic IDE for verifiable autonomous software development.",
+      "language": "TypeScript",
+      "url": "https://github.com/mereyabdenbekuly-ctrl/clodex-ide",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "agentic-ide",
+        "ai-agents",
+        "developer-tools",
+        "electron",
+        "ide",
+        "local-first",
+        "typescript",
+        "zero-trust"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

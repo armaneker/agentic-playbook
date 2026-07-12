@@ -23644,7 +23644,14 @@
       "url": "https://github.com/MaximeRivest/riddle",
       "first_seen": "2026-07-06",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "appload",
+        "eink",
+        "quill",
+        "remagic-app",
+        "remarkable-customization",
+        "remarkable-paper-pro"
+      ],
       "category": "Other",
       "version": "v0.2.0"
     },
@@ -24325,7 +24332,7 @@
     "wassermanproductions/motion-previs-studio": {
       "full_name": "wassermanproductions/motion-previs-studio",
       "description": "Open-source desktop app for AI-film motion, depth, pose, and camera-move previsualization.",
-      "language": "TypeScript",
+      "language": "JavaScript",
       "url": "https://github.com/wassermanproductions/motion-previs-studio",
       "first_seen": "2026-07-11",
       "has_summary": false,
@@ -24382,6 +24389,113 @@
         "transformer"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "SmtimesIWndr/gdid-reversal": {
+      "full_name": "SmtimesIWndr/gdid-reversal",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/SmtimesIWndr/gdid-reversal",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ronak-create/FableCut": {
+      "full_name": "ronak-create/FableCut",
+      "description": "Zero-dependency browser video editor that AI agents can drive — JSON timeline, MCP + REST, live-reloading UI",
+      "language": "JavaScript",
+      "url": "https://github.com/ronak-create/FableCut",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "canvas",
+        "claude",
+        "ffmpeg",
+        "javascript",
+        "llm",
+        "mcp",
+        "nle",
+        "reels",
+        "video-editing",
+        "video-editor",
+        "zero-dependency"
+      ],
+      "category": "Agentic",
+      "version": "v1.3.0"
+    },
+    "gostonx/uninstally": {
+      "full_name": "gostonx/uninstally",
+      "description": "A clean, native macOS uninstaller. Completely removes apps and every file they leave behind using smart bundle-identifier detection. SwiftUI + Finder extension.",
+      "language": "Swift",
+      "url": "https://github.com/gostonx/uninstally",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.7.3"
+    },
+    "WeZZard/jlens-qwen36": {
+      "full_name": "WeZZard/jlens-qwen36",
+      "description": "J-space / Jacobian-lens visualizer for Qwen3.6-27B (4-bit) on Apple Silicon, ported to Apple MLX",
+      "language": "Python",
+      "url": "https://github.com/WeZZard/jlens-qwen36",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2-fulldepth"
+    },
+    "eli-labz/Cognitive-Core-Skills": {
+      "full_name": "eli-labz/Cognitive-Core-Skills",
+      "description": "A universal, industry-neutral taxonomy of cognitive core skills (perception, memory, reasoning, planning, action, verification, learning, governance) for LLMs, SLMs, AI agents, and world models — with schemas, 159 skill cards, benchmarks, and CI.",
+      "language": "Python",
+      "url": "https://github.com/eli-labz/Cognitive-Core-Skills",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agents",
+        "ai-safety",
+        "artificial-intelligence",
+        "benchmarks",
+        "cognitive-architecture",
+        "json-schema",
+        "knowledge-graph",
+        "llm",
+        "machine-learning",
+        "prompt-engineering",
+        "schema",
+        "slm",
+        "taxonomy",
+        "world-models"
+      ],
+      "category": "Agentic",
+      "version": "Cognitive-Core-Skills"
+    },
+    "yetone/kill-ai-slop": {
+      "full_name": "yetone/kill-ai-slop",
+      "description": "A field guide to the visual & copy tics of AI-generated products — and an Agent Skill that scans your project and strips them out. https://killaislop.com",
+      "language": "TypeScript",
+      "url": "https://github.com/yetone/kill-ai-slop",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "opencoredev/login-with-chatgpt": {
+      "full_name": "opencoredev/login-with-chatgpt",
+      "description": "A simple SDK that lets your users log in with their ChatGPT account.",
+      "language": "TypeScript",
+      "url": "https://github.com/opencoredev/login-with-chatgpt",
+      "first_seen": "2026-07-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

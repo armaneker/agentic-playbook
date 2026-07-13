@@ -23858,7 +23858,10 @@
       "topics": [
         "amazon",
         "browser-extension",
-        "chrome-extension"
+        "chrome-extension",
+        "firefox-addon",
+        "ios-extension",
+        "safari-extension"
       ],
       "category": "Other",
       "version": "v0.5.0"
@@ -24292,7 +24295,7 @@
     "Nanako0129/pilotfish": {
       "full_name": "Nanako0129/pilotfish",
       "description": "Multi-model orchestration layer for Claude Code — the frontier model plans, cheaper models execute, verification guards quality. One-prompt install.",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/Nanako0129/pilotfish",
       "first_seen": "2026-07-11",
       "has_summary": false,
@@ -24641,6 +24644,17 @@
         "llm",
         "workbuddy"
       ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "MDX-Tom/gpt-5.6-instruct": {
+      "full_name": "MDX-Tom/gpt-5.6-instruct",
+      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+      "language": "Python",
+      "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
       "category": "AI / ML",
       "version": null
     }

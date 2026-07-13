@@ -24616,6 +24616,33 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.1"
+    },
+    "William-Lu-stack/LuxyAI": {
+      "full_name": "William-Lu-stack/LuxyAI",
+      "description": "AgenticOps for Kubernetes and cloud infrastructure.",
+      "language": "Python",
+      "url": "https://github.com/William-Lu-stack/LuxyAI",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AlephAITech/WorkBuddyGuide": {
+      "full_name": "AlephAITech/WorkBuddyGuide",
+      "description": "A practical, open-source guide to mastering WorkBuddy through real-world workflows.开源的 WorkBuddy 实战蓝皮书：教程、真实工作流、Skills、MCP、自动化与多智能体实践。",
+      "language": "Python",
+      "url": "https://github.com/AlephAITech/WorkBuddyGuide",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [
+        "codex",
+        "guide",
+        "llm",
+        "workbuddy"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

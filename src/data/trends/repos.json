@@ -23708,7 +23708,7 @@
         "webassembly"
       ],
       "category": "Web Framework",
-      "version": null
+      "version": "v0.4.0"
     },
     "tomicz/fable-5-train-opus-skills-after-it-retires": {
       "full_name": "tomicz/fable-5-train-opus-skills-after-it-retires",
@@ -24656,6 +24656,28 @@
       "has_summary": false,
       "topics": [],
       "category": "AI / ML",
+      "version": null
+    },
+    "littledivy/mimic": {
+      "full_name": "littledivy/mimic",
+      "description": "Intercept any app, then call it from Python like a library",
+      "language": "Python",
+      "url": "https://github.com/littledivy/mimic",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "x4gKing/Marzban-Panel": {
+      "full_name": "x4gKing/Marzban-Panel",
+      "description": "",
+      "language": "Dockerfile",
+      "url": "https://github.com/x4gKing/Marzban-Panel",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

@@ -24551,6 +24551,71 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "CoscoAI/luxy-aisre": {
+      "full_name": "CoscoAI/luxy-aisre",
+      "description": "AISRE for Cosco",
+      "language": "Python",
+      "url": "https://github.com/CoscoAI/luxy-aisre",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "cosmtrek/mindwalk": {
+      "full_name": "cosmtrek/mindwalk",
+      "description": "A visualization tool that replays coding-agent sessions on a 3D map of your codebase.",
+      "language": "Go",
+      "url": "https://github.com/cosmtrek/mindwalk",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "Sahir619/fable-method": {
+      "full_name": "Sahir619/fable-method",
+      "description": "The Fable Workflow: how Claude Fable 5 worked, distilled into skills any model can run, with the eval that keeps it honest. Think / act / prove.",
+      "language": "JavaScript",
+      "url": "https://github.com/Sahir619/fable-method",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-md",
+        "coding-agent",
+        "evaluation",
+        "fable",
+        "llm"
+      ],
+      "category": "Agentic",
+      "version": "v1.2.0"
+    },
+    "google-research/tabfm": {
+      "full_name": "google-research/tabfm",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/google-research/tabfm",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "muscriptor/muscriptor": {
+      "full_name": "muscriptor/muscriptor",
+      "description": "MuScriptor is a multi-instrument music transcription model developed by Kyutai and Mirelo.",
+      "language": "Python",
+      "url": "https://github.com/muscriptor/muscriptor",
+      "first_seen": "2026-07-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.1"
     }
   }
 }

@@ -24679,6 +24679,122 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "x4gKing/Marzban-Node": {
+      "full_name": "x4gKing/Marzban-Node",
+      "description": "",
+      "language": "Dockerfile",
+      "url": "https://github.com/x4gKing/Marzban-Node",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "osama-fawad/Pekingman": {
+      "full_name": "osama-fawad/Pekingman",
+      "description": "",
+      "language": "HTML",
+      "url": "https://github.com/osama-fawad/Pekingman",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Kappaemme-git/codex-first-customer-finder-skill": {
+      "full_name": "Kappaemme-git/codex-first-customer-finder-skill",
+      "description": "A Codex skill that finds evidence-backed potential first customers from recent public signals.",
+      "language": "Python",
+      "url": "https://github.com/Kappaemme-git/codex-first-customer-finder-skill",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [
+        "codex",
+        "codex-skill",
+        "customer-discovery",
+        "early-adopters",
+        "prospecting",
+        "startup"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Liquid4All/antidoom": {
+      "full_name": "Liquid4All/antidoom",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Liquid4All/antidoom",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pengchujin/jzsub": {
+      "full_name": "pengchujin/jzsub",
+      "description": "JZSub — 一条视频链接，自动交付最高画质、封面和 GPT 双语字幕 MP4。",
+      "language": "Python",
+      "url": "https://github.com/pengchujin/jzsub",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [
+        "bilingual",
+        "codex",
+        "subtitles",
+        "video",
+        "yt-dlp"
+      ],
+      "category": "Other",
+      "version": "v1.8.1"
+    },
+    "AlayaLab/AlayaWorld": {
+      "full_name": "AlayaLab/AlayaWorld",
+      "description": "Full-stack open-source interactive long-horizon world model.",
+      "language": "Unknown",
+      "url": "https://github.com/AlayaLab/AlayaWorld",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jakubkrehel/skills": {
+      "full_name": "jakubkrehel/skills",
+      "description": "A set of agent skills that help improve different parts of a product, from animations and typography to layout and colors.",
+      "language": "Unknown",
+      "url": "https://github.com/jakubkrehel/skills",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "thatmagicalcat/txm": {
+      "full_name": "thatmagicalcat/txm",
+      "description": "Terminal Math rendering engine",
+      "language": "Rust",
+      "url": "https://github.com/thatmagicalcat/txm",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.4"
+    },
+    "floodtide/dom-docx": {
+      "full_name": "floodtide/dom-docx",
+      "description": "Convert semantic HTML fragments to native, editable Word documents (OOXML)",
+      "language": "TypeScript",
+      "url": "https://github.com/floodtide/dom-docx",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [
+        "docx-generator",
+        "javascript",
+        "node"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

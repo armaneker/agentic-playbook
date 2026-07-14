@@ -24835,6 +24835,30 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "William-Lu-stack/Flawless": {
+      "full_name": "William-Lu-stack/Flawless",
+      "description": "AI SRE AgenticOps for Kubernetes and cloud infrastructure.",
+      "language": "Python",
+      "url": "https://github.com/William-Lu-stack/Flawless",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [
+        "agenticops",
+        "ai",
+        "aiops",
+        "aisre",
+        "cloud",
+        "cloud-native",
+        "devops",
+        "kubernetes",
+        "llm",
+        "mcp",
+        "observability",
+        "sre"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

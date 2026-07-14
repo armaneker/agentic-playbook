@@ -23510,7 +23510,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.1.0"
     },
     "akihitohyh/chatgpt-register-sub2api": {
       "full_name": "akihitohyh/chatgpt-register-sub2api",
@@ -24622,13 +24622,26 @@
     },
     "William-Lu-stack/LuxyAI": {
       "full_name": "William-Lu-stack/LuxyAI",
-      "description": "AgenticOps for Kubernetes and cloud infrastructure.",
+      "description": "AI SRE AgenticOps for Kubernetes and cloud infrastructure.",
       "language": "Python",
       "url": "https://github.com/William-Lu-stack/LuxyAI",
       "first_seen": "2026-07-13",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "agenticops",
+        "ai",
+        "aiops",
+        "aisre",
+        "cloud",
+        "cloud-native",
+        "devops",
+        "kubernetes",
+        "llm",
+        "mcp",
+        "observability",
+        "sre"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "AlephAITech/WorkBuddyGuide": {
@@ -24793,6 +24806,33 @@
         "javascript",
         "node"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "modiqo/waggle": {
+      "full_name": "modiqo/waggle",
+      "description": "Attributed, resolvable artifact references for agent handoffs — a ~30-byte token instead of pasted context. MCP-native; the reference layer for the agent-harness world.",
+      "language": "Rust",
+      "url": "https://github.com/modiqo/waggle",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "harness-engineering",
+        "llm-tools",
+        "loop-engineering"
+      ],
+      "category": "Agentic",
+      "version": "v0.5.3"
+    },
+    "JexTradesLab/scaling-octo-engine": {
+      "full_name": "JexTradesLab/scaling-octo-engine",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/JexTradesLab/scaling-octo-engine",
+      "first_seen": "2026-07-14",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

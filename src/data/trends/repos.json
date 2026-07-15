@@ -24993,6 +24993,37 @@
       "topics": [],
       "category": "Other",
       "version": "v1.0.1"
+    },
+    "pixel-point/aval": {
+      "full_name": "pixel-point/aval",
+      "description": "A new open-source format for interactive video on the web, with a built-in state machine, frame-accurate transitions, and packed-alpha transparency.",
+      "language": "TypeScript",
+      "url": "https://github.com/pixel-point/aval",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MatinSenPai/Aether-GUI": {
+      "full_name": "MatinSenPai/Aether-GUI",
+      "description": "One-click desktop GUI for the Aether censorship-circumvention tunnel — Tauri v2, React 19, Rust",
+      "language": "TypeScript",
+      "url": "https://github.com/MatinSenPai/Aether-GUI",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [
+        "anti-censorship",
+        "censorship-circumvention",
+        "desktop-app",
+        "proxy",
+        "react",
+        "rust",
+        "tauri",
+        "typescript"
+      ],
+      "category": "Web Framework",
+      "version": "v0.2.0"
     }
   }
 }

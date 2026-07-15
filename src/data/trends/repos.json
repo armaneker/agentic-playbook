@@ -24859,6 +24859,72 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "opencoredev/domain-sdk": {
+      "full_name": "opencoredev/domain-sdk",
+      "description": "Add, verify, monitor, and remove customer domains with one TypeScript API.",
+      "language": "TypeScript",
+      "url": "https://github.com/opencoredev/domain-sdk",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Git-creat7/grokRegister-cpa": {
+      "full_name": "Git-creat7/grokRegister-cpa",
+      "description": "Grok 自动注册机 — 注册成功后自动入库 CLIProxyAPI (CPA)：支持本地 auth 目录与远程 Management API 上传",
+      "language": "Python",
+      "url": "https://github.com/Git-creat7/grokRegister-cpa",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Moore-developers/moore-wechat-article-downloader": {
+      "full_name": "Moore-developers/moore-wechat-article-downloader",
+      "description": "本地优先的微信内容情报库：同步公众号文章，保存精选评论和互动数据，供 Codex/Claude Code 做内容研究。",
+      "language": "Python",
+      "url": "https://github.com/Moore-developers/moore-wechat-article-downloader",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "claude-code",
+        "codex-skill",
+        "content-analysis",
+        "knowledge-base",
+        "local-first",
+        "markdown",
+        "wechat",
+        "wechat-articles",
+        "wechat-mp"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Jane-xiaoer/paper-collage-ad-codex": {
+      "full_name": "Jane-xiaoer/paper-collage-ad-codex",
+      "description": "Codex skill for complete paper-cut collage ad production, local IndexTTS-2 voice cloning, animation, audio and MP4 QC",
+      "language": "JavaScript",
+      "url": "https://github.com/Jane-xiaoer/paper-collage-ad-codex",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "deepreinforce-ai/Ornith-1": {
+      "full_name": "deepreinforce-ai/Ornith-1",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/deepreinforce-ai/Ornith-1",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

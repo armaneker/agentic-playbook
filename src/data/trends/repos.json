@@ -24925,6 +24925,63 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "oil-oil/beautify-github-readme": {
+      "full_name": "oil-oil/beautify-github-readme",
+      "description": "Design clear, theme-specific GitHub README homepages with SVG titles, real proof, and maintainable Markdown",
+      "language": "Python",
+      "url": "https://github.com/oil-oil/beautify-github-readme",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "codex-skill",
+        "github-readme",
+        "readme-design",
+        "svg"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "QuantumByteOSS/quantumbyte": {
+      "full_name": "QuantumByteOSS/quantumbyte",
+      "description": "Open-source app builder engine — intent to working app",
+      "language": "Python",
+      "url": "https://github.com/QuantumByteOSS/quantumbyte",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "app-builder",
+        "code-generation",
+        "llm",
+        "nextjs",
+        "open-source",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "Intuition-Lab/personal-model": {
+      "full_name": "Intuition-Lab/personal-model",
+      "description": "Build your HUMAN.md.",
+      "language": "Python",
+      "url": "https://github.com/Intuition-Lab/personal-model",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [
+        "agent-memory",
+        "local-first",
+        "macos",
+        "mcp",
+        "personal-ai",
+        "personal-model",
+        "privacy",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": "v0.3.2"
     }
   }
 }

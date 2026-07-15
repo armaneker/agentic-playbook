@@ -24580,7 +24580,7 @@
     "Sahir619/fable-method": {
       "full_name": "Sahir619/fable-method",
       "description": "The Fable Workflow: how Claude Fable 5 worked, distilled into skills any model can run, with the eval that keeps it honest. Think / act / prove.",
-      "language": "JavaScript",
+      "language": "Python",
       "url": "https://github.com/Sahir619/fable-method",
       "first_seen": "2026-07-13",
       "has_summary": false,
@@ -24982,6 +24982,17 @@
       ],
       "category": "Agentic",
       "version": "v0.3.2"
+    },
+    "CluvexStudio/Aether": {
+      "full_name": "CluvexStudio/Aether",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/CluvexStudio/Aether",
+      "first_seen": "2026-07-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
     }
   }
 }

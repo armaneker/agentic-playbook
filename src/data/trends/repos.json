@@ -24600,7 +24600,7 @@
     },
     "google-research/tabfm": {
       "full_name": "google-research/tabfm",
-      "description": "",
+      "description": "TabFM (Tabular Foundation Model) is a pretrained tabular foundation model developed by Google Research for tabular data regression and classification. ",
       "language": "Python",
       "url": "https://github.com/google-research/tabfm",
       "first_seen": "2026-07-13",
@@ -25139,6 +25139,17 @@
       "description": "Your clothes, extracted and organized with gpt-image.",
       "language": "JavaScript",
       "url": "https://github.com/tandpfun/wardrobe",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Danilaa1/cuelume": {
+      "full_name": "Danilaa1/cuelume",
+      "description": "Cuelume is a curated sound palette, not an audio engine. It gives buttons, links, toggles, and completed actions clear feedback without asking developers to design sounds themselves. Add an attribute, call bind(), done.",
+      "language": "TypeScript",
+      "url": "https://github.com/Danilaa1/cuelume",
       "first_seen": "2026-07-16",
       "has_summary": false,
       "topics": [],

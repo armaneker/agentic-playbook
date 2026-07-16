@@ -25024,6 +25024,93 @@
       ],
       "category": "Web Framework",
       "version": "v0.2.0"
+    },
+    "xai-org/grok-build": {
+      "full_name": "xai-org/grok-build",
+      "description": "SpaceXAI's coding agent harness and TUI. Fullscreen, mouse interactive, extensible.",
+      "language": "Rust",
+      "url": "https://github.com/xai-org/grok-build",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "WAYLON/ashare-quant-strategies": {
+      "full_name": "WAYLON/ashare-quant-strategies",
+      "description": "A-share quant strategies research corpus: 119 Python strategy articles for learning",
+      "language": "Python",
+      "url": "https://github.com/WAYLON/ashare-quant-strategies",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "BloxHubSSS/Game-Copier": {
+      "full_name": "BloxHubSSS/Game-Copier",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/BloxHubSSS/Game-Copier",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [
+        "cheating-roblox",
+        "copy-game",
+        "copy-place",
+        "copygame",
+        "copyplace",
+        "game",
+        "game-copier",
+        "game-copy",
+        "gamecopier",
+        "how-to-copy-any-game-roblox",
+        "how-to-copy-game-roblox",
+        "how-to-copy-place",
+        "how-to-copy-place-roblox",
+        "how-to-make-sab-modded",
+        "roblox",
+        "sab-modded",
+        "tools-roblox",
+        "uncopylocked",
+        "uncopylocked-game",
+        "uncopylockedgame"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Cjbuilds/Codex-Orchestration": {
+      "full_name": "Cjbuilds/Codex-Orchestration",
+      "description": "Bring any model to Codex, assign them any role, use them in /goal or any workflow.",
+      "language": "Python",
+      "url": "https://github.com/Cjbuilds/Codex-Orchestration",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "TobiasLee/Rebuttal-Skill": {
+      "full_name": "TobiasLee/Rebuttal-Skill",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/TobiasLee/Rebuttal-Skill",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "gabriel-azara/hyperliquid-tracker": {
+      "full_name": "gabriel-azara/hyperliquid-tracker",
+      "description": "Get notified when big trades happen on Hyperliquid.",
+      "language": "TypeScript",
+      "url": "https://github.com/gabriel-azara/hyperliquid-tracker",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

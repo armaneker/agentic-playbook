@@ -21304,7 +21304,7 @@
     "shy3130/tickflow-stock-panel": {
       "full_name": "shy3130/tickflow-stock-panel",
       "description": "自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
-      "language": "TypeScript",
+      "language": "Python",
       "url": "https://github.com/shy3130/tickflow-stock-panel",
       "first_seen": "2026-06-25",
       "has_summary": false,
@@ -25106,6 +25106,28 @@
       "description": "Get notified when big trades happen on Hyperliquid.",
       "language": "TypeScript",
       "url": "https://github.com/gabriel-azara/hyperliquid-tracker",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Fei-Away/Codex-Dream-Skin": {
+      "full_name": "Fei-Away/Codex-Dream-Skin",
+      "description": "Codex Dream Skin",
+      "language": "PowerShell",
+      "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
+      "first_seen": "2026-07-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "KubeezMedia/kubeez-scroll-world-video": {
+      "full_name": "KubeezMedia/kubeez-scroll-world-video",
+      "description": "Scroll-scrubbed 'fly through the world' burger demo, generated with Kubeez. Live: meepcastana.github.io/kubeez-scroll-world-video",
+      "language": "JavaScript",
+      "url": "https://github.com/KubeezMedia/kubeez-scroll-world-video",
       "first_seen": "2026-07-16",
       "has_summary": false,
       "topics": [],

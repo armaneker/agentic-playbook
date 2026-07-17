@@ -25158,7 +25158,7 @@
     },
     "vshulcz/deja-vu": {
       "full_name": "vshulcz/deja-vu",
-      "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write. One zero-dep binary.",
+      "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity and Grok Build already write. One zero-dep binary.",
       "language": "Go",
       "url": "https://github.com/vshulcz/deja-vu",
       "first_seen": "2026-07-17",
@@ -25308,6 +25308,51 @@
       ],
       "category": "Database",
       "version": "v0.10.0"
+    },
+    "Wan-Video/Wan-Dancer": {
+      "full_name": "Wan-Video/Wan-Dancer",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Wan-Video/Wan-Dancer",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "JexTradesLab/Polymarket-Arbitrage-Trading-Bot": {
+      "full_name": "JexTradesLab/Polymarket-Arbitrage-Trading-Bot",
+      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot polymarket trading bot",
+      "language": "TypeScript",
+      "url": "https://github.com/JexTradesLab/Polymarket-Arbitrage-Trading-Bot",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [
+        "polymarket-arbitrage-bot",
+        "polymarket-arbitrage-tarding-bot",
+        "polymarket-bot",
+        "polymarket-trading-bot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "aipoch/open-science": {
+      "full_name": "aipoch/open-science",
+      "description": "An open-source, model-agnostic AI workbench for scientific discovery.",
+      "language": "TypeScript",
+      "url": "https://github.com/aipoch/open-science",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai4science",
+        "biology",
+        "claude-science-free",
+        "open-science"
+      ],
+      "category": "Agentic",
+      "version": "v0.3.1"
     }
   }
 }

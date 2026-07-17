@@ -20115,7 +20115,7 @@
     },
     "mattpocock/skills": {
       "full_name": "mattpocock/skills",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
       "url": "https://github.com/mattpocock/skills",
       "first_seen": "2026-06-18",
@@ -22920,8 +22920,21 @@
       "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
       "first_seen": "2026-07-03",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "claude",
+        "claude-code",
+        "cli",
+        "ffmpeg",
+        "keyframe-extraction",
+        "llm",
+        "multimodal",
+        "python",
+        "scene-detection",
+        "transcription",
+        "video-analysis",
+        "whisper"
+      ],
+      "category": "AI / ML",
       "version": "v0.4.0"
     },
     "LanceZPF/agent-as-a-router": {
@@ -25158,7 +25171,7 @@
     },
     "vshulcz/deja-vu": {
       "full_name": "vshulcz/deja-vu",
-      "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity and Grok Build already write. One zero-dep binary.",
+      "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity, Grok Build and Qwen Code already write. One zero-dep binary.",
       "language": "Go",
       "url": "https://github.com/vshulcz/deja-vu",
       "first_seen": "2026-07-17",
@@ -25353,6 +25366,28 @@
       ],
       "category": "Agentic",
       "version": "v0.3.1"
+    },
+    "pablostanley/yoinks": {
+      "full_name": "pablostanley/yoinks",
+      "description": "yoink any video from your terminal. no shady ads.",
+      "language": "TypeScript",
+      "url": "https://github.com/pablostanley/yoinks",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "stackblitz/bolt-slides": {
+      "full_name": "stackblitz/bolt-slides",
+      "description": "Use any agent to create stunning, interactive presentations",
+      "language": "TypeScript",
+      "url": "https://github.com/stackblitz/bolt-slides",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

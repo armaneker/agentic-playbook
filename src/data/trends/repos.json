@@ -25276,6 +25276,38 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "Shadow-Weave/HMS": {
+      "full_name": "Shadow-Weave/HMS",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Shadow-Weave/HMS",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tinbase/tinbase": {
+      "full_name": "tinbase/tinbase",
+      "description": "Supabase-compatible backend in a single binary — real Postgres with RLS, no Docker. Works with supabase-js unchanged.",
+      "language": "TypeScript",
+      "url": "https://github.com/tinbase/tinbase",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [
+        "baas",
+        "backend",
+        "pglite",
+        "pocketbase-alternative",
+        "postgres",
+        "realtime",
+        "sqlite-alternative",
+        "supabase",
+        "supabase-alternative"
+      ],
+      "category": "Database",
+      "version": "v0.10.0"
     }
   }
 }

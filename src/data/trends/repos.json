@@ -25115,7 +25115,7 @@
     "Fei-Away/Codex-Dream-Skin": {
       "full_name": "Fei-Away/Codex-Dream-Skin",
       "description": "Codex Dream Skin",
-      "language": "PowerShell",
+      "language": "JavaScript",
       "url": "https://github.com/Fei-Away/Codex-Dream-Skin",
       "first_seen": "2026-07-16",
       "has_summary": false,
@@ -25153,6 +25153,127 @@
       "first_seen": "2026-07-16",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "vshulcz/deja-vu": {
+      "full_name": "vshulcz/deja-vu",
+      "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex and opencode already write. One zero-dep binary.",
+      "language": "Go",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [
+        "agent-memory",
+        "ai-memory",
+        "claude",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agents",
+        "developer-tools",
+        "golang",
+        "mcp",
+        "mcp-server",
+        "opencode",
+        "session-search"
+      ],
+      "category": "Agentic",
+      "version": "v0.11.0"
+    },
+    "PengZhang64/circuit-framework": {
+      "full_name": "PengZhang64/circuit-framework",
+      "description": "Circuit Framework — multi-agent LLM trading research system",
+      "language": "Python",
+      "url": "https://github.com/PengZhang64/circuit-framework",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Blueturboguy07/cue": {
+      "full_name": "Blueturboguy07/cue",
+      "description": "Open-source macOS AI copilot that floats over your screen, sees/hears your meetings, and stays hidden from screen shares. Cluely alternative, bring-your-own-key.",
+      "language": "JavaScript",
+      "url": "https://github.com/Blueturboguy07/cue",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "my-take-dev/inspired-mino-design-skills": {
+      "full_name": "my-take-dev/inspired-mino-design-skills",
+      "description": "ミノ駆動氏のWebに掲載されている資料から作成した開発スキル",
+      "language": "Shell",
+      "url": "https://github.com/my-take-dev/inspired-mino-design-skills",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.9.0"
+    },
+    "AudarAI/Audar-ASR-V1": {
+      "full_name": "AudarAI/Audar-ASR-V1",
+      "description": "Arabic-first generative speech recognition — Audar-ASR-V1 (Flash + Turbo). #1 on the Open Universal Arabic ASR Leaderboard. Model cards, benchmarks & inference.",
+      "language": "Python",
+      "url": "https://github.com/AudarAI/Audar-ASR-V1",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [
+        "arabic",
+        "arabic-nlp",
+        "asr",
+        "audar",
+        "dialectal-arabic",
+        "gguf",
+        "huggingface",
+        "llama-cpp",
+        "speech-recognition",
+        "speech-to-text"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "change-42-yhmm/quota-float": {
+      "full_name": "change-42-yhmm/quota-float",
+      "description": "A plug-in for easy viewing of credit limits",
+      "language": "TypeScript",
+      "url": "https://github.com/change-42-yhmm/quota-float",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [
+        "codex",
+        "desktop-app",
+        "macos",
+        "productivity",
+        "quota",
+        "react",
+        "rust",
+        "tauri",
+        "windows"
+      ],
+      "category": "Web Framework",
+      "version": "v0.1.5"
+    },
+    "robinhood-ape/robinhood-sniper-bot": {
+      "full_name": "robinhood-ape/robinhood-sniper-bot",
+      "description": "NOXA Fun token sniper on Robinhood Chain - watches TokenLaunched, buys via Uniswap V3 SwapRouter02, auto-sells on take-profit / stop-loss",
+      "language": "TypeScript",
+      "url": "https://github.com/robinhood-ape/robinhood-sniper-bot",
+      "first_seen": "2026-07-17",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "noxa",
+        "noxa-fun",
+        "robinhood-chain",
+        "sniper-bot",
+        "trading-bot",
+        "typescript",
+        "uniswap-v3"
+      ],
       "category": "Other",
       "version": null
     }

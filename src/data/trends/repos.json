@@ -21303,7 +21303,7 @@
     },
     "shy3130/tickflow-stock-panel": {
       "full_name": "shy3130/tickflow-stock-panel",
-      "description": "自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
+      "description": "TSP自托管、零运维的 A 股「选股 + 监控 + 回测」量化工作台 | 基于 TickFlow 数据源  | LLM能力驱使策略定制+个股分析+复盘 | 自由接入第三方数据源与个性化扩展数据 | 个人开源 ,非TickFlow官方项目",
       "language": "Python",
       "url": "https://github.com/shy3130/tickflow-stock-panel",
       "first_seen": "2026-06-25",
@@ -21327,7 +21327,8 @@
         "stock",
         "stock-analysis",
         "tdx",
-        "tickflow"
+        "tickflow",
+        "tsp"
       ],
       "category": "Agentic",
       "version": "v0.1.43"
@@ -25458,6 +25459,49 @@
         "pyo3",
         "python",
         "rust"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "PromptPartner/agentsmith": {
+      "full_name": "PromptPartner/agentsmith",
+      "description": "Universal, model-agnostic operating harness for AI agents (Claude, Codex, Gemini, …) — a lean core + work-type profiles assembled by one setup script.",
+      "language": "Shell",
+      "url": "https://github.com/PromptPartner/agentsmith",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-agents",
+        "ai-tools",
+        "automation",
+        "claude",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "developer-tools",
+        "gemini",
+        "llm",
+        "llm-agents",
+        "open-source",
+        "prompt-engineering",
+        "vibe-coding"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "basileus-labs/polymarket-resolution-sniper": {
+      "full_name": "basileus-labs/polymarket-resolution-sniper",
+      "description": "Polymarket resolution sniping bot on bitcoin 5min Up or Down market",
+      "language": "TypeScript",
+      "url": "https://github.com/basileus-labs/polymarket-resolution-sniper",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [
+        "polymarket-bot",
+        "polymarket-btc-5min-bot",
+        "polymarket-sniper"
       ],
       "category": "Other",
       "version": null

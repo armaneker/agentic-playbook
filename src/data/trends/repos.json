@@ -1233,7 +1233,7 @@
     },
     "ollama/ollama": {
       "full_name": "ollama/ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.1, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "url": "https://github.com/ollama/ollama",
       "first_seen": "2026-03-22",
@@ -25387,6 +25387,54 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "nethical6/conversation-steganography": {
+      "full_name": "nethical6/conversation-steganography",
+      "description": "Use LLMS to hide secret messages inside normal-looking chat text",
+      "language": "Go",
+      "url": "https://github.com/nethical6/conversation-steganography",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pyang5166/gbro-collage-broll": {
+      "full_name": "pyang5166/gbro-collage-broll",
+      "description": "半调纸拼贴 B-roll 生成 skill：三闸门审批，Gemini Omni Flash 首尾帧组装动画 | Editorial halftone paper-collage B-roll agent skill",
+      "language": "Python",
+      "url": "https://github.com/pyang5166/gbro-collage-broll",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "broll",
+        "gemini",
+        "paper-collage",
+        "video-generation"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "robinhood-ape/robinhood-noxa-bundler": {
+      "full_name": "robinhood-ape/robinhood-noxa-bundler",
+      "description": "NOXA Fun multi-wallet launch bundler for Robinhood Chain - launch via NOXA factory then buy from many wallets on Uniswap V3 before public snipers",
+      "language": "TypeScript",
+      "url": "https://github.com/robinhood-ape/robinhood-noxa-bundler",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "bundler",
+        "noxa",
+        "noxa-fun",
+        "robinhood-chain",
+        "token-launch",
+        "typescript",
+        "uniswap-v3"
+      ],
+      "category": "DevTools",
       "version": null
     }
   }

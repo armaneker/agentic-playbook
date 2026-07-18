@@ -25391,12 +25391,15 @@
     },
     "nethical6/conversation-steganography": {
       "full_name": "nethical6/conversation-steganography",
-      "description": "Use LLMS to hide secret messages inside normal-looking chat text",
+      "description": "Use LLMs to hide secret messages inside normal looking conversations",
       "language": "Go",
       "url": "https://github.com/nethical6/conversation-steganography",
       "first_seen": "2026-07-18",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "llm-tools",
+        "steganography"
+      ],
       "category": "Other",
       "version": null
     },
@@ -25435,6 +25438,28 @@
         "uniswap-v3"
       ],
       "category": "DevTools",
+      "version": null
+    },
+    "Skyvern-AI/rustwright": {
+      "full_name": "Skyvern-AI/rustwright",
+      "description": "Playwright's API on a Rust CDP engine — Chromium browser automation for Python & Node, no driver subprocess. (Alpha)",
+      "language": "Python",
+      "url": "https://github.com/Skyvern-AI/rustwright",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [
+        "browser-automation",
+        "cdp",
+        "chrome-devtools-protocol",
+        "chromium",
+        "napi-rs",
+        "nodejs",
+        "playwright",
+        "pyo3",
+        "python",
+        "rust"
+      ],
+      "category": "Other",
       "version": null
     }
   }

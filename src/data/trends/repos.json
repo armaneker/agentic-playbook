@@ -25392,7 +25392,7 @@
     },
     "nethical6/conversation-steganography": {
       "full_name": "nethical6/conversation-steganography",
-      "description": "Use LLMs to hide secret messages inside normal looking conversations",
+      "description": "Use LLMs to hide messages inside normal looking conversations",
       "language": "Go",
       "url": "https://github.com/nethical6/conversation-steganography",
       "first_seen": "2026-07-18",
@@ -25503,6 +25503,38 @@
         "polymarket-btc-5min-bot",
         "polymarket-sniper"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "MIgHTy-alIeN/Trading-Bot": {
+      "full_name": "MIgHTy-alIeN/Trading-Bot",
+      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "language": "Solidity",
+      "url": "https://github.com/MIgHTy-alIeN/Trading-Bot",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "aitradingbot",
+        "bot",
+        "btc",
+        "claude",
+        "eth",
+        "etherlab",
+        "mev",
+        "mevbots"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "Subhan-code/Amicro--Micro-transitions-": {
+      "full_name": "Subhan-code/Amicro--Micro-transitions-",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Subhan-code/Amicro--Micro-transitions-",
+      "first_seen": "2026-07-18",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

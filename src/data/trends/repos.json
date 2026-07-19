@@ -25537,6 +25537,55 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Shubhamsaboo/awesome-llm-apps": {
+      "full_name": "Shubhamsaboo/awesome-llm-apps",
+      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "language": "Python",
+      "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "llms",
+        "python",
+        "rag"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "JustinGamer191/Holo": {
+      "full_name": "JustinGamer191/Holo",
+      "description": "",
+      "language": "Swift",
+      "url": "https://github.com/JustinGamer191/Holo",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "IR-NETLIFY/zeus": {
+      "full_name": "IR-NETLIFY/zeus",
+      "description": "⚡️ پنل کلودفلر زئوس (Zeus Panel) ",
+      "language": "JavaScript",
+      "url": "https://github.com/IR-NETLIFY/zeus",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "capitalone/VulnHunter": {
+      "full_name": "capitalone/VulnHunter",
+      "description": "Agentic AI security tool that applies proactive, attacker-first analysis directly to source code.",
+      "language": "Python",
+      "url": "https://github.com/capitalone/VulnHunter",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Security",
+      "version": "v0.1.0"
     }
   }
 }

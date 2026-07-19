@@ -25636,6 +25636,50 @@
       ],
       "category": "Other",
       "version": "v1.2"
+    },
+    "hoainho/img2threejs": {
+      "full_name": "hoainho/img2threejs",
+      "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+      "language": "Python",
+      "url": "https://github.com/hoainho/img2threejs",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "ai-agents",
+        "claude-code",
+        "computer-graphics",
+        "generative",
+        "image-to-3d",
+        "procedural-generation",
+        "threejs",
+        "typescript",
+        "webgl"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "xiejunjie524/handdraw-story-video": {
+      "full_name": "xiejunjie524/handdraw-story-video",
+      "description": "Turn hand-drawn story illustrations into 35–45 second line-reveal and gradual-coloring videos with HyperFrames.",
+      "language": "Python",
+      "url": "https://github.com/xiejunjie524/handdraw-story-video",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nv-tlabs/ardy": {
+      "full_name": "nv-tlabs/ardy",
+      "description": "Official implementation of ARDY: Autoregressive Diffusion with Hybrid Representation for Interactive Human Motion Generation (SIGGRAPH 2026).",
+      "language": "Python",
+      "url": "https://github.com/nv-tlabs/ardy",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

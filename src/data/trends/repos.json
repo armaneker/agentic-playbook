@@ -24273,7 +24273,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.0.0"
     },
     "nexu-io/motion-anything": {
       "full_name": "nexu-io/motion-anything",
@@ -25608,6 +25608,34 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "v-modal/vmodal_sdk_flutter": {
+      "full_name": "v-modal/vmodal_sdk_flutter",
+      "description": "V- Modal AI: Search anything anywhere SDK Flutter",
+      "language": "Dart",
+      "url": "https://github.com/v-modal/vmodal_sdk_flutter",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Mobile",
+      "version": null
+    },
+    "andyhuo520/MacCheck": {
+      "full_name": "andyhuo520/MacCheck",
+      "description": "MacCheck 验机宝：本地 Mac 硬件检测、交互验机与 PDF/PNG 报告导出工具",
+      "language": "Swift",
+      "url": "https://github.com/andyhuo520/MacCheck",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [
+        "hardware-diagnostics",
+        "mac-check",
+        "macos",
+        "second-hand-mac",
+        "swiftui"
+      ],
+      "category": "Other",
+      "version": "v1.2"
     }
   }
 }

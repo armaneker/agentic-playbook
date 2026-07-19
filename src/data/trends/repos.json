@@ -25586,6 +25586,28 @@
       "topics": [],
       "category": "Security",
       "version": "v0.1.0"
+    },
+    "lopopolo/harness-engineering": {
+      "full_name": "lopopolo/harness-engineering",
+      "description": "🐎 Ryan Lopopolo’s anthology, field guide, and agent context bundle for harness engineering",
+      "language": "Python",
+      "url": "https://github.com/lopopolo/harness-engineering",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "theswerd/brainless": {
+      "full_name": "theswerd/brainless",
+      "description": "Claude Code, Codex, and Grok interfaces as shadcn components",
+      "language": "TypeScript",
+      "url": "https://github.com/theswerd/brainless",
+      "first_seen": "2026-07-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

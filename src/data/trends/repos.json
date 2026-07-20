@@ -464,7 +464,7 @@
     },
     "langgenius/dify": {
       "full_name": "langgenius/dify",
-      "description": "Production-ready platform for agentic workflow development.",
+      "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
       "language": "TypeScript",
       "url": "https://github.com/langgenius/dify",
       "first_seen": "2026-03-22",
@@ -476,10 +476,9 @@
         "agentic-workflow",
         "ai",
         "automation",
-        "gemini",
+        "claude",
         "genai",
         "gpt",
-        "gpt-4",
         "llm",
         "low-code",
         "mcp",
@@ -489,6 +488,7 @@
         "orchestration",
         "python",
         "rag",
+        "skills",
         "workflow"
       ],
       "category": "Agentic",
@@ -25773,6 +25773,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.1-beta.3"
+    },
+    "EthanXiang777/circuit-framework": {
+      "full_name": "EthanXiang777/circuit-framework",
+      "description": "Circuit Framework — multi-agent LLM trading research system",
+      "language": "Python",
+      "url": "https://github.com/EthanXiang777/circuit-framework",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

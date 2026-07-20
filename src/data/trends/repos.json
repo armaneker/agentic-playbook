@@ -25762,6 +25762,17 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "OpenBMB/StaffDeck": {
+      "full_name": "OpenBMB/StaffDeck",
+      "description": "Enterprise Digital Employee Platform",
+      "language": "Python",
+      "url": "https://github.com/OpenBMB/StaffDeck",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1-beta.3"
     }
   }
 }

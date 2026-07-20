@@ -25784,6 +25784,17 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "unicity-aos/aos-ce": {
+      "full_name": "unicity-aos/aos-ce",
+      "description": "AOS Community Edition: the open agent operating system.",
+      "language": "Rust",
+      "url": "https://github.com/unicity-aos/aos-ce",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "2026.1.3"
     }
   }
 }

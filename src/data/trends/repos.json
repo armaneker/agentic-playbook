@@ -25172,7 +25172,7 @@
     },
     "vshulcz/deja-vu": {
       "full_name": "vshulcz/deja-vu",
-      "description": "Memory layer for coding agents: search, MCP recall, auto-context, secret redaction, stats, share and sync over the session logs Claude Code, Codex, opencode, Cursor, Gemini CLI, aider, Antigravity, Grok Build and Qwen Code already write. One zero-dep binary.",
+      "description": "Your agents already solved this. deja finds it — retroactive search and MCP recall over the session logs your coding agents already wrote. Cross-agent, SSH-portable, one zero-dep binary, fully local.",
       "language": "Go",
       "url": "https://github.com/vshulcz/deja-vu",
       "first_seen": "2026-07-17",
@@ -25679,6 +25679,88 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "Icex0/wp2shell-poc": {
+      "full_name": "Icex0/wp2shell-poc",
+      "description": "wp2shell (CVE-2026-63030 & CVE-2026-60137) - full RCE chain",
+      "language": "Python",
+      "url": "https://github.com/Icex0/wp2shell-poc",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [
+        "cve-2026-63030",
+        "wp2shell",
+        "wp2shell-poc"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "erickong/penecho": {
+      "full_name": "erickong/penecho",
+      "description": "Think with AI beyond the chat box. A shared canvas for handwriting, equations, diagrams, and spatial reasoning.",
+      "language": "JavaScript",
+      "url": "https://github.com/erickong/penecho",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "canvas",
+        "claude",
+        "codex",
+        "education",
+        "handwriting",
+        "nodejs",
+        "visual-thinking"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.0"
+    },
+    "OlegSotnikov/sallyport": {
+      "full_name": "OlegSotnikov/sallyport",
+      "description": "",
+      "language": "Swift",
+      "url": "https://github.com/OlegSotnikov/sallyport",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.8.16"
+    },
+    "yuwen-cool/yuwen-publish-precheck": {
+      "full_name": "yuwen-cool/yuwen-publish-precheck",
+      "description": "发布前审｜发抖音/小红书/视频号前先让 AI 审一遍：哪句踩线、依据哪条官方规则、给能直接用的改法。38 篇真实样本校准判定尺度，72 条官方原文引文可查证，你踩过的坑沉淀成本地规则库越用越准。不承诺过审，不教绕审。",
+      "language": "Python",
+      "url": "https://github.com/yuwen-cool/yuwen-publish-precheck",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai",
+        "chinese",
+        "claude",
+        "content-compliance",
+        "cursor",
+        "douyin",
+        "wechat-channels",
+        "xiaohongshu"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "thesysdev/appless": {
+      "full_name": "thesysdev/appless",
+      "description": "What if your phone had no apps",
+      "language": "TypeScript",
+      "url": "https://github.com/thesysdev/appless",
+      "first_seen": "2026-07-20",
+      "has_summary": false,
+      "topics": [
+        "generative-ui",
+        "llm",
+        "react-native"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

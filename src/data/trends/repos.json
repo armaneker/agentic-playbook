@@ -24778,7 +24778,7 @@
     "AlayaLab/AlayaWorld": {
       "full_name": "AlayaLab/AlayaWorld",
       "description": "Full-stack open-source interactive long-horizon world model.",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/AlayaLab/AlayaWorld",
       "first_seen": "2026-07-14",
       "has_summary": false,
@@ -25795,6 +25795,50 @@
       "topics": [],
       "category": "Other",
       "version": "2026.1.3"
+    },
+    "arcships/light-ocr": {
+      "full_name": "arcships/light-ocr",
+      "description": "C++17 PP-OCRv6 small OCR core with an asynchronous Node-API adapter",
+      "language": "Python",
+      "url": "https://github.com/arcships/light-ocr",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "thebuggeddev/football-stadium": {
+      "full_name": "thebuggeddev/football-stadium",
+      "description": "A 3D football stadium to visualize where you sit in the seat before you buy it",
+      "language": "HTML",
+      "url": "https://github.com/thebuggeddev/football-stadium",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xiaolongbao0709/ai-virtual-phone": {
+      "full_name": "xiaolongbao0709/ai-virtual-phone",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/xiaolongbao0709/ai-virtual-phone",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "SAGAR-TAMANG/ultron-by-sagar-builds": {
+      "full_name": "SAGAR-TAMANG/ultron-by-sagar-builds",
+      "description": "Ultron.",
+      "language": "TypeScript",
+      "url": "https://github.com/SAGAR-TAMANG/ultron-by-sagar-builds",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

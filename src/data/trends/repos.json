@@ -25172,7 +25172,7 @@
     },
     "vshulcz/deja-vu": {
       "full_name": "vshulcz/deja-vu",
-      "description": "Your agents already solved this. deja finds it — retroactive search and MCP recall over the session logs your coding agents already wrote. Cross-agent, SSH-portable, one zero-dep binary, fully local.",
+      "description": "Your agents already solved this. deja finds it — retroactive memory for twelve coding agents: search and MCP recall over the sessions they already wrote, an audit log of what they were served, secrets redacted. One zero-dep binary, fully local.",
       "language": "Go",
       "url": "https://github.com/vshulcz/deja-vu",
       "first_seen": "2026-07-17",
@@ -25901,6 +25901,48 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "mesamirh/MovieBox-Tui": {
+      "full_name": "mesamirh/MovieBox-Tui",
+      "description": "A modern Rust based terminal user interface for MovieBox. Fast, lightweight, keyboard first, and cross-platform.",
+      "language": "Rust",
+      "url": "https://github.com/mesamirh/MovieBox-Tui",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [
+        "anime",
+        "moviebox",
+        "moviebox-api",
+        "streaming"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Vincentwei1021/video-shotcraft": {
+      "full_name": "Vincentwei1021/video-shotcraft",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
+      "language": "TypeScript",
+      "url": "https://github.com/Vincentwei1021/video-shotcraft",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-video",
+        "claude-code",
+        "claude-code-skills",
+        "claude-skills",
+        "codex",
+        "motion-design",
+        "motion-graphics",
+        "product-video",
+        "promo-video",
+        "remotion",
+        "video-generation",
+        "video-production"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

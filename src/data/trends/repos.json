@@ -25657,7 +25657,7 @@
         "webgl"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v1.0"
     },
     "xiejunjie524/handdraw-story-video": {
       "full_name": "xiejunjie524/handdraw-story-video",
@@ -25943,6 +25943,68 @@
         "video-production"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "MIgHTy-alIeN/MEV-Arbitrage-Bot": {
+      "full_name": "MIgHTy-alIeN/MEV-Arbitrage-Bot",
+      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "language": "Solidity",
+      "url": "https://github.com/MIgHTy-alIeN/MEV-Arbitrage-Bot",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "aitradingbot",
+        "bot",
+        "btc",
+        "claude",
+        "eth",
+        "etherlab",
+        "mev",
+        "mevbots"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "KinetiNode/claude-fable-5-system-prompt-clean": {
+      "full_name": "KinetiNode/claude-fable-5-system-prompt-clean",
+      "description": "the optimized, token-efficient version of the leaked Claude Fable 5 / Mythos 5 system prompt. Re-engineered into clean Markdown for universal execution on Gemini 3.1 Pro, ChatGPT 5.6, and advanced LLM agents.",
+      "language": "Unknown",
+      "url": "https://github.com/KinetiNode/claude-fable-5-system-prompt-clean",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "powerycy/goutoujunshi": {
+      "full_name": "powerycy/goutoujunshi",
+      "description": "一个先接住情绪、再分析关系并给出可执行策略的 Codex 恋爱军师，内置心理、法律、社会、人文、哲学、婚姻家庭与性学知识库，支持多元关系。",
+      "language": "Python",
+      "url": "https://github.com/powerycy/goutoujunshi",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "chinese",
+        "codex",
+        "codex-skill",
+        "lgbtq",
+        "psychology",
+        "relationship-advice"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "w3cj/how-llms-work": {
+      "full_name": "w3cj/how-llms-work",
+      "description": "An interactive app that walks through every stage of the LLM pipeline, from pattern matching to training a transformer from scratch, with working code you can run locally.",
+      "language": "TypeScript",
+      "url": "https://github.com/w3cj/how-llms-work",
+      "first_seen": "2026-07-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

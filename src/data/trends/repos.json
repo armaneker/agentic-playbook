@@ -26111,6 +26111,34 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "gnipbao/story-to-handdrawn-video": {
+      "full_name": "gnipbao/story-to-handdrawn-video",
+      "description": "Agent skill: convert Chinese story copy or ordered images into a hand-drawn diary-comic animation (silent MP4 picture track).",
+      "language": "JavaScript",
+      "url": "https://github.com/gnipbao/story-to-handdrawn-video",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pireel/pireel": {
+      "full_name": "pireel/pireel",
+      "description": "Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP.",
+      "language": "TypeScript",
+      "url": "https://github.com/pireel/pireel",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "capcut",
+        "captions",
+        "talking-head",
+        "video-editor"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -24683,7 +24683,7 @@
       "has_summary": false,
       "topics": [],
       "category": "AI / ML",
-      "version": null
+      "version": "gpt-5.6-instruct_v35"
     },
     "littledivy/mimic": {
       "full_name": "littledivy/mimic",
@@ -26006,6 +26006,100 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "HeiGeAi/heige-codex-skin-studio": {
+      "full_name": "HeiGeAi/heige-codex-skin-studio",
+      "description": "给 Codex Desktop 一键换肤：OpenAI Codex/ChatGPT 桌面端主题工具，CDP 注入零修改应用，Miku/原神/鸣潮/火影/恋与深空 9 预设+自定义图片取色 | One-click theme & skin switcher for OpenAI Codex Desktop (macOS/Windows)",
+      "language": "JavaScript",
+      "url": "https://github.com/HeiGeAi/heige-codex-skin-studio",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "anime",
+        "chatgpt",
+        "codex",
+        "codex-desktop",
+        "customization",
+        "devtools-protocol",
+        "electron",
+        "hatsune-miku",
+        "macos",
+        "skin",
+        "theme",
+        "theme-switcher"
+      ],
+      "category": "AI / ML",
+      "version": "v5.4.5"
+    },
+    "oversecured/Samsung_Vulnerabilities": {
+      "full_name": "oversecured/Samsung_Vulnerabilities",
+      "description": "176 vulnerabilities in Samsung preinstalled Android apps",
+      "language": "Java",
+      "url": "https://github.com/oversecured/Samsung_Vulnerabilities",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "security",
+        "vulnerability-disclosure"
+      ],
+      "category": "Security",
+      "version": null
+    },
+    "paxlabs-inc/machine-genome": {
+      "full_name": "paxlabs-inc/machine-genome",
+      "description": "Machine Genome is an open identity and provenance protocol for models, agents, harnesses, datasets, and the artifacts that connect them.",
+      "language": "Go",
+      "url": "https://github.com/paxlabs-inc/machine-genome",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "0xsline/OpenChatCut": {
+      "full_name": "0xsline/OpenChatCut",
+      "description": "Local-first conversational AI video editor with a professional multi-track timeline, Agent Skills, MCP integration, and Remotion-powered rendering.",
+      "language": "TypeScript",
+      "url": "https://github.com/0xsline/OpenChatCut",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "agentic-ai",
+        "ai-agent",
+        "ai-video-editor",
+        "claude-code",
+        "codex",
+        "electron",
+        "ffmpeg",
+        "generative-ai",
+        "glsl",
+        "local-first",
+        "mcp",
+        "model-context-protocol",
+        "react",
+        "remotion",
+        "timeline-editor",
+        "typescript",
+        "video-editing",
+        "video-editor",
+        "webgl"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.2"
+    },
+    "yc-duan/fastctx": {
+      "full_name": "yc-duan/fastctx",
+      "description": "Fast, context-efficient repository tools for AI agents (MCP)",
+      "language": "Rust",
+      "url": "https://github.com/yc-duan/fastctx",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
     }
   }
 }

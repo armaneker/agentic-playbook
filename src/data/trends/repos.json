@@ -25135,7 +25135,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.3.2"
     },
     "KubeezMedia/kubeez-scroll-world-video": {
       "full_name": "KubeezMedia/kubeez-scroll-world-video",
@@ -25336,7 +25336,7 @@
     },
     "JexTradesLab/Polymarket-Arbitrage-Trading-Bot": {
       "full_name": "JexTradesLab/Polymarket-Arbitrage-Trading-Bot",
-      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot polymarket trading bot",
+      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot polymarket market maker",
       "language": "TypeScript",
       "url": "https://github.com/JexTradesLab/Polymarket-Arbitrage-Trading-Bot",
       "first_seen": "2026-07-17",
@@ -25345,6 +25345,7 @@
         "polymarket-arbitrage-bot",
         "polymarket-arbitrage-tarding-bot",
         "polymarket-bot",
+        "polymarket-market-maker",
         "polymarket-trading-bot"
       ],
       "category": "Other",
@@ -26137,6 +26138,17 @@
         "talking-head",
         "video-editor"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "0xhype/hyperliquid-tracker": {
+      "full_name": "0xhype/hyperliquid-tracker",
+      "description": "Get notified when big trades happen on Hyperliquid.",
+      "language": "TypeScript",
+      "url": "https://github.com/0xhype/hyperliquid-tracker",
+      "first_seen": "2026-07-22",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

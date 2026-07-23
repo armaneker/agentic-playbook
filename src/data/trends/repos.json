@@ -26151,6 +26151,101 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "nyblnet/bento": {
+      "full_name": "nyblnet/bento",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/nyblnet/bento",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.7"
+    },
+    "Kritt-ai/open-kritt": {
+      "full_name": "Kritt-ai/open-kritt",
+      "description": "Orchestrate AI agents to find real vulnerabilities in code.",
+      "language": "JavaScript",
+      "url": "https://github.com/Kritt-ai/open-kritt",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agents",
+        "ai",
+        "bug-bounty",
+        "bugbounty",
+        "bugbounty-tools",
+        "security",
+        "security-research"
+      ],
+      "category": "Agentic",
+      "version": "v1.1.0"
+    },
+    "chartup-solana-volume-bot/solanavolumebot": {
+      "full_name": "chartup-solana-volume-bot/solanavolumebot",
+      "description": "Top-rated Solana volume bot and developer tools for DEX liquidity, maker activity, and holder management.",
+      "language": "Unknown",
+      "url": "https://github.com/chartup-solana-volume-bot/solanavolumebot",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [
+        "basevolumebot",
+        "bnbvolumebot",
+        "bscvolumebot",
+        "dexscreener",
+        "dexscreener-trending",
+        "dexscreenertrending",
+        "dextools",
+        "dextools-trending",
+        "dextoolstrending",
+        "robinhoodvolumebot",
+        "sol-volume-bot",
+        "solana",
+        "solana-volume-booster",
+        "solana-volume-bot",
+        "solanavolumebooster",
+        "solanavolumebot",
+        "solvolumebot",
+        "volumebooster",
+        "volumebot"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "AdelanSoulX/PM-Sniper": {
+      "full_name": "AdelanSoulX/PM-Sniper",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/AdelanSoulX/PM-Sniper",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AdelanSupport/adelan-support": {
+      "full_name": "AdelanSupport/adelan-support",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/AdelanSupport/adelan-support",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "HITsz-TMG/KnowAct": {
+      "full_name": "HITsz-TMG/KnowAct",
+      "description": "Recursive Self-Improvement Personal Assistant",
+      "language": "Python",
+      "url": "https://github.com/HITsz-TMG/KnowAct",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "Result"
     }
   }
 }

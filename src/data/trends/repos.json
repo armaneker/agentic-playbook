@@ -25918,7 +25918,7 @@
         "streaming"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.1.4"
     },
     "Vincentwei1021/video-shotcraft": {
       "full_name": "Vincentwei1021/video-shotcraft",
@@ -26135,6 +26135,8 @@
         "ai-video",
         "capcut",
         "captions",
+        "chatcut",
+        "openchatcut",
         "talking-head",
         "video-editor"
       ],
@@ -26313,6 +26315,52 @@
       "topics": [],
       "category": "Agentic",
       "version": null
+    },
+    "CatsJuice/sticker-forge": {
+      "full_name": "CatsJuice/sticker-forge",
+      "description": "A tactile WebGL sticker maker with rich text, image uploads, and interactive peel physics.",
+      "language": "JavaScript",
+      "url": "https://github.com/CatsJuice/sticker-forge",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [
+        "sticker",
+        "webgl"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "nexu-io/codex-slides": {
+      "full_name": "nexu-io/codex-slides",
+      "description": "🎨 Open-source AI slide studio inside Codex: image-native decks, every slide a full visual canvas. ⚡ 10+ high-quality slides in ~4–5 minutes — Fast mode renders every page in parallel. 🔍 Watch the whole chain live: research → outline → style → render → edit → present → export PDF/PPTX. 🖥️ Browser-first · zero API keys · durable projects.",
+      "language": "TypeScript",
+      "url": "https://github.com/nexu-io/codex-slides",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-ppt",
+        "ai-presentation",
+        "ai-slides",
+        "codex",
+        "codex-plugin",
+        "coding-agents",
+        "deep-research",
+        "design-system",
+        "gamma-alternative",
+        "generative-ai",
+        "image-generation",
+        "mcp",
+        "nextjs",
+        "open-design",
+        "powerpoint",
+        "pptx",
+        "presentation-generator",
+        "slides",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.1"
     }
   }
 }

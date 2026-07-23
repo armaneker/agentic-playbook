@@ -22246,7 +22246,7 @@
     },
     "baairon/torlink": {
       "full_name": "baairon/torlink",
-      "description": "A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
+      "description": "👾 A sleek, zero-setup torrent finder and downloader that lives right in your terminal.",
       "language": "TypeScript",
       "url": "https://github.com/baairon/torlink",
       "first_seen": "2026-06-29",
@@ -26246,6 +26246,73 @@
       "topics": [],
       "category": "Other",
       "version": "Result"
+    },
+    "syabro/neat-annotations": {
+      "full_name": "syabro/neat-annotations",
+      "description": "Hand-drawn CSS annotations for inline content",
+      "language": "HTML",
+      "url": "https://github.com/syabro/neat-annotations",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Gheat1/tuistore": {
+      "full_name": "Gheat1/tuistore",
+      "description": "🛍️ The TUI app store — browse, search & one-key-install hundreds of terminal apps. Built on ricekit, seeded from awesome-tuis.",
+      "language": "Python",
+      "url": "https://github.com/Gheat1/tuistore",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [
+        "app-store",
+        "awesome-tuis",
+        "cli",
+        "developer-tools",
+        "package-manager",
+        "python",
+        "terminal",
+        "terminal-apps",
+        "textual",
+        "tui"
+      ],
+      "category": "DevTools",
+      "version": "v0.4.5"
+    },
+    "SeanJ1ang/design-judge-skills": {
+      "full_name": "SeanJ1ang/design-judge-skills",
+      "description": "Evidence-driven Agent Skills for design award research, evaluation, award matching, entry writing, and submission readiness.",
+      "language": "Python",
+      "url": "https://github.com/SeanJ1ang/design-judge-skills",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "design-awards",
+        "design-evaluation",
+        "design-research",
+        "hermes-agent",
+        "industrial-design",
+        "openclaw",
+        "opencode",
+        "python"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "ShenSeanChen/waku-agent": {
+      "full_name": "ShenSeanChen/waku-agent",
+      "description": "Waku Waku! Waku agent is your personal AI agent, on your own laptop, in code you can read in an afternoon — harness + loop + memory + eval",
+      "language": "Python",
+      "url": "https://github.com/ShenSeanChen/waku-agent",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

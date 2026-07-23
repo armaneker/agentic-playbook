@@ -26361,6 +26361,59 @@
       ],
       "category": "Agentic",
       "version": "v0.2.1"
+    },
+    "DavidHDev/canvas-ui": {
+      "full_name": "DavidHDev/canvas-ui",
+      "description": "A library of creative canvas components. Real HTML with WebGL effects running over it. React, Vue, Svelte, vanilla.",
+      "language": "TypeScript",
+      "url": "https://github.com/DavidHDev/canvas-ui",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "canvas",
+        "component-library",
+        "components",
+        "creative-coding",
+        "design-engineering",
+        "frontend",
+        "glsl",
+        "nextjs",
+        "react",
+        "shadcn",
+        "shaders",
+        "svelte",
+        "threejs",
+        "typescript",
+        "ui",
+        "ui-library",
+        "vue",
+        "weggl"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "andrewyng/openworker": {
+      "full_name": "andrewyng/openworker",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/andrewyng/openworker",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.6"
+    },
+    "petergyang/no-ai-slop": {
+      "full_name": "petergyang/no-ai-slop",
+      "description": "Removes 20+ patterns of AI slop from any piece of writing.",
+      "language": "Unknown",
+      "url": "https://github.com/petergyang/no-ai-slop",
+      "first_seen": "2026-07-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

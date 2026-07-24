@@ -22480,14 +22480,23 @@
     },
     "Jia-Ethan/codex-keysmith": {
       "full_name": "Jia-Ethan/codex-keysmith",
-      "description": "Codex CLI instruction-file installer for local configuration",
+      "description": "Version-independent Codex instruction deployment with dry-run, backups, hook isolation, and recovery.",
       "language": "Python",
       "url": "https://github.com/Jia-Ethan/codex-keysmith",
       "first_seen": "2026-07-01",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
-      "version": null
+      "topics": [
+        "cli",
+        "codex",
+        "codex-cli",
+        "configuration-management",
+        "developer-tools",
+        "local-first",
+        "prompt-engineering",
+        "python"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.1"
     },
     "FossPrime/Steam-Controller-Auto-Charge": {
       "full_name": "FossPrime/Steam-Controller-Auto-Charge",
@@ -26414,6 +26423,88 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "berabuddies/redis-poc": {
+      "full_name": "berabuddies/redis-poc",
+      "description": "RCE PoC for Redis 6.2.22, 7.4.9, 8.6.4, 8.8.0",
+      "language": "Python",
+      "url": "https://github.com/berabuddies/redis-poc",
+      "first_seen": "2026-07-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Database",
+      "version": null
+    },
+    "Charles-0509/Grok-Register": {
+      "full_name": "Charles-0509/Grok-Register",
+      "description": "Grok free-register CLI: register → OAuth → CPA JSON (Go)",
+      "language": "Go",
+      "url": "https://github.com/Charles-0509/Grok-Register",
+      "first_seen": "2026-07-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lyu0805/OpenBrowser": {
+      "full_name": "lyu0805/OpenBrowser",
+      "description": "本地指纹浏览器 · 多环境隔离 · 代理 / 指纹 / 同步 / RPA",
+      "language": "JavaScript",
+      "url": "https://github.com/lyu0805/OpenBrowser",
+      "first_seen": "2026-07-24",
+      "has_summary": false,
+      "topics": [
+        "chromium",
+        "electron",
+        "fingerprint-browser",
+        "proxy",
+        "rpa"
+      ],
+      "category": "Infra",
+      "version": "v1.0.2"
+    },
+    "dacnay816y62-hub/cinema-dna-21x9x3": {
+      "full_name": "dacnay816y62-hub/cinema-dna-21x9x3",
+      "description": "高级感电影画面生成",
+      "language": "Unknown",
+      "url": "https://github.com/dacnay816y62-hub/cinema-dna-21x9x3",
+      "first_seen": "2026-07-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2.1"
+    },
+    "KlaatAI/klaatcode": {
+      "full_name": "KlaatAI/klaatcode",
+      "description": "Open-source AI coding agent for the terminal. Claude Code-grade accuracy with smart model routing — uses the right AI model for each task, cutting costs 10x. Supports Claude, GPT, Gemini, DeepSeek & more.",
+      "language": "TypeScript",
+      "url": "https://github.com/KlaatAI/klaatcode",
+      "first_seen": "2026-07-24",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai",
+        "ai-agents",
+        "ai-coding",
+        "ai-model",
+        "ai-tools",
+        "artificial-intelligence",
+        "calude-code",
+        "claude",
+        "cli",
+        "code-generation",
+        "coding-agent",
+        "deepseek",
+        "klaatai",
+        "llm",
+        "open-source",
+        "openai",
+        "openclaw",
+        "pair-programming",
+        "terminal"
+      ],
+      "category": "Agentic",
+      "version": "V2.3.0"
     }
   }
 }

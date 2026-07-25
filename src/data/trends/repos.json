@@ -26660,6 +26660,50 @@
       "topics": [],
       "category": "Other",
       "version": "v0.6.1"
+    },
+    "mikehasa/agentacct": {
+      "full_name": "mikehasa/agentacct",
+      "description": "Local-first Agent Work Intelligence for coding agents: usage truth, recorded work, and honest joins. Read-only over coding-agent logs; zero-JavaScript localhost dashboard.",
+      "language": "Python",
+      "url": "https://github.com/mikehasa/agentacct",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "img2threejs/img2threejs": {
+      "full_name": "img2threejs/img2threejs",
+      "description": "Rebuild the object in a reference image as a code-only, procedural, quality-gated, animation-ready Three.js model. Token-efficient image-to-3D.",
+      "language": "Python",
+      "url": "https://github.com/img2threejs/img2threejs",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "ai-agents",
+        "claude-code",
+        "computer-graphics",
+        "generative",
+        "image-to-3d",
+        "procedural-generation",
+        "threejs",
+        "typescript",
+        "webgl"
+      ],
+      "category": "Agentic",
+      "version": "v1.3"
+    },
+    "sandbaseai/managed-agents": {
+      "full_name": "sandbaseai/managed-agents",
+      "description": "Open-source CMA-compatible agent runtime. Run multi-agent systems locally with any model (Ollama/vLLM/Claude/GPT), MCP tools, scenario templates, and a beautiful dashboard. One command start. Built for enterprise teams.",
+      "language": "TypeScript",
+      "url": "https://github.com/sandbaseai/managed-agents",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

@@ -26426,7 +26426,7 @@
     },
     "berabuddies/redis-poc": {
       "full_name": "berabuddies/redis-poc",
-      "description": "RCE PoC for Redis 6.2.22, 7.4.9, 8.6.4, 8.8.0",
+      "description": "RCE PoC for Redis 6.2.22, 7.4.9, 8.6.4, 8.8.0, 8.8.1",
       "language": "Python",
       "url": "https://github.com/berabuddies/redis-poc",
       "first_seen": "2026-07-24",
@@ -26703,6 +26703,17 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
+      "version": null
+    },
+    "mikiarlo3/ai-copywriter": {
+      "full_name": "mikiarlo3/ai-copywriter",
+      "description": "An AI copywriter that uses real copywriting skills + real marketing knowledge with human tone.",
+      "language": "Python",
+      "url": "https://github.com/mikiarlo3/ai-copywriter",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

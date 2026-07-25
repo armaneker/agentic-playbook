@@ -26550,6 +26550,116 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "melloworchid8rr6g/TG-Polymarket-bot": {
+      "full_name": "melloworchid8rr6g/TG-Polymarket-bot",
+      "description": "Telegram bot that catches Polymarket whale trades in real time and lets you copy them in one tap — plus a free public alerts channel.",
+      "language": "JavaScript",
+      "url": "https://github.com/melloworchid8rr6g/TG-Polymarket-bot",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [
+        "alerts",
+        "betting",
+        "bot",
+        "channel",
+        "polymarket",
+        "telegram",
+        "tg"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "realfishsam/agent-notch": {
+      "full_name": "realfishsam/agent-notch",
+      "description": "The open-source alternative to vibe-island",
+      "language": "Swift",
+      "url": "https://github.com/realfishsam/agent-notch",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "joeseesun/qiaomu-cut-skill": {
+      "full_name": "joeseesun/qiaomu-cut-skill",
+      "description": "乔木智能视频导演 Skill：素材治理、双语字幕、品牌包装与可复现渲染 | Agent-native video director with governed sourcing and verifiable rendering",
+      "language": "JavaScript",
+      "url": "https://github.com/joeseesun/qiaomu-cut-skill",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "ai-video",
+        "ffmpeg",
+        "nodejs",
+        "subtitles",
+        "video-editing"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "RinDig/icm-architect": {
+      "full_name": "RinDig/icm-architect",
+      "description": "Claude skill: design any process, idea, or problem into an ICM workspace (folder structure as agent architecture), or restructure an existing folder into one",
+      "language": "Unknown",
+      "url": "https://github.com/RinDig/icm-architect",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "OpenBMB/MiniCPM-Robot": {
+      "full_name": "OpenBMB/MiniCPM-Robot",
+      "description": "A Smarter and Faster On-Device AI Brain for Robots",
+      "language": "Python",
+      "url": "https://github.com/OpenBMB/MiniCPM-Robot",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "RongleCat/grok-app": {
+      "full_name": "RongleCat/grok-app",
+      "description": "Desktop workbench for Grok Build CLI — sessions, projects, media, automations (Tauri 2 · unofficial)",
+      "language": "TypeScript",
+      "url": "https://github.com/RongleCat/grok-app",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.6"
+    },
+    "zeus-panel/ZEUS-PANEL": {
+      "full_name": "zeus-panel/ZEUS-PANEL",
+      "description": "A high-performance, serverless VLESS network proxy management panel deployed natively on Cloudflare Workers & D1 SQL Database.",
+      "language": "JavaScript",
+      "url": "https://github.com/zeus-panel/ZEUS-PANEL",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [
+        "cloudflare-workers",
+        "panel",
+        "vless",
+        "workers",
+        "zeus",
+        "zeus-panel"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "lyallcooper/justif": {
+      "full_name": "lyallcooper/justif",
+      "description": "Publication-grade text justification for the web",
+      "language": "TypeScript",
+      "url": "https://github.com/lyallcooper/justif",
+      "first_seen": "2026-07-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.6.1"
     }
   }
 }

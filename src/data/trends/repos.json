@@ -26715,6 +26715,118 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "danilo-znamerovszkij/draw-your-font": {
+      "full_name": "danilo-znamerovszkij/draw-your-font",
+      "description": "Turn a photo of your handwriting into a real font (TTF/WOFF/WOFF2) - free, open source, no uploads. Node CLI + Claude Code skill.",
+      "language": "JavaScript",
+      "url": "https://github.com/danilo-znamerovszkij/draw-your-font",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "claude-skill",
+        "font",
+        "handwriting",
+        "handwriting-font",
+        "potrace",
+        "ttf",
+        "woff2"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "TryCaspian/caspian-sdk": {
+      "full_name": "TryCaspian/caspian-sdk",
+      "description": "One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X — a single on_message handler. Open-source channel adapters + bot SDK (Python & TypeScript) + CLI.",
+      "language": "Python",
+      "url": "https://github.com/TryCaspian/caspian-sdk",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai-agent",
+        "ai-agents",
+        "communication",
+        "crewai",
+        "discord",
+        "email",
+        "imessage",
+        "langchain",
+        "llm",
+        "mcp",
+        "messaging",
+        "python",
+        "sdk",
+        "slack",
+        "sms",
+        "telegram",
+        "typescript",
+        "whatsapp",
+        "whatsapp-api"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.2"
+    },
+    "rustyharbor308774/Ethereum-bot": {
+      "full_name": "rustyharbor308774/Ethereum-bot",
+      "description": "The bot detects a large swap in the mempool → buys earlier with priority gas → price rises → the user pays more → the bot sells and locks in 0.6–2.8% per cycle.",
+      "language": "Solidity",
+      "url": "https://github.com/rustyharbor308774/Ethereum-bot",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "eth",
+        "ethereum",
+        "evm",
+        "mevbots"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "anton-hq96g4/Meccha-Medusa": {
+      "full_name": "anton-hq96g4/Meccha-Medusa",
+      "description": "Meccha Chameleon: ESP · Aimbot · Fly Hack · Teleport · God Mode · Infinite Paint",
+      "language": "Unknown",
+      "url": "https://github.com/anton-hq96g4/Meccha-Medusa",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [
+        "mecca-chameleon-aimbot",
+        "mecca-chameleon-cheat",
+        "mecca-chameleon-cheats",
+        "mecca-chameleon-esp",
+        "mecca-chameleon-hack",
+        "mecca-chameleon-hacks",
+        "mecca-chameleon-medusa",
+        "mecca-chameleon-mod",
+        "meccha-chameleon-tools"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "rjx18/codor": {
+      "full_name": "rjx18/codor",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/rjx18/codor",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "chenjin-cmd/xhs-virtual-product": {
+      "full_name": "chenjin-cmd/xhs-virtual-product",
+      "description": "xhs-virtual-product",
+      "language": "Unknown",
+      "url": "https://github.com/chenjin-cmd/xhs-virtual-product",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

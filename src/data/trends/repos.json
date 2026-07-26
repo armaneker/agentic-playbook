@@ -26165,12 +26165,29 @@
     },
     "nyblnet/bento": {
       "full_name": "nyblnet/bento",
-      "description": "",
+      "description": "Bento, the office suite that fits in a file",
       "language": "TypeScript",
       "url": "https://github.com/nyblnet/bento",
       "first_seen": "2026-07-23",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "mit-license",
+        "office",
+        "office-365",
+        "office-suite",
+        "office-tools",
+        "office365",
+        "open-source",
+        "powerpoint",
+        "self-hosted",
+        "single-page-app",
+        "slides",
+        "slideshare",
+        "slideshow",
+        "slideshow-gallery",
+        "slideshow-maker",
+        "slideshows"
+      ],
       "category": "Other",
       "version": "v1.0.7"
     },
@@ -26827,6 +26844,57 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "mshumer/Claude-of-Duty": {
+      "full_name": "mshumer/Claude-of-Duty",
+      "description": "A Call of Duty-quality FPS in Three.js, built from a single prompt.",
+      "language": "JavaScript",
+      "url": "https://github.com/mshumer/Claude-of-Duty",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "hahhforest/pi-textbook": {
+      "full_name": "hahhforest/pi-textbook",
+      "description": "《动手学 Pi》：沿 15 个真实 checkpoint 从零构建 Pi-style Agent",
+      "language": "TypeScript",
+      "url": "https://github.com/hahhforest/pi-textbook",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [
+        "agent-engineering",
+        "ai-agent",
+        "chinese",
+        "llm",
+        "textbook",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "NVIDIA-NeMo/labs-OO-Agents": {
+      "full_name": "NVIDIA-NeMo/labs-OO-Agents",
+      "description": "labs-OO-agents",
+      "language": "Python",
+      "url": "https://github.com/NVIDIA-NeMo/labs-OO-Agents",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "daimon3332/address": {
+      "full_name": "daimon3332/address",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/daimon3332/address",
+      "first_seen": "2026-07-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
     }
   }
 }

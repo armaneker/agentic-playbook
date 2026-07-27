@@ -26433,13 +26433,13 @@
     "petergyang/no-ai-slop": {
       "full_name": "petergyang/no-ai-slop",
       "description": "Removes 20+ patterns of AI slop from any piece of writing.",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/petergyang/no-ai-slop",
       "first_seen": "2026-07-23",
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.0.4"
     },
     "berabuddies/redis-poc": {
       "full_name": "berabuddies/redis-poc",
@@ -26947,6 +26947,47 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "vercel-labs/scriptc": {
+      "full_name": "vercel-labs/scriptc",
+      "description": "TypeScript-to-Native Compiler",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/scriptc",
+      "first_seen": "2026-07-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.0.16"
+    },
+    "VictorTaelin/OptMem": {
+      "full_name": "VictorTaelin/OptMem",
+      "description": "Permanent memory for AI agents. A 426-token prompt, a script, plug and play.",
+      "language": "Python",
+      "url": "https://github.com/VictorTaelin/OptMem",
+      "first_seen": "2026-07-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "didriksg/Crisp": {
+      "full_name": "didriksg/Crisp",
+      "description": "A free, open-source alternative to BetterDisplay and Lunar. Every display control macOS hides in one menu bar panel: external monitor brightness (DDC or software), HiDPI scaling, XDR presets, virtual displays, color, and arrangement. Feels like it shipped with your Mac.",
+      "language": "Swift",
+      "url": "https://github.com/didriksg/Crisp",
+      "first_seen": "2026-07-27",
+      "has_summary": false,
+      "topics": [
+        "brightness",
+        "ddc",
+        "display-manager",
+        "hidpi",
+        "macos",
+        "menu-bar",
+        "swiftui"
+      ],
+      "category": "Other",
+      "version": "v1.0.3"
     }
   }
 }

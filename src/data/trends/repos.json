@@ -27011,6 +27011,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "MoonshotAI/Kimi-K3": {
+      "full_name": "MoonshotAI/Kimi-K3",
+      "description": "Open Frontier Intelligence",
+      "language": "Unknown",
+      "url": "https://github.com/MoonshotAI/Kimi-K3",
+      "first_seen": "2026-07-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kvcache-ai/AgentENV": {
+      "full_name": "kvcache-ai/AgentENV",
+      "description": "AgentENV (AENV) is a distributed platform for running agent environments at scale.",
+      "language": "Rust",
+      "url": "https://github.com/kvcache-ai/AgentENV",
+      "first_seen": "2026-07-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.1.0"
     }
   }
 }

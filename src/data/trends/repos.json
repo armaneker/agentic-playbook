@@ -27268,6 +27268,45 @@
       ],
       "category": "Agentic",
       "version": "v0.1.0"
+    },
+    "QoderAI/better-harness": {
+      "full_name": "QoderAI/better-harness",
+      "description": "Make your coding agents better at getting better.",
+      "language": "JavaScript",
+      "url": "https://github.com/QoderAI/better-harness",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [
+        "agent-plugin",
+        "claude-code",
+        "codex",
+        "cursor",
+        "harness-design",
+        "harness-engineering",
+        "loop-engineering",
+        "qoder",
+        "skill"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "daimon3332/OutlookRegister": {
+      "full_name": "daimon3332/OutlookRegister",
+      "description": "Outlook/Hotmail account batch registration tool.                          Outlook / Hotmail 账号批量注册工具，支持自动获取 OAuth2 refresh_token",
+      "language": "Python",
+      "url": "https://github.com/daimon3332/OutlookRegister",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [
+        "hotmail",
+        "mail",
+        "microservice",
+        "microsoft",
+        "outlook",
+        "register"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

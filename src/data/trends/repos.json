@@ -27191,6 +27191,46 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "deerwork-ai/deer-workflow": {
+      "full_name": "deerwork-ai/deer-workflow",
+      "description": "An open-source graph engineering runtime that keeps orchestration in TypeScript and delegates semantic work to replaceable Agent runtimes.",
+      "language": "TypeScript",
+      "url": "https://github.com/deerwork-ai/deer-workflow",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "ai-coding",
+        "bun",
+        "dynamic-workflow",
+        "dynamic-workflows",
+        "graph-engineering",
+        "llm",
+        "workflow"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.0"
+    },
+    "AdelanSoulX/Polymarket-Sniper-Trading-Bot": {
+      "full_name": "AdelanSoulX/Polymarket-Sniper-Trading-Bot",
+      "description": "polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket trading bot polymarket bot polymarket bot polymarket bot polymarket trading bot polymarket bot polymarket bot polymarket market maker",
+      "language": "Python",
+      "url": "https://github.com/AdelanSoulX/Polymarket-Sniper-Trading-Bot",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [
+        "polymarket-arbitrage-bot",
+        "polymarket-arbitrage-tarding-bot",
+        "polymarket-bot",
+        "polymarket-market-maker-bot",
+        "polymarket-trading-bot"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

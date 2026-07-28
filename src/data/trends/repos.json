@@ -27113,7 +27113,11 @@
       "url": "https://github.com/RykoTheDev/GodotHub",
       "first_seen": "2026-07-28",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "godot",
+        "godot-engine",
+        "godot-tool"
+      ],
       "category": "Other",
       "version": "v1.1.0"
     },
@@ -27231,6 +27235,39 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "fuadmefleh/Shared-Claude-Chats": {
+      "full_name": "fuadmefleh/Shared-Claude-Chats",
+      "description": "An archive of public Claude and Grok conversations, exported from their share links as plain markdown, plus the two scripts that produce it.",
+      "language": "Python",
+      "url": "https://github.com/fuadmefleh/Shared-Claude-Chats",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yanhua1010/self-media-content-workflow": {
+      "full_name": "yanhua1010/self-media-content-workflow",
+      "description": "通用、模块化的自媒体内容生产与经营 Skills / A modular, tool-agnostic self-media content skill suite",
+      "language": "Python",
+      "url": "https://github.com/yanhua1010/self-media-content-workflow",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-skills",
+        "content-creation",
+        "copywriting",
+        "self-media",
+        "social-media",
+        "wechat",
+        "xiaohongshu"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
     }
   }
 }

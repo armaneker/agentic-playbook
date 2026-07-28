@@ -26984,19 +26984,27 @@
     },
     "didriksg/Crisp": {
       "full_name": "didriksg/Crisp",
-      "description": "A free, open-source alternative to BetterDisplay and Lunar. Every display control macOS hides in one menu bar panel: external monitor brightness (DDC or software), HiDPI scaling, XDR presets, virtual displays, color, and arrangement. Feels like it shipped with your Mac.",
+      "description": "Free, open-source macOS alternative to BetterDisplay and Lunar: a lightweight menu bar app with sharp HiDPI/Retina scaling for external monitors (no more blurry or tiny text), plus brightness (DDC), virtual displays, presets, and color.",
       "language": "Swift",
       "url": "https://github.com/didriksg/Crisp",
       "first_seen": "2026-07-27",
       "has_summary": false,
       "topics": [
+        "4k",
+        "apple-silicon",
         "brightness",
         "ddc",
+        "display",
         "display-manager",
         "hidpi",
+        "mac",
         "macos",
         "menu-bar",
-        "swiftui"
+        "monitor",
+        "resolution",
+        "retina",
+        "scaling",
+        "virtual"
       ],
       "category": "Other",
       "version": "v1.0.3"
@@ -27033,6 +27041,156 @@
       "topics": [],
       "category": "Agentic",
       "version": "v0.1.0"
+    },
+    "0xwilliamortiz/openclaude-improved": {
+      "full_name": "0xwilliamortiz/openclaude-improved",
+      "description": "runs anywhere. uses anything",
+      "language": "TypeScript",
+      "url": "https://github.com/0xwilliamortiz/openclaude-improved",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai",
+        "ai-agent",
+        "ai-coding",
+        "ai-coding-agent",
+        "ai-coding-agents",
+        "ai-coding-assistant",
+        "anthropic",
+        "claude",
+        "claude-code",
+        "cli",
+        "coding-agent",
+        "gemini",
+        "gemini-ai",
+        "gemini-cli",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "openrouter"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "MoonshotAI/MoonEP": {
+      "full_name": "MoonshotAI/MoonEP",
+      "description": "MoonEP: A Perfectly Balanced Expert Parallelism Library via Dynamic Redundant Experts",
+      "language": "Python",
+      "url": "https://github.com/MoonshotAI/MoonEP",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AARomanov1985/Audio-Cassette-Simulation": {
+      "full_name": "AARomanov1985/Audio-Cassette-Simulation",
+      "description": "This project simulates cassette tape audio profiles using ffmpeg",
+      "language": "Shell",
+      "url": "https://github.com/AARomanov1985/Audio-Cassette-Simulation",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "XYZ-AI-Lab/axrl": {
+      "full_name": "XYZ-AI-Lab/axrl",
+      "description": "AxisRL is an agentic RL post-training framework built on SGLang rollout, Megatron training, and real-world agent workflows.",
+      "language": "Python",
+      "url": "https://github.com/XYZ-AI-Lab/axrl",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "RykoTheDev/GodotHub": {
+      "full_name": "RykoTheDev/GodotHub",
+      "description": "What if Unity Hub and Github Desktop had a Baby but its Adopted? Yeah.. ",
+      "language": "TypeScript",
+      "url": "https://github.com/RykoTheDev/GodotHub",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.0"
+    },
+    "0xwilliamortiz/andrej-karpathy-skills": {
+      "full_name": "0xwilliamortiz/andrej-karpathy-skills",
+      "description": "Behavioral guardrails for Claude Code, distilled from Andrej Karpathy's field notes on where LLMs go wrong when they write software.",
+      "language": "Unknown",
+      "url": "https://github.com/0xwilliamortiz/andrej-karpathy-skills",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [
+        "andrej-karpathy",
+        "claude",
+        "claude-api",
+        "claude-code-plugin",
+        "claude-code-skill",
+        "claude-desktop",
+        "claudeskills",
+        "skills"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "Eversmile12/leaked-llm-prompts": {
+      "full_name": "Eversmile12/leaked-llm-prompts",
+      "description": "collections-of-leaked-prompts",
+      "language": "Unknown",
+      "url": "https://github.com/Eversmile12/leaked-llm-prompts",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "AI / ML",
+      "version": null
+    },
+    "XYZ-AI-Lab/AxisAgentic": {
+      "full_name": "XYZ-AI-Lab/AxisAgentic",
+      "description": "AxisAgentic: An Extensible Runtime and Trajectory-Collection Framework for Long-Horizon Agents.",
+      "language": "Python",
+      "url": "https://github.com/XYZ-AI-Lab/AxisAgentic",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "MarcosSete/awesome-free-ai-books": {
+      "full_name": "MarcosSete/awesome-free-ai-books",
+      "description": "A curated list of free, legitimate AI/ML books",
+      "language": "Unknown",
+      "url": "https://github.com/MarcosSete/awesome-free-ai-books",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "sunny-glow/Auto-BenchMax": {
+      "full_name": "sunny-glow/Auto-BenchMax",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/sunny-glow/Auto-BenchMax",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LanceZPF/awesome-papers-awesome": {
+      "full_name": "LanceZPF/awesome-papers-awesome",
+      "description": "The unified gateway to high-quality Awesome XXX Paper repositories.",
+      "language": "Python",
+      "url": "https://github.com/LanceZPF/awesome-papers-awesome",
+      "first_seen": "2026-07-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

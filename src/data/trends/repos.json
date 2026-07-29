@@ -26531,7 +26531,7 @@
     },
     "bytedoger/awesome-OpenPrice": {
       "full_name": "bytedoger/awesome-OpenPrice",
-      "description": "open price ,一个开源的收录全网卡网渠道各种AI订阅价格的项目。打破信息茧房，一站式获取各个渠道的 Claude、GPT、gemini 、cursor产品的最新价格",
+      "description": "open price ,一个开源的收录全网卡网渠道各种AI订阅价格的项目。打破信息茧房，一站式获取各个渠道的 Claude、GPT、gemini 、cursor产品的最新价格，方便比价",
       "language": "TypeScript",
       "url": "https://github.com/bytedoger/awesome-OpenPrice",
       "first_seen": "2026-07-24",
@@ -27399,6 +27399,28 @@
         "polymarket-market-maker-bot",
         "polymarket-trading-bot"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "openai/codex-security": {
+      "full_name": "openai/codex-security",
+      "description": "SDKs and CLI for Codex Security",
+      "language": "TypeScript",
+      "url": "https://github.com/openai/codex-security",
+      "first_seen": "2026-07-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Security",
+      "version": null
+    },
+    "diwenne/openreply": {
+      "full_name": "diwenne/openreply",
+      "description": "open sourced Manychat: comment-dm automation + account analytics. the link below will not allow you to oauth; you must self-host with your own api keys.",
+      "language": "TypeScript",
+      "url": "https://github.com/diwenne/openreply",
+      "first_seen": "2026-07-29",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

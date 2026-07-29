@@ -26135,7 +26135,7 @@
     },
     "pireel/pireel": {
       "full_name": "pireel/pireel",
-      "description": "Open-source, backend-free AI video editor for talking-head video — storyboarding, designed graphics, kinetic captions, themes and in-browser WebCodecs export. Drivable by any AI agent over MCP.",
+      "description": "The open-source alternative to Capcut、ChatCut. Drivable by any AI agent over MCP.",
       "language": "TypeScript",
       "url": "https://github.com/pireel/pireel",
       "first_seen": "2026-07-22",
@@ -27418,6 +27418,17 @@
       "description": "open sourced Manychat: comment-dm automation + account analytics. the link below will not allow you to oauth; you must self-host with your own api keys.",
       "language": "TypeScript",
       "url": "https://github.com/diwenne/openreply",
+      "first_seen": "2026-07-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xikhar/persona": {
+      "full_name": "xikhar/persona",
+      "description": "Bringing real-time voice to life.",
+      "language": "JavaScript",
+      "url": "https://github.com/xikhar/persona",
       "first_seen": "2026-07-29",
       "has_summary": false,
       "topics": [],

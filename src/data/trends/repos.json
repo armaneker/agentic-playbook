@@ -24797,7 +24797,7 @@
     },
     "jakubkrehel/skills": {
       "full_name": "jakubkrehel/skills",
-      "description": "A set of agent skills that help improve different parts of a product, from animations and typography to layout and colors.",
+      "description": "A collection of agent skills that help with various parts of building a great interface. From animation and UI polish to accessibility and product writing.",
       "language": "Unknown",
       "url": "https://github.com/jakubkrehel/skills",
       "first_seen": "2026-07-14",
@@ -26909,7 +26909,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
-      "version": null
+      "version": "v0.0.8"
     },
     "daimon3332/address": {
       "full_name": "daimon3332/address",
@@ -27498,7 +27498,7 @@
     },
     "gavamedia/deltafin": {
       "full_name": "gavamedia/deltafin",
-      "description": "Run Kimi K3, a 2.8T-parameter Mixture-of-Experts LLM, on a single Apple Silicon Mac. Streams MXFP4 experts on demand over HTTP into a local disk cache — fused NEON kernels, Metal/MPS compute, exact reproducible decoding, and an OpenAI-compatible API server for local chat and coding agents.",
+      "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
       "language": "Python",
       "url": "https://github.com/gavamedia/deltafin",
       "first_seen": "2026-07-30",
@@ -27621,6 +27621,28 @@
       "description": "",
       "language": "Python",
       "url": "https://github.com/Jingyi-Wu-Richael/rachel-digital-human-production",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "PipeNetwork/kimi-k3-mlx": {
+      "full_name": "PipeNetwork/kimi-k3-mlx",
+      "description": "MLX port of moonshotai/Kimi-K3 (2.78T multimodal MoE): streaming converter, REAP expert pruning, and per-language expert-overlap analysis",
+      "language": "Python",
+      "url": "https://github.com/PipeNetwork/kimi-k3-mlx",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "qaml-ai/camelAI": {
+      "full_name": "qaml-ai/camelAI",
+      "description": "camelAI — an AI coding assistant platform built on Cloudflare Workers and Durable Objects",
+      "language": "TypeScript",
+      "url": "https://github.com/qaml-ai/camelAI",
       "first_seen": "2026-07-30",
       "has_summary": false,
       "topics": [],

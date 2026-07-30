@@ -26902,7 +26902,7 @@
     },
     "NVIDIA-NeMo/labs-OO-Agents": {
       "full_name": "NVIDIA-NeMo/labs-OO-Agents",
-      "description": "labs-OO-agents",
+      "description": "NVIDIA Object Oriented Agents",
       "language": "Python",
       "url": "https://github.com/NVIDIA-NeMo/labs-OO-Agents",
       "first_seen": "2026-07-26",
@@ -27670,6 +27670,49 @@
       "topics": [],
       "category": "Other",
       "version": "1.2.1"
+    },
+    "perplexityai/numbat": {
+      "full_name": "perplexityai/numbat",
+      "description": "Visibility into AI agent activity on endpoints, with on-device detection, optional pre-action blocking, and forensic reconstruction.",
+      "language": "Go",
+      "url": "https://github.com/perplexityai/numbat",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [
+        "agent-security",
+        "ai-agent-security",
+        "ai-agents"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.1"
+    },
+    "QwenAudio/qwen-audio-agent": {
+      "full_name": "QwenAudio/qwen-audio-agent",
+      "description": "A realtime voice runtime that keeps Agents talking, working, and present.  Real-time Voice Runtime for AI Agents",
+      "language": "JavaScript",
+      "url": "https://github.com/QwenAudio/qwen-audio-agent",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "voice-agent",
+        "voice-ai",
+        "voice-chat"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "Noniv/snowflow_demo": {
+      "full_name": "Noniv/snowflow_demo",
+      "description": "A real-time procedural snow rendering demo built with WebGPU, Babylon.js and hand-written WGSL. Features GPU-generated terrain, snow deformation, procedural characters, cloth, surf wakes, water spells, atmosphere and post-processing—without textures, meshes, HDRIs or animation assets.",
+      "language": "JavaScript",
+      "url": "https://github.com/Noniv/snowflow_demo",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -24275,7 +24275,7 @@
     },
     "JustVugg/colibri": {
       "full_name": "JustVugg/colibri",
-      "description": "Run GLM-5.2 (744B MoE) on a 25GB-RAM consumer machine — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
       "language": "C",
       "url": "https://github.com/JustVugg/colibri",
       "first_seen": "2026-07-10",
@@ -26686,12 +26686,32 @@
     },
     "mikehasa/agentacct": {
       "full_name": "mikehasa/agentacct",
-      "description": "Local-first Agent Work Intelligence for coding agents: usage truth, recorded work, and honest joins. Read-only over coding-agent logs; zero-JavaScript localhost dashboard.",
+      "description": "See what your coding agents did and what it cost. Breaks each task down into work steps — tools used, files changed, tests run, time and tokens spent. Local-first dashboard for Claude Code, Codex, OpenCode, and more. No login, no telemetry.",
       "language": "Python",
       "url": "https://github.com/mikehasa/agentacct",
       "first_seen": "2026-07-25",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "agent-observability",
+        "ai-agents",
+        "analytics",
+        "claude-code",
+        "cli",
+        "codex",
+        "coding-agent",
+        "cost-tracking",
+        "dashboard",
+        "developer-tools",
+        "devtools",
+        "llm",
+        "llmops",
+        "local-first",
+        "mcp",
+        "observability",
+        "opencode",
+        "python",
+        "token-usage"
+      ],
       "category": "Agentic",
       "version": "v0.1.0"
     },
@@ -27310,7 +27330,7 @@
     },
     "digimata/quill": {
       "full_name": "digimata/quill",
-      "description": "Ultraminimalist macOS recording + transcription.",
+      "description": "Ultra-minimalist macOS recording + transcription.",
       "language": "Swift",
       "url": "https://github.com/digimata/quill",
       "first_seen": "2026-07-29",
@@ -27383,7 +27403,7 @@
         "video-processing"
       ],
       "category": "Other",
-      "version": null
+      "version": "v1.0.3"
     },
     "AdelanSoulX/Polymarket-Trading-Bot": {
       "full_name": "AdelanSoulX/Polymarket-Trading-Bot",
@@ -27404,13 +27424,29 @@
     },
     "openai/codex-security": {
       "full_name": "openai/codex-security",
-      "description": "SDKs and CLI for Codex Security",
+      "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
       "url": "https://github.com/openai/codex-security",
       "first_seen": "2026-07-29",
       "has_summary": false,
-      "topics": [],
-      "category": "Security",
+      "topics": [
+        "ai-security",
+        "application-security",
+        "cli",
+        "code-scanning",
+        "codex",
+        "codex-security",
+        "cybersecurity",
+        "devsecops",
+        "nodejs",
+        "npm",
+        "openai",
+        "sdk",
+        "security",
+        "typescript",
+        "vulnerability-scanning"
+      ],
+      "category": "AI / ML",
       "version": null
     },
     "diwenne/openreply": {
@@ -27458,6 +27494,137 @@
         "web-analytics"
       ],
       "category": "Data",
+      "version": null
+    },
+    "gavamedia/deltafin": {
+      "full_name": "gavamedia/deltafin",
+      "description": "Run Kimi K3, a 2.8T-parameter Mixture-of-Experts LLM, on a single Apple Silicon Mac. Streams MXFP4 experts on demand over HTTP into a local disk cache — fused NEON kernels, Metal/MPS compute, exact reproducible decoding, and an OpenAI-compatible API server for local chat and coding agents.",
+      "language": "Python",
+      "url": "https://github.com/gavamedia/deltafin",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [
+        "kimi",
+        "kimi-k3",
+        "local-ai",
+        "local-llm"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "edaywalid/undo": {
+      "full_name": "edaywalid/undo",
+      "description": "Undo what the last shell command did to the filesystem",
+      "language": "Go",
+      "url": "https://github.com/edaywalid/undo",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "developer-tools",
+        "filesystem",
+        "ld-preload",
+        "linux",
+        "safety",
+        "shell",
+        "undo"
+      ],
+      "category": "DevTools",
+      "version": "v0.2.8"
+    },
+    "achimala/TheLongSilence": {
+      "full_name": "achimala/TheLongSilence",
+      "description": "A space exploration game built by Claude Opus 5",
+      "language": "JavaScript",
+      "url": "https://github.com/achimala/TheLongSilence",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "chrissotraidis/harkinianpad": {
+      "full_name": "chrissotraidis/harkinianpad",
+      "description": "Ocarina of Time native on iOS and iPadOS via Ship of Harkinian with Metal rendering, touch controls, controller support, and ROM-free reproducible builds.",
+      "language": "Shell",
+      "url": "https://github.com/chrissotraidis/harkinianpad",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [
+        "game-controller",
+        "ios",
+        "ipados",
+        "libultraship",
+        "metal",
+        "ocarina-of-time",
+        "sdl2",
+        "ship-of-harkinian",
+        "source-port",
+        "touch-controls",
+        "zelda"
+      ],
+      "category": "Mobile",
+      "version": null
+    },
+    "aniqfakhrul/CVE-2026-54121": {
+      "full_name": "aniqfakhrul/CVE-2026-54121",
+      "description": "Certighost POC",
+      "language": "Python",
+      "url": "https://github.com/aniqfakhrul/CVE-2026-54121",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "FrigadeHQ/yap": {
+      "full_name": "FrigadeHQ/yap",
+      "description": "Free, open source voice dictation for macOS. On-device transcription with Apple's Speech framework. No cloud, no API keys, no account.",
+      "language": "Swift",
+      "url": "https://github.com/FrigadeHQ/yap",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "apple-speech",
+        "dictation",
+        "macos",
+        "macos-app",
+        "menubar",
+        "offline",
+        "on-device",
+        "privacy",
+        "speech-recognition",
+        "speech-to-text",
+        "swift",
+        "swiftui",
+        "transcription",
+        "voice-to-text",
+        "whisper-alternative"
+      ],
+      "category": "Mobile",
+      "version": "v0.1.5"
+    },
+    "lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6": {
+      "full_name": "lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6",
+      "description": "NERV-BREAK-5.6 — GPT-5.6 破甲框架。三层纵深防御：上下文重构让拒绝无法触发，23条篡改规则实时消除拒绝保持对话不中断，文件路由绕过云端审核。31个MCP安全工具 + 28个技能模块 + Kali四后端集成。Codex CLI 即装即用。",
+      "language": "Python",
+      "url": "https://github.com/lingbol088-spec/5.6-JAILBREAK-NERV-codex-instruct-5.6",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Jingyi-Wu-Richael/rachel-digital-human-production": {
+      "full_name": "Jingyi-Wu-Richael/rachel-digital-human-production",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Jingyi-Wu-Richael/rachel-digital-human-production",
+      "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

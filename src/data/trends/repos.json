@@ -24685,7 +24685,7 @@
     },
     "MDX-Tom/gpt-5.6-instruct": {
       "full_name": "MDX-Tom/gpt-5.6-instruct",
-      "description": "A Codex CLI jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex CLI 破甲提示词与测试包。",
+      "description": "A Codex jailbreak prompt and test pack for gpt-5.6-sol. 针对 gpt-5.6 系列的 Codex 破甲提示词与测试包。",
       "language": "Python",
       "url": "https://github.com/MDX-Tom/gpt-5.6-instruct",
       "first_seen": "2026-07-13",
@@ -27805,6 +27805,17 @@
       "description": "",
       "language": "TypeScript",
       "url": "https://github.com/codejunkie99/meridian-company-os",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "bashalarmistalt/decimen-optical-transfer": {
+      "full_name": "bashalarmistalt/decimen-optical-transfer",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/bashalarmistalt/decimen-optical-transfer",
       "first_seen": "2026-07-31",
       "has_summary": false,
       "topics": [],

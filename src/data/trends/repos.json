@@ -25550,7 +25550,7 @@
     },
     "Shubhamsaboo/awesome-llm-apps": {
       "full_name": "Shubhamsaboo/awesome-llm-apps",
-      "description": "100+ AI Agent & RAG apps you can actually run — clone, customize, ship.",
+      "description": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "language": "Python",
       "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "first_seen": "2026-07-19",
@@ -26781,13 +26781,14 @@
     },
     "TryCaspian/caspian-sdk": {
       "full_name": "TryCaspian/caspian-sdk",
-      "description": "One identity for your AI agent across Slack, Discord, Telegram, WhatsApp, Instagram, email, SMS, X — a single on_message handler. Open-source channel adapters + bot SDK (Python & TypeScript) + CLI.",
+      "description": "Agent communication SDK. The open-source agent communication layer for AI agents — email, WhatsApp, Slack, Discord, Telegram, SMS. Python & TypeScript.",
       "language": "Python",
       "url": "https://github.com/TryCaspian/caspian-sdk",
       "first_seen": "2026-07-26",
       "has_summary": false,
       "topics": [
-        "agent",
+        "agent-communication",
+        "agent-messaging",
         "ai-agent",
         "ai-agents",
         "communication",
@@ -26805,8 +26806,7 @@
         "sms",
         "telegram",
         "typescript",
-        "whatsapp",
-        "whatsapp-api"
+        "whatsapp"
       ],
       "category": "Agentic",
       "version": "v0.1.2"
@@ -27447,7 +27447,7 @@
         "vulnerability-scanning"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": "npm-v0.1.4"
     },
     "diwenne/openreply": {
       "full_name": "diwenne/openreply",
@@ -27709,6 +27709,103 @@
       "language": "JavaScript",
       "url": "https://github.com/Noniv/snowflow_demo",
       "first_seen": "2026-07-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer": {
+      "full_name": "xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "description": "FDE（前沿部署工程师）从零入门指南（基于范冰《增长黑客》原书框架）",
+      "language": "Unknown",
+      "url": "https://github.com/xdash/FDE-the-Guidance-Book-of-Forward-Deployed-Engineer",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lij768423-svg/grok-register-panel": {
+      "full_name": "lij768423-svg/grok-register-panel",
+      "description": "Grok register engine (Camoufox) + live web monitor panel",
+      "language": "Python",
+      "url": "https://github.com/lij768423-svg/grok-register-panel",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Infatoshi/netherite": {
+      "full_name": "Infatoshi/netherite",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/Infatoshi/netherite",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LYiHub/pub-local-jarvis": {
+      "full_name": "LYiHub/pub-local-jarvis",
+      "description": "Windows 本地多模态 AI 桌面桌宠，支持屏幕与音频感知。",
+      "language": "Python",
+      "url": "https://github.com/LYiHub/pub-local-jarvis",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [
+        "ai-assistants",
+        "cuda",
+        "desktop-assistant",
+        "local-ai",
+        "minicpm"
+      ],
+      "category": "Other",
+      "version": "v0.1.2"
+    },
+    "drumih/turbo-fieldfare": {
+      "full_name": "drumih/turbo-fieldfare",
+      "description": "Gemma 4 26B-A4B inference in ~2 GB of RAM on any M-series MacBook",
+      "language": "Swift",
+      "url": "https://github.com/drumih/turbo-fieldfare",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "gemma",
+        "gemma4",
+        "gemma4-26b-a4b",
+        "gpgpu",
+        "llm",
+        "llm-inference",
+        "local-ai",
+        "macos",
+        "metal",
+        "on-device-ai",
+        "on-device-llm",
+        "swift"
+      ],
+      "category": "AI / ML",
+      "version": "0.3"
+    },
+    "AminBlg/SimpleEnglish": {
+      "full_name": "AminBlg/SimpleEnglish",
+      "description": "Agent skill: make LLMs write docs in ASD-STE100 Simplified Technical English — no AI slop",
+      "language": "Python",
+      "url": "https://github.com/AminBlg/SimpleEnglish",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "codejunkie99/meridian-company-os": {
+      "full_name": "codejunkie99/meridian-company-os",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/codejunkie99/meridian-company-os",
+      "first_seen": "2026-07-31",
       "has_summary": false,
       "topics": [],
       "category": "Other",

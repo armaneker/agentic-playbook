@@ -27820,7 +27820,36 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": "v0.1.0"
+    },
+    "WilonityDev/WilonityLoader": {
+      "full_name": "WilonityDev/WilonityLoader",
+      "description": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no recoil, silent aim, chams, skin changer, unlock all, no spread.",
+      "language": "Unknown",
+      "url": "https://github.com/WilonityDev/WilonityLoader",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [
+        "arc-raiders",
+        "counter-strike-2",
+        "game",
+        "hack",
+        "meccha-chameleon-tools",
+        "minecraft"
+      ],
+      "category": "Other",
       "version": null
+    },
+    "yc-software/qm": {
+      "full_name": "yc-software/qm",
+      "description": "Multiplayer agent harness for work",
+      "language": "TypeScript",
+      "url": "https://github.com/yc-software/qm",
+      "first_seen": "2026-07-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.4"
     }
   }
 }

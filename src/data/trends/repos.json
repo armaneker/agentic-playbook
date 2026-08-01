@@ -27850,6 +27850,118 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.4"
+    },
+    "0xwilliamortiz/ratchet": {
+      "full_name": "0xwilliamortiz/ratchet",
+      "description": "Your agent reads the rules. This checks whether it followed them.",
+      "language": "JavaScript",
+      "url": "https://github.com/0xwilliamortiz/ratchet",
+      "first_seen": "2026-08-01",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "code-quality",
+        "developer-tools",
+        "hooks",
+        "llm",
+        "ratchet",
+        "rate-limiting",
+        "static-analysis",
+        "yagni"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "ddoemonn/interior": {
+      "full_name": "ddoemonn/interior",
+      "description": "micro-interactions for react, built for the half-second after a click",
+      "language": "TypeScript",
+      "url": "https://github.com/ddoemonn/interior",
+      "first_seen": "2026-08-01",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "micro-interactions",
+        "motion",
+        "react",
+        "ui-components"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "sqliteai/waste": {
+      "full_name": "sqliteai/waste",
+      "description": "Run the full 2.78-trillion-parameter Kimi K3 model beyond available RAM by streaming activated weights directly from NVMe. A dependency-free, embeddable C inference engine.",
+      "language": "C",
+      "url": "https://github.com/sqliteai/waste",
+      "first_seen": "2026-08-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Database",
+      "version": "v0.6.1"
+    },
+    "Packets/tew": {
+      "full_name": "Packets/tew",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/Packets/tew",
+      "first_seen": "2026-08-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ChrisMack32/Locus": {
+      "full_name": "ChrisMack32/Locus",
+      "description": "Free open-source iPhone location teleport (MIT)",
+      "language": "Swift",
+      "url": "https://github.com/ChrisMack32/Locus",
+      "first_seen": "2026-08-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.2"
+    },
+    "lyu0805/pixshell": {
+      "full_name": "lyu0805/pixshell",
+      "description": "跨平台 SSH / SFTP 桌面客户端 · 终端 · 连接管理 · 文件传输 | Cross-platform SSH/SFTP desktop client for macOS, Windows ",
+      "language": "Swift",
+      "url": "https://github.com/lyu0805/pixshell",
+      "first_seen": "2026-08-01",
+      "has_summary": false,
+      "topics": [
+        "cross-platform",
+        "desktop-app",
+        "devops",
+        "electron",
+        "linux",
+        "macos",
+        "pixshell",
+        "remote-desktop",
+        "sftp",
+        "sftp-client",
+        "ssh",
+        "ssh-client",
+        "terminal",
+        "windows",
+        "xterm"
+      ],
+      "category": "DevTools",
+      "version": "v0.1.5"
+    },
+    "elayadesign/ai-design-skills": {
+      "full_name": "elayadesign/ai-design-skills",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/elayadesign/ai-design-skills",
+      "first_seen": "2026-08-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -28061,6 +28061,44 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "s1dashu/animated-voiceover": {
+      "full_name": "s1dashu/animated-voiceover",
+      "description": "Create animated voiceover videos with reusable scripting, visual direction, voice consistency, and CLI-based generation workflows.",
+      "language": "Unknown",
+      "url": "https://github.com/s1dashu/animated-voiceover",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "animated-video",
+        "codex-skill",
+        "voiceover"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "DannyMac180/sol-advisor": {
+      "full_name": "DannyMac180/sol-advisor",
+      "description": "Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.",
+      "language": "Shell",
+      "url": "https://github.com/DannyMac180/sol-advisor",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "hongjin-he/MicroWorld": {
+      "full_name": "hongjin-he/MicroWorld",
+      "description": "A multi-agent world model of US equity markets — simulating institutional players, information asymmetry, and emergent price dynamics",
+      "language": "Python",
+      "url": "https://github.com/hongjin-he/MicroWorld",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -27360,7 +27360,7 @@
         "yagni"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": "1.1"
     },
     "NikolayS/PGSimCity": {
       "full_name": "NikolayS/PGSimCity",
@@ -27985,6 +27985,82 @@
       "topics": [],
       "category": "Other",
       "version": "v0.3.1"
+    },
+    "farion1231/cc-switch": {
+      "full_name": "farion1231/cc-switch",
+      "description": "A cross-platform desktop All-in-One assistant for Claude Code, Codex, OpenCode, OpenClaw, Grok Build & Hermes Agent. Only official website: ccswitch.io",
+      "language": "Rust",
+      "url": "https://github.com/farion1231/cc-switch",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [
+        "ai-tools",
+        "claude-code",
+        "codex",
+        "desktop-app",
+        "grok",
+        "grokbuild",
+        "hermes",
+        "hermes-agent",
+        "mcp",
+        "open-source",
+        "openclaw",
+        "openclaw-ui",
+        "opencode",
+        "provider-management",
+        "rust",
+        "skills",
+        "skills-management",
+        "tauri",
+        "typescript",
+        "wsl-support"
+      ],
+      "category": "Agentic",
+      "version": "v3.19.1"
+    },
+    "trycompai/crm": {
+      "full_name": "trycompai/crm",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/trycompai/crm",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "EstebanPdN/zelda-alttp-3ds": {
+      "full_name": "EstebanPdN/zelda-alttp-3ds",
+      "description": "Nintendo 3DS dual-screen port of Zelda A Link to the Past based on zelda3",
+      "language": "C",
+      "url": "https://github.com/EstebanPdN/zelda-alttp-3ds",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.7"
+    },
+    "Kenton-GMI/sakura-crossing": {
+      "full_name": "Kenton-GMI/sakura-crossing",
+      "description": "An explorable Japanese suburban railway-crossing neighbourhood on a small planet, rendered 3D-to-2D as a cel-shaded anime background. Three.js, no image assets.",
+      "language": "JavaScript",
+      "url": "https://github.com/Kenton-GMI/sakura-crossing",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "steelbrain/reims-vgpu": {
+      "full_name": "steelbrain/reims-vgpu",
+      "description": "reims-vgpu is an experimental virtual GPU for macOS guests",
+      "language": "Rust",
+      "url": "https://github.com/steelbrain/reims-vgpu",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

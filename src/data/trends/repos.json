@@ -27825,7 +27825,7 @@
     },
     "WilonityDev/WilonityLoader": {
       "full_name": "WilonityDev/WilonityLoader",
-      "description": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no recoil, silent aim, chams, skin changer, unlock all, no spread.",
+      "description": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, PUBG, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no recoil, silent aim, chams, skin changer, unlock all, no spread.",
       "language": "Unknown",
       "url": "https://github.com/WilonityDev/WilonityLoader",
       "first_seen": "2026-07-31",
@@ -28094,6 +28094,17 @@
       "description": "A multi-agent world model of US equity markets — simulating institutional players, information asymmetry, and emergent price dynamics",
       "language": "Python",
       "url": "https://github.com/hongjin-he/MicroWorld",
+      "first_seen": "2026-08-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "x4gKing/3x-ui-multi": {
+      "full_name": "x4gKing/3x-ui-multi",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/x4gKing/3x-ui-multi",
       "first_seen": "2026-08-02",
       "has_summary": false,
       "topics": [],

@@ -24176,7 +24176,7 @@
     },
     "oso95/scroll-world": {
       "full_name": "oso95/scroll-world",
-      "description": "A skill that turn any brand into a scrollable 3D world",
+      "description": "A skill that turn any brand into a scrollable 3D world landing page",
       "language": "JavaScript",
       "url": "https://github.com/oso95/scroll-world",
       "first_seen": "2026-07-10",
@@ -27906,8 +27906,8 @@
     },
     "Packets/tew": {
       "full_name": "Packets/tew",
-      "description": "",
-      "language": "Unknown",
+      "description": "Project Vanta — AAA two-faction battle royale with a player-owned economy ($VANTA). Pre-alpha.",
+      "language": "Solidity",
       "url": "https://github.com/Packets/tew",
       "first_seen": "2026-08-01",
       "has_summary": false,
@@ -28259,6 +28259,48 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "genspark-ai/genoffice": {
+      "full_name": "genspark-ai/genoffice",
+      "description": "An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF.",
+      "language": "TypeScript",
+      "url": "https://github.com/genspark-ai/genoffice",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "docx",
+        "electron",
+        "office-suite",
+        "pdf",
+        "pptx",
+        "xlsx"
+      ],
+      "category": "AI / ML",
+      "version": "v0.4.110"
+    },
+    "tsingyuai/growth-lab": {
+      "full_name": "tsingyuai/growth-lab",
+      "description": "An end-to-end growth tool that understands the product, fetch the data it needs, researches the market, executes campaigns, and reviews results to improve the next round of growth. 从代码到市场的开源端到端增长工具。理解产品、接入信息渠道、研究市场、执行增长行动，并基于真实数据自我改进。",
+      "language": "Python",
+      "url": "https://github.com/tsingyuai/growth-lab",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [
+        "agentic-marketing",
+        "ai-agent",
+        "claude-code",
+        "codex",
+        "growth",
+        "growth-hacking",
+        "marketing-automation",
+        "open-source",
+        "seo",
+        "skills",
+        "xiaohongshu"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

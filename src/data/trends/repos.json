@@ -28206,6 +28206,60 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "FareedKhan-dev/kimi-k3-in-c": {
+      "full_name": "FareedKhan-dev/kimi-k3-in-c",
+      "description": "A 2.78-trillion-parameter Kimi K3 running inference on a single CPU in 8.24 GB of RAM. Portable C99: no BLAS, no framework, no GPU.",
+      "language": "C",
+      "url": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [
+        "avx2",
+        "c99",
+        "cpu-inference",
+        "deep-learning",
+        "from-scratch",
+        "inference-engine",
+        "kimi-k3",
+        "linear-attention",
+        "llm",
+        "llm-inference",
+        "machine-learning",
+        "memory-efficient",
+        "mixture-of-experts",
+        "moe",
+        "mxfp4",
+        "quantization",
+        "simd",
+        "systems-programming",
+        "transformer",
+        "zero-dependencies"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.0"
+    },
+    "imsai-sh/zhuzhiliao": {
+      "full_name": "imsai-sh/zhuzhiliao",
+      "description": "竹知了 —— 一转就哇哇叫的传统玩具，Web 模拟版。零依赖单文件，真实录音采样，移动端优先。",
+      "language": "HTML",
+      "url": "https://github.com/imsai-sh/zhuzhiliao",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LiamGvchi/gc-minimal-zine-poster": {
+      "full_name": "LiamGvchi/gc-minimal-zine-poster",
+      "description": "Codex skill for generating quiet minimal zine-style editorial poster prompts and images.",
+      "language": "Unknown",
+      "url": "https://github.com/LiamGvchi/gc-minimal-zine-poster",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

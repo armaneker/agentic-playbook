@@ -23424,7 +23424,7 @@
     },
     "yynxxxxx/Codex-X": {
       "full_name": "yynxxxxx/Codex-X",
-      "description": "Codex Switch & Instruct desktop manager",
+      "description": "OpenAI Codex 桌面端/CLI 的可视化管理工具，具有Provider/API 切换、会话同步、提示词注入、Skills/MCP 管理、TOML 配置可视化的跨平台工具。",
       "language": "Rust",
       "url": "https://github.com/yynxxxxx/Codex-X",
       "first_seen": "2026-07-05",
@@ -27500,7 +27500,7 @@
     "gavamedia/deltafin": {
       "full_name": "gavamedia/deltafin",
       "description": "Run full Kimi K3 on a single device. And an OpenAI-compatible API server for local chat and coding agents.",
-      "language": "Python",
+      "language": "Rust",
       "url": "https://github.com/gavamedia/deltafin",
       "first_seen": "2026-07-30",
       "has_summary": false,
@@ -28162,6 +28162,49 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "snekxs/openmouse": {
+      "full_name": "snekxs/openmouse",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/snekxs/openmouse",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "thebuggeddev/anatomy": {
+      "full_name": "thebuggeddev/anatomy",
+      "description": "An interactive 3D human anatomy explorer built using threejs with GPT 5.6 Sol",
+      "language": "TypeScript",
+      "url": "https://github.com/thebuggeddev/anatomy",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MIgHTy-alIeN/MEV-Ethereum-Trading-Bot": {
+      "full_name": "MIgHTy-alIeN/MEV-Ethereum-Trading-Bot",
+      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "language": "Solidity",
+      "url": "https://github.com/MIgHTy-alIeN/MEV-Ethereum-Trading-Bot",
+      "first_seen": "2026-08-03",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "aitradingbot",
+        "bot",
+        "btc",
+        "claude",
+        "eth",
+        "etherlab",
+        "mev",
+        "mevbots"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

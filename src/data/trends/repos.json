@@ -28302,6 +28302,63 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "brookfacehe2421/flashloan-scalper-bot": {
+      "full_name": "brookfacehe2421/flashloan-scalper-bot",
+      "description": "Quick profit scalper using flashloan mechanics",
+      "language": "JavaScript",
+      "url": "https://github.com/brookfacehe2421/flashloan-scalper-bot",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "ethereum",
+        "javascript",
+        "profits",
+        "scalping"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "MengTo/complete-shelf": {
+      "full_name": "MengTo/complete-shelf",
+      "description": "An original single-file Three.js library of seven interactive clothbound hardcovers.",
+      "language": "HTML",
+      "url": "https://github.com/MengTo/complete-shelf",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [
+        "book-design",
+        "creative-coding",
+        "github-pages",
+        "interactive-design",
+        "threejs",
+        "webgl"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Audio8-AI/Audio8_TTS": {
+      "full_name": "Audio8-AI/Audio8_TTS",
+      "description": "SOTA-Class TTS at Compact Scale",
+      "language": "Python",
+      "url": "https://github.com/Audio8-AI/Audio8_TTS",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "H-EmbodVis/TurboVLA": {
+      "full_name": "H-EmbodVis/TurboVLA",
+      "description": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with <1 GB VRAM",
+      "language": "Python",
+      "url": "https://github.com/H-EmbodVis/TurboVLA",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

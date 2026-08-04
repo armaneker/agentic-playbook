@@ -26113,13 +26113,20 @@
     },
     "Jakubantalik/thinking-orbs": {
       "full_name": "Jakubantalik/thinking-orbs",
-      "description": "Dotted thought-orb loading indicators for AI & agent UIs — six tuned states, two sizes, auto dark/light",
+      "description": "Dotted thought-orb loading indicators for AI & agent UIs, 9 tuned types, two sizes, auto dark/light",
       "language": "TypeScript",
       "url": "https://github.com/Jakubantalik/thinking-orbs",
       "first_seen": "2026-07-22",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "ai-agents",
+        "chat",
+        "loader",
+        "ui",
+        "ux"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "gnipbao/story-to-handdrawn-video": {

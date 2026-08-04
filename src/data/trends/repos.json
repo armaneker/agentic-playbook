@@ -28366,6 +28366,50 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "firecrawl/anydoc": {
+      "full_name": "firecrawl/anydoc",
+      "description": "Convert Word, PowerPoint, Excel, OpenDocument, RTF, EPUB, CSV, and PDF to clean Markdown. Built in Rust, with Node.js and Python bindings.",
+      "language": "Rust",
+      "url": "https://github.com/firecrawl/anydoc",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Data",
+      "version": "v0.1.2"
+    },
+    "sophiamyang/finger-frame-effect-ai": {
+      "full_name": "sophiamyang/finger-frame-effect-ai",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/sophiamyang/finger-frame-effect-ai",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MarcosSete/awesome-free-ai-course-notes": {
+      "full_name": "MarcosSete/awesome-free-ai-course-notes",
+      "description": "A curated collection of machine learning and AI lecture notes from the world's leading universities.  This repository gives you access to the same lecture notes used by students at top institutions such as MIT, helping you learn from the very best educational resources available.",
+      "language": "Unknown",
+      "url": "https://github.com/MarcosSete/awesome-free-ai-course-notes",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "disler/super-simple-software-factory": {
+      "full_name": "disler/super-simple-software-factory",
+      "description": "Repeatable agents-plus-code workflows, packaged as one skill, stamped into any repo. Deterministic Python owns the graph; coding agents are bounded nodes inside it.",
+      "language": "Python",
+      "url": "https://github.com/disler/super-simple-software-factory",
+      "first_seen": "2026-08-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

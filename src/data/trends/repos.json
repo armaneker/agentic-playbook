@@ -28410,6 +28410,87 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "guillermolg00/morphicons": {
+      "full_name": "guillermolg00/morphicons",
+      "description": "Any icon morphs into any other — universal morphing for stroke-based icons with spring physics. Zero dependencies, ~7 KB gzip.",
+      "language": "TypeScript",
+      "url": "https://github.com/guillermolg00/morphicons",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "icons",
+        "morphing",
+        "react",
+        "svg",
+        "typescript"
+      ],
+      "category": "Web Framework",
+      "version": "v1.4.1"
+    },
+    "HaidarJbeily7/cargo-frisk": {
+      "full_name": "HaidarJbeily7/cargo-frisk",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/HaidarJbeily7/cargo-frisk",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.2"
+    },
+    "Packets/Vanta": {
+      "full_name": "Packets/Vanta",
+      "description": "A two-faction battle royale. Own what you earn. The $VANTA war begins 2026. ",
+      "language": "Solidity",
+      "url": "https://github.com/Packets/Vanta",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "vercel-labs/marketing-team-eve-template": {
+      "full_name": "vercel-labs/marketing-team-eve-template",
+      "description": "Team of marketing agents built on eve.",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/marketing-team-eve-template",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "eve",
+        "marketing",
+        "notion",
+        "resend",
+        "typefully",
+        "vercel"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "miuuyy/codex-chatgpt-web": {
+      "full_name": "miuuyy/codex-chatgpt-web",
+      "description": "Use ChatGPT Web (including Pro) as a native model in the Codex app — with context, tools, streaming and images beyond Codex usage limits.",
+      "language": "TypeScript",
+      "url": "https://github.com/miuuyy/codex-chatgpt-web",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [
+        "chatgpt",
+        "chatgpt-pro",
+        "codex",
+        "free-ai",
+        "macos",
+        "mcp",
+        "openai",
+        "playwright",
+        "responses-api",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v1.1.3"
     }
   }
 }

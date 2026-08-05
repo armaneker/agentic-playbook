@@ -28491,6 +28491,64 @@
       ],
       "category": "Agentic",
       "version": "v1.1.3"
+    },
+    "KKKKhazix/human-writing": {
+      "full_name": "KKKKhazix/human-writing",
+      "description": "活人感写作 1.0.0｜通用中文创作与改稿 Skill",
+      "language": "Python",
+      "url": "https://github.com/KKKKhazix/human-writing",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "chinese-writing",
+        "creative-writing",
+        "writing-skill"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "Accio-Lab/RealReplicaBench": {
+      "full_name": "Accio-Lab/RealReplicaBench",
+      "description": "RealReplicaBench: Benchmarking Long-Horizon Agents in High-Fidelity, Stateful, and Reproducible Replicas of Real Online Services",
+      "language": "HTML",
+      "url": "https://github.com/Accio-Lab/RealReplicaBench",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "magicrew/doc7": {
+      "full_name": "magicrew/doc7",
+      "description": "Turn documents into AI-ready Markdown with visual understanding",
+      "language": "Go",
+      "url": "https://github.com/magicrew/doc7",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [
+        "document-ai",
+        "docx-to-markdown",
+        "local-ai",
+        "markdown",
+        "multimodal",
+        "open-source",
+        "pdf-to-markdown",
+        "vision-language-model"
+      ],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "ccch1mneyyy/pi-working-activity": {
+      "full_name": "ccch1mneyyy/pi-working-activity",
+      "description": "Lively Working-line extension for pi CLI",
+      "language": "TypeScript",
+      "url": "https://github.com/ccch1mneyyy/pi-working-activity",
+      "first_seen": "2026-08-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

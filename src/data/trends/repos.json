@@ -28593,6 +28593,91 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.0"
+    },
+    "mikiarlo3/awesome-growth-hacking-skills": {
+      "full_name": "mikiarlo3/awesome-growth-hacking-skills",
+      "description": "Find agentic growth hacking skills for Claude, ChatGPT, Manus | by enso.bot",
+      "language": "Shell",
+      "url": "https://github.com/mikiarlo3/awesome-growth-hacking-skills",
+      "first_seen": "2026-08-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nfzerox/VirtualMacOniPad": {
+      "full_name": "nfzerox/VirtualMacOniPad",
+      "description": "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.",
+      "language": "Objective-C",
+      "url": "https://github.com/nfzerox/VirtualMacOniPad",
+      "first_seen": "2026-08-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "1.0"
+    },
+    "onetoken-oss/K3Flight": {
+      "full_name": "onetoken-oss/K3Flight",
+      "description": "Run Kimi K3 locally on CPU with ~55GB measured runtime RAM. A single-file Linux inference server powered by cPilot Runtime.",
+      "language": "HTML",
+      "url": "https://github.com/onetoken-oss/K3Flight",
+      "first_seen": "2026-08-06",
+      "has_summary": false,
+      "topics": [
+        "cpu-inference",
+        "edge-ai",
+        "inference-engine",
+        "kimi-k3",
+        "local-llm",
+        "low-memory",
+        "moe"
+      ],
+      "category": "Other",
+      "version": "v0.1.0-preview"
+    },
+    "zqxwce/vphone-ws": {
+      "full_name": "zqxwce/vphone-ws",
+      "description": "A native macOS app for managing virtual iPhones - browse, create, and boot iOS research VMs from a single window.",
+      "language": "Swift",
+      "url": "https://github.com/zqxwce/vphone-ws",
+      "first_seen": "2026-08-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.0.1"
+    },
+    "bryanthaboi/gen1recomp": {
+      "full_name": "bryanthaboi/gen1recomp",
+      "description": "Gen1Recomp - A native Lua / LÖVE2D recreation of Gen 1 Poke ",
+      "language": "C",
+      "url": "https://github.com/bryanthaboi/gen1recomp",
+      "first_seen": "2026-08-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.72"
+    },
+    "aigclink/geolook": {
+      "full_name": "aigclink/geolook",
+      "description": "Open-source end-to-end GEO implementation: status analysis, diagnosis, strategy, tickets, execution, verification",
+      "language": "Python",
+      "url": "https://github.com/aigclink/geolook",
+      "first_seen": "2026-08-06",
+      "has_summary": false,
+      "topics": [
+        "aeo",
+        "ai-search",
+        "ai-visibility",
+        "answer-engine-optimization",
+        "generative-engine-optimization",
+        "geo",
+        "llm",
+        "self-hosted",
+        "seo",
+        "seo-tools"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

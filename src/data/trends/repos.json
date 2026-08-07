@@ -28952,6 +28952,36 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Pan-Chera/Multi-Agent-CAD": {
+      "full_name": "Pan-Chera/Multi-Agent-CAD",
+      "description": "MAC (Multi-Agent CAD): A decoupled multi-agent framework for text-to-CAD generation via constrained test-time compute",
+      "language": "Python",
+      "url": "https://github.com/Pan-Chera/Multi-Agent-CAD",
+      "first_seen": "2026-08-07",
+      "has_summary": false,
+      "topics": [
+        "3d-modeling",
+        "3d-printing",
+        "agent-pipeline",
+        "aider",
+        "build123d",
+        "cad",
+        "generative-design",
+        "langgraph",
+        "llm",
+        "llm-agent",
+        "mechanical-engineering",
+        "multi-agent",
+        "opencascade",
+        "qwen",
+        "step",
+        "step-file",
+        "text-to-3d",
+        "text-to-cad"
+      ],
+      "category": "Agentic",
+      "version": "ui-demo-v1"
     }
   }
 }

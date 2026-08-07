@@ -27735,7 +27735,7 @@
     },
     "lij768423-svg/grok-register-panel": {
       "full_name": "lij768423-svg/grok-register-panel",
-      "description": "Grok register engine (Camoufox) + live web monitor panel",
+      "description": "Grok 批量注册 (Camoufox) + 实时 Web 监控面板 | Batch Grok registration engine with live panel — concurrency · ASN blacklist · proxy pool · token auth",
       "language": "Python",
       "url": "https://github.com/lij768423-svg/grok-register-panel",
       "first_seen": "2026-07-31",
@@ -28877,6 +28877,81 @@
       ],
       "category": "Web Framework",
       "version": "v0.6.4"
+    },
+    "wumingqi60/lingxi": {
+      "full_name": "wumingqi60/lingxi",
+      "description": "灵犀跨境-开源共建版",
+      "language": "TypeScript",
+      "url": "https://github.com/wumingqi60/lingxi",
+      "first_seen": "2026-08-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MIgHTy-alIeN/ai-trader-bot": {
+      "full_name": "MIgHTy-alIeN/ai-trader-bot",
+      "description": "An arbitrage bot is a smart contract connected to an external automation script that controls its operation.",
+      "language": "Solidity",
+      "url": "https://github.com/MIgHTy-alIeN/ai-trader-bot",
+      "first_seen": "2026-08-07",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "aitradingbot",
+        "bot",
+        "btc",
+        "claude",
+        "eth",
+        "etherlab",
+        "mev",
+        "mevbots"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "FZ2000/da-cli": {
+      "full_name": "FZ2000/da-cli",
+      "description": "Sync DeviantArt galleries to local folders — zero-dependency Python CLI with OAuth 2.1 PKCE, a SQLite index, and scheduled macOS syncs.",
+      "language": "Python",
+      "url": "https://github.com/FZ2000/da-cli",
+      "first_seen": "2026-08-07",
+      "has_summary": false,
+      "topics": [
+        "archiving",
+        "backup",
+        "cli",
+        "command-line-tool",
+        "deviantart",
+        "deviantart-api",
+        "digital-art",
+        "downloader",
+        "gallery",
+        "image-downloader",
+        "keychain",
+        "launchd",
+        "macos",
+        "oauth2",
+        "pkce",
+        "python",
+        "python-cli",
+        "sqlite",
+        "sync",
+        "zero-dependencies"
+      ],
+      "category": "Database",
+      "version": "v0.1.1"
+    },
+    "jd-opensource/JoyAI-Video-Edit": {
+      "full_name": "jd-opensource/JoyAI-Video-Edit",
+      "description": "[Official Repo] JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion",
+      "language": "Python",
+      "url": "https://github.com/jd-opensource/JoyAI-Video-Edit",
+      "first_seen": "2026-08-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

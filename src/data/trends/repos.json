@@ -28552,13 +28552,19 @@
     },
     "leonickson1/Swiftlet": {
       "full_name": "leonickson1/Swiftlet",
-      "description": "",
+      "description": "Swiftlet is a Swift and Metal runtime that runs large Qwen Mixture-of-Experts models locally on Apple devices by streaming expert weights from storage, enabling 35B and 80B models to run with low RAM, including on iPhone.",
       "language": "Swift",
       "url": "https://github.com/leonickson1/Swiftlet",
       "first_seen": "2026-08-05",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "local-llm",
+        "mixture-of-experts",
+        "on-device-ai",
+        "qwen",
+        "swift"
+      ],
+      "category": "Mobile",
       "version": null
     },
     "Binaryify/open-kimi-ppt-skill": {
@@ -29059,6 +29065,40 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "T8mars/comfyui-minimax-h3-audio-T8": {
+      "full_name": "T8mars/comfyui-minimax-h3-audio-T8",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/T8mars/comfyui-minimax-h3-audio-T8",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "SECHAK-AG/capptivo": {
+      "full_name": "SECHAK-AG/capptivo",
+      "description": "Give your demos the spotlight they deserve ( Mac/Windows/Linux ).",
+      "language": "TypeScript",
+      "url": "https://github.com/SECHAK-AG/capptivo",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [
+        "free",
+        "linux",
+        "macos",
+        "open-source",
+        "pixijs",
+        "screen-capture",
+        "screen-recorder",
+        "screen-studio",
+        "tauri",
+        "tauri-app",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v1.0.3"
     }
   }
 }

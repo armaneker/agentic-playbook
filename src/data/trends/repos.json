@@ -28099,7 +28099,7 @@
     "DannyMac180/sol-advisor": {
       "full_name": "DannyMac180/sol-advisor",
       "description": "Codex-native architect orchestration with Luna and Terra implementation lanes and mandatory fresh Sol review.",
-      "language": "Shell",
+      "language": "TypeScript",
       "url": "https://github.com/DannyMac180/sol-advisor",
       "first_seen": "2026-08-02",
       "has_summary": false,
@@ -28982,6 +28982,83 @@
       ],
       "category": "Agentic",
       "version": "ui-demo-v1"
+    },
+    "yuhuangerdi/InduSecAgent": {
+      "full_name": "yuhuangerdi/InduSecAgent",
+      "description": "",
+      "language": "Vue",
+      "url": "https://github.com/yuhuangerdi/InduSecAgent",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "google-gemma/gemma-translator": {
+      "full_name": "google-gemma/gemma-translator",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/google-gemma/gemma-translator",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xmarre/ComfyUI-Spectrum-MiniMax-H3": {
+      "full_name": "xmarre/ComfyUI-Spectrum-MiniMax-H3",
+      "description": "Spectrum-based acceleration for ComfyUI’s native MiniMax H3 audio-video model. Forecasts post-transformer features with Chebyshev ridge regression to skip selected transformer evaluations, with adaptive scheduling, sampler-aware safeguards, CPU/VRAM history storage, and native fallbacks.",
+      "language": "Python",
+      "url": "https://github.com/xmarre/ComfyUI-Spectrum-MiniMax-H3",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.9"
+    },
+    "Anionex/agent-vision-toolkit": {
+      "full_name": "Anionex/agent-vision-toolkit",
+      "description": "为纯文本模型\"看图“设计更好的视觉工具箱和技能，支持多图理解，图片问答，前端UI还原、GUI 自动化等，并可选无缝接入多个主流agent，直接识别粘贴图片｜ A vision toolkit and skill designed for text-only llms — image Q&A, long-screenshot OCR, frontend UI restoration, and GUI automation, with optional seamless integration for Codex, Claude Code, Pi, Oh My Pi, and OpenCode",
+      "language": "Python",
+      "url": "https://github.com/Anionex/agent-vision-toolkit",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "codex",
+        "computer-use",
+        "deepseek",
+        "glm",
+        "harness-engineering",
+        "kimi",
+        "llm",
+        "multimodal",
+        "opencode",
+        "text-only-llm",
+        "vision",
+        "vision-language-model"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "AmazingAng/old-coder": {
+      "full_name": "AmazingAng/old-coder",
+      "description": "An old coder's strategy for the agent era: don't read the code — make it run the gauntlet. Evidence-first development skill for coding agents, inspired by Uncle Bob.",
+      "language": "Python",
+      "url": "https://github.com/AmazingAng/old-coder",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "skills",
+        "tdd"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

@@ -29099,6 +29099,43 @@
       ],
       "category": "Other",
       "version": "v1.0.3"
+    },
+    "xoreaxeaxeax/asm-hall-of-shame": {
+      "full_name": "xoreaxeaxeax/asm-hall-of-shame",
+      "description": "Racing to the bottom of CPU performance",
+      "language": "C",
+      "url": "https://github.com/xoreaxeaxeax/asm-hall-of-shame",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "uczltw6/trace-file-lineage": {
+      "full_name": "uczltw6/trace-file-lineage",
+      "description": "Find which script, notebook, data, command, or AI agent produced a file — locally, with evidence and honest uncertainty.",
+      "language": "Python",
+      "url": "https://github.com/uczltw6/trace-file-lineage",
+      "first_seen": "2026-08-08",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "artifact-tracking",
+        "claude-code",
+        "cli",
+        "codex",
+        "data-lineage",
+        "data-provenance",
+        "developer-tools",
+        "file-lineage",
+        "local-first",
+        "provenance",
+        "python",
+        "reproducibility",
+        "research-tools"
+      ],
+      "category": "Agentic",
+      "version": "v0.7.0"
     }
   }
 }

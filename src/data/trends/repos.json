@@ -25931,7 +25931,7 @@
     },
     "Vincentwei1021/video-shotcraft": {
       "full_name": "Vincentwei1021/video-shotcraft",
-      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 106 shot recipe cards, 161 motion previews, a production-ready template",
+      "description": "AI video skill for Claude Code & Codex — cinematic product videos with Remotion: 152 shot recipe cards, 209 motion previews, a production-ready template",
       "language": "TypeScript",
       "url": "https://github.com/Vincentwei1021/video-shotcraft",
       "first_seen": "2026-07-21",
@@ -28266,7 +28266,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.3.0"
     },
     "genspark-ai/genoffice": {
       "full_name": "genspark-ai/genoffice",
@@ -29212,6 +29212,17 @@
       "description": "",
       "language": "TypeScript",
       "url": "https://github.com/OpenMouse-Project/openmouse",
+      "first_seen": "2026-08-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "oil-oil/oil-motion": {
+      "full_name": "oil-oil/oil-motion",
+      "description": "Create smooth, responsive interactive web animations.",
+      "language": "Python",
+      "url": "https://github.com/oil-oil/oil-motion",
       "first_seen": "2026-08-09",
       "has_summary": false,
       "topics": [],

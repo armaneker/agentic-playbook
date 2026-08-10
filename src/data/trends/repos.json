@@ -28270,18 +28270,31 @@
     },
     "genspark-ai/genoffice": {
       "full_name": "genspark-ai/genoffice",
-      "description": "An AI-native office suite for macOS and Windows: word processor, spreadsheet, presentations, and PDF.",
+      "description": "Free, open-source AI office suite for macOS, Windows & Linux — Word (.docx), Excel (.xlsx), PowerPoint (.pptx), PDF and Markdown editing with built-in AI agents.",
       "language": "TypeScript",
       "url": "https://github.com/genspark-ai/genoffice",
       "first_seen": "2026-08-03",
       "has_summary": false,
       "topics": [
         "ai",
+        "cross-platform",
         "docx",
         "electron",
+        "excel",
+        "linux",
+        "macos",
+        "markdown-editor",
+        "office",
         "office-suite",
         "pdf",
+        "pdf-editor",
+        "powerpoint",
         "pptx",
+        "presentation",
+        "spreadsheet",
+        "windows",
+        "word",
+        "word-processor",
         "xlsx"
       ],
       "category": "AI / ML",
@@ -28613,7 +28626,7 @@
     },
     "nfzerox/VirtualMacOniPad": {
       "full_name": "nfzerox/VirtualMacOniPad",
-      "description": "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 16 up to 16.3.1.",
+      "description": "People have dreamed of running macOS on iPad for more than a decade. Today, that dream comes true. With Virtual Mac, iPad finally breaks free from iPadOS, enabling pro apps like Xcode and Terminal to run directly on device. Requires iPad Pro (M1, M2) or iPad Air (M1) running iPadOS 14 up to 16.3.1.",
       "language": "Objective-C",
       "url": "https://github.com/nfzerox/VirtualMacOniPad",
       "first_seen": "2026-08-06",
@@ -29353,6 +29366,79 @@
       ],
       "category": "Web Framework",
       "version": "v0.5.0"
+    },
+    "sv-number/mcp-server": {
+      "full_name": "sv-number/mcp-server",
+      "description": "MCP server for AI agents that need a phone number: order a private number in any country, read the SMS verification code, hand it back.",
+      "language": "JavaScript",
+      "url": "https://github.com/sv-number/mcp-server",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "mcp",
+        "model-context-protocol",
+        "otp",
+        "phone-verification",
+        "sms",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "xweiba/location-spoofer": {
+      "full_name": "xweiba/location-spoofer",
+      "description": "面向 iOS 定位服务行为研究和开发测试的虚拟定位工具，支持地图选点、本地与第三方代理、WGS-84 / GCJ-02 双坐标、环境检测和问题诊断。",
+      "language": "Swift",
+      "url": "https://github.com/xweiba/location-spoofer",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.3"
+    },
+    "kirodotdev/KiroCrew": {
+      "full_name": "kirodotdev/KiroCrew",
+      "description": "A persistent workspace for development work that self-improves and continues beyond one session.",
+      "language": "Python",
+      "url": "https://github.com/kirodotdev/KiroCrew",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agents",
+        "ai-agent",
+        "ai-agents",
+        "automation",
+        "devtools",
+        "kiro",
+        "llm"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.3"
+    },
+    "Appllama/top-welcome-screens": {
+      "full_name": "Appllama/top-welcome-screens",
+      "description": "How top iOS apps say hello | 10 animated welcome screens inspired by top-earning apps. Rebuilt in React Native + Expo.",
+      "language": "TypeScript",
+      "url": "https://github.com/Appllama/top-welcome-screens",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [
+        "design",
+        "design-patterns",
+        "expo",
+        "ios",
+        "ios-app",
+        "motion",
+        "react",
+        "react-native",
+        "uiux-design"
+      ],
+      "category": "Mobile",
+      "version": null
     }
   }
 }

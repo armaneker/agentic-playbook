@@ -29268,6 +29268,91 @@
       "topics": [],
       "category": "Other",
       "version": "v4.0.1"
+    },
+    "Larryvrh/ComfyUI-MiniMax-H3-Turbo": {
+      "full_name": "Larryvrh/ComfyUI-MiniMax-H3-Turbo",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Larryvrh/ComfyUI-MiniMax-H3-Turbo",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Sateezg/codex-bridge": {
+      "full_name": "Sateezg/codex-bridge",
+      "description": "Image generation (gpt-image-2) and GPT-5 subagents for Claude Code — through the Codex CLI login you already have. No OpenAI API key.",
+      "language": "Shell",
+      "url": "https://github.com/Sateezg/codex-bridge",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "gpt-5",
+        "gpt-image-2",
+        "image-generation",
+        "openai"
+      ],
+      "category": "Agentic",
+      "version": "v1.1.2"
+    },
+    "elder-plinius/GL4SS": {
+      "full_name": "elder-plinius/GL4SS",
+      "description": "the looking glass — spatiotemporal image + video engine",
+      "language": "TypeScript",
+      "url": "https://github.com/elder-plinius/GL4SS",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "freestylefly/wesight-obsidian": {
+      "full_name": "freestylefly/wesight-obsidian",
+      "description": "WeSight Obsidian plugin for local agent runtimes.",
+      "language": "TypeScript",
+      "url": "https://github.com/freestylefly/wesight-obsidian",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.9.1"
+    },
+    "shuaiplus/inkstone": {
+      "full_name": "shuaiplus/inkstone",
+      "description": "A self-hosted Markdown notebook that runs entirely on Cloudflare Workers.",
+      "language": "TypeScript",
+      "url": "https://github.com/shuaiplus/inkstone",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [
+        "backlinks",
+        "cloudflare-d1",
+        "cloudflare-durable-objects",
+        "cloudflare-kv",
+        "cloudflare-r2",
+        "cloudflare-workers",
+        "codemirror",
+        "hono",
+        "knowledge-base",
+        "markdown",
+        "markdown-editor",
+        "note-taking",
+        "note-taking-app",
+        "offline-first",
+        "personal-knowledge-management",
+        "react",
+        "self-hosted",
+        "typescript",
+        "webdav",
+        "wikilinks"
+      ],
+      "category": "Web Framework",
+      "version": "v0.5.0"
     }
   }
 }

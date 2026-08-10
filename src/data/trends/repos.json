@@ -29439,6 +29439,28 @@
       ],
       "category": "Mobile",
       "version": null
+    },
+    "SMNETSTUDIO/WeChat-AI": {
+      "full_name": "SMNETSTUDIO/WeChat-AI",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "QwenLM/Qwen-MM-Plugins": {
+      "full_name": "QwenLM/Qwen-MM-Plugins",
+      "description": "Make any agent harness multimodal-native.",
+      "language": "Python",
+      "url": "https://github.com/QwenLM/Qwen-MM-Plugins",
+      "first_seen": "2026-08-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

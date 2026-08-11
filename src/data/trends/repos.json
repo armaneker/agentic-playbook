@@ -29479,6 +29479,105 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "mewamew/my_ai_town": {
+      "full_name": "mewamew/my_ai_town",
+      "description": "我的AI小镇",
+      "language": "GDScript",
+      "url": "https://github.com/mewamew/my_ai_town",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "s010s/prehistoric-animal-museum": {
+      "full_name": "s010s/prehistoric-animal-museum",
+      "description": "A calm, parent-and-child 3D prehistoric animal museum.",
+      "language": "TypeScript",
+      "url": "https://github.com/s010s/prehistoric-animal-museum",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jmarshall23/Quake_4_Alpha": {
+      "full_name": "jmarshall23/Quake_4_Alpha",
+      "description": "Quake 4 alpha released for preservation purposes only. ",
+      "language": "C++",
+      "url": "https://github.com/jmarshall23/Quake_4_Alpha",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "NikoDemon80/ComfyUI-H3-Motion-Context": {
+      "full_name": "NikoDemon80/ComfyUI-H3-Motion-Context",
+      "description": "Clip chaining for MiniMax H3 in ComfyUI - motion and audio genuinely continue across joins",
+      "language": "Python",
+      "url": "https://github.com/NikoDemon80/ComfyUI-H3-Motion-Context",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [
+        "comfyui",
+        "comfyui-nodes",
+        "minimax",
+        "video-generation"
+      ],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "oil-oil/codex-deepseek-subagent": {
+      "full_name": "oil-oil/codex-deepseek-subagent",
+      "description": "Configure DeepSeek as a native Codex subagent with automated setup and verified routing.",
+      "language": "Python",
+      "url": "https://github.com/oil-oil/codex-deepseek-subagent",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "tanishqkancharla/calldiff": {
+      "full_name": "tanishqkancharla/calldiff",
+      "description": "Diffs for function call stacks across git commits. 22 languages supported (AST-based, built using Tree-sitter). Great for agentic review.",
+      "language": "TypeScript",
+      "url": "https://github.com/tanishqkancharla/calldiff",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "waiterve/wai-play": {
+      "full_name": "waiterve/wai-play",
+      "description": "WAI Play - AI web game testing and quality evaluation platform",
+      "language": "Python",
+      "url": "https://github.com/waiterve/wai-play",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "game",
+        "game-testing",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "531149627/MonsterDeleter": {
+      "full_name": "531149627/MonsterDeleter",
+      "description": "召唤一个大将怪兽帮你删除文件的桌面宠物",
+      "language": "Python",
+      "url": "https://github.com/531149627/MonsterDeleter",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
     }
   }
 }

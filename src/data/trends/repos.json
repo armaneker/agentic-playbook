@@ -29645,6 +29645,50 @@
       ],
       "category": "Other",
       "version": "v1.0.0"
+    },
+    "pathwaycom/arc-task-gen": {
+      "full_name": "pathwaycom/arc-task-gen",
+      "description": "Generates original ARC-AGI-1-style tasks distribution-matched to the public eval set.",
+      "language": "Python",
+      "url": "https://github.com/pathwaycom/arc-task-gen",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Flaminis/Dalaran": {
+      "full_name": "Flaminis/Dalaran",
+      "description": "Dalaran — Apache-2.0, robotics-first visualization and data infrastructure for multimodal time-series. ROS 2 native, reads existing .rrd recordings. A hard fork of Rerun.",
+      "language": "Rust",
+      "url": "https://github.com/Flaminis/Dalaran",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [
+        "apache2",
+        "computer-vision",
+        "lidar",
+        "pointcloud",
+        "python",
+        "robotics",
+        "ros2",
+        "rust",
+        "time-series",
+        "visualization"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "gvzdv/claudish-to-english": {
+      "full_name": "gvzdv/claudish-to-english",
+      "description": "",
+      "language": "Shell",
+      "url": "https://github.com/gvzdv/claudish-to-english",
+      "first_seen": "2026-08-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "assets"
     }
   }
 }

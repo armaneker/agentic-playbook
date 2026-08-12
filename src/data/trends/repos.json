@@ -1261,19 +1261,27 @@
     },
     "DigitalPlatDev/FreeDomain": {
       "full_name": "DigitalPlatDev/FreeDomain",
-      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
-      "language": "HTML",
+      "description": "Free domain registration and practical DNS learning resources for everyone.",
+      "language": "Markdown",
       "url": "https://github.com/DigitalPlatDev/FreeDomain",
       "first_seen": "2026-03-22",
       "has_summary": true,
       "topics": [
         "digitalplat",
+        "dns",
+        "dns-tutorial",
+        "documentation",
         "domain",
         "domain-platform",
+        "domain-registration",
         "domainname",
         "domains",
+        "education",
         "free",
-        "freedomain"
+        "free-domain",
+        "freedomain",
+        "internet-infrastructure",
+        "nameserver"
       ],
       "category": "Other",
       "blurb": "DigitalPlat FreeDomain is a free domain registration service offering subdomains under extensions like .DPDNS.ORG and .US.KG. It provides free domain names to remove cost barriers for individuals and organizations wanting to establish a web presence, with users managing DNS through providers like Cloudflare. The service has registered over 400,000 domains and started as a personal DNS experiment by a 15-year-old."
@@ -8930,15 +8938,12 @@
         "chatgpt",
         "claude",
         "claude-code",
-        "clawdbot",
         "codex",
         "hermes",
         "hermes-agent",
         "llm",
-        "moltbot",
         "nous-research",
-        "openai",
-        "openclaw"
+        "openai"
       ],
       "category": "Agentic",
       "version": "v2026.4.23"
@@ -29838,6 +29843,75 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
+      "version": null
+    },
+    "guillaumemeyer/watermarks-remover": {
+      "full_name": "guillaumemeyer/watermarks-remover",
+      "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "language": "Python",
+      "url": "https://github.com/guillaumemeyer/watermarks-remover",
+      "first_seen": "2026-08-12",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "ai",
+        "c2pa",
+        "claude",
+        "provenance",
+        "synthid",
+        "watermark"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.0"
+    },
+    "milind-soni/OpenMausBot": {
+      "full_name": "milind-soni/OpenMausBot",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/milind-soni/OpenMausBot",
+      "first_seen": "2026-08-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LaoFeng-mouse/flyingmouse-format": {
+      "full_name": "LaoFeng-mouse/flyingmouse-format",
+      "description": "飞鼠格式 FlyingMouse Format - Windows 万能文件格式转换工具（离线可用，内置 FFmpeg/LibreOffice/Poppler/Tesseract）。图片/文档/表格/PPT/PDF/音视频/WPS 格式互转 + OCR + 批量转换",
+      "language": "JavaScript",
+      "url": "https://github.com/LaoFeng-mouse/flyingmouse-format",
+      "first_seen": "2026-08-12",
+      "has_summary": false,
+      "topics": [
+        "desktop-app",
+        "electron",
+        "ffmpeg",
+        "file-converter",
+        "format-converter",
+        "libreoffice",
+        "ocr",
+        "pdf",
+        "windows",
+        "wps"
+      ],
+      "category": "Other",
+      "version": "v0.3.8"
+    },
+    "ayi-ai/nie-grassroots-logic": {
+      "full_name": "ayi-ai/nie-grassroots-logic",
+      "description": "聂·基层运行逻辑 · Agent Skill：基于聂辉华《基层中国的运行逻辑》的方法论工具箱（不含原书全文）",
+      "language": "HTML",
+      "url": "https://github.com/ayi-ai/nie-grassroots-logic",
+      "first_seen": "2026-08-12",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "china",
+        "cursor-skills",
+        "governance",
+        "methodology"
+      ],
+      "category": "Other",
       "version": null
     }
   }

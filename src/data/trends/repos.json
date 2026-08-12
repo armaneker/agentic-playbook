@@ -29817,6 +29817,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "jmarshall23/msword": {
+      "full_name": "jmarshall23/msword",
+      "description": "Port of Microsoft Word 1.1a to x64 with extra features for research purposes.",
+      "language": "C",
+      "url": "https://github.com/jmarshall23/msword",
+      "first_seen": "2026-08-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AML-memory/agent-memory-leaderboard": {
+      "full_name": "AML-memory/agent-memory-leaderboard",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/AML-memory/agent-memory-leaderboard",
+      "first_seen": "2026-08-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

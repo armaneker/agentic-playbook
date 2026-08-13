@@ -29277,7 +29277,7 @@
     },
     "eternityspring/shuohao-skills": {
       "full_name": "eternityspring/shuohao-skills",
-      "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays, storyboards. Runs in Claude Code & codex.",
+      "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays. Runs in Claude Code & codex.",
       "language": "JavaScript",
       "url": "https://github.com/eternityspring/shuohao-skills",
       "first_seen": "2026-08-09",
@@ -29471,7 +29471,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.12.0"
     },
     "QwenLM/Qwen-MM-Plugins": {
       "full_name": "QwenLM/Qwen-MM-Plugins",
@@ -30010,6 +30010,35 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "i3T4AN/KADATH": {
+      "full_name": "i3T4AN/KADATH",
+      "description": "Evolutionary multi-agent runtime that breeds, evaluates, and improves autonomous agents across reproducible epochs to converge on optimization of a goal.",
+      "language": "Python",
+      "url": "https://github.com/i3T4AN/KADATH",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [
+        "agent-evaluation-tools",
+        "agent-framework",
+        "agent-swarms",
+        "agentic-ai",
+        "agents",
+        "ai",
+        "ai-agents",
+        "autonomous-agents",
+        "evolutionary-algorithms",
+        "generative-ai",
+        "genetic-algorithm",
+        "llm",
+        "llm-agents",
+        "llm-evaluation",
+        "multi-agent",
+        "multi-agent-systems",
+        "self-evolving-agents"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

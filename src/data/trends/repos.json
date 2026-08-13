@@ -27855,13 +27855,18 @@
     },
     "yc-software/qm": {
       "full_name": "yc-software/qm",
-      "description": "Multiplayer agent harness for work",
+      "description": "Multiplayer agent harness for work. https://qm.ycombinator.com",
       "language": "TypeScript",
       "url": "https://github.com/yc-software/qm",
       "first_seen": "2026-07-31",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "assistant",
+        "harness",
+        "qm"
+      ],
+      "category": "AI / ML",
       "version": "v0.1.4"
     },
     "0xwilliamortiz/ratchet": {
@@ -29272,7 +29277,7 @@
     },
     "eternityspring/shuohao-skills": {
       "full_name": "eternityspring/shuohao-skills",
-      "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays. Runs in Claude Code & codex.",
+      "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays, storyboards. Runs in Claude Code & codex.",
       "language": "JavaScript",
       "url": "https://github.com/eternityspring/shuohao-skills",
       "first_seen": "2026-08-09",
@@ -29942,6 +29947,33 @@
       "language": "Python",
       "url": "https://github.com/liangnjupt/VisTouch",
       "first_seen": "2026-08-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "dmmulroy/anti-slop": {
+      "full_name": "dmmulroy/anti-slop",
+      "description": "Opinionated Oxlint rules for rejecting low-evidence TypeScript and JavaScript patterns",
+      "language": "TypeScript",
+      "url": "https://github.com/dmmulroy/anti-slop",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "linting",
+        "oxlint",
+        "typescript"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "IAmIronMan42/MiniMax-H3-FineTuning": {
+      "full_name": "IAmIronMan42/MiniMax-H3-FineTuning",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/IAmIronMan42/MiniMax-H3-FineTuning",
+      "first_seen": "2026-08-13",
       "has_summary": false,
       "topics": [],
       "category": "Other",

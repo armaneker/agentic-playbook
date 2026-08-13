@@ -29978,6 +29978,39 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "keslr/keslr_connect": {
+      "full_name": "keslr/keslr_connect",
+      "description": "Connect your service to Keslr: sign in with Keslr and read the verification claim that proves a user is a real, vouched-for human — plus run services reachable only by Keslr members.",
+      "language": "TypeScript",
+      "url": "https://github.com/keslr/keslr_connect",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Hisn00w/ASu-skills": {
+      "full_name": "Hisn00w/ASu-skills",
+      "description": "简历包装",
+      "language": "HTML",
+      "url": "https://github.com/Hisn00w/ASu-skills",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "FrontisAI/OpenRSI": {
+      "full_name": "FrontisAI/OpenRSI",
+      "description": "Executable, measurable, and reproducible AI4AI toward recursive self-improvement. Home of OpenMLE and Frontis-MA1.",
+      "language": "Python",
+      "url": "https://github.com/FrontisAI/OpenRSI",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

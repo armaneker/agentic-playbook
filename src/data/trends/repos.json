@@ -27855,7 +27855,7 @@
     },
     "yc-software/qm": {
       "full_name": "yc-software/qm",
-      "description": "Multiplayer agent harness for work. https://qm.ycombinator.com",
+      "description": "Multiplayer agent harness for work.",
       "language": "TypeScript",
       "url": "https://github.com/yc-software/qm",
       "first_seen": "2026-07-31",
@@ -28859,24 +28859,29 @@
     },
     "criptogus/HermesOffice": {
       "full_name": "criptogus/HermesOffice",
-      "description": "HermesOffice — AI-native office suite forked from GenOffice (Apache-2.0), with native Hermes Agent AI",
+      "description": "AI-native office suite (Docs, Sheets, Slides, PDF) where the Hermes Agent is the brain — open standards, byte-preserving round-trip, 100% local.",
       "language": "TypeScript",
       "url": "https://github.com/criptogus/HermesOffice",
       "first_seen": "2026-08-07",
       "has_summary": false,
       "topics": [
+        "agent",
         "ai-native",
         "docx",
         "electron",
-        "fork",
-        "genoffice",
         "hermes",
-        "macos",
+        "local-first",
+        "mcp",
         "office-suite",
         "open-source",
-        "pptx"
+        "pdf",
+        "pptx",
+        "react",
+        "typescript",
+        "univer",
+        "xlsx"
       ],
-      "category": "Other",
+      "category": "Agentic",
       "version": null
     },
     "TanStack/charts": {
@@ -29060,6 +29065,7 @@
         "codex",
         "computer-use",
         "deepseek",
+        "dsh-plugin",
         "glm",
         "harness-engineering",
         "kimi",
@@ -30039,6 +30045,91 @@
         "self-evolving-agents"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "deepseek-ai/deepseek-harness": {
+      "full_name": "deepseek-ai/deepseek-harness",
+      "description": "DeepSeek Harness: Everything is a Plugin.",
+      "language": "TypeScript",
+      "url": "https://github.com/deepseek-ai/deepseek-harness",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [
+        "cordis",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Leutenegger/book-to-skill": {
+      "full_name": "Leutenegger/book-to-skill",
+      "description": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+      "language": "Python",
+      "url": "https://github.com/Leutenegger/book-to-skill",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-memory",
+        "agent-skill",
+        "agent-skills",
+        "agentic",
+        "agentic-ai",
+        "agents",
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "github-copilot",
+        "pdf",
+        "pdf-document",
+        "pdf-generation",
+        "pdf-parser",
+        "pdf-tools",
+        "pdf-viewer",
+        "skill-generator"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "cordiverse/paper": {
+      "full_name": "cordiverse/paper",
+      "description": "A Programming Paradigm for Spatiotemporal Composability",
+      "language": "Unknown",
+      "url": "https://github.com/cordiverse/paper",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xoreaxeaxeax/skitter-creek-bath-salts": {
+      "full_name": "xoreaxeaxeax/skitter-creek-bath-salts",
+      "description": "Unlocking _everything_ on the CPU with DRAM scrambling",
+      "language": "C",
+      "url": "https://github.com/xoreaxeaxeax/skitter-creek-bath-salts",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zhu1090093659/dsh-web-ui": {
+      "full_name": "zhu1090093659/dsh-web-ui",
+      "description": "Plugin and skin collection for DeepSeek Harness (DSH) Web UI - task board, git graph, right-side panel, remote mobile UI, pet, live token stats, and skin center.",
+      "language": "TypeScript",
+      "url": "https://github.com/zhu1090093659/dsh-web-ui",
+      "first_seen": "2026-08-13",
+      "has_summary": false,
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "web-ui"
+      ],
+      "category": "Other",
       "version": null
     }
   }

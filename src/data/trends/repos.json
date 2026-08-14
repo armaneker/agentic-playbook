@@ -28263,7 +28263,11 @@
       "url": "https://github.com/imsai-sh/zhuzhiliao",
       "first_seen": "2026-08-03",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ],
       "category": "Other",
       "version": null
     },
@@ -29062,15 +29066,12 @@
         "agent",
         "agent-skills",
         "claude-code",
-        "cli",
         "codex",
         "computer-use",
         "deepseek",
         "dsh-plugin",
         "glm",
         "harness-engineering",
-        "kimi",
-        "llm",
         "multimodal",
         "opencode",
         "text-only-llm",
@@ -30056,11 +30057,12 @@
       "first_seen": "2026-08-13",
       "has_summary": false,
       "topics": [
+        "ai-agents",
         "cordis",
         "dsh",
         "dsh-plugin"
       ],
-      "category": "Other",
+      "category": "Agentic",
       "version": null
     },
     "Leutenegger/book-to-skill": {
@@ -30176,7 +30178,7 @@
         "tui"
       ],
       "category": "Web Framework",
-      "version": null
+      "version": "v0.4.1"
     },
     "omdsh-dev/DSH-better-sidebar": {
       "full_name": "omdsh-dev/DSH-better-sidebar",
@@ -30189,11 +30191,71 @@
         "deepseek",
         "deepseek-harness",
         "dsh",
+        "dsh-better-sidebar",
         "dsh-plugin",
         "sidebar"
       ],
       "category": "Other",
       "version": "v0.10.3"
+    },
+    "anywhere-labs/deepseek-harness-desktop": {
+      "full_name": "anywhere-labs/deepseek-harness-desktop",
+      "description": "为DeepSeek Harness生态打造的现代化桌面端体验（插件）",
+      "language": "TypeScript",
+      "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
+      "first_seen": "2026-08-14",
+      "has_summary": false,
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin"
+      ],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "awesome-dsh-plugin/awesome-dsh-plugin": {
+      "full_name": "awesome-dsh-plugin/awesome-dsh-plugin",
+      "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
+      "language": "HTML",
+      "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+      "first_seen": "2026-08-14",
+      "has_summary": false,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Small-tailqwq/dsh-deep-whale": {
+      "full_name": "Small-tailqwq/dsh-deep-whale",
+      "description": "DSH Web 鲸鱼娘皮肤系列(深海女仆工坊 maid-atelier)——CC BY-NC-SA 4.0",
+      "language": "TypeScript",
+      "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
+      "first_seen": "2026-08-14",
+      "has_summary": false,
+      "topics": [
+        "dsh",
+        "dsh-plugin"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "AdamPlatin123/awesome-dsh-plugins": {
+      "full_name": "AdamPlatin123/awesome-dsh-plugins",
+      "description": "前部索引仓库（Radar）：自动扫描发现的所有 dsh 插件候选；经测试合格的将移入后序精选目录仓库",
+      "language": "Python",
+      "url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
+      "first_seen": "2026-08-14",
+      "has_summary": false,
+      "topics": [
+        "dsh-plugin"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

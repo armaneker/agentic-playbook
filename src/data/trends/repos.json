@@ -28835,6 +28835,7 @@
         "codex-desktop",
         "codex-plugin",
         "cua",
+        "deepseek-harness",
         "gui",
         "harness",
         "long-horizon",
@@ -30130,7 +30131,7 @@
         "web-ui"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.1.10"
     },
     "shadcn-labs/pdfcn": {
       "full_name": "shadcn-labs/pdfcn",
@@ -30155,6 +30156,44 @@
       ],
       "category": "Web Framework",
       "version": null
+    },
+    "ccch1mneyyy/dsh-TUI": {
+      "full_name": "ccch1mneyyy/dsh-TUI",
+      "description": "解决DSH 官方尚无终端 TUI 痛点的补位之作，献给偏爱cli的各位极客：Claude Code 风格全屏交互终端插件——像素鲸鱼顶栏、实时工作状态行、思考流式展开、双击 Esc 回滚、上下文进度条 + TPS 仪表。npm 一键安装。",
+      "language": "TypeScript",
+      "url": "https://github.com/ccch1mneyyy/dsh-TUI",
+      "first_seen": "2026-08-14",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "ink",
+        "react",
+        "terminal",
+        "tui"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "omdsh-dev/DSH-better-sidebar": {
+      "full_name": "omdsh-dev/DSH-better-sidebar",
+      "description": "一个侧边栏的完整工作台，支持三方拓展注册新Tab页面，内置文件渲染编辑/终端/Git/子代理",
+      "language": "TypeScript",
+      "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
+      "first_seen": "2026-08-14",
+      "has_summary": false,
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "sidebar"
+      ],
+      "category": "Other",
+      "version": "v0.10.3"
     }
   }
 }

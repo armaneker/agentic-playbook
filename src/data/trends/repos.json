@@ -30182,7 +30182,7 @@
     },
     "omdsh-dev/DSH-better-sidebar": {
       "full_name": "omdsh-dev/DSH-better-sidebar",
-      "description": "一个侧边栏的完整工作台，支持三方拓展注册新Tab页面，内置文件渲染编辑/终端/Git/子代理",
+      "description": "一个侧边栏的完整工作台，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理",
       "language": "TypeScript",
       "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
       "first_seen": "2026-08-14",
@@ -30200,7 +30200,7 @@
     },
     "anywhere-labs/deepseek-harness-desktop": {
       "full_name": "anywhere-labs/deepseek-harness-desktop",
-      "description": "为DeepSeek Harness生态打造的现代化桌面端体验（插件）",
+      "description": "为 DeepSeek Harness (DSH) 生态打造的现代化桌面端体验",
       "language": "TypeScript",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
       "first_seen": "2026-08-14",
@@ -30208,7 +30208,10 @@
       "topics": [
         "deepseek",
         "deepseek-harness",
-        "dsh-plugin"
+        "desktop",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-desktop"
       ],
       "category": "Other",
       "version": "v0.1.0"
@@ -30216,7 +30219,7 @@
     "awesome-dsh-plugin/awesome-dsh-plugin": {
       "full_name": "awesome-dsh-plugin/awesome-dsh-plugin",
       "description": "A curated list of plugins for DeepSeek Harness (dsh) · DeepSeek Harness 插件精选列表",
-      "language": "HTML",
+      "language": "Python",
       "url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
       "first_seen": "2026-08-14",
       "has_summary": false,
@@ -30254,6 +30257,17 @@
       "topics": [
         "dsh-plugin"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "alchaincyf/deepseek-harness-orange-book": {
+      "full_name": "alchaincyf/deepseek-harness-orange-book",
+      "description": "DeepSeek Harness橙皮书《从开机到拆开》：完整系统提示词、129行启动清单、三份原始会话日志——官方文档没有的一手实测。PDF/EPUB/HTML免费下载",
+      "language": "HTML",
+      "url": "https://github.com/alchaincyf/deepseek-harness-orange-book",
+      "first_seen": "2026-08-14",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

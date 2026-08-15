@@ -30270,6 +30270,105 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "vercel-labs/eve-software-factory-template": {
+      "full_name": "vercel-labs/eve-software-factory-template",
+      "description": "Meet Foreman, an eve Software Factory.",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/eve-software-factory-template",
+      "first_seen": "2026-08-15",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "eve",
+        "vercel"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "DrHazemAli/enterprise-system-design": {
+      "full_name": "DrHazemAli/enterprise-system-design",
+      "description": "A source-grounded course & reference for engineers designing systems that must survive real traffic, partial failure, security review, and changing requirements, spanning enterprise system design, distributed systems, AI systems, cybersecurity, reliability, cloud, HPC, edge, and mission-critical infrastructure.",
+      "language": "Unknown",
+      "url": "https://github.com/DrHazemAli/enterprise-system-design",
+      "first_seen": "2026-08-15",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-governance",
+        "ai-security",
+        "ai-systems",
+        "cloud-architecture",
+        "cloud-infrastructure",
+        "cybersecurity",
+        "distributed-computing",
+        "distributed-systems",
+        "engineering",
+        "enterprise-architecture",
+        "enterprise-systems",
+        "hpc",
+        "mission-critical",
+        "realibility",
+        "sovereign-systems",
+        "system-design",
+        "well-architected",
+        "well-architected-framework",
+        "zero-trust"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "elie222/rakazo": {
+      "full_name": "elie222/rakazo",
+      "description": "Open-source Grok Bot alternative. Choose your own model and sandbox.",
+      "language": "TypeScript",
+      "url": "https://github.com/elie222/rakazo",
+      "first_seen": "2026-08-15",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "docker",
+        "electron",
+        "expo",
+        "grok",
+        "llm",
+        "self-hosted",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "0xsline/awesome-deepseek-harness": {
+      "full_name": "0xsline/awesome-deepseek-harness",
+      "description": "DeepSeek Harness (DSH) ecosystem: curated plugins, tools, and infrastructure from dsh-external/hub and the public dsh-plugin topic.",
+      "language": "Python",
+      "url": "https://github.com/0xsline/awesome-deepseek-harness",
+      "first_seen": "2026-08-15",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "ai-tools",
+        "awesome",
+        "awesome-list",
+        "coding-assistant",
+        "curated-list",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "harness",
+        "llm",
+        "mcp",
+        "plugins"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

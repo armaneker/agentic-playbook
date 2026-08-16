@@ -30395,7 +30395,36 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": "v0.1.0"
+    },
+    "NousResearch/Hermes-Bot-Mode": {
+      "full_name": "NousResearch/Hermes-Bot-Mode",
+      "description": "Bot Mode for the Hermes desktop: a roster of named agents with their own chats, avatars, routines, and bot-to-bot messaging. Desktop plugin, no core patches.",
+      "language": "JavaScript",
+      "url": "https://github.com/NousResearch/Hermes-Bot-Mode",
+      "first_seen": "2026-08-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
+    },
+    "alexgreensh/attention-span": {
+      "full_name": "alexgreensh/attention-span",
+      "description": "Make your agents talk human. ADHD-friendly output styles for Claude Code. So you can pay attention, not tokens.",
+      "language": "Python",
+      "url": "https://github.com/alexgreensh/attention-span",
+      "first_seen": "2026-08-16",
+      "has_summary": false,
+      "topics": [
+        "adhd-friendly",
+        "claude-code",
+        "eli5",
+        "explainability",
+        "explainable-ai",
+        "output-style"
+      ],
+      "category": "Other",
+      "version": "0.6"
     }
   }
 }

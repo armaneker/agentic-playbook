@@ -49,7 +49,7 @@
     },
     "vinta/awesome-python": {
       "full_name": "vinta/awesome-python",
-      "description": "An opinionated list of Python frameworks, libraries, tools, and resources",
+      "description": "The definitive list that answers \"I want to do X in Python, which tool should I use?\"",
       "language": "Python",
       "url": "https://github.com/vinta/awesome-python",
       "first_seen": "2026-03-22",
@@ -29879,7 +29879,7 @@
     },
     "milind-soni/OpenMausBot": {
       "full_name": "milind-soni/OpenMausBot",
-      "description": "",
+      "description": "Open Source Alternative to Grok Bot with a virtual machine that bots can use",
       "language": "TypeScript",
       "url": "https://github.com/milind-soni/OpenMausBot",
       "first_seen": "2026-08-12",
@@ -30182,7 +30182,7 @@
     },
     "omdsh-dev/DSH-better-sidebar": {
       "full_name": "omdsh-dev/DSH-better-sidebar",
-      "description": "一个侧边栏的完整工作台，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理",
+      "description": "开放的侧边栏底座，支持三方拓展注册新侧边栏页面。内置文件渲染编辑/终端/Git/子代理页面",
       "language": "TypeScript",
       "url": "https://github.com/omdsh-dev/DSH-better-sidebar",
       "first_seen": "2026-08-14",
@@ -30425,6 +30425,35 @@
       ],
       "category": "Other",
       "version": "0.6"
+    },
+    "Anionex/dsh-vision-toolkit": {
+      "full_name": "Anionex/dsh-vision-toolkit",
+      "description": "让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
+      "language": "TypeScript",
+      "url": "https://github.com/Anionex/dsh-vision-toolkit",
+      "first_seen": "2026-08-16",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "agent-vision-toolkit",
+        "computer-vision",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "gui-automation",
+        "ocr",
+        "plugin",
+        "python",
+        "screenshot-testing",
+        "text-only-llm",
+        "typescript",
+        "ui-restoration",
+        "vision-language-model",
+        "vision-tools"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.9"
     }
   }
 }

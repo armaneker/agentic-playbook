@@ -30454,6 +30454,39 @@
       ],
       "category": "AI / ML",
       "version": "v0.1.9"
+    },
+    "dsh-market/dsh-market": {
+      "full_name": "dsh-market/dsh-market",
+      "description": "The plugin market inside DeepSeek Harness — browse, search, one-click install · DSH 可视化插件市场",
+      "language": "TypeScript",
+      "url": "https://github.com/dsh-market/dsh-market",
+      "first_seen": "2026-08-16",
+      "has_summary": false,
+      "topics": [
+        "deepseek-harness",
+        "dsh-plugin",
+        "marketplace"
+      ],
+      "category": "Other",
+      "version": "v1.10.1"
+    },
+    "zouyuxuan122/Deepseek-Harness-EAC": {
+      "full_name": "zouyuxuan122/Deepseek-Harness-EAC",
+      "description": "DeepSeek Harness (dsh) Windows / Linux desktop client - bundled Node.js + dsh CLI, one-click launch, 10 built-in UI skins. EAC: Embracing All Creation 揽尽万象",
+      "language": "JavaScript",
+      "url": "https://github.com/zouyuxuan122/Deepseek-Harness-EAC",
+      "first_seen": "2026-08-16",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "deepseek",
+        "desktop-app",
+        "dsh",
+        "electron",
+        "windows"
+      ],
+      "category": "Agentic",
+      "version": "v3.0.1"
     }
   }
 }

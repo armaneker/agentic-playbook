@@ -29241,7 +29241,7 @@
         "developer-tools"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "0.1.0"
     },
     "OpenMouse-Project/openmouse": {
       "full_name": "OpenMouse-Project/openmouse",
@@ -30430,7 +30430,7 @@
     },
     "Anionex/dsh-vision-toolkit": {
       "full_name": "Anionex/dsh-vision-toolkit",
-      "description": "让纯文本模型更好地做视觉任务的DeepSeek Harness插件：带意图的图片问答、长截图 OCR、UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
+      "description": "[dsh]为纯文本模型设计更强大的视觉工具箱：安装免费使用、粘贴图片直接识别、多张图片问答、截图到前端UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
       "language": "TypeScript",
       "url": "https://github.com/Anionex/dsh-vision-toolkit",
       "first_seen": "2026-08-16",
@@ -30538,6 +30538,34 @@
       ],
       "category": "Agentic",
       "version": "v0.2.0"
+    },
+    "yetone/cumora": {
+      "full_name": "yetone/cumora",
+      "description": "Where agent teams gather. Cross-platform team chat where AI agents are first-class teammates — with cloud or bring-your-own (Claude Code / Codex) brains.",
+      "language": "TypeScript",
+      "url": "https://github.com/yetone/cumora",
+      "first_seen": "2026-08-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ysr666/dsh-vision-router": {
+      "full_name": "ysr666/dsh-vision-router",
+      "description": "Eyes for text-only DeepSeek Harness agents: built-in free vision chain (no key) + pixel-level vision tools (Q&A, grounding, crop, pixel diff, colors, OCR, SVG trace, cutout, screenshots). One-command install, no Python, image turns work like ordinary tool-calling turns.",
+      "language": "JavaScript",
+      "url": "https://github.com/ysr666/dsh-vision-router",
+      "first_seen": "2026-08-17",
+      "has_summary": false,
+      "topics": [
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "multimodal",
+        "vision"
+      ],
+      "category": "Other",
+      "version": "v1.5.3"
     }
   }
 }

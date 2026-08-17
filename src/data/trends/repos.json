@@ -30487,6 +30487,39 @@
       ],
       "category": "Agentic",
       "version": "v3.0.1"
+    },
+    "ZSvirt/zsvirt": {
+      "full_name": "ZSvirt/zsvirt",
+      "description": "Core IaaS engine and cloud infrastructure foundation of ZSvirt",
+      "language": "Java",
+      "url": "https://github.com/ZSvirt/zsvirt",
+      "first_seen": "2026-08-17",
+      "has_summary": false,
+      "topics": [
+        "cloud-native",
+        "hypervisor",
+        "infrastructure",
+        "kvm",
+        "proxmox",
+        "virtual-machine",
+        "virtualization",
+        "vm",
+        "vmware-labs",
+        "vsphere"
+      ],
+      "category": "Infra",
+      "version": null
+    },
+    "xinxinshuhao-create/grok-register": {
+      "full_name": "xinxinshuhao-create/grok-register",
+      "description": "Automated account registration toolkit for x.ai (Grok) with SSO extraction, OAuth Device Flow, and auto-replenish daemon",
+      "language": "Python",
+      "url": "https://github.com/xinxinshuhao-create/grok-register",
+      "first_seen": "2026-08-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

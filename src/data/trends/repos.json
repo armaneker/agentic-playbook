@@ -30200,12 +30200,14 @@
     },
     "anywhere-labs/deepseek-harness-desktop": {
       "full_name": "anywhere-labs/deepseek-harness-desktop",
-      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案",
+      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
       "language": "TypeScript",
       "url": "https://github.com/anywhere-labs/deepseek-harness-desktop",
       "first_seen": "2026-08-14",
       "has_summary": false,
       "topics": [
+        "cordis",
+        "cordis-plugin",
         "deepseek",
         "deepseek-harness",
         "desktop",
@@ -30520,6 +30522,22 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "dataelement/dsh-desktop": {
+      "full_name": "dataelement/dsh-desktop",
+      "description": "Desktop app for DeepSeek Harness",
+      "language": "TypeScript",
+      "url": "https://github.com/dataelement/dsh-desktop",
+      "first_seen": "2026-08-17",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "desktop",
+        "dsh-plugins"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.0"
     }
   }
 }

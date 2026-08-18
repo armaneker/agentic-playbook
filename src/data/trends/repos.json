@@ -30251,7 +30251,7 @@
     },
     "AdamPlatin123/awesome-dsh-plugins": {
       "full_name": "AdamPlatin123/awesome-dsh-plugins",
-      "description": "前部索引仓库（Radar）：自动扫描发现的所有 dsh 插件候选；经测试合格的将移入后序精选目录仓库",
+      "description": "DSH 插件雷达与精选榜：多路自动发现 7600+ 候选，容器真实安装路径运行级实测（四档判定，883/1415 可用），精选 Top 50 · 11 类人工策展，全量索引 PLUGINS-ALL.md，自动更新。",
       "language": "Python",
       "url": "https://github.com/AdamPlatin123/awesome-dsh-plugins",
       "first_seen": "2026-08-14",
@@ -30566,6 +30566,17 @@
       ],
       "category": "Other",
       "version": "v1.5.3"
+    },
+    "gfodor/legal-skills": {
+      "full_name": "gfodor/legal-skills",
+      "description": "Replacing lawyers with markdown files",
+      "language": "Python",
+      "url": "https://github.com/gfodor/legal-skills",
+      "first_seen": "2026-08-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

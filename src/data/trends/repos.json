@@ -30771,6 +30771,26 @@
       ],
       "category": "Other",
       "version": "v0.6.1"
+    },
+    "wang2122/sprix-sage-router": {
+      "full_name": "wang2122/sprix-sage-router",
+      "description": "Sprix AI at 屿智同行 — state-aware SELF/COLLABORATE/HANDOFF routing for A2A agent networks.",
+      "language": "Python",
+      "url": "https://github.com/wang2122/sprix-sage-router",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "a2a",
+        "agent-orchestration",
+        "agent-routing",
+        "ai-agents",
+        "multi-agent-systems",
+        "python",
+        "sprix-ai",
+        "task-scheduling"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

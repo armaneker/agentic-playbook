@@ -30731,6 +30731,46 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "cinderline/northcinder": {
+      "full_name": "cinderline/northcinder",
+      "description": "Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
+      "language": "JavaScript",
+      "url": "https://github.com/cinderline/northcinder",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "agentic-commerce",
+        "human-in-the-loop",
+        "local-first",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "privacy",
+        "self-hosted",
+        "shopping-agent",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.2"
+    },
+    "hairyf/deepseek-harness-desktop": {
+      "full_name": "hairyf/deepseek-harness-desktop",
+      "description": "DeepSeek Harness Tauri 桌面版 | Only 5mb installer, zero environment setup, preset plugins, Windows / macOS / Linux.",
+      "language": "Rust",
+      "url": "https://github.com/hairyf/deepseek-harness-desktop",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "desktop",
+        "dsh",
+        "dsh-plugin",
+        "tauri"
+      ],
+      "category": "Other",
+      "version": "v0.6.1"
     }
   }
 }

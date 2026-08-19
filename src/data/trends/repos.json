@@ -29484,7 +29484,7 @@
     "QwenLM/Qwen-MM-Plugins": {
       "full_name": "QwenLM/Qwen-MM-Plugins",
       "description": "Make any agent harness multimodal-native.",
-      "language": "Python",
+      "language": "HTML",
       "url": "https://github.com/QwenLM/Qwen-MM-Plugins",
       "first_seen": "2026-08-10",
       "has_summary": false,
@@ -30596,6 +30596,141 @@
       ],
       "category": "Agentic",
       "version": "v1.0"
+    },
+    "jdshfhds/northcinder": {
+      "full_name": "jdshfhds/northcinder",
+      "description": "Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
+      "language": "JavaScript",
+      "url": "https://github.com/jdshfhds/northcinder",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.2"
+    },
+    "stanuwu/Sunrise": {
+      "full_name": "stanuwu/Sunrise",
+      "description": "Destiny 2 Offline Exploration Mod",
+      "language": "C++",
+      "url": "https://github.com/stanuwu/Sunrise",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.3.2"
+    },
+    "s1dashu/ip-as-logo-skill": {
+      "full_name": "s1dashu/ip-as-logo-skill",
+      "description": "A compact Agent Skill for highly simplified, rounded, subtly neo-skeuomorphic IP mascot logos.",
+      "language": "Unknown",
+      "url": "https://github.com/s1dashu/ip-as-logo-skill",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "codex",
+        "codex-skill",
+        "image-generation",
+        "logo-design",
+        "mascot-design"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "NanmiCoder/dsh-agent-teams": {
+      "full_name": "NanmiCoder/dsh-agent-teams",
+      "description": "AgentTeams plugin for DeepSeek Harness",
+      "language": "TypeScript",
+      "url": "https://github.com/NanmiCoder/dsh-agent-teams",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "agentteams",
+        "deepseekharness",
+        "dsh",
+        "dsh-agent-teams",
+        "dsh-plugin"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "browser-use/macos-harness": {
+      "full_name": "browser-use/macos-harness",
+      "description": "The simplest, thinnest harness that gives an LLM complete freedom to control a Mac.",
+      "language": "Python",
+      "url": "https://github.com/browser-use/macos-harness",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "agent",
+        "automation",
+        "cdp",
+        "computer-use",
+        "macos",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.2"
+    },
+    "KiaBush/Persian-IPA-to-Speech-F5": {
+      "full_name": "KiaBush/Persian-IPA-to-Speech-F5",
+      "description": "Simple Python API for Persian IPA-to-speech with F5-TTS",
+      "language": "Python",
+      "url": "https://github.com/KiaBush/Persian-IPA-to-Speech-F5",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "SigmanticAI/apex-inference-chip": {
+      "full_name": "SigmanticAI/apex-inference-chip",
+      "description": "An inference chip design that runs a real LLM (Qwen2.5-0.5B) on FPGA — one transformer decoder layer in RTL, every silicon value bit-exact against a golden model. 0.56 tok/s measured, a 140× climb, full evidence trail.",
+      "language": "Python",
+      "url": "https://github.com/SigmanticAI/apex-inference-chip",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "JayJokerr/arknights-pixel-autofill": {
+      "full_name": "JayJokerr/arknights-pixel-autofill",
+      "description": "明日方舟 24×24 像素画转换、手动编辑与自动填色工具",
+      "language": "Python",
+      "url": "https://github.com/JayJokerr/arknights-pixel-autofill",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.4.0"
+    },
+    "Nervercc/gpt_nerver": {
+      "full_name": "Nervercc/gpt_nerver",
+      "description": "ChatGPT Plus automation toolkit: PyQt6 desktop + JSON-RPC registration engine + card/CDK/PayPal/GCash flows",
+      "language": "Python",
+      "url": "https://github.com/Nervercc/gpt_nerver",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pemarine/cve-2026-41940-PoC": {
+      "full_name": "pemarine/cve-2026-41940-PoC",
+      "description": "A cPanel and WHM authentication bypassing tool",
+      "language": "Python",
+      "url": "https://github.com/pemarine/cve-2026-41940-PoC",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "cpanel",
+        "cve",
+        "cve-2026-41940",
+        "cve-2026-41940-poc"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

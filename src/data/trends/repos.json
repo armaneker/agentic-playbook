@@ -29472,7 +29472,7 @@
     },
     "SMNETSTUDIO/WeChat-AI": {
       "full_name": "SMNETSTUDIO/WeChat-AI",
-      "description": "",
+      "description": "WeChat AI - 自托管微信角色扮演对话服务",
       "language": "TypeScript",
       "url": "https://github.com/SMNETSTUDIO/WeChat-AI",
       "first_seen": "2026-08-10",
@@ -30237,7 +30237,7 @@
     },
     "Small-tailqwq/dsh-deep-whale": {
       "full_name": "Small-tailqwq/dsh-deep-whale",
-      "description": "DSH Web 鲸鱼娘皮肤系列(深海女仆工坊 maid-atelier)——CC BY-NC-SA 4.0",
+      "description": "Whale Girl skin series for DeepSeek Harness. 适用于 DeepSeek Harness 的，鲸鱼娘系列皮肤。",
       "language": "TypeScript",
       "url": "https://github.com/Small-tailqwq/dsh-deep-whale",
       "first_seen": "2026-08-14",
@@ -30790,6 +30790,36 @@
         "task-scheduling"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "Leutenegger/watermarks-remover": {
+      "full_name": "Leutenegger/watermarks-remover",
+      "description": "Remove multi-vendor AI provenance traces: Unicode text sanitization, statistical rewriting techniques, and C2PA/metadata stripping from PNG/JPEG/SVG/PDF/DOCX/HTML/MD files",
+      "language": "Python",
+      "url": "https://github.com/Leutenegger/watermarks-remover",
+      "first_seen": "2026-08-19",
+      "has_summary": false,
+      "topics": [
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "codex-cli",
+        "codex-desktop",
+        "codex-plugin",
+        "codex-skill",
+        "codex-skills",
+        "grok",
+        "grok-45",
+        "grok-ai",
+        "grok-build",
+        "grok-cli",
+        "watermark",
+        "watermark-detection",
+        "watermark-tools",
+        "watermarks"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

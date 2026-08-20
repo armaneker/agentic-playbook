@@ -30821,6 +30821,126 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "Alain00/blobatar": {
+      "full_name": "Alain00/blobatar",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Alain00/blobatar",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Electricitysheep/dsh-handbook": {
+      "full_name": "Electricitysheep/dsh-handbook",
+      "description": "DeepSeek Harness (dsh) 从 0 到 1 深度手册：安装/插件开发/性能调优/实测案例/同模型多 Agent 实测对比（中文 + 英文 PDF）",
+      "language": "HTML",
+      "url": "https://github.com/Electricitysheep/dsh-handbook",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-framework",
+        "ai-agents",
+        "beginners",
+        "deepseek",
+        "deepseek-ai",
+        "dsh-plugin",
+        "getting-started",
+        "guide",
+        "harness",
+        "llm",
+        "tutorial"
+      ],
+      "category": "Agentic",
+      "version": "v1.8.0"
+    },
+    "decionis/agent-safe-pipeline": {
+      "full_name": "decionis/agent-safe-pipeline",
+      "description": "Reference architecture for AI agents that propose actions but cannot authorize them — immutable intent capture, an independent Decionis policy verdict (ALLOW/ESCALATE/BLOCK), verified human approval, and a SafeExecutor that consumes a single-use intent-bound grant.",
+      "language": "TypeScript",
+      "url": "https://github.com/decionis/agent-safe-pipeline",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-agent-permissions",
+        "ai-agents",
+        "ai-governance",
+        "ai-safety",
+        "authorization",
+        "decionis",
+        "human-in-the-loop",
+        "mcp",
+        "policy-as-code",
+        "reference-architecture",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.2"
+    },
+    "Tiger3807861189/J-Space-Cognition-Suite-V3.6": {
+      "full_name": "Tiger3807861189/J-Space-Cognition-Suite-V3.6",
+      "description": "J-Space Cognition Suite V3.6 - AI cognitive-enhancement Skills based on Anthropic's J-space global workspace research. | 哔哩哔哩：Tiger380 (UID 3494375382321675) — https://space.bilibili.com/3494375382321675",
+      "language": "Python",
+      "url": "https://github.com/Tiger3807861189/J-Space-Cognition-Suite-V3.6",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai",
+        "ai-agent",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "cognitive-enhancement",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "global-workspace",
+        "hermes-agent",
+        "inference-time-control",
+        "j-space",
+        "opencode",
+        "react",
+        "tailwindcss"
+      ],
+      "category": "Agentic",
+      "version": "v3.6.1"
+    },
+    "bawadou/ai-data-extractor": {
+      "full_name": "bawadou/ai-data-extractor",
+      "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+      "language": "Python",
+      "url": "https://github.com/bawadou/ai-data-extractor",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-data-extractor",
+        "claude",
+        "cursor",
+        "cursor-ai",
+        "data-extraction",
+        "gemini"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "ModelTC/Minimax-H3-Turbo": {
+      "full_name": "ModelTC/Minimax-H3-Turbo",
+      "description": "Distill Minimax-H3 into 4 steps",
+      "language": "Python",
+      "url": "https://github.com/ModelTC/Minimax-H3-Turbo",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -30941,6 +30941,74 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "CopilotKit/openbot": {
+      "full_name": "CopilotKit/openbot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "url": "https://github.com/CopilotKit/openbot",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "ag-ui",
+        "agent-governance",
+        "ai-agents",
+        "browser-automation",
+        "copilotkit",
+        "generative-ui",
+        "mcp"
+      ],
+      "category": "Agentic",
+      "version": "v0.0.1"
+    },
+    "vibeinging/deepseek-harness-desktop-app": {
+      "full_name": "vibeinging/deepseek-harness-desktop-app",
+      "description": "DeepSeek Harness Desktop App: a local AI desktop workspace for DSH Sessions, projects, files, web research, plugins, and Office artifacts.",
+      "language": "JavaScript",
+      "url": "https://github.com/vibeinging/deepseek-harness-desktop-app",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "agentic-workflows",
+        "ai-agent",
+        "ai-workbench",
+        "data-analysis",
+        "deepseek-harness",
+        "desktop-app",
+        "dsh",
+        "dsh-plugin",
+        "electron",
+        "local-first",
+        "mcp",
+        "model-context-protocol",
+        "office-automation",
+        "react",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.0.1"
+    },
+    "flaqai/backlink_skills": {
+      "full_name": "flaqai/backlink_skills",
+      "description": "Awesome skills for submitting url to free websites. Get more backlinks for your website to get more traffic.",
+      "language": "Python",
+      "url": "https://github.com/flaqai/backlink_skills",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "backlinks",
+        "codex",
+        "codex-skill",
+        "free-backlinks",
+        "freebacklinks",
+        "seo",
+        "seo-optimization",
+        "seo-skills",
+        "seo-skills-for-ai-agents",
+        "seo-tools"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

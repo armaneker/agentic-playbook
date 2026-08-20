@@ -31040,6 +31040,52 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "CopilotKit/OpenBot": {
+      "full_name": "CopilotKit/OpenBot",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "language": "TypeScript",
+      "url": "https://github.com/CopilotKit/OpenBot",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "ag-ui",
+        "agent-governance",
+        "ai-agents",
+        "browser-automation",
+        "copilotkit",
+        "generative-ui",
+        "mcp"
+      ],
+      "category": "Agentic",
+      "version": "v0.0.1"
+    },
+    "DenisSergeevitch/desktop-fly": {
+      "full_name": "DenisSergeevitch/desktop-fly",
+      "description": "A 3D fruit fly living on your macOS desktop, driven by a live spiking simulation of the real FlyWire connectome",
+      "language": "Swift",
+      "url": "https://github.com/DenisSergeevitch/desktop-fly",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zenbu-labs/terminal-code": {
+      "full_name": "zenbu-labs/terminal-code",
+      "description": "VS Code in the terminal",
+      "language": "TypeScript",
+      "url": "https://github.com/zenbu-labs/terminal-code",
+      "first_seen": "2026-08-20",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "herdr-plugin",
+        "terminal",
+        "vscode"
+      ],
+      "category": "DevTools",
+      "version": "v0.1.13"
     }
   }
 }

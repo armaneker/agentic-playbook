@@ -30525,7 +30525,7 @@
     },
     "dataelement/dsh-desktop": {
       "full_name": "dataelement/dsh-desktop",
-      "description": "DeepSeek Harness Desktop",
+      "description": "DSHDesktop：DeepSeek Harness Desktop",
       "language": "TypeScript",
       "url": "https://github.com/dataelement/dsh-desktop",
       "first_seen": "2026-08-17",
@@ -30534,7 +30534,8 @@
         "ai-agents",
         "deepseek",
         "desktop",
-        "dsh-plugins"
+        "dsh-plugins",
+        "dshdesktop"
       ],
       "category": "Agentic",
       "version": "v0.2.0"
@@ -31255,6 +31256,41 @@
       ],
       "category": "Agentic",
       "version": "v1.0.3"
+    },
+    "Leutenegger/vanity-eth": {
+      "full_name": "Leutenegger/vanity-eth",
+      "description": "Offline vanity address generator for Bitcoin and Ethereum. CPU multi-process search with interactive CLI menu. Supports Legacy, Nested SegWit, Native SegWit, Taproot, and ETH (EIP-55).",
+      "language": "Python",
+      "url": "https://github.com/Leutenegger/vanity-eth",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "HarnessRouter/harnessrouter": {
+      "full_name": "HarnessRouter/harnessrouter",
+      "description": "HarnessRouter Community Edition: the self-hosted, Apache-2.0 edition of the unified interface for agent harnesses. Run Codex, Claude Code, Hermes, and more through one API, with sessions, streaming, files, cancellation, and failure handling. Implements the Unified Harness Protocol (UHP), an open standard. Your keys, your infrastructure.",
+      "language": "Python",
+      "url": "https://github.com/HarnessRouter/harnessrouter",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "agent-api",
+        "agent-harness",
+        "ai-infrastructure",
+        "conformance-testing",
+        "open-protocol",
+        "open-source",
+        "open-standard",
+        "self-hosted",
+        "uhp",
+        "unified-api",
+        "unified-harness-protocol",
+        "unified-interface"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

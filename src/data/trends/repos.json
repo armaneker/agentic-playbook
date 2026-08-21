@@ -31291,6 +31291,23 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "lanicer/cve-2026-41940-PoC": {
+      "full_name": "lanicer/cve-2026-41940-PoC",
+      "description": "A cPanel and WHM authentication bypassing tool",
+      "language": "Python",
+      "url": "https://github.com/lanicer/cve-2026-41940-PoC",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "cpanel",
+        "cve",
+        "cve-2026-41940",
+        "cve-scanning",
+        "vulnerability-research"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

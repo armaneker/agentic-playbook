@@ -31086,6 +31086,175 @@
       ],
       "category": "DevTools",
       "version": "v0.1.13"
+    },
+    "bowenliang123/dsh-context": {
+      "full_name": "bowenliang123/dsh-context",
+      "description": "The best DeepSeek Harness plugin for context insight and management, with context dashboard / browser and context command, for context statistics, composition, breakdown, evolution details, understanding how the context is made of, and how it evolves. 一站式 DeepSeek Harness 上下文可视化插件，Context 面板及浏览器与 Context 命令，透视上下文组成、演进、压缩、剪枝等事件与动作。",
+      "language": "TypeScript",
+      "url": "https://github.com/bowenliang123/dsh-context",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "cordis-plugin",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh-external",
+        "dsh-plugin",
+        "dsh-plugins"
+      ],
+      "category": "Other",
+      "version": "v0.19.2"
+    },
+    "Leutenegger/coldcard-airgap": {
+      "full_name": "Leutenegger/coldcard-airgap",
+      "description": "Offline utilities for Coldcard hardware wallet users: PSBT inspection, BIP39/dice entropy, Seed XOR split/combine, BBQr encode/decode, output descriptors, and firmware verification guidance. Companion to official Coldcard firmware. Not affiliated with Coinkite.",
+      "language": "Python",
+      "url": "https://github.com/Leutenegger/coldcard-airgap",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "airgap",
+        "airgap-devkit",
+        "airgap-download",
+        "airgap-setup",
+        "airgap-tutorial",
+        "bitcoin",
+        "bitcoin-wallet",
+        "coldcard",
+        "coldcard-mk2",
+        "coldcard-mk4",
+        "cryptography",
+        "cryptography-algorithms",
+        "cryptography-tools",
+        "ledger",
+        "ledger-cli",
+        "ledger-wallet",
+        "metamask",
+        "metamask-desktop"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "jeremy-prt/bloub": {
+      "full_name": "jeremy-prt/bloub",
+      "description": "SVG recreation of the x.ai bot avatar. One shape morphing through 14 states, measured off the reference video frame by frame.",
+      "language": "TypeScript",
+      "url": "https://github.com/jeremy-prt/bloub",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "avatar",
+        "morphing",
+        "svg",
+        "svg-animation",
+        "typescript",
+        "vue"
+      ],
+      "category": "Web Framework",
+      "version": "v0.1.1"
+    },
+    "missuo/herdrm": {
+      "full_name": "missuo/herdrm",
+      "description": "Native macOS console for herdr — all your coding agents and their live terminals, across devices",
+      "language": "Swift",
+      "url": "https://github.com/missuo/herdrm",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.7"
+    },
+    "pg83/solo": {
+      "full_name": "pg83/solo",
+      "description": "Portable Linux binaries, solved",
+      "language": "C++",
+      "url": "https://github.com/pg83/solo",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "abi",
+        "cpp",
+        "dlopen",
+        "dynamic-linker",
+        "elf",
+        "elf-loader",
+        "glibc",
+        "linux",
+        "musl",
+        "shared-libraries",
+        "static-linking",
+        "vulkan"
+      ],
+      "category": "Other",
+      "version": "8"
+    },
+    "SheberDavid/v4-flash-godmode-opencode-go": {
+      "full_name": "SheberDavid/v4-flash-godmode-opencode-go",
+      "description": "V4 Flash 神模式 (opencode-go)：让 opencode-go 的 DeepSeek V4 Flash 从鬼模式切换到神模式的 dsh agent preset",
+      "language": "JavaScript",
+      "url": "https://github.com/SheberDavid/v4-flash-godmode-opencode-go",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "deepseek",
+        "dsh",
+        "flash"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "jaredrhod/barehands": {
+      "full_name": "jaredrhod/barehands",
+      "description": "Move things on your screen with your bare hands. A webcam-powered, hand-tracked interface for your AI. No headset. No controllers.",
+      "language": "HTML",
+      "url": "https://github.com/jaredrhod/barehands",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "ai-assisstant",
+        "augmented-reality",
+        "claude-code",
+        "gesture-control",
+        "hand-tracking",
+        "mediapipe",
+        "threejs"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Spielewoy/autoprompt-skill": {
+      "full_name": "Spielewoy/autoprompt-skill",
+      "description": "Autoprompt is a coding-agent skill that cuts failures by 45% on agentic coding tasks.",
+      "language": "JavaScript",
+      "url": "https://github.com/Spielewoy/autoprompt-skill",
+      "first_seen": "2026-08-21",
+      "has_summary": false,
+      "topics": [
+        "agent-orchestration",
+        "agent-skills",
+        "agentic-workflows",
+        "ai-agents",
+        "ai-coding",
+        "automated-testing",
+        "autonomous-agents",
+        "claude-code",
+        "cli",
+        "code-review",
+        "codex",
+        "coding-agent",
+        "developer-tools",
+        "github-copilot",
+        "multi-agent-systems",
+        "opencode",
+        "prompt-engineering",
+        "subagents",
+        "test-driven-development",
+        "workflow-automation"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.3"
     }
   }
 }

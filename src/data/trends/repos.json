@@ -30660,7 +30660,7 @@
         "dsh-plugin"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.1.11"
     },
     "browser-use/macos-harness": {
       "full_name": "browser-use/macos-harness",
@@ -31468,6 +31468,50 @@
       "topics": [],
       "category": "DevTools",
       "version": null
+    },
+    "PentagonConure42/youtube-downloader-zen": {
+      "full_name": "PentagonConure42/youtube-downloader-zen",
+      "description": "Youtube Downloader Zen",
+      "language": "Unknown",
+      "url": "https://github.com/PentagonConure42/youtube-downloader-zen",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "4k-downloader-multithreaded-downloads",
+        "8k-download",
+        "media-downloader",
+        "python-youtube-api",
+        "video-cut-tool",
+        "youtube-4k-downloader",
+        "youtube-clip-downloader",
+        "youtube-dl-android",
+        "youtube-downloader-gui",
+        "youtube-videos-downloader",
+        "yt-downloader"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "MeteorNOX/DeepSeek-Balance-Whale-Widget": {
+      "full_name": "MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "description": "DeepSeek Harness（DSH）一只住在 DSH 界面右下角的小鲸鱼娘，帮你盯着DeepSeek账户余额。QQ弹弹，支持拖拽吸附、左吸附翻转、数字滚动动画，随界面自动启用，建议直接喊来你的dsh安装",
+      "language": "JavaScript",
+      "url": "https://github.com/MeteorNOX/DeepSeek-Balance-Whale-Widget",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "cordis",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins",
+        "floating-widget",
+        "plugin"
+      ],
+      "category": "DevTools",
+      "version": "v0.2.5"
     }
   }
 }

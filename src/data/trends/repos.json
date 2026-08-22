@@ -30137,8 +30137,7 @@
       "topics": [
         "deepseek-harness",
         "dsh",
-        "dsh-plugin",
-        "web-ui"
+        "dsh-plugin"
       ],
       "category": "Other",
       "version": "v0.1.10"
@@ -31512,6 +31511,29 @@
       ],
       "category": "DevTools",
       "version": "v0.2.5"
+    },
+    "shaobeichen/dsh-pocket": {
+      "full_name": "shaobeichen/dsh-pocket",
+      "description": "把 DeepSeek Harness 装进你的口袋：电脑上跑 dsh web，手机扫码即同步访问（局域网 + 公网，实时同屏）",
+      "language": "JavaScript",
+      "url": "https://github.com/shaobeichen/dsh-pocket",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-market",
+        "dsh-plugins",
+        "mobile",
+        "qr",
+        "remote",
+        "tunnel"
+      ],
+      "category": "Mobile",
+      "version": "v1.12.3"
     }
   }
 }

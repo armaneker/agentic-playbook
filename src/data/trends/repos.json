@@ -29868,11 +29868,19 @@
       "topics": [
         "agent-skill",
         "ai",
+        "anthropic",
         "c2pa",
+        "chatgpt",
         "claude",
+        "gemini",
+        "openai",
         "provenance",
         "synthid",
-        "watermark"
+        "watermark",
+        "watermark-detection",
+        "watermark-tools",
+        "watermarking",
+        "watermarks"
       ],
       "category": "AI / ML",
       "version": "v0.1.0"
@@ -31307,6 +31315,158 @@
         "vulnerability-research"
       ],
       "category": "Other",
+      "version": null
+    },
+    "Leutenegger/claudish-to-english": {
+      "full_name": "Leutenegger/claudish-to-english",
+      "description": "Claude Code plugin that rewrites each assistant message into plain language on screen only. Local ollama by default; also codex CLI, Anthropic, or any OpenAI-compatible API. Fail-open. Optional Markdown rewrite.",
+      "language": "Shell",
+      "url": "https://github.com/Leutenegger/claudish-to-english",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MengTo/threeui": {
+      "full_name": "MengTo/threeui",
+      "description": "Open-source ThreeUI Community catalog with live interactive components and complete Community source.",
+      "language": "HTML",
+      "url": "https://github.com/MengTo/threeui",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "react",
+        "shaders",
+        "threejs",
+        "ui-components",
+        "webgl"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "fufankeji/deepseek-harness-studio": {
+      "full_name": "fufankeji/deepseek-harness-studio",
+      "description": "DeepSeek Harness 零代码桌面端｜一键启动，支持 Windows 与 macOS；内置插件发现、热点插件推送、一键安装与管理、AI 智能推荐和视觉增强。",
+      "language": "TypeScript",
+      "url": "https://github.com/fufankeji/deepseek-harness-studio",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-studio",
+        "desktop-app",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "electron",
+        "macos",
+        "plugin-manager",
+        "windows"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "iAmCorey/Wake": {
+      "full_name": "iAmCorey/Wake",
+      "description": "Every coding-agent session on your Mac in one place — browse, search, resume. Rust + GPUI.",
+      "language": "Rust",
+      "url": "https://github.com/iAmCorey/Wake",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.1"
+    },
+    "Yousuf-developer/Viscose-carousel": {
+      "full_name": "Yousuf-developer/Viscose-carousel",
+      "description": "A wheel of work that never quite sets. Cards fuse as they meet, and draw into threads as they part.",
+      "language": "JavaScript",
+      "url": "https://github.com/Yousuf-developer/Viscose-carousel",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "syv-ai/qwen38-27b-rtx3090": {
+      "full_name": "syv-ai/qwen38-27b-rtx3090",
+      "description": "Qwen3.8-27B on a single RTX 3090 with vLLM: ~1,000 tok/s at 64 concurrent (int8 tensor-core GEMMs, fp16 DeltaNet state), ~114 tok/s single-user at default sampling / ~124 greedy (MTP drafts, own-output draft vocab, calibrated int4 lm_head, split-KV verify attention), 150k-262k context; patches, requant scripts, benchmarks",
+      "language": "Python",
+      "url": "https://github.com/syv-ai/qwen38-27b-rtx3090",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "kv-cache",
+        "llm-inference",
+        "local-llm",
+        "quantization",
+        "qwen",
+        "qwen3",
+        "rtx-3090",
+        "speculative-decoding",
+        "vllm"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "lencx/Minke": {
+      "full_name": "lencx/Minke",
+      "description": "🐳 DeepSeek Harness Desktop",
+      "language": "TypeScript",
+      "url": "https://github.com/lencx/Minke",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "deekseek",
+        "desktop",
+        "dsh",
+        "dsh-plugin",
+        "harness"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.0"
+    },
+    "truefoundry/trueforge": {
+      "full_name": "truefoundry/trueforge",
+      "description": "The open-source agent harness - the runtime layer that turns an LLM into a working agent.",
+      "language": "TypeScript",
+      "url": "https://github.com/truefoundry/trueforge",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agentic-ai",
+        "agents",
+        "harness",
+        "harness-engineering"
+      ],
+      "category": "Agentic",
+      "version": "@truefoundry/trueforge-ui@0.2.4"
+    },
+    "amirh00sain/SpiderPanel": {
+      "full_name": "amirh00sain/SpiderPanel",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/amirh00sain/SpiderPanel",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "xdreizein666/getcontact-cli": {
+      "full_name": "xdreizein666/getcontact-cli",
+      "description": "GetContact CLI adalah project Python untuk melakukan lookup nomor telepon lewat API GetContact, tanpa aplikasi Android dan tanpa browser.",
+      "language": "Python",
+      "url": "https://github.com/xdreizein666/getcontact-cli",
+      "first_seen": "2026-08-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
       "version": null
     }
   }

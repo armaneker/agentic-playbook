@@ -56,7 +56,7 @@
       "has_summary": true,
       "topics": [
         "awesome",
-        "collections",
+        "awesome-list",
         "python",
         "python-frameworks",
         "python-libraries",
@@ -30743,7 +30743,7 @@
     },
     "cinderline/northcinder": {
       "full_name": "cinderline/northcinder",
-      "description": "Buyer-run, ad-neutral shopping-agent MCP software with deterministic ranking, signed purchase mandates, and a local audit trail.",
+      "description": "Open-source MCP server for comparing products and asking the buyer before purchase.",
       "language": "JavaScript",
       "url": "https://github.com/cinderline/northcinder",
       "first_seen": "2026-08-19",

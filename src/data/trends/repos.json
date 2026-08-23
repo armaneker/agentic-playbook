@@ -4842,7 +4842,7 @@
     },
     "sindresorhus/awesome": {
       "full_name": "sindresorhus/awesome",
-      "description": "😎 Awesome lists about all kinds of interesting topics",
+      "description": "😎 Awesome lists about all kinds of interesting topics [NOTE: Pull requests are temporarily disabled until I have a chance to catch up with the existing ones]",
       "language": "Unknown",
       "url": "https://github.com/sindresorhus/awesome",
       "first_seen": "2026-04-01",
@@ -30402,8 +30402,14 @@
       "url": "https://github.com/yjh051108/dsh-routing-suite",
       "first_seen": "2026-08-15",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai-agents",
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "category": "Agentic",
       "version": "v0.1.0"
     },
     "NousResearch/Hermes-Bot-Mode": {
@@ -30556,7 +30562,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.2.0"
     },
     "ysr666/dsh-vision-router": {
       "full_name": "ysr666/dsh-vision-router",
@@ -31534,6 +31540,68 @@
       ],
       "category": "Mobile",
       "version": "v1.12.3"
+    },
+    "b-nnett/codex-subscription-router": {
+      "full_name": "b-nnett/codex-subscription-router",
+      "description": "",
+      "language": "Go",
+      "url": "https://github.com/b-nnett/codex-subscription-router",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "almendili/skills": {
+      "full_name": "almendili/skills",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/almendili/skills",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Ariescar/anyCreature": {
+      "full_name": "Ariescar/anyCreature",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/Ariescar/anyCreature",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MengTo/sylva": {
+      "full_name": "MengTo/sylva",
+      "description": "An interactive Three.js landscape study with a procedural, pointer-responsive moss world.",
+      "language": "HTML",
+      "url": "https://github.com/MengTo/sylva",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [
+        "creative-coding",
+        "github-pages",
+        "interactive-design",
+        "procedural-generation",
+        "threejs",
+        "webgl"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "missuo/kumone": {
+      "full_name": "missuo/kumone",
+      "description": "雲の音 — Native macOS NetEase Cloud Music client built with SwiftUI",
+      "language": "Swift",
+      "url": "https://github.com/missuo/kumone",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.3"
     }
   }
 }

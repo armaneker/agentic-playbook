@@ -30129,7 +30129,7 @@
     },
     "zhu1090093659/dsh-web-ui": {
       "full_name": "zhu1090093659/dsh-web-ui",
-      "description": "DeepSeek Harness（DSH）Web GUI 插件与皮肤生态：一切皆插件。梁神模式、任务看板、移动端远程与 SSH 运维构筑开发工作台；皮肤经 WebGL 深度优化，更支持 Wallpaper Engine 壁纸；皮肤、宠物、插件由 DSH 大市场一键安装，正迈向 DSH 创意工坊。A pluggable plugin-skin ecosystem for the DSH Web GUI - LiangShen mode, task board, remote mobile UI, SSH ops, WebGL-optimized skins with Wallpaper Engine wallpapers - becoming a DSH creative workshop.",
+      "description": "DeepSeek Harness（DSH）Web GUI 插件与皮肤生态：一切皆插件。任务看板、移动端远程与 SSH 运维构筑开发工作台；皮肤经 WebGL 深度优化，更支持 Wallpaper Engine 壁纸；皮肤、宠物、插件由 DSH 大市场一键安装，正迈向 DSH 创意工坊。A pluggable plugin-skin ecosystem for the DSH Web GUI - Task board, remote mobile UI, SSH ops, WebGL-optimized skins with Wallpaper Engine wallpapers - becoming a DSH creative workshop.",
       "language": "TypeScript",
       "url": "https://github.com/zhu1090093659/dsh-web-ui",
       "first_seen": "2026-08-13",
@@ -30597,7 +30597,7 @@
     },
     "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report": {
       "full_name": "Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
-      "description": "DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSeek V4 (Flash/Pro).",
+      "description": "DeepSeek V4 × J-Space capability realization report — benchmark evidence that J-Space reduces capability-realization loss on DeepSeek V4.",
       "language": "Unknown",
       "url": "https://github.com/Tiger3807861189/DeepSeek-V4-J-Space-Capability-Realization-Report",
       "first_seen": "2026-08-18",
@@ -31306,7 +31306,7 @@
         "unified-interface"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.8.3"
     },
     "lanicer/cve-2026-41940-PoC": {
       "full_name": "lanicer/cve-2026-41940-PoC",
@@ -31620,6 +31620,103 @@
         "digital-human",
         "video-generation"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "nateherkai/scroll-craft": {
+      "full_name": "nateherkai/scroll-craft",
+      "description": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
+      "language": "JavaScript",
+      "url": "https://github.com/nateherkai/scroll-craft",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "agent-skills",
+        "ai-web-design",
+        "anthropic",
+        "claude-code",
+        "claude-code-plugin",
+        "creative-coding",
+        "design-system",
+        "frontend",
+        "interaction-design",
+        "landing-page",
+        "scroll-animation",
+        "scrollytelling",
+        "typography",
+        "web-design"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "duty1g/x64dbg-mcp-server": {
+      "full_name": "duty1g/x64dbg-mcp-server",
+      "description": "x64dbg-MCP Server is a native MCP (Model Context Protocol) plugin for x64dbg that exposes the debugger's full functionality over HTTP. Connect any MCP-compatible AI assistant and control x64dbg programmatically: set breakpoints, step through code, read memory, dump registers, and more.  Built with Zig — zero dependencies, single-binary output, cros",
+      "language": "Zig",
+      "url": "https://github.com/duty1g/x64dbg-mcp-server",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "ai-debugging",
+        "binary-analysis",
+        "claude",
+        "claude-code",
+        "malware-analysis",
+        "malware-research",
+        "malware-scanner",
+        "mcp",
+        "mcp-server",
+        "mcp-servers",
+        "x64dbg",
+        "x64dbg-mcp",
+        "x64dbg-plugin",
+        "x64dbg-tools",
+        "xdbg",
+        "zig",
+        "zig-lang",
+        "ziglang"
+      ],
+      "category": "Agentic",
+      "version": "1.0"
+    },
+    "air-embodied-brain/Zetta-Embodiment": {
+      "full_name": "air-embodied-brain/Zetta-Embodiment",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/air-embodied-brain/Zetta-Embodiment",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ant-research/4DAnyone": {
+      "full_name": "ant-research/4DAnyone",
+      "description": "[SIGGRAPH Asia 2026] 4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+      "language": "Python",
+      "url": "https://github.com/ant-research/4DAnyone",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [
+        "4d-gaussian-splatting",
+        "generative-ai",
+        "generative-model",
+        "video-generation",
+        "video-world-model"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "x4gpanell/X4G": {
+      "full_name": "x4gpanell/X4G",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/x4gpanell/X4G",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

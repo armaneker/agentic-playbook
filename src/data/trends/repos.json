@@ -31719,6 +31719,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Forsy-AI/biosecurity-agent": {
+      "full_name": "Forsy-AI/biosecurity-agent",
+      "description": "AI agent that builds a live biosecurity world around any target.",
+      "language": "TypeScript",
+      "url": "https://github.com/Forsy-AI/biosecurity-agent",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "amagine-ai/Amagine3D": {
+      "full_name": "amagine-ai/Amagine3D",
+      "description": "Amagine3D: From hardware requirements to editable 3D designs",
+      "language": "TypeScript",
+      "url": "https://github.com/amagine-ai/Amagine3D",
+      "first_seen": "2026-08-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

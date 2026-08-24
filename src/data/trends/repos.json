@@ -31905,6 +31905,42 @@
       ],
       "category": "Agentic",
       "version": "v2.0.0"
+    },
+    "furkankly/zoetrope": {
+      "full_name": "furkankly/zoetrope",
+      "description": "Watch a Claude Code session as a live flow graph, in your terminal or your browser.",
+      "language": "Rust",
+      "url": "https://github.com/furkankly/zoetrope",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-visualization",
+        "claude-code",
+        "flow"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "anywhere-labs/dsh-desktop": {
+      "full_name": "anywhere-labs/dsh-desktop",
+      "description": "为 DeepSeek Harness (DSH) 插件生态打造的现代化桌面端解决方案。万物皆「插件」，桌面本身也是「插件」。",
+      "language": "TypeScript",
+      "url": "https://github.com/anywhere-labs/dsh-desktop",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [
+        "cordis",
+        "cordis-plugin",
+        "deepseek",
+        "deepseek-harness",
+        "desktop",
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugin-desktop"
+      ],
+      "category": "Other",
+      "version": "v2.0.2"
     }
   }
 }

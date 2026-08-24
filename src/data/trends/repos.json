@@ -31741,6 +31741,62 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "ShadowAqueduct/watermark-remover": {
+      "full_name": "ShadowAqueduct/watermark-remover",
+      "description": "Purge multi-vendor AI watermarks: clean Unicode text, apply statistical rewrite hooks, and clear C2PA plus metadata from PNG, JPEG, SVG, PDF, DOCX, HTML, and MD.",
+      "language": "Python",
+      "url": "https://github.com/ShadowAqueduct/watermark-remover",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [
+        "claude-ai",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "codex-cli",
+        "codex-skill",
+        "codex-skills",
+        "watermark"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "jaredrhod/fullstack-agent": {
+      "full_name": "jaredrhod/fullstack-agent",
+      "description": "Give your AI a full stack: memory, voice, face, and hands. This is the \"I want an AI agent\" shortcut. It sets up the entire jaredrhod stack for you with an installation wizard. Select which pieces you want or do it all!",
+      "language": "Batchfile",
+      "url": "https://github.com/jaredrhod/fullstack-agent",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "Yuzzyuk/marketing-os": {
+      "full_name": "Yuzzyuk/marketing-os",
+      "description": "An entire marketing department as one Claude skill. 14 modules: audits scored 0-100, an 18-tactic hook engine, copy graded before you see it, ad diagnosis, GEO, email, launches, pricing. Works in Claude, Codex and Cursor.",
+      "language": "Unknown",
+      "url": "https://github.com/Yuzzyuk/marketing-os",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-marketing",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "copywriting",
+        "cro",
+        "cursor",
+        "geo",
+        "marketing",
+        "marketing-skills",
+        "seo"
+      ],
+      "category": "Other",
+      "version": "v1.1.0"
     }
   }
 }

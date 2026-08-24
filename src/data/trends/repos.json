@@ -477,6 +477,7 @@
         "ai",
         "automation",
         "claude",
+        "deepseek",
         "genai",
         "gpt",
         "llm",
@@ -485,9 +486,7 @@
         "nextjs",
         "no-code",
         "openai",
-        "orchestration",
         "python",
-        "rag",
         "skills",
         "workflow"
       ],
@@ -30446,7 +30445,7 @@
     },
     "Anionex/dsh-vision-toolkit": {
       "full_name": "Anionex/dsh-vision-toolkit",
-      "description": "[dsh]为纯文本模型设计更强大的视觉工具箱：安装免费使用、粘贴图片直接识别、多张图片问答、截图到前端UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
+      "description": "[dsh]为纯文本模型设计更强大的视觉工具箱：一行安装使用、粘贴图片直接识别、多张图片问答、截图到前端UI 还原等｜DeepSeek Harness-native integration for agent-vision-toolkit: image Q&A, long-screenshot OCR, UI restoration, grounding, pixel diff, Artifacts, and Web UI.",
       "language": "TypeScript",
       "url": "https://github.com/Anionex/dsh-vision-toolkit",
       "first_seen": "2026-08-16",
@@ -30541,17 +30540,21 @@
     },
     "dataelement/dsh-desktop": {
       "full_name": "dataelement/dsh-desktop",
-      "description": "DSHDesktop：DeepSeek Harness Desktop",
+      "description": "DSHDesktop：DeepSeek Harness Desktop / DeepSeek Harness 桌面版",
       "language": "TypeScript",
       "url": "https://github.com/dataelement/dsh-desktop",
       "first_seen": "2026-08-17",
       "has_summary": false,
       "topics": [
-        "ai-agents",
+        "agent",
+        "apps",
         "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-desktop",
         "desktop",
         "dsh-plugins",
-        "dshdesktop"
+        "dshdesktop",
+        "harness"
       ],
       "category": "Agentic",
       "version": "v0.2.0"
@@ -31797,6 +31800,68 @@
       ],
       "category": "Other",
       "version": "v1.1.0"
+    },
+    "tobi/walgit": {
+      "full_name": "tobi/walgit",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/tobi/walgit",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mrhlaingbwardev/Telegram-Secure-Storage-Bot": {
+      "full_name": "mrhlaingbwardev/Telegram-Secure-Storage-Bot",
+      "description": "A secure, privacy-focused Telegram cloud storage bot using Cloudflare Workers and D1 Database. Features PIN protection, Burn-after-read, and Anti-leak.",
+      "language": "JavaScript",
+      "url": "https://github.com/mrhlaingbwardev/Telegram-Secure-Storage-Bot",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "localai-org/kimodo.cpp": {
+      "full_name": "localai-org/kimodo.cpp",
+      "description": "NVIDIA Kimodo ported to C++/GGML",
+      "language": "C++",
+      "url": "https://github.com/localai-org/kimodo.cpp",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zhu1090093659/dsh-web": {
+      "full_name": "zhu1090093659/dsh-web",
+      "description": "DeepSeek Harness（DSH）Web GUI 插件与皮肤生态：一切皆插件。任务看板、移动端远程与 SSH 运维构筑开发工作台；皮肤经 WebGL 深度优化，更支持 Wallpaper Engine 壁纸；皮肤、宠物、插件由 DSH 大市场一键安装，正迈向 DSH 创意工坊。A pluggable plugin-skin ecosystem for the DSH Web GUI - Task board, remote mobile UI, SSH ops, WebGL-optimized skins with Wallpaper Engine wallpapers - becoming a DSH creative workshop.",
+      "language": "TypeScript",
+      "url": "https://github.com/zhu1090093659/dsh-web",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [
+        "cordis",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-web",
+        "dsh-web-ui"
+      ],
+      "category": "Other",
+      "version": "v0.3.2"
+    },
+    "arvids-unavailable/openGym": {
+      "full_name": "arvids-unavailable/openGym",
+      "description": "https://github.com/DuarteSantos8/openGym",
+      "language": "JavaScript",
+      "url": "https://github.com/arvids-unavailable/openGym",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

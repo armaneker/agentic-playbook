@@ -31836,7 +31836,7 @@
     },
     "zhu1090093659/dsh-web": {
       "full_name": "zhu1090093659/dsh-web",
-      "description": "DeepSeek Harness（DSH）Web GUI 插件与皮肤生态：一切皆插件。任务看板、移动端远程与 SSH 运维构筑开发工作台；皮肤经 WebGL 深度优化，更支持 Wallpaper Engine 壁纸；皮肤、宠物、插件由 DSH 大市场一键安装，正迈向 DSH 创意工坊。A pluggable plugin-skin ecosystem for the DSH Web GUI - Task board, remote mobile UI, SSH ops, WebGL-optimized skins with Wallpaper Engine wallpapers - becoming a DSH creative workshop.",
+      "description": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发（dsh-market.com）",
       "language": "TypeScript",
       "url": "https://github.com/zhu1090093659/dsh-web",
       "first_seen": "2026-08-24",
@@ -31862,6 +31862,49 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "b-nnett/grok-bot-0.18-reconstructed": {
+      "full_name": "b-nnett/grok-bot-0.18-reconstructed",
+      "description": "Unofficial source-oriented reconstruction and extension of Grok Bot 0.18.0 for macOS",
+      "language": "TypeScript",
+      "url": "https://github.com/b-nnett/grok-bot-0.18-reconstructed",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Zyrexnn/Cybermes": {
+      "full_name": "Zyrexnn/Cybermes",
+      "description": "Autonomous Offensive Security, Bug Bounty & Red Teaming Agent Framework powered by Hermes Agent, specialized reasoning skills, and multi-model LLM orchestration.",
+      "language": "Python",
+      "url": "https://github.com/Zyrexnn/Cybermes",
+      "first_seen": "2026-08-24",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "appsec",
+        "bug-bounty",
+        "cvss-v3",
+        "cybersecurity",
+        "devsecops",
+        "exploit-validation",
+        "hermes-agent",
+        "infosec",
+        "llm-security",
+        "nuclei",
+        "offensive-security",
+        "penetration-testing",
+        "playwright",
+        "reconnaissance",
+        "red-teaming",
+        "security-tools",
+        "sqlmap",
+        "threat-research",
+        "vulnerability-scanner"
+      ],
+      "category": "Agentic",
+      "version": "v2.0.0"
     }
   }
 }

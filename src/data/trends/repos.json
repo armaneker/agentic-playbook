@@ -30400,7 +30400,7 @@
     "yjh051108/dsh-routing-suite": {
       "full_name": "yjh051108/dsh-routing-suite",
       "description": "dsh-routing-suite — injector + router-standard kit: install the runtime injector first, then the task-aware reasoning-mode router preset (measured P1-P23).",
-      "language": "PowerShell",
+      "language": "JavaScript",
       "url": "https://github.com/yjh051108/dsh-routing-suite",
       "first_seen": "2026-08-15",
       "has_summary": false,
@@ -31941,6 +31941,101 @@
       ],
       "category": "Other",
       "version": "v2.0.2"
+    },
+    "LB623/no-negative-echo": {
+      "full_name": "LB623/no-negative-echo",
+      "description": "让 Codex 根据最终结果生成标题、注释、commit 和 PR，减少被否决方案在交付中的残留。",
+      "language": "Python",
+      "url": "https://github.com/LB623/no-negative-echo",
+      "first_seen": "2026-08-25",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "chinese",
+        "codex",
+        "codex-skill",
+        "prompt-engineering"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "kgoedecke/doop": {
+      "full_name": "kgoedecke/doop",
+      "description": "The open-source alternative to Paper.design. A multiplayer design canvas where humans and AI agents design together, live. MCP built in.",
+      "language": "TypeScript",
+      "url": "https://github.com/kgoedecke/doop",
+      "first_seen": "2026-08-25",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "canvas",
+        "claude",
+        "claude-code",
+        "claude-design",
+        "design",
+        "design-tool",
+        "mcp",
+        "multiplayer"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "rome-os/rome": {
+      "full_name": "rome-os/rome",
+      "description": "Rome is the agentic OS.",
+      "language": "TypeScript",
+      "url": "https://github.com/rome-os/rome",
+      "first_seen": "2026-08-25",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-os",
+        "claude-code",
+        "codex",
+        "llm"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "only-cli/oc": {
+      "full_name": "only-cli/oc",
+      "description": "Turn any website into a compact CLI tailored for AI agents. Browse the web in hundreds of tokens, not tens of thousands.",
+      "language": "JavaScript",
+      "url": "https://github.com/only-cli/oc",
+      "first_seen": "2026-08-25",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "browser-automation",
+        "claude-code",
+        "cli",
+        "cli-app",
+        "cli-tool",
+        "llm",
+        "markdown",
+        "web-scraping"
+      ],
+      "category": "Agentic",
+      "version": "v0.4.0"
+    },
+    "rylena/sshdesk": {
+      "full_name": "rylena/sshdesk",
+      "description": "A full interactive remote desktop delivered entirely through SSH and displayed directly in your terminal.",
+      "language": "Python",
+      "url": "https://github.com/rylena/sshdesk",
+      "first_seen": "2026-08-25",
+      "has_summary": false,
+      "topics": [
+        "kitty-graphics-protocol",
+        "openssh",
+        "python",
+        "remote-desktop",
+        "ssh",
+        "terminal",
+        "x11"
+      ],
+      "category": "DevTools",
+      "version": null
     }
   }
 }

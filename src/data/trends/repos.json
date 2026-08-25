@@ -31836,7 +31836,7 @@
     },
     "zhu1090093659/dsh-web": {
       "full_name": "zhu1090093659/dsh-web",
-      "description": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发（dsh-market.com）",
+      "description": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发",
       "language": "TypeScript",
       "url": "https://github.com/zhu1090093659/dsh-web",
       "first_seen": "2026-08-24",
@@ -32035,6 +32035,26 @@
         "x11"
       ],
       "category": "DevTools",
+      "version": null
+    },
+    "ApodexAI/FrontierAgent": {
+      "full_name": "ApodexAI/FrontierAgent",
+      "description": "🧩 FrontierAgent, our agent framework, open-sourced alongside it — native command-line TUI, ReAct and Agent Team modes, one command on macOS and Linux, no preinstall, no hard Docker dependency.",
+      "language": "Python",
+      "url": "https://github.com/ApodexAI/FrontierAgent",
+      "first_seen": "2026-08-25",
+      "has_summary": false,
+      "topics": [
+        "agent-orchestration",
+        "agentic-ai",
+        "agentic-framework",
+        "ai-agents",
+        "harness",
+        "multi-agent",
+        "terminal-agent",
+        "tui"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

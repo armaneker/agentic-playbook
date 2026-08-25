@@ -31686,7 +31686,7 @@
     },
     "air-embodied-brain/Zetta-Embodiment": {
       "full_name": "air-embodied-brain/Zetta-Embodiment",
-      "description": "",
+      "description": "Zetta is an efficient closed-loop embodied harness for self-evolving physical intelligence. It evolves code-based runtime critics and recovery skills online while keeping the base policy frozen. Project Page: https://air-embodied-brain.github.io/zetta/",
       "language": "Python",
       "url": "https://github.com/air-embodied-brain/Zetta-Embodiment",
       "first_seen": "2026-08-23",
@@ -32056,6 +32056,25 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "bryllim/workout-guide": {
+      "full_name": "bryllim/workout-guide",
+      "description": "302 open exercise illustrations and a framework-neutral npm package by Bryl Lim",
+      "language": "Astro",
+      "url": "https://github.com/bryllim/workout-guide",
+      "first_seen": "2026-08-25",
+      "has_summary": false,
+      "topics": [
+        "exercise",
+        "expo",
+        "fitness",
+        "npm-package",
+        "open-source",
+        "react-native",
+        "workout"
+      ],
+      "category": "Mobile",
+      "version": "v1.0.0"
     }
   }
 }

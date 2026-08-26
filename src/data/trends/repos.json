@@ -32086,6 +32086,142 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "fzakaria/selfdb": {
+      "full_name": "fzakaria/selfdb",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/fzakaria/selfdb",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kunchenguid/backpass": {
+      "full_name": "kunchenguid/backpass",
+      "description": "You don't write AGENTS.md. You train it with gradient descent.",
+      "language": "JavaScript",
+      "url": "https://github.com/kunchenguid/backpass",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "backpass-v0.1.4"
+    },
+    "inkboard/system-atlas": {
+      "full_name": "inkboard/system-atlas",
+      "description": "An agent skill that turns an architecture discussion into an explorable isometric atlas: one data file, an interactive map and a generated SYSTEM.md",
+      "language": "HTML",
+      "url": "https://github.com/inkboard/system-atlas",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ChenShuo2004/cs-board": {
+      "full_name": "ChenShuo2004/cs-board",
+      "description": "将参考声音和中文文案自动生成白板动画视频的本地 AI 工具。",
+      "language": "Python",
+      "url": "https://github.com/ChenShuo2004/cs-board",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "chinese",
+        "fastapi",
+        "index-tts",
+        "react",
+        "tts",
+        "whiteboard-animation"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "bam-bam-2/solo-skills": {
+      "full_name": "bam-bam-2/solo-skills",
+      "description": "1인 사업가 생산성 키트 — 직원 없이 49개를 자동화했고, 그중 바로 쓸 수 있는 AI 에이전트 스킬 26개(+실행 스크립트)를 공개합니다",
+      "language": "Python",
+      "url": "https://github.com/bam-bam-2/solo-skills",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agent",
+        "automation",
+        "claude-code",
+        "korean",
+        "productivity",
+        "skills",
+        "solopreneur"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "themartiano/try-omarchy": {
+      "full_name": "themartiano/try-omarchy",
+      "description": "Try Omarchy on Apple Silicon without any setup.",
+      "language": "Shell",
+      "url": "https://github.com/themartiano/try-omarchy",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "archlinux",
+        "community",
+        "linux",
+        "macos",
+        "omarchy",
+        "qemu",
+        "virtualization"
+      ],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "amosblomqvist/learn": {
+      "full_name": "amosblomqvist/learn",
+      "description": "My AI learning system.",
+      "language": "TypeScript",
+      "url": "https://github.com/amosblomqvist/learn",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "User0332/rewards-farmer": {
+      "full_name": "User0332/rewards-farmer",
+      "description": "Automation for MS Rewards based on https://youtu.be/4qdPcMNaioA",
+      "language": "Python",
+      "url": "https://github.com/User0332/rewards-farmer",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark": {
+      "full_name": "MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
+      "description": "DeepSeek v4 Flash EXL3 on one DGX Spark",
+      "language": "Python",
+      "url": "https://github.com/MiaAI-Lab/DeepSeek-v4-Flash-One-DGX-Spark",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "smontlouis/bible-strong-avatar-lab": {
+      "full_name": "smontlouis/bible-strong-avatar-lab",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/smontlouis/bible-strong-avatar-lab",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -31432,11 +31432,18 @@
       "has_summary": false,
       "topics": [
         "agent",
+        "ai-agents",
+        "codex",
+        "cordis",
         "deekseek",
         "desktop",
         "dsh",
         "dsh-plugin",
-        "harness"
+        "harness",
+        "linux",
+        "macos",
+        "skills",
+        "windows"
       ],
       "category": "Agentic",
       "version": "v0.2.0"
@@ -32217,6 +32224,17 @@
       "description": "",
       "language": "TypeScript",
       "url": "https://github.com/smontlouis/bible-strong-avatar-lab",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "GamePhanes/GamePhanes": {
+      "full_name": "GamePhanes/GamePhanes",
+      "description": "An open-source game coding agent environment and benchmark for Godot.",
+      "language": "JavaScript",
+      "url": "https://github.com/GamePhanes/GamePhanes",
       "first_seen": "2026-08-26",
       "has_summary": false,
       "topics": [],

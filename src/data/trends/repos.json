@@ -32240,6 +32240,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "yding-git/personal-edge-proxy": {
+      "full_name": "yding-git/personal-edge-proxy",
+      "description": "A practical multi-inbound, multi-outbound personal proxy setup with Xray, Hysteria2, REALITY Vision, WARP and optional static SOCKS5 routing.",
+      "language": "Unknown",
+      "url": "https://github.com/yding-git/personal-edge-proxy",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "wide-trace/open-higgsfield": {
+      "full_name": "wide-trace/open-higgsfield",
+      "description": "A studio for image and video generation — one prompt bar, each model’s own settings, and every finished run in one gallery.",
+      "language": "TypeScript",
+      "url": "https://github.com/wide-trace/open-higgsfield",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

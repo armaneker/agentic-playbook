@@ -32262,6 +32262,49 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "GradientRL/Gradient": {
+      "full_name": "GradientRL/Gradient",
+      "description": "Gradient",
+      "language": "Python",
+      "url": "https://github.com/GradientRL/Gradient",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "halofyai/halofy": {
+      "full_name": "halofyai/halofy",
+      "description": "Halofy is the open access and governance layer for AI agents across your organization. Identity, policy, provenance, audit, and signed erasure.",
+      "language": "TypeScript",
+      "url": "https://github.com/halofyai/halofy",
+      "first_seen": "2026-08-26",
+      "has_summary": false,
+      "topics": [
+        "access-control",
+        "agent-governance",
+        "agent-memory",
+        "agent-visibility",
+        "ai-agents",
+        "audit-log",
+        "context-engineering",
+        "data-governance",
+        "data-provenance",
+        "identity-management",
+        "knowledge-management",
+        "model-context-protocol",
+        "multi-agent-systems",
+        "multi-tenant",
+        "open-source",
+        "organizational-context",
+        "pgvector",
+        "rbac",
+        "scoped-access",
+        "tenant-isolation"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

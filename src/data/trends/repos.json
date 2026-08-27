@@ -31745,7 +31745,7 @@
     "amagine-ai/Amagine3D": {
       "full_name": "amagine-ai/Amagine3D",
       "description": "Amagine3D: From hardware requirements to editable 3D designs",
-      "language": "TypeScript",
+      "language": "Python",
       "url": "https://github.com/amagine-ai/Amagine3D",
       "first_seen": "2026-08-23",
       "has_summary": false,
@@ -32338,6 +32338,51 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "HEJustinSun/my-girlfriend-jingtian-latex": {
+      "full_name": "HEJustinSun/my-girlfriend-jingtian-latex",
+      "description": "",
+      "language": "TeX",
+      "url": "https://github.com/HEJustinSun/my-girlfriend-jingtian-latex",
+      "first_seen": "2026-08-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Tencent/WeMM-Embedding": {
+      "full_name": "Tencent/WeMM-Embedding",
+      "description": "WeMM-Embedding is a family of universal multimodal embedding models by the WeChat Vision Team at Tencent, supporting multimodal understanding and retrieval.",
+      "language": "Python",
+      "url": "https://github.com/Tencent/WeMM-Embedding",
+      "first_seen": "2026-08-27",
+      "has_summary": false,
+      "topics": [
+        "embedding-models",
+        "multimodal",
+        "multimodal-llm"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "LerSent001/orb": {
+      "full_name": "LerSent001/orb",
+      "description": "持续迭代维护的实时 WebGPU 液态玻璃球编辑器，支持 Web 与 SwiftUI/Metal 导出，使用 OpenAI Codex 辅助开发与验证",
+      "language": "TypeScript",
+      "url": "https://github.com/LerSent001/orb",
+      "first_seen": "2026-08-27",
+      "has_summary": false,
+      "topics": [
+        "metal",
+        "openai-codex",
+        "react",
+        "shader",
+        "swiftui",
+        "webgpu",
+        "wgsl"
+      ],
+      "category": "Web Framework",
       "version": null
     }
   }

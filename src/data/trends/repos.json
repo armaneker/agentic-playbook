@@ -30892,6 +30892,7 @@
         "ai-safety",
         "authorization",
         "decionis",
+        "execution-authority",
         "human-in-the-loop",
         "mcp",
         "policy-as-code",
@@ -32304,6 +32305,39 @@
         "tenant-isolation"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "N4darae/anti-mage": {
+      "full_name": "N4darae/anti-mage",
+      "description": "Browser testing utilizes various methods and algorithms, and performs calculations based on multiple parameters.",
+      "language": "Go",
+      "url": "https://github.com/N4darae/anti-mage",
+      "first_seen": "2026-08-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "larashero3-dotcom/lieflat-less-ai-tone": {
+      "full_name": "larashero3-dotcom/lieflat-less-ai-tone",
+      "description": "一个基于 283 万字语料统计的去 AI 味 skill · An AI-tone removal skill grounded in a 2.83-million-character corpus study",
+      "language": "Python",
+      "url": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+      "first_seen": "2026-08-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lxf746/outlook-auto-register": {
+      "full_name": "lxf746/outlook-auto-register",
+      "description": "Microsoft Outlook Fluent Web API 协议注册工具（纯协议，无浏览器依赖）",
+      "language": "Python",
+      "url": "https://github.com/lxf746/outlook-auto-register",
+      "first_seen": "2026-08-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

@@ -30810,7 +30810,7 @@
         "task-scheduling"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.3.0"
     },
     "Leutenegger/watermarks-remover": {
       "full_name": "Leutenegger/watermarks-remover",
@@ -32003,7 +32003,7 @@
         "llm"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "rome-web-components-v0.1.9"
     },
     "only-cli/oc": {
       "full_name": "only-cli/oc",
@@ -32403,13 +32403,24 @@
     },
     "totec448-spec/chat-on-steroids": {
       "full_name": "totec448-spec/chat-on-steroids",
-      "description": "Local Windows coding and computer-use bridge for ChatGPT over MCP, limited to folders and capabilities you approve.",
+      "description": "Cross-platform local MCP capabilities for ChatGPT with Chrome integration, Goal, Compact & Resume, and durable multi-agent workflows.",
       "language": "TypeScript",
       "url": "https://github.com/totec448-spec/chat-on-steroids",
       "first_seen": "2026-08-28",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "automation",
+        "chatgpt",
+        "chrome-extension",
+        "electron",
+        "linux",
+        "local-first",
+        "macos",
+        "mcp",
+        "multi-agent",
+        "windows"
+      ],
+      "category": "Agentic",
       "version": "v2.0.2"
     },
     "s0xDk/refactoring-ui-skill": {
@@ -32469,6 +32480,47 @@
       ],
       "category": "Other",
       "version": "v0.1.8"
+    },
+    "sapientinc/PRAXIST": {
+      "full_name": "sapientinc/PRAXIST",
+      "description": "Autonomous research system for measurable, computer-executable research.",
+      "language": "Python",
+      "url": "https://github.com/sapientinc/PRAXIST",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "POUND0423/AI-drama-pound": {
+      "full_name": "POUND0423/AI-drama-pound",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/POUND0423/AI-drama-pound",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "gtlhuyidan-sketch/life-ipo": {
+      "full_name": "gtlhuyidan-sketch/life-ipo",
+      "description": "人生 IPO：统一财务、健康、知识、人脉、AI 决策与团队执行的个人数据操作系统。",
+      "language": "TypeScript",
+      "url": "https://github.com/gtlhuyidan-sketch/life-ipo",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [
+        "ai-planning",
+        "crm",
+        "health-data",
+        "knowledge-management",
+        "life-ipo",
+        "personal-finance",
+        "team-collaboration"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

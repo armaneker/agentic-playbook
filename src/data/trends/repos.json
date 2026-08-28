@@ -31833,7 +31833,7 @@
     },
     "localai-org/kimodo.cpp": {
       "full_name": "localai-org/kimodo.cpp",
-      "description": "NVIDIA Kimodo ported to C++/GGML",
+      "description": "Animate skeletons with natural language; NVIDIA's Kimodo ported to C++/GGML",
       "language": "C++",
       "url": "https://github.com/localai-org/kimodo.cpp",
       "first_seen": "2026-08-24",
@@ -32169,7 +32169,7 @@
     },
     "themartiano/try-omarchy": {
       "full_name": "themartiano/try-omarchy",
-      "description": "Try Omarchy on Apple Silicon without any setup.",
+      "description": "Run Omarchy on MacOS without any setup.",
       "language": "Shell",
       "url": "https://github.com/themartiano/try-omarchy",
       "first_seen": "2026-08-26",
@@ -32384,6 +32384,91 @@
       ],
       "category": "Web Framework",
       "version": null
+    },
+    "dmitryd-ops1996m6/Wilonity": {
+      "full_name": "dmitryd-ops1996m6/Wilonity",
+      "description": "Wilonity Loader – cheat lib w/ spoofer, driver bypass, undetected injector for 20+ games (RUST, CS2, Valorant, Tarkov, Warzone, PUBG, R6S, ArcRiders, Apex, Roblox, Meccha Chameleon). Kernel spoof, HWID cleaner, AC bypass (EAC/BE/VG). ESP, aimbot, WH, wallhack, triggerbot, radar, no recoil, silent aim, chams, skin changer, unlock all, no spread.",
+      "language": "Unknown",
+      "url": "https://github.com/dmitryd-ops1996m6/Wilonity",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [
+        "arc-raiders",
+        "counter-strike-2",
+        "hack",
+        "meccha-chameleon-tools"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "totec448-spec/chat-on-steroids": {
+      "full_name": "totec448-spec/chat-on-steroids",
+      "description": "Local Windows coding and computer-use bridge for ChatGPT over MCP, limited to folders and capabilities you approve.",
+      "language": "TypeScript",
+      "url": "https://github.com/totec448-spec/chat-on-steroids",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.0.2"
+    },
+    "s0xDk/refactoring-ui-skill": {
+      "full_name": "s0xDk/refactoring-ui-skill",
+      "description": "A Claude Code skill that applies the concrete design rules from the book Refactoring UI (Wathan & Schoger) — constrained spacing/type/color/shadow scales, hierarchy through weight and color, and depth through emulated light — to building and fixing interfaces.",
+      "language": "CSS",
+      "url": "https://github.com/s0xDk/refactoring-ui-skill",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "alchaincyf/huashu-excel": {
+      "full_name": "alchaincyf/huashu-excel",
+      "description": "数据分析与 Excel 全流程 skill：体检脏表、清洗、对齐需求、分析、对账、交付。让 AI 算出来的数字经得起追问。跨 agent 通用，依赖仅 openpyxl。",
+      "language": "Python",
+      "url": "https://github.com/alchaincyf/huashu-excel",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "NxcoreAI/EverRoom": {
+      "full_name": "NxcoreAI/EverRoom",
+      "description": "EverRoom - A workspace that remembers your projects, decisions, and sources.",
+      "language": "TypeScript",
+      "url": "https://github.com/NxcoreAI/EverRoom",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "editor",
+        "electron",
+        "knowledge",
+        "memory",
+        "notion",
+        "obisidian",
+        "typescript"
+      ],
+      "category": "AI / ML",
+      "version": "desktop-v0.1.5"
+    },
+    "PC2005-cloud/dsh-pet": {
+      "full_name": "PC2005-cloud/dsh-pet",
+      "description": "DSH 桌面宠物：一行命令装好即用的透明动画小桌宠，支持多开、大小位置随心配置；还内置 DIY 素材链，能用 AI 视频自造专属宠物",
+      "language": "TypeScript",
+      "url": "https://github.com/PC2005-cloud/dsh-pet",
+      "first_seen": "2026-08-28",
+      "has_summary": false,
+      "topics": [
+        "deepseek-harness",
+        "desktop-pet",
+        "dsh",
+        "dsh-plugin"
+      ],
+      "category": "Other",
+      "version": "v0.1.8"
     }
   }
 }

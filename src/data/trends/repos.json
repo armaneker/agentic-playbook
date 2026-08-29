@@ -32170,13 +32170,16 @@
     "themartiano/try-omarchy": {
       "full_name": "themartiano/try-omarchy",
       "description": "Run Omarchy on MacOS without any setup.",
-      "language": "Swift",
+      "language": "Shell",
       "url": "https://github.com/themartiano/try-omarchy",
       "first_seen": "2026-08-26",
       "has_summary": false,
       "topics": [
+        "aarch64",
         "apple-silicon",
         "archlinux",
+        "arm",
+        "arm64",
         "community",
         "linux",
         "macos",
@@ -32721,6 +32724,46 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "tradecatlabs/shulihuazixuecongshu": {
+      "full_name": "tradecatlabs/shulihuazixuecongshu",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/tradecatlabs/shulihuazixuecongshu",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "jub0t/WolfCut": {
+      "full_name": "jub0t/WolfCut",
+      "description": "Free & Open-Source CapCut replacement.",
+      "language": "TypeScript",
+      "url": "https://github.com/jub0t/WolfCut",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "audio",
+        "audio-processing",
+        "capcut-alternative",
+        "capcut-for-pc",
+        "clipper",
+        "clipping",
+        "editing",
+        "editor",
+        "ffmpeg",
+        "rust",
+        "tauri",
+        "video",
+        "video-editing",
+        "video-editor",
+        "video-generation",
+        "video-processing",
+        "whisper"
+      ],
+      "category": "DevTools",
       "version": null
     }
   }

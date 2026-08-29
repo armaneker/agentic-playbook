@@ -32679,6 +32679,49 @@
       ],
       "category": "Agentic",
       "version": "v0.2.1"
+    },
+    "MetaMask-AI/metamask-desktop": {
+      "full_name": "MetaMask-AI/metamask-desktop",
+      "description": "🌐 🔌 The MetaMask desktop app enables browsing Ethereum blockchain enabled websites",
+      "language": "CSS",
+      "url": "https://github.com/MetaMask-AI/metamask-desktop",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "bitcoin",
+        "bitcoin-wallet",
+        "crypto",
+        "cryptocoins",
+        "cryptocompare-api",
+        "cryptocurrency",
+        "dapp",
+        "ethereum",
+        "ethereum-blockchain",
+        "ethereum-wallet",
+        "evm",
+        "evm-wallet",
+        "macos",
+        "metamask",
+        "metamask-dapp",
+        "metamask-desktop",
+        "metamask-io",
+        "solana",
+        "web3",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v1.6.0"
+    },
+    "jprx/darwin-vm": {
+      "full_name": "jprx/darwin-vm",
+      "description": "Run iOS/ macOS in Qemu. Virtual iPhone 17, 16, 15, 14, 13, 12 and M5-M1 Apple Si Macs supported.",
+      "language": "Python",
+      "url": "https://github.com/jprx/darwin-vm",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

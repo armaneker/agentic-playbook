@@ -29859,7 +29859,7 @@
     },
     "guillaumemeyer/watermarks-remover": {
       "full_name": "guillaumemeyer/watermarks-remover",
-      "description": "Strip multi-vendor AI provenance marks: Unicode text hygiene, statistical rewrite hooks, and C2PA/metadata from PNG/JPEG/SVG/PDF/DOCX/HTML/MD",
+      "description": "A privacy-first app that strips AI watermarks from content you own.",
       "language": "Python",
       "url": "https://github.com/guillaumemeyer/watermarks-remover",
       "first_seen": "2026-08-12",
@@ -32170,7 +32170,7 @@
     "themartiano/try-omarchy": {
       "full_name": "themartiano/try-omarchy",
       "description": "Run Omarchy on MacOS without any setup.",
-      "language": "Shell",
+      "language": "Swift",
       "url": "https://github.com/themartiano/try-omarchy",
       "first_seen": "2026-08-26",
       "has_summary": false,
@@ -32520,7 +32520,165 @@
         "team-collaboration"
       ],
       "category": "Other",
+      "version": "v0.1.0"
+    },
+    "crmne/fastpotify": {
+      "full_name": "crmne/fastpotify",
+      "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "language": "Rust",
+      "url": "https://github.com/crmne/fastpotify",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "audio",
+        "cross-platform",
+        "desktop-app",
+        "egui",
+        "gui",
+        "librespot",
+        "linux",
+        "macos",
+        "mpris",
+        "music",
+        "music-player",
+        "rust",
+        "spotify",
+        "spotify-client",
+        "spotify-connect",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "Nanako0129/sepia": {
+      "full_name": "Nanako0129/sepia",
+      "description": "De-AI writing skill for Claude Code, Codex, Grok Build, and Antigravity — narrative-architecture repair for fiction, venue-matched rules for professional prose. Based on StoryScope (arXiv:2604.03136).",
+      "language": "Shell",
+      "url": "https://github.com/Nanako0129/sepia",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-writing",
+        "antigravity",
+        "claude-code",
+        "codex",
+        "developer-tools",
+        "fiction",
+        "grok",
+        "humanizer",
+        "llm",
+        "prompt-engineering",
+        "writing-tools"
+      ],
+      "category": "AI / ML",
+      "version": "v0.2.0"
+    },
+    "breslee1707/VI-Translate": {
+      "full_name": "breslee1707/VI-Translate",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/breslee1707/VI-Translate",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.3"
+    },
+    "HanyuanWang/LiveStream-Agent-Studio": {
+      "full_name": "HanyuanWang/LiveStream-Agent-Studio",
+      "description": "面向抖音直播电商的 Windows 本地 AI Agent Studio，贯通主播发现、直播洞察、直播复盘与短视频内容编导的统一智能工作流。",
+      "language": "Python",
+      "url": "https://github.com/HanyuanWang/LiveStream-Agent-Studio",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "douyin",
+        "livestream",
+        "speech-to-text"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "XiaoDuoYa/codex-with-chatgpt": {
+      "full_name": "XiaoDuoYa/codex-with-chatgpt",
+      "description": "ChatGPT thinks. Codex works. Use ChatGPT as the planning brain while keeping the Codex harness.",
+      "language": "TypeScript",
+      "url": "https://github.com/XiaoDuoYa/codex-with-chatgpt",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "chatgpt",
+        "codex",
+        "mcp",
+        "model-context-protocol",
+        "oauth"
+      ],
+      "category": "Agentic",
       "version": null
+    },
+    "murerkinn/bookshelf": {
+      "full_name": "murerkinn/bookshelf",
+      "description": "Self-hosted ebook library that runs on object storage - a Cloudflare Worker over R2, or a Node server over a directory. No database.",
+      "language": "TypeScript",
+      "url": "https://github.com/murerkinn/bookshelf",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "cloudflare-workers",
+        "ebook",
+        "epub",
+        "self-hosted"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "iamlukethedev/Hermes3D": {
+      "full_name": "iamlukethedev/Hermes3D",
+      "description": "Hermes3D is an open source 3D engine built on Hermes Agents for creating games, simulations, and high-performance 3D applications.",
+      "language": "TypeScript",
+      "url": "https://github.com/iamlukethedev/Hermes3D",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "3d-engine",
+        "game-engine",
+        "gamedev",
+        "graphics",
+        "hermes",
+        "hermes3d",
+        "javascript",
+        "open-source",
+        "rendering",
+        "threejs",
+        "webgl"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "shanliuling/dsh-image-gen": {
+      "full_name": "shanliuling/dsh-image-gen",
+      "description": "Generate images directly in DeepSeek Harness chats",
+      "language": "TypeScript",
+      "url": "https://github.com/shanliuling/dsh-image-gen",
+      "first_seen": "2026-08-29",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "cordis",
+        "deepseek",
+        "deepseek-harness",
+        "dsh-plugin",
+        "gemini",
+        "image-generation",
+        "openai",
+        "plugin",
+        "seedream"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.1"
     }
   }
 }

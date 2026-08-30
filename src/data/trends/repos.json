@@ -32641,7 +32641,7 @@
         "oauth"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.1.0"
     },
     "murerkinn/bookshelf": {
       "full_name": "murerkinn/bookshelf",
@@ -32766,23 +32766,25 @@
       "first_seen": "2026-08-29",
       "has_summary": false,
       "topics": [
-        "audio",
-        "audio-processing",
+        "audio-processor",
+        "auto-caption",
+        "automation",
+        "capcut",
         "capcut-alternative",
-        "capcut-for-pc",
-        "clipper",
-        "clipping",
-        "editing",
-        "editor",
+        "content-creation",
+        "cross-platform",
+        "desktop-app",
         "ffmpeg",
-        "rust",
-        "tauri",
-        "video",
+        "free-video-editor",
+        "non-linear-editor",
+        "offline-first",
+        "open-source-video-editor",
+        "rust-lang",
+        "tauri-app",
         "video-editing",
-        "video-editor",
-        "video-generation",
-        "video-processing",
-        "whisper"
+        "video-editing-software",
+        "video-processing-tool",
+        "whisper-cpp"
       ],
       "category": "DevTools",
       "version": null

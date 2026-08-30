@@ -32776,6 +32776,120 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "chrisgreg/boop": {
+      "full_name": "chrisgreg/boop",
+      "description": "A tiny, self-hosted notification inbox for developers. Something happened in one of your apps; Boop tells you on your phone.",
+      "language": "Go",
+      "url": "https://github.com/chrisgreg/boop",
+      "first_seen": "2026-08-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2.0"
+    },
+    "OnlyTerp/opengrok": {
+      "full_name": "OnlyTerp/opengrok",
+      "description": "Run any model in Grok Bot — one-command setup, model picker UI, evidence-based provider wire maps, and an update-proof doctor. Not farming you, arming you.",
+      "language": "JavaScript",
+      "url": "https://github.com/OnlyTerp/opengrok",
+      "first_seen": "2026-08-30",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "grok",
+        "llm",
+        "model-router",
+        "openai-compatible",
+        "windows"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "tt-a1i/simplify-codebase": {
+      "full_name": "tt-a1i/simplify-codebase",
+      "description": "Prove and remove accidental codebase complexity without breaking behavior.",
+      "language": "Unknown",
+      "url": "https://github.com/tt-a1i/simplify-codebase",
+      "first_seen": "2026-08-30",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "code-quality",
+        "codebase",
+        "codex",
+        "developer-tools",
+        "refactoring"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "leopard627/fire-your-seo-agency": {
+      "full_name": "leopard627/fire-your-seo-agency",
+      "description": "Fire your SEO·GEO agency 🔥 A Claude Code skill that audits and optimizes SEO·AEO·GEO·LLMO·NEO(Naver) by itself — 월 50~350만 원짜리 'AI 검색 최적화' 대행, AI 에이전트가 대체합니다",
+      "language": "Unknown",
+      "url": "https://github.com/leopard627/fire-your-seo-agency",
+      "first_seen": "2026-08-30",
+      "has_summary": false,
+      "topics": [
+        "aeo",
+        "ai-search",
+        "claude-code",
+        "claude-skills",
+        "geo",
+        "llmo",
+        "llms-txt",
+        "naver",
+        "seo"
+      ],
+      "category": "Other",
+      "version": "fire-your-seo-agency--v1.1.0"
+    },
+    "xevrion/breakscale": {
+      "full_name": "xevrion/breakscale",
+      "description": "Build a system, load it until it breaks, and watch why. A system design simulator for learning distributed systems.",
+      "language": "TypeScript",
+      "url": "https://github.com/xevrion/breakscale",
+      "first_seen": "2026-08-30",
+      "has_summary": false,
+      "topics": [
+        "canvas",
+        "distributed-systems",
+        "education",
+        "learning",
+        "queueing-theory",
+        "react",
+        "simulator",
+        "system-design",
+        "teaching-tool",
+        "typescript"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "S1N6H/pentest-harness": {
+      "full_name": "S1N6H/pentest-harness",
+      "description": "Pentest Harness — Heaven for Hackers. A self-hosted AI agent harness for authorized pentests, bug bounty, security labs, and CTFs. Bring your own AI model API; sessions stay local.",
+      "language": "TypeScript",
+      "url": "https://github.com/S1N6H/pentest-harness",
+      "first_seen": "2026-08-30",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "anthropic-api",
+        "bug-bounty",
+        "infosec",
+        "llm",
+        "offensive-security",
+        "open-source",
+        "openai-api",
+        "pentesting",
+        "red-team",
+        "security-tools"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

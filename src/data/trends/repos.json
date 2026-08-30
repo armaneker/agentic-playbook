@@ -32170,7 +32170,7 @@
     "themartiano/try-omarchy": {
       "full_name": "themartiano/try-omarchy",
       "description": "Run Omarchy on MacOS without any setup.",
-      "language": "Shell",
+      "language": "Swift",
       "url": "https://github.com/themartiano/try-omarchy",
       "first_seen": "2026-08-26",
       "has_summary": false,
@@ -32887,6 +32887,24 @@
         "pentesting",
         "red-team",
         "security-tools"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "cbrock84/headcount": {
+      "full_name": "cbrock84/headcount",
+      "description": "An agent organization for Claude Code, structured as a company — 15+ departments, 125+ skills, each independently installable.",
+      "language": "Markdown",
+      "url": "https://github.com/cbrock84/headcount",
+      "first_seen": "2026-08-30",
+      "has_summary": false,
+      "topics": [
+        "agent-marketplace",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-plugin",
+        "claude-skills",
+        "mcp"
       ],
       "category": "Agentic",
       "version": null

@@ -33040,7 +33040,7 @@
     },
     "jub0t/Concat": {
       "full_name": "jub0t/Concat",
-      "description": "Free & Open-Source CapCut replacement.",
+      "description": "Free & Open-Source CapCut replacement. (formerly WolfCut)",
       "language": "TypeScript",
       "url": "https://github.com/jub0t/Concat",
       "first_seen": "2026-08-31",
@@ -33163,6 +33163,28 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "soirihiroka/shrimply": {
+      "full_name": "soirihiroka/shrimply",
+      "description": "you're telling me a shrimp made this video?",
+      "language": "Rust",
+      "url": "https://github.com/soirihiroka/shrimply",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AgriciDaniel/youtubepro": {
+      "full_name": "AgriciDaniel/youtubepro",
+      "description": "Local-first YouTube research, grounded AI insights, script writing, and thumbnail creation.",
+      "language": "TypeScript",
+      "url": "https://github.com/AgriciDaniel/youtubepro",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
     }
   }
 }

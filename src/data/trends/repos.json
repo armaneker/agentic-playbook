@@ -31865,7 +31865,7 @@
     },
     "zhu1090093659/dsh-web": {
       "full_name": "zhu1090093659/dsh-web",
-      "description": "DeepSeek Harness（DSH）Web 插件聚合生态包 · 一切皆插件，创意工坊分发",
+      "description": "DeepSeek Harness (DSH) Web Plugin Aggregation Ecosystem · Everything is a plugin, distributed via the Creative Workshop",
       "language": "TypeScript",
       "url": "https://github.com/zhu1090093659/dsh-web",
       "first_seen": "2026-08-24",
@@ -32930,6 +32930,112 @@
         "mcp"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "damejan80/tokentab": {
+      "full_name": "damejan80/tokentab",
+      "description": "A CLI that reads Claude Code, Codex, and Gemini CLI session logs and works out how much they cost, by model, project, and day.",
+      "language": "Python",
+      "url": "https://github.com/damejan80/tokentab",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "claude",
+        "claude-code",
+        "cursor",
+        "python",
+        "token-optimization",
+        "token-usage"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "hkqr/my-free-code": {
+      "full_name": "hkqr/my-free-code",
+      "description": "Open-source multi-provider AI gateway for Claude Code and other coding agents, with model routing, streaming, tools, reasoning, fallbacks, and local model support",
+      "language": "Python",
+      "url": "https://github.com/hkqr/my-free-code",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "claude-code",
+        "free-claude-api",
+        "multi-provider",
+        "multi-provider-llm"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "mouredev/hello-sdd": {
+      "full_name": "mouredev/hello-sdd",
+      "description": "Curso de SDD (Spec-Driven Development) desde cero",
+      "language": "Python",
+      "url": "https://github.com/mouredev/hello-sdd",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [
+        "sdd",
+        "spec-driven-development"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "KKKKhazix/sun-style-writing": {
+      "full_name": "KKKKhazix/sun-style-writing",
+      "description": "从孙割19年白月光的痛彻心扉中蒸馏出来的无上心法",
+      "language": "Unknown",
+      "url": "https://github.com/KKKKhazix/sun-style-writing",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "chinese-writing",
+        "claude-code",
+        "codex",
+        "literary-writing",
+        "prompt-engineering",
+        "writing"
+      ],
+      "category": "AI / ML",
+      "version": "v1.0.0"
+    },
+    "oboroge0/hayamimi": {
+      "full_name": "oboroge0/hayamimi",
+      "description": "早耳 - Real-time multilingual speech-to-text on CPU only. Live subtitles, browser dashboard, speaker labels, translation. No GPU, no cloud.",
+      "language": "Python",
+      "url": "https://github.com/oboroge0/hayamimi",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [
+        "asr",
+        "japanese",
+        "multilingual",
+        "real-time",
+        "sherpa-onnx",
+        "speech-recognition",
+        "subtitles"
+      ],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "nateherkai/snagtime": {
+      "full_name": "nateherkai/snagtime",
+      "description": "Free, self-hostable scheduling app with booking links, Google Calendar sync, SMTP notifications, and Stripe test payments.",
+      "language": "TypeScript",
+      "url": "https://github.com/nateherkai/snagtime",
+      "first_seen": "2026-08-31",
+      "has_summary": false,
+      "topics": [
+        "google-calendar",
+        "nextjs",
+        "prisma",
+        "scheduling",
+        "self-hosted",
+        "stripe"
+      ],
+      "category": "Database",
       "version": null
     }
   }

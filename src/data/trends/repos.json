@@ -33331,6 +33331,55 @@
       ],
       "category": "Agentic",
       "version": "v0.0.3"
+    },
+    "brayonpi/hexstellar": {
+      "full_name": "brayonpi/hexstellar",
+      "description": "Turn any AI agent into a computational researcher. HexStellar Cortex delivers software-accelerated optimization, quantum computing, scientific computing, decision intelligence, and verifiable execution through a Python CLI and API—with certainty labels, verification receipts, examples, and a free sandbox. Start instantly: pip install hexstellar",
+      "language": "Python",
+      "url": "https://github.com/brayonpi/hexstellar",
+      "first_seen": "2026-09-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "Git-Agni/prod-FARM-IOS-Core": {
+      "full_name": "Git-Agni/prod-FARM-IOS-Core",
+      "description": "A farm of real iPhones, run from your Mac. Open-source iOS device automation with live control, a Postgres-backed scheduler, and TikTok workflows. Self-hosted, Apache-2.0.",
+      "language": "TypeScript",
+      "url": "https://github.com/Git-Agni/prod-FARM-IOS-Core",
+      "first_seen": "2026-09-01",
+      "has_summary": false,
+      "topics": [
+        "appium",
+        "device-farm",
+        "ios-automation",
+        "marketing-automation",
+        "phone-farm",
+        "tiktok-automation-script",
+        "webdriveragent"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Leonxlnx/unlazy": {
+      "full_name": "Leonxlnx/unlazy",
+      "description": "Anti-laziness skill for AI agents. Core: the Depth Tree method, which splits a task N layers deep and gives every leaf the full time budget of the whole task, so effort multiplies with depth. Grounded in 2025-2026 research on model laziness, underthinking and premature completion.",
+      "language": "JavaScript",
+      "url": "https://github.com/Leonxlnx/unlazy",
+      "first_seen": "2026-09-01",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "claude",
+        "claude-code",
+        "llm",
+        "productivity",
+        "prompt-engineering",
+        "skill"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

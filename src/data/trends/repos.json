@@ -33284,6 +33284,53 @@
       ],
       "category": "Agentic",
       "version": "v0.1.18"
+    },
+    "amap-cvlab/ABot-Recon": {
+      "full_name": "amap-cvlab/ABot-Recon",
+      "description": "Streaming 3D reconstruction from only video input: Revisiting Local Context for Long-Horizon Streaming 3D Reconstruction",
+      "language": "Python",
+      "url": "https://github.com/amap-cvlab/ABot-Recon",
+      "first_seen": "2026-09-01",
+      "has_summary": false,
+      "topics": [
+        "3d-reconstruction",
+        "abot-recon",
+        "slam"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "useagenthq/useagent": {
+      "full_name": "useagenthq/useagent",
+      "description": "The open-source AI coworker for your team: agents with their own cloud computer, your tools and context, handing back finished work websites, decks, spreadsheets, reports, PRs. Runs Claude Code, Codex, OpenCode on your subscription.",
+      "language": "TypeScript",
+      "url": "https://github.com/useagenthq/useagent",
+      "first_seen": "2026-09-01",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-coworker",
+        "automation",
+        "autonomous-agents",
+        "bun",
+        "claude",
+        "codex",
+        "coding-agent",
+        "computer-use",
+        "developer-tools",
+        "llm",
+        "open-source",
+        "opencode",
+        "postgres",
+        "sandbox",
+        "self-hosted",
+        "slack-bot",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.0.3"
     }
   }
 }

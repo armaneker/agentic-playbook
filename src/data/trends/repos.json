@@ -33411,6 +33411,31 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "2akouwu/codex-cli-portable-setup-kit": {
+      "full_name": "2akouwu/codex-cli-portable-setup-kit",
+      "description": "Autonomous Systems & Security Toolkit for OpenAI Codex CLI. Deterministic binary analysis, decoupled pipeline, and zero-friction execution.",
+      "language": "Python",
+      "url": "https://github.com/2akouwu/codex-cli-portable-setup-kit",
+      "first_seen": "2026-09-02",
+      "has_summary": false,
+      "topics": [
+        "agentic-workflow",
+        "ai-agents",
+        "automation",
+        "codex",
+        "codex-cli",
+        "developer-tools",
+        "execution-first",
+        "hooks",
+        "openai",
+        "powershell",
+        "prompt-engineering",
+        "skills",
+        "windows"
+      ],
+      "category": "Agentic",
+      "version": "v6.9.0"
     }
   }
 }

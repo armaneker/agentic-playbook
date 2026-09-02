@@ -33380,6 +33380,37 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "Player-YN/PawWork_ZhuaZhua": {
+      "full_name": "Player-YN/PawWork_ZhuaZhua",
+      "description": "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "language": "JavaScript",
+      "url": "https://github.com/Player-YN/PawWork_ZhuaZhua",
+      "first_seen": "2026-09-02",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "browser-agent",
+        "byok",
+        "chrome-extension",
+        "llm",
+        "pptx",
+        "tldraw",
+        "univer"
+      ],
+      "category": "Agentic",
+      "version": "unpacked-570482b"
+    },
+    "Tencent-Hunyuan/Hy4-preview": {
+      "full_name": "Tencent-Hunyuan/Hy4-preview",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Tencent-Hunyuan/Hy4-preview",
+      "first_seen": "2026-09-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

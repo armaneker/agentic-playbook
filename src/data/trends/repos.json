@@ -33647,6 +33647,51 @@
       "topics": [],
       "category": "Other",
       "version": "v1.3.0"
+    },
+    "Merserk/dlss5-visual-enhancer": {
+      "full_name": "Merserk/dlss5-visual-enhancer",
+      "description": "DLSS 5 Neural Video & Image Enhancer with Frame Interpolation",
+      "language": "Python",
+      "url": "https://github.com/Merserk/dlss5-visual-enhancer",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [
+        "ai-upscaling",
+        "dlss",
+        "dlss-5",
+        "dlssg",
+        "frame-generation",
+        "frame-interpolation",
+        "image-enhancement",
+        "image-upscaling",
+        "neural-rendering",
+        "nvidia",
+        "nvidia-rtx",
+        "video-enhancement",
+        "video-upscaling"
+      ],
+      "category": "Other",
+      "version": "v5.0"
+    },
+    "lnkiai/m3e-canvas": {
+      "full_name": "lnkiai/m3e-canvas",
+      "description": "Sketch Material 3 Expressive screens in the browser and turn them into vibe-coding prompts.",
+      "language": "TypeScript",
+      "url": "https://github.com/lnkiai/m3e-canvas",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [
+        "design-tool",
+        "material-3-expressive",
+        "material-design",
+        "material3",
+        "nextjs",
+        "prompt",
+        "react",
+        "vibe-coding"
+      ],
+      "category": "Web Framework",
+      "version": null
     }
   }
 }

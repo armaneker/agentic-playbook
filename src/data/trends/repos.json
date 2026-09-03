@@ -30028,7 +30028,7 @@
     },
     "Hisn00w/ASu-skills": {
       "full_name": "Hisn00w/ASu-skills",
-      "description": "简历包装",
+      "description": "🚀面向求职与开发场景的实用 AI Skills 集合，支持简历优化、岗位投递、面试准备与开发提效。",
       "language": "HTML",
       "url": "https://github.com/Hisn00w/ASu-skills",
       "first_seen": "2026-08-13",
@@ -33609,6 +33609,44 @@
       "topics": [],
       "category": "Other",
       "version": "v0.0.7"
+    },
+    "deeplethe/utopia": {
+      "full_name": "deeplethe/utopia",
+      "description": "World's first open-source enterprise world model.",
+      "language": "Rust",
+      "url": "https://github.com/deeplethe/utopia",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [
+        "agent-memory",
+        "bitemporal",
+        "graphrag",
+        "knowledge-base",
+        "knowledge-graph",
+        "llm",
+        "ontology",
+        "pgvector",
+        "postgresql",
+        "rag",
+        "rust",
+        "self-hosted",
+        "semantic-search",
+        "temporal-knowledge-graph",
+        "world-model"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "dsheval/dsh-top100": {
+      "full_name": "dsheval/dsh-top100",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/dsheval/dsh-top100",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.3.0"
     }
   }
 }

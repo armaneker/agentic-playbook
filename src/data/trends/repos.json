@@ -29305,7 +29305,7 @@
     },
     "eternityspring/shuohao-skills": {
       "full_name": "eternityspring/shuohao-skills",
-      "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays. Runs in Claude Code & codex.",
+      "description": "AI 短剧制作的 skill 集合：拆角色、排大纲、出场景与道具设定、写剧本、切分镜 | Agent skills for AI short-drama production — character bibles, adaptation outlines, art bibles, screenplays, storyboards. Runs in Claude Code & codex.",
       "language": "JavaScript",
       "url": "https://github.com/eternityspring/shuohao-skills",
       "first_seen": "2026-08-09",
@@ -33528,6 +33528,87 @@
       ],
       "category": "Web Framework",
       "version": "cn@0.2.4"
+    },
+    "anthropics/commerce-agents": {
+      "full_name": "anthropics/commerce-agents",
+      "description": "Reference blueprint for building shopping and merchant agents with Claude. Examples in retail, commerce, telecom, and entertainment included.",
+      "language": "Python",
+      "url": "https://github.com/anthropics/commerce-agents",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "subsy/skill-cabinet": {
+      "full_name": "subsy/skill-cabinet",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/subsy/skill-cabinet",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.6.0"
+    },
+    "fanhao375/microduck-replica": {
+      "full_name": "fanhao375/microduck-replica",
+      "description": "Microduck 复刻 · 从官方 MJCF 与 Rust 源码反推出的装配图、CAD 装配体与完整电控方案 | Mechanical + electronics reconstruction of Pollen Robotics' Microduck",
+      "language": "Python",
+      "url": "https://github.com/fanhao375/microduck-replica",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0"
+    },
+    "lightorigins/LightNav-0": {
+      "full_name": "lightorigins/LightNav-0",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/lightorigins/LightNav-0",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Ryze-AI-Adgent/open-seo-mcp-skills": {
+      "full_name": "Ryze-AI-Adgent/open-seo-mcp-skills",
+      "description": "Open-source SEO + GEO skills for Claude — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility. Runs on your real Search Console / GA4 / ads data via MCP, with DataForSEO built in. Free, MIT.",
+      "language": "Shell",
+      "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [
+        "ai-seo",
+        "backlinks",
+        "claude",
+        "claude-skills",
+        "dataforseo",
+        "generative-engine-optimization",
+        "geo",
+        "keyword-research",
+        "mcp",
+        "mcp-server",
+        "open-source-seo",
+        "rank-tracking",
+        "seo",
+        "seo-audit"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "vercel-labs/fx": {
+      "full_name": "vercel-labs/fx",
+      "description": "Unix like coding agent",
+      "language": "Zig",
+      "url": "https://github.com/vercel-labs/fx",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.0.7"
     }
   }
 }

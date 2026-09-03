@@ -29,7 +29,7 @@
     },
     "openclaw/openclaw": {
       "full_name": "openclaw/openclaw",
-      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞 ",
+      "description": "The AI that really does things. Any OS. Any Platform. The lobster way. 🦞 ",
       "language": "TypeScript",
       "url": "https://github.com/openclaw/openclaw",
       "first_seen": "2026-03-22",
@@ -33471,32 +33471,32 @@
     },
     "2akouwu/reverify": {
       "full_name": "2akouwu/reverify",
-      "description": "Verified reverse engineering: AI RE grounded on deterministic tools - results checked against the binary, not hallucinated.",
+      "description": "AI makes things up when it reads a binary. Reverify checks its every claim against the real bytes, so you see what's actually true — AI-assisted reverse engineering you can trust. LLM proposes, deterministic tools verify. MCP server + CLI.",
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "first_seen": "2026-09-02",
       "has_summary": false,
       "topics": [
-        "agentic-workflow",
+        "ai",
         "ai-agents",
-        "automation",
         "binary-analysis",
-        "codex",
-        "codex-cli",
+        "capstone",
         "ctf",
+        "decompiler",
         "developer-tools",
         "disassembler",
-        "execution-first",
         "frida",
-        "hooks",
+        "hallucination",
+        "hex",
+        "llm",
         "malware-analysis",
         "mcp",
-        "openai",
-        "powershell",
-        "prompt-engineering",
+        "mcp-server",
+        "python",
         "reverse-engineering",
-        "skills",
-        "windows"
+        "security-tools",
+        "unicorn",
+        "verification"
       ],
       "category": "Agentic",
       "version": "v0.1.0"
@@ -33691,6 +33691,17 @@
         "vibe-coding"
       ],
       "category": "Web Framework",
+      "version": null
+    },
+    "MSNightmare/FalconFlank": {
+      "full_name": "MSNightmare/FalconFlank",
+      "description": "Crowdstrike Falcon 0day Privilege Escalation Vulnerability",
+      "language": "C",
+      "url": "https://github.com/MSNightmare/FalconFlank",
+      "first_seen": "2026-09-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

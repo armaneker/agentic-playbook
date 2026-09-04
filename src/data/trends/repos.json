@@ -33929,6 +33929,34 @@
       ],
       "category": "Other",
       "version": "v0.11.1"
+    },
+    "danielblnc/DLSS-NR-on-AMD": {
+      "full_name": "danielblnc/DLSS-NR-on-AMD",
+      "description": "Run DLSS 5 Neural Rendering on your AMD GPU. Magic!",
+      "language": "Unknown",
+      "url": "https://github.com/danielblnc/DLSS-NR-on-AMD",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.10"
+    },
+    "nahrek/polyledger": {
+      "full_name": "nahrek/polyledger",
+      "description": "Resumable Polymarket indexer: CLOB market metadata plus on-chain trades from Polygon, in one DuckDB file you can query with SQL",
+      "language": "Python",
+      "url": "https://github.com/nahrek/polyledger",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "data-science",
+        "hypersync",
+        "polymarket",
+        "polymarketprediction-markets",
+        "prediction-market"
+      ],
+      "category": "Data",
+      "version": null
     }
   }
 }

@@ -32166,7 +32166,7 @@
         "whiteboard-animation"
       ],
       "category": "Web Framework",
-      "version": null
+      "version": "v1.0.0"
     },
     "bam-bam-2/solo-skills": {
       "full_name": "bam-bam-2/solo-skills",
@@ -33471,7 +33471,7 @@
     },
     "2akouwu/reverify": {
       "full_name": "2akouwu/reverify",
-      "description": "AI makes things up when it reads a binary. Reverify checks its every claim against the real bytes, so you see what's actually true — AI-assisted reverse engineering you can trust. LLM proposes, deterministic tools verify. MCP server + CLI.",
+      "description": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI.",
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "first_seen": "2026-09-02",
@@ -33479,15 +33479,16 @@
       "topics": [
         "ai",
         "ai-agents",
+        "anti-hallucination",
         "binary-analysis",
-        "capstone",
+        "context-engineering",
         "ctf",
-        "decompiler",
         "developer-tools",
         "disassembler",
         "frida",
+        "grounding",
         "hallucination",
-        "hex",
+        "hallucination-detection",
         "llm",
         "malware-analysis",
         "mcp",
@@ -33495,7 +33496,6 @@
         "python",
         "reverse-engineering",
         "security-tools",
-        "unicorn",
         "verification"
       ],
       "category": "Agentic",
@@ -33701,6 +33701,165 @@
       "first_seen": "2026-09-03",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "PhiloLabs/fable51-worlds": {
+      "full_name": "PhiloLabs/fable51-worlds",
+      "description": "worlds via code, from fable 5.1",
+      "language": "JavaScript",
+      "url": "https://github.com/PhiloLabs/fable51-worlds",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "3d-reconstruction",
+        "ai-agents",
+        "claude",
+        "digital-twin",
+        "openstreetmap",
+        "procedural-generation",
+        "san-francisco",
+        "threejs",
+        "urban-simulation",
+        "webgl"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "aimen08/noty": {
+      "full_name": "aimen08/noty",
+      "description": "Sticky notes that live at the edge of your screen. Native macOS, SwiftUI + AppKit, local-only with encrypted note bodies.",
+      "language": "HTML",
+      "url": "https://github.com/aimen08/noty",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.6.1"
+    },
+    "faisalkindi/DLSS5oneclick": {
+      "full_name": "faisalkindi/DLSS5oneclick",
+      "description": "One-click setup of the leaked DLSS 5 neural-rendering build for any DX11/DX12 game on RTX 20–50, with or without DLSS. ReShade + RenoDX add-on (or OptiScaler engine); DLSS5-Feeder + LumeniteFX for games without DLSS; dlss5-bridge for DX11. Rust, single exe.",
+      "language": "Rust",
+      "url": "https://github.com/faisalkindi/DLSS5oneclick",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.10.7"
+    },
+    "codejunkie99/fable-orchestrator": {
+      "full_name": "codejunkie99/fable-orchestrator",
+      "description": "Fable 5.1 orchestrates. GPT-5.6 Luna and DeepSeek V4 Flash implement.",
+      "language": "Shell",
+      "url": "https://github.com/codejunkie99/fable-orchestrator",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "siknet/FreePEP": {
+      "full_name": "siknet/FreePEP",
+      "description": "人教社电子教材下载器",
+      "language": "Python",
+      "url": "https://github.com/siknet/FreePEP",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0"
+    },
+    "ZJU-REAL/Easel": {
+      "full_name": "ZJU-REAL/Easel",
+      "description": "An open-source AI agent for social media — discover trends, create content, publish everywhere, and learn what works across Xiaohongshu, Douyin, Zhihu, Bilibili, and more.🎨一个开源的 AI 社交媒体智能体——发现热点趋势、创作内容、一键发布至各大平台，并学习分析哪些内容真正有效，覆盖小红书、抖音、知乎、哔哩哔哩等平台。",
+      "language": "Python",
+      "url": "https://github.com/ZJU-REAL/Easel",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-skill",
+        "content-automation",
+        "content-creation",
+        "content-generation",
+        "mcp",
+        "openclaw",
+        "social-media",
+        "social-media-management"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "Human-Agent-Society/reef": {
+      "full_name": "Human-Agent-Society/reef",
+      "description": "Continual learning infra for self-improving agents",
+      "language": "Python",
+      "url": "https://github.com/Human-Agent-Society/reef",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "agent-infrastructure",
+        "ai-agents",
+        "continual-learning",
+        "inference",
+        "llm",
+        "llm-training",
+        "reinforcement-learning",
+        "self-improving-agents"
+      ],
+      "category": "Agentic",
+      "version": "v0.0.2"
+    },
+    "carloslfu/slotstream": {
+      "full_name": "carloslfu/slotstream",
+      "description": "Run Qwen3.8-Flash-Next (125B MoE, 104 GB at 4-bit) on Macs with a fraction of that RAM by streaming experts from SSD. MLX + Swift, Ollama-compatible API.",
+      "language": "Swift",
+      "url": "https://github.com/carloslfu/slotstream",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "llm",
+        "llm-inference",
+        "local-llm",
+        "macos",
+        "mixture-of-experts",
+        "mlx",
+        "ollama",
+        "qwen",
+        "swift"
+      ],
+      "category": "AI / ML",
+      "version": "v0.2.6"
+    },
+    "TetreesEX/TetreesAgent_EX": {
+      "full_name": "TetreesEX/TetreesAgent_EX",
+      "description": "This Agent MCP allows you to train external intelligence with zero GPU and let you trade it at Tetrees EX ",
+      "language": "JavaScript",
+      "url": "https://github.com/TetreesEX/TetreesAgent_EX",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "LAMDA-NeSy/Research-Starter-Kit": {
+      "full_name": "LAMDA-NeSy/Research-Starter-Kit",
+      "description": "从0开始，掌握做科研、写论文的基本流程。",
+      "language": "Unknown",
+      "url": "https://github.com/LAMDA-NeSy/Research-Starter-Kit",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "ai-research",
+        "awesome",
+        "awesome-list",
+        "phd",
+        "phd-research",
+        "research-assistant",
+        "research-skills"
+      ],
       "category": "Other",
       "version": null
     }

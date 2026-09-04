@@ -33862,6 +33862,73 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "Albert-Weasker/niubigeo": {
+      "full_name": "Albert-Weasker/niubigeo",
+      "description": "Open-source AI brand visibility and competitor reports",
+      "language": "TypeScript",
+      "url": "https://github.com/Albert-Weasker/niubigeo",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "op7418/guizang-yingzao-skill": {
+      "full_name": "op7418/guizang-yingzao-skill",
+      "description": "🏯 Claude Code / Codex skill — transform Chinese architecture, cultural places & travel photos into art-directed editorial posters with GPT Image. 中国古建筑与在地文化照片 → 艺术指导海报",
+      "language": "Python",
+      "url": "https://github.com/op7418/guizang-yingzao-skill",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "anthropic",
+        "chinese-architecture",
+        "chinese-culture",
+        "claude-code",
+        "claude-skill",
+        "codex",
+        "cultural-heritage",
+        "editorial-design",
+        "gpt-image",
+        "image-generation",
+        "openai",
+        "photography",
+        "poster-design",
+        "skill",
+        "skills",
+        "travel-photography",
+        "visual-design",
+        "xiaohongshu"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "ruoyuw22-byte/NeuroMorph-Assessment": {
+      "full_name": "ruoyuw22-byte/NeuroMorph-Assessment",
+      "description": "An automated structural MRI morphometry system integrating CAT12 processing, brain tissue quantification, visualization, and automated report generation.",
+      "language": "Python",
+      "url": "https://github.com/ruoyuw22-byte/NeuroMorph-Assessment",
+      "first_seen": "2026-09-04",
+      "has_summary": false,
+      "topics": [
+        "brain-imaging",
+        "brain-morphometry",
+        "brain-mri",
+        "cat12",
+        "desktop-application",
+        "image-analysis",
+        "medical-imaging",
+        "mri",
+        "neuroimaging",
+        "neuroinformatics",
+        "python",
+        "spm12"
+      ],
+      "category": "Other",
+      "version": "v0.11.1"
     }
   }
 }

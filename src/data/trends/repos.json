@@ -33957,6 +33957,93 @@
       ],
       "category": "Data",
       "version": null
+    },
+    "dashdogy/RTX40MFG-Unlock": {
+      "full_name": "dashdogy/RTX40MFG-Unlock",
+      "description": "Experimental DLSS Multi Frame Generation controls for any supported MFG title on RTX 40 series GPUs",
+      "language": "C++",
+      "url": "https://github.com/dashdogy/RTX40MFG-Unlock",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2"
+    },
+    "ahujasid/camera-to-blender": {
+      "full_name": "ahujasid/camera-to-blender",
+      "description": "Take a photo of real objects, and paste them in Blender",
+      "language": "JavaScript",
+      "url": "https://github.com/ahujasid/camera-to-blender",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "anthropics/fermats-last-theorem": {
+      "full_name": "anthropics/fermats-last-theorem",
+      "description": "",
+      "language": "Lean",
+      "url": "https://github.com/anthropics/fermats-last-theorem",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kydlikebtc/awesome-grokbot": {
+      "full_name": "kydlikebtc/awesome-grokbot",
+      "description": "440 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+      "language": "Python",
+      "url": "https://github.com/kydlikebtc/awesome-grokbot",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai-agents",
+        "ai-tools",
+        "awesome",
+        "awesome-list",
+        "bot-templates",
+        "catalog",
+        "cursor",
+        "directory",
+        "grok",
+        "grok-bot",
+        "grokbot",
+        "llm",
+        "prompt-engineering",
+        "xai"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "dreamers-laboratory/image-to-3d-pipeline": {
+      "full_name": "dreamers-laboratory/image-to-3d-pipeline",
+      "description": "Reconstruct 3D meshes from images with several open-source models and score which did it best.",
+      "language": "JavaScript",
+      "url": "https://github.com/dreamers-laboratory/image-to-3d-pipeline",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LunarXuan/image-prompt-reverse": {
+      "full_name": "LunarXuan/image-prompt-reverse",
+      "description": "High-fidelity AI image prompt reverse-engineering skill for Codex",
+      "language": "Unknown",
+      "url": "https://github.com/LunarXuan/image-prompt-reverse",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [
+        "codex",
+        "skill",
+        "skill-md",
+        "skills"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

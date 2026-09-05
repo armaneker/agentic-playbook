@@ -33471,7 +33471,7 @@
     },
     "2akouwu/reverify": {
       "full_name": "2akouwu/reverify",
-      "description": "Anti-hallucination for AI agents that read binaries. The model proposes, deterministic tools decide: every claim is VERIFIED or REFUTED against the real bytes, with evidence, and grounded facts survive context resets. MCP server + CLI.",
+      "description": "Stop your AI from making things up — it proposes, deterministic tools decide, every claim checked against ground truth with evidence. Grounded facts and context survive resets. Reverse engineering is the proving ground. MCP server + CLI.",
       "language": "Python",
       "url": "https://github.com/2akouwu/reverify",
       "first_seen": "2026-09-02",
@@ -33479,13 +33479,13 @@
       "topics": [
         "ai",
         "ai-agents",
+        "ai-coding",
         "anti-hallucination",
         "binary-analysis",
         "context-engineering",
         "ctf",
         "developer-tools",
         "disassembler",
-        "frida",
         "grounding",
         "hallucination",
         "hallucination-detection",
@@ -33993,7 +33993,7 @@
     },
     "kydlikebtc/awesome-grokbot": {
       "full_name": "kydlikebtc/awesome-grokbot",
-      "description": "440 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
+      "description": "532 live x.ai/bot shares for Grok Bot — every link status-checked, every row attributed. Bilingual EN/中文 catalog with a JSON schema, CI, and a searchable site.",
       "language": "Python",
       "url": "https://github.com/kydlikebtc/awesome-grokbot",
       "first_seen": "2026-09-05",
@@ -34042,6 +34042,28 @@
         "skill-md",
         "skills"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "yczz/oc-english": {
+      "full_name": "yczz/oc-english",
+      "description": "养成类游戏英语学习",
+      "language": "JavaScript",
+      "url": "https://github.com/yczz/oc-english",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "sonicloudco/recorder": {
+      "full_name": "sonicloudco/recorder",
+      "description": "Recorder Sdk",
+      "language": "Objective-C",
+      "url": "https://github.com/sonicloudco/recorder",
+      "first_seen": "2026-09-05",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

@@ -34189,6 +34189,57 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "pierrenade/short-video-generator-AI": {
+      "full_name": "pierrenade/short-video-generator-AI",
+      "description": "Free open-source project designed for turning youtube-viedos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content.",
+      "language": "Python",
+      "url": "https://github.com/pierrenade/short-video-generator-AI",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-video",
+        "python",
+        "short-video-maker",
+        "video-generation"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "burakgon/stop-stutter": {
+      "full_name": "burakgon/stop-stutter",
+      "description": "Smoother game streaming on Mac. Automatic AWDL boost for Moonlight, GeForce NOW, Punktfunk, Parsec & Steam Link. Native SwiftUI + Liquid Glass. MIT.",
+      "language": "Swift",
+      "url": "https://github.com/burakgon/stop-stutter",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [
+        "awdl",
+        "game-streaming",
+        "geforce-now",
+        "latency",
+        "liquid-glass",
+        "macos",
+        "moonlight",
+        "parsec",
+        "steam-link",
+        "stutter",
+        "swiftui"
+      ],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "vinzdg/codenotch": {
+      "full_name": "vinzdg/codenotch",
+      "description": "A macOS app that pins usage limits from Claude Code, Cursor, Codex, and Antigravity to a screen edge.",
+      "language": "Swift",
+      "url": "https://github.com/vinzdg/codenotch",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.4.0"
     }
   }
 }

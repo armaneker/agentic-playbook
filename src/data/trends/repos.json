@@ -34058,8 +34058,8 @@
     },
     "sonicloudco/recorder": {
       "full_name": "sonicloudco/recorder",
-      "description": "Recorder Sdk",
-      "language": "Objective-C",
+      "description": "声云录音卡 Recorder 是一套面向开发者和行业客户的智能录音硬件接入方案。 项目以录音卡片硬件为核心，开放 BLE 协议 SDK 及 Android、iOS、鸿蒙、Flutter 接入示例，同时提供 Windows/macOS 桌面端 Demo，支持设备连接、录音控制、实时音频、文件传输、OTA 升级和语音转写等能力，帮助开发者快速将录音硬件接入自己的 App、桌面软件或行业系统。 如需获取硬件规格、样机、完整协议、SDK 资料或定制服务，请联系安徽声云",
+      "language": "HTML",
       "url": "https://github.com/sonicloudco/recorder",
       "first_seen": "2026-09-05",
       "has_summary": false,
@@ -34282,6 +34282,17 @@
         "ui-components"
       ],
       "category": "Mobile",
+      "version": null
+    },
+    "byJoey/warp-masque-actions": {
+      "full_name": "byJoey/warp-masque-actions",
+      "description": "GitHub Actions 自动生成 Cloudflare WARP (MASQUE) 密钥与 mihomo 配置，产物只存 artifact",
+      "language": "JavaScript",
+      "url": "https://github.com/byJoey/warp-masque-actions",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

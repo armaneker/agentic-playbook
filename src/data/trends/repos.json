@@ -34240,6 +34240,49 @@
       "topics": [],
       "category": "Other",
       "version": "v1.4.0"
+    },
+    "pipicat613/MuToolsProject": {
+      "full_name": "pipicat613/MuToolsProject",
+      "description": "一站式 MuMu12 模拟器安装与优化工具",
+      "language": "Rust",
+      "url": "https://github.com/pipicat613/MuToolsProject",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.0"
+    },
+    "Appllama/liquid-glass-screens": {
+      "full_name": "Appllama/liquid-glass-screens",
+      "description": "Explore liquid-glass welcome screens with floating stickers and interactive swipe animations.",
+      "language": "TypeScript",
+      "url": "https://github.com/Appllama/liquid-glass-screens",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "expo",
+        "expo-router",
+        "glassmorphism",
+        "ios",
+        "liquid-glass",
+        "mobile-development",
+        "mobile-ui",
+        "onboarding",
+        "react",
+        "react-native",
+        "react-native-animation",
+        "react-native-gesture-handler",
+        "react-native-reanimated",
+        "react-native-skia",
+        "react-native-ui",
+        "shaders",
+        "skia",
+        "typescript",
+        "ui-components"
+      ],
+      "category": "Mobile",
+      "version": null
     }
   }
 }

@@ -34101,6 +34101,94 @@
       ],
       "category": "Other",
       "version": "v1.0.6"
+    },
+    "sebbbi/NoGraphicsAPI": {
+      "full_name": "sebbbi/NoGraphicsAPI",
+      "description": "Minimal graphics API. Built on top of latest Vulkan extensions. As close as possibly to my \"No Graphics API\" blog post and the SIGGRAPH talk.",
+      "language": "C++",
+      "url": "https://github.com/sebbbi/NoGraphicsAPI",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ashemag/human-atlas": {
+      "full_name": "ashemag/human-atlas",
+      "description": "Open-source 3D anatomy explorer: 2,234 selectable BodyParts3D meshes, system layers, search, and exploded views.",
+      "language": "TypeScript",
+      "url": "https://github.com/ashemag/human-atlas",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "KJGX66F/usque-custom-pro": {
+      "full_name": "KJGX66F/usque-custom-pro",
+      "description": "基于 Cloudflare WARP / MASQUE 的可视化注册、配置生成与多客户端转换工具。 生成、Clash/Mihomo 智能分流、Shadowrocket、sing-box、本地 VLESS 桥接，以及可选的 WARP 出口检测。",
+      "language": "JavaScript",
+      "url": "https://github.com/KJGX66F/usque-custom-pro",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "thisisgm/flea": {
+      "full_name": "thisisgm/flea",
+      "description": "A fast, keyboard-first file manager for Omarchy: Quickshell front end, Rust backend.",
+      "language": "Shell",
+      "url": "https://github.com/thisisgm/flea",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [
+        "file-manager",
+        "hyprland",
+        "linux",
+        "omarchy",
+        "qml",
+        "quickshell",
+        "rust",
+        "wayland"
+      ],
+      "category": "Other",
+      "version": "v0.1.3"
+    },
+    "Merit-Systems/OpenInstinct": {
+      "full_name": "Merit-Systems/OpenInstinct",
+      "description": "iMessage personal assistant + password vault",
+      "language": "TypeScript",
+      "url": "https://github.com/Merit-Systems/OpenInstinct",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai",
+        "ai-agents",
+        "imessage"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "LivXue/dsh-plugin-shop": {
+      "full_name": "LivXue/dsh-plugin-shop",
+      "description": "The most comprehensive DeepSeek Harness plugin market — refreshed daily, sourced across the Internet, reviewed before publishing.",
+      "language": "TypeScript",
+      "url": "https://github.com/LivXue/dsh-plugin-shop",
+      "first_seen": "2026-09-06",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "deepseek",
+        "deepseek-harness",
+        "deepseek-harness-plugin",
+        "dsh",
+        "dsh-plugin",
+        "harness"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

@@ -34294,6 +34294,39 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "okf-memory/okf-agent-memory": {
+      "full_name": "okf-memory/okf-agent-memory",
+      "description": "Git-native persistent memory for AI coding agents. Implements Google OKF v0.2 with sub-300µs in-memory BM25 search, embedded MCP server, and progressive disclosure. Slashes token bloat by 80% with zero external databases or dependencies. Built in pure Go.",
+      "language": "Go",
+      "url": "https://github.com/okf-memory/okf-agent-memory",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.1.1"
+    },
+    "yizhi-chengzi/video-ai-talking": {
+      "full_name": "yizhi-chengzi/video-ai-talking",
+      "description": "想做真人口播，又不必自己对着镜头念。上传一段真人出镜视频，写好字幕，本机配音并对口型，合成竖屏 MP4。密钥只留在浏览器里。",
+      "language": "TypeScript",
+      "url": "https://github.com/yizhi-chengzi/video-ai-talking",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "blendi-remade/interdimensional-game": {
+      "full_name": "blendi-remade/interdimensional-game",
+      "description": "Create your own adventure with realtime video!",
+      "language": "TypeScript",
+      "url": "https://github.com/blendi-remade/interdimensional-game",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

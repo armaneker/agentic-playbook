@@ -33836,7 +33836,7 @@
     "TetreesEX/TetreesAgent_EX": {
       "full_name": "TetreesEX/TetreesAgent_EX",
       "description": "This Agent MCP allows you to train external intelligence with zero GPU and let you trade it at Tetrees EX ",
-      "language": "JavaScript",
+      "language": "TypeScript",
       "url": "https://github.com/TetreesEX/TetreesAgent_EX",
       "first_seen": "2026-09-04",
       "has_summary": false,
@@ -34326,6 +34326,62 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "EverettFish/holo-card-studio": {
+      "full_name": "EverettFish/holo-card-studio",
+      "description": "Turn the user's description or uploaded reference into a finished, editable Blender card and an interactive Three.js page. Preserve the requested subject, style, typography and destination. This skill contains code and text only; generated artwork belongs in the user's output project.",
+      "language": "Python",
+      "url": "https://github.com/EverettFish/holo-card-studio",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tigerless-labs/agent-memory": {
+      "full_name": "tigerless-labs/agent-memory",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/tigerless-labs/agent-memory",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "KevinLiss/ApeAdmin": {
+      "full_name": "KevinLiss/ApeAdmin",
+      "description": "Apeadmin 面向现代AI应用打造的Python后台管理框架，基于 FastAPI+Vue3 设计100%开源，内置 RBAC 权限管控、审计日志等企业级基础能力。框架集成 MCP‑SSE 网关，具备强大插件生态完整，帮助开发者快速搭建兼具业务管理与 AI 工具输出能力的应用。",
+      "language": "Python",
+      "url": "https://github.com/KevinLiss/ApeAdmin",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "BoardUI/boardui": {
+      "full_name": "BoardUI/boardui",
+      "description": "React design system for agentic interfaces. Every free BoardUI component as source, with a working AI chat app on your own model key as the homepage.",
+      "language": "TypeScript",
+      "url": "https://github.com/BoardUI/boardui",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "ai-chat",
+        "boardui",
+        "design-system",
+        "nextjs",
+        "react",
+        "react-components",
+        "tailwindcss",
+        "ui-components",
+        "vercel"
+      ],
+      "category": "Agentic",
       "version": null
     }
   }

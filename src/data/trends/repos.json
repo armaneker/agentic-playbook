@@ -34188,7 +34188,7 @@
         "harness"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.8.0"
     },
     "pierrenade/short-video-generator-AI": {
       "full_name": "pierrenade/short-video-generator-AI",
@@ -34383,6 +34383,24 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "Jarvis322/macos-sysdata": {
+      "full_name": "Jarvis322/macos-sysdata",
+      "description": "See what is really inside macOS System Data and delete it, item by item, from the menu bar.",
+      "language": "Swift",
+      "url": "https://github.com/Jarvis322/macos-sysdata",
+      "first_seen": "2026-09-07",
+      "has_summary": false,
+      "topics": [
+        "disk-cleanup",
+        "macos",
+        "menubar",
+        "swiftui",
+        "system-data",
+        "xcode"
+      ],
+      "category": "Other",
+      "version": "v0.4.7"
     }
   }
 }

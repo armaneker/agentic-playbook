@@ -34524,6 +34524,17 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "donvito/codex-astra-luna-orchestrator": {
+      "full_name": "donvito/codex-astra-luna-orchestrator",
+      "description": "Use Astra as orchestrator and Luna for subagents in Codex",
+      "language": "Python",
+      "url": "https://github.com/donvito/codex-astra-luna-orchestrator",
+      "first_seen": "2026-09-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -33872,7 +33872,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.2.0"
     },
     "op7418/guizang-yingzao-skill": {
       "full_name": "op7418/guizang-yingzao-skill",
@@ -34302,7 +34302,26 @@
       "url": "https://github.com/okf-memory/okf-agent-memory",
       "first_seen": "2026-09-07",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "agent-memory",
+        "ai-agents",
+        "bm25",
+        "coding-agents",
+        "developer-tools",
+        "git-native",
+        "go",
+        "golang",
+        "knowledge-base",
+        "knowledge-graph",
+        "llm-memory",
+        "markdown",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol",
+        "okf",
+        "open-knowledge-format",
+        "persistent-memory"
+      ],
       "category": "Agentic",
       "version": "v0.1.1"
     },
@@ -34486,6 +34505,25 @@
       ],
       "category": "Agentic",
       "version": "v0.2.0"
+    },
+    "adtexterry-lgtm/unigit-ecosystem": {
+      "full_name": "adtexterry-lgtm/unigit-ecosystem",
+      "description": "UNIGIT public brand and ecosystem hub — AI should work for everyone.",
+      "language": "JavaScript",
+      "url": "https://github.com/adtexterry-lgtm/unigit-ecosystem",
+      "first_seen": "2026-09-08",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-tools",
+        "ai-workbench",
+        "ecosystem",
+        "mcp",
+        "productivity",
+        "unigit"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

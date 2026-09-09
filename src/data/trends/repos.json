@@ -33865,7 +33865,7 @@
     },
     "Albert-Weasker/niubigeo": {
       "full_name": "Albert-Weasker/niubigeo",
-      "description": "Open-source AI brand visibility and competitor reports",
+      "description": "Open-source AI brand visibility and competitor reports. Official website: https://niubigeo.ai/ | Paid services: AI testing by real people and GEO optimization. Pricing: https://niubigeo.ai/pricing",
       "language": "TypeScript",
       "url": "https://github.com/Albert-Weasker/niubigeo",
       "first_seen": "2026-09-04",
@@ -34653,6 +34653,28 @@
       "topics": [],
       "category": "Other",
       "version": "v0.3.0"
+    },
+    "AI-FanGe/Microduck-build-tutorial": {
+      "full_name": "AI-FanGe/Microduck-build-tutorial",
+      "description": "A practical hardware and software setup for a compact RL-powered biped robot.",
+      "language": "Python",
+      "url": "https://github.com/AI-FanGe/Microduck-build-tutorial",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "image.v1"
+    },
+    "gazijarin/itsgiving": {
+      "full_name": "gazijarin/itsgiving",
+      "description": "Express yourself in meetings (with memes, of course).",
+      "language": "Python",
+      "url": "https://github.com/gazijarin/itsgiving",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -34573,7 +34573,7 @@
     },
     "Anshul439/job-auto-apply": {
       "full_name": "Anshul439/job-auto-apply",
-      "description": "",
+      "description": "Automates one-click job applications on Wellfound and Instahyre",
       "language": "TypeScript",
       "url": "https://github.com/Anshul439/job-auto-apply",
       "first_seen": "2026-09-08",
@@ -34606,7 +34606,7 @@
     },
     "datawhalechina/zero-to-sglang": {
       "full_name": "datawhalechina/zero-to-sglang",
-      "description": "面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化，   结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用",
+      "description": "Official SGLang × Datawhale course on LLM inference (中英双语): understand inference, build a mini-sglang from scratch, then read the real SGLang source and land your first PR. 《从零手搓SGLang》：读懂推理，手搓 mini-sglang，吃透 SGLang 源码。",
       "language": "Python",
       "url": "https://github.com/datawhalechina/zero-to-sglang",
       "first_seen": "2026-09-09",
@@ -34670,6 +34670,39 @@
       "description": "Express yourself in meetings (with memes, of course).",
       "language": "Python",
       "url": "https://github.com/gazijarin/itsgiving",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "sdli1995/dlssg_for_sm86": {
+      "full_name": "sdli1995/dlssg_for_sm86",
+      "description": "Here is a dlssg for RTX30 Series GPU ",
+      "language": "Unknown",
+      "url": "https://github.com/sdli1995/dlssg_for_sm86",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "larashero3-dotcom/lieflat-gongwen": {
+      "full_name": "larashero3-dotcom/lieflat-gongwen",
+      "description": "通过102万字语料提炼的公文写作 skill，把公文写作风格变成可测量、可验收的量化数据",
+      "language": "Python",
+      "url": "https://github.com/larashero3-dotcom/lieflat-gongwen",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LBEILC/RhineLabUI": {
+      "full_name": "LBEILC/RhineLabUI",
+      "description": "Rhine Lab archive interface built with TypeScript and Three.js",
+      "language": "TypeScript",
+      "url": "https://github.com/LBEILC/RhineLabUI",
       "first_seen": "2026-09-09",
       "has_summary": false,
       "topics": [],

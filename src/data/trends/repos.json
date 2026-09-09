@@ -34581,6 +34581,78 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "achimala/dream-loop": {
+      "full_name": "achimala/dream-loop",
+      "description": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
+      "language": "Unknown",
+      "url": "https://github.com/achimala/dream-loop",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "OpenVDN/vdn-minimax-h3": {
+      "full_name": "OpenVDN/vdn-minimax-h3",
+      "description": "VideoDeltaNet-H3: Live T2VA / I2VA / FL2VA generation based on Minimax H3.",
+      "language": "Python",
+      "url": "https://github.com/OpenVDN/vdn-minimax-h3",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "datawhalechina/zero-to-sglang": {
+      "full_name": "datawhalechina/zero-to-sglang",
+      "description": "面向大模型开发者的 SGLang 系统化开源教程：从推理基础与环境搭建开始，逐步学习模型部署、结构化生成、服务开发和性能优化，   结合实战案例带你从 0 到 1 掌握 SGLang，构建高性能 LLM 推理应用",
+      "language": "Python",
+      "url": "https://github.com/datawhalechina/zero-to-sglang",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [
+        "cuda",
+        "datawhale",
+        "inference-engine",
+        "infra",
+        "kv-cache",
+        "llm",
+        "llm-inference",
+        "sglang",
+        "tutorial"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "fitchmultz/pi-posthorse": {
+      "full_name": "fitchmultz/pi-posthorse",
+      "description": "Posthorse: fresh context, same journey. Native no-summary context windows for the fitchmultz/pi fork of the Pi coding agent, with rollover tools, durable notes, and history recovery.",
+      "language": "TypeScript",
+      "url": "https://github.com/fitchmultz/pi-posthorse",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [
+        "coding-agent",
+        "context-window",
+        "llm",
+        "pi",
+        "pi-extension",
+        "pi-package"
+      ],
+      "category": "AI / ML",
+      "version": "v0.4.5"
+    },
+    "profullstack/hqtui": {
+      "full_name": "profullstack/hqtui",
+      "description": "High Quality Terminal UI for TypeScript — btop-grade terminal dashboards with a one-import API, dark by default, zero runtime dependencies.",
+      "language": "TypeScript",
+      "url": "https://github.com/profullstack/hqtui",
+      "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.0"
     }
   }
 }

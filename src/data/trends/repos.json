@@ -34585,7 +34585,7 @@
     "achimala/dream-loop": {
       "full_name": "achimala/dream-loop",
       "description": "Agent skill for impressive 3D visuals using Blender + image gen + subagent critic",
-      "language": "Unknown",
+      "language": "JavaScript",
       "url": "https://github.com/achimala/dream-loop",
       "first_seen": "2026-09-09",
       "has_summary": false,
@@ -34715,6 +34715,139 @@
       "language": "TypeScript",
       "url": "https://github.com/nagisanzenin/truanayangi",
       "first_seen": "2026-09-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "com-phantom/Phantom-Wallet-Desktop": {
+      "full_name": "com-phantom/Phantom-Wallet-Desktop",
+      "description": "Phantom Wallet Desktop app for Windows, macOS and Linux. A lightweight desktop client that brings Phantom crypto wallet experience outside the browser with native desktop access.",
+      "language": "HTML",
+      "url": "https://github.com/com-phantom/Phantom-Wallet-Desktop",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [
+        "bitcoin",
+        "blockchain",
+        "cryptocurrency",
+        "defi",
+        "desktop-app",
+        "electron",
+        "ethereum",
+        "js",
+        "nft",
+        "phantom",
+        "phantom-desktop",
+        "phantom-wallet-browser",
+        "phantomjs",
+        "sol-trade",
+        "solana",
+        "solana-launchpad",
+        "solana-wallet-connect",
+        "solana-wallet-manager",
+        "wallet",
+        "web3"
+      ],
+      "category": "Other",
+      "version": "v1.2.0"
+    },
+    "OpenWAM-Official/OpenWAM": {
+      "full_name": "OpenWAM-Official/OpenWAM",
+      "description": "Official repository for \"OpenWAM: An Open, Modular Exploration Towards Systematic World–Action Model Pretraining\".",
+      "language": "Python",
+      "url": "https://github.com/OpenWAM-Official/OpenWAM",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [
+        "generalist-robot-policies",
+        "pretraining",
+        "robotics",
+        "world-action-model"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Sophomoresty/turnstile-bypass": {
+      "full_name": "Sophomoresty/turnstile-bypass",
+      "description": "Cross-platform Cloudflare Turnstile solver (macOS, Windows, Linux)",
+      "language": "Python",
+      "url": "https://github.com/Sophomoresty/turnstile-bypass",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lfzk550/fanzha-ai-proxy": {
+      "full_name": "lfzk550/fanzha-ai-proxy",
+      "description": "国家反诈AI API 转 OpenAI 兼容格式反向代理服务 || 仅学习用途",
+      "language": "Unknown",
+      "url": "https://github.com/lfzk550/fanzha-ai-proxy",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "0x6rss/instagram-private-graph": {
+      "full_name": "0x6rss/instagram-private-graph",
+      "description": "Analyze the followers and following accounts that a private (hidden) Instagram account interacts with.",
+      "language": "Python",
+      "url": "https://github.com/0x6rss/instagram-private-graph",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [
+        "osint",
+        "osint-python",
+        "osint-tool"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "henryzawadzki6542/cloudflare-turnstile-bypass": {
+      "full_name": "henryzawadzki6542/cloudflare-turnstile-bypass",
+      "description": "Work with Cloudflare Turnstile in Python: find the sitekey, get a valid cf-turnstile-response token in seconds. Dependency-free library + CLI, built for CI and automation.",
+      "language": "Python",
+      "url": "https://github.com/henryzawadzki6542/cloudflare-turnstile-bypass",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [
+        "cloudflare",
+        "solver",
+        "turnstile"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "EvoMap/AutoResearch": {
+      "full_name": "EvoMap/AutoResearch",
+      "description": "AI/ML research agents from idea to paper-ready evidence. An EvoMap open-source project.",
+      "language": "Python",
+      "url": "https://github.com/EvoMap/AutoResearch",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "truanayangi-com/truanayangi": {
+      "full_name": "truanayangi-com/truanayangi",
+      "description": "Trưa Nay Ăn Gì — run locally with pnpm. Automatic cookie storage; no login, backend or cloud services required.",
+      "language": "TypeScript",
+      "url": "https://github.com/truanayangi-com/truanayangi",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "sharptoolbox/ontology-driven-dev": {
+      "full_name": "sharptoolbox/ontology-driven-dev",
+      "description": "本体驱动业务系统开发技能：需求探索→本体建模→应用构建三步法，基于七模型本体 YAML 与 code-paas 技术底座。支持 WorkBuddy / Claude Code / Codex。",
+      "language": "TypeScript",
+      "url": "https://github.com/sharptoolbox/ontology-driven-dev",
+      "first_seen": "2026-09-10",
       "has_summary": false,
       "topics": [],
       "category": "Other",

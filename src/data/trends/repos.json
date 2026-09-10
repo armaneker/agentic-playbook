@@ -34904,6 +34904,22 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "aizhimou/javranking-extension": {
+      "full_name": "aizhimou/javranking-extension",
+      "description": "Show all JAV cover and ranking in one click.",
+      "language": "TypeScript",
+      "url": "https://github.com/aizhimou/javranking-extension",
+      "first_seen": "2026-09-10",
+      "has_summary": false,
+      "topics": [
+        "jav",
+        "jav-metadata",
+        "javrank",
+        "javranking"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
     }
   }
 }

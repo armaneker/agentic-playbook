@@ -2,336 +2,332 @@
   "date": "2026-09-10",
   "data": {
     "public-apis/public-apis": {
-      "stars": 478333,
-      "forks": 52792
+      "stars": 478452,
+      "forks": 52807
     },
     "freeCodeCamp/freeCodeCamp": {
-      "stars": 455231,
-      "forks": 46151
+      "stars": 455243,
+      "forks": 46155
     },
     "EbookFoundation/free-programming-books": {
-      "stars": 396387,
-      "forks": 66747
+      "stars": 396416,
+      "forks": 66750
     },
     "openclaw/openclaw": {
-      "stars": 389328,
+      "stars": 389358,
       "forks": 81824
     },
     "nilbuild/developer-roadmap": {
-      "stars": 366771,
-      "forks": 44919
+      "stars": 366787,
+      "forks": 44918
+    },
+    "awesome-selfhosted/awesome-selfhosted": {
+      "stars": 318328,
+      "forks": 14978
     },
     "obra/superpowers": {
-      "stars": 284341,
-      "forks": 25431
+      "stars": 284501,
+      "forks": 25445
     },
     "affaan-m/ECC": {
-      "stars": 255490,
-      "forks": 38254
+      "stars": 255667,
+      "forks": 38280
     },
     "react/react": {
-      "stars": 249643,
-      "forks": 51326
+      "stars": 249648,
+      "forks": 51328
     },
     "torvalds/linux": {
-      "stars": 247677,
-      "forks": 64463
+      "stars": 247712,
+      "forks": 64471
     },
     "NousResearch/hermes-agent": {
-      "stars": 244024,
-      "forks": 50409
+      "stars": 244124,
+      "forks": 50465
     },
     "TheAlgorithms/Python": {
-      "stars": 224439,
-      "forks": 51034
+      "stars": 224453,
+      "forks": 51039
     },
     "deepseek-ai/deepseek-harness": {
-      "stars": 218421,
-      "forks": 25834
+      "stars": 218860,
+      "forks": 25869
     },
     "anomalyco/opencode": {
-      "stars": 206276,
-      "forks": 26956
+      "stars": 206356,
+      "forks": 26974
     },
     "n8n-io/n8n": {
-      "stars": 203910,
-      "forks": 60629
+      "stars": 203928,
+      "forks": 60631
     },
     "tensorflow/tensorflow": {
-      "stars": 199317,
-      "forks": 76283
+      "stars": 199322,
+      "forks": 76285
     },
     "microsoft/vscode": {
-      "stars": 191541,
-      "forks": 42082
+      "stars": 191547,
+      "forks": 42081
     },
     "ohmyzsh/ohmyzsh": {
-      "stars": 189651,
-      "forks": 26575
+      "stars": 189654,
+      "forks": 26577
     },
     "Significant-Gravitas/AutoGPT": {
-      "stars": 187241,
-      "forks": 46028
+      "stars": 187243,
+      "forks": 46029
     },
     "avelino/awesome-go": {
-      "stars": 183681,
-      "forks": 13551
+      "stars": 183700,
+      "forks": 13552
     },
     "microsoft/markitdown": {
-      "stars": 182295,
-      "forks": 13399
+      "stars": 182369,
+      "forks": 13403
     },
     "ollama/ollama": {
-      "stars": 180551,
-      "forks": 17782
+      "stars": 180570,
+      "forks": 17790
     },
     "flutter/flutter": {
-      "stars": 178881,
-      "forks": 31075
+      "stars": 178883,
+      "forks": 31076
     },
     "firecrawl/firecrawl": {
-      "stars": 178575,
-      "forks": 9723
+      "stars": 178684,
+      "forks": 9726
     },
     "twbs/bootstrap": {
-      "stars": 174758,
-      "forks": 78612
+      "stars": 174755,
+      "forks": 78613
     },
     "f/prompts.chat": {
-      "stars": 169845,
-      "forks": 21843
+      "stars": 169858,
+      "forks": 21846
     },
     "huggingface/transformers": {
-      "stars": 165068,
-      "forks": 34497
+      "stars": 165080,
+      "forks": 34501
     },
     "langgenius/dify": {
-      "stars": 155312,
-      "forks": 24524
+      "stars": 155330,
+      "forks": 24529
     },
     "langflow-ai/langflow": {
-      "stars": 154535,
-      "forks": 10062
+      "stars": 154542,
+      "forks": 10061
     },
     "open-webui/open-webui": {
-      "stars": 151520,
-      "forks": 22162
-    },
-    "msitarzewski/agency-agents": {
-      "stars": 151429,
-      "forks": 24369
+      "stars": 151543,
+      "forks": 22166
     },
     "ashemag/human-atlas": {
-      "stars": 2978,
-      "forks": 722
+      "stars": 3036,
+      "forks": 734
     },
     "Albert-Weasker/niubigeo": {
-      "stars": 2276,
-      "forks": 86
+      "stars": 2286,
+      "forks": 87
     },
     "Rion-Wu-tech/wechat-intelligence-hub": {
-      "stars": 2048,
-      "forks": 2555
+      "stars": 2058,
+      "forks": 2562
     },
     "openai/NavierStokesAndEuler": {
-      "stars": 1630,
-      "forks": 157
+      "stars": 1668,
+      "forks": 161
     },
     "vinzdg/codenotch": {
-      "stars": 1328,
-      "forks": 209
+      "stars": 1353,
+      "forks": 212
     },
     "EverettFish/holo-card-studio": {
-      "stars": 1288,
-      "forks": 187
-    },
-    "anthropics/fermats-last-theorem": {
-      "stars": 1005,
-      "forks": 83
+      "stars": 1314,
+      "forks": 191
     },
     "sdli1995/dlssg_for_sm86": {
-      "stars": 1001,
-      "forks": 62
+      "stars": 1245,
+      "forks": 72
     },
     "danielblnc/DLSS-NR-on-AMD": {
-      "stars": 998,
-      "forks": 41
+      "stars": 1007,
+      "forks": 43
+    },
+    "anthropics/fermats-last-theorem": {
+      "stars": 1006,
+      "forks": 84
     },
     "kajisho5/ffmpeg-skill": {
-      "stars": 913,
+      "stars": 926,
       "forks": 65
     },
     "donvito/codex-astra-luna-orchestrator": {
-      "stars": 858,
-      "forks": 67
-    },
-    "ahujasid/camera-to-blender": {
-      "stars": 793,
-      "forks": 82
+      "stars": 899,
+      "forks": 68
     },
     "yang0/handraw-style": {
-      "stars": 753,
-      "forks": 106
+      "stars": 822,
+      "forks": 112
+    },
+    "ahujasid/camera-to-blender": {
+      "stars": 794,
+      "forks": 82
     },
     "KJGX66F/usque-custom-pro": {
-      "stars": 734,
-      "forks": 1122
+      "stars": 743,
+      "forks": 1150
     },
-    "Mantitup-Org/vista": {
-      "stars": 623,
-      "forks": 14
-    },
-    "Jarvis322/macos-sysdata": {
-      "stars": 616,
-      "forks": 32
-    },
-    "AI-FanGe/Microduck-build-tutorial": {
-      "stars": 614,
-      "forks": 161
+    "Edge0-AI/Edge0": {
+      "stars": 726,
+      "forks": 58
     },
     "achimala/dream-loop": {
-      "stars": 577,
-      "forks": 73
+      "stars": 649,
+      "forks": 80
     },
-    "MSNightmare/FalconFlank": {
-      "stars": 570,
-      "forks": 150
+    "Mantitup-Org/vista": {
+      "stars": 635,
+      "forks": 14
     },
-    "byJoey/warp-masque-actions": {
-      "stars": 546,
-      "forks": 2298
+    "AI-FanGe/Microduck-build-tutorial": {
+      "stars": 634,
+      "forks": 162
     },
-    "okf-memory/okf-agent-memory": {
-      "stars": 534,
+    "Jarvis322/macos-sysdata": {
+      "stars": 618,
       "forks": 32
     },
+    "Vincentwei1021/anything2explainer": {
+      "stars": 586,
+      "forks": 104
+    },
+    "MSNightmare/FalconFlank": {
+      "stars": 572,
+      "forks": 152
+    },
+    "byJoey/warp-masque-actions": {
+      "stars": 548,
+      "forks": 2322
+    },
+    "okf-memory/okf-agent-memory": {
+      "stars": 542,
+      "forks": 33
+    },
     "gazijarin/itsgiving": {
-      "stars": 514,
-      "forks": 70
+      "stars": 533,
+      "forks": 72
+    },
+    "truanayangi-com/truanayangi": {
+      "stars": 517,
+      "forks": 83
     },
     "com-phantom/Phantom-Wallet-Desktop": {
       "stars": 511,
       "forks": 31
     },
     "burakgon/stop-stutter": {
-      "stars": 501,
+      "stars": 502,
       "forks": 3
     },
-    "truanayangi-com/truanayangi": {
-      "stars": 474,
-      "forks": 80
+    "jtydhr88/screenwriting-skills": {
+      "stars": 487,
+      "forks": 63
     },
     "OpenWAM-Official/OpenWAM": {
-      "stars": 471,
-      "forks": 17
-    },
-    "Vincentwei1021/anything2explainer": {
-      "stars": 468,
-      "forks": 89
-    },
-    "jtydhr88/screenwriting-skills": {
-      "stars": 435,
-      "forks": 51
-    },
-    "Edge0-AI/Edge0": {
-      "stars": 434,
-      "forks": 34
+      "stars": 486,
+      "forks": 18
     },
     "Sophomoresty/turnstile-bypass": {
-      "stars": 411,
-      "forks": 151
-    },
-    "awesome-selfhosted/awesome-selfhosted": {
-      "stars": 318288,
-      "forks": 14974
+      "stars": 419,
+      "forks": 155
     },
     "practical-tutorials/project-based-learning": {
-      "stars": 282821,
-      "forks": 36203
+      "stars": 282852,
+      "forks": 36205
     },
     "mattpocock/skills": {
-      "stars": 258280,
-      "forks": 21757
+      "stars": 258553,
+      "forks": 21782
     },
     "github/gitignore": {
-      "stars": 175686,
-      "forks": 82199
+      "stars": 175692,
+      "forks": 82202
     },
     "anthropics/skills": {
-      "stars": 175521,
-      "forks": 20775
+      "stars": 175588,
+      "forks": 20781
     },
     "anywhere-labs/dsh-desktop": {
-      "stars": 25067,
-      "forks": 1205
+      "stars": 25228,
+      "forks": 1214
     },
     "guillaumemeyer/watermarks-remover": {
-      "stars": 21576,
-      "forks": 2485
+      "stars": 21610,
+      "forks": 2488
     },
     "awesome-dsh-plugin/awesome-dsh-plugin": {
-      "stars": 15133,
-      "forks": 2753
+      "stars": 15171,
+      "forks": 2764
     },
     "zhu1090093659/dsh-web": {
-      "stars": 7290,
-      "forks": 477
+      "stars": 7321,
+      "forks": 478
     },
     "yjh051108/dsh-routing-suite": {
-      "stars": 7147,
-      "forks": 162
+      "stars": 7152,
+      "forks": 164
     },
     "sapientinc/PRAXIST": {
-      "stars": 6324,
-      "forks": 606
+      "stars": 6328,
+      "forks": 608
     },
     "lnkiai/m3e-canvas": {
-      "stars": 5674,
-      "forks": 543
+      "stars": 5782,
+      "forks": 558
     },
     "MengTo/threeui": {
-      "stars": 5492,
-      "forks": 538
+      "stars": 5508,
+      "forks": 539
     },
     "s1dashu/ip-as-logo-skill": {
-      "stars": 5112,
+      "stars": 5116,
       "forks": 258
     },
     "dataelement/dsh-desktop": {
-      "stars": 4848,
-      "forks": 252
+      "stars": 4919,
+      "forks": 255
     },
     "CopilotKit/OpenBot": {
-      "stars": 4588,
-      "forks": 570
+      "stars": 4600,
+      "forks": 575
     },
     "Hisn00w/ASu-skills": {
-      "stars": 4225,
-      "forks": 254
+      "stars": 4249,
+      "forks": 255
     },
     "dmmulroy/anti-slop": {
-      "stars": 4203,
-      "forks": 92
+      "stars": 4225,
+      "forks": 94
     },
     "XiaoDuoYa/codex-with-chatgpt": {
-      "stars": 3887,
-      "forks": 402
+      "stars": 3919,
+      "forks": 407
     },
     "xiaobright/dsh-anchored-standard": {
-      "stars": 3817,
-      "forks": 120
+      "stars": 3818,
+      "forks": 121
     },
     "crmne/fastpotify": {
-      "stars": 3742,
-      "forks": 168
+      "stars": 3754,
+      "forks": 172
     },
     "wang2122/sprix-sage-router": {
       "stars": 3599,
       "forks": 422
     },
     "dsh-market/dsh-market": {
-      "stars": 3560,
-      "forks": 189
+      "stars": 3590,
+      "forks": 191
     },
     "yetone/cumora": {
       "stars": 3544,
@@ -342,15 +338,15 @@
       "forks": 3601
     },
     "amagine-ai/Amagine3D": {
-      "stars": 3363,
-      "forks": 106
+      "stars": 3462,
+      "forks": 108
     },
     "rakanki911/DLSS5-Swapper": {
-      "stars": 3361,
-      "forks": 170
+      "stars": 3421,
+      "forks": 172
     },
     "yanliudesign/mono-color-skill": {
-      "stars": 2984,
+      "stars": 2989,
       "forks": 77
     },
     "cordiverse/paper": {
@@ -358,43 +354,43 @@
       "forks": 140
     },
     "ccch1mneyyy/dsh-TUI": {
-      "stars": 2926,
-      "forks": 173
+      "stars": 2934,
+      "forks": 174
+    },
+    "EvoMap/AutoResearch": {
+      "stars": 2912,
+      "forks": 191
     },
     "vercel-labs/fx": {
       "stars": 2849,
-      "forks": 325
-    },
-    "EvoMap/AutoResearch": {
-      "stars": 2830,
-      "forks": 186
+      "forks": 324
     },
     "anthropics/commerce-agents": {
-      "stars": 2646,
-      "forks": 481
+      "stars": 2666,
+      "forks": 487
     },
     "Nanako0129/sepia": {
-      "stars": 2512,
-      "forks": 160
+      "stars": 2521,
+      "forks": 161
     },
     "GangTailorUpgrade/undress-service": {
-      "stars": 1212,
+      "stars": 1214,
       "forks": 4
     },
-    "2akouwu/reverify": {
-      "stars": 1086,
-      "forks": 223
-    },
     "brayonpi/hexstellar": {
-      "stars": 1084,
+      "stars": 1096,
       "forks": 118
     },
+    "2akouwu/reverify": {
+      "stars": 1093,
+      "forks": 223
+    },
     "jprx/darwin-vm": {
-      "stars": 1080,
-      "forks": 91
+      "stars": 1082,
+      "forks": 92
     },
     "Human-Agent-Society/reef": {
-      "stars": 903,
+      "stars": 911,
       "forks": 57
     },
     "tradecatlabs/shulihuazixuecongshu": {
@@ -402,60 +398,56 @@
       "forks": 163
     },
     "tigerless-labs/agent-memory": {
-      "stars": 801,
-      "forks": 46
+      "stars": 825,
+      "forks": 48
     },
     "siknet/FreePEP": {
-      "stars": 765,
-      "forks": 124
+      "stars": 801,
+      "forks": 129
     },
     "ZJU-REAL/Easel": {
-      "stars": 757,
-      "forks": 96
+      "stars": 770,
+      "forks": 99
     },
     "Merserk/dlss5-visual-enhancer": {
-      "stars": 702,
+      "stars": 715,
       "forks": 57
     },
     "larashero3-dotcom/lieflat-gongwen": {
-      "stars": 654,
-      "forks": 105
+      "stars": 705,
+      "forks": 116
     },
     "datawhalechina/zero-to-sglang": {
-      "stars": 651,
-      "forks": 49
-    },
-    "fanhao375/microduck-replica": {
-      "stars": 644,
-      "forks": 120
+      "stars": 656,
+      "forks": 50
     },
     "shadcn-ui/cn": {
-      "stars": 1378,
-      "forks": 15
+      "stars": 1390,
+      "forks": 14
     },
     "Git-Agni/prod-FARM-IOS-Core": {
-      "stars": 932,
-      "forks": 177
+      "stars": 938,
+      "forks": 179
     },
     "BoardUI/boardui": {
       "stars": 403,
       "forks": 49
     },
     "yizhi-chengzi/video-ai-talking": {
-      "stars": 364,
+      "stars": 366,
       "forks": 54
     },
     "BagasRizkyHarySaputra/SIAPIN": {
       "stars": 354,
       "forks": 0
     },
-    "nateherkai/snagtime": {
-      "stars": 340,
-      "forks": 115
-    },
     "LBEILC/RhineLabUI": {
-      "stars": 331,
-      "forks": 46
+      "stars": 349,
+      "forks": 49
+    },
+    "nateherkai/snagtime": {
+      "stars": 342,
+      "forks": 115
     },
     "TetreesEX/TetreesAgent_EX": {
       "stars": 304,
@@ -466,20 +458,20 @@
       "forks": 59
     },
     "Appllama/liquid-glass-screens": {
-      "stars": 280,
-      "forks": 27
+      "stars": 282,
+      "forks": 29
     },
     "Anshul439/job-auto-apply": {
       "stars": 265,
-      "forks": 27
+      "forks": 28
+    },
+    "aizhimou/javranking-extension": {
+      "stars": 249,
+      "forks": 12
     },
     "profullstack/hqtui": {
-      "stars": 243,
+      "stars": 244,
       "forks": 17
-    },
-    "blendi-remade/interdimensional-game": {
-      "stars": 241,
-      "forks": 35
     }
   }
 }

@@ -34931,6 +34931,39 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "iamzulx/crypto-rag": {
+      "full_name": "iamzulx/crypto-rag",
+      "description": "Asisten crypto berbahasa Indonesia: RAG pengetahuan 267 topik + data pasar realtime (6 bursa, WebSocket, derivatif, on-chain, TVL, DeFi) + tool-calling agent + LLM synthesis",
+      "language": "Python",
+      "url": "https://github.com/iamzulx/crypto-rag",
+      "first_seen": "2026-09-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "OpenBMB/Meshy": {
+      "full_name": "OpenBMB/Meshy",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/OpenBMB/Meshy",
+      "first_seen": "2026-09-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "NVlabs/SoL-Pi": {
+      "full_name": "NVlabs/SoL-Pi",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/NVlabs/SoL-Pi",
+      "first_seen": "2026-09-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

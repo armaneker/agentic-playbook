@@ -35008,6 +35008,53 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "sumimakito/Mac-Duo": {
+      "full_name": "sumimakito/Mac-Duo",
+      "description": "Wish you could bring the iPhone Duo effect to your MacBook?",
+      "language": "Swift",
+      "url": "https://github.com/sumimakito/Mac-Duo",
+      "first_seen": "2026-09-11",
+      "has_summary": false,
+      "topics": [
+        "flip",
+        "iphone",
+        "iphoneduo",
+        "mac",
+        "macos",
+        "menubar",
+        "menubar-app",
+        "menubarapp"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "mizzlelover/gongwen-gbt9704-skill": {
+      "full_name": "mizzlelover/gongwen-gbt9704-skill",
+      "description": "跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX",
+      "language": "JavaScript",
+      "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
+      "first_seen": "2026-09-11",
+      "has_summary": false,
+      "topics": [
+        "ai-skill",
+        "chinese-official-document",
+        "claude-code",
+        "cross-platform",
+        "document-formatting",
+        "docx",
+        "gbt-9704-2012",
+        "kimi",
+        "opencode",
+        "trae-code",
+        "traework",
+        "word",
+        "workbuddy",
+        "wps",
+        "zcode"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

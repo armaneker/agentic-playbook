@@ -34418,20 +34418,27 @@
     },
     "Jarvis322/macos-sysdata": {
       "full_name": "Jarvis322/macos-sysdata",
-      "description": "See what is really inside macOS System Data and delete it, item by item, from the menu bar.",
+      "description": "See what is really inside macOS System Data and delete it item by item. A free menu bar app that explains every category and shows each command before it runs.",
       "language": "Swift",
       "url": "https://github.com/Jarvis322/macos-sysdata",
       "first_seen": "2026-09-07",
       "has_summary": false,
       "topics": [
+        "cache-cleaner",
+        "developer-tools",
+        "disk-cleaner",
         "disk-cleanup",
+        "disk-space",
         "macos",
+        "macos-app",
         "menubar",
+        "storage",
+        "swift",
         "swiftui",
         "system-data",
         "xcode"
       ],
-      "category": "Other",
+      "category": "Mobile",
       "version": "v0.4.7"
     },
     "Mantitup-Org/vista": {
@@ -35128,7 +35135,7 @@
     },
     "google/artemis": {
       "full_name": "google/artemis",
-      "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.  Created by Google's Pixel-Test-Engineering (PTE) Fusion team.",
+      "description": "ARTEMIS turns natural-language instructions into reliable Android automation. It automates end-to-end workflows, captures logs, and integrates seamlessly with AI coding assistants such as Antigravity, Codex, and Claude Code.  It also achieves 99%+ success rate on AndroidWorld Benchmark.",
       "language": "Python",
       "url": "https://github.com/google/artemis",
       "first_seen": "2026-09-12",
@@ -35153,6 +35160,36 @@
       "topics": [],
       "category": "Agentic",
       "version": "v1.8.1"
+    },
+    "perseval-BLR/DLSS5-NeuralScreen": {
+      "full_name": "perseval-BLR/DLSS5-NeuralScreen",
+      "description": "DLSS 5 Neural Rendering on your whole Windows desktop, in real time. RTX 30/40/50, 12 languages, user presets, recording with audio, one-window mode.",
+      "language": "Python",
+      "url": "https://github.com/perseval-BLR/DLSS5-NeuralScreen",
+      "first_seen": "2026-09-12",
+      "has_summary": false,
+      "topics": [
+        "ai-upscaling",
+        "desktop-overlay",
+        "dlsr",
+        "dlss",
+        "dlss5",
+        "dlss5-autopilot",
+        "dlss5-feeder",
+        "dlss5-oneclick",
+        "dlss5-rtx",
+        "dlss5-swapper",
+        "dlss5-universal",
+        "neural-rendering",
+        "neuralscreen",
+        "ngx",
+        "nvidia",
+        "real-time-ai",
+        "rtx",
+        "windows"
+      ],
+      "category": "AI / ML",
+      "version": "v1.7.0"
     }
   }
 }

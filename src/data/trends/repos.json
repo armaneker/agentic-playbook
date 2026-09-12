@@ -34570,7 +34570,7 @@
     "jtydhr88/screenwriting-skills": {
       "full_name": "jtydhr88/screenwriting-skills",
       "description": "",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/jtydhr88/screenwriting-skills",
       "first_seen": "2026-09-08",
       "has_summary": false,
@@ -35038,13 +35038,14 @@
     },
     "mizzlelover/gongwen-gbt9704-skill": {
       "full_name": "mizzlelover/gongwen-gbt9704-skill",
-      "description": "跨平台中文公文排版 Skill，生成参照 GB/T 9704-2012 的可编辑 DOCX",
+      "description": "中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB 文件转换：https://github.com/mizzlelover/CEB",
       "language": "JavaScript",
       "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
       "first_seen": "2026-09-11",
       "has_summary": false,
       "topics": [
         "ai-skill",
+        "ceb",
         "chinese-official-document",
         "claude-code",
         "cross-platform",
@@ -35190,6 +35191,22 @@
       ],
       "category": "AI / ML",
       "version": "v1.7.0"
+    },
+    "wilsjo2/OptiScaler-DLSSNR-PreSR-Multipass": {
+      "full_name": "wilsjo2/OptiScaler-DLSSNR-PreSR-Multipass",
+      "description": "A game mod that uses NVIDIA AI to change lighting, detail and colour, with controls for strength and performance.",
+      "language": "C++",
+      "url": "https://github.com/wilsjo2/OptiScaler-DLSSNR-PreSR-Multipass",
+      "first_seen": "2026-09-12",
+      "has_summary": false,
+      "topics": [
+        "baldurs-gate-3",
+        "dlss",
+        "dlss-neural-rendering",
+        "optiscaler"
+      ],
+      "category": "Other",
+      "version": "v0.7.7"
     }
   }
 }

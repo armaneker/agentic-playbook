@@ -31657,7 +31657,7 @@
     },
     "nateherkai/scroll-craft": {
       "full_name": "nateherkai/scroll-craft",
-      "description": "Claude Code skill for premium scroll-driven websites. Scroll becomes the timeline, on a real design floor, verified by screenshotting its own scroll.",
+      "description": "An agent skill for building premium, immersive, scroll-driven websites. Works with Codex, Claude Code, and other coding agents. Also available as a Claude Code plugin.",
       "language": "JavaScript",
       "url": "https://github.com/nateherkai/scroll-craft",
       "first_seen": "2026-08-23",
@@ -35038,7 +35038,7 @@
     },
     "mizzlelover/gongwen-gbt9704-skill": {
       "full_name": "mizzlelover/gongwen-gbt9704-skill",
-      "description": "中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB 文件转换：https://github.com/mizzlelover/CEB",
+      "description": "信息安全提醒：请勿上传企业禁止对外公开的文件；可在本地或企业内网部署大模型后使用。中文公文排版 Skill：按 GB/T 9704-2012 生成可编辑 DOCX。配套 CEB：https://github.com/mizzlelover/CEB",
       "language": "JavaScript",
       "url": "https://github.com/mizzlelover/gongwen-gbt9704-skill",
       "first_seen": "2026-09-11",
@@ -35207,6 +35207,130 @@
       ],
       "category": "Other",
       "version": "v0.7.7"
+    },
+    "rizqinrr/viserys-agent": {
+      "full_name": "rizqinrr/viserys-agent",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/rizqinrr/viserys-agent",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "ArasTey/lunel": {
+      "full_name": "ArasTey/lunel",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/ArasTey/lunel",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nftechie/stonkfly": {
+      "full_name": "nftechie/stonkfly",
+      "description": "A full retained fly-connectome simulation with experimental memory and guarded Coinbase AgentKit trading actions.",
+      "language": "Python",
+      "url": "https://github.com/nftechie/stonkfly",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jnz/INSLIB": {
+      "full_name": "jnz/INSLIB",
+      "description": "Open Source Inertial Navigation Library",
+      "language": "C",
+      "url": "https://github.com/jnz/INSLIB",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "unstablebuild/rune": {
+      "full_name": "unstablebuild/rune",
+      "description": "the development environment for pros",
+      "language": "Go",
+      "url": "https://github.com/unstablebuild/rune",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [
+        "agent-orchestration",
+        "ai",
+        "cli",
+        "coding-agents",
+        "developer-tool",
+        "devtools",
+        "go",
+        "golang",
+        "ide",
+        "rune",
+        "terminal-multiplexer",
+        "text-editor",
+        "tmux",
+        "tui",
+        "workspace-manager"
+      ],
+      "category": "AI / ML",
+      "version": "v1.2.1"
+    },
+    "kevinzakka/mjbatch": {
+      "full_name": "kevinzakka/mjbatch",
+      "description": "A Python library for running thousands of MuJoCo simulations in parallel on CPU",
+      "language": "Python",
+      "url": "https://github.com/kevinzakka/mjbatch",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [
+        "mpc",
+        "mujoco",
+        "reinforcement-learning",
+        "simulation"
+      ],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "eternityspring/reelbench-skills": {
+      "full_name": "eternityspring/reelbench-skills",
+      "description": "Learning notes and tooling skills for AI video - AI 视频相关的学习与工具 skill",
+      "language": "HTML",
+      "url": "https://github.com/eternityspring/reelbench-skills",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "claude-code",
+        "claude-skills",
+        "ffmpeg",
+        "shot-analysis",
+        "video-analysis"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "dsh-tauri-desk/deepseek-harness-desktop": {
+      "full_name": "dsh-tauri-desk/deepseek-harness-desktop",
+      "description": "DeepSeek Harness Tauri 桌面版 | Only 5mb installer, zero environment setup, preset plugins, Windows / macOS / Linux.",
+      "language": "TypeScript",
+      "url": "https://github.com/dsh-tauri-desk/deepseek-harness-desktop",
+      "first_seen": "2026-09-13",
+      "has_summary": false,
+      "topics": [
+        "deepseek",
+        "deepseek-harness",
+        "desktop",
+        "dsh",
+        "dsh-desktop",
+        "dsh-plugin",
+        "tauri"
+      ],
+      "category": "Other",
+      "version": "v0.13.0"
     }
   }
 }

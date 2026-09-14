@@ -1232,7 +1232,7 @@
     },
     "ollama/ollama": {
       "full_name": "ollama/ollama",
-      "description": "Get up and running with Kimi-K2.6, GLM-5.2, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "description": "Get up and running with Kimi, GLM, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
       "language": "Go",
       "url": "https://github.com/ollama/ollama",
       "first_seen": "2026-03-22",
@@ -35549,6 +35549,26 @@
       ],
       "category": "AI / ML",
       "version": "build-20260914-145529"
+    },
+    "shadcn-ui/lint": {
+      "full_name": "shadcn-ui/lint",
+      "description": "An agent-first linter for Tailwind design systems. Write design system rules that agents can verify.",
+      "language": "TypeScript",
+      "url": "https://github.com/shadcn-ui/lint",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "design",
+        "design-system",
+        "design-tools",
+        "shadcn",
+        "shadcn-ui",
+        "tailwindcss"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

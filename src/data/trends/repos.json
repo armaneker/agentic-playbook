@@ -34569,13 +34569,16 @@
     },
     "jtydhr88/screenwriting-skills": {
       "full_name": "jtydhr88/screenwriting-skills",
-      "description": "",
+      "description": "Professional agent skills for screenwriting, television writing and dramaturgy",
       "language": "Python",
       "url": "https://github.com/jtydhr88/screenwriting-skills",
       "first_seen": "2026-09-08",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "skills"
+      ],
+      "category": "AI / ML",
       "version": null
     },
     "Anshul439/job-auto-apply": {
@@ -35369,6 +35372,76 @@
       ],
       "category": "Web Framework",
       "version": null
+    },
+    "kruzovic7/ai-data-extractor": {
+      "full_name": "kruzovic7/ai-data-extractor",
+      "description": "Free open-source extractor for AI coding assistant chat histories. Supports Claude Code, Cursor, Windsurf, Aider, Cline/Roo Code, and more.",
+      "language": "Python",
+      "url": "https://github.com/kruzovic7/ai-data-extractor",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-data-extraction",
+        "claude-code",
+        "cursor"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "DefiLeoo/YOINK": {
+      "full_name": "DefiLeoo/YOINK",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/DefiLeoo/YOINK",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Foadsf/vintage-latex": {
+      "full_name": "Foadsf/vintage-latex",
+      "description": "Twenty LuaLaTeX and MetaPost (fiziko) examples of the old scientific-paper aesthetic: engraved plates, star charts, computed log tables, knots, telescopes",
+      "language": "PowerShell",
+      "url": "https://github.com/Foadsf/vintage-latex",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "fiziko",
+        "latex",
+        "lualatex",
+        "metapost",
+        "scientific-illustration",
+        "tikz",
+        "typography",
+        "vintage"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "omacom/try-omarchy": {
+      "full_name": "omacom/try-omarchy",
+      "description": "Run Omarchy on MacOS without any setup.",
+      "language": "Swift",
+      "url": "https://github.com/omacom/try-omarchy",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "aarch64",
+        "apple-silicon",
+        "archlinux",
+        "arm",
+        "arm64",
+        "community",
+        "linux",
+        "macos",
+        "omarchy",
+        "qemu",
+        "virtualization"
+      ],
+      "category": "Other",
+      "version": "v0.3.0"
     }
   }
 }

@@ -6690,7 +6690,7 @@
     "anthropics/claude-code": {
       "full_name": "anthropics/claude-code",
       "description": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and handling git workflows - all through natural language commands.",
-      "language": "Python",
+      "language": "TypeScript",
       "url": "https://github.com/anthropics/claude-code",
       "first_seen": "2026-04-13",
       "has_summary": false,
@@ -35480,6 +35480,75 @@
       ],
       "category": "Other",
       "version": "v0.7.1"
+    },
+    "Chuloo/mural": {
+      "full_name": "Chuloo/mural",
+      "description": "The language app you eventually delete. A native iPhone companion for learning through conversation.",
+      "language": "Kotlin",
+      "url": "https://github.com/Chuloo/mural",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "ios",
+        "language-learning",
+        "open-source",
+        "swiftui"
+      ],
+      "category": "Mobile",
+      "version": null
+    },
+    "qingjian-team/qingjian": {
+      "full_name": "qingjian-team/qingjian",
+      "description": "青简 Qingjian：用 Rust 写的拼音输入法，候选词旁多一条正在学的语言的译词",
+      "language": "Rust",
+      "url": "https://github.com/qingjian-team/qingjian",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "chinese",
+        "chinese-input-method",
+        "english-learning",
+        "ime",
+        "input-method",
+        "japanese-learning",
+        "language-learning",
+        "language-model",
+        "macos",
+        "offline",
+        "pinyin",
+        "rust",
+        "shuangpin",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "macos-v0.1.2"
+    },
+    "bojieli/ai-infra-book": {
+      "full_name": "bojieli/ai-infra-book",
+      "description": "《深入理解 AI Infra：量化分析与系统设计》（李博杰 著）开源书稿：从硬件约束和模型架构出发，量化推导 LLM 推理与训练系统设计。含全书正文、PDF、配套计算工具与实验",
+      "language": "Python",
+      "url": "https://github.com/bojieli/ai-infra-book",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "accelerator",
+        "ai-infra",
+        "ai-infrastructure",
+        "book",
+        "datacenter-network",
+        "deepseek",
+        "distributed-systems",
+        "gpu",
+        "kv-cache",
+        "llm",
+        "llm-inference",
+        "llm-serving",
+        "llm-training",
+        "mixture-of-experts",
+        "performance-engineering"
+      ],
+      "category": "AI / ML",
+      "version": "build-20260914-145529"
     }
   }
 }

@@ -34695,7 +34695,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "0.3.0"
     },
     "larashero3-dotcom/lieflat-gongwen": {
       "full_name": "larashero3-dotcom/lieflat-gongwen",
@@ -35307,7 +35307,6 @@
       "has_summary": false,
       "topics": [
         "ai-video",
-        "claude-code",
         "claude-skills",
         "ffmpeg",
         "shot-analysis",
@@ -35442,6 +35441,45 @@
       ],
       "category": "Other",
       "version": "v0.3.0"
+    },
+    "zjwzcx/Awesome-Astra-Embodied-AI": {
+      "full_name": "zjwzcx/Awesome-Astra-Embodied-AI",
+      "description": "GPT-6 Astra for embodied AI and robotics.",
+      "language": "Unknown",
+      "url": "https://github.com/zjwzcx/Awesome-Astra-Embodied-AI",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "crmne/spotifast": {
+      "full_name": "crmne/spotifast",
+      "description": "Spotify, native and fast. One lightweight Rust app for your whole library, local playback, and Spotify Connect on Linux, macOS, and Windows.",
+      "language": "Rust",
+      "url": "https://github.com/crmne/spotifast",
+      "first_seen": "2026-09-14",
+      "has_summary": false,
+      "topics": [
+        "audio",
+        "cross-platform",
+        "desktop-app",
+        "egui",
+        "gui",
+        "librespot",
+        "linux",
+        "macos",
+        "mpris",
+        "music",
+        "music-player",
+        "rust",
+        "spotify",
+        "spotify-client",
+        "spotify-connect",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v0.7.1"
     }
   }
 }

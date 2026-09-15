@@ -35755,6 +35755,48 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "viettranx/3dviz-pro-max": {
+      "full_name": "viettranx/3dviz-pro-max",
+      "description": "Agent skill for creative 3D visualization: turn an idea into a Three.js/Blender scene worth exploring. Claude Code + Codex plugin, 223 recipes, 440 knowledge records, 22 proved kits, 37 runnable studies.",
+      "language": "JavaScript",
+      "url": "https://github.com/viettranx/3dviz-pro-max",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "agent-skill",
+        "blender",
+        "claude-code",
+        "codex",
+        "gltf",
+        "threejs",
+        "visualization"
+      ],
+      "category": "Data",
+      "version": null
+    },
+    "Taichu-AI/ZDTaichu5.0-9B": {
+      "full_name": "Taichu-AI/ZDTaichu5.0-9B",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Taichu-AI/ZDTaichu5.0-9B",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "CosmosMind-ai/RSI-Harness": {
+      "full_name": "CosmosMind-ai/RSI-Harness",
+      "description": "RSIH — versionable, shareable agent harness: Pi coding agent + Genome config layer",
+      "language": "TypeScript",
+      "url": "https://github.com/CosmosMind-ai/RSI-Harness",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

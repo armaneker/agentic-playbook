@@ -35704,6 +35704,57 @@
       ],
       "category": "Mobile",
       "version": "v0.1.0"
+    },
+    "agentverse-os/AgentVerse-OS": {
+      "full_name": "agentverse-os/AgentVerse-OS",
+      "description": "Personal cloud OS for a developer and their AI agents on a single server. One-command install on Ubuntu, then everything in the browser: a windowed desktop, isolated workspaces with VS Code, Claude Code and Codex, a store of 944 self-hosted apps, backups and updates. Access only via Tailscale, nothing exposed to the internet. Rust core, Svelte UI.",
+      "language": "Rust",
+      "url": "https://github.com/agentverse-os/AgentVerse-OS",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "ai-sucks-butt/ai-sucks-butt": {
+      "full_name": "ai-sucks-butt/ai-sucks-butt",
+      "description": "If you think AI sucks, star the repo.",
+      "language": "Unknown",
+      "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nilbuild/page-mascot": {
+      "full_name": "nilbuild/page-mascot",
+      "description": "A mascot that watches the cursor and blinks when you poke it",
+      "language": "Python",
+      "url": "https://github.com/nilbuild/page-mascot",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "youngyangyang04/llm-master": {
+      "full_name": "youngyangyang04/llm-master",
+      "description": "大模型（LLM）全栈学习路线与中文教程🔥：覆盖 Prompt Engineering、RAG、AI Agent、MCP、微调、模型部署、Transformer、AI 编程与大厂面试，从入门到生产实践。",
+      "language": "Unknown",
+      "url": "https://github.com/youngyangyang04/llm-master",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "large-language-models",
+        "llm",
+        "llm-learning",
+        "llm-tutorial",
+        "rag"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

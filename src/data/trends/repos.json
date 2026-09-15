@@ -33040,8 +33040,8 @@
     },
     "jub0t/Concat": {
       "full_name": "jub0t/Concat",
-      "description": "Free & Open-Source CapCut replacement. (formerly WolfCut)",
-      "language": "TypeScript",
+      "description": "Open-Source CapCut replacement.",
+      "language": "Rust",
       "url": "https://github.com/jub0t/Concat",
       "first_seen": "2026-08-31",
       "has_summary": false,
@@ -33060,14 +33060,14 @@
         "offline-first",
         "open-source-video-editor",
         "rust-lang",
-        "tauri-app",
+        "slint",
         "video-editing",
         "video-editing-software",
         "video-processing-tool",
         "whisper-cpp"
       ],
       "category": "DevTools",
-      "version": null
+      "version": "v0.2.2"
     },
     "GangTailorUpgrade/CoomeRtool": {
       "full_name": "GangTailorUpgrade/CoomeRtool",
@@ -35167,7 +35167,7 @@
     },
     "perseval-BLR/DLSS5-NeuralScreen": {
       "full_name": "perseval-BLR/DLSS5-NeuralScreen",
-      "description": "DLSS 5 Neural Rendering on your whole Windows desktop, in real time. RTX 30/40/50, 12 languages, user presets, recording with audio, one-window mode.",
+      "description": "DLSS 5 NR on your whole Windows desktop, in real time with Boost, FG, etc. RTX 30/40/50, 12 languages, user presets, recording with audio, one-window mode.",
       "language": "Python",
       "url": "https://github.com/perseval-BLR/DLSS5-NeuralScreen",
       "first_seen": "2026-09-12",
@@ -35184,6 +35184,7 @@
         "dlss5-rtx",
         "dlss5-swapper",
         "dlss5-universal",
+        "frame-generation",
         "neural-rendering",
         "neuralscreen",
         "ngx",

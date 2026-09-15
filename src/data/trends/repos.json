@@ -35569,6 +35569,141 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "yi1108/printfilm": {
+      "full_name": "yi1108/printfilm",
+      "description": "PRINTFILM：AI 科普视频与漫剧创作平台",
+      "language": "Python",
+      "url": "https://github.com/yi1108/printfilm",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "deepseek-ai/DeepSelect": {
+      "full_name": "deepseek-ai/DeepSelect",
+      "description": "DeepSelect: TopK kernels for DeepSeek Sparse Attention (DSA) and Samplers",
+      "language": "Cuda",
+      "url": "https://github.com/deepseek-ai/DeepSelect",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nhovongoc0-max/meme-radar": {
+      "full_name": "nhovongoc0-max/meme-radar",
+      "description": "Meme雷达开源版：本地只读、多链 Meme 候选扫描与人工复核工具",
+      "language": "JavaScript",
+      "url": "https://github.com/nhovongoc0-max/meme-radar",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [
+        "bsc",
+        "crypto",
+        "gmgn",
+        "meme",
+        "security",
+        "solana",
+        "token-scanner"
+      ],
+      "category": "Security",
+      "version": "v0.1.6"
+    },
+    "deepseek-ai/deepseek-recipe": {
+      "full_name": "deepseek-ai/deepseek-recipe",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/deepseek-ai/deepseek-recipe",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jaskirat1616/mactap-app": {
+      "full_name": "jaskirat1616/mactap-app",
+      "description": "MacTap — knock your MacBook to run shortcuts",
+      "language": "Swift",
+      "url": "https://github.com/jaskirat1616/mactap-app",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.1.2"
+    },
+    "ashemag/model-x-studio": {
+      "full_name": "ashemag/model-x-studio",
+      "description": "Interactive Model X 3D studio with 334-piece exploration",
+      "language": "TypeScript",
+      "url": "https://github.com/ashemag/model-x-studio",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "edoardolunardi/kugiri": {
+      "full_name": "edoardolunardi/kugiri",
+      "description": "Splits text into lines, words and characters exactly where the browser already broke it.",
+      "language": "TypeScript",
+      "url": "https://github.com/edoardolunardi/kugiri",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.5.2"
+    },
+    "hsandhu/mobilecode": {
+      "full_name": "hsandhu/mobilecode",
+      "description": "mobilecode is a fork of opencode that builds and previews iOS and Android projects",
+      "language": "TypeScript",
+      "url": "https://github.com/hsandhu/mobilecode",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "ai-coding",
+        "ai-tools",
+        "androidstudio",
+        "xcode",
+        "xcodebuild"
+      ],
+      "category": "Agentic",
+      "version": "v1.18.31"
+    },
+    "mahdidavoodi7/react-native-continued-task": {
+      "full_name": "mahdidavoodi7/react-native-continued-task",
+      "description": "Background tasks that keep running after your app is backgrounded, for React Native and Expo. Wraps iOS 26 BGContinuedProcessingTask (Live Activity) and Android WorkManager foreground services behind one typed API. Swift + Kotlin via Nitro Modules.",
+      "language": "TypeScript",
+      "url": "https://github.com/mahdidavoodi7/react-native-continued-task",
+      "first_seen": "2026-09-15",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "background-processing",
+        "background-task",
+        "background-tasks",
+        "background-upload",
+        "backgroundtasks",
+        "bgcontinuedprocessingtask",
+        "bgtaskscheduler",
+        "expo",
+        "expo-config-plugin",
+        "foreground-service",
+        "ios",
+        "ios26",
+        "live-activity",
+        "long-running-task",
+        "nitro",
+        "nitro-modules",
+        "react-native",
+        "react-native-library",
+        "workmanager"
+      ],
+      "category": "Mobile",
+      "version": "v0.1.0"
     }
   }
 }

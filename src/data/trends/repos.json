@@ -35939,6 +35939,26 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "saragordic/window-sweaters": {
+      "full_name": "saragordic/window-sweaters",
+      "description": "A macOS menu-bar app that dresses your windows in knitted borders.",
+      "language": "C",
+      "url": "https://github.com/saragordic/window-sweaters",
+      "first_seen": "2026-09-16",
+      "has_summary": false,
+      "topics": [
+        "desktop-customization",
+        "knitting",
+        "macos",
+        "macos-app",
+        "menubar",
+        "menubar-app",
+        "objective-c",
+        "window-management"
+      ],
+      "category": "Other",
+      "version": "v1.4.31"
     }
   }
 }

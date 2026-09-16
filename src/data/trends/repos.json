@@ -34554,7 +34554,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.1.0"
     },
     "openai/NavierStokesAndEuler": {
       "full_name": "openai/NavierStokesAndEuler",
@@ -35720,7 +35720,7 @@
     "ai-sucks-butt/ai-sucks-butt": {
       "full_name": "ai-sucks-butt/ai-sucks-butt",
       "description": "If you think AI sucks, star the repo.",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/ai-sucks-butt/ai-sucks-butt",
       "first_seen": "2026-09-15",
       "has_summary": false,
@@ -35925,6 +35925,20 @@
       ],
       "category": "Agentic",
       "version": "v0.1.13"
+    },
+    "atria-asi/Atria-Dawn-Preview": {
+      "full_name": "atria-asi/Atria-Dawn-Preview",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/atria-asi/Atria-Dawn-Preview",
+      "first_seen": "2026-09-16",
+      "has_summary": false,
+      "topics": [
+        "llm",
+        "llm-agent"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

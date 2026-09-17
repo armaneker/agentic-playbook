@@ -12725,7 +12725,7 @@
     },
     "firecrawl/firecrawl": {
       "full_name": "firecrawl/firecrawl",
-      "description": "The context API to search, scrape, and interact with the web at scale. 🔥",
+      "description": "The web data API to search, scrape, and interact at scale. 🔥",
       "language": "TypeScript",
       "url": "https://github.com/firecrawl/firecrawl",
       "first_seen": "2026-05-17",
@@ -33040,7 +33040,7 @@
     },
     "jub0t/Concat": {
       "full_name": "jub0t/Concat",
-      "description": "Open-Source CapCut replacement.",
+      "description": "Open-Source [unofficial] CapCut replacement.",
       "language": "Rust",
       "url": "https://github.com/jub0t/Concat",
       "first_seen": "2026-08-31",
@@ -35580,7 +35580,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.2.0"
     },
     "deepseek-ai/DeepSelect": {
       "full_name": "deepseek-ai/DeepSelect",
@@ -35959,6 +35959,122 @@
       ],
       "category": "Other",
       "version": "v1.4.31"
+    },
+    "linguo2625469/workbuddy2api-panel": {
+      "full_name": "linguo2625469/workbuddy2api-panel",
+      "description": "把腾讯WorkBuddy账号变成 OpenAI 兼容 API 的多账号网关，同时自动完成任务中心全部任务，附 Web 管理面板（账号池可视化 / 积分任务 / 配置热更新）。基于 Sliverkiss/workbuddy2api 的增强分支",
+      "language": "Go",
+      "url": "https://github.com/linguo2625469/workbuddy2api-panel",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [
+        "admin-panel",
+        "codebuddy",
+        "gateway",
+        "golang",
+        "openai-api",
+        "reverse-proxy",
+        "workbuddy"
+      ],
+      "category": "Other",
+      "version": "v1.10.0"
+    },
+    "FSECDEV/Threat-Intelligence-Hackers-Forums": {
+      "full_name": "FSECDEV/Threat-Intelligence-Hackers-Forums",
+      "description": "A directory of hacker forums",
+      "language": "Unknown",
+      "url": "https://github.com/FSECDEV/Threat-Intelligence-Hackers-Forums",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Qiuner/birdview": {
+      "full_name": "Qiuner/birdview",
+      "description": "Stop letting AI code blind. Map the architecture before every change with Birdview.",
+      "language": "JavaScript",
+      "url": "https://github.com/Qiuner/birdview",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [
+        "agent-tools",
+        "ai-workflow",
+        "architecture-as-code",
+        "code-visualization",
+        "coding-agents",
+        "developer-tools",
+        "diagram-as-code",
+        "software-architecture"
+      ],
+      "category": "DevTools",
+      "version": "v0.2.0"
+    },
+    "zhengkid/Dream-RSI": {
+      "full_name": "zhengkid/Dream-RSI",
+      "description": "The offical repo for \"Dream-RSI: Recursive Self-Improvement through Evolving Worlds\"",
+      "language": "Unknown",
+      "url": "https://github.com/zhengkid/Dream-RSI",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "eternity4719/HowToLiveBetter": {
+      "full_name": "eternity4719/HowToLiveBetter",
+      "description": "按性价比排序的循证生活指南：长寿防病、急救、省钱理财、法律红线、失业与工伤、医保社保、恋爱婚育、怀孕育儿、创业与做平台合规、出国与技能。每条写明成本、收益、证据等级和原始出处，只引期刊论文与官方文件。",
+      "language": "HTML",
+      "url": "https://github.com/eternity4719/HowToLiveBetter",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "linranff/GTA_SZ": {
+      "full_name": "linranff/GTA_SZ",
+      "description": "基于Babylon的GTA-6深圳 mini 青春 Lite版",
+      "language": "TypeScript",
+      "url": "https://github.com/linranff/GTA_SZ",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "agent-launch/agent-launcher": {
+      "full_name": "agent-launch/agent-launcher",
+      "description": "Configure and run existing coding-agent CLIs from one desktop app.",
+      "language": "TypeScript",
+      "url": "https://github.com/agent-launch/agent-launcher",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "claude-code",
+        "cli",
+        "codex",
+        "cross-platform",
+        "desktop-app",
+        "developer-tools",
+        "electron",
+        "gemini-cli",
+        "macos"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "NxcoreAI/NxMem": {
+      "full_name": "NxcoreAI/NxMem",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/NxcoreAI/NxMem",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

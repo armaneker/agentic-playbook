@@ -36139,6 +36139,48 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "shinthink/blitzstrike": {
+      "full_name": "shinthink/blitzstrike",
+      "description": "⚡ Blitz Strike — a universal MCP penetration-testing toolbelt. Structured methodology: reconnaissance & attack-surface mapping, source-to-sink analysis, and live validation. 57 escalation chains, 130-tool catalog, intelligence data layer. One server, every agent.",
+      "language": "TypeScript",
+      "url": "https://github.com/shinthink/blitzstrike",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [
+        "active-directory",
+        "blue-team",
+        "bug-bounty",
+        "cve",
+        "defensive-security",
+        "exploit",
+        "mcp",
+        "mcp-server",
+        "nuclei",
+        "offensive-security",
+        "payloads",
+        "pentest",
+        "reconnaissance",
+        "red-team",
+        "reverse-engineering",
+        "security",
+        "security-tools",
+        "vulnerability-scanning",
+        "wordpress"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "TheoLeeCJ/openjev": {
+      "full_name": "TheoLeeCJ/openjev",
+      "description": "Can we run something like Jev on a 3090 at home?",
+      "language": "Python",
+      "url": "https://github.com/TheoLeeCJ/openjev",
+      "first_seen": "2026-09-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

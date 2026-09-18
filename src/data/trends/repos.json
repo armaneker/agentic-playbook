@@ -33040,7 +33040,7 @@
     },
     "jub0t/Concat": {
       "full_name": "jub0t/Concat",
-      "description": "Open-Source CapCut replacement.",
+      "description": "Open-Source CapCut replacement (MCP supported).",
       "language": "Rust",
       "url": "https://github.com/jub0t/Concat",
       "first_seen": "2026-08-31",
@@ -35587,7 +35587,7 @@
     },
     "yi1108/printfilm": {
       "full_name": "yi1108/printfilm",
-      "description": "PRINTFILM：AI 科普视频与漫剧创作平台",
+      "description": "PRINTFILM：AI 视频获客与 AI短剧创作平台",
       "language": "Python",
       "url": "https://github.com/yi1108/printfilm",
       "first_seen": "2026-09-15",
@@ -36007,7 +36007,7 @@
     "Qiuner/birdview": {
       "full_name": "Qiuner/birdview",
       "description": "Stop letting AI code blind. Map the architecture before every change with Birdview.",
-      "language": "JavaScript",
+      "language": "TypeScript",
       "url": "https://github.com/Qiuner/birdview",
       "first_seen": "2026-09-17",
       "has_summary": false,
@@ -36044,7 +36044,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "epub-latest"
     },
     "linranff/GTA_SZ": {
       "full_name": "linranff/GTA_SZ",
@@ -36092,7 +36092,7 @@
     },
     "browser-use/jev-ultrafast": {
       "full_name": "browser-use/jev-ultrafast",
-      "description": "",
+      "description": "i. am. speed.",
       "language": "Python",
       "url": "https://github.com/browser-use/jev-ultrafast",
       "first_seen": "2026-09-17",
@@ -36233,6 +36233,28 @@
       "description": "Private, unlimited background removal that runs in your browser.",
       "language": "TypeScript",
       "url": "https://github.com/opencoredev/bg0",
+      "first_seen": "2026-09-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mcncarl/jianying-headless": {
+      "full_name": "mcncarl/jianying-headless",
+      "description": "Private source preview: native Jianying drafts, isolated editing/export, and standalone Agent Skill.",
+      "language": "Python",
+      "url": "https://github.com/mcncarl/jianying-headless",
+      "first_seen": "2026-09-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yynxxxxx/gpt_sub_analysis": {
+      "full_name": "yynxxxxx/gpt_sub_analysis",
+      "description": "Security analysis of the ChatGPT iOS subscription / entitlement flow (internal draft, coordinated disclosure WIP)",
+      "language": "Unknown",
+      "url": "https://github.com/yynxxxxx/gpt_sub_analysis",
       "first_seen": "2026-09-18",
       "has_summary": false,
       "topics": [],

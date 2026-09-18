@@ -36271,6 +36271,23 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "devagrawal09/jev-review": {
+      "full_name": "devagrawal09/jev-review",
+      "description": "A staged code-review workflow and local dashboard built with TypeSafe Jev.",
+      "language": "TypeScript",
+      "url": "https://github.com/devagrawal09/jev-review",
+      "first_seen": "2026-09-18",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "code-review",
+        "jev",
+        "typesafe-ai",
+        "typescript"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

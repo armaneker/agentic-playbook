@@ -35583,7 +35583,7 @@
         "tailwindcss"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "@shadcn/lint@0.1.1"
     },
     "yi1108/printfilm": {
       "full_name": "yi1108/printfilm",
@@ -36287,6 +36287,79 @@
         "typescript"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "robbietilton/Compositor": {
+      "full_name": "robbietilton/Compositor",
+      "description": "The Photoshop alternative for Mac",
+      "language": "Swift",
+      "url": "https://github.com/robbietilton/Compositor",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.4"
+    },
+    "TianyuCodings/NanoJev": {
+      "full_name": "TianyuCodings/NanoJev",
+      "description": "A nano replica of Jev: parallel decisions, dynamic candidates, and an end-to-end training pipeline.",
+      "language": "Python",
+      "url": "https://github.com/TianyuCodings/NanoJev",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored": {
+      "full_name": "Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "description": "Runtime behavioral ablation for compressed LLMs. First target: Ternary Bonsai 2 27B — no weight modification or re-quantization. by OrcaRouter team",
+      "language": "Python",
+      "url": "https://github.com/Continuum-AI-Corp/OrcaBonsai-27B-Uncensored",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "lingyired/status-trio": {
+      "full_name": "lingyired/status-trio",
+      "description": "Status Trio — a native macOS app that combines Wi-Fi, battery, and volume into one compact, configurable status icon for the menu bar, the Dock, or both, inspired by the iPhone Duo combined status bar.",
+      "language": "Swift",
+      "url": "https://github.com/lingyired/status-trio",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [
+        "appkit",
+        "battery",
+        "dock",
+        "iphone-duo",
+        "macos",
+        "macos-app",
+        "menu-bar",
+        "menubar",
+        "menubar-app",
+        "status-bar",
+        "statusbar",
+        "swift",
+        "swiftui",
+        "three-in-one",
+        "utility",
+        "volume",
+        "wifi"
+      ],
+      "category": "Mobile",
+      "version": "v1.2.0"
+    },
+    "dabit3/jev-experiments": {
+      "full_name": "dabit3/jev-experiments",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/dabit3/jev-experiments",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

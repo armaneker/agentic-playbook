@@ -44,10 +44,13 @@ function buildPrompt(net: string): string {
 
 /** After an aborted stream OpenRouter has no usage chunk; ask its generation endpoint instead. */
 async function fetchGenerationStats(id: string): Promise<GenerationStats | null> {
-  for (let attempt = 0; attempt < 3; attempt++) {
-    await new Promise((r) => setTimeout(r, 1500));
+  for (let attempt = 0; attempt < 2; attempt++) {
+    await new Promise((r) => setTimeout(r, 1200));
     try {
-      const res = await fetch(`${OPENROUTER_BASE}/api/v1/generation?id=${encodeURIComponent(id)}`, { headers: openRouterHeaders() });
+      const res = await fetch(`${OPENROUTER_BASE}/api/v1/generation?id=${encodeURIComponent(id)}`, {
+        headers: openRouterHeaders(),
+        signal: AbortSignal.timeout(3000),
+      });
       if (res.ok) {
         const json = (await res.json()) as { data?: GenerationStats };
         if (json.data && typeof json.data.total_cost === 'number') return json.data;
@@ -102,6 +105,12 @@ export async function POST(req: NextRequest) {
 
     let answer = '';
     let reasoningChars = 0;
+    // Text produced since the last progress flush. Reasoning text stops being forwarded after a cap
+    // so a very long think does not bloat recordings; the counter keeps going.
+    let pendingReasoning = '';
+    let pendingAnswer = '';
+    let reasoningForwarded = 0;
+    const REASONING_FORWARD_CAP = 40_000;
     let generationId: string | null = null;
     let finishReason: string | null = null;
     const acc: { usage: UpstreamUsage | null } = { usage: null };
@@ -128,17 +137,35 @@ export async function POST(req: NextRequest) {
       const choice = json.choices?.[0];
       const delta = choice?.delta;
       if (choice?.finish_reason) finishReason = choice.finish_reason;
-      if (delta?.reasoning) reasoningChars += delta.reasoning.length;
+      if (delta?.reasoning) {
+        reasoningChars += delta.reasoning.length;
+        if (reasoningForwarded < REASONING_FORWARD_CAP) {
+          pendingReasoning += delta.reasoning;
+          reasoningForwarded += delta.reasoning.length;
+        }
+      }
       if (delta?.content) {
         if (firstTokenMs === null) firstTokenMs = Date.now() - started;
         answer += delta.content;
+        pendingAnswer += delta.content;
       }
       if (json.usage) acc.usage = json.usage;
       const now = Date.now();
-      if (now - lastFlush > 400) {
-        lastFlush = now;
-        send({ type: 'progress', answerChars: answer.length, reasoningChars, elapsedMs: now - started });
-      }
+      if (now - lastFlush > 300) flush(now);
+    };
+
+    const flush = (now: number) => {
+      lastFlush = now;
+      send({
+        type: 'progress',
+        answerChars: answer.length,
+        reasoningChars,
+        elapsedMs: now - started,
+        reasoningDelta: pendingReasoning || undefined,
+        answerDelta: pendingAnswer || undefined,
+      });
+      pendingReasoning = '';
+      pendingAnswer = '';
     };
 
     let timedOut = false;
@@ -162,6 +189,7 @@ export async function POST(req: NextRequest) {
       clearTimeout(timer);
     }
 
+    if (pendingReasoning || pendingAnswer) flush(Date.now());
     const elapsedMs = Date.now() - started;
     const { moves, source } = extractMoves(answer);
     const final = applyMoves(scrambled, moves);

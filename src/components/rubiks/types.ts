@@ -39,6 +39,9 @@ export interface PanelState {
   firstTokenMs: number | null;
   answerChars: number;
   reasoningChars: number;
+  /** Streamed text, capped to the most recent part. */
+  reasoningText: string;
+  answerText: string;
   lastStep: JevStep | null;
   avgLatencyMs: number | null;
   misplacedAfter: number | null;
@@ -59,6 +62,8 @@ export function emptyPanel(model: PublicModel): PanelState {
     firstTokenMs: null,
     answerChars: 0,
     reasoningChars: 0,
+    reasoningText: '',
+    answerText: '',
     lastStep: null,
     avgLatencyMs: null,
     misplacedAfter: null,

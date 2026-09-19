@@ -18,6 +18,8 @@ type Mode = 'replay' | 'live';
 
 const ACCESS_KEY_STORAGE = 'rubiks-demo-key';
 const SPEEDS = [1, 2, 5, 10];
+const TEXT_CAP = 30_000;
+const HARD_STOP_GRACE_MS = 8_000;
 const recordings = recordingsData as unknown as RaceRecording[];
 
 function readStoredKey(): string {
@@ -134,8 +136,25 @@ export default function RubiksRace() {
       case 'started':
         update(key, { status: 'thinking', timeoutMs: (ev.timeoutMs as number | undefined) ?? null });
         break;
-      case 'progress':
-        update(key, { answerChars: ev.answerChars as number, reasoningChars: ev.reasoningChars as number });
+      case 'progress': {
+        const rd = (ev.reasoningDelta as string | undefined) ?? '';
+        const ad = (ev.answerDelta as string | undefined) ?? '';
+        update(key, (p) => ({
+          answerChars: ev.answerChars as number,
+          reasoningChars: ev.reasoningChars as number,
+          reasoningText: rd ? (p.reasoningText + rd).slice(-TEXT_CAP) : p.reasoningText,
+          answerText: ad ? (p.answerText + ad).slice(-TEXT_CAP) : p.answerText,
+        }));
+        break;
+      }
+      case 'client-timeout':
+        // The browser gave up waiting for the server's verdict. Keep whatever the panel already shows.
+        update(key, (p) => ({
+          status: p.status === 'solved' ? 'solved' : 'timeout',
+          outcome: 'client-timeout',
+          finalElapsedMs: p.finalElapsedMs ?? (ev.elapsedMs as number),
+          error: 'No verdict from the server before the limit; tokens and cost unknown',
+        }));
         break;
       case 'step': {
         const step = {
@@ -204,11 +223,18 @@ export default function RubiksRace() {
       if (startedAt.current === null) return;
       eventLog.current.push({ t: Math.round(performance.now() - startedAt.current), model: key, ev });
     };
+    // The server enforces the limit, but the browser must never depend on it: if no verdict
+    // arrives by limit + grace, cut the connection and close the panel ourselves.
+    const local = new AbortController();
+    const onRaceAbort = () => local.abort();
+    signal.addEventListener('abort', onRaceAbort);
+    let hardStopped = false;
+    const hardStop = window.setTimeout(() => { hardStopped = true; local.abort(); }, timeLimitS * 1000 + HARD_STOP_GRACE_MS);
     try {
       const res = await fetch(model.kind === 'jev' ? '/api/rubiks/jev/' : '/api/rubiks/llm/', {
         method: 'POST',
         headers,
-        signal,
+        signal: local.signal,
         body: JSON.stringify({ model: key, scramble: liveScramble, maxSteps: jevMaxSteps, timeoutMs: timeLimitS * 1000 }),
       });
       if (!res.ok || !res.body) {
@@ -219,7 +245,7 @@ export default function RubiksRace() {
       for await (const ev of readSse(res)) {
         log(ev);
         handleEvent(model, ev, 1);
-        if (ev.type === 'done' || ev.type === 'error') finished = true;
+        if (ev.type === 'done' || ev.type === 'error') { finished = true; break; }
       }
       if (!finished) {
         const ev = { type: 'error', message: 'Stream ended without a result' };
@@ -228,9 +254,14 @@ export default function RubiksRace() {
       }
     } catch (err) {
       if (signal.aborted) { update(key, { status: 'idle' }); return; }
-      const ev = { type: 'error', message: err instanceof Error ? err.message : String(err) };
+      const ev = hardStopped
+        ? { type: 'client-timeout', elapsedMs: startedAt.current === null ? 0 : Math.round(performance.now() - startedAt.current) }
+        : { type: 'error', message: err instanceof Error ? err.message : String(err) };
       log(ev);
       handleEvent(model, ev, 1);
+    } finally {
+      clearTimeout(hardStop);
+      signal.removeEventListener('abort', onRaceAbort);
     }
   }, [accessKey, jevMaxSteps, timeLimitS, liveScramble, update, handleEvent]);
 

@@ -84,11 +84,17 @@ export default function ModelPanel({ panel, scramble, resetKey, elapsedMs }: Pro
       <div className="relative h-52 sm:h-56">
         <Cube3D scramble={scramble} moves={panel.moves} resetKey={resetKey} className="absolute inset-0" turnMs={model.kind === 'jev' ? 260 : 200} active={panel.status === 'thinking' || panel.status === 'waiting'} />
         {panel.status === 'thinking' && model.kind === 'llm' && (
-          <div className="absolute left-3 bottom-2 right-3 flex items-center gap-2 text-[11px] text-gray-500 font-mono truncate">
-            <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
-            {panel.reasoningChars > 0 && <span>reasoning {fmtTokens(panel.reasoningChars)} chars · </span>}
-            {panel.answerChars > 0 ? <span>answer {fmtTokens(panel.answerChars)} chars</span> : <span>waiting for the reply · providers often stream nothing while the model reasons</span>}
-            {remaining !== null && <span className="ml-auto shrink-0 text-gray-600">limit in {Math.ceil(remaining / 1000)} s</span>}
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-gray-950/95 via-gray-950/80 to-transparent px-3 pb-2 pt-6">
+            <LiveText text={panel.answerText || panel.reasoningText} label={panel.answerText ? 'reply' : 'reasoning'} />
+            <div className="mt-1 flex items-center gap-2 text-[11px] text-gray-500 font-mono">
+              <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
+              {panel.answerChars > 0
+                ? <span>replying · {fmtTokens(panel.answerChars)} chars</span>
+                : panel.reasoningChars > 0
+                  ? <span>reasoning · {fmtTokens(panel.reasoningChars)} chars so far</span>
+                  : <span>working · nothing streamed yet</span>}
+              {remaining !== null && <span className="ml-auto shrink-0 text-gray-600">limit in {Math.ceil(remaining / 1000)} s</span>}
+            </div>
           </div>
         )}
         {panel.status === 'timeout' && (
@@ -129,18 +135,33 @@ export default function ModelPanel({ panel, scramble, resetKey, elapsedMs }: Pro
         <span className="shrink-0">${model.pricing.inputPerM}/M in · ${model.pricing.outputPerM}/M out</span>
       </div>
 
-      {finished && (panel.answerTail || panel.moves.length > 0) && (
+      {finished && (panel.answerTail || panel.answerText || panel.reasoningText || panel.moves.length > 0) && (
         <div className="border-t border-gray-800">
           <button onClick={() => setShowReply((v) => !v)} className="w-full px-4 py-1.5 text-left text-[11px] text-gray-400 hover:text-gray-200">
             {showReply ? 'Hide' : 'Show'} {model.kind === 'jev' ? 'moves' : 'reply'}
           </button>
           {showReply && (
-            <pre className="max-h-48 overflow-auto px-4 pb-3 text-[11px] leading-relaxed text-gray-300 whitespace-pre-wrap break-words font-mono">
-              {model.kind === 'jev' ? panel.moves.join(' ') : panel.answerTail}
+            <pre className="max-h-64 overflow-auto px-4 pb-3 text-[11px] leading-relaxed text-gray-300 whitespace-pre-wrap break-words font-mono">
+              {model.kind === 'jev'
+                ? panel.moves.join(' ')
+                : [
+                    panel.reasoningText ? `[reasoning, last ${fmtTokens(panel.reasoningText.length)} chars]\n${panel.reasoningText}` : '',
+                    panel.answerText || panel.answerTail ? `[reply]\n${panel.answerText || panel.answerTail}` : '[no reply text]',
+                  ].filter(Boolean).join('\n\n')}
             </pre>
           )}
         </div>
       )}
+    </div>
+  );
+}
+
+function LiveText({ text, label }: { text: string; label: string }) {
+  const tail = text.slice(-420).replace(/\s+/g, ' ').trim();
+  if (!tail) return null;
+  return (
+    <div className="text-[11px] leading-snug text-gray-300/90 font-mono line-clamp-3">
+      <span className="text-gray-600">{label}: </span>{tail}
     </div>
   );
 }

@@ -50,6 +50,8 @@ export interface PanelState {
   /** Why the run ended, as reported by the server. */
   outcome: string | null;
   timeoutMs: number | null;
+  /** 'reasoning' when the moves had to be taken from the reasoning channel because the reply was empty. */
+  movesFrom: 'reply' | 'reasoning' | null;
 }
 
 export function emptyPanel(model: PublicModel): PanelState {
@@ -71,5 +73,6 @@ export function emptyPanel(model: PublicModel): PanelState {
     answerTail: null,
     outcome: null,
     timeoutMs: null,
+    movesFrom: null,
   };
 }

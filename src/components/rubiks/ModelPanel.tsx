@@ -1,6 +1,7 @@
 'use client';
 
 import dynamic from 'next/dynamic';
+import { useState } from 'react';
 import { Move } from '@/lib/rubiks/cube';
 import type { PanelState } from './types';
 
@@ -43,6 +44,7 @@ const STATUS_LABEL: Record<PanelState['status'], string> = {
   moving: 'Applying moves',
   solved: 'Solved',
   failed: 'Not solved',
+  timeout: 'Timed out',
   error: 'Error',
 };
 
@@ -53,13 +55,17 @@ const STATUS_CLASS: Record<PanelState['status'], string> = {
   moving: 'bg-sky-500/15 text-sky-300',
   solved: 'bg-emerald-500/15 text-emerald-300',
   failed: 'bg-rose-500/15 text-rose-300',
+  timeout: 'bg-amber-500/15 text-amber-300',
   error: 'bg-rose-500/15 text-rose-300',
 };
 
 export default function ModelPanel({ panel, scramble, resetKey, elapsedMs }: Props) {
   const { model } = panel;
+  const [showReply, setShowReply] = useState(false);
   const running = panel.status === 'waiting' || panel.status === 'thinking' || panel.status === 'moving';
   const shownElapsed = panel.finalElapsedMs ?? (running ? elapsedMs : null);
+  const finished = ['solved', 'failed', 'timeout', 'error'].includes(panel.status);
+  const remaining = panel.timeoutMs !== null && running && panel.finalElapsedMs === null ? Math.max(0, panel.timeoutMs - elapsedMs) : null;
 
   return (
     <div className="flex flex-col rounded-xl border border-gray-800 bg-gray-900/60 overflow-hidden">
@@ -82,6 +88,17 @@ export default function ModelPanel({ panel, scramble, resetKey, elapsedMs }: Pro
             <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
             {panel.reasoningChars > 0 && <span>reasoning {fmtTokens(panel.reasoningChars)} chars · </span>}
             {panel.answerChars > 0 ? <span>answer {fmtTokens(panel.answerChars)} chars</span> : <span>waiting for the reply · providers often stream nothing while the model reasons</span>}
+            {remaining !== null && <span className="ml-auto shrink-0 text-gray-600">limit in {Math.ceil(remaining / 1000)} s</span>}
+          </div>
+        )}
+        {panel.status === 'timeout' && (
+          <div className="absolute left-3 bottom-2 right-3 text-[11px] text-amber-300/80 font-mono truncate">
+            hit the {panel.timeoutMs ? Math.round(panel.timeoutMs / 1000) : '?'} s limit{panel.moves.length ? ` · applied the ${panel.moves.length} moves found so far` : ' · no moves in the partial reply'}
+          </div>
+        )}
+        {panel.outcome === 'max-tokens' && (
+          <div className="absolute left-3 bottom-2 right-3 text-[11px] text-rose-300/80 font-mono truncate">
+            hit the token cap before finishing
           </div>
         )}
         {model.kind === 'jev' && panel.lastStep && running && (
@@ -111,6 +128,19 @@ export default function ModelPanel({ panel, scramble, resetKey, elapsedMs }: Pro
         <span className="truncate font-mono">{model.openRouterId}</span>
         <span className="shrink-0">${model.pricing.inputPerM}/M in · ${model.pricing.outputPerM}/M out</span>
       </div>
+
+      {finished && (panel.answerTail || panel.moves.length > 0) && (
+        <div className="border-t border-gray-800">
+          <button onClick={() => setShowReply((v) => !v)} className="w-full px-4 py-1.5 text-left text-[11px] text-gray-400 hover:text-gray-200">
+            {showReply ? 'Hide' : 'Show'} {model.kind === 'jev' ? 'moves' : 'reply'}
+          </button>
+          {showReply && (
+            <pre className="max-h-48 overflow-auto px-4 pb-3 text-[11px] leading-relaxed text-gray-300 whitespace-pre-wrap break-words font-mono">
+              {model.kind === 'jev' ? panel.moves.join(' ') : panel.answerTail}
+            </pre>
+          )}
+        </div>
+      )}
     </div>
   );
 }

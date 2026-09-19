@@ -11,8 +11,8 @@ export interface PublicModel {
 }
 
 export interface Usage {
-  inputTokens: number;
-  outputTokens: number;
+  inputTokens: number | null;
+  outputTokens: number | null;
   reasoningTokens: number | null;
   cost: number;
   costFromProvider: boolean;
@@ -27,7 +27,7 @@ export interface JevStep {
   misplaced: number;
 }
 
-export type PanelStatus = 'idle' | 'waiting' | 'thinking' | 'moving' | 'solved' | 'failed' | 'error';
+export type PanelStatus = 'idle' | 'waiting' | 'thinking' | 'moving' | 'solved' | 'failed' | 'timeout' | 'error';
 
 export interface PanelState {
   model: PublicModel;
@@ -44,6 +44,9 @@ export interface PanelState {
   misplacedAfter: number | null;
   error: string | null;
   answerTail: string | null;
+  /** Why the run ended, as reported by the server. */
+  outcome: string | null;
+  timeoutMs: number | null;
 }
 
 export function emptyPanel(model: PublicModel): PanelState {
@@ -61,5 +64,7 @@ export function emptyPanel(model: PublicModel): PanelState {
     misplacedAfter: null,
     error: null,
     answerTail: null,
+    outcome: null,
+    timeoutMs: null,
   };
 }

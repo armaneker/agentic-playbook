@@ -52,7 +52,7 @@ function summarize(ordered: PanelState[]): RaceSummaryRow[] {
   return ordered.map((p) => ({
     model: p.model.key,
     label: p.model.label,
-    status: p.status === 'solved' ? 'solved' : p.status === 'error' ? 'error' : 'failed',
+    status: p.status === 'solved' ? 'solved' : p.status === 'error' ? 'error' : p.status === 'timeout' ? 'timeout' : 'failed',
     elapsedMs: p.finalElapsedMs,
     moves: p.moves.length,
     inputTokens: p.usage?.inputTokens ?? null,
@@ -74,6 +74,7 @@ export default function RubiksRace() {
   const [seed, setSeed] = useState(1);
   const [depth, setDepth] = useState(20);
   const [jevMaxSteps, setJevMaxSteps] = useState(40);
+  const [timeLimitS, setTimeLimitS] = useState(120);
   const [panels, setPanels] = useState<Record<string, PanelState>>({});
   const [running, setRunning] = useState(false);
   const [resetKey, setResetKey] = useState(0);
@@ -131,7 +132,7 @@ export default function RubiksRace() {
     const key = model.key;
     switch (ev.type) {
       case 'started':
-        update(key, { status: 'thinking' });
+        update(key, { status: 'thinking', timeoutMs: (ev.timeoutMs as number | undefined) ?? null });
         break;
       case 'progress':
         update(key, { answerChars: ev.answerChars as number, reasoningChars: ev.reasoningChars as number });
@@ -157,9 +158,12 @@ export default function RubiksRace() {
       case 'done': {
         const moves = ev.moves as Move[];
         const solved = ev.solved as boolean;
+        const outcome = (ev.outcome as string | undefined) ?? (solved ? 'solved' : 'failed');
+        const finalStatus: PanelState['status'] = solved ? 'solved' : outcome === 'timeout' ? 'timeout' : 'failed';
         const animate = model.kind === 'llm' && moves.length > 0;
         update(key, (p) => ({
-          status: animate ? 'moving' : solved ? 'solved' : 'failed',
+          status: animate ? 'moving' : finalStatus,
+          outcome,
           moves: model.kind === 'llm' ? moves : p.moves,
           usage: ev.usage as PanelState['usage'],
           finalElapsedMs: ev.elapsedMs as number,
@@ -171,7 +175,7 @@ export default function RubiksRace() {
         if (animate) {
           // Let the turn animation play out before showing the verdict.
           const wait = Math.min(15_000, moves.length * 210 + 300) / timeScale;
-          const id = window.setTimeout(() => update(key, { status: solved ? 'solved' : 'failed' }), wait);
+          const id = window.setTimeout(() => update(key, { status: finalStatus }), wait);
           pendingTimeouts.current.push(id);
         }
         break;
@@ -205,7 +209,7 @@ export default function RubiksRace() {
         method: 'POST',
         headers,
         signal,
-        body: JSON.stringify({ model: key, scramble: liveScramble, maxSteps: jevMaxSteps }),
+        body: JSON.stringify({ model: key, scramble: liveScramble, maxSteps: jevMaxSteps, timeoutMs: timeLimitS * 1000 }),
       });
       if (!res.ok || !res.body) {
         const body = await res.json().catch(() => ({}));
@@ -228,7 +232,7 @@ export default function RubiksRace() {
       log(ev);
       handleEvent(model, ev, 1);
     }
-  }, [accessKey, jevMaxSteps, liveScramble, update, handleEvent]);
+  }, [accessKey, jevMaxSteps, timeLimitS, liveScramble, update, handleEvent]);
 
   const clearPending = () => {
     for (const id of pendingTimeouts.current) clearTimeout(id);
@@ -312,7 +316,7 @@ export default function RubiksRace() {
   };
 
   const ordered = models.map((m) => panels[m.key]).filter(Boolean);
-  const finished = ordered.length > 0 && ordered.every((p) => ['solved', 'failed', 'error'].includes(p.status));
+  const finished = ordered.length > 0 && ordered.every((p) => ['solved', 'failed', 'timeout', 'error'].includes(p.status));
 
   // Package the last live race as a recording once every panel has settled.
   useEffect(() => {
@@ -326,6 +330,7 @@ export default function RubiksRace() {
       seed,
       depth,
       jevMaxSteps,
+      timeLimitMs: timeLimitS * 1000,
       models: status.models,
       events: eventLog.current,
       summary: summarize(ordered),
@@ -337,9 +342,9 @@ export default function RubiksRace() {
     if (!finished) return '';
     const rows = ordered.map((p) => {
       const t = p.finalElapsedMs === null ? '—' : `${(p.finalElapsedMs / 1000).toFixed(1)} s`;
-      const tok = p.usage ? `${p.usage.inputTokens} / ${p.usage.outputTokens}` : '—';
+      const tok = p.usage ? `${p.usage.inputTokens ?? '?'} / ${p.usage.outputTokens ?? '?'}` : '—';
       const cost = p.usage ? `$${p.usage.cost.toFixed(4)}` : '—';
-      const result = p.status === 'solved' ? 'Solved' : p.status === 'error' ? 'Error' : `Not solved (${p.misplacedAfter ?? '?'} stickers off)`;
+      const result = p.status === 'solved' ? 'Solved' : p.status === 'error' ? 'Error' : `${p.status === 'timeout' ? 'Timed out' : 'Not solved'} (${p.misplacedAfter ?? '?'} stickers off)`;
       return `| ${p.model.label} | ${result} | ${t} | ${p.moves.length} | ${tok} | ${cost} |`;
     });
     return [
@@ -449,6 +454,10 @@ export default function RubiksRace() {
               Jev max steps <span className="text-gray-200 font-semibold tabular-nums">{jevMaxSteps}</span>
               <input type="range" min={5} max={100} step={5} value={jevMaxSteps} disabled={running} onChange={(e) => setJevMaxSteps(Number(e.target.value))} className="block w-36 mt-1 accent-brand-500" />
             </label>
+            <label className="text-xs text-gray-400" title="Each model is cut off at this limit. Moves found in the partial reply are still applied.">
+              Time limit <span className="text-gray-200 font-semibold tabular-nums">{timeLimitS} s</span>
+              <input type="range" min={15} max={280} step={5} value={timeLimitS} disabled={running} onChange={(e) => setTimeLimitS(Number(e.target.value))} className="block w-36 mt-1 accent-brand-500" />
+            </label>
             {status?.requiresAccessKey && (
               <label className="text-xs text-gray-400">
                 Access key {keyChecking ? <span className="text-gray-500">checking</span> : liveAllowed ? <span className="text-emerald-400">unlocked</span> : accessKey ? <span className="text-rose-400">wrong key</span> : null}
@@ -520,12 +529,12 @@ export default function RubiksRace() {
               {[...ordered].sort(rank).map((p) => (
                 <tr key={p.model.key} className="[&>td]:px-4 [&>td]:py-2 tabular-nums">
                   <td className="font-medium text-gray-100">{p.model.label}</td>
-                  <td className={p.status === 'solved' ? 'text-emerald-300' : 'text-rose-300'}>
-                    {p.status === 'solved' ? 'Solved' : p.status === 'error' ? 'Error' : `Not solved${p.misplacedAfter !== null ? ` · ${p.misplacedAfter} stickers off` : ''}`}
+                  <td className={p.status === 'solved' ? 'text-emerald-300' : p.status === 'timeout' ? 'text-amber-300' : 'text-rose-300'}>
+                    {p.status === 'solved' ? 'Solved' : p.status === 'error' ? 'Error' : `${p.status === 'timeout' ? 'Timed out' : 'Not solved'}${p.misplacedAfter !== null ? ` · ${p.misplacedAfter} stickers off` : ''}`}
                   </td>
                   <td>{p.finalElapsedMs === null ? '—' : `${(p.finalElapsedMs / 1000).toFixed(1)} s`}</td>
                   <td>{p.moves.length}</td>
-                  <td>{p.usage ? `${p.usage.inputTokens.toLocaleString()} / ${p.usage.outputTokens.toLocaleString()}` : '—'}</td>
+                  <td>{p.usage ? `${p.usage.inputTokens?.toLocaleString() ?? '?'} / ${p.usage.outputTokens?.toLocaleString() ?? '?'}` : '—'}</td>
                   <td>{p.usage ? `$${p.usage.cost.toFixed(4)}` : '—'}</td>
                 </tr>
               ))}
@@ -552,7 +561,7 @@ function ModeButton({ active, disabled, onClick, children }: { active: boolean; 
 }
 
 function rank(a: PanelState, b: PanelState): number {
-  const score = (p: PanelState) => (p.status === 'solved' ? 0 : p.status === 'failed' ? 1 : 2);
+  const score = (p: PanelState) => (p.status === 'solved' ? 0 : p.status === 'failed' || p.status === 'timeout' ? 1 : 2);
   const d = score(a) - score(b);
   if (d !== 0) return d;
   if (a.status === 'solved' && b.status === 'solved') return (a.finalElapsedMs ?? 0) - (b.finalElapsedMs ?? 0);

@@ -1,19 +1,24 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { applyMoves, extractMoves, isSolved, misplacedStickers, toNet } from '@/lib/rubiks/cube';
 import { estimateCost, getModel } from '@/lib/rubiks/models';
-import { OPENROUTER_BASE, authorize, openRouterHeaders, scrambleFromBody, sseStream } from '@/lib/rubiks/server';
+import { OPENROUTER_BASE, authorize, openRouterHeaders, scrambleFromBody, timeoutFromBody, sseStream } from '@/lib/rubiks/server';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
 export const maxDuration = 300;
-
-const REQUEST_TIMEOUT_MS = 280_000;
 
 interface UpstreamUsage {
   prompt_tokens?: number;
   completion_tokens?: number;
   cost?: number;
   completion_tokens_details?: { reasoning_tokens?: number };
+}
+
+interface GenerationStats {
+  tokens_prompt?: number;
+  tokens_completion?: number;
+  native_tokens_reasoning?: number;
+  total_cost?: number;
 }
 
 function buildPrompt(net: string): string {
@@ -37,9 +42,24 @@ function buildPrompt(net: string): string {
   ].join('\n');
 }
 
+/** After an aborted stream OpenRouter has no usage chunk; ask its generation endpoint instead. */
+async function fetchGenerationStats(id: string): Promise<GenerationStats | null> {
+  for (let attempt = 0; attempt < 3; attempt++) {
+    await new Promise((r) => setTimeout(r, 1500));
+    try {
+      const res = await fetch(`${OPENROUTER_BASE}/api/v1/generation?id=${encodeURIComponent(id)}`, { headers: openRouterHeaders() });
+      if (res.ok) {
+        const json = (await res.json()) as { data?: GenerationStats };
+        if (json.data && typeof json.data.total_cost === 'number') return json.data;
+      }
+    } catch { /* retry */ }
+  }
+  return null;
+}
+
 export async function POST(req: NextRequest) {
   const denied = authorize(req);
-  if (denied) return NextResponse.json({ error: denied }, { status: denied.includes('key') && denied.includes('Access') ? 401 : 503 });
+  if (denied) return NextResponse.json({ error: denied }, { status: denied.startsWith('Access') ? 401 : 503 });
 
   const body = await req.json().catch(() => null);
   const model = getModel(String(body?.model ?? ''));
@@ -47,12 +67,16 @@ export async function POST(req: NextRequest) {
   const parsed = scrambleFromBody(body);
   if ('error' in parsed) return NextResponse.json({ error: parsed.error }, { status: 400 });
   const { state: scrambled } = parsed;
+  const timeoutMs = timeoutFromBody(body);
+
+  const effort = (process.env.RUBIKS_REASONING_EFFORT as 'low' | 'medium' | 'high' | undefined) ?? model.reasoningEffort;
+  const maxTokens = Number(process.env.RUBIKS_MAX_TOKENS) || model.maxTokens || 16000;
 
   return sseStream(async (send) => {
     const started = Date.now();
-    send({ type: 'started', model: model.key });
+    send({ type: 'started', model: model.key, timeoutMs });
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
 
     const upstream = await fetch(`${OPENROUTER_BASE}/api/v1/chat/completions`, {
       method: 'POST',
@@ -63,11 +87,11 @@ export async function POST(req: NextRequest) {
         messages: [{ role: 'user', content: buildPrompt(toNet(scrambled)) }],
         stream: true,
         usage: { include: true },
-        max_tokens: model.maxTokens ?? 16000,
-        reasoning: model.reasoningEffort ? { effort: model.reasoningEffort } : undefined,
+        max_tokens: maxTokens,
+        reasoning: effort ? { effort } : undefined,
       }),
     }).catch((err: unknown) => {
-      throw new Error(controller.signal.aborted ? 'Timed out waiting for the model' : `OpenRouter request failed: ${String(err)}`);
+      throw new Error(controller.signal.aborted ? 'Timed out before the model answered' : `OpenRouter request failed: ${String(err)}`);
     });
 
     if (!upstream.ok || !upstream.body) {
@@ -78,6 +102,8 @@ export async function POST(req: NextRequest) {
 
     let answer = '';
     let reasoningChars = 0;
+    let generationId: string | null = null;
+    let finishReason: string | null = null;
     const acc: { usage: UpstreamUsage | null } = { usage: null };
     let firstTokenMs: number | null = null;
     let lastFlush = 0;
@@ -90,10 +116,18 @@ export async function POST(req: NextRequest) {
       if (!line.startsWith('data:')) return; // ": OPENROUTER PROCESSING" keep-alives land here
       const payload = line.slice(5).trim();
       if (!payload || payload === '[DONE]') return;
-      let json: { choices?: { delta?: { content?: string; reasoning?: string } }[]; usage?: UpstreamUsage; error?: { message?: string } };
+      let json: {
+        id?: string;
+        choices?: { delta?: { content?: string; reasoning?: string }; finish_reason?: string | null }[];
+        usage?: UpstreamUsage;
+        error?: { message?: string };
+      };
       try { json = JSON.parse(payload); } catch { return; }
       if (json.error) throw new Error(json.error.message ?? 'upstream error');
-      const delta = json.choices?.[0]?.delta;
+      if (json.id && !generationId) generationId = json.id;
+      const choice = json.choices?.[0];
+      const delta = choice?.delta;
+      if (choice?.finish_reason) finishReason = choice.finish_reason;
       if (delta?.reasoning) reasoningChars += delta.reasoning.length;
       if (delta?.content) {
         if (firstTokenMs === null) firstTokenMs = Date.now() - started;
@@ -107,6 +141,7 @@ export async function POST(req: NextRequest) {
       }
     };
 
+    let timedOut = false;
     try {
       while (true) {
         const { value, done } = await reader.read();
@@ -121,8 +156,8 @@ export async function POST(req: NextRequest) {
       }
       if (buffer.trim()) handleLine(buffer.trim());
     } catch (err) {
-      if (controller.signal.aborted) throw new Error('Timed out waiting for the model');
-      throw err;
+      if (!controller.signal.aborted) throw err;
+      timedOut = true;
     } finally {
       clearTimeout(timer);
     }
@@ -130,13 +165,33 @@ export async function POST(req: NextRequest) {
     const elapsedMs = Date.now() - started;
     const { moves, source } = extractMoves(answer);
     const final = applyMoves(scrambled, moves);
-    const finalUsage = acc.usage;
-    const inputTokens = finalUsage?.prompt_tokens ?? 0;
-    const outputTokens = finalUsage?.completion_tokens ?? 0;
-    const reasoningTokens = finalUsage?.completion_tokens_details?.reasoning_tokens ?? null;
-    const costFromProvider = typeof finalUsage?.cost === 'number';
-    const cost = costFromProvider ? (finalUsage!.cost as number) : estimateCost(model, inputTokens, outputTokens);
 
+    let inputTokens = acc.usage?.prompt_tokens ?? null;
+    let outputTokens = acc.usage?.completion_tokens ?? null;
+    let reasoningTokens = acc.usage?.completion_tokens_details?.reasoning_tokens ?? null;
+    let cost = typeof acc.usage?.cost === 'number' ? acc.usage.cost : null;
+    let costFromProvider = cost !== null;
+
+    if (cost === null && generationId) {
+      // The stream was cut (timeout or provider hiccup); OpenRouter still knows what it billed.
+      const stats = await fetchGenerationStats(generationId);
+      if (stats) {
+        inputTokens = stats.tokens_prompt ?? inputTokens;
+        outputTokens = stats.tokens_completion ?? outputTokens;
+        reasoningTokens = stats.native_tokens_reasoning ?? reasoningTokens;
+        cost = stats.total_cost ?? null;
+        costFromProvider = cost !== null;
+      }
+    }
+    if (cost === null) {
+      // Last resort: rough estimate from what we saw (4 chars per token).
+      inputTokens = inputTokens ?? 800;
+      outputTokens = outputTokens ?? Math.round((answer.length + reasoningChars) / 4);
+      cost = estimateCost(model, inputTokens, outputTokens);
+      costFromProvider = false;
+    }
+
+    const solved = isSolved(final);
     send({
       type: 'done',
       model: model.key,
@@ -144,10 +199,11 @@ export async function POST(req: NextRequest) {
       firstTokenMs,
       moves,
       moveSource: source,
-      solved: isSolved(final),
+      solved,
+      outcome: solved ? 'solved' : timedOut ? 'timeout' : finishReason === 'length' ? 'max-tokens' : 'failed',
       misplacedAfter: misplacedStickers(final),
       usage: { inputTokens, outputTokens, reasoningTokens, cost, costFromProvider },
-      answer: answer.slice(-2000),
+      answer: answer.slice(-3000),
     });
   });
 }

@@ -50,6 +50,7 @@ export async function POST(req: NextRequest) {
 
   return sseStream(async (send) => {
     const started = Date.now();
+    send({ type: 'started', model: model.key });
     const controller = new AbortController();
     const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
 
@@ -74,8 +75,6 @@ export async function POST(req: NextRequest) {
       clearTimeout(timer);
       throw new Error(`OpenRouter ${upstream.status}: ${text.slice(0, 300)}`);
     }
-
-    send({ type: 'started', model: model.key });
 
     let answer = '';
     let reasoningChars = 0;

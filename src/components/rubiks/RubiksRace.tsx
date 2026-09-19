@@ -72,7 +72,7 @@ export default function RubiksRace() {
   const [speed, setSpeed] = useState(1);
   // Fixed initial seed so server and client render the same scramble; randomized after mount.
   const [seed, setSeed] = useState(1);
-  const [depth, setDepth] = useState(3);
+  const [depth, setDepth] = useState(20);
   const [jevMaxSteps, setJevMaxSteps] = useState(40);
   const [panels, setPanels] = useState<Record<string, PanelState>>({});
   const [running, setRunning] = useState(false);
@@ -440,9 +440,10 @@ export default function RubiksRace() {
           </>
         ) : (
           <>
-            <label className="text-xs text-gray-400">
+            <label className="text-xs text-gray-400" title="Number of random face turns applied to a solved cube. 20 is a full scramble; 1 to 3 gives text models a real chance.">
               Scramble depth <span className="text-gray-200 font-semibold tabular-nums">{depth}</span>
-              <input type="range" min={1} max={20} value={depth} disabled={running} onChange={(e) => setDepth(Number(e.target.value))} className="block w-36 mt-1 accent-brand-500" />
+              <span className="text-gray-600"> {depth >= 15 ? '(full scramble)' : depth <= 3 ? '(easy)' : ''}</span>
+              <input type="range" min={1} max={25} value={depth} disabled={running} onChange={(e) => setDepth(Number(e.target.value))} className="block w-36 mt-1 accent-brand-500" />
             </label>
             <label className="text-xs text-gray-400">
               Jev max steps <span className="text-gray-200 font-semibold tabular-nums">{jevMaxSteps}</span>

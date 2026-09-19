@@ -27,7 +27,15 @@ Agentic Playbook is a collection of tested guides for setting up and running AI 
 
 ## Demos
 
-- [LLM Rubik's Cube Race](https://agentic-playbook.dev/demos/rubiks-cube/) — Claude Fable 5.1, GPT-6 Astra, Grok 4.6 and TypeSafe Jev solve the same scramble, with time, tokens and cost per model
+- [LLM Rubik's Cube Race](https://agentic-playbook.dev/demos/rubiks-cube/) — Claude Fable 5.1, GPT-6 Astra, Grok 4.6 and TypeSafe Jev solve the same scramble, with time, tokens and cost per model. Visitors watch recorded races; live runs need an access key.
+
+## Deployment
+
+Vercel deploys `main` automatically. Environment variables:
+
+- `OPENROUTER_API_KEY` — live Rubik's cube races
+- `RUBIKS_DEMO_ACCESS_KEY` — required on the page to start a live race; without it visitors only see replays
+- `OPENAI_API_KEY` — read-aloud audio (`/api/tts`)
 
 ## Contributing
 

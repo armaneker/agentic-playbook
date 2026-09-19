@@ -102,9 +102,9 @@ export async function POST(req: NextRequest) {
       }
       if (json.usage) acc.usage = json.usage;
       const now = Date.now();
-      if (now - lastFlush > 150) {
+      if (now - lastFlush > 400) {
         lastFlush = now;
-        send({ type: 'progress', answerChars: answer.length, reasoningChars, elapsedMs: now - started, tail: answer.slice(-160) });
+        send({ type: 'progress', answerChars: answer.length, reasoningChars, elapsedMs: now - started });
       }
     };
 

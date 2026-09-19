@@ -2,16 +2,16 @@
 
 ## What is this?
 
-A static documentation site for agentic workflow guides, built with Next.js 14, MDX, and Tailwind CSS. Deployed via GitHub Pages.
+A documentation site for agentic workflow guides, built with Next.js 14, MDX, and Tailwind CSS. Deployed on Vercel. Content pages are static; a few API routes (text-to-speech, the Rubik's cube demo) run as serverless functions.
 
 Live site: https://agentic-playbook.dev/
 
 ## Tech Stack
 
-- Next.js 14 (App Router, static export)
+- Next.js 14 (App Router)
 - MDX for content pages
 - Tailwind CSS + @tailwindcss/typography
-- GitHub Actions for deploy on push to main
+- Vercel Git integration deploys on push to main. GitHub Actions only run data jobs (trend collection, audio generation).
 
 ## Content Structure
 
@@ -50,19 +50,23 @@ Each guide is a `page.mdx` that starts with the `<GuideHeader>` component for me
 ## Commands
 
 - `npm run dev` — local development
-- `npm run build` — production build (static export)
+- `npm run build` — production build
 
 ## Demos
 
-`src/app/demos/rubiks-cube/` is a live demo, not a guide. Four models race to solve the same scrambled cube through OpenRouter.
+`src/app/demos/rubiks-cube/` is a demo, not a guide. Four models race to solve the same scrambled cube through OpenRouter.
 
 - `src/lib/rubiks/cube.ts` — cube model, moves, scramble, solved check, move parsing
 - `src/lib/rubiks/models.ts` — the four models, OpenRouter ids, fallback prices
+- `src/lib/rubiks/recording.ts` — recording format (event log of a live race)
 - `src/app/api/rubiks/llm/route.ts` — streams a chat completion and extracts the move sequence
 - `src/app/api/rubiks/jev/route.ts` — runs the Jev decision loop, one move per call
-- `src/components/rubiks/` — three.js cube, panels, race orchestration
+- `src/components/rubiks/` — three.js cube, panels, race orchestration (live and replay)
+- `src/data/rubiks/recordings.json` — recorded races shown to visitors
 
-Requires `OPENROUTER_API_KEY`. Optional `RUBIKS_DEMO_ACCESS_KEY` gates the Start button. See `.env.example`.
+Two modes. Replay plays a recorded race and calls nothing. Live calls the models and needs `OPENROUTER_API_KEY` on the server plus, when `RUBIKS_DEMO_ACCESS_KEY` is set, that key entered on the page. Visitors without the key only get Replay.
+
+To publish a new recording: run a live race with the key, click "Download recording", then run `node scripts/add-rubiks-recording.mjs <file>` and commit `src/data/rubiks/recordings.json`. See `.env.example`.
 
 ## Deployment
 

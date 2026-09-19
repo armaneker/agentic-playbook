@@ -76,11 +76,12 @@ export default function ModelPanel({ panel, scramble, resetKey, elapsedMs }: Pro
       </div>
 
       <div className="relative h-52 sm:h-56">
-        <Cube3D scramble={scramble} moves={panel.moves} resetKey={resetKey} className="absolute inset-0" turnMs={model.kind === 'jev' ? 260 : 200} />
+        <Cube3D scramble={scramble} moves={panel.moves} resetKey={resetKey} className="absolute inset-0" turnMs={model.kind === 'jev' ? 260 : 200} active={panel.status === 'thinking' || panel.status === 'waiting'} />
         {panel.status === 'thinking' && model.kind === 'llm' && (
-          <div className="absolute left-3 bottom-2 right-3 text-[11px] text-gray-500 font-mono truncate">
+          <div className="absolute left-3 bottom-2 right-3 flex items-center gap-2 text-[11px] text-gray-500 font-mono truncate">
+            <span className="inline-block h-1.5 w-1.5 rounded-full bg-amber-400 animate-pulse" />
             {panel.reasoningChars > 0 && <span>reasoning {fmtTokens(panel.reasoningChars)} chars · </span>}
-            {panel.answerChars > 0 ? <span>answer {fmtTokens(panel.answerChars)} chars</span> : <span>waiting for first token</span>}
+            {panel.answerChars > 0 ? <span>answer {fmtTokens(panel.answerChars)} chars</span> : <span>waiting for the reply · providers often stream nothing while the model reasons</span>}
           </div>
         )}
         {model.kind === 'jev' && panel.lastStep && running && (

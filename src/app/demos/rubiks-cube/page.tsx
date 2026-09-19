@@ -34,7 +34,8 @@ export default function RubiksCubeDemoPage() {
       <ul>
         <li>Time is wall-clock from request start to the last token (LLMs) or the last decision (Jev).</li>
         <li>Tokens are input / output as reported by OpenRouter. Reasoning tokens are included in output.</li>
-        <li>Scramble depth is the number of random turns applied to a solved cube. Depth 1 to 3 is where text models have a real chance.</li>
+        <li>Scramble depth is the number of random turns applied to a solved cube. 20 is a full scramble. Depth 1 to 3 is where text models have a real chance.</li>
+        <li>Text models usually stream nothing while they reason, so a panel can sit on &quot;Thinking&quot; for a minute or more before the moves arrive. The cube only turns once the answer is in.</li>
       </ul>
     </>
   );

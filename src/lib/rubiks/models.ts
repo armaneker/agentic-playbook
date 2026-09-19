@@ -8,6 +8,9 @@
  *
  * Prices are USD per 1M tokens and are only used when OpenRouter does not
  * return `usage.cost` for a request.
+ *
+ * Jev's pinned id is `typesafe/jev-1.13`; the moving alias is `~typesafe/jev-latest`
+ * (with the tilde). Override with RUBIKS_JEV_MODEL if TypeSafe ships a new version.
  */
 
 export type ModelKind = 'llm' | 'jev';
@@ -65,7 +68,7 @@ export const RACE_MODELS: RaceModel[] = [
     key: 'jev',
     label: 'Jev',
     provider: 'TypeSafe',
-    openRouterId: 'typesafe/jev-latest',
+    openRouterId: process.env.RUBIKS_JEV_MODEL ?? 'typesafe/jev-1.13',
     kind: 'jev',
     color: '#818cf8',
     pricing: { inputPerM: 0.042, outputPerM: 0 },

@@ -13,6 +13,8 @@ interface Props {
   resetKey: number;
   /** Milliseconds per animated turn. */
   turnMs?: number;
+  /** Spins the whole cube faster while true, so a waiting panel does not look frozen. */
+  active?: boolean;
   className?: string;
 }
 
@@ -59,12 +61,14 @@ function turnAngle(move: Move): { axis: 0 | 1 | 2; layer: 1 | -1; angle: number 
   return { axis, layer, angle };
 }
 
-export default function Cube3D({ scramble, moves, resetKey, turnMs = 220, className }: Props) {
+export default function Cube3D({ scramble, moves, resetKey, turnMs = 220, active = false, className }: Props) {
   const mountRef = useRef<HTMLDivElement>(null);
   const applyRef = useRef<{ instant: (m: Move) => void; enqueue: (m: Move) => void; reset: () => void } | null>(null);
   const appliedCount = useRef(0);
   const turnMsRef = useRef(turnMs);
   turnMsRef.current = turnMs;
+  const activeRef = useRef(active);
+  activeRef.current = active;
 
   useEffect(() => {
     const mount = mountRef.current;
@@ -161,14 +165,15 @@ export default function Cube3D({ scramble, moves, resetKey, turnMs = 220, classN
           if (queue.length) startNext(now);
         }
       }
-      cubeGroup.rotation.y += 0.0025;
+      cubeGroup.rotation.y += activeRef.current ? 0.012 : 0.0025;
       renderer.render(scene, camera);
     };
 
     const resize = () => {
       const w = mount.clientWidth || 200;
       const h = mount.clientHeight || 200;
-      renderer.setSize(w, h, false);
+      // updateStyle=true keeps the canvas at CSS size w x h; the drawing buffer scales by pixel ratio.
+      renderer.setSize(w, h, true);
       camera.aspect = w / h;
       camera.updateProjectionMatrix();
     };

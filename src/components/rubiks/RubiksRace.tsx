@@ -183,6 +183,9 @@ export default function RubiksRace() {
         update(key, (p) => ({
           status: animate ? 'moving' : finalStatus,
           outcome,
+          movesFrom: (ev.movesFrom as 'reply' | 'reasoning' | undefined) ?? null,
+          // Fill in reasoning for the viewer if progress deltas were capped or missed.
+          reasoningText: p.reasoningText || ((ev.reasoningTail as string | undefined) ?? ''),
           moves: model.kind === 'llm' ? moves : p.moves,
           usage: ev.usage as PanelState['usage'],
           finalElapsedMs: ev.elapsedMs as number,

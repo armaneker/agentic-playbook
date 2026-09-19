@@ -52,6 +52,18 @@ Each guide is a `page.mdx` that starts with the `<GuideHeader>` component for me
 - `npm run dev` — local development
 - `npm run build` — production build (static export)
 
+## Demos
+
+`src/app/demos/rubiks-cube/` is a live demo, not a guide. Four models race to solve the same scrambled cube through OpenRouter.
+
+- `src/lib/rubiks/cube.ts` — cube model, moves, scramble, solved check, move parsing
+- `src/lib/rubiks/models.ts` — the four models, OpenRouter ids, fallback prices
+- `src/app/api/rubiks/llm/route.ts` — streams a chat completion and extracts the move sequence
+- `src/app/api/rubiks/jev/route.ts` — runs the Jev decision loop, one move per call
+- `src/components/rubiks/` — three.js cube, panels, race orchestration
+
+Requires `OPENROUTER_API_KEY`. Optional `RUBIKS_DEMO_ACCESS_KEY` gates the Start button. See `.env.example`.
+
 ## Deployment
 
 Push to `main` triggers automatic deployment via Vercel Git integration. No deploy workflow needed.

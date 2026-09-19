@@ -25,6 +25,10 @@ Agentic Playbook is a collection of tested guides for setting up and running AI 
 - Security — Production hardening
 - Case Studies — Real-world agent deployments
 
+## Demos
+
+- [LLM Rubik's Cube Race](https://agentic-playbook.dev/demos/rubiks-cube/) — Claude Fable 5.1, GPT-6 Astra, Grok 4.6 and TypeSafe Jev solve the same scramble, with time, tokens and cost per model
+
 ## Contributing
 
 See our [Contributing Guide](https://agentic-playbook.dev/about/contributing/).

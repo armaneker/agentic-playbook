@@ -41,6 +41,7 @@ export default function RootLayout({
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const pathname = usePathname();
   const canonicalUrl = `${BASE_URL}${pathname}`;
+  const wide = pathname.startsWith('/demos');
 
   return (
     <html lang="en">
@@ -76,7 +77,7 @@ export default function RootLayout({
           <Sidebar open={sidebarOpen} onClose={() => setSidebarOpen(false)} />
           <main className="flex-1 min-w-0 flex flex-col">
             <div className="flex-1 flex">
-              <article className="flex-1 min-w-0 px-6 py-8 lg:px-10 lg:py-10 max-w-3xl mx-auto prose prose-invert prose-sm lg:prose-base">
+              <article className={`flex-1 min-w-0 px-6 py-8 lg:px-10 lg:py-10 ${wide ? 'max-w-5xl' : 'max-w-3xl'} mx-auto prose prose-invert prose-sm lg:prose-base`}>
                 {children}
               </article>
               <TableOfContents />

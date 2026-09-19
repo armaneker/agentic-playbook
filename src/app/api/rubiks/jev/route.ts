@@ -4,7 +4,7 @@ import {
   toColorGrids, toNet, MOVE_DESCRIPTIONS, CubeState, toFacelets,
 } from '@/lib/rubiks/cube';
 import { estimateCost, getModel } from '@/lib/rubiks/models';
-import { OPENROUTER_BASE, authorize, openRouterHeaders, scrambleFromBody, sseStream } from '@/lib/rubiks/server';
+import { OPENROUTER_BASE, authorize, openRouterHeaders, scrambleFromBody, timeoutFromBody, sseStream } from '@/lib/rubiks/server';
 
 export const dynamic = 'force-dynamic';
 export const runtime = 'nodejs';
@@ -13,7 +13,6 @@ export const maxDuration = 300;
 const DEFAULT_MAX_STEPS = 40;
 const HARD_MAX_STEPS = 100;
 const STEP_TIMEOUT_MS = 20_000;
-const TOTAL_BUDGET_MS = 280_000;
 
 interface DecisionAnswer {
   choice?: string;
@@ -58,6 +57,7 @@ export async function POST(req: NextRequest) {
   const parsed = scrambleFromBody(body);
   if ('error' in parsed) return NextResponse.json({ error: parsed.error }, { status: 400 });
   const maxSteps = Math.min(HARD_MAX_STEPS, Math.max(1, Number(body?.maxSteps) || DEFAULT_MAX_STEPS));
+  const timeoutMs = timeoutFromBody(body);
 
   return sseStream(async (send) => {
     const started = Date.now();
@@ -70,18 +70,18 @@ export async function POST(req: NextRequest) {
     let latencies: number[] = [];
     const seen = new Map<string, number>();
 
-    send({ type: 'started', model: model.key, maxSteps });
+    send({ type: 'started', model: model.key, maxSteps, timeoutMs });
 
     let outcome: 'solved' | 'max-steps' | 'timeout' = 'max-steps';
     for (let step = 1; step <= maxSteps; step++) {
-      if (Date.now() - started > TOTAL_BUDGET_MS) { outcome = 'timeout'; break; }
+      if (Date.now() - started > timeoutMs) { outcome = 'timeout'; break; }
       const lastMove = history[history.length - 1] ?? null;
       const candidates = candidateMoves(lastMove);
       const criteria: Record<string, string> = {};
       for (const m of candidates) criteria[m] = MOVE_DESCRIPTIONS[m];
 
       const controller = new AbortController();
-      const timer = setTimeout(() => controller.abort(), STEP_TIMEOUT_MS);
+      const timer = setTimeout(() => controller.abort(), Math.min(STEP_TIMEOUT_MS, Math.max(1000, timeoutMs - (Date.now() - started))));
       const t0 = Date.now();
       const res = await fetch(`${OPENROUTER_BASE}/api/alpha/decisions`, {
         method: 'POST',

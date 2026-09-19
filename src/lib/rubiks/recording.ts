@@ -21,7 +21,7 @@ export interface RecordedEvent {
 export interface RaceSummaryRow {
   model: string;
   label: string;
-  status: 'solved' | 'failed' | 'error';
+  status: 'solved' | 'failed' | 'timeout' | 'error';
   elapsedMs: number | null;
   moves: number;
   inputTokens: number | null;
@@ -37,6 +37,7 @@ export interface RaceRecording {
   seed: number;
   depth: number;
   jevMaxSteps: number;
+  timeLimitMs?: number;
   models: RecordedModel[];
   events: RecordedEvent[];
   summary: RaceSummaryRow[];

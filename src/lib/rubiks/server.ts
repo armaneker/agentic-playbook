@@ -3,6 +3,9 @@ import { CubeState, Move, applyMoves, isMove, solvedCube } from './cube';
 
 export const OPENROUTER_BASE = process.env.OPENROUTER_BASE_URL ?? 'https://openrouter.ai';
 export const MAX_SCRAMBLE_LENGTH = 25;
+export const DEFAULT_TIMEOUT_MS = 120_000;
+export const MIN_TIMEOUT_MS = 15_000;
+export const MAX_TIMEOUT_MS = 280_000; // under Vercel's 300 s function limit
 
 export function openRouterHeaders() {
   return {
@@ -38,6 +41,13 @@ export function scrambleFromBody(body: unknown): { scramble: Move[]; state: Cube
   if (!raw.every((m) => typeof m === 'string' && isMove(m))) return { error: 'scramble contains an invalid move' };
   const scramble = raw as Move[];
   return { scramble, state: applyMoves(solvedCube(), scramble) };
+}
+
+/** Per-model time limit from the request body, clamped to what the platform allows. */
+export function timeoutFromBody(body: unknown): number {
+  const raw = Number((body as { timeoutMs?: unknown })?.timeoutMs);
+  if (!Number.isFinite(raw) || raw <= 0) return DEFAULT_TIMEOUT_MS;
+  return Math.min(MAX_TIMEOUT_MS, Math.max(MIN_TIMEOUT_MS, Math.round(raw)));
 }
 
 /** Server-sent events writer over a ReadableStream. */

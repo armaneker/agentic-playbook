@@ -64,6 +64,13 @@ export const navigation: NavItem[] = [
     href: '/trends',
   },
   {
+    title: 'Demos',
+    href: '/demos/rubiks-cube',
+    children: [
+      { title: "LLM Rubik's Cube Race", href: '/demos/rubiks-cube' },
+    ],
+  },
+  {
     title: 'About',
     href: '/about/contributing',
     children: [

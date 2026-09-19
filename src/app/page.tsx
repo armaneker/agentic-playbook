@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Server, Cpu, BarChart3, Zap, Puzzle, Shield, BookOpen, TrendingUp, ArrowRight } from 'lucide-react';
+import { Server, Cpu, BarChart3, Zap, Puzzle, Shield, BookOpen, TrendingUp, ArrowRight, Box } from 'lucide-react';
 
 const tools = [
   {
@@ -56,6 +56,14 @@ const tools = [
     href: '/trends',
     icon: TrendingUp,
     count: '12 repos tracked',
+    available: true,
+  },
+  {
+    title: 'Demos',
+    description: "Four models race to solve a Rubik's cube",
+    href: '/demos/rubiks-cube',
+    icon: Box,
+    count: '1 demo',
     available: true,
   },
 ];

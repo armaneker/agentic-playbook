@@ -36411,6 +36411,24 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "awlevin/typesafe-computer-use": {
+      "full_name": "awlevin/typesafe-computer-use",
+      "description": "Computer use for about $0.0002 a step: OCR the screen, classify the next action with TypeSafe, click. macOS.",
+      "language": "Python",
+      "url": "https://github.com/awlevin/typesafe-computer-use",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "automation",
+        "computer-use",
+        "macos",
+        "ocr",
+        "typesafe"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

@@ -36361,6 +36361,45 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "NandhaKishorM/laya": {
+      "full_name": "NandhaKishorM/laya",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/NandhaKishorM/laya",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.3"
+    },
+    "arvindear/wp2shell-PoC": {
+      "full_name": "arvindear/wp2shell-PoC",
+      "description": "CVE-2026-63030 & CVE-2026-60137 RCE chain proof-of-concept",
+      "language": "Python",
+      "url": "https://github.com/arvindear/wp2shell-PoC",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [
+        "cve-2026-60137",
+        "cve-2026-63030",
+        "wp2shell",
+        "wp2shell-exploit",
+        "wp2shell-poc"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "jackwener/wx-cli-again": {
+      "full_name": "jackwener/wx-cli-again",
+      "description": "WeChat local data CLI (query/decrypt/export) — fresh start from wx-cli",
+      "language": "Rust",
+      "url": "https://github.com/jackwener/wx-cli-again",
+      "first_seen": "2026-09-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": null
     }
   }
 }

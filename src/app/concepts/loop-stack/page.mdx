@@ -1,0 +1,129 @@
+<GuideHeader tool="Concepts" difficulty="Intermediate" lastTested="2026-09" readTime="12 min" />
+
+# Stacking Loops
+
+Four loops that wrap an agent, from the model calling tools to a system that improves its own harness. What each one adds, what it costs, and where a human belongs in it.
+
+---
+
+## One loop is not enough
+
+The [agent loop](/concepts/loop) gets work done: call the model, run a tool, feed the result back, repeat. It is the inner loop of every agent, and on its own it is unreliable, manual and static. Unreliable because the model's output is not checked. Manual because someone has to start it. Static because nothing about it improves after a run.
+
+Each of those gaps is closed by wrapping another loop around the one below. The stack has four levels. Each level is a loop whose body contains the level under it.
+
+```
+┌─ 4. Improvement loop ───────────────────────────┐
+│  traces → analysis → change the harness         │
+│  ┌─ 3. Event loop ─────────────────────────────┐ │
+│  │  event fires → run → update a real system   │ │
+│  │  ┌─ 2. Verification loop ────────────────┐  │ │
+│  │  │  run → grade → feed back → retry      │  │ │
+│  │  │  ┌─ 1. Agent loop ────────────────┐   │  │ │
+│  │  │  │  model → tool → result → model │   │  │ │
+│  │  │  └────────────────────────────────┘   │  │ │
+│  │  └───────────────────────────────────────┘  │ │
+│  └─────────────────────────────────────────────┘ │
+└──────────────────────────────────────────────────┘
+```
+
+---
+
+## Loop 1: the agent loop
+
+The model plans, calls tools, reads results and calls again until it decides the task is done or the harness stops it. This is the loop covered on the [Loop](/concepts/loop) page. It automates work.
+
+Example: a documentation agent receives a request, reads the relevant files, edits them and opens a pull request. Tools are what let it act; the loop is what lets it act more than once.
+
+What it lacks: any check that the work is right.
+
+---
+
+## Loop 2: the verification loop
+
+Wrap the agent loop in a grader. The agent produces an output; the grader scores it against a rubric; if it fails, the score and the reasons go back to the agent as feedback and it tries again. Repeat until the grade passes or a retry budget runs out.
+
+Graders come in two kinds:
+
+- **Deterministic** — Code that checks facts: do the tests pass, do all links resolve, is the diff limited to the files the request named, does the cube end up solved.
+- **Model-based** — A second model call that judges the output against written criteria. Useful for qualities code cannot check: tone, completeness, whether the answer addresses the question. Less reliable than code; use it where code is impossible.
+
+For the documentation agent: after each attempt, run the link checker and the site build, and confirm the diff touches only the requested pages. Failures go back as feedback. No human needs to catch those classes of error.
+
+The [Rubik's Cube Race](/demos/rubiks-cube) has a deterministic grader with no retry: the harness applies the model's moves and checks every face. Adding a retry with the misplaced-sticker count as feedback would turn it into a verification loop.
+
+Cost: every retry is another full agent run. Latency and spend go up. Worth it whenever correctness matters more than speed, which is most of the time in production.
+
+What it lacks: someone still has to start it.
+
+---
+
+## Loop 3: the event loop
+
+Connect the agent to the systems around it so that events start runs. A message lands in a channel, a schedule fires, a webhook arrives, a file changes. The agent is no longer a command you invoke; it is a component that runs continuously inside a larger system and updates real things when it finishes.
+
+Triggers you will meet:
+
+- **Schedules** — Cron-style timers. An agent that wakes every hour, checks for work, and does it. OpenClaw's heartbeats are this pattern.
+- **Channels** — A message in a chat channel or an email to an address starts a run with the message as the task.
+- **Webhooks** — An external system posts an event: a pull request opened, a ticket created, a payment failed.
+- **Data changes** — A new row, a new file, a new document.
+
+This site runs a small event loop with no model in it: a scheduled job collects repository star counts every six hours and commits the result. Put an agent in that job and the shape is the same.
+
+Cost: an agent that runs unattended needs the limits and observability from the [Harness](/concepts/harness) page more than one you watch. It also needs idempotency, because events fire twice.
+
+What it lacks: it does the same thing next week that it did this week, including the mistakes.
+
+---
+
+## Loop 4: the improvement loop
+
+Every run leaves a trace: the prompts, the tool calls, the results, the grader's verdicts, the cost. Traces are signal about what is working and what is not. The improvement loop reads them, finds patterns, and changes the harness: a prompt is rewritten, a tool description is clarified, a grader rule is added or relaxed.
+
+The reader can be a person with a dashboard, or another agent whose task is "analyze these traces and propose changes". Either way, the output is a change to the harness of the inner loops, not a change to the task. That is what makes this level different from the other three: its arrow does not go back to the top, it reaches inside and edits the loops below.
+
+For the documentation agent: an analysis pass over a week of traces notices that runs which touched the API reference fail the link check twice as often. It files a change to the prompt with the pattern that breaks the links. Next week's runs fail less.
+
+Prompts and tool descriptions are the easiest things to improve this way. The same loop can feed evals, memory, retrieved skills, and for teams that run their own models, fine-tuning data. The pattern is fixed; what it optimizes is a choice.
+
+Cost: you need traces you can query, an eval set to confirm a change helped, and a review step before a change goes live. Without those, the improvement loop is a random walk.
+
+---
+
+## Where humans go
+
+Automation does not remove people from the loops; it moves them to the points where judgment matters. A grader can check that links resolve. It takes a person to notice that the page is framed for the wrong audience.
+
+Each loop has a natural place for review:
+
+- **Agent loop** — Approval before a sensitive tool call: a payment, a database write, a deploy.
+- **Verification loop** — A human as the grader for outputs that code and judge models cannot score.
+- **Event loop** — A human approves the output before it reaches the end user or the real system.
+- **Improvement loop** — Proposed harness changes go through review before deployment.
+
+Put the review where the cost of a wrong action is highest and the human's judgment adds the most. Everywhere else, let the loops run.
+
+---
+
+## Putting it together
+
+| Loop | What it does | What it gives you | What it needs |
+|---|---|---|---|
+| 1. Agent | Model calls tools until the task is done | Work gets done | A model, tools, limits |
+| 2. Verification | Output is graded; failures go back as feedback and the agent retries | Correct and consistent work | A grader, a retry budget |
+| 3. Event | Events start runs that update a real system | Work at scale, unattended | Triggers, idempotency, observability |
+| 4. Improvement | Traces feed an analysis that changes the harness | A harness that gets better over time | Queryable traces, evals, review |
+
+Most teams have spent their effort on loops 1 and 2. The value compounds at 3 and 4: an agent embedded in your systems, improving against your criteria, is hard to copy. Build the inner loops first, because the outer ones have nothing to wrap without them, but do not stop there.
+
+---
+
+## Source
+
+This page follows the four-loop framing in "The Art of Loop Engineering" by Sydney Runkle, published on the LangChain blog in June 2026, which builds on swyx's "loopcraft" idea of stacking loops. The framing is theirs; the examples, the site references and the cost notes are ours, and the framework-specific parts are left out.
+
+## Next
+
+- [Loop](/concepts/loop) for the inner loop in detail.
+- [Harness](/concepts/harness) for what an unattended agent needs around it.

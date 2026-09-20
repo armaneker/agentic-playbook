@@ -7,7 +7,7 @@ const tools = [
     description: 'Agent, harness, loop, graph, tools, context',
     href: '/concepts',
     icon: Layers,
-    count: '6 pages',
+    count: '7 pages',
     available: true,
   },
   {
@@ -86,6 +86,12 @@ const tools = [
 
 const latestGuides = [
   {
+    title: 'Stacking Loops',
+    description: 'Agent, verification, event and improvement loops, and where humans belong',
+    href: '/concepts/loop-stack',
+    tool: 'Concepts',
+  },
+  {
     title: 'Context and Memory',
     description: 'What goes into the prompt each step, and how to keep long runs from drowning in history',
     href: '/concepts/context',
@@ -108,12 +114,6 @@ const latestGuides = [
     description: 'Five skill areas that decide whether agent-built software is good',
     href: '/career/software-fundamentals',
     tool: 'Career',
-  },
-  {
-    title: 'How to Create a New OpenClaw Agent on Slack',
-    description: 'Step-by-step guide with multi-bot config and troubleshooting',
-    href: '/openclaw/create-slack-agent',
-    tool: 'OpenClaw',
   },
 ];
 

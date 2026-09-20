@@ -26,6 +26,7 @@
     "openai": "^6.33.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "remark-gfm": "^4.0.1",
     "three": "^0.186.0"
   },
   "devDependencies": {

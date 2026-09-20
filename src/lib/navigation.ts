@@ -26,6 +26,7 @@ export const navigation: NavItem[] = [
       { title: 'Agent Graphs', href: '/concepts/graph' },
       { title: 'Tools', href: '/concepts/tools' },
       { title: 'Context and Memory', href: '/concepts/context' },
+      { title: 'Stacking Loops', href: '/concepts/loop-stack' },
     ],
   },
   {

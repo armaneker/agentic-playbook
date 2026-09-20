@@ -104,6 +104,7 @@ export async function POST(req: NextRequest) {
     }
 
     let answer = '';
+    let reasoning = '';
     let reasoningChars = 0;
     // Text produced since the last progress flush. Reasoning text stops being forwarded after a cap
     // so a very long think does not bloat recordings; the counter keeps going.
@@ -139,6 +140,7 @@ export async function POST(req: NextRequest) {
       if (choice?.finish_reason) finishReason = choice.finish_reason;
       if (delta?.reasoning) {
         reasoningChars += delta.reasoning.length;
+        reasoning += delta.reasoning;
         if (reasoningForwarded < REASONING_FORWARD_CAP) {
           pendingReasoning += delta.reasoning;
           reasoningForwarded += delta.reasoning.length;
@@ -191,7 +193,18 @@ export async function POST(req: NextRequest) {
 
     if (pendingReasoning || pendingAnswer) flush(Date.now());
     const elapsedMs = Date.now() - started;
-    const { moves, source } = extractMoves(answer);
+    // Some providers (Grok through OpenRouter, for one) put the whole reply, MOVES line included,
+    // on the reasoning channel and leave content empty. Fall back to it rather than score a blank.
+    let { moves, source } = extractMoves(answer);
+    let movesFrom: 'reply' | 'reasoning' = 'reply';
+    if (moves.length === 0 && reasoning) {
+      const fromReasoning = extractMoves(reasoning);
+      if (fromReasoning.source === 'moves-line' || fromReasoning.source === 'pure-line') {
+        moves = fromReasoning.moves;
+        source = fromReasoning.source;
+        movesFrom = 'reasoning';
+      }
+    }
     const final = applyMoves(scrambled, moves);
 
     let inputTokens = acc.usage?.prompt_tokens ?? null;
@@ -227,11 +240,13 @@ export async function POST(req: NextRequest) {
       firstTokenMs,
       moves,
       moveSource: source,
+      movesFrom,
       solved,
       outcome: solved ? 'solved' : timedOut ? 'timeout' : finishReason === 'length' ? 'max-tokens' : 'failed',
       misplacedAfter: misplacedStickers(final),
       usage: { inputTokens, outputTokens, reasoningTokens, cost, costFromProvider },
       answer: answer.slice(-3000),
+      reasoningTail: reasoning.slice(-3000),
     });
   });
 }

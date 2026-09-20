@@ -102,6 +102,11 @@ export default function ModelPanel({ panel, scramble, resetKey, elapsedMs }: Pro
             hit the {panel.timeoutMs ? Math.round(panel.timeoutMs / 1000) : '?'} s limit{panel.moves.length ? ` · applied the ${panel.moves.length} moves found so far` : ' · no moves in the partial reply'}
           </div>
         )}
+        {panel.movesFrom === 'reasoning' && !running && (
+          <div className="absolute left-3 top-2 right-3 text-[11px] text-gray-500 font-mono truncate">
+            reply was empty · moves taken from the reasoning channel
+          </div>
+        )}
         {panel.outcome === 'max-tokens' && (
           <div className="absolute left-3 bottom-2 right-3 text-[11px] text-rose-300/80 font-mono truncate">
             hit the token cap before finishing

@@ -36566,6 +36566,69 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "v-modal/awesome-jev-tools": {
+      "full_name": "v-modal/awesome-jev-tools",
+      "description": "A curated list of tools  built for Jev — TypeSafe AI's System One model for typed decisions.",
+      "language": "Unknown",
+      "url": "https://github.com/v-modal/awesome-jev-tools",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "awesome-lists",
+        "jev",
+        "llm",
+        "robotics",
+        "robotics-algorithms",
+        "robotics-control",
+        "robotics-simulation"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "Player-YN/BrowserKitten": {
+      "full_name": "Player-YN/BrowserKitten",
+      "description": "Paw Work - selection-first web agent for Chrome: select on the live page, describe the outcome, take away an editable office file. BYOK, sandboxed, no server.",
+      "language": "JavaScript",
+      "url": "https://github.com/Player-YN/BrowserKitten",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "browser-agent",
+        "byok",
+        "chrome-extension",
+        "llm",
+        "pptx",
+        "tldraw",
+        "univer"
+      ],
+      "category": "Agentic",
+      "version": "v1.1.0"
+    },
+    "anmolkapil/plexo": {
+      "full_name": "anmolkapil/plexo",
+      "description": "Speed up downloads by combining multiple network connections in parallel",
+      "language": "TypeScript",
+      "url": "https://github.com/anmolkapil/plexo",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [
+        "bandwidth-aggregation",
+        "cross-platform",
+        "desktop-app",
+        "downloader",
+        "downloadmanager",
+        "linux",
+        "macos",
+        "multiconnection",
+        "parallel-downloads",
+        "windows"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -36429,6 +36429,110 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "jaredpalmer/kev": {
+      "full_name": "jaredpalmer/kev",
+      "description": "tiny Jev-like model built on top of Qwen2.5-0.5B you can train and run on your MacBook",
+      "language": "Python",
+      "url": "https://github.com/jaredpalmer/kev",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "bespokelabsai/nimble": {
+      "full_name": "bespokelabsai/nimble",
+      "description": "Local typed decisions, contrastive data curation, and model evaluation.",
+      "language": "Python",
+      "url": "https://github.com/bespokelabsai/nimble",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Mak5er/AirCard": {
+      "full_name": "Mak5er/AirCard",
+      "description": "Apple Wallet Card Skinner for iOS 18+ (No Jailbreak Required)",
+      "language": "Swift",
+      "url": "https://github.com/Mak5er/AirCard",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2.3"
+    },
+    "ERRRC/kaogongzhentizhengliu": {
+      "full_name": "ERRRC/kaogongzhentizhengliu",
+      "description": "2016–2026 国考/省考/联考真题按考点重组的深度标注笔记的判断推理和资料分析部分",
+      "language": "Unknown",
+      "url": "https://github.com/ERRRC/kaogongzhentizhengliu",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "thruwire/foreman": {
+      "full_name": "thruwire/foreman",
+      "description": "Software factory foreman based on TypeSafe's Jev model",
+      "language": "Python",
+      "url": "https://github.com/thruwire/foreman",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "apple/xcode-project-format": {
+      "full_name": "apple/xcode-project-format",
+      "description": "A Swift library for reading, writing, and manipulating Xcode's JSON-based project.xcproj format. ",
+      "language": "Swift",
+      "url": "https://github.com/apple/xcode-project-format",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yibie/awesome-jev": {
+      "full_name": "yibie/awesome-jev",
+      "description": "A curated list of public projects, integrations, and discussions built on Jev — TypeSafe AI's System One model for typed decisions.",
+      "language": "Python",
+      "url": "https://github.com/yibie/awesome-jev",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "jev",
+        "llm"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "kyotofin/tax-doc-classifier": {
+      "full_name": "kyotofin/tax-doc-classifier",
+      "description": "Tax document page classifier built on Jev decisions. 100% strict accuracy across 261 IRS forms, ~$0.001 per page.",
+      "language": "TypeScript",
+      "url": "https://github.com/kyotofin/tax-doc-classifier",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "superagents-lab/jev-search": {
+      "full_name": "superagents-lab/jev-search",
+      "description": "Search the web with TypeSafe's Jev: source selection, query understanding and relevance ranking. Built with Search1API.",
+      "language": "TypeScript",
+      "url": "https://github.com/superagents-lab/jev-search",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

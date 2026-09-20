@@ -33040,7 +33040,7 @@
     },
     "jub0t/Concat": {
       "full_name": "jub0t/Concat",
-      "description": "Open-Source CapCut replacement (MCP supported).",
+      "description": "Free & Open-Source CapCut replacement (supports MCPs).",
       "language": "Rust",
       "url": "https://github.com/jub0t/Concat",
       "first_seen": "2026-08-31",
@@ -36532,6 +36532,39 @@
       "has_summary": false,
       "topics": [],
       "category": "Agentic",
+      "version": null
+    },
+    "dofastted/vm2api": {
+      "full_name": "dofastted/vm2api",
+      "description": "vm2api 使用虚拟机完全拟真方案的订阅转api",
+      "language": "JavaScript",
+      "url": "https://github.com/dofastted/vm2api",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2.13"
+    },
+    "mizorewww/laya-mlx": {
+      "full_name": "mizorewww/laya-mlx",
+      "description": "Native MLX runtime for Laya typed decision models — 7–14 ms short decisions on M3 Max. No text generation, PyTorch, or cloud API.",
+      "language": "Python",
+      "url": "https://github.com/mizorewww/laya-mlx",
+      "first_seen": "2026-09-20",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "decision-model",
+        "inference",
+        "laya",
+        "local-ai",
+        "machine-learning",
+        "mlx",
+        "modernbert",
+        "system-one",
+        "typed-decisions"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

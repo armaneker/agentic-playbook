@@ -17,6 +17,8 @@ Live site: https://agentic-playbook.dev/
 
 All content lives in `src/app/` using the App Router convention. Guides are organized by tool/category:
 
+- `src/app/concepts/` — Tool-independent concept pages (agent, harness, loop, graph)
+- `src/app/career/` — Career path: skills map for AI engineers
 - `src/app/openclaw/` — OpenClaw guides
 - `src/app/paperclip/` — Paperclip guides
 - `src/app/langsmith/` — LangSmith Fleet guides

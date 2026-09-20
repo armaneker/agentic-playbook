@@ -1,0 +1,114 @@
+<GuideHeader tool="Career" difficulty="Beginner" lastTested="2026-09" readTime="12 min" />
+
+# Software Engineering Fundamentals for AI Engineers
+
+The software skills that decide whether an agent-built application is good, and how to learn them when an agent writes the code.
+
+---
+
+## Why fundamentals matter more, not less
+
+A coding agent can write a working application for someone who does not understand software. It will also choose the database, the caching strategy, the auth scheme and the deployment target. Each choice is a tradeoff in latency, availability, consistency, reliability, maintainability, simplicity and cost. The agent picks something reasonable by default. Reasonable by default is often wrong for your application.
+
+The developer who knows the tradeoffs exist can steer. The developer who does not will not notice until users do.
+
+This page follows the five areas Andrew Ng identifies in his AI Engineering Skills Map post on software fundamentals: full-stack applications, data, system architecture, security and reliability, and production operations. For each, what to know and how to practice it with an agent.
+
+---
+
+## 1. Building full-stack applications
+
+Agents let front-end, mobile and back-end specialists work across the whole stack. The agent fills the gaps in your knowledge, but only if you know the gaps are there.
+
+What to know:
+
+- UI components and page rendering: server-rendered, client-rendered, streamed, and what each does to load time
+- API design: REST versus RPC versus GraphQL, versioning, error shapes
+- Authentication and session management: who is logged in, how the server knows, what expires when
+- State: what lives in the browser, what lives on the server, what lives in the URL
+- Asynchronous processing: what runs in the request, what goes to a queue
+- Caching: where, for how long, and how it gets invalidated
+- Persistence, testing, security and accessibility as parts of every feature, not afterthoughts
+
+How to practice: before asking the agent to build a feature, write down where each piece of state lives and which calls are synchronous. Then compare with what the agent built.
+
+---
+
+## 2. Managing data
+
+Data is the foundation the rest is built on, and the part that is hardest to change later. Agents help with migrations, but they cannot tell you what your access patterns will be in a year.
+
+What to know:
+
+- Access patterns first: what is read, what is written, how often, by whom
+- Data models and storage types: relational, document, key-value, graph, and when each fits
+- Transactions, concurrency and consistency: what happens when two writes collide
+- Data quality: clean, consistent, fresh, and what breaks each of those
+- Privacy, governance, compliance and retention
+- Evolving a schema without stopping the application
+
+Data has one more role in AI systems. Your agents get their context from your data sources. A badly structured data layer means the model does not know what it does not know, and no prompt fixes that. Building data infrastructure for agents rather than for humans is a young practice; expect your approach to change.
+
+How to practice: for any feature, list the queries it needs before letting the agent pick a schema. Ask the agent to explain the consistency guarantees of what it chose.
+
+---
+
+## 3. Designing system architectures
+
+Once you understand the pieces, architecture is deciding how to put them together for this application, with its number of users, its latency needs and its budget.
+
+What to know:
+
+- Where the front-end ends and the back-end begins
+- How to decompose a system, and where application state lives
+- Monolith versus services, and why the answer changes with team size and load
+- Choosing a stack: languages, runtimes, frameworks, data technologies, sometimes by running a small experiment first
+- That the right architecture for a prototype, a first production release and a scaled system are three different architectures
+
+How to practice: ask the agent for two architectures with different tradeoffs and make it argue for each. You should be able to say which one fits your context and why.
+
+---
+
+## 4. Making systems secure and reliable
+
+Reliability is a testing strategy plus a failure strategy. Security is now part of every developer's job, not a later phase.
+
+What to know:
+
+- Testing: the mix of unit and integration tests, which frameworks, what coverage means and what it does not
+- Designing for failure: rate limits, retries with backoff, graceful degradation, limiting the blast radius
+- Shift-left security: scanning code for vulnerabilities, checking dependencies for supply-chain problems, reviewing cloud configuration for exposed surfaces
+- Enough security knowledge to read what the scanners report and know which findings matter
+
+Agents make this both easier and riskier. They can run the scanners for you. They can also introduce a dependency you never reviewed. See the [Security](/security) section for concrete practices.
+
+How to practice: have the agent write the failure handling for an external API before the happy path. Review every new dependency it adds.
+
+---
+
+## 5. Scaling and operating in production
+
+Serving real users means owning the software development lifecycle end to end: build, test, configure environments, choose a release strategy, automate deployment, and understand the infrastructure it runs on.
+
+What to know:
+
+- CI/CD and deployment automation
+- Infrastructure as a service: what you rent, what you manage, what it costs
+- Observability: logs, metrics, traces, alerts, and incident handling
+- Scaling: measuring real load, scaling servers, load balancing, and scaling data through indexing, replication and sharding
+- Keeping a system alive over years: version control discipline, code review, dependency maintenance, managing technical debt
+
+How to practice: deploy something small to a real host with a real domain and keep it running for a month. Set one alert. Break it on purpose and fix it from the logs.
+
+---
+
+## Where this site helps
+
+- [Concepts](/concepts) covers the agent-specific architecture: harness, loop, graph.
+- [The RPI Loop](/getting-started/rpi-loop) is a working method for steering a coding agent through a task.
+- [OpenClaw deployment](/openclaw/deployment) and [security](/openclaw/security) are worked examples of operating an agent system in production.
+- The [Rubik's Cube Race](/demos/rubiks-cube) is a small full-stack application built with a coding agent. Its repository shows the tradeoffs made: serverless routes with time limits, streaming, replay from recorded data instead of live calls for visitors.
+
+## Source
+
+Andrew Ng, AI Engineering Skills Map: Software engineering fundamentals, published on X at [@AndrewYNg](https://x.com/AndrewYNg). The five areas and their scope follow that post. The practice suggestions and site links are additions.

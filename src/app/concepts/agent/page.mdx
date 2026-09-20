@@ -1,0 +1,114 @@
+<GuideHeader tool="Concepts" difficulty="Beginner" lastTested="2026-09" readTime="10 min" />
+
+# Agent = Model + Harness
+
+What an agent is, which part of it the model provides, and which part you build.
+
+---
+
+## The definition
+
+A language model takes text in and produces text out. That is all it does. It cannot read a file, call an API, remember yesterday, or check whether its answer worked.
+
+An agent is a model wrapped in software that gives it those abilities. That software is the **harness**:
+
+```
+agent = model + harness
+```
+
+The model supplies reasoning and language. The harness supplies everything else:
+
+- The prompt and the instructions in it
+- The tools the model can call, and the code that runs them
+- The loop that feeds tool results back and asks the model again
+- The state the agent carries between steps
+- Budgets, timeouts and stop conditions
+- Logs, traces and cost accounting
+
+The same model in two different harnesses is two different agents. This is the most useful thing to understand before you compare models, pick a framework or debug a bad result.
+
+---
+
+## What the model does alone
+
+Send a scrambled Rubik's cube to a frontier model as text and ask for the solving moves. The model reasons for a while and returns a move sequence. Whether that sequence is correct is unknown to the model. It never saw the cube turn. If the sequence is wrong, the model has no way to notice.
+
+That is a single model call: one prompt, one reply, no feedback. It works for tasks the model can finish in its head. It fails for tasks that need trial, observation and correction.
+
+## What the harness adds
+
+Put the same model in a loop with one tool, `apply_moves`, that turns the cube and returns the new state. Now the model can propose three moves, see the result, and try again. The task did not change and the model did not change. The harness changed, and the agent got a capability it did not have before: acting on the world and observing the outcome.
+
+A harness can add:
+
+- **Tools** — Actions the model can request: run a command, query a database, send a message.
+- **Environment** — The thing tools act on: a filesystem, a browser, a cube simulator, a customer's account.
+- **Context assembly** — Choosing what goes into the prompt at each step: the task, recent results, retrieved documents, memory.
+- **Control flow** — When to call the model again, when to stop, when to ask a human.
+- **Limits** — Maximum steps, maximum tokens, maximum time, maximum cost.
+- **Observability** — A record of every step so you can replay, debug and bill.
+
+---
+
+## Three things that look like agents
+
+| System | Who decides the next step | Example |
+|---|---|---|
+| Prompt call | Nobody, there is only one step | Summarize this document |
+| Workflow | Your code, in a fixed order | Extract fields, then validate, then store |
+| Agent | The model, inside limits your harness sets | Fix this failing test, run it, repeat until green |
+
+The line between workflow and agent is who chooses the next action. A workflow calls the model at fixed points. An agent lets the model choose which tool to call next and when it is done. Most useful systems mix the two: a fixed outer workflow with agentic steps inside it. The [Graph](/concepts/graph) page covers that mix.
+
+---
+
+## A minimal agent
+
+Twenty lines is enough to show every part. This is the whole idea; frameworks add structure around it, not new concepts.
+
+```typescript
+const tools = {
+  apply_moves: (args: { moves: string }) => cube.apply(args.moves),
+};
+
+async function runAgent(task: string, maxSteps = 20) {
+  const messages = [{ role: 'user', content: task }];
+
+  for (let step = 0; step < maxSteps; step++) {
+    const reply = await model.chat({ messages, tools: toolSchemas });
+    messages.push(reply);
+
+    if (!reply.toolCall) return reply.content;          // model says it is done
+
+    const result = tools[reply.toolCall.name](reply.toolCall.args);
+    messages.push({ role: 'tool', content: JSON.stringify(result) });
+  }
+  throw new Error('step budget exhausted');
+}
+```
+
+Everything in this function except `model.chat` is harness: the message list is state, the `tools` map is the environment, the `for` loop with `maxSteps` is control flow and a budget. Add a timeout, a cost counter and a trace log and you have a complete small harness.
+
+---
+
+## Why this matters when you compare models
+
+The [Rubik's Cube Race](/demos/rubiks-cube) on this site runs four models on one scramble. Three of them, Claude Fable 5.1, GPT-6 Astra and Grok 4.6, get one call each: cube in, moves out. The fourth, Jev, is a decision model that cannot write text at all. Its harness asks it one question per move, applies the move to the cube, and asks again with the new state.
+
+When Jev solves a scramble and a text model does not, the result says as much about the harnesses as about the models. Jev acted on the cube forty times and saw every result. The text model acted once and saw nothing. A fair comparison gives both the same environment.
+
+Keep this in mind whenever a benchmark says model A beats model B. Ask what harness each ran in.
+
+---
+
+## Common mistakes
+
+- **Blaming the model for a harness problem.** The model gave a bad answer because the prompt lacked the one fact it needed. Fix context assembly, not the model.
+- **Comparing agents with different harnesses and calling it a model comparison.** Same model, same task, different tool set, different result.
+- **Skipping limits.** An agent with no step budget or timeout will eventually loop forever on your bill.
+- **Treating the framework as the agent.** A framework is a pre-built harness. You still own the prompts, the tools and the limits.
+
+## Next
+
+- [Harness](/concepts/harness) breaks the harness into parts and shows how to fit it to a task.
+- [Loop](/concepts/loop) covers the core cycle and its failure modes.

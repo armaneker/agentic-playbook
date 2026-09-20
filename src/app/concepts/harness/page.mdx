@@ -1,0 +1,127 @@
+<GuideHeader tool="Concepts" difficulty="Intermediate" lastTested="2026-09" readTime="15 min" />
+
+# The Agent Harness
+
+The parts of a harness, what each part is responsible for, and how to fit a harness to a task.
+
+---
+
+## What a harness does
+
+A harness has one job: get the model the right context at the right time, then act on what the model says. Everything in it serves that job.
+
+If you have used a coding agent, you have used a harness someone else built. The system prompt, the file-reading tool, the shell tool, the permission prompts, the step limit, the context compaction when the conversation gets long: none of that is the model. All of it decides how well the model does.
+
+---
+
+## The parts
+
+### Instructions
+
+The system prompt and any task-specific text. This is where the harness tells the model what it is, what it may do, and what "done" looks like. Instructions are the cheapest part to change and the first place to look when behavior is wrong.
+
+### Context assembly
+
+Code that builds the prompt for each step. It decides what to include: the task, the last tool results, retrieved documents, memory, the current state of the environment. It also decides what to leave out. Context windows are finite and attention degrades as they fill, so a harness that dumps everything in does worse than one that selects.
+
+### Tools and environment
+
+Tools are the actions the model can request. The environment is what those actions touch. A tool has a name, a schema for its arguments, and code that runs it. Good tools are narrow, well-described and return results the model can act on. A tool that returns a 40 KB blob is a context assembly problem waiting to happen.
+
+### The loop
+
+Call the model, run the requested tool, append the result, call the model again. The [Loop](/concepts/loop) page covers it in detail. Some harnesses run a fixed sequence of steps instead of an open loop; the [Graph](/concepts/graph) page covers that.
+
+### Stop conditions and budgets
+
+When does the agent stop? When the model says it is done, when a step limit is hit, when a timeout fires, when cost passes a threshold, when the same state repeats. A harness without explicit stop conditions has an implicit one: your credit card.
+
+### Hooks
+
+Code that runs before or after each model call or tool call. Uses: log the step, check a tool call against a policy, rewrite a prompt, inject a reminder every N steps, ask a human before a destructive action. Frameworks call this middleware. It is how you customize a harness without rewriting its loop.
+
+### Memory
+
+State that survives beyond one run: user preferences, past decisions, learned facts. Memory is a context assembly input. See [AI Agents and Memory](/getting-started/agent-memory).
+
+### Observability
+
+A trace of every step: prompt, reply, tool call, result, latency, tokens, cost. Without it you cannot debug a bad run, replay a good one, or know what the agent costs. Record it from the first version.
+
+### Evaluation
+
+A way to run the agent on a fixed set of tasks and score the results. Every change to the harness, a prompt tweak, a new tool, a different limit, should be checked against it. Without evals you are guessing whether the change helped.
+
+---
+
+## Task-harness fit
+
+There is no single right harness. A customer support agent needs strict instructions, a small tool set, a low step limit and a human escalation path. A long-running coding agent needs a large tool set, a high step limit, context compaction and permission checks on dangerous commands. A decision model that answers one typed question needs a harness that asks the right question with the right state, and a loop that turns answers into actions.
+
+Match these to the task:
+
+- **Step limit** — Short for chat-style tasks, long for autonomous work.
+- **Tool count** — Few tools for narrow tasks; models pick wrong tools more often as the list grows.
+- **Human checkpoints** — Required for irreversible actions, optional for read-only work.
+- **Context strategy** — Full history for short tasks; summaries or retrieval for long ones.
+- **Model choice** — The harness can compensate for a weaker model in some tasks and cannot in others. Test.
+
+---
+
+## A real harness, read end to end
+
+The Jev panel in the [Rubik's Cube Race](/demos/rubiks-cube) is a complete harness in about 170 lines, in `src/app/api/rubiks/jev/route.ts` of this site's repository. Jev is a decision model: it takes a state and a typed question and returns a choice with probabilities. It cannot write a move sequence, so the harness asks for one move at a time.
+
+Trimmed to the essentials:
+
+```typescript
+for (let step = 1; step <= maxSteps; step++) {
+  if (Date.now() - started > timeoutMs) { outcome = 'timeout'; break; }
+
+  // Context assembly: everything Jev sees about the cube this step
+  const state = {
+    faces: toColorGrids(cube),
+    net: toNet(cube),
+    moves_so_far: history,
+    misplaced_stickers: misplacedStickers(cube),
+  };
+
+  // Action space: 18 turns, minus the face just turned
+  const criteria = candidateMoves(lastMove);
+
+  const answer = await decide({ state, question: { type: 'choice', criteria } });
+  const move = answer.choice;
+
+  cube = applyMove(cube, move);      // act on the environment
+  history.push(move);
+  send({ type: 'step', move, probability: answer.probabilities[move] });  // observability
+
+  if (isSolved(cube)) { outcome = 'solved'; break; }   // stop condition
+}
+```
+
+Map it to the parts:
+
+- Instructions: the `instructions` string in the question, not shown above
+- Context assembly: the `state` object, rebuilt every step
+- Tools and environment: one implicit tool, apply the chosen move to the cube simulator
+- Loop: the `for`
+- Stop conditions: solved, `maxSteps`, `timeoutMs`
+- Observability: every step is streamed and recorded, which is what replay mode plays back
+
+What it lacks is also instructive. There is no lookahead, no backtracking, and the repeated-state detector is computed but unused. Those would be harness improvements. The model would stay the same and the agent would get better.
+
+---
+
+## Common mistakes
+
+- **Prompt-only harness.** All the effort goes into the system prompt, none into tools, limits or traces. The prompt cannot fix what the model cannot see.
+- **No budget.** Every loop needs a step cap and a timeout before it runs on real money.
+- **No trace.** A bad run you cannot replay is a bad run you cannot fix.
+- **One model, one test.** A harness tuned by hand against a single model on a single task overfits to both. Keep a small eval set.
+- **Too many tools.** Each tool is a choice the model can get wrong. Add tools when a task needs them, not in advance.
+
+## Next
+
+- [Loop](/concepts/loop) for the cycle at the core of the harness.
+- [Graph](/concepts/graph) for harnesses with more than one kind of step.

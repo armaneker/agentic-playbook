@@ -1,0 +1,120 @@
+<GuideHeader tool="Concepts" difficulty="Intermediate" lastTested="2026-09" readTime="12 min" />
+
+# The Agent Loop
+
+The cycle at the core of every harness: call the model, run the tool it asked for, feed the result back, repeat until a stop condition fires.
+
+---
+
+## The cycle
+
+```
+build context → call model → parse reply
+      ↑                          │
+      │                    tool call?
+      │                     no → stop, return answer
+      │                     yes ↓
+      └──── append result ← run tool
+```
+
+Four operations, in order:
+
+1. **Build context.** Assemble the messages for this step: instructions, task, history, latest tool results.
+2. **Call the model.** Send the messages and the tool schemas. Get a reply.
+3. **Parse the reply.** Either the model requested a tool with arguments, or it produced a final answer.
+4. **Run the tool and append the result.** Execute the request, add the result to history, go to step 1.
+
+The loop exits when the model stops asking for tools, or when the harness decides it has had enough.
+
+---
+
+## One shot versus loop
+
+A single model call is the loop with `maxSteps = 1` and no tools. It is the right choice when the model can finish the task from the prompt alone: classification, summarization, drafting, translation.
+
+The loop is the right choice when the task needs observation. The model does something, sees what happened, and adjusts. Fixing a failing test, navigating a website, solving a puzzle you can check.
+
+The [Rubik's Cube Race](/demos/rubiks-cube) shows both on one task. The three text models are called once each. They reason about the cube in their heads and output a move list. Jev runs in a loop of up to 40 steps, choosing one move at a time and seeing the cube after each. A text model given the same loop and an `apply_moves` tool would behave very differently from a text model given one shot.
+
+---
+
+## Stop conditions
+
+Every loop needs more than one way to end. Write them down before the first run:
+
+- **Model says done.** The reply has no tool call. This is the normal exit.
+- **Step budget.** A hard cap on iterations. Forty is plenty for most tasks; coding agents may need hundreds.
+- **Timeout.** Wall-clock limit for the whole run, and usually a separate one per tool call.
+- **Cost ceiling.** Stop when tokens or dollars pass a threshold.
+- **No progress.** The same state or the same tool call repeats N times. Detect it by hashing the state.
+- **Human interrupt.** A stop button, or a checkpoint that waits for approval before continuing.
+
+When a limit fires, do not throw everything away. Return what you have with a reason: `timeout`, `max-steps`, `no-progress`. The caller can decide whether a partial result is useful. The Rubik's demo applies whatever moves it found in a partial reply and reports the outcome as timed out rather than failed.
+
+---
+
+## Failure modes
+
+**Infinite loops.** The model keeps calling the same tool with the same arguments, or alternates between two states. The step budget catches it eventually; a repeated-state check catches it early and cheaply.
+
+**Context growth.** Every step appends to history. After enough steps the context is mostly stale tool output, and the model's attention to the task degrades. Fixes: truncate large tool results before appending, summarize old turns, or keep only the last N results plus a running summary.
+
+**Tool errors.** A tool throws or returns garbage. Do not crash the loop. Return the error text as the tool result so the model can react: retry, try another tool, or give up with an explanation.
+
+**Cost runaway.** A model that reasons for two minutes per step, times forty steps, is expensive. Set the budget on the harness side; never rely on the model to stop itself.
+
+**Silent partial success.** The model declares victory without checking. If the task has a verifiable end state, verify it in the harness. The cube demo does not trust the model's claim of "solved"; it applies the moves and checks every face.
+
+---
+
+## A loop skeleton
+
+This adds the guards missing from the twenty-line version on the [Agent](/concepts/agent) page: a timeout, a repeated-state check, tool error handling and a trace.
+
+```typescript
+interface Step { role: string; content: string; toolCall?: { name: string; args: unknown } }
+
+async function runLoop(task: string, opts: { maxSteps: number; timeoutMs: number }) {
+  const messages: Step[] = [{ role: 'user', content: task }];
+  const trace: unknown[] = [];
+  const seen = new Map<string, number>();
+  const started = Date.now();
+
+  for (let step = 0; step < opts.maxSteps; step++) {
+    if (Date.now() - started > opts.timeoutMs) return { outcome: 'timeout', messages, trace };
+
+    const reply = await model.chat({ messages, tools: toolSchemas });
+    messages.push(reply);
+    trace.push({ step, reply });
+
+    if (!reply.toolCall) return { outcome: 'done', answer: reply.content, messages, trace };
+
+    const key = JSON.stringify(reply.toolCall);
+    seen.set(key, (seen.get(key) ?? 0) + 1);
+    if (seen.get(key)! > 2) return { outcome: 'no-progress', messages, trace };
+
+    let result: string;
+    try {
+      result = truncate(await runTool(reply.toolCall), 4000);
+    } catch (err) {
+      result = `tool error: ${String(err)}`;
+    }
+    messages.push({ role: 'tool', content: result });
+    trace.push({ step, tool: reply.toolCall, result });
+  }
+  return { outcome: 'max-steps', messages, trace };
+}
+```
+
+The trace is the part people skip. Keep it. It is what lets you replay a run, compare two harness versions, and answer "what did it cost".
+
+---
+
+## The human loop and the machine loop
+
+[The RPI Loop](/getting-started/rpi-loop) on this site is also a loop: research, plan, implement, repeat. That one runs at the level of a human directing a coding agent across a task. The loop on this page runs inside the agent, dozens of times per minute. They nest: each step of the human loop may trigger many iterations of the machine loop.
+
+## Next
+
+- [Graph](/concepts/graph) for when one loop with one prompt is not enough.
+- [Harness](/concepts/harness) for the parts around the loop.

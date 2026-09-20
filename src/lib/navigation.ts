@@ -16,6 +16,17 @@ export const navigation: NavItem[] = [
     ],
   },
   {
+    title: 'Concepts',
+    href: '/concepts',
+    children: [
+      { title: 'Overview', href: '/concepts' },
+      { title: 'Agent = Model + Harness', href: '/concepts/agent' },
+      { title: 'The Agent Harness', href: '/concepts/harness' },
+      { title: 'The Agent Loop', href: '/concepts/loop' },
+      { title: 'Agent Graphs', href: '/concepts/graph' },
+    ],
+  },
+  {
     title: 'Skills',
     href: '/skills',
     children: [
@@ -68,6 +79,14 @@ export const navigation: NavItem[] = [
     href: '/demos/rubiks-cube',
     children: [
       { title: "LLM Rubik's Cube Race", href: '/demos/rubiks-cube' },
+    ],
+  },
+  {
+    title: 'Career Path',
+    href: '/career',
+    children: [
+      { title: 'Overview', href: '/career' },
+      { title: 'Software Engineering Fundamentals', href: '/career/software-fundamentals' },
     ],
   },
   {

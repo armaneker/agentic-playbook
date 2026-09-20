@@ -1,0 +1,27 @@
+# Concepts
+
+Tool-independent explanations of the ideas every agent system is built on. Read these before picking a framework.
+
+## How the pages fit together
+
+An **agent** is a model plus a **harness**. The harness is the software around the model: prompt, tools, state, limits, observability. At the core of every harness is a **loop**: call the model, run the tool it asked for, feed the result back, repeat. When one loop is not enough, the loop becomes a **graph**: several steps with different prompts and tools, connected by edges that decide what runs next.
+
+## Pages
+
+- [Agent](/concepts/agent) — What an agent is, what the model does alone, and what the harness adds. Why the same model becomes a different agent in a different harness.
+- [Harness](/concepts/harness) — The parts of a harness, what each one is for, and how to match a harness to a task.
+- [Loop](/concepts/loop) — The model-call-tool-repeat cycle, its stop conditions, and the ways it fails.
+- [Graph](/concepts/graph) — Multi-step control flow: nodes, edges, shared state, and when a plain loop is no longer enough.
+
+## Coming soon
+
+- Tools — Designing tool interfaces the model can use reliably
+- Context and memory — What goes into the prompt, what stays out, and how to store the rest
+- Middleware and hooks — Running code before and after each model step
+- Evals — Measuring whether a change to the harness made the agent better
+
+## Related pages
+
+- [AI Agents and Memory](/getting-started/agent-memory) covers memory in depth.
+- [The RPI Loop](/getting-started/rpi-loop) is a workflow for humans using coding agents, not the agent's own loop.
+- [LLM Rubik's Cube Race](/demos/rubiks-cube) is used as a running example: four models, two harnesses, one task.

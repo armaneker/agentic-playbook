@@ -1,0 +1,115 @@
+<GuideHeader tool="Concepts" difficulty="Intermediate" lastTested="2026-09" readTime="12 min" />
+
+# Agent Graphs
+
+How to structure an agent as nodes and edges when a single loop with a single prompt is no longer enough.
+
+---
+
+## When a loop is not enough
+
+A single loop has one prompt, one tool set and one model. That covers a lot. It stops covering the task when:
+
+- Different stages need different instructions. Planning wants breadth; implementing wants precision; reviewing wants skepticism.
+- Different stages need different tools, or different models. A cheap model to triage, an expensive one to fix.
+- Some stages must run in a fixed order, and some decisions must be made by code, not by the model.
+- Two branches can run in parallel.
+- A human must approve before a step runs.
+- A run must be able to pause, persist, and resume later.
+
+At that point you have several loops, and you need to say how control moves between them. That description is a graph.
+
+---
+
+## Nodes, edges, state
+
+A graph has three things:
+
+- **Nodes** — Units of work. A node can be a model call, a tool call, a plain function, or a whole agent loop.
+- **Edges** — What runs after a node. Fixed edges always go to the same next node. Conditional edges look at the state and choose.
+- **State** — A shared object every node reads from and writes to. The task, the plan, the results so far, the number of retries.
+
+A plain agent loop is a graph with one node and one conditional edge that points back at itself until the stop condition holds. Everything else is that pattern with more nodes.
+
+---
+
+## An example
+
+A coding task, built as four nodes:
+
+```
+research ──→ plan ──→ implement ──→ verify ──→ done
+                          ↑             │
+                          └── failed ───┘   (up to 3 times)
+```
+
+- `research` reads the relevant files and writes a summary into state.
+- `plan` turns the summary and the task into steps.
+- `implement` runs an agent loop with edit and shell tools until the plan is applied.
+- `verify` runs the tests. Its conditional edge sends passing runs to `done` and failing runs back to `implement` with the failure output added to state. After three failures it goes to `done` with a failure report.
+
+Each node has its own prompt and tools. The implement node is itself a loop. The verify node does not call a model at all; it runs a command and reads the exit code. This is the human [RPI loop](/getting-started/rpi-loop) written as a machine.
+
+---
+
+## A minimal graph runner
+
+Forty lines. Frameworks add persistence, streaming, parallelism and visualization on top of this shape, not a different shape.
+
+```typescript
+type State = Record<string, unknown> & { next?: string };
+type Node = (state: State) => Promise<State>;
+
+const nodes: Record<string, Node> = {
+  research: async (s) => ({ ...s, summary: await summarize(s.task), next: 'plan' }),
+  plan:     async (s) => ({ ...s, plan: await makePlan(s), next: 'implement' }),
+  implement: async (s) => ({ ...s, diff: await runAgentLoop(s), next: 'verify' }),
+  verify:   async (s) => {
+    const result = await runTests();
+    const attempts = ((s.attempts as number) ?? 0) + 1;
+    if (result.ok || attempts >= 3) return { ...s, result, attempts, next: 'done' };
+    return { ...s, result, attempts, next: 'implement' };
+  },
+};
+
+async function runGraph(start: string, initial: State, maxNodes = 50) {
+  let state = initial;
+  let current: string | undefined = start;
+  for (let i = 0; i < maxNodes && current && current !== 'done'; i++) {
+    state = await nodes[current](state);
+    current = state.next;
+  }
+  return state;
+}
+```
+
+Every node returns the whole state plus a `next` pointer. That is a conditional edge. Fixed edges are just nodes that always return the same `next`. The `maxNodes` cap is the graph-level budget, separate from any loop's step budget inside a node.
+
+---
+
+## What a graph buys you
+
+- **Explicit control flow.** You can read the graph and know which stages exist and how they connect. A single big loop hides that in the prompt.
+- **Per-stage tuning.** Change the review prompt without touching the planning prompt. Swap the model for one node.
+- **Guarantees the model cannot break.** Verification runs because the edge says so, not because the model remembered to.
+- **Checkpoints.** Persist state between nodes and you can resume after a crash, or pause for human approval at a specific edge.
+- **Parallel branches.** Two independent nodes can run at the same time and merge their state.
+
+## What it costs
+
+- **More structure to maintain.** Each node is a prompt, a tool set and tests.
+- **Rigidity.** The graph encodes your assumptions about the task. A task that does not fit the shape does badly.
+- **Latency.** Fixed stages run even when the model could have skipped them.
+
+Start with a loop. Add a graph when you can name the stages and the reasons control should move between them. If you cannot name them, the model is still better at deciding than your edges are.
+
+---
+
+## Frameworks
+
+LangGraph, the Deep Agents layer on top of it, and similar tools give you this runner with persistence, streaming and a visual editor. They are worth using once you have more than three nodes or need checkpoints. They are not worth learning before you understand the forty lines above, because every debugging session ends up back at nodes, edges and state.
+
+## Next
+
+- [Harness](/concepts/harness) for what surrounds each node.
+- [Loop](/concepts/loop) for what runs inside an agentic node.

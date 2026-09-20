@@ -1,7 +1,15 @@
 import Link from 'next/link';
-import { Server, Cpu, BarChart3, Zap, Puzzle, Shield, BookOpen, TrendingUp, ArrowRight, Box } from 'lucide-react';
+import { Server, Cpu, BarChart3, Zap, Puzzle, Shield, BookOpen, TrendingUp, ArrowRight, Box, Layers, Compass } from 'lucide-react';
 
 const tools = [
+  {
+    title: 'Concepts',
+    description: 'Agent, harness, loop, graph',
+    href: '/concepts',
+    icon: Layers,
+    count: '4 pages',
+    available: true,
+  },
   {
     title: 'OpenClaw',
     description: 'Multi-agent gateway with isolated workspaces',
@@ -66,9 +74,29 @@ const tools = [
     count: '1 demo',
     available: true,
   },
+  {
+    title: 'Career Path',
+    description: 'Skills map for AI engineers',
+    href: '/career',
+    icon: Compass,
+    count: '1 page',
+    available: true,
+  },
 ];
 
 const latestGuides = [
+  {
+    title: 'Agent = Model + Harness',
+    description: 'What the model does alone and what the harness adds',
+    href: '/concepts/agent',
+    tool: 'Concepts',
+  },
+  {
+    title: 'Software Engineering Fundamentals for AI Engineers',
+    description: 'Five skill areas that decide whether agent-built software is good',
+    href: '/career/software-fundamentals',
+    tool: 'Career',
+  },
   {
     title: 'How to Create a New OpenClaw Agent on Slack',
     description: 'Step-by-step guide with multi-bot config and troubleshooting',

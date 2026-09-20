@@ -1,0 +1,130 @@
+<GuideHeader tool="Concepts" difficulty="Intermediate" lastTested="2026-09" readTime="15 min" />
+
+# Context and Memory
+
+What goes into the prompt at each step, what stays out, where the rest is stored, and how to keep a long run from drowning in its own history.
+
+---
+
+## The problem
+
+Every model call sees exactly what the harness puts in the prompt and nothing else. The prompt is finite. Attention degrades as it fills. Tokens cost money on every call, and in a loop every call re-sends everything.
+
+Context management is the set of decisions about what to send each time. It is the part of the harness with the biggest effect on quality per line of code, and the part most often left to defaults.
+
+---
+
+## What is in the window
+
+At any step, the prompt is assembled from some mix of:
+
+- **Instructions** — The system prompt: role, rules, output format. Constant across steps.
+- **Task** — What the user asked for. Constant, or updated if the user clarifies.
+- **Tool definitions** — Schemas for every available tool. Constant, and easy to forget they cost tokens.
+- **History** — Prior model replies and tool results. Grows every step.
+- **Retrieved content** — Documents, code, records pulled in because they are relevant right now.
+- **Memory** — Facts and preferences carried over from earlier runs.
+- **Environment state** — A snapshot of what the agent is acting on: the cube, the diff, the ticket.
+
+The constant parts are a fixed cost. History and retrieved content are where the budget goes, and where the harness has to make choices.
+
+---
+
+## Budgeting
+
+Treat the window as a budget, not a limit. A window that holds 200k tokens does not mean 200k tokens is a good prompt. Two effects push against filling it:
+
+- **Attention.** Models attend less reliably to content in the middle of a long prompt. A fact buried at token 80k of 150k is more likely to be missed than the same fact at token 2k of 10k.
+- **Cost.** In a loop, every step re-sends the whole prompt. Forty steps at 100k tokens is four million input tokens. Prompt caching helps with the constant prefix, not with a history that changes every step.
+
+A working rule: keep the routine step well under half the window, and reserve the rest for the occasional large tool result or retrieved document.
+
+---
+
+## Ordering
+
+Position matters. Put the things the model must not miss where attention is strongest:
+
+- Instructions and the task first
+- The most recent tool result last, right before the model replies
+- Retrieved content and older history in between
+
+If a rule keeps being ignored on long runs, it is usually because it sits at the top of a long prompt and the model's attention is on the bottom. Repeat it near the end, or inject a short reminder every N steps from a hook.
+
+---
+
+## Managing history
+
+History is the part that grows. Four strategies, in order of effort:
+
+**Truncate tool results.** Cap each result at a few thousand characters when it enters history. Keep the head and tail, say how much was cut. This alone removes most bloat.
+
+**Drop old results, keep the calls.** After a result has been seen and acted on, replace it with a one-line stub: "read_file src/app.ts: 240 lines, returned". The model remembers it did the thing without paying for the content.
+
+**Summarize old turns.** When history crosses a threshold, replace the oldest half with a model-written summary: what was tried, what worked, what is still open. The agent keeps its bearings at a fraction of the tokens. Coding agents do this as "compaction".
+
+**Externalize.** Write intermediate results to a scratchpad file or a store, keep a pointer in context, and let the model fetch what it needs with a tool. This turns history into retrieval.
+
+Each strategy loses something. Truncation loses detail; summaries lose precision; externalization costs a tool call to get anything back. Pick by task: a short support conversation needs none of them, a two-hour coding run needs all four.
+
+---
+
+## Retrieval
+
+Retrieval is context assembly from outside the conversation. Instead of putting everything the agent might need into the prompt, put in what is relevant to this step.
+
+The mechanics vary: keyword search over files, vector search over embeddings, a query against a database, a tool the model calls itself. The decision is the same: given the current task and state, which few things does the model need to see now?
+
+Two ways to do it:
+
+- **Harness-driven.** Before each model call, the harness searches and injects. The model does not know it happened. Works when relevance can be computed from the task, and keeps the model's turn simple.
+- **Model-driven.** The model has a `search` tool and decides when to call it. Works when the model knows better than the harness what it is missing. Costs a step per lookup.
+
+Most systems use both: a harness-side pass for the obvious context, a tool for the rest.
+
+---
+
+## Memory
+
+Memory is context that survives across runs. The [AI Agents and Memory](/getting-started/agent-memory) page covers the architecture: short-term versus long-term, the memory core, its relation to retrieval. From the harness's point of view, memory is one more source for context assembly, with two extra questions:
+
+- **What to write.** After a run, what is worth keeping? User preferences, decisions made, facts learned, things that failed. Not the transcript.
+- **When to read.** At the start of a run, and at points where the task changes. Reading memory on every step is retrieval, and should be budgeted like retrieval.
+
+A common shape: a small always-loaded memory file with stable facts, plus a searchable store for everything else. Coding agents that read a project's `CLAUDE.md` or `AGENTS.md` at startup are doing the first half.
+
+---
+
+## A worked example
+
+The Jev panel in the [Rubik's Cube Race](/demos/rubiks-cube) rebuilds its entire context from scratch on every step. No history accumulates; the state object is the context:
+
+```typescript
+const state = {
+  task: 'Solve a 3x3 Rubik\'s cube one face turn at a time...',
+  faces: toColorGrids(cube),          // the environment, in full
+  net: toNet(cube),                   // the same environment, in another form
+  moves_so_far: history,              // compressed history: moves, not results
+  misplaced_stickers: misplacedStickers(cube),   // a derived signal
+  solved_faces: solvedFaces(cube),
+};
+```
+
+This is the simplest possible context strategy and it is the right one here. The environment is small enough to send whole. History compresses to a list of moves because the current state already reflects them. Two derived numbers give the model a progress signal it would otherwise have to compute.
+
+The three text models in the same demo get the opposite: one prompt with the full cube net, no history, no tools. Their context strategy is "everything, once". For a task that needs trial and error, that is the wrong strategy, and it is the harness that chose it.
+
+---
+
+## Common mistakes
+
+- **Sending everything.** The default in most frameworks is to append forever. Set a truncation rule on day one.
+- **Losing the task.** After compaction, the model no longer knows what it was asked to do. Always keep the task verbatim, outside the summarized region.
+- **Retrieving too much.** Ten documents where two were relevant. The eight extra ones cost tokens and dilute attention.
+- **Memory as transcript.** Storing every conversation and retrieving by similarity returns old chatter, not facts. Store conclusions.
+- **Tool schemas nobody uses.** Thirty tool definitions in every prompt for a task that uses three.
+
+## Next
+
+- [Tools](/concepts/tools) for shaping results before they enter history.
+- [Harness](/concepts/harness) for where context assembly sits among the other parts.

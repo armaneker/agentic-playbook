@@ -24,6 +24,8 @@ export const navigation: NavItem[] = [
       { title: 'The Agent Harness', href: '/concepts/harness' },
       { title: 'The Agent Loop', href: '/concepts/loop' },
       { title: 'Agent Graphs', href: '/concepts/graph' },
+      { title: 'Tools', href: '/concepts/tools' },
+      { title: 'Context and Memory', href: '/concepts/context' },
     ],
   },
   {

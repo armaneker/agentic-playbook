@@ -4,10 +4,10 @@ import { Server, Cpu, BarChart3, Zap, Puzzle, Shield, BookOpen, TrendingUp, Arro
 const tools = [
   {
     title: 'Concepts',
-    description: 'Agent, harness, loop, graph',
+    description: 'Agent, harness, loop, graph, tools, context',
     href: '/concepts',
     icon: Layers,
-    count: '4 pages',
+    count: '6 pages',
     available: true,
   },
   {
@@ -86,6 +86,18 @@ const tools = [
 
 const latestGuides = [
   {
+    title: 'Context and Memory',
+    description: 'What goes into the prompt each step, and how to keep long runs from drowning in history',
+    href: '/concepts/context',
+    tool: 'Concepts',
+  },
+  {
+    title: 'Tools',
+    description: 'Designing tool interfaces a model can call reliably',
+    href: '/concepts/tools',
+    tool: 'Concepts',
+  },
+  {
     title: 'Agent = Model + Harness',
     description: 'What the model does alone and what the harness adds',
     href: '/concepts/agent',
@@ -101,18 +113,6 @@ const latestGuides = [
     title: 'How to Create a New OpenClaw Agent on Slack',
     description: 'Step-by-step guide with multi-bot config and troubleshooting',
     href: '/openclaw/create-slack-agent',
-    tool: 'OpenClaw',
-  },
-  {
-    title: 'CLI Reference: Commands You Actually Need',
-    description: 'Quick reference for common operations',
-    href: '/openclaw/cli-reference',
-    tool: 'OpenClaw',
-  },
-  {
-    title: 'Architecture & Multi-Agent Gateway',
-    description: 'The gateway pattern, communication, and full configuration reference',
-    href: '/openclaw/architecture',
     tool: 'OpenClaw',
   },
 ];

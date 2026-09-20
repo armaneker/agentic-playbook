@@ -1,0 +1,134 @@
+<GuideHeader tool="Concepts" difficulty="Intermediate" lastTested="2026-09" readTime="14 min" />
+
+# Tools
+
+How to design tool interfaces a model can call reliably, and how the harness turns a tool call into an action and a result.
+
+---
+
+## What a tool is
+
+A tool is a function the model can ask the harness to run. It has three parts:
+
+- A **name** and a **description** the model reads to decide when to use it
+- A **schema** for its arguments, so the model knows what to pass and the harness can validate it
+- An **implementation** that runs outside the model and returns a result
+
+The model never runs anything. It emits a structured request: tool name plus arguments. The harness validates the request, runs the implementation, and appends the result to the conversation. The next model call sees the result and decides what to do next.
+
+```
+model: "call apply_moves with { moves: 'R U R\'' }"
+harness: validate → run → { misplaced: 12, net: "..." }
+model: "call apply_moves with { moves: 'U\'' }"
+```
+
+Tools are the only way an agent affects anything outside the prompt. Every capability an agent has that a chat window does not is a tool.
+
+---
+
+## Anatomy of a good tool
+
+The model chooses tools by reading their descriptions and picks arguments by reading their schemas. Both are prompts. Write them like prompts.
+
+**Name.** A verb phrase that says what happens: `read_file`, `run_tests`, `apply_moves`. Not `file` or `helper`.
+
+**Description.** One or two sentences: what the tool does, when to use it, what it returns. Say what it does not do if the model is likely to guess wrong. Descriptions are the first place to look when the model picks the wrong tool.
+
+**Schema.** Typed arguments with descriptions per field. Enums for closed choices. Required fields marked. A loose schema (`args: string`) moves parsing work onto the model and produces more failures than a strict one.
+
+**Result.** Structured, small, and complete enough to act on. A tool that returns a 40 KB dump forces the harness to truncate and the model to hunt. A tool that returns `ok` without the new state forces another call to find out what happened.
+
+**Errors.** Return them as results, not exceptions. `{ error: "file not found: src/foo.ts" }` lets the model recover. A thrown exception ends the run.
+
+A tool definition in the shape most APIs accept:
+
+```json
+{
+  "name": "apply_moves",
+  "description": "Turn the cube by a sequence of face turns in Singmaster notation and return the resulting state. Use it to test a candidate sequence before committing to it.",
+  "input_schema": {
+    "type": "object",
+    "properties": {
+      "moves": {
+        "type": "string",
+        "description": "Space-separated turns, e.g. \"R U R' U'\". Only U D R L F B with optional ' or 2."
+      }
+    },
+    "required": ["moves"]
+  }
+}
+```
+
+---
+
+## Granularity
+
+Tools sit between two failure modes.
+
+**Too fine.** `open_file`, `read_line`, `close_file`. The model spends steps on plumbing, the context fills with tiny results, and every step is a chance to make a mistake. Combine them: `read_file(path, range?)`.
+
+**Too coarse.** `do_the_task(description)`. The model has no control over how it happens and no intermediate results to reason about. It also cannot recover from a partial failure. Split it at the points where the model needs to observe and decide.
+
+The rule: a tool should do one thing the model would want to observe the result of. Reading a file, running the tests, applying a move sequence, searching a corpus. If the model would never want to see the intermediate result, merge the steps.
+
+---
+
+## How many tools
+
+Each tool is a choice the model can get wrong. Selection accuracy drops as the list grows, and the schemas cost tokens on every call. Guidelines:
+
+- Start with the fewest tools the task needs. Add one when a run fails for lack of it.
+- Under ten is comfortable. Past thirty, group them or load them on demand.
+- If two tools are confused for each other, merge them or make the descriptions state the difference explicitly.
+- For large tool sets, give the model a `search_tools` tool and load matching schemas into context only when needed. Progressive loading is the same idea applied to [skills](/skills/progressive-loading).
+
+---
+
+## Read-only and side effects
+
+Separate tools that observe from tools that change things. A model will call `list_files` fifty times without harm; it should call `delete_file` once, and you may want a human to approve it.
+
+Mark side-effecting tools in the harness, not just in the description. The harness can then:
+
+- Require confirmation before running them
+- Log them separately for audit
+- Refuse them entirely in a read-only mode
+- Run them in a sandbox with a rollback path
+
+The [Rubik's Cube Race](/demos/rubiks-cube) has one tool and it is side-effecting in the environment but free to retry: applying moves to a simulated cube changes the state, but a wrong sequence costs nothing. Real tools rarely have that property. Design for the case where the model gets it wrong.
+
+---
+
+## Results and context
+
+A tool's result becomes part of the prompt for every later step. That has two consequences.
+
+**Size.** Truncate on the harness side, before the result reaches the model. Keep the head and tail of long outputs; say how much was cut. For structured data, return a summary plus a way to fetch details.
+
+**Shape.** Return what the model needs to decide, in a form it can read. For a test run: pass/fail count, the names of failures, the first assertion message for each. Not the raw 3,000-line log. If the model asks for the log, give it a tool for that.
+
+The [Context and Memory](/concepts/context) page covers what to do when accumulated results outgrow the window.
+
+---
+
+## Tools that call models
+
+A tool can itself contain a model call: a sub-agent that researches a question, a classifier that labels an input, a summarizer that compresses a document. From the calling agent's side it is just a tool with a schema and a result.
+
+This is how multi-agent systems usually work in practice: one harness whose tools include other harnesses. Keep the interface narrow. The outer model should not need to know that the tool is an agent.
+
+---
+
+## Common mistakes
+
+- **Vague descriptions.** "Handles files." The model cannot tell when to use it.
+- **Untyped arguments.** A single free-text field means the model must guess a format and the harness must parse prose.
+- **Raw output.** Returning whatever the underlying command printed, unbounded.
+- **Exceptions for expected failures.** A missing file is a result, not a crash.
+- **One tool for observe and mutate.** `write_file` that also creates directories and overwrites without warning. Split, or return what it is about to do and require a confirm argument.
+- **Tools the task does not need.** Every extra tool is a wrong choice waiting to happen.
+
+## Next
+
+- [Context and Memory](/concepts/context) for what happens to tool results after they come back.
+- [Loop](/concepts/loop) for how tool calls fit into the cycle.

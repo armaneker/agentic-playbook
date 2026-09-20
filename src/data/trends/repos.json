@@ -36432,12 +36432,16 @@
     },
     "jaredpalmer/kev": {
       "full_name": "jaredpalmer/kev",
-      "description": "tiny Jev-like model built on top of Qwen2.5-0.5B you can train and run on your MacBook",
+      "description": "tiny Jev-like family of decision models built on top of Qwen3 you can train and run on your own",
       "language": "Python",
       "url": "https://github.com/jaredpalmer/kev",
       "first_seen": "2026-09-20",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "decision-model",
+        "jev",
+        "qwen3"
+      ],
       "category": "Other",
       "version": "v0.1.0"
     },

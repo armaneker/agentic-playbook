@@ -36666,6 +36666,49 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "QwenLM/Qwen-Image-2.1": {
+      "full_name": "QwenLM/Qwen-Image-2.1",
+      "description": "Qwen's most powerful open-source image generation model",
+      "language": "Python",
+      "url": "https://github.com/QwenLM/Qwen-Image-2.1",
+      "first_seen": "2026-09-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mizorewww/laya-coreml": {
+      "full_name": "mizorewww/laya-coreml",
+      "description": "Local Laya typed decisions on Apple Core ML and Neural Engine. Validated ports, ~5 ms short decisions on M3 Max, reproducible speed and energy benchmarks.",
+      "language": "Python",
+      "url": "https://github.com/mizorewww/laya-coreml",
+      "first_seen": "2026-09-21",
+      "has_summary": false,
+      "topics": [
+        "apple-neural-engine",
+        "apple-silicon",
+        "coreml",
+        "decision-model",
+        "laya",
+        "local-ai",
+        "modernbert",
+        "on-device-ai",
+        "typed-decisions"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "gylive/ccodex-sleep-state": {
+      "full_name": "gylive/ccodex-sleep-state",
+      "description": "尝试改善 Codex 降智、限流与连接体验。本地一键启动、网页配置修复，支持 Astra / Sol / Terra、订阅和代理；不保证取得指定 state 或提升模型质量。",
+      "language": "Go",
+      "url": "https://github.com/gylive/ccodex-sleep-state",
+      "first_seen": "2026-09-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.4.0"
     }
   }
 }

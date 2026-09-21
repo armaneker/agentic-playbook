@@ -36092,7 +36092,7 @@
     },
     "browser-use/jev-ultrafast": {
       "full_name": "browser-use/jev-ultrafast",
-      "description": "i. am. speed.",
+      "description": "Fastest and cheapest web agent",
       "language": "Python",
       "url": "https://github.com/browser-use/jev-ultrafast",
       "first_seen": "2026-09-17",
@@ -36709,6 +36709,39 @@
       "topics": [],
       "category": "Other",
       "version": "v0.4.0"
+    },
+    "Finderchangchang/jev-chat-JARVIS": {
+      "full_name": "Finderchangchang/jev-chat-JARVIS",
+      "description": "",
+      "language": "Kotlin",
+      "url": "https://github.com/Finderchangchang/jev-chat-JARVIS",
+      "first_seen": "2026-09-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "newliver666/apk-reverse": {
+      "full_name": "newliver666/apk-reverse",
+      "description": "Suitable for Android APK reverse engineering analysis",
+      "language": "Python",
+      "url": "https://github.com/newliver666/apk-reverse",
+      "first_seen": "2026-09-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "hydra-db/open-glean": {
+      "full_name": "hydra-db/open-glean",
+      "description": "An open-source AI platform for knowledge work. Connect your apps, find answers, and get work done.",
+      "language": "TypeScript",
+      "url": "https://github.com/hydra-db/open-glean",
+      "first_seen": "2026-09-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Database",
+      "version": null
     }
   }
 }

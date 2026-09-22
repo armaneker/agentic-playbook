@@ -36831,6 +36831,17 @@
       "topics": [],
       "category": "Other",
       "version": "v1.2.2"
+    },
+    "CopilotKit/openmuse": {
+      "full_name": "CopilotKit/openmuse",
+      "description": "A personal agent with a browser, terminal, files, and work that keeps going built with CopilotKit and AG-UI.",
+      "language": "TypeScript",
+      "url": "https://github.com/CopilotKit/openmuse",
+      "first_seen": "2026-09-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

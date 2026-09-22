@@ -36759,7 +36759,7 @@
         "wechat"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": "v1.3"
     },
     "incoai/splash": {
       "full_name": "incoai/splash",
@@ -36797,6 +36797,28 @@
         "vibe-coding"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "Sac-Y/Jev-cu": {
+      "full_name": "Sac-Y/Jev-cu",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/Sac-Y/Jev-cu",
+      "first_seen": "2026-09-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "heyjunpenn/awesome-jev": {
+      "full_name": "heyjunpenn/awesome-jev",
+      "description": "A verified, community-maintained catalog of 640 open-source projects built with Jev.",
+      "language": "TypeScript",
+      "url": "https://github.com/heyjunpenn/awesome-jev",
+      "first_seen": "2026-09-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

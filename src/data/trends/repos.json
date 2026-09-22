@@ -36742,6 +36742,62 @@
       "topics": [],
       "category": "Database",
       "version": null
+    },
+    "jev-chat/jev-chat-jarvis": {
+      "full_name": "jev-chat/jev-chat-jarvis",
+      "description": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "language": "Kotlin",
+      "url": "https://github.com/jev-chat/jev-chat-jarvis",
+      "first_seen": "2026-09-22",
+      "has_summary": false,
+      "topics": [
+        "accessibility-service",
+        "android",
+        "chat-assistant",
+        "llm",
+        "qq",
+        "wechat"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "incoai/splash": {
+      "full_name": "incoai/splash",
+      "description": "A local inference engine for Apple silicon, built around the model.",
+      "language": "Python",
+      "url": "https://github.com/incoai/splash",
+      "first_seen": "2026-09-22",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "coding-agents",
+        "llm-inference",
+        "macos",
+        "metal",
+        "speculative-decoding"
+      ],
+      "category": "Other",
+      "version": "1.0.2"
+    },
+    "Qiuner/QCode": {
+      "full_name": "Qiuner/QCode",
+      "description": "An explorable island world to learn AI coding and build real projects with AI agents. Powered by DeepSeek Harness.",
+      "language": "TypeScript",
+      "url": "https://github.com/Qiuner/QCode",
+      "first_seen": "2026-09-22",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "ai-coding",
+        "deepseek",
+        "developer-tools",
+        "gamification",
+        "godot",
+        "learn-to-code",
+        "vibe-coding"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

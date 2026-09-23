@@ -36826,7 +36826,7 @@
     },
     "heyjunpenn/awesome-jev": {
       "full_name": "heyjunpenn/awesome-jev",
-      "description": "A verified, community-maintained catalog of 832 open-source projects built with Jev.",
+      "description": "A verified, community-maintained catalog of 834 open-source projects built with Jev.",
       "language": "Astro",
       "url": "https://github.com/heyjunpenn/awesome-jev",
       "first_seen": "2026-09-22",
@@ -36936,6 +36936,37 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.1"
+    },
+    "TheoLeeCJ/SemIf-OpenJev": {
+      "full_name": "TheoLeeCJ/SemIf-OpenJev",
+      "description": "Semantic ifs from open models, on a 3090 at home. Independent; not affiliated with Jev or TypeSafe.",
+      "language": "Python",
+      "url": "https://github.com/TheoLeeCJ/SemIf-OpenJev",
+      "first_seen": "2026-09-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "liangshanbo789/aidaicai": {
+      "full_name": "liangshanbo789/aidaicai",
+      "description": "🔥 企业级 OpenAI / ChatGPT Plus、Pro (5x/20x)、Team 代充官方合规代采平台。支持企业银行公对公转账、开具 6% 增值税专用发票、签署加盖公章 SLA 兜底协议。商务微信：yqtp01",
+      "language": "TypeScript",
+      "url": "https://github.com/liangshanbo789/aidaicai",
+      "first_seen": "2026-09-23",
+      "has_summary": false,
+      "topics": [
+        "ai-daicai",
+        "chatgpt",
+        "chatgpt-plus",
+        "chatgpt-team",
+        "corporate-finance",
+        "enterprise-procurement",
+        "gpt-6-astra",
+        "vat-invoices-platform"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

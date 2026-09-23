@@ -36842,6 +36842,68 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "unreallabsai/unreal-agent": {
+      "full_name": "unreallabsai/unreal-agent",
+      "description": "Async-first agent harness",
+      "language": "Go",
+      "url": "https://github.com/unreallabsai/unreal-agent",
+      "first_seen": "2026-09-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v0.1.1"
+    },
+    "volotat/mini-AGI": {
+      "full_name": "volotat/mini-AGI",
+      "description": "Continual learning model trained from scratch on 8GB VRAM laptop with batch-1 stream of data.",
+      "language": "Python",
+      "url": "https://github.com/volotat/mini-AGI",
+      "first_seen": "2026-09-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ethanplusai/astra-flash-orchestrator": {
+      "full_name": "ethanplusai/astra-flash-orchestrator",
+      "description": "Astra plans and reviews; DeepSeek Flash builds. A native Codex workflow with phased tasks, verification, safe installation and reversible setup.",
+      "language": "Python",
+      "url": "https://github.com/ethanplusai/astra-flash-orchestrator",
+      "first_seen": "2026-09-23",
+      "has_summary": false,
+      "topics": [
+        "agent-orchestration",
+        "ai-agents",
+        "codex",
+        "codex-skills",
+        "deepseek",
+        "developer-tools"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "kerpopule/hermes-jev-skills": {
+      "full_name": "kerpopule/hermes-jev-skills",
+      "description": "Jev-powered model routing, memory, compaction, skill selection, computer and browser use for Hermes agents (also Claude Code and Codex)",
+      "language": "Python",
+      "url": "https://github.com/kerpopule/hermes-jev-skills",
+      "first_seen": "2026-09-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.18.0"
+    },
+    "Vodiwalker/vodiwalker_panel": {
+      "full_name": "Vodiwalker/vodiwalker_panel",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Vodiwalker/vodiwalker_panel",
+      "first_seen": "2026-09-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

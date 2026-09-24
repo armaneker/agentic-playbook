@@ -37006,6 +37006,80 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "driceroland/Search": {
+      "full_name": "driceroland/Search",
+      "description": "A small, fast WebKit browser for macOS, by Office Commun.",
+      "language": "Swift",
+      "url": "https://github.com/driceroland/Search",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "Mak5er/AirCard-iOS": {
+      "full_name": "Mak5er/AirCard-iOS",
+      "description": " Apple Wallet card skins and lock screen passcode themes on iOS 27. ",
+      "language": "Swift",
+      "url": "https://github.com/Mak5er/AirCard-iOS",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.3"
+    },
+    "wfzyx/von": {
+      "full_name": "wfzyx/von",
+      "description": "The open-source System One decision model. Sub-15ms, non-autoregressive, local drop-in alternative to TypeSafe Jev.",
+      "language": "Python",
+      "url": "https://github.com/wfzyx/von",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [
+        "decision-model",
+        "jev",
+        "machine-learning",
+        "python",
+        "rlcd",
+        "system-one",
+        "typesafe"
+      ],
+      "category": "AI / ML",
+      "version": "v1.2.2"
+    },
+    "deepopen-com/deepopen": {
+      "full_name": "deepopen-com/deepopen",
+      "description": "非自回归System 1决策引擎，专为结构化类型决策场景设计  DeepOpen Multilingual, non-autoregressive System 1 decision engine. ",
+      "language": "Python",
+      "url": "https://github.com/deepopen-com/deepopen",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mirkovicdev/HFTENGINE": {
+      "full_name": "mirkovicdev/HFTENGINE",
+      "description": "Replay console for hftbacktest market-making backtests: order book, queue position of every resting order, feed and order latency, fills and the raw feed from the collector, on real recorded Binance Futures data. Rust runner on the hftbacktest crate, text-mode dashboard. A backtester, not a trading bot.",
+      "language": "TypeScript",
+      "url": "https://github.com/mirkovicdev/HFTENGINE",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [
+        "backtesting",
+        "binance",
+        "hft",
+        "hftbacktest",
+        "latency",
+        "market-making",
+        "order-book",
+        "quantitative-finance",
+        "queue-position",
+        "rust"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -36446,7 +36446,7 @@
     },
     "jaredpalmer/kev": {
       "full_name": "jaredpalmer/kev",
-      "description": "tiny Jev-like family of decision models built on top of Qwen3.5 you can train and run on your own",
+      "description": "Jev-like family of decision models built on top of Qwen3.5/3.8 you can train and run on your own",
       "language": "Python",
       "url": "https://github.com/jaredpalmer/kev",
       "first_seen": "2026-09-20",
@@ -36759,7 +36759,7 @@
     },
     "jev-chat/jev-chat-jarvis": {
       "full_name": "jev-chat/jev-chat-jarvis",
-      "description": "装在手机上的对话副驾：在微信 / QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "description": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
       "language": "Kotlin",
       "url": "https://github.com/jev-chat/jev-chat-jarvis",
       "first_seen": "2026-09-22",
@@ -36769,8 +36769,7 @@
         "android",
         "chat-assistant",
         "llm",
-        "qq",
-        "wechat"
+        "qq"
       ],
       "category": "AI / ML",
       "version": "v1.3"
@@ -37182,6 +37181,28 @@
       "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
       "language": "HTML",
       "url": "https://github.com/cdyforever/how-to-live-better",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Contrastive-LM/CLM": {
+      "full_name": "Contrastive-LM/CLM",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Contrastive-LM/CLM",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "JohnHeibel/PDoomVideo": {
+      "full_name": "JohnHeibel/PDoomVideo",
+      "description": "Source code for the Claude Opus 5.5 music video for I'm Upping My P(doom)",
+      "language": "JavaScript",
+      "url": "https://github.com/JohnHeibel/PDoomVideo",
       "first_seen": "2026-09-24",
       "has_summary": false,
       "topics": [],

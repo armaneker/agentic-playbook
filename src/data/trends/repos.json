@@ -33040,7 +33040,7 @@
     },
     "jub0t/Concat": {
       "full_name": "jub0t/Concat",
-      "description": "Free & Open-Source CapCut replacement (supports MCPs).",
+      "description": "The truly free, and open-source cross-platform CapCut replacement (supports MCPs).",
       "language": "Rust",
       "url": "https://github.com/jub0t/Concat",
       "first_seen": "2026-08-31",
@@ -36657,7 +36657,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v3.14.3"
     },
     "pallavi-shekhar/ai-engineering-interview-questions-company-wise": {
       "full_name": "pallavi-shekhar/ai-engineering-interview-questions-company-wise",
@@ -37144,6 +37144,49 @@
       ],
       "category": "AI / ML",
       "version": "v0.2.0"
+    },
+    "mikehasa/golive-skill": {
+      "full_name": "mikehasa/golive-skill",
+      "description": "Take your agent-built product live: hosting, database, domain, email, payments — on your own accounts. Open-source Agent Skill + zero-dependency Node CLI: detect → plan → approve → apply → verify. No GoLive account, backend or telemetry.",
+      "language": "TypeScript",
+      "url": "https://github.com/mikehasa/golive-skill",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "cloudflare",
+        "codex",
+        "database",
+        "deployment",
+        "developer-tools",
+        "devops",
+        "dns",
+        "godaddy",
+        "hosting",
+        "infrastructure",
+        "neon",
+        "netlify",
+        "porkbun",
+        "skills",
+        "supabase",
+        "vercel"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0-alpha.3"
+    },
+    "cdyforever/how-to-live-better": {
+      "full_name": "cdyforever/how-to-live-better",
+      "description": "《高性价比人生指南》全书 528 条的在线单页阅读版：手机可读、可搜索、零依赖、支持离线",
+      "language": "HTML",
+      "url": "https://github.com/cdyforever/how-to-live-better",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

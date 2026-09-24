@@ -36826,7 +36826,7 @@
     },
     "heyjunpenn/awesome-jev": {
       "full_name": "heyjunpenn/awesome-jev",
-      "description": "A verified, community-maintained catalog of 834 open-source projects built with Jev.",
+      "description": "A verified, community-maintained catalog of 896 open-source projects built with Jev.",
       "language": "Astro",
       "url": "https://github.com/heyjunpenn/awesome-jev",
       "first_seen": "2026-09-22",
@@ -37080,6 +37080,70 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "riba2534/claude-opus-5-5-demo": {
+      "full_name": "riba2534/claude-opus-5-5-demo",
+      "description": "claude-opus-5-5-demo",
+      "language": "JavaScript",
+      "url": "https://github.com/riba2534/claude-opus-5-5-demo",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "freestylefly/WeChatBridge": {
+      "full_name": "freestylefly/WeChatBridge",
+      "description": "微信聊天记录一键转发到 AI Agent 与 Obsidian 的原生 macOS 工具",
+      "language": "Swift",
+      "url": "https://github.com/freestylefly/WeChatBridge",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "chat-history",
+        "macos",
+        "obsidian",
+        "share-extension",
+        "swift",
+        "wechat"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.14"
+    },
+    "kryvora-network/kryvora-node": {
+      "full_name": "kryvora-network/kryvora-node",
+      "description": "Reference client daemon and verification worker for Kryvora Network nodes.",
+      "language": "Go",
+      "url": "https://github.com/kryvora-network/kryvora-node",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [
+        "depin",
+        "distributed-systems",
+        "golang",
+        "infrastructure",
+        "node-runner",
+        "telemetry",
+        "worker-daemon"
+      ],
+      "category": "Infra",
+      "version": "v0.2.0"
+    },
+    "Alex314618-create/JevRev": {
+      "full_name": "Alex314618-create/JevRev",
+      "description": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside. ",
+      "language": "TypeScript",
+      "url": "https://github.com/Alex314618-create/JevRev",
+      "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [
+        "jev",
+        "llm",
+        "workflow"
+      ],
+      "category": "AI / ML",
+      "version": "v0.2.0"
     }
   }
 }

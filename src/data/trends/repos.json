@@ -36825,7 +36825,7 @@
     },
     "heyjunpenn/awesome-jev": {
       "full_name": "heyjunpenn/awesome-jev",
-      "description": "A verified, community-maintained catalog of 896 open-source projects built with Jev.",
+      "description": "A verified, community-maintained catalog of 916 open-source projects built with Jev.",
       "language": "Astro",
       "url": "https://github.com/heyjunpenn/awesome-jev",
       "first_seen": "2026-09-22",
@@ -37131,7 +37131,7 @@
     },
     "Alex314618-create/JevRev": {
       "full_name": "Alex314618-create/JevRev",
-      "description": "An LLM + Jev workflow. Boost your vertebrate brain with a spine inside. ",
+      "description": "An LLM + Jev workflow that changes EVERYTHING. Boost your vertebrate brain with a spine inside. ",
       "language": "TypeScript",
       "url": "https://github.com/Alex314618-create/JevRev",
       "first_seen": "2026-09-24",
@@ -37204,6 +37204,35 @@
       "language": "JavaScript",
       "url": "https://github.com/JohnHeibel/PDoomVideo",
       "first_seen": "2026-09-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yetone/magpie": {
+      "full_name": "yetone/magpie",
+      "description": "Every agent's model. One place. Codex on DeepSeek, Claude Code on Kimi, from the menu bar.",
+      "language": "Go",
+      "url": "https://github.com/yetone/magpie",
+      "first_seen": "2026-09-25",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "codex",
+        "deepseek",
+        "gemini-cli",
+        "llm",
+        "macos"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "webprodigies-org/flute": {
+      "full_name": "webprodigies-org/flute",
+      "description": "Cinematic 3D scenes from your live React UI. Flute by Web Prodigies.",
+      "language": "TypeScript",
+      "url": "https://github.com/webprodigies-org/flute",
+      "first_seen": "2026-09-25",
       "has_summary": false,
       "topics": [],
       "category": "Other",

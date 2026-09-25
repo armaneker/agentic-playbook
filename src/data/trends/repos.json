@@ -37279,6 +37279,35 @@
       ],
       "category": "AI / ML",
       "version": "v0.0.2"
+    },
+    "SonicloudTech/sonicloud_opensdk": {
+      "full_name": "SonicloudTech/sonicloud_opensdk",
+      "description": "声云录音卡 Recorder 是一套面向开发者和行业客户的智能录音硬件接入方案。 项目以录音卡片硬件为核心，开放 BLE 协议 SDK 及 Android、iOS、鸿蒙、Flutter 接入示例，同时提供 Windows/macOS 桌面端 Demo，支持设备连接、录音控制、实时音频、文件传输、OTA 升级和语音转写等能力，帮助开发者快速将录音硬件接入自己的 App、桌面软件或行业系统。 如需获取硬件规格、样机、完整协议、SDK 资料或定制服务，请联系安徽声云",
+      "language": "HTML",
+      "url": "https://github.com/SonicloudTech/sonicloud_opensdk",
+      "first_seen": "2026-09-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Inkloom-art/inkloom": {
+      "full_name": "Inkloom-art/inkloom",
+      "description": "Specialised AI models for logo design — a brand-analysis model turns a business into constraints, typography and symbol models construct the mark, and a composition engine produces real lockups and clear-space rules. Early access open.",
+      "language": "TypeScript",
+      "url": "https://github.com/Inkloom-art/inkloom",
+      "first_seen": "2026-09-25",
+      "has_summary": false,
+      "topics": [
+        "brand-identity",
+        "cloudflare-workers",
+        "design-systems",
+        "generative-ai",
+        "logo-design",
+        "typography"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

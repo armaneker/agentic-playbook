@@ -33793,7 +33793,7 @@
     },
     "Human-Agent-Society/reef": {
       "full_name": "Human-Agent-Society/reef",
-      "description": "Continual learning infra for self-improving agents",
+      "description": "Infrastructure for continually self‑improving agents",
       "language": "Python",
       "url": "https://github.com/Human-Agent-Society/reef",
       "first_seen": "2026-09-04",
@@ -37248,6 +37248,37 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "tobi/disktree": {
+      "full_name": "tobi/disktree",
+      "description": "A treemap for finding and removing what fills your disk, for Omarchy. Rust + GPUI.",
+      "language": "Rust",
+      "url": "https://github.com/tobi/disktree",
+      "first_seen": "2026-09-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.9.1"
+    },
+    "nokia-applied-research/AnyJev": {
+      "full_name": "nokia-applied-research/AnyJev",
+      "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+      "language": "Python",
+      "url": "https://github.com/nokia-applied-research/AnyJev",
+      "first_seen": "2026-09-25",
+      "has_summary": false,
+      "topics": [
+        "calibration",
+        "decision-model",
+        "jev",
+        "jev-model",
+        "llm",
+        "system-one",
+        "transformers",
+        "vllm"
+      ],
+      "category": "AI / ML",
+      "version": "v0.0.2"
     }
   }
 }

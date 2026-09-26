@@ -37453,6 +37453,39 @@
       ],
       "category": "Other",
       "version": "v0.4.0"
+    },
+    "852wa/JIZURA": {
+      "full_name": "852wa/JIZURA",
+      "description": "歌詞から文字PVを自動で組み立てるブラウザアプリ",
+      "language": "HTML",
+      "url": "https://github.com/852wa/JIZURA",
+      "first_seen": "2026-09-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Rizzo-AI-Academy/rizzo-flow": {
+      "full_name": "Rizzo-AI-Academy/rizzo-flow",
+      "description": "The open, local take on Jev: typed decisions from an LLM, without generating a single token",
+      "language": "Python",
+      "url": "https://github.com/Rizzo-AI-Academy/rizzo-flow",
+      "first_seen": "2026-09-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "supermemoryai/company-brain": {
+      "full_name": "supermemoryai/company-brain",
+      "description": "Open-sourcing our company brain - A teammate in your Slack that remembers everything your team says, and can go do the work.",
+      "language": "TypeScript",
+      "url": "https://github.com/supermemoryai/company-brain",
+      "first_seen": "2026-09-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -37262,7 +37262,7 @@
     },
     "nokia-applied-research/AnyJev": {
       "full_name": "nokia-applied-research/AnyJev",
-      "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating)",
+      "description": "Turn any LLM into a Jev-style decision model: typed decisions, real probabilities, no training. (continue updating, welcome any issue and PR request)",
       "language": "Python",
       "url": "https://github.com/nokia-applied-research/AnyJev",
       "first_seen": "2026-09-25",
@@ -37424,6 +37424,35 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "alexgreensh/anidoodle": {
+      "full_name": "alexgreensh/anidoodle",
+      "description": "Art and animation, written as code. Illustrations, loops, interactive web art, stickers and scored films in dozens of styles, identical on every render.",
+      "language": "TypeScript",
+      "url": "https://github.com/alexgreensh/anidoodle",
+      "first_seen": "2026-09-26",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "animation",
+        "canvas",
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "codex-plugin",
+        "creative-code",
+        "creative-coding",
+        "creative-tools",
+        "deterministic",
+        "generative-art",
+        "hand-drawn",
+        "illustration",
+        "plugin",
+        "procedural-generation",
+        "skill"
+      ],
+      "category": "Other",
+      "version": "v0.4.0"
     }
   }
 }

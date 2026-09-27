@@ -37647,6 +37647,36 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "feitangyuan/onetake": {
+      "full_name": "feitangyuan/onetake",
+      "description": "Motion films that never cut to the next slide: every beat grows out of the one before, one continuous camera, continuity measured by an oracle. A Claude Agent Skill for product launch films and feature demos.",
+      "language": "Python",
+      "url": "https://github.com/feitangyuan/onetake",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "animation",
+        "canvas",
+        "claude-skill",
+        "launch-video",
+        "motion-graphics",
+        "video"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Mapika/decider": {
+      "full_name": "Mapika/decider",
+      "description": "A family of System One-style models fine-tuned from Qwen3.5, designed for one-pass typed decisions with calibrated probabilities.",
+      "language": "Python",
+      "url": "https://github.com/Mapika/decider",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

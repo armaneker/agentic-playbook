@@ -37569,6 +37569,73 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "ollaya-dev/ollaya": {
+      "full_name": "ollaya-dev/ollaya",
+      "description": "Run open decision models locally: pull and serve Laya, decider, NLI and GLiClass behind a TypeSafe-compatible API. Ollama for decision models.",
+      "language": "Rust",
+      "url": "https://github.com/ollaya-dev/ollaya",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [
+        "calibration",
+        "classification",
+        "decision-models",
+        "gliclass",
+        "jev",
+        "laya",
+        "llm-routing",
+        "local-inference",
+        "nli",
+        "ollama",
+        "onnx",
+        "onnxruntime",
+        "rust",
+        "typesafe",
+        "zero-shot-classification"
+      ],
+      "category": "Other",
+      "version": "v0.7.3"
+    },
+    "TypeLLM/TypeLLM": {
+      "full_name": "TypeLLM/TypeLLM",
+      "description": "TypeLLM: LLMs with type-safe generation",
+      "language": "Python",
+      "url": "https://github.com/TypeLLM/TypeLLM",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "jev",
+        "llms",
+        "types"
+      ],
+      "category": "AI / ML",
+      "version": "v0.2.3"
+    },
+    "dzhng/jevgrep": {
+      "full_name": "dzhng/jevgrep",
+      "description": "Find code by asking what it does. A CLI for coding agents that uses Jev to discover relevant files and source context.",
+      "language": "TypeScript",
+      "url": "https://github.com/dzhng/jevgrep",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [
+        "ai-sdk",
+        "claude-code",
+        "cli",
+        "code-search",
+        "codex",
+        "coding-agents",
+        "context-retrieval",
+        "developer-tools",
+        "jev",
+        "semantic-search",
+        "typescript",
+        "vercel-ai-gateway"
+      ],
+      "category": "DevTools",
+      "version": "v0.1.0"
     }
   }
 }

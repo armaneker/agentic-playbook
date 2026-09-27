@@ -37486,6 +37486,89 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "wuyoscar/jev-skill": {
+      "full_name": "wuyoscar/jev-skill",
+      "description": "An awesome collection of Jev use cases, workflows, and agent skills.",
+      "language": "Python",
+      "url": "https://github.com/wuyoscar/jev-skill",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "rgem227/knoweldge-base": {
+      "full_name": "rgem227/knoweldge-base",
+      "description": "Personal or team knowledge base, supports MCP API calls.",
+      "language": "Python",
+      "url": "https://github.com/rgem227/knoweldge-base",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kydlikebtc/awesome-jev": {
+      "full_name": "kydlikebtc/awesome-jev",
+      "description": "1207 public resources for Jev, TypeSafe AI's System One decision model, indexed by decision pattern. Source citations, dated link checks and scheduled call-site text checks; runtime and performance are not independently tested here. EN/中文, JSON schema and platform compatibility.",
+      "language": "Python",
+      "url": "https://github.com/kydlikebtc/awesome-jev",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [
+        "agent-tools",
+        "ai-agents",
+        "awesome",
+        "awesome-list",
+        "calibration",
+        "catalog",
+        "classification",
+        "context-compaction",
+        "decision-model",
+        "intent-routing",
+        "jev",
+        "llm",
+        "system-one",
+        "tool-selection",
+        "typesafe-ai"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "samyost1/3dicon": {
+      "full_name": "samyost1/3dicon",
+      "description": "One prompt in, a looping animated 3D icon out — with real transparency. A Claude Code skill.",
+      "language": "Python",
+      "url": "https://github.com/samyost1/3dicon",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "coldteadotai/abide": {
+      "full_name": "coldteadotai/abide",
+      "description": "Make your coding agent abide by all your project rules ",
+      "language": "TypeScript",
+      "url": "https://github.com/coldteadotai/abide",
+      "first_seen": "2026-09-27",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "claude-code-hooks",
+        "claude-code-plugin",
+        "claude-code-plugins",
+        "claude-code-skill",
+        "claude-code-skills",
+        "codex-plugin",
+        "codex-skill",
+        "opencode",
+        "opencode-plugin",
+        "opencode-skills"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

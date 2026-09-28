@@ -37434,7 +37434,7 @@
     },
     "alexgreensh/anidoodle": {
       "full_name": "alexgreensh/anidoodle",
-      "description": "Art and animation, written as code. Illustrations, loops, interactive web art, stickers and scored films in dozens of styles, identical on every render.",
+      "description": "Art and animation, written as code. Illustrations, loops, interactive web art, launch-videos and scored films in dozens of styles, identical on every render.",
       "language": "TypeScript",
       "url": "https://github.com/alexgreensh/anidoodle",
       "first_seen": "2026-09-26",
@@ -37454,6 +37454,8 @@
         "generative-art",
         "hand-drawn",
         "illustration",
+        "launch-video",
+        "motion-design",
         "plugin",
         "procedural-generation",
         "skill"
@@ -37738,6 +37740,17 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "cloudflare/forge": {
+      "full_name": "cloudflare/forge",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/cloudflare/forge",
+      "first_seen": "2026-09-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "openapi@cada8891431af46136bd86ff55535ced81c22062"
     }
   }
 }

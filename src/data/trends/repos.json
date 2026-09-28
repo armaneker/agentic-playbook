@@ -33576,26 +33576,32 @@
     },
     "Ryze-AI-Adgent/open-seo-mcp-skills": {
       "full_name": "Ryze-AI-Adgent/open-seo-mcp-skills",
-      "description": "Open-source SEO + GEO skills for Claude — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility. Runs on your real Search Console / GA4 / ads data via MCP, with DataForSEO built in. Free, MIT.",
+      "description": "Free SEO MCP server + open-source SEO and GEO skills for Claude: keyword research, rank tracking, audits, backlinks, AI visibility on your real GSC/GA4/ads data. claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp",
       "language": "Shell",
       "url": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
       "first_seen": "2026-09-03",
       "has_summary": false,
       "topics": [
         "ai-seo",
+        "ai-visibility",
         "backlinks",
         "claude",
+        "claude-code",
         "claude-skills",
         "dataforseo",
         "generative-engine-optimization",
         "geo",
+        "geo-mcp",
         "keyword-research",
+        "llm-seo",
         "mcp",
         "mcp-server",
         "open-source-seo",
         "rank-tracking",
         "seo",
-        "seo-audit"
+        "seo-audit",
+        "seo-mcp",
+        "seo-mcp-server"
       ],
       "category": "Agentic",
       "version": null
@@ -37700,6 +37706,38 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.12"
+    },
+    "yihui-dev/awesome-opus5-5-videos": {
+      "full_name": "yihui-dev/awesome-opus5-5-videos",
+      "description": "A growing collection of viral videos made with Claude Opus 5.5 and the prompts behind them. Watch each original next to a live remake on Skillry. Updated regularly.",
+      "language": "Unknown",
+      "url": "https://github.com/yihui-dev/awesome-opus5-5-videos",
+      "first_seen": "2026-09-28",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "awesome",
+        "awesome-list",
+        "claude",
+        "claude-opus",
+        "creative-coding",
+        "motion-graphics",
+        "prompts",
+        "threejs"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "JohnHeibel/ClaudeAnimationBase": {
+      "full_name": "JohnHeibel/ClaudeAnimationBase",
+      "description": "A starter kit for animating hand-painted cartoons with Claude: p5.js + p5.brush, the Clawd character, 31 acted emotions and a guide for the model",
+      "language": "JavaScript",
+      "url": "https://github.com/JohnHeibel/ClaudeAnimationBase",
+      "first_seen": "2026-09-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

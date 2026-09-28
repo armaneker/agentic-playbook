@@ -1318,6 +1318,7 @@
         "android",
         "c",
         "ffmpeg",
+        "genyteam-system",
         "libav",
         "mirroring",
         "recording",
@@ -37677,6 +37678,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "OnlistTeam/ai-manager": {
+      "full_name": "OnlistTeam/ai-manager",
+      "description": "AI Manager desktop application for AI coding tools",
+      "language": "Rust",
+      "url": "https://github.com/OnlistTeam/ai-manager",
+      "first_seen": "2026-09-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2.0"
+    },
+    "Niko1221/Strata": {
+      "full_name": "Niko1221/Strata",
+      "description": "Qwen3.8-Flash-Next (125B MoE) on a 8GB+ NVIDIA GPU: one-click install for Windows / Linux. Strata inference engine, OpenAI/Anthropic API on localhost, optional image input.",
+      "language": "C++",
+      "url": "https://github.com/Niko1221/Strata",
+      "first_seen": "2026-09-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.12"
     }
   }
 }

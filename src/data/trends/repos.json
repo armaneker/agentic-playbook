@@ -37772,7 +37772,7 @@
     },
     "lemomo-ai/lemo-opuscar": {
       "full_name": "lemomo-ai/lemo-opuscar",
-      "description": "39 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+      "description": "43 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
       "language": "JavaScript",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
       "first_seen": "2026-09-29",
@@ -37800,7 +37800,7 @@
     "angusdevgo/Seep-Reverse-Lab": {
       "full_name": "angusdevgo/Seep-Reverse-Lab",
       "description": "Agent-Native multi-platform reverse engineering and CWE-602 client-side authorization audit workbench.",
-      "language": "Python",
+      "language": "Lua",
       "url": "https://github.com/angusdevgo/Seep-Reverse-Lab",
       "first_seen": "2026-09-29",
       "has_summary": false,
@@ -37931,6 +37931,17 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "glanderness/BeefTV": {
+      "full_name": "glanderness/BeefTV",
+      "description": "Local-first, lightweight, AI-native video workspace.",
+      "language": "TypeScript",
+      "url": "https://github.com/glanderness/BeefTV",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.6.14"
     }
   }
 }

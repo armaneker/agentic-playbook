@@ -12726,7 +12726,7 @@
     },
     "firecrawl/firecrawl": {
       "full_name": "firecrawl/firecrawl",
-      "description": "The web data API to search, scrape, and interact at scale. 🔥",
+      "description": "🔥 Supercharge your AI agents with data from the web and beyond. A web data API to search, scrape, and access more sources.",
       "language": "TypeScript",
       "url": "https://github.com/firecrawl/firecrawl",
       "first_seen": "2026-05-17",
@@ -36773,9 +36773,12 @@
       "has_summary": false,
       "topics": [
         "accessibility-service",
+        "ai-assistant",
         "android",
         "chat-assistant",
+        "chat-copilot",
         "llm",
+        "ocr",
         "qq"
       ],
       "category": "AI / ML",
@@ -37908,7 +37911,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.1"
     },
     "shihabal3amri/DiPlay": {
       "full_name": "shihabal3amri/DiPlay",

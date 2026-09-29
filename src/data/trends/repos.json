@@ -37751,6 +37751,153 @@
       "topics": [],
       "category": "Other",
       "version": "openapi@cada8891431af46136bd86ff55535ced81c22062"
+    },
+    "KKKKhazix/AIHOT": {
+      "full_name": "KKKKhazix/AIHOT",
+      "description": "一个自己找热点、自己写日报的网站框架。把信源和精选标准换成你的，它就是你的行业热点站。",
+      "language": "TypeScript",
+      "url": "https://github.com/KKKKhazix/AIHOT",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "llm",
+        "mcp",
+        "news-aggregator",
+        "rss",
+        "self-hosted"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "lemomo-ai/lemo-opuscar": {
+      "full_name": "lemomo-ai/lemo-opuscar",
+      "description": "39 film styles, each a reusable style prompt plus a short film made entirely in code by Claude Opus 5.5. Pick a style, bring your own story, and let your agent direct. | Opus5.5 x 39 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+      "language": "JavaScript",
+      "url": "https://github.com/lemomo-ai/lemo-opuscar",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "ai-video",
+        "animation",
+        "canvas",
+        "claude",
+        "claude-code",
+        "creative-coding",
+        "ffmpeg",
+        "filmmaking",
+        "motion-graphics",
+        "prompt-library",
+        "text-to-speech",
+        "threejs",
+        "video-production",
+        "webgl"
+      ],
+      "category": "Agentic",
+      "version": "web"
+    },
+    "angusdevgo/Seep-Reverse-Lab": {
+      "full_name": "angusdevgo/Seep-Reverse-Lab",
+      "description": "Agent-Native multi-platform reverse engineering and CWE-602 client-side authorization audit workbench.",
+      "language": "Python",
+      "url": "https://github.com/angusdevgo/Seep-Reverse-Lab",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Aureliengmz/clearwater": {
+      "full_name": "Aureliengmz/clearwater",
+      "description": "Real-time, photoreal shallow water in a single HTML file. WebGL2, no libraries, no build step.",
+      "language": "HTML",
+      "url": "https://github.com/Aureliengmz/clearwater",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [
+        "caustics",
+        "fft",
+        "realtime-rendering",
+        "shaders",
+        "single-file",
+        "water",
+        "webgl2"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "kaankiziltug/logo-design-skill": {
+      "full_name": "kaankiziltug/logo-design-skill",
+      "description": "A comprehensive logo-design skill for Claude, Gemini CLI, Codex and other AI agents: principles, process, SVG craft, testing tools and a 1,400+ logo reference library.",
+      "language": "HTML",
+      "url": "https://github.com/kaankiziltug/logo-design-skill",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "branding",
+        "claude",
+        "claude-skills",
+        "codex",
+        "gemini-cli",
+        "logo-design",
+        "svg"
+      ],
+      "category": "AI / ML",
+      "version": "v1.4.3"
+    },
+    "amitshekhariitbhu/ai-system-design": {
+      "full_name": "amitshekhariitbhu/ai-system-design",
+      "description": "AI System Design - Learn how to design AI systems built on LLMs, RAG, and AI Agents step by step.",
+      "language": "Markdown",
+      "url": "https://github.com/amitshekhariitbhu/ai-system-design",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-agents",
+        "ai-engineering",
+        "ai-system",
+        "ai-system-design",
+        "ai-systems",
+        "ai-systems-design",
+        "llm",
+        "system-design",
+        "system-design-interview"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "SpecterLouse/CapCut-Pro-macOS-Windows": {
+      "full_name": "SpecterLouse/CapCut-Pro-macOS-Windows",
+      "description": "Capcut Pro Unlocked v2026.7 - Full Premium (Windows & MacOS)",
+      "language": "Unknown",
+      "url": "https://github.com/SpecterLouse/CapCut-Pro-macOS-Windows",
+      "first_seen": "2026-09-29",
+      "has_summary": false,
+      "topics": [
+        "ai-captions",
+        "ai-video-editor",
+        "capcut-activate",
+        "capcut-ai-video-generator",
+        "capcut-desktop-2026",
+        "capcut-for-macos",
+        "capcut-for-pc",
+        "capcut-pro-account",
+        "capcut-pro-activated",
+        "capcut-pro-exploit",
+        "capcut-pro-free-trial",
+        "capcut-pro-patched",
+        "capcut-pro-subscription",
+        "capcut-unlimited",
+        "capcutpro-download-2026",
+        "cinematic-editing",
+        "reels-maker",
+        "tiktok-video-editor"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

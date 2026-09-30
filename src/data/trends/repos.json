@@ -37764,11 +37764,13 @@
       "has_summary": false,
       "topics": [
         "ai",
+        "content-curation",
         "llm",
         "mcp",
         "news-aggregator",
         "rss",
-        "self-hosted"
+        "self-hosted",
+        "typescript"
       ],
       "category": "Agentic",
       "version": null
@@ -37997,6 +37999,82 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "feder-cr/dots": {
+      "full_name": "feder-cr/dots",
+      "description": "Open-source dots for the web: an AI agent with its own browser, one that does not get blocked.",
+      "language": "Python",
+      "url": "https://github.com/feder-cr/dots",
+      "first_seen": "2026-09-30",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "ai-agents",
+        "ai-browser",
+        "anti-detect-browser",
+        "browser-agent",
+        "browser-automation",
+        "chatgpt",
+        "dotfiles",
+        "dots",
+        "firefox",
+        "llm-agent",
+        "mcp",
+        "open-source-alternative",
+        "openai",
+        "openai-dots",
+        "openrouter",
+        "playwright",
+        "stealth-browser",
+        "web-agent",
+        "web-automation"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "OpSafari/hypoarena": {
+      "full_name": "OpSafari/hypoarena",
+      "description": "Scientific hypothesis-discovery workbench: grounded hypothesis-evidence graphs, synthetic literature with planted causal chains, generate-debate-evolve loops over pluggable offline adapters, Elo tournaments recovering planted skill order, paraphrase dedup, Bayesian evidence accumulation, reproducible reports. NumPy core, CPU-only torch extra.",
+      "language": "Python",
+      "url": "https://github.com/OpSafari/hypoarena",
+      "first_seen": "2026-09-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zouyuxuan122/dsh-our-free-model": {
+      "full_name": "zouyuxuan122/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 Muse Spark 1.3、MiMo V2.6 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, Muse Spark 1.3 and MiMo V2.6 among them. Completely free, with no usage cap.",
+      "language": "JavaScript",
+      "url": "https://github.com/zouyuxuan122/dsh-our-free-model",
+      "first_seen": "2026-09-30",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "category": "Agentic",
+      "version": "v1.3.1"
+    },
+    "cloudflare/cf": {
+      "full_name": "cloudflare/cf",
+      "description": "The agentic CLI for the entire Cloudflare API",
+      "language": "TypeScript",
+      "url": "https://github.com/cloudflare/cf",
+      "first_seen": "2026-09-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "cf@1.0.0-beta.6"
     }
   }
 }

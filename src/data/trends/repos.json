@@ -38075,6 +38075,39 @@
       "topics": [],
       "category": "Other",
       "version": "cf@1.0.0-beta.6"
+    },
+    "rehan-remade/universal-modder": {
+      "full_name": "rehan-remade/universal-modder",
+      "description": "Point Claude at any game. Skills, tools and the fal MCP that let Claude Code mod almost any PC game you own: recon, reverse engineering, fal-generated art/3D/audio, in-game testing, showcase videos.",
+      "language": "Python",
+      "url": "https://github.com/rehan-remade/universal-modder",
+      "first_seen": "2026-09-30",
+      "has_summary": false,
+      "topics": [
+        "age-of-empires",
+        "claude-code",
+        "claude-code-plugin",
+        "fal",
+        "game-assets",
+        "game-modding",
+        "mcp",
+        "modding",
+        "reverse-engineering",
+        "tmodloader"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "wangmingxuan666/Tiersense": {
+      "full_name": "wangmingxuan666/Tiersense",
+      "description": "",
+      "language": "Unknown",
+      "url": "https://github.com/wangmingxuan666/Tiersense",
+      "first_seen": "2026-09-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

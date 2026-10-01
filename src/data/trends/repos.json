@@ -37908,7 +37908,7 @@
     },
     "firelex/jeff": {
       "full_name": "firelex/jeff",
-      "description": "Fine-tunes of Qwen3.5 and Gemma 4 for zero-shot classification",
+      "description": "Millisecond decisions, any domain: a 0.8B open \"System 1\" model that picks between your options with calibrated probabilities. One base, swappable LoRA adapters, on your own hardware.",
       "language": "Python",
       "url": "https://github.com/firelex/jeff",
       "first_seen": "2026-09-29",
@@ -38168,7 +38168,7 @@
     },
     "nanaism/yomiyasu": {
       "full_name": "nanaism/yomiyasu",
-      "description": "AI生成された文章の不自然さを取り除き、人間にとって自然な日本語へ書き直すためのAgent Skill",
+      "description": "AI生成の日本語を自然な日本語へ推敲するAgent Skill / Agent Skill for Refining AI-Generated Japanese into Natural Japanese",
       "language": "Python",
       "url": "https://github.com/nanaism/yomiyasu",
       "first_seen": "2026-10-01",
@@ -38176,14 +38176,18 @@
       "topics": [
         "agent-skills",
         "ai-writing",
+        "antigravity",
         "claude-code",
         "codex",
         "cursor",
+        "gemini",
         "japanese",
         "linter",
         "llm",
         "nlp",
-        "writing"
+        "writing",
+        "writing-assistant",
+        "writing-tool"
       ],
       "category": "AI / ML",
       "version": "v1.0.0"
@@ -38231,6 +38235,45 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "edenfunf/reelmimic": {
+      "full_name": "edenfunf/reelmimic",
+      "description": "Show it a video you love. Get a new video in the same style. An AI crew (Claude Code or Codex) plans, builds and reviews it with you.",
+      "language": "JavaScript",
+      "url": "https://github.com/edenfunf/reelmimic",
+      "first_seen": "2026-10-01",
+      "has_summary": false,
+      "topics": [
+        "2d-animation",
+        "ai-agents",
+        "ai-video",
+        "animation",
+        "claude-code",
+        "codex",
+        "multi-agent",
+        "style-transfer",
+        "video-generation"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "RubinLabs26/ISpotify": {
+      "full_name": "RubinLabs26/ISpotify",
+      "description": "Local-first desktop music search, playlist, download, and playback app for Windows and Linux",
+      "language": "Python",
+      "url": "https://github.com/RubinLabs26/ISpotify",
+      "first_seen": "2026-10-01",
+      "has_summary": false,
+      "topics": [
+        "linux",
+        "music-player",
+        "pyside6",
+        "python",
+        "windows",
+        "yt-dlp"
+      ],
+      "category": "Other",
+      "version": "v19.5.0"
     }
   }
 }

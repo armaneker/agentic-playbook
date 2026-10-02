@@ -38111,7 +38111,7 @@
     },
     "Louis-CFM/coucou": {
       "full_name": "Louis-CFM/coucou",
-      "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows) and keeps an eye on your Claude Code sessions.",
+      "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Gemini CLI, Antigravity and more.",
       "language": "Swift",
       "url": "https://github.com/Louis-CFM/coucou",
       "first_seen": "2026-09-30",
@@ -38119,16 +38119,20 @@
       "topics": [
         "ai-agents",
         "anthropic",
+        "antigravity",
         "claude",
         "claude-code",
         "dynamic-island",
+        "gemini-cli",
+        "linux",
         "macos",
         "macos-app",
         "menubar-app",
         "notch",
         "open-source",
         "swift",
-        "swiftui"
+        "swiftui",
+        "windows"
       ],
       "category": "Agentic",
       "version": "v0.1.0"
@@ -38277,14 +38281,126 @@
     },
     "Edwardxlai/easyread": {
       "full_name": "Edwardxlai/easyread",
-      "description": "",
+      "description": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
       "language": "JavaScript",
       "url": "https://github.com/Edwardxlai/easyread",
       "first_seen": "2026-10-01",
       "has_summary": false,
+      "topics": [
+        "academic",
+        "arxiv",
+        "chinese",
+        "claude-code",
+        "codex",
+        "electron",
+        "llm",
+        "paper-reading",
+        "pdf-translator",
+        "reference-manager",
+        "research-tool",
+        "translation"
+      ],
+      "category": "AI / ML",
+      "version": "v1.2.5"
+    },
+    "CopilotKit/OpenDots": {
+      "full_name": "CopilotKit/OpenDots",
+      "description": "Your always-on AI coworkers that move between text, calls, and Slack.",
+      "language": "TypeScript",
+      "url": "https://github.com/CopilotKit/OpenDots",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": "v1.2.5"
+      "version": null
+    },
+    "deepseek-ai/DeepGEMM-Ascend": {
+      "full_name": "deepseek-ai/DeepGEMM-Ascend",
+      "description": "DeepGEMM-Ascend: clean and efficient matrix multiplication kernel library for Huawei Ascend NPUs",
+      "language": "C++",
+      "url": "https://github.com/deepseek-ai/DeepGEMM-Ascend",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "bjarneo/flux": {
+      "full_name": "bjarneo/flux",
+      "description": "Connect an Omarchy computer to your phone: files, clipboard, notifications, media, camera, and more",
+      "language": "Swift",
+      "url": "https://github.com/bjarneo/flux",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.8.0"
+    },
+    "PSRben/VisionHOPE": {
+      "full_name": "PSRben/VisionHOPE",
+      "description": "Official PyTorch implementation of VisionHOPE: Visual Backbones as Self-Modifying Learning Systems.",
+      "language": "Python",
+      "url": "https://github.com/PSRben/VisionHOPE",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [
+        "backbone",
+        "backbone-networks",
+        "computer-vision",
+        "image-classification",
+        "vision-framework"
+      ],
+      "category": "AI / ML",
+      "version": "weights-v1"
+    },
+    "athemeroy/awesome-opus-5-5-videos": {
+      "full_name": "athemeroy/awesome-opus-5-5-videos",
+      "description": "Source-linked guide to 1,000+ videos people made with Claude Opus 5.5: what they're about, how they look, how the frames were made.",
+      "language": "Python",
+      "url": "https://github.com/athemeroy/awesome-opus-5-5-videos",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "awesome",
+        "awesome-list",
+        "claude",
+        "claude-opus-5-5",
+        "video-workflows"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "composio-community/open-dot": {
+      "full_name": "composio-community/open-dot",
+      "description": "Open-source personal AI agents that work on their own, on their own computers. Mac app, OpenAI + Composio.",
+      "language": "TypeScript",
+      "url": "https://github.com/composio-community/open-dot",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "icubaby/SideRail": {
+      "full_name": "icubaby/SideRail",
+      "description": "Xray-core VPN panel, one-click deploy on Railway",
+      "language": "TypeScript",
+      "url": "https://github.com/icubaby/SideRail",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [
+        "proxy",
+        "railway",
+        "trojan",
+        "vless",
+        "vmess",
+        "vpn",
+        "xray",
+        "xray-core"
+      ],
+      "category": "Infra",
+      "version": "v2.3.0"
     }
   }
 }

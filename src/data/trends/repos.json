@@ -38111,7 +38111,7 @@
     },
     "Louis-CFM/coucou": {
       "full_name": "Louis-CFM/coucou",
-      "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Gemini CLI, Antigravity and more.",
+      "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
       "language": "Swift",
       "url": "https://github.com/Louis-CFM/coucou",
       "first_seen": "2026-09-30",
@@ -38122,6 +38122,8 @@
         "antigravity",
         "claude",
         "claude-code",
+        "codex",
+        "cursor",
         "dynamic-island",
         "gemini-cli",
         "linux",
@@ -38282,7 +38284,7 @@
     "Edwardxlai/easyread": {
       "full_name": "Edwardxlai/easyread",
       "description": "把英文论文读成舒服的中文：本地 PDF 论文翻译、原文对照、边读边问 AI、文献管理。Read English papers in comfortable Chinese.",
-      "language": "JavaScript",
+      "language": "Python",
       "url": "https://github.com/Edwardxlai/easyread",
       "first_seen": "2026-10-01",
       "has_summary": false,
@@ -38430,6 +38432,17 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "HeyOkay/HaloBattery": {
+      "full_name": "HeyOkay/HaloBattery",
+      "description": "Unified battery level indicators for 2.4GHz mice, headsets and Bluetooth devices in the Windows tray",
+      "language": "Python",
+      "url": "https://github.com/HeyOkay/HaloBattery",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.13.0"
     }
   }
 }

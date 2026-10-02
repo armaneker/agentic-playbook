@@ -36590,7 +36590,7 @@
         "typed-decisions"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": "v0.3.0"
     },
     "v-modal/awesome-jev-tools": {
       "full_name": "v-modal/awesome-jev-tools",
@@ -36718,7 +36718,7 @@
         "typed-decisions"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.2.0"
     },
     "gylive/ccodex-sleep-state": {
       "full_name": "gylive/ccodex-sleep-state",
@@ -38401,6 +38401,35 @@
       ],
       "category": "Infra",
       "version": "v2.3.0"
+    },
+    "CAPCOM-TD-OSS/REDox": {
+      "full_name": "CAPCOM-TD-OSS/REDox",
+      "description": "High-performance, token-based structured data engine for .NET. A core component of REX, the technology behind CAPCOM's next-generation game engine.",
+      "language": "C#",
+      "url": "https://github.com/CAPCOM-TD-OSS/REDox",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "athemeroy/awesome-claude-5-5-videos": {
+      "full_name": "athemeroy/awesome-claude-5-5-videos",
+      "description": "Source-linked Claude 5.5 video workflows: Opus and Sonnet demos, separately labeled next-Fable testing reports, prompts, tools and production evidence.",
+      "language": "Python",
+      "url": "https://github.com/athemeroy/awesome-claude-5-5-videos",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "awesome",
+        "awesome-list",
+        "claude",
+        "claude-opus-5-5",
+        "video-workflows"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

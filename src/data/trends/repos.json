@@ -38443,6 +38443,17 @@
       "topics": [],
       "category": "Other",
       "version": "v1.13.0"
+    },
+    "chasmlol/SkyCraft": {
+      "full_name": "chasmlol/SkyCraft",
+      "description": "Play Skyrim as a Minecraft player: Minecraft physics, inventory, blocks and combat inside Skyrim's world (SKSE plugin + Fabric mod).",
+      "language": "C++",
+      "url": "https://github.com/chasmlol/SkyCraft",
+      "first_seen": "2026-10-02",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.2"
     }
   }
 }

@@ -38454,6 +38454,57 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.2"
+    },
+    "ESPARGOS/esp-sdr": {
+      "full_name": "ESPARGOS/esp-sdr",
+      "description": "ESP-SDR uses the undocumented raw I/Q capture functionality of ESP32 family chips to turn them into (low-duty-cycle) Software Defined Radios",
+      "language": "C",
+      "url": "https://github.com/ESPARGOS/esp-sdr",
+      "first_seen": "2026-10-03",
+      "has_summary": false,
+      "topics": [
+        "esp32",
+        "sdr"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "PostHog/jeeves": {
+      "full_name": "PostHog/jeeves",
+      "description": "Jeeves – Reasoning improves Jev-like decision models",
+      "language": "Python",
+      "url": "https://github.com/PostHog/jeeves",
+      "first_seen": "2026-10-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "angel291592/Intent-Router": {
+      "full_name": "angel291592/Intent-Router",
+      "description": "Intent compiler for AI agents — converges vague requests into typed IntentSpec contracts (probe, ask, or halt before routing), the input layer for routers and typed-decision models like Jev & Laya",
+      "language": "Python",
+      "url": "https://github.com/angel291592/Intent-Router",
+      "first_seen": "2026-10-03",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "agentic",
+        "ai-agents",
+        "clarification",
+        "claude-code",
+        "codex",
+        "context-engineering",
+        "decision-model",
+        "intent",
+        "llm-routing",
+        "prompt-engineering",
+        "skill",
+        "system-one",
+        "typed-decisions"
+      ],
+      "category": "Agentic",
+      "version": "v1.2.0"
     }
   }
 }

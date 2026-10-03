@@ -12726,7 +12726,7 @@
     },
     "firecrawl/firecrawl": {
       "full_name": "firecrawl/firecrawl",
-      "description": "🔥 Supercharge your AI agents with data from the web and beyond. A web data API to search, scrape, and access more sources.",
+      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
       "language": "TypeScript",
       "url": "https://github.com/firecrawl/firecrawl",
       "first_seen": "2026-05-17",
@@ -38505,6 +38505,28 @@
       ],
       "category": "Agentic",
       "version": "v1.2.0"
+    },
+    "facebookincubator/muse-gadget-sdk": {
+      "full_name": "facebookincubator/muse-gadget-sdk",
+      "description": "Open source SDK to build Muse gadgets",
+      "language": "C",
+      "url": "https://github.com/facebookincubator/muse-gadget-sdk",
+      "first_seen": "2026-10-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nykooi1/vibe-wise": {
+      "full_name": "nykooi1/vibe-wise",
+      "description": "A Claude Code plugin that helps you learn how to build while AI writes the code.",
+      "language": "Python",
+      "url": "https://github.com/nykooi1/vibe-wise",
+      "first_seen": "2026-10-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

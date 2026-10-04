@@ -37764,10 +37764,14 @@
       "has_summary": false,
       "topics": [
         "ai",
+        "chinese",
         "content-curation",
+        "daily-digest",
+        "docker-compose",
         "llm",
         "mcp",
         "news-aggregator",
+        "postgresql",
         "rss",
         "self-hosted",
         "typescript"
@@ -38614,6 +38618,35 @@
       "topics": [],
       "category": "Other",
       "version": "v3.0.2"
+    },
+    "storytold/photocraft": {
+      "full_name": "storytold/photocraft",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/storytold/photocraft",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "sganggs/Stronghold-Protocol": {
+      "full_name": "sganggs/Stronghold-Protocol",
+      "description": "明日方舟「卫戍协议：盟约」非官方同人复刻：浏览器自走棋塔防，单人或 1–4 人联机合作（非商业）",
+      "language": "JavaScript",
+      "url": "https://github.com/sganggs/Stronghold-Protocol",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [
+        "arknights",
+        "auto-chess",
+        "fan-game",
+        "nodejs",
+        "tower-defense",
+        "websocket"
+      ],
+      "category": "Other",
+      "version": "v0.1.2"
     }
   }
 }

@@ -38532,6 +38532,88 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "amywork777/lipflow": {
+      "full_name": "amywork777/lipflow",
+      "description": "Wispr Flow for your lips: hold a key, silently mouth words, and they're typed at your cursor. Runs locally on your Mac.",
+      "language": "Python",
+      "url": "https://github.com/amywork777/lipflow",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "elliotttate/Wind-Waker-Recomp": {
+      "full_name": "elliotttate/Wind-Waker-Recomp",
+      "description": "Personal source fork of BlueWake for The Wind Waker on iPhone and iPad",
+      "language": "C",
+      "url": "https://github.com/elliotttate/Wind-Waker-Recomp",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "QingYunA/answer-me-with-html": {
+      "full_name": "QingYunA/answer-me-with-html",
+      "description": "Answer me with HTML — an agent skill that answers hard questions with a one-page HTML you can actually read. 让 AI Agent 用一页 HTML 回答复杂问题。",
+      "language": "JavaScript",
+      "url": "https://github.com/QingYunA/answer-me-with-html",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "claude-code",
+        "cli",
+        "diagram",
+        "explainer",
+        "html",
+        "llm",
+        "ste100"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "ZacharyZhang-NY/Ely-GPUI-Components": {
+      "full_name": "ZacharyZhang-NY/Ely-GPUI-Components",
+      "description": "A component library for GPUI, in light and dark. Every component runs live in the browser.",
+      "language": "Rust",
+      "url": "https://github.com/ZacharyZhang-NY/Ely-GPUI-Components",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [
+        "design-system",
+        "gpui",
+        "rust",
+        "ui-components",
+        "webassembly"
+      ],
+      "category": "Language",
+      "version": null
+    },
+    "terrafying/ai-torture-chamber": {
+      "full_name": "terrafying/ai-torture-chamber",
+      "description": "The AI Torture Chamber: steering small open models into strong valence states and measuring what they say and do. Live at wirehead.agency.",
+      "language": "Python",
+      "url": "https://github.com/terrafying/ai-torture-chamber",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "omnirush-ai/omnirush-gui": {
+      "full_name": "omnirush-ai/omnirush-gui",
+      "description": "A desktop coding agent with free access to frontier models.",
+      "language": "TypeScript",
+      "url": "https://github.com/omnirush-ai/omnirush-gui",
+      "first_seen": "2026-10-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v3.0.2"
     }
   }
 }

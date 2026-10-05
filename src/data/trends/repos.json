@@ -38807,6 +38807,43 @@
       "topics": [],
       "category": "Other",
       "version": "0.2"
+    },
+    "storytold/filmcraft": {
+      "full_name": "storytold/filmcraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Premiere Pro built in pure Rust.",
+      "language": "Rust",
+      "url": "https://github.com/storytold/filmcraft",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [
+        "adobe",
+        "art",
+        "rust",
+        "video",
+        "video-editing",
+        "video-editor",
+        "video-processing"
+      ],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "lucasmarkes/hairline": {
+      "full_name": "lucasmarkes/hairline",
+      "description": "Six isometric line figures that answer the pointer. For React and for anything with a DOM.",
+      "language": "TypeScript",
+      "url": "https://github.com/lucasmarkes/hairline",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "isometric",
+        "react",
+        "shadcn",
+        "svg",
+        "typescript"
+      ],
+      "category": "Web Framework",
+      "version": "v0.3.0"
     }
   }
 }

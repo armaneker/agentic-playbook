@@ -34902,7 +34902,7 @@
     },
     "Edge0-AI/Edge0": {
       "full_name": "Edge0-AI/Edge0",
-      "description": "",
+      "description": "Run 35B MoE models in ~2.5 GB of RAM. Weights stream from SSD; a trained router predicts loads a step ahead. Mac, iPhone, Android, Windows supported",
       "language": "Python",
       "url": "https://github.com/Edge0-AI/Edge0",
       "first_seen": "2026-09-10",
@@ -37459,6 +37459,7 @@
         "illustration",
         "launch-video",
         "motion-design",
+        "motion-graphics",
         "plugin",
         "procedural-generation",
         "skill"
@@ -38621,12 +38622,25 @@
     },
     "storytold/photocraft": {
       "full_name": "storytold/photocraft",
-      "description": "",
+      "description": "An open-source, clean-room reimplementation of Adobe Photoshop in pure Rust",
       "language": "Rust",
       "url": "https://github.com/storytold/photocraft",
       "first_seen": "2026-10-04",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "adobe",
+        "adobe-photoshop-2026",
+        "adobe-photoshop-2026-ai",
+        "art",
+        "image-editing",
+        "image-editing-software",
+        "image-editor",
+        "images",
+        "photo-editing",
+        "photoshop",
+        "psd",
+        "rust"
+      ],
       "category": "Other",
       "version": "v0.1.1"
     },
@@ -38740,6 +38754,59 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "StayLameBro/backburner": {
+      "full_name": "StayLameBro/backburner",
+      "description": "Your iPhone helps your Mac run a 27B model: faster prompt reading and more context over a USB-C cable",
+      "language": "Python",
+      "url": "https://github.com/StayLameBro/backburner",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "ios",
+        "iphone",
+        "llama-cpp",
+        "llm-inference",
+        "local-llm",
+        "macos",
+        "metal",
+        "qwen",
+        "sme2",
+        "speculative-decoding"
+      ],
+      "category": "Mobile",
+      "version": null
+    },
+    "BlueHeisenberg/SCSKiller": {
+      "full_name": "BlueHeisenberg/SCSKiller",
+      "description": "Kill shader compilation stutter before you play. Compiles your games' shaders into the GPU driver's cache ahead of time. Windows, NVIDIA and AMD.",
+      "language": "C#",
+      "url": "https://github.com/BlueHeisenberg/SCSKiller",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [
+        "amd",
+        "directx12",
+        "nvidia",
+        "pc-gaming",
+        "shader-compilation",
+        "stutter",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v1.2.2"
+    },
+    "deadinside28/bloodborne_pc": {
+      "full_name": "deadinside28/bloodborne_pc",
+      "description": "",
+      "language": "C++",
+      "url": "https://github.com/deadinside28/bloodborne_pc",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.2"
     }
   }
 }

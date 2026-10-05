@@ -38669,6 +38669,77 @@
       "topics": [],
       "category": "Other",
       "version": "v0.15.4"
+    },
+    "omlahore/RemoveMacAI": {
+      "full_name": "omlahore/RemoveMacAI",
+      "description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.",
+      "language": "Swift",
+      "url": "https://github.com/omlahore/RemoveMacAI",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [
+        "apple-intelligence",
+        "cli",
+        "debloat",
+        "macos",
+        "macos-27",
+        "privacy",
+        "siri",
+        "swift"
+      ],
+      "category": "Mobile",
+      "version": "v0.2.3"
+    },
+    "extend-hq/jevbox": {
+      "full_name": "extend-hq/jevbox",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/extend-hq/jevbox",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ythx-101/live-panel-skill": {
+      "full_name": "ythx-101/live-panel-skill",
+      "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
+      "language": "HTML",
+      "url": "https://github.com/ythx-101/live-panel-skill",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "SelmiAbderrahim/rankme.fast": {
+      "full_name": "SelmiAbderrahim/rankme.fast",
+      "description": "The self-hosted SEO platform. ",
+      "language": "TypeScript",
+      "url": "https://github.com/SelmiAbderrahim/rankme.fast",
+      "first_seen": "2026-10-05",
+      "has_summary": false,
+      "topics": [
+        "screaming-frog",
+        "screaming-frog-release-seo-spider",
+        "screaming-frog-seo-spider",
+        "semrush",
+        "semrush-alternative",
+        "semrush-free",
+        "semrush-software",
+        "seo",
+        "seo-audit",
+        "seo-automation",
+        "seo-friendly",
+        "seo-optimization",
+        "seo-optimized",
+        "seo-tools",
+        "seops",
+        "seops-vulcan",
+        "seotools"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

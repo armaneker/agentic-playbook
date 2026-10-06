@@ -38573,6 +38573,9 @@
         "agent-skill",
         "ai-agent",
         "claude-code",
+        "claude-code-skill",
+        "claude-skill",
+        "claude-skills",
         "cli",
         "diagram",
         "explainer",
@@ -38922,6 +38925,49 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "storytold/lightcraft": {
+      "full_name": "storytold/lightcraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Lightroom in pure Rust.",
+      "language": "Rust",
+      "url": "https://github.com/storytold/lightcraft",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [
+        "art",
+        "lightroom",
+        "photography",
+        "raw",
+        "raw-editor",
+        "raw-processing",
+        "rust"
+      ],
+      "category": "Other",
+      "version": "v0.2.1"
+    },
+    "amontlabs/lcu": {
+      "full_name": "amontlabs/lcu",
+      "description": "Codex computer use, decoupled from the app, for usage inside any harness.",
+      "language": "Python",
+      "url": "https://github.com/amontlabs/lcu",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "agent-skills",
+        "browser-automation",
+        "claude-code",
+        "codex-cli",
+        "computer-use",
+        "desktop-automation",
+        "linux",
+        "macos",
+        "mcp",
+        "pi-agent",
+        "x11"
+      ],
+      "category": "Agentic",
+      "version": "v0.9.5"
     }
   }
 }

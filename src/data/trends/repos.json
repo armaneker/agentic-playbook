@@ -38121,7 +38121,7 @@
     },
     "Louis-CFM/coucou": {
       "full_name": "Louis-CFM/coucou",
-      "description": "A tiny friend that lives in your notch (macOS) or at the top of your screen (Windows, Linux) and keeps an eye on your coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more.",
+      "description": "A tiny friend in your Mac's notch and on your iPhone that keeps an eye on your AI coding agents: Claude Code, Codex, Cursor, Gemini CLI, Antigravity and more. Approve from the notch or your Lock Screen.",
       "language": "Swift",
       "url": "https://github.com/Louis-CFM/coucou",
       "first_seen": "2026-09-30",
@@ -38136,6 +38136,8 @@
         "cursor",
         "dynamic-island",
         "gemini-cli",
+        "ios",
+        "iphon",
         "linux",
         "macos",
         "macos-app",
@@ -38844,6 +38846,82 @@
       ],
       "category": "Web Framework",
       "version": "v0.3.0"
+    },
+    "rauchg/gdp-ts": {
+      "full_name": "rauchg/gdp-ts",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/rauchg/gdp-ts",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Jakeschincariol/replica-skill": {
+      "full_name": "Jakeschincariol/replica-skill",
+      "description": "Eleven free Claude skills that clone any app: reverse-engineer it, rebuild it, test it for bugs, then fix what its users hate. Free, MIT.",
+      "language": "Python",
+      "url": "https://github.com/Jakeschincariol/replica-skill",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "agent-skills",
+        "app-clone",
+        "claude",
+        "claude-code",
+        "claude-skills",
+        "indie-hacker",
+        "reverse-engineering",
+        "saas"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "OffGridPete/Fieldwatch": {
+      "full_name": "OffGridPete/Fieldwatch",
+      "description": "Receive-only Wi-Fi and Bluetooth LE observer for Android. MIT.",
+      "language": "Kotlin",
+      "url": "https://github.com/OffGridPete/Fieldwatch",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.20"
+    },
+    "InternLM/Intern-Decision": {
+      "full_name": "InternLM/Intern-Decision",
+      "description": "Fast multi-modal decision model",
+      "language": "Python",
+      "url": "https://github.com/InternLM/Intern-Decision",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "whirlchat/whirl": {
+      "full_name": "whirlchat/whirl",
+      "description": "The AI chat app that sweats the details. Every top model, real memory, living documents, and your own tools.",
+      "language": "TypeScript",
+      "url": "https://github.com/whirlchat/whirl",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "ai-chat",
+        "chat",
+        "convex",
+        "llm",
+        "nextjs",
+        "openrouter",
+        "react",
+        "self-hosted",
+        "typescript"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

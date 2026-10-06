@@ -36766,7 +36766,7 @@
     },
     "jev-chat/jev-chat-jarvis": {
       "full_name": "jev-chat/jev-chat-jarvis",
-      "description": "装在手机上的对话副驾：在 QQ / X / 飞书里读懂对方、给出候选回复、一键填入输入框，发不发由你。非侵入，只读屏幕，不 hook 不改包。",
+      "description": "The chat decision assistant: before you reply, Jev reads the chat, judges intent and risk, and drafts replies you fill in with one tap. You press send. Android · Windows · macOS · iOS | 聊天辅助决策工具：先看懂对方再回复，发不发由你。",
       "language": "Kotlin",
       "url": "https://github.com/jev-chat/jev-chat-jarvis",
       "first_seen": "2026-09-22",
@@ -36779,7 +36779,8 @@
         "chat-copilot",
         "llm",
         "ocr",
-        "qq"
+        "qq",
+        "whatsapp"
       ],
       "category": "AI / ML",
       "version": "v1.3"
@@ -38968,6 +38969,87 @@
       ],
       "category": "Agentic",
       "version": "v0.9.5"
+    },
+    "shader-effects-inc/shaders": {
+      "full_name": "shader-effects-inc/shaders",
+      "description": "WebGPU components for React, Vue, Svelte, Solid, JS & Framer",
+      "language": "TypeScript",
+      "url": "https://github.com/shader-effects-inc/shaders",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "javascript",
+        "mcp",
+        "react",
+        "shaders",
+        "solid",
+        "svelte",
+        "vue",
+        "webgpu-shaders"
+      ],
+      "category": "Agentic",
+      "version": "v4.0.0"
+    },
+    "storytold/printcraft": {
+      "full_name": "storytold/printcraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust",
+      "language": "Rust",
+      "url": "https://github.com/storytold/printcraft",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [
+        "acrobat",
+        "acrobat-full",
+        "acrobat-pro",
+        "adobe",
+        "adobe-acrobat",
+        "document-processing",
+        "documents",
+        "pdf",
+        "pdf-generation",
+        "pdf-processing",
+        "pdf-tools",
+        "pdf-viewer",
+        "rust"
+      ],
+      "category": "Other",
+      "version": "v0.2.1"
+    },
+    "storytold/vectorcraft": {
+      "full_name": "storytold/vectorcraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Illustrator, built in pure Rust.",
+      "language": "Rust",
+      "url": "https://github.com/storytold/vectorcraft",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [
+        "adobe-illustrator",
+        "art",
+        "illustrator",
+        "illustrator-2023",
+        "illustrator-extensions",
+        "illustrator-free",
+        "illustrator-full",
+        "rust",
+        "rust-lang",
+        "svg",
+        "svg-editor",
+        "vector-graphics"
+      ],
+      "category": "Other",
+      "version": "v0.3.1"
+    },
+    "storytold/effectcraft": {
+      "full_name": "storytold/effectcraft",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/storytold/effectcraft",
+      "first_seen": "2026-10-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.1"
     }
   }
 }

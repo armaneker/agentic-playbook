@@ -39208,26 +39208,26 @@
       "first_seen": "2026-10-07",
       "has_summary": false,
       "topics": [
-        "agentic-ai",
-        "ai-agent",
-        "ai-automation",
+        "ai-tools",
+        "antidetect-browser",
         "autonomous-agents",
-        "browser",
+        "browser-agent",
+        "browser-automation",
         "claude-code-plugin",
-        "crawler",
+        "computer-use",
+        "gemini-cli",
         "gemini-cli-extension",
         "job-hunting",
         "job-search",
-        "lead-generation",
         "llm-agent",
-        "market-research",
         "mcp-server",
+        "mcp-tools",
         "model-context-protocol",
         "playwright",
-        "productivity",
-        "scraper",
+        "stealth-browser",
         "web-automation",
-        "web-research"
+        "web-scraping",
+        "webscraping"
       ],
       "category": "Agentic",
       "version": "v0.70.12"
@@ -39246,6 +39246,42 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "storytold/pdfcraft": {
+      "full_name": "storytold/pdfcraft",
+      "description": "An open-source, clean-room reimplementation of Adobe Acrobat built in pure Rust",
+      "language": "Rust",
+      "url": "https://github.com/storytold/pdfcraft",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [
+        "acrobat",
+        "acrobat-full",
+        "acrobat-pro",
+        "adobe",
+        "adobe-acrobat",
+        "document-processing",
+        "documents",
+        "pdf",
+        "pdf-generation",
+        "pdf-processing",
+        "pdf-tools",
+        "pdf-viewer",
+        "rust"
+      ],
+      "category": "Other",
+      "version": "v0.2.1"
+    },
+    "genex-games/genex-desktop": {
+      "full_name": "genex-games/genex-desktop",
+      "description": "Desktop app for game dev with AI. macOS and Linux, Windows soon.",
+      "language": "TypeScript",
+      "url": "https://github.com/genex-games/genex-desktop",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.4"
     }
   }
 }

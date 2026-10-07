@@ -39177,6 +39177,75 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Ebony-Vinyl/dsh-our-free-model": {
+      "full_name": "Ebony-Vinyl/dsh-our-free-model",
+      "description": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。 All you do is install this plugin in dsh: no login, no sign-up, no API key — the frontier models are just there, DeepSeek V4.1 Flash and Kimi K3 among them. Completely free, with no usage cap.",
+      "language": "JavaScript",
+      "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "deepseek",
+        "deepseek-harness",
+        "developer-tools",
+        "dsh",
+        "dsh-plugin",
+        "free-model",
+        "llm",
+        "model-provider",
+        "openai-compatible"
+      ],
+      "category": "Agentic",
+      "version": "v2.0.0"
+    },
+    "feder-cr/invisible_playwright_mcp": {
+      "full_name": "feder-cr/invisible_playwright_mcp",
+      "description": "Playwright MCP server undetected by anti-bots and captchas: AI agent browses the web on anti-detect stealth Firefox, Python, undetected browser automation, scraping, computer use.",
+      "language": "Python",
+      "url": "https://github.com/feder-cr/invisible_playwright_mcp",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-agent",
+        "ai-automation",
+        "autonomous-agents",
+        "browser",
+        "claude-code-plugin",
+        "crawler",
+        "gemini-cli-extension",
+        "job-hunting",
+        "job-search",
+        "lead-generation",
+        "llm-agent",
+        "market-research",
+        "mcp-server",
+        "model-context-protocol",
+        "playwright",
+        "productivity",
+        "scraper",
+        "web-automation",
+        "web-research"
+      ],
+      "category": "Agentic",
+      "version": "v0.70.12"
+    },
+    "KingKongRobotics/jumper": {
+      "full_name": "KingKongRobotics/jumper",
+      "description": "🦀 Jumper — an crab robot.",
+      "language": "Python",
+      "url": "https://github.com/KingKongRobotics/jumper",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [
+        "crab-robot",
+        "robot",
+        "robotics"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

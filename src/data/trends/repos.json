@@ -38681,18 +38681,27 @@
     },
     "oil-oil/oil-ui": {
       "full_name": "oil-oil/oil-ui",
-      "description": "把 AI 的 UI 设计能力推到极限。",
+      "description": "Push AI UI design to its limits: explore distinct directions, compare them side by side, and refine against real screenshots. 把 AI 的 UI 设计能力推到极限。",
       "language": "Python",
       "url": "https://github.com/oil-oil/oil-ui",
       "first_seen": "2026-10-04",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "agent-skills",
+        "ai-design",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "frontend",
+        "ui-design",
+        "ux-design"
+      ],
       "category": "Other",
       "version": "v0.15.4"
     },
     "omlahore/RemoveMacAI": {
       "full_name": "omlahore/RemoveMacAI",
-      "description": "Turn off Apple Intelligence on macOS 27 and get its disk space back. One command, fully reversible.",
+      "description": "Debloat macOS: turn off Apple Intelligence, analytics, ads and pop-ups. A native app and CLI, and every change can be undone.",
       "language": "Swift",
       "url": "https://github.com/omlahore/RemoveMacAI",
       "first_seen": "2026-10-05",
@@ -39050,6 +39059,124 @@
       "topics": [],
       "category": "Other",
       "version": "v0.3.1"
+    },
+    "openai/math": {
+      "full_name": "openai/math",
+      "description": "",
+      "language": "Lean",
+      "url": "https://github.com/openai/math",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "alchaincyf/huashu-art-motion": {
+      "full_name": "alchaincyf/huashu-art-motion",
+      "description": "艺术动画skill：35种艺术风格、9种解说语法，用代码让画动起来。",
+      "language": "JavaScript",
+      "url": "https://github.com/alchaincyf/huashu-art-motion",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "mizorewww/x_gift_bot": {
+      "full_name": "mizorewww/x_gift_bot",
+      "description": "X Premium gift CLI and redemption site",
+      "language": "Go",
+      "url": "https://github.com/mizorewww/x_gift_bot",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "elstongun/leviathan": {
+      "full_name": "elstongun/leviathan",
+      "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+      "language": "Rust",
+      "url": "https://github.com/elstongun/leviathan",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "AgentMemoryRepo/agentmemoryrepo": {
+      "full_name": "AgentMemoryRepo/agentmemoryrepo",
+      "description": "Spec for Agent Memory Repo",
+      "language": "Unknown",
+      "url": "https://github.com/AgentMemoryRepo/agentmemoryrepo",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "storytold/designcraft": {
+      "full_name": "storytold/designcraft",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/storytold/designcraft",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.1"
+    },
+    "ng-native/ng-native": {
+      "full_name": "ng-native/ng-native",
+      "description": "Angular apps, rendered as real native iOS and Android views, on React Native's Fabric renderer.",
+      "language": "TypeScript",
+      "url": "https://github.com/ng-native/ng-native",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "angular",
+        "expo",
+        "fabric",
+        "ios",
+        "mobile",
+        "native",
+        "react-native",
+        "signals",
+        "typescript"
+      ],
+      "category": "Mobile",
+      "version": "v0.5.0"
+    },
+    "shinshin86/mesh-avatar-studio": {
+      "full_name": "shinshin86/mesh-avatar-studio",
+      "description": "Turn one illustration into an animated 2D mesh avatar with a coding agent and a local editor",
+      "language": "TypeScript",
+      "url": "https://github.com/shinshin86/mesh-avatar-studio",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [
+        "2d-animation",
+        "avatar",
+        "claude-code",
+        "codex",
+        "mesh-deformation",
+        "vtuber",
+        "webgl"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Rieranthony/product-film-skill": {
+      "full_name": "Rieranthony/product-film-skill",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Rieranthony/product-film-skill",
+      "first_seen": "2026-10-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

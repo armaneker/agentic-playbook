@@ -28035,12 +28035,12 @@
         "openclaw",
         "openclaw-ui",
         "opencode",
+        "pi",
         "provider-management",
         "rust",
         "skills",
         "skills-management",
         "tauri",
-        "typescript",
         "wsl-support"
       ],
       "category": "Agentic",
@@ -39282,6 +39282,169 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.4"
+    },
+    "LoreanXavier/pt-pc": {
+      "full_name": "LoreanXavier/pt-pc",
+      "description": "Native PC port of P.T. (runs from your own PS4 game files)",
+      "language": "C++",
+      "url": "https://github.com/LoreanXavier/pt-pc",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "alejandrobujan/tendedero": {
+      "full_name": "alejandrobujan/tendedero",
+      "description": "Screenshots, hung out to dry. A tiny native macOS app that hangs every screenshot on a line at the top of your screen.",
+      "language": "Swift",
+      "url": "https://github.com/alejandrobujan/tendedero",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "DozenTwelve/Papermorph": {
+      "full_name": "DozenTwelve/Papermorph",
+      "description": "An AI skill that turns books into animated, narrated, interactive web experiences",
+      "language": "HTML",
+      "url": "https://github.com/DozenTwelve/Papermorph",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Dingo-Shenanigans/ReSkate": {
+      "full_name": "Dingo-Shenanigans/ReSkate",
+      "description": "",
+      "language": "C++",
+      "url": "https://github.com/Dingo-Shenanigans/ReSkate",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.6"
+    },
+    "zzzz7788990213-ops/EvoVLM": {
+      "full_name": "zzzz7788990213-ops/EvoVLM",
+      "description": "Evolving Multimodal Inference Programs: LLM-guided evolutionary search for accurate and efficient vision-language inference.",
+      "language": "Python",
+      "url": "https://github.com/zzzz7788990213-ops/EvoVLM",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pingdotgg/ts-rust": {
+      "full_name": "pingdotgg/ts-rust",
+      "description": "An experimental Rust port of the TypeScript 7 compiler (tsc)",
+      "language": "Rust",
+      "url": "https://github.com/pingdotgg/ts-rust",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [
+        "compiler",
+        "rust",
+        "tsc",
+        "typescript"
+      ],
+      "category": "Language",
+      "version": "v0.1.0"
+    },
+    "blendi-remade/agentcraft": {
+      "full_name": "blendi-remade/agentcraft",
+      "description": "",
+      "language": "Java",
+      "url": "https://github.com/blendi-remade/agentcraft",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "szabadkai/c64-keyboard-font": {
+      "full_name": "szabadkai/c64-keyboard-font",
+      "description": "Photo-based reconstruction of classic Commodore 64 keycap lettering, with desktop fonts, webfont, editable outlines, and a specimen.",
+      "language": "Python",
+      "url": "https://github.com/szabadkai/c64-keyboard-font",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.112"
+    },
+    "nullmoth/nvidia-macos-driver": {
+      "full_name": "nullmoth/nvidia-macos-driver",
+      "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
+      "language": "Rust",
+      "url": "https://github.com/nullmoth/nvidia-macos-driver",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.12"
+    },
+    "BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo": {
+      "full_name": "BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo",
+      "description": "Real-time browser demo for Talk Like You",
+      "language": "Python",
+      "url": "https://github.com/BQ-Wang0511/TalkLikeYou-Streaming-RealTime-Demo",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "saawant12/orbit-store-ps5": {
+      "full_name": "saawant12/orbit-store-ps5",
+      "description": "A modern PS5 download manager with resumable downloads and phone controls",
+      "language": "Unknown",
+      "url": "https://github.com/saawant12/orbit-store-ps5",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [
+        "download-manager",
+        "homebrew",
+        "payload",
+        "playstation5",
+        "ps5"
+      ],
+      "category": "Other",
+      "version": "v0.9.0"
+    },
+    "Droid-Deck/DroidDeck": {
+      "full_name": "Droid-Deck/DroidDeck",
+      "description": "DroidDeck brings the SteamOS experience to Android",
+      "language": "Kotlin",
+      "url": "https://github.com/Droid-Deck/DroidDeck",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.3.1"
+    },
+    "strands-labs/strands-decider": {
+      "full_name": "strands-labs/strands-decider",
+      "description": "A small, fast decision model, or system one model, for agentic workflows. Pick between options or rate on a scale faster than an LLM, with a calibrated confidence on every decision.",
+      "language": "Python",
+      "url": "https://github.com/strands-labs/strands-decider",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "machine-learning",
+        "natural-language-understanding",
+        "python",
+        "strands-agents",
+        "strands-labs",
+        "system-one",
+        "system-one-models"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

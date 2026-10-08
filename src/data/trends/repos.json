@@ -37684,7 +37684,7 @@
         "video"
       ],
       "category": "Other",
-      "version": null
+      "version": "v1.1.0-lite"
     },
     "Mapika/decider": {
       "full_name": "Mapika/decider",
@@ -39516,6 +39516,91 @@
       ],
       "category": "Web Framework",
       "version": null
+    },
+    "storytold/cadcraft": {
+      "full_name": "storytold/cadcraft",
+      "description": "CADCraft: computer-aided design and drafting — an open-source, clean-room AutoCAD-style app in pure Rust",
+      "language": "Rust",
+      "url": "https://github.com/storytold/cadcraft",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "mhtsec/ARTEX": {
+      "full_name": "mhtsec/ARTEX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目",
+      "language": "Go",
+      "url": "https://github.com/mhtsec/ARTEX",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "shadany7824/playgta5": {
+      "full_name": "shadany7824/playgta5",
+      "description": "A source code for playgta5.com.",
+      "language": "JavaScript",
+      "url": "https://github.com/shadany7824/playgta5",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "LosaLosSantos/aurelio-finance": {
+      "full_name": "LosaLosSantos/aurelio-finance",
+      "description": "Self-hosted personal wealth analysis: portfolio & net-worth tracking with AI insights. FastAPI + React.",
+      "language": "Python",
+      "url": "https://github.com/LosaLosSantos/aurelio-finance",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "fastapi",
+        "fintech",
+        "net-worth",
+        "personal-finance",
+        "portfolio-tracker",
+        "python",
+        "react",
+        "self-hosted",
+        "typescript",
+        "wealth-management"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "Mastershort/neonplan3d": {
+      "full_name": "Mastershort/neonplan3d",
+      "description": "3D floor plan for Home Assistant: draw your home in the built-in editor (rooms, walls, doors, windows, furniture, roof) and see and control lights, covers, windows, climate, media, sensors and cameras live in a neon 3D view – as a sidebar panel and dashboard card.",
+      "language": "TypeScript",
+      "url": "https://github.com/Mastershort/neonplan3d",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "3d-visualization",
+        "custom-card",
+        "dashboard",
+        "digital-twin",
+        "editor",
+        "floor-plan",
+        "floorplan",
+        "floorplan-card",
+        "hacs",
+        "home-assistant",
+        "home-automation",
+        "homeassistant-integration",
+        "lovelace",
+        "lovelace-card",
+        "smart-home",
+        "threejs"
+      ],
+      "category": "DevTools",
+      "version": "v1.13.0"
     }
   }
 }

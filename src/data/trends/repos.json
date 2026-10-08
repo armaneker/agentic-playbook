@@ -35594,13 +35594,18 @@
     },
     "yi1108/printfilm": {
       "full_name": "yi1108/printfilm",
-      "description": "PRINTFILM：AI 视频获客与 AI短剧创作平台",
+      "description": "PRINTFILM: AI short-video marketing and AI short-drama creation platform",
       "language": "Python",
       "url": "https://github.com/yi1108/printfilm",
       "first_seen": "2026-09-15",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai",
+        "ai-video",
+        "short-drama",
+        "short-video"
+      ],
+      "category": "AI / ML",
       "version": "v0.2.0"
     },
     "deepseek-ai/DeepSelect": {
@@ -37952,12 +37957,21 @@
     },
     "glanderness/BeefTV": {
       "full_name": "glanderness/BeefTV",
-      "description": "Local-first, lightweight, AI-native video workspace.",
+      "description": "High-performance · Lightweight · AI Native Video workspace. 面向 AI 时代的视频创作工作台。 在画布中，和Agent一起自由连接创意、模型与素材。",
       "language": "TypeScript",
       "url": "https://github.com/glanderness/BeefTV",
       "first_seen": "2026-09-29",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "ai-image-generation",
+        "ai-video",
+        "ai-video-generation",
+        "ai-workspace",
+        "aigc",
+        "creative-tools",
+        "infinite-canvas",
+        "local-first"
+      ],
       "category": "Other",
       "version": "v1.6.14"
     },
@@ -39444,6 +39458,63 @@
         "system-one-models"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "jiwoochris/artex-ko": {
+      "full_name": "jiwoochris/artex-ko",
+      "description": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "language": "Go",
+      "url": "https://github.com/jiwoochris/artex-ko",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "autonomous-agents",
+        "blue-team",
+        "cybersecurity",
+        "detection-engineering",
+        "i18n",
+        "korean",
+        "llm",
+        "penetration-testing",
+        "security",
+        "security-research",
+        "security-tools",
+        "sigma-rules",
+        "threat-detection"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "storytold/wordcraft": {
+      "full_name": "storytold/wordcraft",
+      "description": "An open-source, clean-room reimplementation of Microsoft Word in pure Rust",
+      "language": "Rust",
+      "url": "https://github.com/storytold/wordcraft",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "bas3line/ascii": {
+      "full_name": "bas3line/ascii",
+      "description": "Animated ascii art for web pages, in TypeScript: React, Next.js, Astro, or one HTML tag",
+      "language": "TypeScript",
+      "url": "https://github.com/bas3line/ascii",
+      "first_seen": "2026-10-08",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "ascii",
+        "ascii-art",
+        "astro",
+        "nextjs",
+        "react",
+        "typescript",
+        "web-components"
+      ],
+      "category": "Web Framework",
       "version": null
     }
   }

@@ -38376,8 +38376,11 @@
         "backbone",
         "backbone-networks",
         "computer-vision",
+        "foundation-models",
         "image-classification",
-        "vision-framework"
+        "nested-learning",
+        "vision-framework",
+        "visual-foundation-models"
       ],
       "category": "AI / ML",
       "version": "weights-v1"
@@ -38546,7 +38549,7 @@
     },
     "nykooi1/vibe-wise": {
       "full_name": "nykooi1/vibe-wise",
-      "description": "A Claude Code plugin that helps you learn how to build while AI writes the code.",
+      "description": "A Claude Code / Codex plugin that helps you learn how to build while AI writes the code.",
       "language": "Python",
       "url": "https://github.com/nykooi1/vibe-wise",
       "first_seen": "2026-10-03",
@@ -39552,22 +39555,25 @@
     },
     "LosaLosSantos/aurelio-finance": {
       "full_name": "LosaLosSantos/aurelio-finance",
-      "description": "Self-hosted personal wealth analysis: portfolio & net-worth tracking with AI insights. FastAPI + React.",
+      "description": "Open-source personal finance app with an AI financial advisor: track your net worth, investments, ETFs, cash and debts on your own computer.",
       "language": "Python",
       "url": "https://github.com/LosaLosSantos/aurelio-finance",
       "first_seen": "2026-10-08",
       "has_summary": false,
       "topics": [
         "ai",
-        "fastapi",
+        "dividends",
+        "etf",
+        "finance",
+        "financial-planning",
         "fintech",
+        "investing",
+        "llm",
         "net-worth",
         "personal-finance",
         "portfolio-tracker",
-        "python",
-        "react",
         "self-hosted",
-        "typescript",
+        "stocks",
         "wealth-management"
       ],
       "category": "AI / ML",
@@ -39677,6 +39683,17 @@
       ],
       "category": "Agentic",
       "version": "openqodex@0.10.0"
+    },
+    "storytold/deckcraft": {
+      "full_name": "storytold/deckcraft",
+      "description": "Presentations and slide shows: an open-source, clean-room reimplementation of Microsoft PowerPoint in pure Rust. Part of the ArtCraft Crafting Apps.",
+      "language": "Rust",
+      "url": "https://github.com/storytold/deckcraft",
+      "first_seen": "2026-10-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.0"
     }
   }
 }

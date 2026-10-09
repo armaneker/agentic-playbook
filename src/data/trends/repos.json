@@ -39112,7 +39112,7 @@
     },
     "elstongun/leviathan": {
       "full_name": "elstongun/leviathan",
-      "description": "**Deep memory for agents over large datasets.**   Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
+      "description": "Deep memory for agents over large datasets. Leviathan is a single static binary that turns your records (JSONL, JSON, CSV/TSV, SQLite, or anything a database CLI can export) into a ranked full-text index.",
       "language": "Rust",
       "url": "https://github.com/elstongun/leviathan",
       "first_seen": "2026-10-07",
@@ -39694,6 +39694,39 @@
       "topics": [],
       "category": "Other",
       "version": "v0.3.0"
+    },
+    "Vincentwei1021/mg-styles-15": {
+      "full_name": "Vincentwei1021/mg-styles-15",
+      "description": "15 motion design styles, each made by Claude Opus 5.5 writing code from one prompt: watch the films, copy the prompts, read the full source.",
+      "language": "Python",
+      "url": "https://github.com/Vincentwei1021/mg-styles-15",
+      "first_seen": "2026-10-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ThariqS/ai-newtab": {
+      "full_name": "ThariqS/ai-newtab",
+      "description": "Claude generates a daily new tab page based on your browser history.",
+      "language": "TypeScript",
+      "url": "https://github.com/ThariqS/ai-newtab",
+      "first_seen": "2026-10-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "HelixDB/helix-foundry": {
+      "full_name": "HelixDB/helix-foundry",
+      "description": "Your company's data, connected into one ontology, on your own computer. A local-first data workspace built on HelixDB and DuckDB.",
+      "language": "TypeScript",
+      "url": "https://github.com/HelixDB/helix-foundry",
+      "first_seen": "2026-10-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

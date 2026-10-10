@@ -39465,7 +39465,7 @@
     },
     "jiwoochris/artex-ko": {
       "full_name": "jiwoochris/artex-ko",
-      "description": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크 현지화 (upstream: Autumn-27/ARTEX, AGPL-3.0)",
+      "description": "ARTEX 한국어판 · AI 자율 침투 테스트 프레임워크(upstream: Autumn-27/ARTEX, AGPL-3.0)",
       "language": "Go",
       "url": "https://github.com/jiwoochris/artex-ko",
       "first_seen": "2026-10-08",
@@ -39814,6 +39814,46 @@
         "omarchy",
         "opendrop"
       ],
+      "category": "Other",
+      "version": null
+    },
+    "n1tr00-10/tiktok-web-signature": {
+      "full_name": "n1tr00-10/tiktok-web-signature",
+      "description": "tiktok web signature reverse engineer generates valid tiktok signatures for API requets",
+      "language": "Python",
+      "url": "https://github.com/n1tr00-10/tiktok-web-signature",
+      "first_seen": "2026-10-10",
+      "has_summary": false,
+      "topics": [
+        "chacha",
+        "chacha20",
+        "encryption",
+        "python",
+        "reverse-engineering",
+        "signatur",
+        "tiktok",
+        "tiktok-algo",
+        "tiktok-api",
+        "tiktok-automation-script",
+        "tiktok-bot-2026",
+        "tiktok-signing",
+        "tiktok-web-app",
+        "web-scraping",
+        "x-bogus",
+        "x-dynosaur",
+        "x-gnarly"
+      ],
+      "category": "Security",
+      "version": null
+    },
+    "anthropics/oss-scanner": {
+      "full_name": "anthropics/oss-scanner",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/anthropics/oss-scanner",
+      "first_seen": "2026-10-10",
+      "has_summary": false,
+      "topics": [],
       "category": "Other",
       "version": null
     }

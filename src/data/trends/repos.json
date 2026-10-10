@@ -39801,6 +39801,21 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "t4t5/omdrop-owl": {
+      "full_name": "t4t5/omdrop-owl",
+      "description": "airdrop for non-apple devices",
+      "language": "Shell",
+      "url": "https://github.com/t4t5/omdrop-owl",
+      "first_seen": "2026-10-10",
+      "has_summary": false,
+      "topics": [
+        "airdrop",
+        "omarchy",
+        "opendrop"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

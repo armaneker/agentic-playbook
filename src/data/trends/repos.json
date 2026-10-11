@@ -39878,6 +39878,60 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "wheresryan22/anatomy": {
+      "full_name": "wheresryan22/anatomy",
+      "description": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
+      "language": "JavaScript",
+      "url": "https://github.com/wheresryan22/anatomy",
+      "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "storytold/craft-launcher": {
+      "full_name": "storytold/craft-launcher",
+      "description": "The Craft App Launcher",
+      "language": "Rust",
+      "url": "https://github.com/storytold/craft-launcher",
+      "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "marclou/mailcheap": {
+      "full_name": "marclou/mailcheap",
+      "description": "Self-hosted newsletters on Amazon SES. About $0.10 per 1,000 emails.",
+      "language": "JavaScript",
+      "url": "https://github.com/marclou/mailcheap",
+      "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "rociiu/talorys": {
+      "full_name": "rociiu/talorys",
+      "description": "Your personal AI agent in your own Cloudflare account. Chat, memory, tasks, notes and scheduled reminders, deployed with one command: npx create-talorys@latest. Free-tier friendly, single-user, no telemetry.",
+      "language": "TypeScript",
+      "url": "https://github.com/rociiu/talorys",
+      "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "cloudflare",
+        "cloudflare-workers",
+        "durable-objects",
+        "personal-assistant",
+        "react",
+        "self-hosted",
+        "typescript",
+        "workers-ai"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

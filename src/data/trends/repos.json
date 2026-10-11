@@ -37241,7 +37241,7 @@
         "macos"
       ],
       "category": "AI / ML",
-      "version": null
+      "version": "v0.1.1195"
     },
     "webprodigies-org/flute": {
       "full_name": "webprodigies-org/flute",
@@ -39931,6 +39931,33 @@
         "workers-ai"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "FeiZhuLulu/DeepSeek-Bot": {
+      "full_name": "FeiZhuLulu/DeepSeek-Bot",
+      "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+      "language": "JavaScript",
+      "url": "https://github.com/FeiZhuLulu/DeepSeek-Bot",
+      "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "deepseek-harness",
+        "dsh-plugin",
+        "multi-agent"
+      ],
+      "category": "Other",
+      "version": "v0.1.2"
+    },
+    "wesbos/photo-frame-dashboard": {
+      "full_name": "wesbos/photo-frame-dashboard",
+      "description": "Getting ADB, root, backups and custom apps onto locked-down Android photo frames (Skylight Calendar, BIUFRAME)",
+      "language": "Python",
+      "url": "https://github.com/wesbos/photo-frame-dashboard",
+      "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

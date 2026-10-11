@@ -39182,7 +39182,7 @@
         "webgl"
       ],
       "category": "Other",
-      "version": null
+      "version": "mesh-avatar@0.1.1"
     },
     "Rieranthony/product-film-skill": {
       "full_name": "Rieranthony/product-film-skill",
@@ -39852,6 +39852,28 @@
       "language": "Python",
       "url": "https://github.com/anthropics/oss-scanner",
       "first_seen": "2026-10-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Hinln/ARTEX": {
+      "full_name": "Hinln/ARTEX",
+      "description": "ARTEX 源码备份：基于 Autumn-27/ARTEX v0.3.15，保留原始提交历史与 AGPL-3.0 许可证。",
+      "language": "Go",
+      "url": "https://github.com/Hinln/ARTEX",
+      "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "goodnight000/api-anything": {
+      "full_name": "goodnight000/api-anything",
+      "description": "Turn any website into an API your agent can call. Learns from the site's own frontend, heals itself when the site changes.",
+      "language": "TypeScript",
+      "url": "https://github.com/goodnight000/api-anything",
+      "first_seen": "2026-10-11",
       "has_summary": false,
       "topics": [],
       "category": "Other",

@@ -39869,12 +39869,17 @@
     },
     "wheresryan22/anatomy": {
       "full_name": "wheresryan22/anatomy",
-      "description": "A Claude Code skill that turns a technical idea into a detailed, interactive isometric figure of a real machine. It makes SVG with optional WebGL shaders and 3D, for docs, articles and landing pages.",
+      "description": "An agent skill for creating detailed, interactive isometric illustrations of real-world machines and complex systems. Generates polished SVGs with optional WebGL shaders and 3D effects.",
       "language": "JavaScript",
       "url": "https://github.com/wheresryan22/anatomy",
       "first_seen": "2026-10-11",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "agent-skill",
+        "open-source",
+        "svg",
+        "vizualization"
+      ],
       "category": "Other",
       "version": "v1.0.0"
     },
@@ -39976,6 +39981,66 @@
       "language": "Python",
       "url": "https://github.com/sirioberati/Genjustsu-Open-Source-Workflow",
       "first_seen": "2026-10-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Fei2411/DeepSeek-Bot": {
+      "full_name": "Fei2411/DeepSeek-Bot",
+      "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+      "language": "JavaScript",
+      "url": "https://github.com/Fei2411/DeepSeek-Bot",
+      "first_seen": "2026-10-12",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "deepseek-harness",
+        "dsh-plugin",
+        "multi-agent"
+      ],
+      "category": "Other",
+      "version": "v0.1.2"
+    },
+    "academa-labs/manimgx": {
+      "full_name": "academa-labs/manimgx",
+      "description": "The animation engine for agents: blazingly fast math and 3D videos with Manim's Python API, on a Rust GPU core.",
+      "language": "Python",
+      "url": "https://github.com/academa-labs/manimgx",
+      "first_seen": "2026-10-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "iamlukethedev/Herald-OS": {
+      "full_name": "iamlukethedev/Herald-OS",
+      "description": "An agent-native operating system, with Hermes Agent as the interface. Independent project, not affiliated with Nous Research.",
+      "language": "TypeScript",
+      "url": "https://github.com/iamlukethedev/Herald-OS",
+      "first_seen": "2026-10-12",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "desktop-environment",
+        "fedora",
+        "hermes-agent",
+        "hyprland",
+        "linux",
+        "macos",
+        "niri",
+        "omarchy",
+        "operating-system"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0-alpha.3"
+    },
+    "gatewai-dev/framefields": {
+      "full_name": "gatewai-dev/framefields",
+      "description": "Code-first video, rendered natively on WebGPU.",
+      "language": "TypeScript",
+      "url": "https://github.com/gatewai-dev/framefields",
+      "first_seen": "2026-10-12",
       "has_summary": false,
       "topics": [],
       "category": "Other",

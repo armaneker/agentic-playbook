@@ -38693,7 +38693,7 @@
     },
     "oil-oil/oil-ui": {
       "full_name": "oil-oil/oil-ui",
-      "description": "Push AI UI design to its limits: explore distinct directions, compare them side by side, and refine against real screenshots. 把 AI 的 UI 设计能力推到极限。",
+      "description": "UI design skill for Claude Code, Codex and other AI agents: explore distinct directions, compare them side by side, refine against real screenshots. 给 AI Agent 用的 UI 设计 Skill。",
       "language": "Python",
       "url": "https://github.com/oil-oil/oil-ui",
       "first_seen": "2026-10-04",
@@ -39642,7 +39642,7 @@
     },
     "openqodex/openqodex": {
       "full_name": "openqodex/openqodex",
-      "description": "Open source AI code review for Claude Code and Codex, before you push. Scanners (SAST, secrets, dependencies, lint) on the lines you changed, then a separate reviewer process that checks every scanner finding and is given every changed line. No other API key.",
+      "description": "Open source code review that runs in your coding agent before you push. Scanners plus a separate AI reviewer, on your own login, no key.",
       "language": "TypeScript",
       "url": "https://github.com/openqodex/openqodex",
       "first_seen": "2026-10-09",
@@ -39803,7 +39803,7 @@
         "opendrop"
       ],
       "category": "Other",
-      "version": null
+      "version": "v0.1.0"
     },
     "n1tr00-10/tiktok-web-signature": {
       "full_name": "n1tr00-10/tiktok-web-signature",
@@ -40040,6 +40040,70 @@
       "description": "Code-first video, rendered natively on WebGPU.",
       "language": "TypeScript",
       "url": "https://github.com/gatewai-dev/framefields",
+      "first_seen": "2026-10-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "liseami/CCBaga": {
+      "full_name": "liseami/CCBaga",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/liseami/CCBaga",
+      "first_seen": "2026-10-12",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.31"
+    },
+    "bherbruck/solidcraft": {
+      "full_name": "bherbruck/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "language": "Rust",
+      "url": "https://github.com/bherbruck/solidcraft",
+      "first_seen": "2026-10-12",
+      "has_summary": false,
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ],
+      "category": "Agentic",
+      "version": "v0.3.2"
+    },
+    "darrenprx/lolPing": {
+      "full_name": "darrenprx/lolPing",
+      "description": "League of Legends ping wheel for your Windows desktop. Hold Alt, drag, and ping anywhere, with the original animations and sounds.",
+      "language": "TypeScript",
+      "url": "https://github.com/darrenprx/lolPing",
+      "first_seen": "2026-10-12",
+      "has_summary": false,
+      "topics": [
+        "cpp",
+        "desktop-overlay",
+        "electron",
+        "fluent-ui",
+        "league-of-legends",
+        "ping-wheel",
+        "react",
+        "typescript",
+        "windows"
+      ],
+      "category": "Web Framework",
+      "version": "v0.5.1"
+    },
+    "shaongitbd/doory": {
+      "full_name": "shaongitbd/doory",
+      "description": "Open source canva alternative",
+      "language": "TypeScript",
+      "url": "https://github.com/shaongitbd/doory",
       "first_seen": "2026-10-12",
       "has_summary": false,
       "topics": [],

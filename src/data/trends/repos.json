@@ -5074,7 +5074,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null,
+      "version": "v0.1.3",
       "blurb": "Claw Code is a Rust-based development harness and tooling framework that claims to be a clean-room rewrite of leaked proprietary code. It provides an agent runtime with API client abstraction, tool execution framework, plugin system, and CLI for development workflow automation. The project gained notable attention by reaching 50K GitHub stars within 2 hours of publication."
     },
     "lintsinghua/claude-code-book": {
@@ -39638,7 +39638,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.2.1"
     },
     "openqodex/openqodex": {
       "full_name": "openqodex/openqodex",

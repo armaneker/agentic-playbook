@@ -39383,12 +39383,19 @@
     },
     "nullmoth/nvidia-macos-driver": {
       "full_name": "nullmoth/nvidia-macos-driver",
-      "description": "Metal driver for NVIDIA GeForce RTX cards on macOS 15 Sequoia (Intel / OpenCore). Free, source included.",
+      "description": "Metal driver for NVIDIA GeForce cards on macOS Sequoia",
       "language": "Rust",
       "url": "https://github.com/nullmoth/nvidia-macos-driver",
       "first_seen": "2026-10-08",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "kext",
+        "macos",
+        "metal",
+        "nvidia",
+        "opencore",
+        "vulkan"
+      ],
       "category": "Other",
       "version": "v1.0.12"
     },
@@ -40171,14 +40178,53 @@
       "first_seen": "2026-10-13",
       "has_summary": false,
       "topics": [
+        "agent-skills",
         "ai",
         "aisa",
-        "github-actions",
+        "claude-code",
+        "claude-skills",
+        "google-trends",
         "keyword-research",
+        "mcp",
+        "mcp-server",
         "seo",
         "trends"
       ],
-      "category": "AI / ML",
+      "category": "Agentic",
+      "version": null
+    },
+    "jhaizhou-ops/d2r-mobile": {
+      "full_name": "jhaizhou-ops/d2r-mobile",
+      "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
+      "language": "C",
+      "url": "https://github.com/jhaizhou-ops/d2r-mobile",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [
+        "compatibility-layer",
+        "diablo-2-resurrected",
+        "diablo2",
+        "game-port",
+        "ios",
+        "ipad",
+        "iphone",
+        "mac",
+        "macos",
+        "metal",
+        "reign-of-the-warlock"
+      ],
+      "category": "Mobile",
+      "version": "v1.0.5"
+    },
+    "jwuthri-cloud/Tracely-ai": {
+      "full_name": "jwuthri-cloud/Tracely-ai",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/jwuthri-cloud/Tracely-ai",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

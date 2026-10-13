@@ -39806,8 +39806,9 @@
       "has_summary": false,
       "topics": [
         "airdrop",
+        "awdl",
         "omarchy",
-        "opendrop"
+        "owl"
       ],
       "category": "Other",
       "version": "v0.1.0"
@@ -40135,7 +40136,6 @@
         "ctf",
         "decompiler",
         "developer-tools",
-        "disassembler",
         "dsh",
         "dsh-plugin",
         "ghidra",
@@ -40143,6 +40143,7 @@
         "llm",
         "mcp",
         "model-context-protocol",
+        "rea",
         "reverse-engineering",
         "static-analysis"
       ],
@@ -40224,6 +40225,62 @@
       "first_seen": "2026-10-13",
       "has_summary": false,
       "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "NVIDIA-Omniverse/usd-brep": {
+      "full_name": "NVIDIA-Omniverse/usd-brep",
+      "description": "USD BRep is a standalone C++ and Python library for NURBS-based boundary representation (BRep) solid modeling",
+      "language": "C++",
+      "url": "https://github.com/NVIDIA-Omniverse/usd-brep",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "trhhubsd/ARTEXX": {
+      "full_name": "trhhubsd/ARTEXX",
+      "description": "AI 自主渗透测试系统 | 百度“agent+”攻防挑战赛冠军项目 Autumn-27/ARTEX",
+      "language": "Go",
+      "url": "https://github.com/trhhubsd/ARTEXX",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Arekejoker/qwen21-nsfw-pose-skill": {
+      "full_name": "Arekejoker/qwen21-nsfw-pose-skill",
+      "description": "Qwen-Image 2.1 NSFW/姿势出图 skill：作者级提示词配方 + NSFW LoRA + 136 姿势 VNCCS 人偶控制；适用 Claude Code / Codex / Cursor / OpenClaw",
+      "language": "Python",
+      "url": "https://github.com/Arekejoker/qwen21-nsfw-pose-skill",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "comfyui",
+        "image-generation",
+        "openclaw",
+        "pose-control",
+        "qwen-image"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "YeonwooSung/my-claude-code-mods": {
+      "full_name": "YeonwooSung/my-claude-code-mods",
+      "description": "Custom Claude Code Mods that I need",
+      "language": "TypeScript",
+      "url": "https://github.com/YeonwooSung/my-claude-code-mods",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "claude-code-mod",
+        "claude-code-mods",
+        "claude-code-plugin"
+      ],
       "category": "Other",
       "version": null
     }

@@ -40109,6 +40109,77 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "morluto/rea": {
+      "full_name": "morluto/rea",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "TypeScript",
+      "url": "https://github.com/morluto/rea",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "binary-analysis",
+        "claude-code",
+        "cli",
+        "codex",
+        "cordis",
+        "ctf",
+        "decompiler",
+        "developer-tools",
+        "disassembler",
+        "dsh",
+        "dsh-plugin",
+        "ghidra",
+        "hopper",
+        "llm",
+        "mcp",
+        "model-context-protocol",
+        "reverse-engineering",
+        "static-analysis"
+      ],
+      "category": "Agentic",
+      "version": "rea-agents-6.4.0"
+    },
+    "onehumanbeing/esp32-iphone-agent": {
+      "full_name": "onehumanbeing/esp32-iphone-agent",
+      "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
+      "language": "Python",
+      "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "airplay",
+        "automation",
+        "computer-use",
+        "esp32",
+        "esp32-s3",
+        "iphone",
+        "llm",
+        "usb-hid"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "zhuyansen/new-term-radar": {
+      "full_name": "zhuyansen/new-term-radar",
+      "description": "Daily radar for new AI terms: names of new models, products and repos, caught on X, Hugging Face, GitHub and sitemaps before keyword tools list them.",
+      "language": "Python",
+      "url": "https://github.com/zhuyansen/new-term-radar",
+      "first_seen": "2026-10-13",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "aisa",
+        "github-actions",
+        "keyword-research",
+        "seo",
+        "trends"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

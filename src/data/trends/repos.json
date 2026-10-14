@@ -40426,6 +40426,69 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "Harvil1/codeAgent": {
+      "full_name": "Harvil1/codeAgent",
+      "description": "CodeAgent is an open-source coding agent that lives in your terminal. It understands your repository, plans multi-step changes, writes and edits files, runs commands and tests, and iterates until the task is done — all with a transparent, extensible tool loop.",
+      "language": "Python",
+      "url": "https://github.com/Harvil1/codeAgent",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "ai-agent",
+        "cli",
+        "coding-agent",
+        "context-engineering",
+        "deepseek",
+        "llm",
+        "mcp",
+        "python",
+        "terminal"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "mushigaite/short-video-maker": {
+      "full_name": "mushigaite/short-video-maker",
+      "description": "A free open-source project designed to turn youtube-videos into viral short videos. Highlight detection, subtitles, translation, voiceover, all in one for your content: no pre-clip credits or any watermarks. Designed for creators who want an alternative to short-video SaaS tools like OpusClip or Vidyo.ai for free.",
+      "language": "Python",
+      "url": "https://github.com/mushigaite/short-video-maker",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "ai-video-editing",
+        "ai-video-generation-api",
+        "money-printer",
+        "short-video",
+        "short-video-automation",
+        "short-video-generator",
+        "short-video-maker",
+        "short-video-sdk",
+        "shorts-generator"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "outcrawlai/scout": {
+      "full_name": "outcrawlai/scout",
+      "description": "Scout: the open-source browser agent, by Outcrawl. Mirrored automatically from Outcrawl's own repository.",
+      "language": "TypeScript",
+      "url": "https://github.com/outcrawlai/scout",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "browser-agent",
+        "browser-automation",
+        "cdp",
+        "llm",
+        "typescript",
+        "web-automation"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

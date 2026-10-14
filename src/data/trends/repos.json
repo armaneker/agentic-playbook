@@ -39963,7 +39963,7 @@
     },
     "ARahim3/DigUp": {
       "full_name": "ARahim3/DigUp",
-      "description": "Search your Mac by what's in your files: photos, PDFs, recordings, videos and code. On-device, built on Google DeepMind's EmbeddingGemma 2.",
+      "description": "Search your computer by what's in your files: photos, PDFs, documents, recordings, videos and code. On-device on Mac, Windows and Linux, built on Google DeepMind's EmbeddingGemma 2.",
       "language": "Swift",
       "url": "https://github.com/ARahim3/DigUp",
       "first_seen": "2026-10-11",
@@ -39971,6 +39971,8 @@
       "topics": [
         "embeddinggemma",
         "embeddings",
+        "file-search",
+        "linux",
         "llama-cpp",
         "local-first",
         "macos",
@@ -39978,7 +39980,9 @@
         "multimodal",
         "on-device",
         "semantic-search",
-        "swift"
+        "swift",
+        "tauri",
+        "windows"
       ],
       "category": "Mobile",
       "version": "v0.6.0"
@@ -40169,7 +40173,7 @@
         "usb-hid"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.1.0"
     },
     "zhuyansen/new-term-radar": {
       "full_name": "zhuyansen/new-term-radar",
@@ -40489,6 +40493,23 @@
       ],
       "category": "Agentic",
       "version": null
+    },
+    "opengeos/RustGIS": {
+      "full_name": "opengeos/RustGIS",
+      "description": "A fast, free and open-source GIS in pure Rust.",
+      "language": "Rust",
+      "url": "https://github.com/opengeos/RustGIS",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "geospatial",
+        "gis",
+        "remote-sensing",
+        "rust",
+        "rust-lang"
+      ],
+      "category": "Other",
+      "version": "v0.2.0"
     }
   }
 }

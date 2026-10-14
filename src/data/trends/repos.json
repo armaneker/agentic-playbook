@@ -38745,7 +38745,7 @@
     "ythx-101/live-panel-skill": {
       "full_name": "ythx-101/live-panel-skill",
       "description": "Config-driven animated architecture diagrams: turn one JSON file into a terminal-style, always-running diagram or a light-theme infographic that moves. Outputs H.264 mp4 or a live web page; also a Claude Code style skill (SKILL.md).",
-      "language": "HTML",
+      "language": "Python",
       "url": "https://github.com/ythx-101/live-panel-skill",
       "first_seen": "2026-10-05",
       "has_summary": false,
@@ -40133,7 +40133,6 @@
         "cli",
         "codex",
         "cordis",
-        "ctf",
         "decompiler",
         "developer-tools",
         "dsh",
@@ -40145,7 +40144,8 @@
         "model-context-protocol",
         "rea",
         "reverse-engineering",
-        "static-analysis"
+        "static-analysis",
+        "touhou"
       ],
       "category": "Agentic",
       "version": "rea-agents-6.4.0"
@@ -40377,6 +40377,55 @@
       ],
       "category": "Other",
       "version": "v0.6.5"
+    },
+    "T-Auto/dsh-ops": {
+      "full_name": "T-Auto/dsh-ops",
+      "description": "A toolkit for low-level operations in DSH, designed to reduce token usage and task execution time / DSH 底层操作工具插件，旨在减少 Token 消耗与任务耗时",
+      "language": "JavaScript",
+      "url": "https://github.com/T-Auto/dsh-ops",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "dsh",
+        "dsh-plugin",
+        "dsh-plugins"
+      ],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "CoolkHz/gptibo": {
+      "full_name": "CoolkHz/gptibo",
+      "description": "Self-hosted GPTibo storefront, admin and Go backend — sanitized MIT source",
+      "language": "TypeScript",
+      "url": "https://github.com/CoolkHz/gptibo",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "deeplethe/solid-glass": {
+      "full_name": "deeplethe/solid-glass",
+      "description": "A design system for AI applications. Material, physical, tactile, technical.",
+      "language": "TypeScript",
+      "url": "https://github.com/deeplethe/solid-glass",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "agent-ui",
+        "ai",
+        "ai-agents",
+        "chat-ui",
+        "design-system",
+        "llm",
+        "react",
+        "shadcn",
+        "shadcn-ui",
+        "tailwindcss",
+        "theme"
+      ],
+      "category": "Agentic",
+      "version": null
     }
   }
 }

@@ -40283,6 +40283,100 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "Jakeschincariol/founder-skill": {
+      "full_name": "Jakeschincariol/founder-skill",
+      "description": "Eleven free Claude skills that test a business before you launch it: a board trained on Hormozi, Thiel and Jobs, a marketing director, a CFO, and a consumer panel of 100 buyer agents. Free, MIT.",
+      "language": "Python",
+      "url": "https://github.com/Jakeschincariol/founder-skill",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "business-plan",
+        "claude-code",
+        "claude-skills",
+        "startup",
+        "subagents",
+        "unit-economics"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "SubmitGame/awesome-decomp-games": {
+      "full_name": "SubmitGame/awesome-decomp-games",
+      "description": "Rated, auto-refreshed list of decompiled, recompiled & reverse-engineered games: decomps, static recomps, source ports, engine remakes, browser ports.",
+      "language": "Python",
+      "url": "https://github.com/SubmitGame/awesome-decomp-games",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "awesome",
+        "awesome-list",
+        "decompilation",
+        "game-preservation",
+        "recompilation",
+        "reverse-engineering",
+        "source-port"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "marmottajr/habblaud": {
+      "full_name": "marmottajr/habblaud",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/marmottajr/habblaud",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.11.0"
+    },
+    "Glass-HQ/liquid-glass": {
+      "full_name": "Glass-HQ/liquid-glass",
+      "description": "Liquid Glass materials for web and Electron, built with vgpu.",
+      "language": "TypeScript",
+      "url": "https://github.com/Glass-HQ/liquid-glass",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.0.2"
+    },
+    "TannerMidd/pi-pocket": {
+      "full_name": "TannerMidd/pi-pocket",
+      "description": "A durable, multiplayer, mobile-first web app for Pi agents, built on Pi Durable",
+      "language": "TypeScript",
+      "url": "https://github.com/TannerMidd/pi-pocket",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "coding-agent",
+        "mobile",
+        "multiplayer",
+        "omarchy",
+        "pi",
+        "pi-durable",
+        "pwa",
+        "self-hosted"
+      ],
+      "category": "Agentic",
+      "version": "v0.13.2"
+    },
+    "AnkioTomas/qqpet": {
+      "full_name": "AnkioTomas/qqpet",
+      "description": "QQ宠物单机复刻版(AI)",
+      "language": "TypeScript",
+      "url": "https://github.com/AnkioTomas/qqpet",
+      "first_seen": "2026-10-14",
+      "has_summary": false,
+      "topics": [
+        "qq",
+        "qqpet"
+      ],
+      "category": "Other",
+      "version": "v0.6.5"
     }
   }
 }

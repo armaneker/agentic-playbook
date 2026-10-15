@@ -40653,6 +40653,28 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "ahwootech/BRUTAL": {
+      "full_name": "ahwootech/BRUTAL",
+      "description": "A free, open source C# framework for making games, or your own game engine. Direct access to native APIs and Vulkan, with the low-level libraries around them. The foundation under Kitten Space Agency and RimWorld's Waylith engine.",
+      "language": "C#",
+      "url": "https://github.com/ahwootech/BRUTAL",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "peiikai/LASRecomp": {
+      "full_name": "peiikai/LASRecomp",
+      "description": "Static recompilation of Link's Awakening (Switch) to native macOS, Windows and Linux",
+      "language": "C",
+      "url": "https://github.com/peiikai/LASRecomp",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "beta_4"
     }
   }
 }

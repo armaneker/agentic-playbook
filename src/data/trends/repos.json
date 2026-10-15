@@ -39904,13 +39904,20 @@
     },
     "marclou/mailcheap": {
       "full_name": "marclou/mailcheap",
-      "description": "Self-hosted newsletters on Amazon SES. About $0.10 per 1,000 emails.",
+      "description": "The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai.",
       "language": "JavaScript",
       "url": "https://github.com/marclou/mailcheap",
       "first_seen": "2026-10-11",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai-agents",
+        "email",
+        "mcp",
+        "newsletter",
+        "nextjs",
+        "self-hosted"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "rociiu/talorys": {
@@ -40157,7 +40164,7 @@
     "onehumanbeing/esp32-iphone-agent": {
       "full_name": "onehumanbeing/esp32-iphone-agent",
       "description": "Let an AI model use a real iPhone with a $7 ESP32: AirPlay eyes, USB HID hands, any OpenAI-compatible vision model. No Mac, no developer account, no jailbreak.",
-      "language": "Python",
+      "language": "C",
       "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
       "first_seen": "2026-10-13",
       "has_summary": false,
@@ -40510,6 +40517,102 @@
       ],
       "category": "Other",
       "version": "v0.2.0"
+    },
+    "storytold/figcraft": {
+      "full_name": "storytold/figcraft",
+      "description": "FigCraft: interface design and prototyping; an open-source, clean-room reimplementation of collaborative design workflows in pure Rust",
+      "language": "Rust",
+      "url": "https://github.com/storytold/figcraft",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [
+        "design",
+        "rust",
+        "tools"
+      ],
+      "category": "Other",
+      "version": "v0.6.0"
+    },
+    "snuri00/ps2-web-recomp": {
+      "full_name": "snuri00/ps2-web-recomp",
+      "description": "PS2 games in the browser: static recompilation to WebAssembly with a native runtime",
+      "language": "C++",
+      "url": "https://github.com/snuri00/ps2-web-recomp",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tcchen2026/VibeOffice": {
+      "full_name": "tcchen2026/VibeOffice",
+      "description": "A free office suite that runs in your browser, in the style of Office 2003. Nothing to install, no account, no server: documents are opened, edited and saved on your own computer.",
+      "language": "JavaScript",
+      "url": "https://github.com/tcchen2026/VibeOffice",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2026.10.15-19d988"
+    },
+    "HeyPuter/everything": {
+      "full_name": "HeyPuter/everything",
+      "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
+      "language": "JavaScript",
+      "url": "https://github.com/HeyPuter/everything",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [
+        "adobe",
+        "cad",
+        "office",
+        "photoshop",
+        "saas",
+        "spreadsheet"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "chenwei810/Semiconductor_Manufacturing_Introduction": {
+      "full_name": "chenwei810/Semiconductor_Manufacturing_Introduction",
+      "description": "Introduction to Semiconductor Manufacturing",
+      "language": "Python",
+      "url": "https://github.com/chenwei810/Semiconductor_Manufacturing_Introduction",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [
+        "manufacturing",
+        "semiconductor"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "nullmoth/1401": {
+      "full_name": "nullmoth/1401",
+      "description": "Install macOS on your PC from Windows",
+      "language": "Python",
+      "url": "https://github.com/nullmoth/1401",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [
+        "installer",
+        "macos",
+        "opencore",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v1.15.0"
+    },
+    "hezhanleiok/gate": {
+      "full_name": "hezhanleiok/gate",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/hezhanleiok/gate",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

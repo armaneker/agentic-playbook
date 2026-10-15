@@ -39904,18 +39904,25 @@
     },
     "marclou/mailcheap": {
       "full_name": "marclou/mailcheap",
-      "description": "The affordable newsletter for the agentic era. Open source: self-host it, or use mailcheap.ai.",
+      "description": "Newsletters where you pay for the emails you send, not for dormant subscribers, at a fraction of the price of beehiiv and the like. Open source: self-host it, or use mailcheap.ai.",
       "language": "JavaScript",
       "url": "https://github.com/marclou/mailcheap",
       "first_seen": "2026-10-11",
       "has_summary": false,
       "topics": [
         "ai-agents",
+        "amazon-ses",
+        "beehiiv-alternative",
         "email",
+        "email-marketing",
+        "mailchimp-alternative",
         "mcp",
+        "mcp-server",
+        "mongodb",
         "newsletter",
         "nextjs",
-        "self-hosted"
+        "self-hosted",
+        "substack-alternative"
       ],
       "category": "Agentic",
       "version": null
@@ -40634,6 +40641,17 @@
         "ui-components"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "chenglou/handwired": {
+      "full_name": "chenglou/handwired",
+      "description": "Turn your regular JavaScript code into a neural net.",
+      "language": "TypeScript",
+      "url": "https://github.com/chenglou/handwired",
+      "first_seen": "2026-10-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

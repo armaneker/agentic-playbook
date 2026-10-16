@@ -465,7 +465,7 @@
     "langgenius/dify": {
       "full_name": "langgenius/dify",
       "description": "Build Agentic workflows, RAG pipelines, with rich AI model and tool support on one collaborative workspace. Deploy on cloud, VPC, or self-hosted, so teams move from prototype to production without rebuilding the stack.",
-      "language": "TypeScript",
+      "language": "Python",
       "url": "https://github.com/langgenius/dify",
       "first_seen": "2026-03-22",
       "has_summary": true,
@@ -40675,6 +40675,145 @@
       "topics": [],
       "category": "Other",
       "version": "beta_4"
+    },
+    "h0m3us3r/w1700k-sdr": {
+      "full_name": "h0m3us3r/w1700k-sdr",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/h0m3us3r/w1700k-sdr",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "fyzugx/DEsk": {
+      "full_name": "fyzugx/DEsk",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/fyzugx/DEsk",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "feder-cr/open_scion": {
+      "full_name": "feder-cr/open_scion",
+      "description": "Open-source version of Scion: version control built for coding agents.",
+      "language": "Go",
+      "url": "https://github.com/feder-cr/open_scion",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "coding-agents",
+        "git",
+        "golang",
+        "scion",
+        "version-control"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "Supermedo/uncharted_pc": {
+      "full_name": "Supermedo/uncharted_pc",
+      "description": "Uncharted: The Nathan Drake Collection running natively on Windows - by SuperMedo",
+      "language": "C++",
+      "url": "https://github.com/Supermedo/uncharted_pc",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.3"
+    },
+    "zeusinsight/FinderSearch": {
+      "full_name": "zeusinsight/FinderSearch",
+      "description": "A native macOS file browser with fast fuzzy filename search, powered by fsearch.",
+      "language": "Swift",
+      "url": "https://github.com/zeusinsight/FinderSearch",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [
+        "appkit",
+        "file-manager",
+        "macos",
+        "search",
+        "swift"
+      ],
+      "category": "Mobile",
+      "version": "v0.4.9"
+    },
+    "AjncSystem/ShadowOfTheColossus-PC": {
+      "full_name": "AjncSystem/ShadowOfTheColossus-PC",
+      "description": "Native Windows port of Shadow of the Colossus (PS4, CUSA08809) - bring your own game dump. Port nativo para PC.",
+      "language": "C++",
+      "url": "https://github.com/AjncSystem/ShadowOfTheColossus-PC",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.57"
+    },
+    "nateherkai/roast-room": {
+      "full_name": "nateherkai/roast-room",
+      "description": "Seven AI advisors (Bezos, Paul Graham, Hormozi, Gary Vee, Dan Martell, Gino Wickman, Buffett) debate your business decision in Claude Code, live around a table.",
+      "language": "JavaScript",
+      "url": "https://github.com/nateherkai/roast-room",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "StoopwenpueNq/jackie-fmri-sim": {
+      "full_name": "StoopwenpueNq/jackie-fmri-sim",
+      "description": "jackie-fmri-sim",
+      "language": "Python",
+      "url": "https://github.com/StoopwenpueNq/jackie-fmri-sim",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "hujjun/mcd-saver-strategist": {
+      "full_name": "hujjun/mcd-saver-strategist",
+      "description": "麦当劳省钱点餐助手（麦门精算师）｜麦当劳优惠券组合优化 Skill：拉取麦当劳菜单与全部可用优惠券，算出最省的点餐组合，巨无霸套餐 ¥47 → ¥21.9（省 53%）。McDonalds MCP（麦当劳 MCP）coupon optimizer · McDonalds China MCP Server · Agent Skill for WorkBuddy · 麦当劳程序员创意开发大赛参赛作品",
+      "language": "Python",
+      "url": "https://github.com/hujjun/mcd-saver-strategist",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "ai-agent",
+        "coupon-optimizer",
+        "coupons",
+        "deterministic-optimization",
+        "fast-food",
+        "mcd",
+        "mcdonalds",
+        "mcdonalds-mcp",
+        "mcp",
+        "mcp-server",
+        "money-saving",
+        "python",
+        "workbuddy",
+        "workbuddy-skill"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "NabilRFG12/Reverse-Engineer-anything": {
+      "full_name": "NabilRFG12/Reverse-Engineer-anything",
+      "description": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+      "language": "Unknown",
+      "url": "https://github.com/NabilRFG12/Reverse-Engineer-anything",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

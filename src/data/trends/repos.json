@@ -40814,6 +40814,46 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "feder-cr/git-ai": {
+      "full_name": "feder-cr/git-ai",
+      "description": "Git designed for AI agents.",
+      "language": "Go",
+      "url": "https://github.com/feder-cr/git-ai",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "coding-agents",
+        "git",
+        "golang",
+        "scion",
+        "version-control"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "Zfinix/eleven": {
+      "full_name": "Zfinix/eleven",
+      "description": "Agent-first reverse engineering for macOS, Windows and Linux: any ACP agent reads, renames and patches binaries, Android apps and GPU kernels next to you.",
+      "language": "TypeScript",
+      "url": "https://github.com/Zfinix/eleven",
+      "first_seen": "2026-10-16",
+      "has_summary": false,
+      "topics": [
+        "acp",
+        "ai-agents",
+        "android",
+        "decompiler",
+        "disassembler",
+        "ghidra",
+        "hopper",
+        "macos",
+        "rea",
+        "reverse-engineering"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.9"
     }
   }
 }

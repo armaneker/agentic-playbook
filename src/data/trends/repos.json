@@ -41059,6 +41059,62 @@
       "topics": [],
       "category": "Other",
       "version": "v1.0.2"
+    },
+    "rohit267/net-merge": {
+      "full_name": "rohit267/net-merge",
+      "description": "Use all your network adapters at once on Windows/Linux/Mac: per-connection load balancing over Wi-Fi, Ethernet and phone/USB tethers (TUN + Wintun)",
+      "language": "Go",
+      "url": "https://github.com/rohit267/net-merge",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "bandwidth-aggregation",
+        "downloader",
+        "golang",
+        "linux",
+        "load-balancing",
+        "macos",
+        "networking",
+        "tethering",
+        "tun",
+        "wifi",
+        "windows",
+        "wintun"
+      ],
+      "category": "Infra",
+      "version": "v0.3.0"
+    },
+    "anujasid/blender-ai-mcp-addon": {
+      "full_name": "anujasid/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
+      "language": "Python",
+      "url": "https://github.com/anujasid/blender-ai-mcp-addon",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-extension",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-python",
+        "blender-scripting",
+        "bpy",
+        "chatgpt",
+        "gpt",
+        "llm",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
     }
   }
 }

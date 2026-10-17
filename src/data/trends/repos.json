@@ -40865,6 +40865,117 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "threerocks/sweety-handdraw-video": {
+      "full_name": "threerocks/sweety-handdraw-video",
+      "description": "从主题或文章制作完整手绘讲解视频：按部位描线、逐字书写、VoiceStudio 配音、五项内置制作依赖。",
+      "language": "JavaScript",
+      "url": "https://github.com/threerocks/sweety-handdraw-video",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2.3"
+    },
+    "c22dev/muguet": {
+      "full_name": "c22dev/muguet",
+      "description": "A native Mach-O port for iOS/macOS of GTA V, with multiplayer",
+      "language": "Rust",
+      "url": "https://github.com/c22dev/muguet",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.1"
+    },
+    "overdriveps5/overdrive-releases": {
+      "full_name": "overdriveps5/overdrive-releases",
+      "description": "Overdrive releases for jailbroken PS5",
+      "language": "Unknown",
+      "url": "https://github.com/overdriveps5/overdrive-releases",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.5"
+    },
+    "npwitk/Macintosh-Skeletal-Filled": {
+      "full_name": "npwitk/Macintosh-Skeletal-Filled",
+      "description": "helllllllllloooo font! Turns out it's called Macintosh Skeleton",
+      "language": "Unknown",
+      "url": "https://github.com/npwitk/Macintosh-Skeletal-Filled",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "0xProbabillity/house-control": {
+      "full_name": "0xProbabillity/house-control",
+      "description": "Your home as a live 3D model in the Mac menu bar and on iPhone — lights and ACs via Smart Life, Home Assistant, Philips Hue and Apple Home.",
+      "language": "Swift",
+      "url": "https://github.com/0xProbabillity/house-control",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "home-assistant",
+        "home-automation",
+        "homekit",
+        "ios",
+        "macos",
+        "menu-bar-app",
+        "philips-hue",
+        "smart-home",
+        "swift",
+        "threejs"
+      ],
+      "category": "Mobile",
+      "version": "v1.0.0"
+    },
+    "i12bp8/decomp.wtf": {
+      "full_name": "i12bp8/decomp.wtf",
+      "description": "What The Function: your AI agent decompiles games you own into C that compiles to the exact same bytes. Runs locally.",
+      "language": "Python",
+      "url": "https://github.com/i12bp8/decomp.wtf",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "claude-code",
+        "decomp",
+        "decompilation",
+        "decompiler",
+        "matching-decompilation",
+        "mcp",
+        "n64",
+        "recomp",
+        "recompilation",
+        "recompiler",
+        "retro-gaming",
+        "reverse-engineering"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "openfilm/openfilm": {
+      "full_name": "openfilm/openfilm",
+      "description": "The open source AI video agent: turns any coding agent into a video agent, with an editor to change anything it makes.",
+      "language": "TypeScript",
+      "url": "https://github.com/openfilm/openfilm",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "ai-video",
+        "claude-code",
+        "codex",
+        "coding-agents",
+        "html",
+        "motion-graphics",
+        "video-agent",
+        "video-editor"
+      ],
+      "category": "Other",
+      "version": "v0.1.7"
     }
   }
 }

@@ -41031,6 +41031,34 @@
       ],
       "category": "AI / ML",
       "version": "v0.3.1"
+    },
+    "Leonxlnx/earshot": {
+      "full_name": "Leonxlnx/earshot",
+      "description": "Ears for coding agents: let AI hear, review and make sound. CPU-only, open source.",
+      "language": "Python",
+      "url": "https://github.com/Leonxlnx/earshot",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "audio",
+        "claude-code",
+        "mcp",
+        "sound-design"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.0"
+    },
+    "Tencent-Hunyuan/Hy-Memory": {
+      "full_name": "Tencent-Hunyuan/Hy-Memory",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.2"
     }
   }
 }

@@ -40661,7 +40661,13 @@
       "url": "https://github.com/ahwootech/BRUTAL",
       "first_seen": "2026-10-15",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "csharp",
+        "dotnet",
+        "game-engine",
+        "gamedev",
+        "vulkan"
+      ],
       "category": "Other",
       "version": null
     },
@@ -40976,6 +40982,55 @@
       ],
       "category": "Other",
       "version": "v0.1.7"
+    },
+    "MyLuxy/overdrive": {
+      "full_name": "MyLuxy/overdrive",
+      "description": "Overdrive, a PS5 homebrew game store with 1,800+ games.",
+      "language": "C++",
+      "url": "https://github.com/MyLuxy/overdrive",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "exfat",
+        "game-store",
+        "homebrew",
+        "jailbreak",
+        "ps5",
+        "ps5-homebrew",
+        "reverse-engineering",
+        "shadowmountplus"
+      ],
+      "category": "Other",
+      "version": "v1.0.5"
+    },
+    "yeyuxin777/baoyan-agent-benchmark": {
+      "full_name": "yeyuxin777/baoyan-agent-benchmark",
+      "description": "Sprix AI at 屿智同行 × 保研岛 — an open-source benchmark for AI agents in Baoyan advising and application planning.",
+      "language": "Python",
+      "url": "https://github.com/yeyuxin777/baoyan-agent-benchmark",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "datalab-to/indra": {
+      "full_name": "datalab-to/indra",
+      "description": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
+      "language": "Python",
+      "url": "https://github.com/datalab-to/indra",
+      "first_seen": "2026-10-17",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "cpu",
+        "document-parsing",
+        "ocr",
+        "onnx",
+        "pdf"
+      ],
+      "category": "AI / ML",
+      "version": "v0.3.1"
     }
   }
 }

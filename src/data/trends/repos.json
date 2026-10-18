@@ -41242,6 +41242,23 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "OpenMOSS/MOSS-Image": {
+      "full_name": "OpenMOSS/MOSS-Image",
+      "description": "Official repository for MOSS-Image, a 5B-parameter base DiT model with high-quality text rendering, layout generation, and efficient fine-tuning.",
+      "language": "Python",
+      "url": "https://github.com/OpenMOSS/MOSS-Image",
+      "first_seen": "2026-10-18",
+      "has_summary": false,
+      "topics": [
+        "controllable-generation",
+        "foundation-models",
+        "image-generation",
+        "text-rendering",
+        "text-to-image"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -40210,7 +40210,7 @@
         "trends"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.4.0"
     },
     "jhaizhou-ops/d2r-mobile": {
       "full_name": "jhaizhou-ops/d2r-mobile",
@@ -41192,6 +41192,56 @@
       ],
       "category": "Other",
       "version": "1.6.0"
+    },
+    "LiCinCan/blender-ai-mcp-addon": {
+      "full_name": "LiCinCan/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with OpenAI, ChatGPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon and plugin, copilot for 3D, bpy Python scripting, MCP integration.",
+      "language": "Python",
+      "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+      "first_seen": "2026-10-18",
+      "has_summary": false,
+      "topics": [
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-extension",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-python",
+        "blender-scripting",
+        "bpy",
+        "chatgpt",
+        "gpt",
+        "llm",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol",
+        "opencode",
+        "python"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "Gathin23/tv-vibehack": {
+      "full_name": "Gathin23/tv-vibehack",
+      "description": "Your TV, minus the ads. Debloat any Android TV over ADB and give it a clean, tvOS-inspired launcher. Built in an afternoon with Claude Code.",
+      "language": "Java",
+      "url": "https://github.com/Gathin23/tv-vibehack",
+      "first_seen": "2026-10-18",
+      "has_summary": false,
+      "topics": [
+        "adb",
+        "android-tv",
+        "claude-code",
+        "debloat",
+        "launcher",
+        "xiaomi"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

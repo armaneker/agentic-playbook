@@ -40237,13 +40237,29 @@
     },
     "jwuthri-cloud/Tracely-ai": {
       "full_name": "jwuthri-cloud/Tracely-ai",
-      "description": "",
+      "description": "Trace-native CI/CD for AI agents: grade production traces, cluster failures, freeze them into replayable regression tests, and block PRs that regress. Self-hostable.",
       "language": "Python",
       "url": "https://github.com/jwuthri-cloud/Tracely-ai",
       "first_seen": "2026-10-13",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "agent-evaluation",
+        "ai-agents",
+        "ai-testing",
+        "ci-cd",
+        "clickhouse",
+        "developer-tools",
+        "llm-evaluation",
+        "llm-observability",
+        "llmops",
+        "mcp",
+        "observability",
+        "python",
+        "regression-testing",
+        "self-hosted",
+        "tracing"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "NVIDIA-Omniverse/usd-brep": {
@@ -41115,6 +41131,67 @@
       ],
       "category": "Agentic",
       "version": "v1.0.0"
+    },
+    "xscreensaver-official/xscreensaver": {
+      "full_name": "xscreensaver-official/xscreensaver",
+      "description": "There is no official XScreenSaver GitHub repository.",
+      "language": "Unknown",
+      "url": "https://github.com/xscreensaver-official/xscreensaver",
+      "first_seen": "2026-10-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Noniv/web-ocean": {
+      "full_name": "Noniv/web-ocean",
+      "description": "Real-time WebGPU ocean renderer written from scratch, no engine. FFT waves, whitecaps, sun glitter, physically based sunset sky with clouds, free camera. Built with Claude Code (Opus 5.5). Opens from a single 61 KB HTML file in Chrome.",
+      "language": "HTML",
+      "url": "https://github.com/Noniv/web-ocean",
+      "first_seen": "2026-10-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tangency-labs/solidcraft": {
+      "full_name": "tangency-labs/solidcraft",
+      "description": "SolidCraft: an open-source parametric 3D CAD application built in pure Rust. Desktop, web, and automation through MCP.",
+      "language": "Rust",
+      "url": "https://github.com/tangency-labs/solidcraft",
+      "first_seen": "2026-10-18",
+      "has_summary": false,
+      "topics": [
+        "3d-modeling",
+        "brep",
+        "cad",
+        "egui",
+        "mcp",
+        "parametric-cad",
+        "rust",
+        "step",
+        "wasm"
+      ],
+      "category": "Agentic",
+      "version": "v0.15.0"
+    },
+    "obsidianmd/pele": {
+      "full_name": "obsidianmd/pele",
+      "description": "Renders Mermaid diagrams faster than you'd run from a volcano! 🌋 ",
+      "language": "TypeScript",
+      "url": "https://github.com/obsidianmd/pele",
+      "first_seen": "2026-10-18",
+      "has_summary": false,
+      "topics": [
+        "charts",
+        "diagramming",
+        "diagrams",
+        "mermaid",
+        "mermaid-diagrams",
+        "mermaidjs"
+      ],
+      "category": "Other",
+      "version": "1.6.0"
     }
   }
 }

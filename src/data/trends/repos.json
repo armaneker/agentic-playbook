@@ -41357,22 +41357,22 @@
       "first_seen": "2026-10-19",
       "has_summary": false,
       "topics": [
-        "ad-free",
         "adb",
+        "adblock",
         "android-tv",
         "android-tv-launcher",
+        "apple-tv",
         "bloatware-removal",
         "claude-code",
         "debloat",
+        "fire-tv",
         "google-tv",
-        "hisense",
-        "home-screen",
         "launcher",
-        "nvidia-shield",
-        "open-source",
+        "privacy",
         "smart-tv",
         "sony-bravia",
         "tcl",
+        "vibe-coding",
         "xiaomi"
       ],
       "category": "Other",
@@ -41400,7 +41400,7 @@
     },
     "xiaoyang111222/cn-math-taxonomy": {
       "full_name": "xiaoyang111222/cn-math-taxonomy",
-      "description": "初中数学知识图谱 + 前置诊断：课标对齐、人教版七–九、333 知识点、自适应诊断",
+      "description": "中小学数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级、531 知识点、2271 题、自适应诊断",
       "language": "Python",
       "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
       "first_seen": "2026-10-19",
@@ -41411,13 +41411,15 @@
         "diagnostic",
         "edtech",
         "education",
+        "elementary-school",
         "junior-high-school",
         "k12",
         "knowledge-graph",
         "math",
         "mathematics",
         "middle-school",
-        "open-data"
+        "open-data",
+        "primary-school"
       ],
       "category": "Other",
       "version": null
@@ -41453,6 +41455,48 @@
       ],
       "category": "Other",
       "version": "v1.12.0"
+    },
+    "MaryCache/imozuru": {
+      "full_name": "MaryCache/imozuru",
+      "description": "知らない分野を、原文にたどりつくまで芋づる式に掘る Claude Code のスキル",
+      "language": "Python",
+      "url": "https://github.com/MaryCache/imozuru",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "seedds/nxnative": {
+      "full_name": "seedds/nxnative",
+      "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
+      "language": "C",
+      "url": "https://github.com/seedds/nxnative",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "aboard-io/tinylittleoffice": {
+      "full_name": "aboard-io/tinylittleoffice",
+      "description": "A free office suite where your document is inside the link and easy to share. There's no account and nothing saved unless you choose.",
+      "language": "TypeScript",
+      "url": "https://github.com/aboard-io/tinylittleoffice",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [
+        "cloudflare-workers",
+        "lit",
+        "local-first",
+        "no-backend",
+        "office-suite",
+        "privacy",
+        "pwa",
+        "web-components"
+      ],
+      "category": "Other",
+      "version": "v1.2.40"
     }
   }
 }

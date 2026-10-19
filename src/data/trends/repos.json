@@ -39127,12 +39127,17 @@
     },
     "storytold/designcraft": {
       "full_name": "storytold/designcraft",
-      "description": "",
+      "description": "DesignCraft: An open-source page and layout design editor written by scratch in pure Rust",
       "language": "Rust",
       "url": "https://github.com/storytold/designcraft",
       "first_seen": "2026-10-07",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "art",
+        "layout",
+        "print",
+        "rust"
+      ],
       "category": "Other",
       "version": "v0.2.1"
     },
@@ -39946,7 +39951,7 @@
         "workers-ai"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "create-talorys@0.1.7"
     },
     "FeiZhuLulu/DeepSeek-Bot": {
       "full_name": "FeiZhuLulu/DeepSeek-Bot",
@@ -41259,6 +41264,90 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "ly05010419/MacNativeGames": {
+      "full_name": "ly05010419/MacNativeGames",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/ly05010419/MacNativeGames",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "aicodeking/leanrea": {
+      "full_name": "aicodeking/leanrea",
+      "description": "One 8 KB skill that replaces REA (Reverse Engineer Anything): plain CLI tools, no MCP. Benchmarked: 38% faster, 35% cheaper.",
+      "language": "Python",
+      "url": "https://github.com/aicodeking/leanrea",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "HayatoG/iss_pc": {
+      "full_name": "HayatoG/iss_pc",
+      "description": "Native PC port (Linux/Windows) of inFAMOUS Second Son (PS4, CUSA00223) — in development, playable; runs your own game dump; no game or firmware files included. Motion sensor emulation. | Port nativo para PC de inFAMOUS Second Son (em desenvolvimento) — usa o seu próprio dump.",
+      "language": "C++",
+      "url": "https://github.com/HayatoG/iss_pc",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [
+        "game-preservation",
+        "homebrew",
+        "infamous-second-son",
+        "linux",
+        "native-port",
+        "pc-port",
+        "playstation-4",
+        "ps4",
+        "shadps4",
+        "sucker-punch-productions",
+        "vulkan",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v2026.10.18-27f8bba"
+    },
+    "thesysdev/open-intelligent-ui": {
+      "full_name": "thesysdev/open-intelligent-ui",
+      "description": "An open-source take on ChatGPT's Intelligent UI: answers stream as interactive UI (maps, photos, charts, drawings and working tools). Built with OpenUI.",
+      "language": "TypeScript",
+      "url": "https://github.com/thesysdev/open-intelligent-ui",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai",
+        "ai-agents",
+        "ai-ui",
+        "chat-ui",
+        "chatgpt",
+        "generative-ui",
+        "intelligent-ui",
+        "llm",
+        "nextjs",
+        "open-source",
+        "openui",
+        "react",
+        "streaming-ui",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "gholtzap/lintapple": {
+      "full_name": "gholtzap/lintapple",
+      "description": "It should be impossible for AI to make a bad UI.",
+      "language": "TypeScript",
+      "url": "https://github.com/gholtzap/lintapple",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "DevTools",
+      "version": "v0.1.23"
     }
   }
 }

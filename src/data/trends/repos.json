@@ -40139,7 +40139,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.1.0"
     },
     "morluto/rea": {
       "full_name": "morluto/rea",
@@ -41348,6 +41348,111 @@
       "topics": [],
       "category": "DevTools",
       "version": "v0.1.23"
+    },
+    "Gathin23/cleanyourtv": {
+      "full_name": "Gathin23/cleanyourtv",
+      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "language": "Java",
+      "url": "https://github.com/Gathin23/cleanyourtv",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [
+        "ad-free",
+        "adb",
+        "android-tv",
+        "android-tv-launcher",
+        "bloatware-removal",
+        "claude-code",
+        "debloat",
+        "google-tv",
+        "hisense",
+        "home-screen",
+        "launcher",
+        "nvidia-shield",
+        "open-source",
+        "smart-tv",
+        "sony-bravia",
+        "tcl",
+        "xiaomi"
+      ],
+      "category": "Other",
+      "version": "v2.1.0"
+    },
+    "alchaincyf/huashu-motion": {
+      "full_name": "alchaincyf/huashu-motion",
+      "description": "让你的agent一键直出商业级产品宣传片：会作曲，能指着画面改。Commercial-grade launch films by your coding agent — point at the frame to change it.",
+      "language": "JavaScript",
+      "url": "https://github.com/alchaincyf/huashu-motion",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "animation",
+        "claude-code",
+        "codex",
+        "gsap",
+        "launch-video",
+        "motion-graphics",
+        "skills"
+      ],
+      "category": "Other",
+      "version": "v0.1.0"
+    },
+    "xiaoyang111222/cn-math-taxonomy": {
+      "full_name": "xiaoyang111222/cn-math-taxonomy",
+      "description": "初中数学知识图谱 + 前置诊断：课标对齐、人教版七–九、333 知识点、自适应诊断",
+      "language": "Python",
+      "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [
+        "chinese",
+        "curriculum",
+        "diagnostic",
+        "edtech",
+        "education",
+        "junior-high-school",
+        "k12",
+        "knowledge-graph",
+        "math",
+        "mathematics",
+        "middle-school",
+        "open-data"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "KnifeLemon/Filee": {
+      "full_name": "KnifeLemon/Filee",
+      "description": "Free, open-source file converter. Convert 244+ formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "language": "C#",
+      "url": "https://github.com/KnifeLemon/Filee",
+      "first_seen": "2026-10-19",
+      "has_summary": false,
+      "topics": [
+        "audio-converter",
+        "avalonia",
+        "batch-conversion",
+        "converter",
+        "csharp",
+        "document-converter",
+        "docx-to-pdf",
+        "dotnet",
+        "drag-and-drop",
+        "file-conversion",
+        "file-converter",
+        "heic-converter",
+        "hwp",
+        "hwpx",
+        "image-converter",
+        "linux",
+        "macos",
+        "pdf-converter",
+        "video-converter",
+        "windows"
+      ],
+      "category": "Other",
+      "version": "v1.12.0"
     }
   }
 }

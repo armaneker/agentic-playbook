@@ -41648,6 +41648,21 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "JoasASantos/REA-Prompts": {
+      "full_name": "JoasASantos/REA-Prompts",
+      "description": "Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+      "language": "Unknown",
+      "url": "https://github.com/JoasASantos/REA-Prompts",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [
+        "prompt-engineering",
+        "rea",
+        "reverse-enginnering"
+      ],
+      "category": "AI / ML",
+      "version": null
     }
   }
 }

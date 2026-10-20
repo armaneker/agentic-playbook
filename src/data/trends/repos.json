@@ -41497,6 +41497,59 @@
       ],
       "category": "Other",
       "version": "v1.2.40"
+    },
+    "humblemuzzu/dumbtv": {
+      "full_name": "humblemuzzu/dumbtv",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/humblemuzzu/dumbtv",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "launcher-v1.1"
+    },
+    "solana-classic/solana-classic": {
+      "full_name": "solana-classic/solana-classic",
+      "description": "Bring back the fun. Open-source SVM blockchain development focused on art, NFTs, memes and their communities. Experimental testnet live.",
+      "language": "Rust",
+      "url": "https://github.com/solana-classic/solana-classic",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [
+        "agave",
+        "blockchain",
+        "memecoins",
+        "nft",
+        "open-source",
+        "solana",
+        "svm",
+        "testnet"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "cranebeaker/coop-anything": {
+      "full_name": "cranebeaker/coop-anything",
+      "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
+      "language": "C",
+      "url": "https://github.com/cranebeaker/coop-anything",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "pro-vi/cc-stretch": {
+      "full_name": "pro-vi/cc-stretch",
+      "description": "Stretchtext replies for Claude Code: short by default, each phrase grows in place when you click it",
+      "language": "TypeScript",
+      "url": "https://github.com/pro-vi/cc-stretch",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.5.1"
     }
   }
 }

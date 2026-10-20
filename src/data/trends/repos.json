@@ -41400,7 +41400,7 @@
     },
     "xiaoyang111222/cn-math-taxonomy": {
       "full_name": "xiaoyang111222/cn-math-taxonomy",
-      "description": "中小学数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级、531 知识点、2271 题、自适应诊断",
+      "description": "中小学+高中数学知识图谱 + 前置诊断：课标对齐、人教版一–九年级与高中必修、674 知识点、2843 题、自适应诊断",
       "language": "Python",
       "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
       "first_seen": "2026-10-19",
@@ -41412,6 +41412,7 @@
         "edtech",
         "education",
         "elementary-school",
+        "high-school",
         "junior-high-school",
         "k12",
         "knowledge-graph",
@@ -41550,6 +41551,59 @@
       "topics": [],
       "category": "Other",
       "version": "v0.5.1"
+    },
+    "deepseek-ai/DeepInfer": {
+      "full_name": "deepseek-ai/DeepInfer",
+      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
+      "language": "Python",
+      "url": "https://github.com/deepseek-ai/DeepInfer",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "simbasjungles/free-my-tv": {
+      "full_name": "simbasjungles/free-my-tv",
+      "description": "A fast, ad-free home screen for Google TV. Open source, built with Claude Code. One button to undo.",
+      "language": "Java",
+      "url": "https://github.com/simbasjungles/free-my-tv",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [
+        "android-tv",
+        "claude-code",
+        "google-tv",
+        "home-screen",
+        "launcher",
+        "no-ads",
+        "open-source",
+        "tmdb"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Ansub/tv-detox": {
+      "full_name": "Ansub/tv-detox",
+      "description": "Make an old Android TV fast again with Claude Code or Codex: a tiny ad-free home screen plus the prompt to clean it up",
+      "language": "Java",
+      "url": "https://github.com/Ansub/tv-detox",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.4.0"
+    },
+    "domsvoboda/xodus-nexus": {
+      "full_name": "domsvoboda/xodus-nexus",
+      "description": "Open-source Xbox-inspired desktop launcher for Xodus on Linux",
+      "language": "TypeScript",
+      "url": "https://github.com/domsvoboda/xodus-nexus",
+      "first_seen": "2026-10-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.8"
     }
   }
 }

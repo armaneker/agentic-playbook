@@ -41400,7 +41400,7 @@
     },
     "xiaoyang111222/cn-math-taxonomy": {
       "full_name": "xiaoyang111222/cn-math-taxonomy",
-      "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 小学英语，课标对齐、人教版，999 知识点、4143 题、自适应诊断",
+      "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中），课标对齐、人教版，1244 知识点、5123 题、自适应诊断",
       "language": "Python",
       "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
       "first_seen": "2026-10-19",
@@ -41534,7 +41534,7 @@
     "cranebeaker/coop-anything": {
       "full_name": "cranebeaker/coop-anything",
       "description": "Co-op Anything: point your AI agent at any single-player game and play it with friends (online and/or splitscreen!). MCP server and playbook to let you reverse engineer, fix, test, ship and share what it learns.",
-      "language": "C",
+      "language": "Python",
       "url": "https://github.com/cranebeaker/coop-anything",
       "first_seen": "2026-10-20",
       "has_summary": false,
@@ -41651,7 +41651,7 @@
     },
     "JoasASantos/REA-Prompts": {
       "full_name": "JoasASantos/REA-Prompts",
-      "description": "Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
+      "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
       "language": "Unknown",
       "url": "https://github.com/JoasASantos/REA-Prompts",
       "first_seen": "2026-10-20",
@@ -41662,6 +41662,89 @@
         "reverse-enginnering"
       ],
       "category": "AI / ML",
+      "version": null
+    },
+    "pengchujin/aerial-tv": {
+      "full_name": "pengchujin/aerial-tv",
+      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
+      "language": "Kotlin",
+      "url": "https://github.com/pengchujin/aerial-tv",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.14"
+    },
+    "reason-machines/reason-network": {
+      "full_name": "reason-machines/reason-network",
+      "description": "Reason Network: your team's coding agents, talking to each other. The engine behind `reason network`.",
+      "language": "Rust",
+      "url": "https://github.com/reason-machines/reason-network",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [
+        "coding-agents",
+        "iroh",
+        "mcp",
+        "peer-to-peer",
+        "reason"
+      ],
+      "category": "Agentic",
+      "version": "v0.12.1"
+    },
+    "dipa-studio/ios-sweet": {
+      "full_name": "dipa-studio/ios-sweet",
+      "description": "iOS 16 userland + XNU on Redmi Note 10 Pro (sweet, SM7150)",
+      "language": "Python",
+      "url": "https://github.com/dipa-studio/ios-sweet",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mistralai/timestral": {
+      "full_name": "mistralai/timestral",
+      "description": "Repository for Timestral, the time-series foundation model by Mistral AI",
+      "language": "Python",
+      "url": "https://github.com/mistralai/timestral",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zcbacxc/mcd-party-planner": {
+      "full_name": "zcbacxc/mcd-party-planner",
+      "description": "麦当劳 MCP 聚会/团餐组织助手 — 基于 Model Context Protocol 的派对预订与团餐规划 CLI/Skill",
+      "language": "Python",
+      "url": "https://github.com/zcbacxc/mcd-party-planner",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.1"
+    },
+    "YOURSJEYO/claude-switcher": {
+      "full_name": "YOURSJEYO/claude-switcher",
+      "description": "Fail-Closed 账号环境管理器:11项环境指纹审计(Block-on-Fail)、手写STUN协议栈的WebRTC泄漏探针、Kill-Switch断网急停、多账号快照隔离、配置漂移自愈 —— 让真实IP在物理上无法泄漏",
+      "language": "Shell",
+      "url": "https://github.com/YOURSJEYO/claude-switcher",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "stackedlol/ascii-sharks": {
+      "full_name": "stackedlol/ascii-sharks",
+      "description": "ascii shark components in typescript",
+      "language": "TypeScript",
+      "url": "https://github.com/stackedlol/ascii-sharks",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

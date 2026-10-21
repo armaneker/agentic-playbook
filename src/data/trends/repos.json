@@ -38719,6 +38719,8 @@
       "first_seen": "2026-10-05",
       "has_summary": false,
       "topics": [
+        "ai-blocker",
+        "anti-ai",
         "apple-intelligence",
         "cli",
         "debloat",
@@ -41752,6 +41754,28 @@
       "description": "Todas as leis do Brasil",
       "language": "Unknown",
       "url": "https://github.com/ctresb/leis",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ikow/php2shell-poc": {
+      "full_name": "ikow/php2shell-poc",
+      "description": "CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis",
+      "language": "Python",
+      "url": "https://github.com/ikow/php2shell-poc",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "daimon-robotics/TacClaw-Infinity": {
+      "full_name": "daimon-robotics/TacClaw-Infinity",
+      "description": "TacClaw-Infinity: research code and dataset resources for a large-scale Vision-Tactile-Language-Action dataset.",
+      "language": "Python",
+      "url": "https://github.com/daimon-robotics/TacClaw-Infinity",
       "first_seen": "2026-10-21",
       "has_summary": false,
       "topics": [],

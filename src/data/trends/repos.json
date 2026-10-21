@@ -41037,7 +41037,7 @@
     },
     "datalab-to/indra": {
       "full_name": "datalab-to/indra",
-      "description": "Fast CPU OCR: line detection, CTC recognition, reading order, markdown",
+      "description": "1M param OCR model - runs on CPU, 15x faster than tesseract, close to 1B+ param models in accuracy",
       "language": "Python",
       "url": "https://github.com/datalab-to/indra",
       "first_seen": "2026-10-17",
@@ -41741,6 +41741,17 @@
       "description": "ascii shark components in typescript",
       "language": "TypeScript",
       "url": "https://github.com/stackedlol/ascii-sharks",
+      "first_seen": "2026-10-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ctresb/leis": {
+      "full_name": "ctresb/leis",
+      "description": "Todas as leis do Brasil",
+      "language": "Unknown",
+      "url": "https://github.com/ctresb/leis",
       "first_seen": "2026-10-21",
       "has_summary": false,
       "topics": [],

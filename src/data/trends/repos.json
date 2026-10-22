@@ -37788,7 +37788,7 @@
     },
     "lemomo-ai/lemo-opuscar": {
       "full_name": "lemomo-ai/lemo-opuscar",
-      "description": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
+      "description": "A toolbox of film styles made in code for Claude Code: 59 ready to use, and your own. Each style is a style prompt plus a demo film made entirely in code by Claude Opus 5.5, with no video model. By Lemomo. · 一套用代码做片的风格工具箱：59 种现成风格，也能做出你自己的",
       "language": "JavaScript",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
       "first_seen": "2026-09-29",
@@ -41402,7 +41402,7 @@
     },
     "xiaoyang111222/cn-math-taxonomy": {
       "full_name": "xiaoyang111222/cn-math-taxonomy",
-      "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1503 知识点、6159 题、自适应诊断",
+      "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1552 知识点、6355 题、自适应诊断",
       "language": "Python",
       "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
       "first_seen": "2026-10-19",
@@ -41762,12 +41762,27 @@
     },
     "ikow/php2shell-poc": {
       "full_name": "ikow/php2shell-poc",
-      "description": "CVE-2026-109618/109619 PHP session.upload_progress Exploit Research — POC & Analysis",
+      "description": "CVE-2026-109618/109619 — 5 RCE chains + detection rules (Suricata, Sigma, ModSecurity). PHP session.upload_progress pre-auth exploit research.",
       "language": "Python",
       "url": "https://github.com/ikow/php2shell-poc",
       "first_seen": "2026-10-21",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "cve-2026-109618",
+        "cve-2026-109619",
+        "detection-rules",
+        "exploit",
+        "php-exploit",
+        "php-security",
+        "php2shell",
+        "poc",
+        "rce",
+        "session-upload-progress",
+        "suricata-rules",
+        "vulnerability-research",
+        "waf-rules",
+        "wordpress-security"
+      ],
       "category": "Other",
       "version": null
     },
@@ -41892,6 +41907,62 @@
       ],
       "category": "Agentic",
       "version": "v0.7.1"
+    },
+    "tek-sys-hub/Rubix-lang": {
+      "full_name": "tek-sys-hub/Rubix-lang",
+      "description": "The 100% Pure x86-64 Assembly Systems Language",
+      "language": "Assembly",
+      "url": "https://github.com/tek-sys-hub/Rubix-lang",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [
+        "assembler",
+        "assembly",
+        "assembly-lang",
+        "assembly-language",
+        "assembly-language-programming",
+        "assembly-x86-64",
+        "native-compiler",
+        "programming",
+        "programming-language",
+        "programming-languages",
+        "self-hosted"
+      ],
+      "category": "Language",
+      "version": null
+    },
+    "9bie/php2shell-bypass-aslr-exp": {
+      "full_name": "9bie/php2shell-bypass-aslr-exp",
+      "description": "A php2shell exploit that requires no modifications to the official version, and does not require display_errors or limit_memory.",
+      "language": "Python",
+      "url": "https://github.com/9bie/php2shell-bypass-aslr-exp",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "open-wxa/wxa-runner": {
+      "full_name": "open-wxa/wxa-runner",
+      "description": "在浏览器中用微信官方基础库运行小程序，支持 Chrome DevTools 调试与 Playwright E2E 测试",
+      "language": "TypeScript",
+      "url": "https://github.com/open-wxa/wxa-runner",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [
+        "e2e-testing",
+        "mini-program",
+        "miniprogram",
+        "playwright",
+        "simulator",
+        "taro",
+        "uni-app",
+        "weapp",
+        "wechat",
+        "wechat-miniprogram"
+      ],
+      "category": "Other",
+      "version": "v0.7.0"
     }
   }
 }

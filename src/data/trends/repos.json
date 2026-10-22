@@ -41402,7 +41402,7 @@
     },
     "xiaoyang111222/cn-math-taxonomy": {
       "full_name": "xiaoyang111222/cn-math-taxonomy",
-      "description": "中小学知识图谱 + 前置诊断：数学（一–九年级、高中必修与选择性必修）+ 英语（小学、初中、高中），课标对齐、人教版，1552 知识点、6355 题、自适应诊断",
+      "description": "数学（小学到高中）、英语（三年级到高中）、初中物理的知识图谱：1644 个知识点、2403 条先修边、6723 道题，对齐课标，附自适应前置诊断。",
       "language": "Python",
       "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
       "first_seen": "2026-10-19",
@@ -41504,12 +41504,25 @@
     },
     "humblemuzzu/dumbtv": {
       "full_name": "humblemuzzu/dumbtv",
-      "description": "",
-      "language": "JavaScript",
+      "description": "Take the ads, tracking and clutter out of your Fire TV over ADB, no root. Every step can be undone. Comes with its own open-source home screen.",
+      "language": "Java",
       "url": "https://github.com/humblemuzzu/dumbtv",
       "first_seen": "2026-10-20",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "ad-blocking",
+        "adb",
+        "android-tv",
+        "debloat",
+        "dns-filter",
+        "fire-os",
+        "fire-tv",
+        "firetv",
+        "launcher",
+        "privacy",
+        "smart-tv",
+        "telemetry"
+      ],
       "category": "Other",
       "version": "launcher-v1.1"
     },
@@ -41875,7 +41888,7 @@
     },
     "zgsfsec/Full-Chain-Sentinel-System": {
       "full_name": "zgsfsec/Full-Chain-Sentinel-System",
-      "description": "【全链哨兵】全流程渗透测试 Agent 系统，支持 Web、小程序、APP。安全服务渗透测试辅助工具，禁止用于非法攻击。",
+      "description": "【全链哨兵】全流程渗透测试 Agent 系统，支持 Web、小程序、安卓 APP、IOS app(测试中)。安全服务渗透测试辅助工具，禁止用于非法攻击。",
       "language": "TypeScript",
       "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
       "first_seen": "2026-10-22",
@@ -41963,6 +41976,48 @@
       ],
       "category": "Other",
       "version": "v0.7.0"
+    },
+    "CyC2018/CS-Notes": {
+      "full_name": "CyC2018/CS-Notes",
+      "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
+      "language": "Unknown",
+      "url": "https://github.com/CyC2018/CS-Notes",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [
+        "algorithm",
+        "computer-science",
+        "cpp",
+        "interview",
+        "java",
+        "leetcode",
+        "python",
+        "system-design"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "openai/php2shell-checker": {
+      "full_name": "openai/php2shell-checker",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/openai/php2shell-checker",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "chuiziyao/maimen-certification": {
+      "full_name": "chuiziyao/maimen-certification",
+      "description": "🍔 麦门认证机 — 上传任意图片，AI 鉴定麦门身份：认证梗图卡 + 真实营养数据套餐推荐 + 一键领券。2026 麦当劳程序员创意开发大赛参赛作品",
+      "language": "Python",
+      "url": "https://github.com/chuiziyao/maimen-certification",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

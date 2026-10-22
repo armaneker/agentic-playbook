@@ -37788,7 +37788,7 @@
     },
     "lemomo-ai/lemo-opuscar": {
       "full_name": "lemomo-ai/lemo-opuscar",
-      "description": "Claude Code skill for short films with no video model: 43 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98). By Lemomo. | Opus5.5 x 43 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南",
+      "description": "Claude Code skill for short films with no video model: 51 film styles, each a style prompt plus a demo film made entirely in code by Claude Opus 5.5 (incl. OPUSCAR 98 and the new Evidence Films). By Lemomo. · Opus5.5 x 51 种影片风格：风格提示词 + 纯代码样片 + 导演与技术指南（新增「实证影像」）",
       "language": "JavaScript",
       "url": "https://github.com/lemomo-ai/lemo-opuscar",
       "first_seen": "2026-09-29",
@@ -41781,6 +41781,117 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "eagle-hq/EAGLE-4": {
+      "full_name": "eagle-hq/EAGLE-4",
+      "description": "Official Inference Code of EAGLE-4",
+      "language": "Python",
+      "url": "https://github.com/eagle-hq/EAGLE-4",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [
+        "eagle",
+        "gpu",
+        "llm-inference",
+        "sglang",
+        "speculative-decoding",
+        "tokenspeed",
+        "vllm"
+      ],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "ELY-Open-Source/ElyOffice": {
+      "full_name": "ELY-Open-Source/ElyOffice",
+      "description": "Ely Office: offline-first desktop apps in Rust and GPUI",
+      "language": "Rust",
+      "url": "https://github.com/ELY-Open-Source/ElyOffice",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.10"
+    },
+    "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC": {
+      "full_name": "eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+      "description": "Proof-of-Concept (PoC) exploit for php2shell (CVE-2026-109618 / CVE-2026-109619), demonstrating remote code execution in vulnerable PHP environments. For security research and educational purposes only.",
+      "language": "Shell",
+      "url": "https://github.com/eness/php2shell-CVE-2026-109618-CVE-2026-109619-PoC",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "fayazara/robot-heads": {
+      "full_name": "fayazara/robot-heads",
+      "description": "Animated 3D robot heads for React: TV-headed bots with LED faces that show what your agent is doing.",
+      "language": "TypeScript",
+      "url": "https://github.com/fayazara/robot-heads",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "animation",
+        "avatar",
+        "canvas",
+        "react",
+        "robot"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "antfu/furifont": {
+      "full_name": "antfu/furifont",
+      "description": "A Japanese font that shows furigana by itself.",
+      "language": "TypeScript",
+      "url": "https://github.com/antfu/furifont",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [
+        "devframe",
+        "font",
+        "furigana",
+        "japanese-learning",
+        "ligatures-font"
+      ],
+      "category": "Other",
+      "version": "v0.6.2"
+    },
+    "zgsfsec/Full-Chain-Sentinel-System": {
+      "full_name": "zgsfsec/Full-Chain-Sentinel-System",
+      "description": "【全链哨兵】全流程渗透测试 Agent 系统，支持 Web、小程序、APP。安全服务渗透测试辅助工具，禁止用于非法攻击。",
+      "language": "TypeScript",
+      "url": "https://github.com/zgsfsec/Full-Chain-Sentinel-System",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.1.6"
+    },
+    "sitor-ai/frametell": {
+      "full_name": "sitor-ai/frametell",
+      "description": "Frametell: turn your ideas and material into vivid explainer videos with an AI director agent. Local-first, any model.",
+      "language": "TypeScript",
+      "url": "https://github.com/sitor-ai/frametell",
+      "first_seen": "2026-10-22",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "ai-video",
+        "edtech",
+        "education",
+        "electron",
+        "explainer-video",
+        "llm",
+        "local-first",
+        "storyboard",
+        "text-to-video",
+        "tts",
+        "video-generation"
+      ],
+      "category": "Agentic",
+      "version": "v0.7.1"
     }
   }
 }

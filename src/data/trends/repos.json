@@ -38724,6 +38724,7 @@
         "apple-intelligence",
         "cli",
         "debloat",
+        "hacktoberfest",
         "macos",
         "macos-27",
         "privacy",
@@ -42163,6 +42164,47 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
+      "version": null
+    },
+    "xevrion/hatchzip": {
+      "full_name": "xevrion/hatchzip",
+      "description": "Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives.",
+      "language": "Rust",
+      "url": "https://github.com/xevrion/hatchzip",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [
+        "7z",
+        "archive",
+        "cli",
+        "crash-safe",
+        "disk-space",
+        "extract",
+        "extractor",
+        "gui",
+        "rust",
+        "tar",
+        "unzip",
+        "zip"
+      ],
+      "category": "DevTools",
+      "version": "v0.1.2"
+    },
+    "Jakeschincariol/day-trader-skill": {
+      "full_name": "Jakeschincariol/day-trader-skill",
+      "description": "11 Claude skills for day trading: scan thousands of charts, track breaking news, time every entry and exit, and replay every outcome before you risk a dollar.",
+      "language": "Python",
+      "url": "https://github.com/Jakeschincariol/day-trader-skill",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [
+        "backtesting",
+        "claude",
+        "claude-skills",
+        "day-trading",
+        "stock-market"
+      ],
+      "category": "AI / ML",
       "version": null
     }
   }

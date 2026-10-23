@@ -42018,6 +42018,102 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "UniXNU/UniXNU": {
+      "full_name": "UniXNU/UniXNU",
+      "description": "Run iOS and macOS on non-Apple ARM64 hardware through UEFI.",
+      "language": "Python",
+      "url": "https://github.com/UniXNU/UniXNU",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [
+        "unixnu"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "colinhacks/reylo": {
+      "full_name": "colinhacks/reylo",
+      "description": "Import .sql files into TypeScript with full type inference and zero codegen.",
+      "language": "Rust",
+      "url": "https://github.com/colinhacks/reylo",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "NVIDIA/flare-local-inference": {
+      "full_name": "NVIDIA/flare-local-inference",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/NVIDIA/flare-local-inference",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Hugo-Dz/spritefusion-sprite-normals": {
+      "full_name": "Hugo-Dz/spritefusion-sprite-normals",
+      "description": "A tool to generate normal maps from any sprite and animated sprite sheet.",
+      "language": "Rust",
+      "url": "https://github.com/Hugo-Dz/spritefusion-sprite-normals",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [
+        "gamedev",
+        "normal-map",
+        "normal-mapping",
+        "pixel-art",
+        "sprites"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Revivedx/SavageWindRecomp": {
+      "full_name": "Revivedx/SavageWindRecomp",
+      "description": "Work-in-progress static recompilation of The Legend of Zelda: Breath of the Wild (Switch, v1.8.2) for Windows and Linux. Bring your own dump: no game files, keys or dumping tools included.",
+      "language": "C",
+      "url": "https://github.com/Revivedx/SavageWindRecomp",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "c22dev/mush8": {
+      "full_name": "c22dev/mush8",
+      "description": "A native Mach-O iOS/macOS port of Mario Kart 8 Deluxe, with LAN, online and wireless multiplayer",
+      "language": "Rust",
+      "url": "https://github.com/c22dev/mush8",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "vercel-labs/fx0": {
+      "full_name": "vercel-labs/fx0",
+      "description": "A lightweight design agent built with libfx. Describe a page and an agent writes it as one HTML file.",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/fx0",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "crsolver/claude-pxl": {
+      "full_name": "crsolver/claude-pxl",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/crsolver/claude-pxl",
+      "first_seen": "2026-10-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -42337,6 +42337,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.3.4"
+    },
+    "assetnote/php2shell-scanner": {
+      "full_name": "assetnote/php2shell-scanner",
+      "description": "High fidelity scanner for php2shell (CVE-2026-109618 and CVE-2026-109619)",
+      "language": "Python",
+      "url": "https://github.com/assetnote/php2shell-scanner",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

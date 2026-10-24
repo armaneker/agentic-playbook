@@ -42275,7 +42275,7 @@
     },
     "finereli/whatsapp-mcp": {
       "full_name": "finereli/whatsapp-mcp",
-      "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
+      "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Use it free at whatsapp.finereli.com, or run your own copy on Cloudflare.",
       "language": "TypeScript",
       "url": "https://github.com/finereli/whatsapp-mcp",
       "first_seen": "2026-10-24",

@@ -42206,6 +42206,115 @@
       ],
       "category": "AI / ML",
       "version": null
+    },
+    "Snapintosh/Snapintosh": {
+      "full_name": "Snapintosh/Snapintosh",
+      "description": "EL2 hypervisor and toolchain that boots macOS on the ASUS A16 (Snapdragon X2 Elite), with an Adreno Metal/IOGPU stack",
+      "language": "Python",
+      "url": "https://github.com/Snapintosh/Snapintosh",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "aicodeking/pandacode": {
+      "full_name": "aicodeking/pandacode",
+      "description": "PandaCode: a calm desktop workspace for coding agents",
+      "language": "Rust",
+      "url": "https://github.com/aicodeking/pandacode",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.35"
+    },
+    "dominikmartn/harp": {
+      "full_name": "dominikmartn/harp",
+      "description": "Run many Claude Code and Codex agents side by side, in one sidebar that tells you which one needs you. An unofficial fork of Warp.",
+      "language": "Rust",
+      "url": "https://github.com/dominikmartn/harp",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.3"
+    },
+    "Ayzzz123/mcd-coupon-strategist": {
+      "full_name": "Ayzzz123/mcd-coupon-strategist",
+      "description": "麦麦省钱助手 —— 基于麦当劳 MCP 的点餐成本优化 Skill。算出当前门店最省钱的点餐方案，并主动提示凑单陷阱。",
+      "language": "Python",
+      "url": "https://github.com/Ayzzz123/mcd-coupon-strategist",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [
+        "agent",
+        "cost-optimization",
+        "coupon",
+        "llm",
+        "mcd-mcp",
+        "mcdonalds",
+        "mcp",
+        "python",
+        "skill",
+        "workbuddy"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "yeqv111/mccarbon": {
+      "full_name": "yeqv111/mccarbon",
+      "description": "麦麦碳账本 · 基于麦当劳 MCP 的个人餐饮碳足迹估算与减排模拟器 | Personal dining carbon footprint estimator powered by McDonald's MCP",
+      "language": "Python",
+      "url": "https://github.com/yeqv111/mccarbon",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "finereli/whatsapp-mcp": {
+      "full_name": "finereli/whatsapp-mcp",
+      "description": "A read-only MCP server that lets your AI agent search and read your own WhatsApp messages. Runs on Cloudflare Workers.",
+      "language": "TypeScript",
+      "url": "https://github.com/finereli/whatsapp-mcp",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "SouravBeraAkaSpeed/xiryn": {
+      "full_name": "SouravBeraAkaSpeed/xiryn",
+      "description": "Xiryn — the open-source personal agent. Does everything Muse, Grok Bot and Dots do, on your own computer: each agent gets its own Linux desktop in Docker, any model with your keys, an encrypted vault, and control from Telegram.",
+      "language": "TypeScript",
+      "url": "https://github.com/SouravBeraAkaSpeed/xiryn",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "ai-sdk",
+        "anthropic",
+        "byok",
+        "computer-use",
+        "docker",
+        "firecrawl",
+        "llm",
+        "local-first",
+        "multi-agent",
+        "nextjs",
+        "ollama",
+        "open-source",
+        "openai",
+        "personal-agent",
+        "privacy",
+        "self-hosted",
+        "sqlite",
+        "telegram-bot",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.5.1"
     }
   }
 }

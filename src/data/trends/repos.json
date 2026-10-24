@@ -42315,6 +42315,28 @@
       ],
       "category": "Agentic",
       "version": "v0.5.1"
+    },
+    "Zagitta/gpu-unlock": {
+      "full_name": "Zagitta/gpu-unlock",
+      "description": "Unlock FP/BF16 instruction issue rate on Nvidia 3000's cards to their professional equivalents",
+      "language": "C",
+      "url": "https://github.com/Zagitta/gpu-unlock",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "amosblomqvist/learnharness": {
+      "full_name": "amosblomqvist/learnharness",
+      "description": "Agent harness for learning difficult things.",
+      "language": "TypeScript",
+      "url": "https://github.com/amosblomqvist/learnharness",
+      "first_seen": "2026-10-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.4"
     }
   }
 }

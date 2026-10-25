@@ -20594,7 +20594,7 @@
     },
     "Comfy-Org/ComfyUI": {
       "full_name": "Comfy-Org/ComfyUI",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface. The fastest local inference engine in the world.",
       "language": "Python",
       "url": "https://github.com/Comfy-Org/ComfyUI",
       "first_seen": "2026-06-21",
@@ -42348,6 +42348,66 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "JustAResearcher/gpu-unlock-ada": {
+      "full_name": "JustAResearcher/gpu-unlock-ada",
+      "description": "GPU tensor unlock source for RTX 4090 and experimental RTX 4070 Ti SUPER; firmware generated locally",
+      "language": "C",
+      "url": "https://github.com/JustAResearcher/gpu-unlock-ada",
+      "first_seen": "2026-10-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.1"
+    },
+    "HazyResearch/ncm": {
+      "full_name": "HazyResearch/ncm",
+      "description": "NCM: Next Concept Modeling ",
+      "language": "Python",
+      "url": "https://github.com/HazyResearch/ncm",
+      "first_seen": "2026-10-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tonyzedginidze/librecalculator": {
+      "full_name": "tonyzedginidze/librecalculator",
+      "description": "The universe in numbers. Free, open-source calculators for everything countable.",
+      "language": "TypeScript",
+      "url": "https://github.com/tonyzedginidze/librecalculator",
+      "first_seen": "2026-10-25",
+      "has_summary": false,
+      "topics": [
+        "astro",
+        "bun",
+        "calculator",
+        "calculators",
+        "education",
+        "finance-calculator",
+        "learning",
+        "math",
+        "no-ads",
+        "open-source",
+        "privacy",
+        "react",
+        "tauri",
+        "typescript",
+        "unit-converter"
+      ],
+      "category": "Web Framework",
+      "version": "v0.1.0"
+    },
+    "iam567/rich4-renew-app": {
+      "full_name": "iam567/rich4-renew-app",
+      "description": "大富翁4 重制版 App 源码（Vite + TypeScript + Capacitor iOS）",
+      "language": "TypeScript",
+      "url": "https://github.com/iam567/rich4-renew-app",
+      "first_seen": "2026-10-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.7.4"
     }
   }
 }

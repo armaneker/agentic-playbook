@@ -41484,7 +41484,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v2.0.0"
     },
     "seedds/nxnative": {
       "full_name": "seedds/nxnative",
@@ -42168,23 +42168,31 @@
     },
     "xevrion/hatchzip": {
       "full_name": "xevrion/hatchzip",
-      "description": "Extract huge archives in place: the archive shrinks as your files hatch, so you only need room for the output. ZIP, 7z, tar, split archives.",
+      "description": "HatchZip is a free, open-source archive extractor for Windows, macOS and Linux that extracts ZIP, 7z, RAR, tar and split archives in place, so it needs free space for the extracted files only. Desktop app and CLI.",
       "language": "Rust",
       "url": "https://github.com/xevrion/hatchzip",
       "first_seen": "2026-10-23",
       "has_summary": false,
       "topics": [
         "7z",
+        "7zip",
         "archive",
+        "archive-extractor",
         "cli",
         "crash-safe",
         "disk-space",
         "extract",
         "extractor",
         "gui",
+        "in-place",
+        "linux",
+        "macos",
+        "rar",
         "rust",
         "tar",
+        "unrar",
         "unzip",
+        "windows",
         "zip"
       ],
       "category": "DevTools",
@@ -42408,6 +42416,17 @@
       "topics": [],
       "category": "Other",
       "version": "v0.7.4"
+    },
+    "nthnclrk/CleanFrame": {
+      "full_name": "nthnclrk/CleanFrame",
+      "description": "A personal home screen for Samsung The Frame. A starting point to fork and adapt.",
+      "language": "JavaScript",
+      "url": "https://github.com/nthnclrk/CleanFrame",
+      "first_seen": "2026-10-25",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

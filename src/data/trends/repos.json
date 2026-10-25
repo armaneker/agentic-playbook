@@ -42440,6 +42440,50 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "rddmwmddr/android-ad-cleaner": {
+      "full_name": "rddmwmddr/android-ad-cleaner",
+      "description": "关掉国产安卓手机系统里的广告、热搜、资讯推荐和营销推送。不 root，可还原，支持 AI 智能体一键执行。",
+      "language": "Python",
+      "url": "https://github.com/rddmwmddr/android-ad-cleaner",
+      "first_seen": "2026-10-25",
+      "has_summary": false,
+      "topics": [
+        "adb",
+        "ai-agent",
+        "android",
+        "coloros",
+        "debloat",
+        "hyperos",
+        "magicos",
+        "originos"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.3"
+    },
+    "designfuchen/word-atlas": {
+      "full_name": "designfuchen/word-atlas",
+      "description": "词光 · 一词一画，点亮雅思 — 7,298 IELTS words, each with an original illustration, UK/US audio, 14,596 example sentences and FSRS review. Free, open source, no login. Dataset CC BY 4.0.",
+      "language": "TypeScript",
+      "url": "https://github.com/designfuchen/word-atlas",
+      "first_seen": "2026-10-25",
+      "has_summary": false,
+      "topics": [
+        "chinese",
+        "dataset",
+        "english-learning",
+        "flashcards",
+        "fsrs",
+        "ielts",
+        "language-learning",
+        "pwa",
+        "react",
+        "spaced-repetition",
+        "vocabulary",
+        "webgl"
+      ],
+      "category": "Web Framework",
+      "version": null
     }
   }
 }

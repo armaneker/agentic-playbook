@@ -41284,14 +41284,27 @@
     },
     "ly05010419/MacNativeGames": {
       "full_name": "ly05010419/MacNativeGames",
-      "description": "",
+      "description": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "language": "C",
       "url": "https://github.com/ly05010419/MacNativeGames",
       "first_seen": "2026-10-19",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
-      "version": null
+      "topics": [
+        "apple-silicon",
+        "arm64",
+        "breath-of-the-wild",
+        "game-port",
+        "ios",
+        "ipados",
+        "macos",
+        "metal",
+        "native-port",
+        "tears-of-the-kingdom",
+        "ultrawide",
+        "zelda"
+      ],
+      "category": "Mobile",
+      "version": "v2026.10.25"
     },
     "aicodeking/leanrea": {
       "full_name": "aicodeking/leanrea",
@@ -41998,7 +42011,7 @@
     "CyC2018/CS-Notes": {
       "full_name": "CyC2018/CS-Notes",
       "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
-      "language": "Unknown",
+      "language": "Python",
       "url": "https://github.com/CyC2018/CS-Notes",
       "first_seen": "2026-10-22",
       "has_summary": false,

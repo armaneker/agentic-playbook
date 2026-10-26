@@ -41458,7 +41458,7 @@
     },
     "KnifeLemon/Filee": {
       "full_name": "KnifeLemon/Filee",
-      "description": "Free, open-source file converter. Convert 255 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
+      "description": "Free, open-source file converter. Convert 263 formats offline by drag & drop — images, PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives. No upload, no Office needed.",
       "language": "C#",
       "url": "https://github.com/KnifeLemon/Filee",
       "first_seen": "2026-10-19",
@@ -41698,7 +41698,7 @@
     "JoasASantos/REA-Prompts": {
       "full_name": "JoasASantos/REA-Prompts",
       "description": "REAP - Prompts for you to use REA (Reverse Engineer Anything), get the most out of it, and clone or break down any program",
-      "language": "Unknown",
+      "language": "Batchfile",
       "url": "https://github.com/JoasASantos/REA-Prompts",
       "first_seen": "2026-10-20",
       "has_summary": false,
@@ -42481,6 +42481,120 @@
         "spaced-repetition",
         "vocabulary",
         "webgl"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "morganlinton/BeautifulRust": {
+      "full_name": "morganlinton/BeautifulRust",
+      "description": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+      "language": "Python",
+      "url": "https://github.com/morganlinton/BeautifulRust",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [
+        "claude-code",
+        "claude-plugin",
+        "claude-skills",
+        "coding-agent",
+        "rust",
+        "style-guide"
+      ],
+      "category": "DevTools",
+      "version": "v1.3.0"
+    },
+    "lyramakesmusic/neuron-explorer": {
+      "full_name": "lyramakesmusic/neuron-explorer",
+      "description": "Steering-first neuron explorer for Qwen3.5-4B: push every MLP neuron, keep every rollout, browse the results",
+      "language": "Python",
+      "url": "https://github.com/lyramakesmusic/neuron-explorer",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [
+        "interpretability",
+        "mechanistic-interpretability",
+        "qwen",
+        "steering"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "udhaykumarbala/cleanyourtv-app": {
+      "full_name": "udhaykumarbala/cleanyourtv-app",
+      "description": "A community-built phone app for Clean Your TV: clean up an Android TV from your phone. No laptop, no coding agent, nothing uninstalled.",
+      "language": "Kotlin",
+      "url": "https://github.com/udhaykumarbala/cleanyourtv-app",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [
+        "adb",
+        "android-tv",
+        "debloat",
+        "fire-tv",
+        "google-tv",
+        "launcher"
+      ],
+      "category": "Other",
+      "version": "v0.3.7"
+    },
+    "torrentplayer/torrentplayer": {
+      "full_name": "torrentplayer/torrentplayer",
+      "description": "Stream any torrent, video or audio, and skip to any moment in about a second. Free, open-source desktop app for Windows, macOS and Linux. No servers, no accounts, no telemetry.",
+      "language": "Rust",
+      "url": "https://github.com/torrentplayer/torrentplayer",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [
+        "audio-player",
+        "bittorrent",
+        "cross-platform",
+        "desktop-app",
+        "media-player",
+        "p2p",
+        "rust",
+        "streaming",
+        "svelte",
+        "tauri",
+        "torrent",
+        "video-player"
+      ],
+      "category": "Web Framework",
+      "version": "v0.3.0"
+    },
+    "surendrapandar/minilytics": {
+      "full_name": "surendrapandar/minilytics",
+      "description": "Opensource Revenue-first analytics for indie hackers & solo founders ",
+      "language": "TypeScript",
+      "url": "https://github.com/surendrapandar/minilytics",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "agharsallah/esp-labs-web": {
+      "full_name": "agharsallah/esp-labs-web",
+      "description": "The ESP32-S3 bench guide as a React app: live pinout, lessons with interactive simulators, a code reader for the esp-labs firmware, and the bench log. In 11 languages.",
+      "language": "TypeScript",
+      "url": "https://github.com/agharsallah/esp-labs-web",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [
+        "education",
+        "electronics",
+        "embedded",
+        "esp32",
+        "esp32-s3",
+        "i18n",
+        "interactive-learning",
+        "pinout",
+        "react",
+        "react-router",
+        "rtl",
+        "simulator",
+        "tanstack-query",
+        "typescript",
+        "vite"
       ],
       "category": "Web Framework",
       "version": null

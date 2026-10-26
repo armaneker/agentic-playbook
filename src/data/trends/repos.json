@@ -41502,7 +41502,7 @@
     "seedds/nxnative": {
       "full_name": "seedds/nxnative",
       "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-      "language": "C",
+      "language": "Objective-C",
       "url": "https://github.com/seedds/nxnative",
       "first_seen": "2026-10-19",
       "has_summary": false,
@@ -42463,7 +42463,7 @@
     },
     "designfuchen/word-atlas": {
       "full_name": "designfuchen/word-atlas",
-      "description": "词光 · 一词一画，点亮雅思 — 7,298 IELTS words, each with an original illustration, UK/US audio, 14,596 example sentences and FSRS review. Free, open source, no login. Dataset CC BY 4.0.",
+      "description": "词光 · Word Atlas — Illustrated IELTS vocabulary with 7,298 words, UK/US audio and FSRS review. Open-source app + CC BY 4.0 dataset.",
       "language": "TypeScript",
       "url": "https://github.com/designfuchen/word-atlas",
       "first_seen": "2026-10-25",
@@ -42487,16 +42487,20 @@
     },
     "morganlinton/BeautifulRust": {
       "full_name": "morganlinton/BeautifulRust",
-      "description": "A Claude Code plugin that teaches Claude to write idiomatic, robust Rust",
+      "description": "Agent Skills that teach coding agents to write, review, and port idiomatic Rust, plus a tested clippy config. Works with Claude Code, Codex, Copilot, Cursor, and Gemini CLI.",
       "language": "Python",
       "url": "https://github.com/morganlinton/BeautifulRust",
       "first_seen": "2026-10-26",
       "has_summary": false,
       "topics": [
+        "agent-skills",
         "claude-code",
         "claude-plugin",
         "claude-skills",
+        "clippy",
+        "code-review",
         "coding-agent",
+        "cursor",
         "rust",
         "style-guide"
       ],
@@ -42631,6 +42635,48 @@
       "topics": [],
       "category": "Other",
       "version": "v0.9.0"
+    },
+    "KillaBoi/StealMyBitcoin-PoC": {
+      "full_name": "KillaBoi/StealMyBitcoin-PoC",
+      "description": "A public release of the Steal My Bitcoin challenge",
+      "language": "Python",
+      "url": "https://github.com/KillaBoi/StealMyBitcoin-PoC",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "DenisSergeevitch/ex-ussr-kinship-research": {
+      "full_name": "DenisSergeevitch/ex-ussr-kinship-research",
+      "description": "Evidence-first genealogy skill for AI agents (Codex, Claude Code): church books, civil, military, deportation and repression records across the former USSR. Replies in your language.",
+      "language": "Python",
+      "url": "https://github.com/DenisSergeevitch/ex-ussr-kinship-research",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "archives",
+        "claude-code",
+        "codex",
+        "family-history",
+        "familysearch",
+        "genealogy",
+        "ussr"
+      ],
+      "category": "Other",
+      "version": "v1.6.0"
+    },
+    "andyhuo520/digital-human-koubo": {
+      "full_name": "andyhuo520/digital-human-koubo",
+      "description": "AI digital-human talking-head videos from one photo: Renoise MCP generation + 5 editing styles + 48 creator-grade packaging components. Agent skill for Claude Code / Codex / OpenClaw / WorkBuddy …",
+      "language": "TypeScript",
+      "url": "https://github.com/andyhuo520/digital-human-koubo",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.0"
     }
   }
 }

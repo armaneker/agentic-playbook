@@ -41382,7 +41382,7 @@
     "Gathin23/cleanyourtv": {
       "full_name": "Gathin23/cleanyourtv",
       "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
-      "language": "Java",
+      "language": "Python",
       "url": "https://github.com/Gathin23/cleanyourtv",
       "first_seen": "2026-10-19",
       "has_summary": false,
@@ -42598,6 +42598,39 @@
       ],
       "category": "Web Framework",
       "version": null
+    },
+    "t3dotgg/tstack": {
+      "full_name": "t3dotgg/tstack",
+      "description": "The agent skills I use every day. Works with Claude Code and Codex.",
+      "language": "Python",
+      "url": "https://github.com/t3dotgg/tstack",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "enesozturk/dimensional-drawing": {
+      "full_name": "enesozturk/dimensional-drawing",
+      "description": "",
+      "language": "HTML",
+      "url": "https://github.com/enesozturk/dimensional-drawing",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mizorewww/gdirect": {
+      "full_name": "mizorewww/gdirect",
+      "description": "Rust Google Drive direct downloader using pinned libaria2",
+      "language": "Rust",
+      "url": "https://github.com/mizorewww/gdirect",
+      "first_seen": "2026-10-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.9.0"
     }
   }
 }

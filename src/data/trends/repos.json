@@ -42735,6 +42735,43 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "LNPANDY/NX2Apple": {
+      "full_name": "LNPANDY/NX2Apple",
+      "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
+      "language": "Python",
+      "url": "https://github.com/LNPANDY/NX2Apple",
+      "first_seen": "2026-10-27",
+      "has_summary": false,
+      "topics": [
+        "apple-silicon",
+        "custom-format",
+        "homebrew",
+        "ios",
+        "ipa",
+        "ipad",
+        "ipados",
+        "iphone",
+        "metal",
+        "native-port",
+        "nintendo-switch",
+        "nxnative",
+        "romfs",
+        "switch-games"
+      ],
+      "category": "Mobile",
+      "version": "v0.4.8"
+    },
+    "kargulstudio/calender-app-design": {
+      "full_name": "kargulstudio/calender-app-design",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/kargulstudio/calender-app-design",
+      "first_seen": "2026-10-27",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

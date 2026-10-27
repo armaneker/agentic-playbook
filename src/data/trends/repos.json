@@ -42615,12 +42615,15 @@
     },
     "enesozturk/dimensional-drawing": {
       "full_name": "enesozturk/dimensional-drawing",
-      "description": "",
+      "description": "Create Apple style dimensional drawings of UI components.",
       "language": "HTML",
       "url": "https://github.com/enesozturk/dimensional-drawing",
       "first_seen": "2026-10-26",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "skills",
+        "ui"
+      ],
       "category": "Other",
       "version": null
     },
@@ -42713,6 +42716,22 @@
         "postgresql",
         "self-hosted",
         "web-analytics"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "DUNHKpcc/Claude-Guardian": {
+      "full_name": "DUNHKpcc/Claude-Guardian",
+      "description": "Claude Guardian is an all-in-one Claude account safety and risk prevention skill.Claude防封实战 It intelligently assesses your device, account history, network environment, and payment options, then provides personalized guidance for local, VPS, or virtual machine setups. ",
+      "language": "Python",
+      "url": "https://github.com/DUNHKpcc/Claude-Guardian",
+      "first_seen": "2026-10-27",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "claude-skills",
+        "codex-skill"
       ],
       "category": "Other",
       "version": null

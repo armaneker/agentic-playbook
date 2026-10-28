@@ -40609,6 +40609,7 @@
       "topics": [
         "adobe",
         "cad",
+        "microsoft",
         "office",
         "photoshop",
         "saas",
@@ -42957,6 +42958,17 @@
       ],
       "category": "Agentic",
       "version": "v0.1.2"
+    },
+    "oosexgang/hakios-xnu-kernel": {
+      "full_name": "oosexgang/hakios-xnu-kernel",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/oosexgang/hakios-xnu-kernel",
+      "first_seen": "2026-10-28",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

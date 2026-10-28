@@ -42938,6 +42938,25 @@
       ],
       "category": "DevTools",
       "version": "v0.1.21"
+    },
+    "x18n-dev/x18n": {
+      "full_name": "x18n-dev/x18n",
+      "description": "Universal toolkits for linting, viewing and managing i18n for any frameworks.",
+      "language": "TypeScript",
+      "url": "https://github.com/x18n-dev/x18n",
+      "first_seen": "2026-10-28",
+      "has_summary": false,
+      "topics": [
+        "devframe",
+        "i18n",
+        "i18n-tool",
+        "lsp",
+        "lsp-server",
+        "mcp",
+        "vscode-extension"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.2"
     }
   }
 }

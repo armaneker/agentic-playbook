@@ -40235,23 +40235,26 @@
     },
     "jhaizhou-ops/d2r-mobile": {
       "full_name": "jhaizhou-ops/d2r-mobile",
-      "description": "Open-source iOS / macOS compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad and Mac — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS 兼容层",
+      "description": "Open-source compatibility layer for Diablo II: Resurrected with the Reign of the Warlock expansion. Runs your own Switch copy natively on iPhone, iPad, Mac, Android and HarmonyOS — full touch controls, 60 fps, new endgame modes. Bring your own game files. 开源的《暗黑破坏神 II：狱火重生》术士君临 iOS / macOS / 安卓 / 鸿蒙兼容层",
       "language": "C",
       "url": "https://github.com/jhaizhou-ops/d2r-mobile",
       "first_seen": "2026-10-13",
       "has_summary": false,
       "topics": [
+        "android",
         "compatibility-layer",
         "diablo-2-resurrected",
         "diablo2",
         "game-port",
+        "harmonyos",
         "ios",
         "ipad",
         "iphone",
         "mac",
         "macos",
         "metal",
-        "reign-of-the-warlock"
+        "reign-of-the-warlock",
+        "vulkan"
       ],
       "category": "Mobile",
       "version": "v1.0.5"
@@ -41502,7 +41505,7 @@
     "seedds/nxnative": {
       "full_name": "seedds/nxnative",
       "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-      "language": "Python",
+      "language": "Objective-C",
       "url": "https://github.com/seedds/nxnative",
       "first_seen": "2026-10-19",
       "has_summary": false,

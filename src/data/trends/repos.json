@@ -43082,6 +43082,54 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "aschmelyun/print-my-profile-pic": {
+      "full_name": "aschmelyun/print-my-profile-pic",
+      "description": "Say cheese! Star this repo and your profile picture gets printed out on a receipt printer.",
+      "language": "Unknown",
+      "url": "https://github.com/aschmelyun/print-my-profile-pic",
+      "first_seen": "2026-10-29",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "qybaihe/bla": {
+      "full_name": "qybaihe/bla",
+      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+      "language": "TypeScript",
+      "url": "https://github.com/qybaihe/bla",
+      "first_seen": "2026-10-29",
+      "has_summary": false,
+      "topics": [
+        "adversarial-ai",
+        "claude-code",
+        "cursor",
+        "electron-security",
+        "llm-security",
+        "mcp",
+        "mcp-server",
+        "obfuscation",
+        "reverse-engineering",
+        "webassembly"
+      ],
+      "category": "Agentic",
+      "version": "bla-agents-1.5.0"
+    },
+    "OpenBMB/MiniCPM-OCR": {
+      "full_name": "OpenBMB/MiniCPM-OCR",
+      "description": "Fast, accurate OCR with correctness assessment.",
+      "language": "TypeScript",
+      "url": "https://github.com/OpenBMB/MiniCPM-OCR",
+      "first_seen": "2026-10-29",
+      "has_summary": false,
+      "topics": [
+        "image2text",
+        "minicpm-v",
+        "ocr"
+      ],
+      "category": "Other",
+      "version": "sdk-v1.0.2"
     }
   }
 }

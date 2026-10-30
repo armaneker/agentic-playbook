@@ -41505,7 +41505,7 @@
     "seedds/nxnative": {
       "full_name": "seedds/nxnative",
       "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
-      "language": "Objective-C",
+      "language": "Python",
       "url": "https://github.com/seedds/nxnative",
       "first_seen": "2026-10-19",
       "has_summary": false,
@@ -43130,6 +43130,51 @@
       ],
       "category": "Other",
       "version": "sdk-v1.0.2"
+    },
+    "valentderah/totk-pc-recomp": {
+      "full_name": "valentderah/totk-pc-recomp",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+      "language": "C",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "first_seen": "2026-10-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.1"
+    },
+    "deepopen-com/deepopen-3d-webs": {
+      "full_name": "deepopen-com/deepopen-3d-webs",
+      "description": "Image-driven 3D scene generation system. Users provide a reference image and prompt words, and the system generates previewable, replayable, and traceable scene results according to the camera trajectory; official 3D demonstration assets allow direct viewing of color/depth animations and Gaussian point clouds in the browser 图像驱动的三维场景生成系统",
+      "language": "Python",
+      "url": "https://github.com/deepopen-com/deepopen-3d-webs",
+      "first_seen": "2026-10-30",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "gaussian-filter",
+        "gaussian-splatting"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "D3voz/openjutsu": {
+      "full_name": "D3voz/openjutsu",
+      "description": "One-click character swap for videos: an open-source, local Higgsfield Genjutsu alternative built on ComfyUI and MiniMax H3, with FLUX.3 Klein relighting.",
+      "language": "TypeScript",
+      "url": "https://github.com/D3voz/openjutsu",
+      "first_seen": "2026-10-30",
+      "has_summary": false,
+      "topics": [
+        "character-swap",
+        "comfyui",
+        "minimax-h3",
+        "nextjs",
+        "open-weights",
+        "opensourcehiggsfield",
+        "video-generation"
+      ],
+      "category": "Web Framework",
+      "version": null
     }
   }
 }

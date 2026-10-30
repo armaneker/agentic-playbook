@@ -43211,6 +43211,37 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "wangzan101/Mika": {
+      "full_name": "wangzan101/Mika",
+      "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "language": "Kotlin",
+      "url": "https://github.com/wangzan101/Mika",
+      "first_seen": "2026-10-30",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "ai-agent",
+        "android",
+        "automation",
+        "jetpack-compose",
+        "kotlin",
+        "llm",
+        "mobile-agent"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.10"
+    },
+    "Nutlope/bygga": {
+      "full_name": "Nutlope/bygga",
+      "description": "IKEA assembly, step by step: animated, manual-style 3D guides. Scan any paper manual with Together AI.",
+      "language": "TypeScript",
+      "url": "https://github.com/Nutlope/bygga",
+      "first_seen": "2026-10-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

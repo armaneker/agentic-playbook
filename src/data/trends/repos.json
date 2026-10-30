@@ -42594,6 +42594,8 @@
         "esp32-s3",
         "i18n",
         "interactive-learning",
+        "mit-license",
+        "open-source",
         "pinout",
         "react",
         "react-router",
@@ -43174,6 +43176,40 @@
         "video-generation"
       ],
       "category": "Web Framework",
+      "version": null
+    },
+    "ccch1mneyyy/dsh-Go": {
+      "full_name": "ccch1mneyyy/dsh-Go",
+      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
+      "language": "Dart",
+      "url": "https://github.com/ccch1mneyyy/dsh-Go",
+      "first_seen": "2026-10-30",
+      "has_summary": false,
+      "topics": [
+        "ai-agent",
+        "android",
+        "android-app",
+        "coding-agent",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "dsh-tui",
+        "flutter",
+        "llm"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.2"
+    },
+    "paipiange/nvzhuang": {
+      "full_name": "paipiange/nvzhuang",
+      "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
+      "language": "Go",
+      "url": "https://github.com/paipiange/nvzhuang",
+      "first_seen": "2026-10-30",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

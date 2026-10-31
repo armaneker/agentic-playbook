@@ -40167,25 +40167,25 @@
       "has_summary": false,
       "topics": [
         "agent-skills",
-        "ai-agents",
-        "binary-analysis",
+        "ai",
+        "android",
         "claude-code",
         "cli",
-        "codex",
-        "cordis",
-        "decompiler",
-        "developer-tools",
-        "dsh",
+        "cpp",
         "dsh-plugin",
-        "ghidra",
-        "hopper",
-        "llm",
+        "html",
+        "java",
+        "javascript",
+        "linux",
         "mcp",
-        "model-context-protocol",
+        "nodejs",
+        "python",
         "rea",
-        "reverse-engineering",
-        "static-analysis",
-        "touhou"
+        "react",
+        "rust",
+        "security",
+        "touhou",
+        "typescript"
       ],
       "category": "Agentic",
       "version": "rea-agents-6.4.0"
@@ -43386,6 +43386,28 @@
       ],
       "category": "Agentic",
       "version": "v0.2.5"
+    },
+    "HRuiCcc/RuiC-PoseAtlas": {
+      "full_name": "HRuiCcc/RuiC-PoseAtlas",
+      "description": "RuiC-PoseAtlas｜姿态 + 衣装双图鉴：288 组人体姿态 × 5 视角 × 1,439 张人台线稿，加 1,407 套无人物衣装 × 8 分类 × 86 个三语标签。中/英/日切换、搜索筛选、键盘浏览、原图下载，纯静态零依赖。",
+      "language": "JavaScript",
+      "url": "https://github.com/HRuiCcc/RuiC-PoseAtlas",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [
+        "3d-modeling",
+        "ai-art",
+        "art-reference",
+        "gallery",
+        "photography",
+        "pose-reference",
+        "ruic",
+        "static-site",
+        "trilingual",
+        "vanilla-javascript"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

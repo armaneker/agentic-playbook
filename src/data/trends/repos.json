@@ -43408,6 +43408,84 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "getify/You-Dont-Know-JS": {
+      "full_name": "getify/You-Dont-Know-JS",
+      "description": "A book series (2 published editions) on the JS language.",
+      "language": "Unknown",
+      "url": "https://github.com/getify/You-Dont-Know-JS",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [
+        "async",
+        "book",
+        "book-series",
+        "closures",
+        "education",
+        "es2015",
+        "es6",
+        "javascript",
+        "learn-to-code",
+        "programming",
+        "prototypes",
+        "training-materials",
+        "training-providers"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "deepseek-ai/dsh-superagent-prototype": {
+      "full_name": "deepseek-ai/dsh-superagent-prototype",
+      "description": "Towards a More Autonomous Agent System",
+      "language": "TypeScript",
+      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "patch-gg/pixelfx": {
+      "full_name": "patch-gg/pixelfx",
+      "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "language": "JavaScript",
+      "url": "https://github.com/patch-gg/pixelfx",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "animation",
+        "canvas",
+        "claude-code-plugin",
+        "gamedev",
+        "pixel-art",
+        "sprite-sheet",
+        "vfx"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "Djihads80/Eglantine": {
+      "full_name": "Djihads80/Eglantine",
+      "description": "VERY experimental Nintendo Switch 2 emulator",
+      "language": "C++",
+      "url": "https://github.com/Djihads80/Eglantine",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "BookracyFOS/bookracy": {
+      "full_name": "BookracyFOS/bookracy",
+      "description": "Free, open-source book search, reader and library.",
+      "language": "TypeScript",
+      "url": "https://github.com/BookracyFOS/bookracy",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

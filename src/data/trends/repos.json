@@ -38595,6 +38595,7 @@
         "claude-skills",
         "cli",
         "diagram",
+        "dsh-plugin",
         "explainer",
         "html",
         "llm",
@@ -42836,7 +42837,7 @@
     "anhao/ai-pose-gallery-zh": {
       "full_name": "anhao/ai-pose-gallery-zh",
       "description": "中文版 AI 姿势参考图库 · 1439 组 / 2878 张图片 / 完整汉化 · 零依赖静态画廊",
-      "language": "HTML",
+      "language": "TypeScript",
       "url": "https://github.com/anhao/ai-pose-gallery-zh",
       "first_seen": "2026-10-28",
       "has_summary": false,
@@ -43264,6 +43265,127 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "BryceYuuu/RUN": {
+      "full_name": "BryceYuuu/RUN",
+      "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+      "language": "Python",
+      "url": "https://github.com/BryceYuuu/RUN",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kevinraymond/florilegium": {
+      "full_name": "kevinraymond/florilegium",
+      "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+      "language": "Lua",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.2"
+    },
+    "horizon-rust/horizon": {
+      "full_name": "horizon-rust/horizon",
+      "description": "Minecraft: Java Edition 26.3 rewritten from scratch in Rust, checked against vanilla with 281 differential harnesses. Get it with the Horizon launcher.",
+      "language": "Rust",
+      "url": "https://github.com/horizon-rust/horizon",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [
+        "differential-testing",
+        "game-engine",
+        "gamedev",
+        "linux",
+        "minecraft",
+        "minecraft-java",
+        "reimplementation",
+        "rust",
+        "voxel",
+        "vulkan",
+        "wgpu"
+      ],
+      "category": "Other",
+      "version": "v0.2.97"
+    },
+    "Fei2411/DS-Bot": {
+      "full_name": "Fei2411/DS-Bot",
+      "description": "A team of long-lived bots for DeepSeek Harness, with main bots, bot-to-bot messages and group chats.",
+      "language": "JavaScript",
+      "url": "https://github.com/Fei2411/DS-Bot",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [
+        "bot",
+        "deepseek-harness",
+        "dsh-plugin",
+        "multi-agent"
+      ],
+      "category": "Other",
+      "version": "v0.2.4"
+    },
+    "interplains/zero-breach": {
+      "full_name": "interplains/zero-breach",
+      "description": "Zero Breach — local, read-only scanner that checks a computer for indicators of the AdFection / Candiru ad-delivered spyware campaign. No network, no admin, no dependencies.",
+      "language": "Python",
+      "url": "https://github.com/interplains/zero-breach",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [
+        "candiru",
+        "digital-security",
+        "forensics",
+        "incident-response",
+        "ioc",
+        "misp",
+        "spyware",
+        "stix",
+        "threat-intelligence"
+      ],
+      "category": "Other",
+      "version": "v0.1.8"
+    },
+    "QAQLeonard/a7c2-fl23-research": {
+      "full_name": "QAQLeonard/a7c2-fl23-research",
+      "description": "Desktop tool for Sony A7C II (ILCE-7CM2) firmware 2.01: one-click FL2/FL3, custom Creative Looks (LUT/DCP), electronic shutter sound, Vertical Display and factory restore. Windows/macOS. | Sony A7C II 固件 2.01 桌面工具：一键安装 FL2/FL3、自定义创意外观、电子快门声、竖屏显示，并可一键恢复原厂。",
+      "language": "Python",
+      "url": "https://github.com/QAQLeonard/a7c2-fl23-research",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v3.0.3"
+    },
+    "0xS4N4TG/kinetograph": {
+      "full_name": "0xS4N4TG/kinetograph",
+      "description": "A blazingly fast programmatic video engine, made for agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/0xS4N4TG/kinetograph",
+      "first_seen": "2026-10-31",
+      "has_summary": false,
+      "topics": [
+        "agents",
+        "ai-agents",
+        "ffmpeg",
+        "gpu",
+        "hyperframes",
+        "mcp",
+        "motion-graphics",
+        "programmatic-video",
+        "react",
+        "remotion",
+        "rust",
+        "skia",
+        "typescript",
+        "video",
+        "video-rendering",
+        "wgpu"
+      ],
+      "category": "Agentic",
+      "version": "v0.2.5"
     }
   }
 }

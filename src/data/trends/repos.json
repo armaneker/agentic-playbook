@@ -42803,7 +42803,7 @@
     },
     "interplains/Zero-Breach-Toolkit": {
       "full_name": "interplains/Zero-Breach-Toolkit",
-      "description": "Free, open-source, offline checks for traces of known mercenary spyware. Works on Windows, macOS and Linux, Android phones and iPhone backups.",
+      "description": "Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages.",
       "language": "Python",
       "url": "https://github.com/interplains/Zero-Breach-Toolkit",
       "first_seen": "2026-10-28",
@@ -42873,7 +42873,7 @@
         "system-prompt"
       ],
       "category": "Agentic",
-      "version": null
+      "version": "v0.2.12"
     },
     "CopilotKit/OpenDuet": {
       "full_name": "CopilotKit/OpenDuet",
@@ -43284,7 +43284,17 @@
       "url": "https://github.com/kevinraymond/florilegium",
       "first_seen": "2026-10-31",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "generative-art",
+        "latex",
+        "latex-package",
+        "lua",
+        "lualatex",
+        "postscript",
+        "procedural-generation",
+        "svg",
+        "typography"
+      ],
       "category": "Other",
       "version": "v1.2"
     },
@@ -43532,6 +43542,28 @@
       "topics": [],
       "category": "Other",
       "version": "v2.1.8"
+    },
+    "elvarofficial/teardown": {
+      "full_name": "elvarofficial/teardown",
+      "description": "A Claude Code skill that turns any machine into a 3D simulator you can take apart",
+      "language": "JavaScript",
+      "url": "https://github.com/elvarofficial/teardown",
+      "first_seen": "2026-11-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "benjitaylor/skills": {
+      "full_name": "benjitaylor/skills",
+      "description": "Skills for AI coding agents.",
+      "language": "TypeScript",
+      "url": "https://github.com/benjitaylor/skills",
+      "first_seen": "2026-11-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

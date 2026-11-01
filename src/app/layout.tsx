@@ -7,6 +7,7 @@ import Header from '@/components/Header';
 import Sidebar from '@/components/Sidebar';
 import TableOfContents from '@/components/TableOfContents';
 import Footer from '@/components/Footer';
+import { Analytics } from '@vercel/analytics/next';
 
 const BASE_URL = 'https://agentic-playbook.dev';
 const SITE_TITLE = 'Agentic Playbook';
@@ -85,6 +86,7 @@ export default function RootLayout({
             <Footer />
           </main>
         </div>
+        <Analytics />
       </body>
     </html>
   );

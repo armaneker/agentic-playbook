@@ -43447,7 +43447,7 @@
     },
     "patch-gg/pixelfx": {
       "full_name": "patch-gg/pixelfx",
-      "description": "232 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
+      "description": "244 pixel art effects, every one a small piece of code. Plus a Claude Code skill to make your own.",
       "language": "JavaScript",
       "url": "https://github.com/patch-gg/pixelfx",
       "first_seen": "2026-10-31",
@@ -43486,6 +43486,30 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "haydenschmitty/floorplan": {
+      "full_name": "haydenschmitty/floorplan",
+      "description": "See how your app actually fits together. An interactive, plain-English map of your codebase, drawn by Claude or Codex.",
+      "language": "JavaScript",
+      "url": "https://github.com/haydenschmitty/floorplan",
+      "first_seen": "2026-11-01",
+      "has_summary": false,
+      "topics": [
+        "ai-coding",
+        "architecture-diagram",
+        "claude",
+        "claude-code",
+        "claude-code-plugin",
+        "codebase-visualization",
+        "codex",
+        "codex-plugin",
+        "developer-tools",
+        "onboarding",
+        "openai",
+        "vibe-coding"
+      ],
+      "category": "AI / ML",
+      "version": "floorplan--v0.6.0"
     }
   }
 }

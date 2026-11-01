@@ -1,0 +1,134 @@
+<GuideHeader tool="Claude Code" difficulty="Intermediate" lastTested="2026-11" readTime="8 min" />
+
+# Build a Speaker-Labeled Voice Dataset From a Podcast Archive
+
+This case study shows how to turn years of two-host podcast episodes into clean, per-speaker audio clips with transcripts, and how to use them to train a voice clone that sounds like the speaker.
+
+Claude Code wrote and ran the whole pipeline in under two days. The source was 9 years of Yollarda.tv, a Turkish podcast.
+
+## Results
+
+- 227 episodes selected from 1,300+ videos, 46 hours of raw audio
+- All 227 episodes processed in about an hour
+- 60/60 correct speaker in a listening test, 3 word errors
+- 12 hours of clean audio for one host (8,902 clips) and 17.5 hours for the other (10,460 clips), each clip with its text and timestamps
+- A professional voice clone trained on 101 minutes of that audio
+
+## Tools
+
+| Step | Tool | Cost |
+| --- | --- | --- |
+| Orchestration and code | Claude Code | Existing subscription |
+| Video list and audio download | yt-dlp, ffmpeg | Free |
+| Transcription | ElevenLabs Scribe v2 | ElevenLabs Creator plan |
+| Speaker identification | pyannoteAI precision-3 with voiceprints | Free tier (about 50 of 150 hours used) |
+| Independent clip check | SpeechBrain ECAPA, local | Free |
+| Voice clone | ElevenLabs Professional Voice Clone | ElevenLabs Creator plan |
+
+The first plan was fully local and free: Whisper and open-source pyannote on a Mac. For 46 hours of audio, every paid option cost tens of dollars, so the choice came down to quality. Scribe v2 is one of the strongest models for Turkish and returns word-level timestamps. pyannoteAI can match speech against known voiceprints.
+
+## 1. Build the inventory
+
+List every video, livestream, short and playlist on each channel:
+
+```bash
+yt-dlp --flat-playlist \
+  --print "%(id)s | %(title)s | %(duration)s" \
+  "https://www.youtube.com/@CHANNEL/videos" > videos.txt
+```
+
+Then cut the list down to episodes where only the two hosts speak:
+
+- Drop livestreams and shorts.
+- Drop guest episodes. Title patterns ("... ile", "Konuk") and guest-series playlists found most of them.
+
+That left 227 episodes: 205 from one channel and 22 from the other.
+
+## 2. Download audio only
+
+Download the original audio track, without re-encoding. `--download-archive` makes the run resumable.
+
+```bash
+yt-dlp -f "bestaudio[ext=m4a]" \
+  --download-archive downloaded.txt \
+  -o "audio/%(id)s.%(ext)s" \
+  -a episode-urls.txt
+```
+
+227 m4a files, 2.5 GB, no failed downloads.
+
+## 3. Identify known speakers instead of separating unknown ones
+
+Blind diarization asks "how many people are speaking, and who said what?" When the same two people speak in every episode, ask an easier question: "does this voice match host A or host B?"
+
+- Find an episode where each host says their name. Cut a 28-second reference clip per host.
+- Cut a second reference per host from a recent episode. Voices change over 9 years.
+- Create a voiceprint per clip in pyannoteAI. Four clips, four voiceprints.
+
+```bash
+ffmpeg -ss 00:01:12 -t 28 -i episode-06.m4a -ac 1 -ar 16000 ref-host-a-2016.wav
+```
+
+## 4. Pilot on 3 episodes
+
+Pick one episode from each era (here 2016, 2019 and 2025) and run both Scribe and pyannoteAI on them.
+
+- Scribe transcribed well, but its own diarization sometimes gave a question and its answer to the same speaker.
+- pyannoteAI scored the right speaker 86-90 and the other 19-51.
+- The two models agreed on the speaker for 97-98% of words.
+
+Use Scribe for the words and pyannoteAI for who said them.
+
+Then check by ear. Ask Claude Code for a small local page that plays 60 random clips, each with buttons for "right speaker", "wrong speaker" and "text error". The result here: 60/60 right speaker and 3 word errors.
+
+<Callout type="tip" title="Pilot before you scale">
+Three episodes and a 60-clip listening test are what made it safe to process 227 episodes without listening to them.
+</Callout>
+
+## 5. Scale to the full archive
+
+- Give Scribe a term list per episode, built from its title and description: names, companies, acronyms. Without it, "TÜBİTAK'ın fonu" came out as "Twitch takın fonu".
+- Tune concurrency to each service's rate limit.
+- Save results per episode, so a pause or an error loses nothing.
+
+All 227 episodes ran in about an hour.
+
+## 6. Merge and clean
+
+Align every Scribe word to pyannoteAI's speaker timeline. Then apply conservative rules:
+
+- Drop overlapping speech per word, not per segment. A segment-level filter threw away a 15-second clip because of one "mm-hm" from the other host.
+- Drop clips shorter than 1.5 seconds.
+- Label voices that match neither host as "other". Speakers at events and hackathons ended up here.
+- Recheck every clip against the reference clips with a third model, SpeechBrain ECAPA, running locally. 476 of 19,838 clips (2.4%) were flagged and moved to a separate folder.
+
+What was dropped: 4.6 hours of overlap, 2.9 hours of short clips and 0.8 hours of other speakers. 46 hours became about 30.
+
+## 7. Train the voice clone
+
+| Attempt | Training audio | Result |
+| --- | --- | --- |
+| Instant clone | 3 minutes | Clearly AI |
+| Existing professional clone | 30 minutes of reading a book | Read conversation like an audiobook |
+| New professional clone | 101 minutes of natural conversation | Sounds like the speaker |
+
+For the new clone, pick consistency over quantity: 101 minutes from one show, one recording setup and one way of talking, out of the 12 hours available. ElevenLabs runs a voice verification step before training. Training took less than an hour.
+
+The script matters as much as the training data. Extract the speaker's habits from their transcripts (here 17,600 words: filler words and stock phrases) and write the text the way they talk. Polished written language makes even a good clone sound synthetic.
+
+With `eleven_multilingual_v2` the result sounded like the speaker. The newer v4 model sounded close, but not the same.
+
+## Troubleshooting
+
+- **ElevenLabs credit runs out mid-run.** The free credit lasted 7 episodes. Upgrade to Creator before the full run. Because results are saved per episode, the run picks up where it stopped.
+- **A question and its answer get the same speaker.** Don't use the transcription model's diarization. Assign speakers from voiceprint matching.
+- **Names and acronyms come out wrong.** Pass a per-episode term list to the transcription model.
+- **Clean clips get thrown away.** Filter overlap at word level, not segment level.
+- **The clone sounds like it's reading.** Check the style of the training audio. Train on conversation, not narration.
+
+## What to reuse
+
+- Turn "who is speaking?" into "which of these known people is this?"
+- Pilot, check by ear, then scale.
+- Discard data you're not sure about.
+- The style of the training data becomes the style of the output.

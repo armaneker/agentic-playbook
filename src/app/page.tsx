@@ -55,8 +55,8 @@ const tools = [
     description: 'Real-world agent deployments',
     href: '/case-studies',
     icon: BookOpen,
-    count: 'Coming soon',
-    available: false,
+    count: '1 case study',
+    available: true,
   },
   {
     title: 'Trending Repos',
@@ -85,6 +85,12 @@ const tools = [
 ];
 
 const latestGuides = [
+  {
+    title: 'Build a Speaker-Labeled Voice Dataset From a Podcast Archive',
+    description: '227 podcast episodes to per-speaker clips and a voice clone, with Claude Code and pyannoteAI voiceprints',
+    href: '/case-studies/podcast-voice-dataset',
+    tool: 'Case Study',
+  },
   {
     title: 'Stacking Loops',
     description: 'Agent, verification, event and improvement loops, and where humans belong',

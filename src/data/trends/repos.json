@@ -369,7 +369,7 @@
     "f/prompts.chat": {
       "full_name": "f/prompts.chat",
       "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
-      "language": "HTML",
+      "language": "MDX",
       "url": "https://github.com/f/prompts.chat",
       "first_seen": "2026-03-22",
       "has_summary": true,
@@ -42015,7 +42015,7 @@
     "CyC2018/CS-Notes": {
       "full_name": "CyC2018/CS-Notes",
       "description": ":books: 技术面试必备基础知识、Leetcode、计算机操作系统、计算机网络、系统设计",
-      "language": "Python",
+      "language": "JavaScript",
       "url": "https://github.com/CyC2018/CS-Notes",
       "first_seen": "2026-10-22",
       "has_summary": false,
@@ -43215,7 +43215,7 @@
     },
     "wangzan101/Mika": {
       "full_name": "wangzan101/Mika",
-      "description": "Mika — 你手机上的私人 AI 助理，替你操作 App、上网、把事办成。An on-device AI agent for Android that operates apps and the web to get things done for you.",
+      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "language": "Kotlin",
       "url": "https://github.com/wangzan101/Mika",
       "first_seen": "2026-10-30",
@@ -43510,6 +43510,28 @@
       ],
       "category": "AI / ML",
       "version": "floorplan--v0.6.0"
+    },
+    "Arjun-Ingole/hop": {
+      "full_name": "Arjun-Ingole/hop",
+      "description": "Install Linux next to Windows without a USB stick",
+      "language": "PowerShell",
+      "url": "https://github.com/Arjun-Ingole/hop",
+      "first_seen": "2026-11-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "physicsdolphin/nv-uefi-unlocker": {
+      "full_name": "physicsdolphin/nv-uefi-unlocker",
+      "description": "UEFI pre-driver NVIDIA GPU unlocker for Windows Linux Hackintosh and all EFI-bootable system (Rust): SEC2 scrubber -> FWSEC/WPR2 -> signed Booter -> V67 four-write payload, read-back verified. Verified on most RTX 20 30 40 Series.",
+      "language": "Rust",
+      "url": "https://github.com/physicsdolphin/nv-uefi-unlocker",
+      "first_seen": "2026-11-01",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.1.8"
     }
   }
 }

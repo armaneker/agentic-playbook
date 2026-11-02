@@ -43680,6 +43680,58 @@
       ],
       "category": "Agentic",
       "version": "v0.1.15"
+    },
+    "Verlintas/NOIR": {
+      "full_name": "Verlintas/NOIR",
+      "description": "手机隐私审计：用 adb 扫出 Android 应用的权限、上报端点与数据流向，并给出可回滚的处置。Desktop Android leak audit: permissions, endpoints, data flows, reversible fixes.",
+      "language": "Kotlin",
+      "url": "https://github.com/Verlintas/NOIR",
+      "first_seen": "2026-11-02",
+      "has_summary": false,
+      "topics": [
+        "adb",
+        "android",
+        "android-privacy",
+        "android-security",
+        "android-tools",
+        "apk-analysis",
+        "bloatware",
+        "cli",
+        "cross-platform",
+        "debloat",
+        "jadx",
+        "kotlin",
+        "kotlin-multiplatform",
+        "privacy",
+        "privacy-tools",
+        "security-audit",
+        "static-analysis",
+        "telemetry",
+        "terminal-ui",
+        "tui"
+      ],
+      "category": "Mobile",
+      "version": "v0.2.5"
+    },
+    "caru-ini/stack-diagram": {
+      "full_name": "caru-ini/stack-diagram",
+      "description": "Agent skill: describe your stack in a sentence, get an architecture diagram with official logos",
+      "language": "TypeScript",
+      "url": "https://github.com/caru-ini/stack-diagram",
+      "first_seen": "2026-11-02",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "architecture-diagram",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "diagram",
+        "system-architecture",
+        "tech-stack"
+      ],
+      "category": "Other",
+      "version": "v0.3.0"
     }
   }
 }

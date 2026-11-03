@@ -43135,12 +43135,18 @@
     },
     "valentderah/totk-pc-recomp": {
       "full_name": "valentderah/totk-pc-recomp",
-      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows x86-64, with a Vulkan renderer. Game files not included.",
+      "description": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "language": "C",
       "url": "https://github.com/valentderah/totk-pc-recomp",
       "first_seen": "2026-10-30",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "game",
+        "linux",
+        "port",
+        "recompilation",
+        "windows"
+      ],
       "category": "Other",
       "version": "v0.1.1"
     },
@@ -43732,6 +43738,92 @@
       ],
       "category": "Other",
       "version": "v0.3.0"
+    },
+    "hyz317/HairDeck": {
+      "full_name": "hyz317/HairDeck",
+      "description": "HairDeck: Animation-Ready Stylized Hair Cards from a Single Image",
+      "language": "Python",
+      "url": "https://github.com/hyz317/HairDeck",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "benderandrew069/deepseek-api-pricing-2026": {
+      "full_name": "benderandrew069/deepseek-api-pricing-2026",
+      "description": "DeepSeek API pricing guide for models, cache hits, and peak hours (2026).",
+      "language": "Unknown",
+      "url": "https://github.com/benderandrew069/deepseek-api-pricing-2026",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [
+        "api-pricing",
+        "cost-calculator",
+        "deepseek",
+        "deepseek-api",
+        "prompt-caching"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "joeblau/subvox": {
+      "full_name": "joeblau/subvox",
+      "description": "",
+      "language": "Swift",
+      "url": "https://github.com/joeblau/subvox",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ramenvr/autopilot": {
+      "full_name": "ramenvr/autopilot",
+      "description": "Play any game",
+      "language": "Python",
+      "url": "https://github.com/ramenvr/autopilot",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": "v1.0.0-848084e"
+    },
+    "sleepy-zone/ai-ref-library-cn": {
+      "full_name": "sleepy-zone/ai-ref-library-cn",
+      "description": "AI 作图素材库 · 中文版（脸 / 姿势 / 服装）",
+      "language": "JavaScript",
+      "url": "https://github.com/sleepy-zone/ai-ref-library-cn",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [
+        "ai",
+        "gpt"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "neuregex/freefield": {
+      "full_name": "neuregex/freefield",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/neuregex/freefield",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mromidev/claude-animated-shorts": {
+      "full_name": "mromidev/claude-animated-shorts",
+      "description": "Free Claude skill: viral animated story shorts (2D characters in a 3D world) with three.js + Remotion",
+      "language": "TypeScript",
+      "url": "https://github.com/mromidev/claude-animated-shorts",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -72,6 +72,10 @@ export const navigation: NavItem[] = [
   {
     title: 'Case Studies',
     href: '/case-studies',
+    children: [
+      { title: 'Overview', href: '/case-studies' },
+      { title: 'Podcast Voice Dataset', href: '/case-studies/podcast-voice-dataset' },
+    ],
   },
   {
     title: 'Trending Repos',

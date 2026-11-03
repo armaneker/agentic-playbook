@@ -43262,13 +43262,20 @@
     },
     "lexifina/global-law": {
       "full_name": "lexifina/global-law",
-      "description": "Git for Global Law: the law of every country as one git history, each country's record a submodule, every commit one law taking effect",
+      "description": "Git for Global Law: the law of 700+ jurisdictions in git, each country's record a submodule where every commit is one change, dated by when it took effect and credited to the law that made it; read any provision on any date with tools/law.py or the MCP server",
       "language": "HTML",
       "url": "https://github.com/lexifina/global-law",
       "first_seen": "2026-10-30",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "git",
+        "law",
+        "legal-tech",
+        "legislation",
+        "mcp",
+        "open-data"
+      ],
+      "category": "Agentic",
       "version": null
     },
     "BryceYuuu/RUN": {
@@ -43841,6 +43848,17 @@
       "description": "Idol: a single image to 3D Gaussians. Inference SDK and demo.",
       "language": "Python",
       "url": "https://github.com/speridlabs/idol-sdk",
+      "first_seen": "2026-11-03",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "RikiyaT/lm_understand-logs": {
+      "full_name": "RikiyaT/lm_understand-logs",
+      "description": "Complete logs of the experiments in the blog post 'LLMs can understand and write neural network weights'",
+      "language": "Python",
+      "url": "https://github.com/RikiyaT/lm_understand-logs",
       "first_seen": "2026-11-03",
       "has_summary": false,
       "topics": [],

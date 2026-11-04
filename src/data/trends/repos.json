@@ -43210,7 +43210,7 @@
     "paipiange/nvzhuang": {
       "full_name": "paipiange/nvzhuang",
       "description": "1407 张 AI 女装参考图集与虚拟试穿网站，支持中英检索、OpenAI Images / Gemini / 豆包及自定义 Base URL、API Key、模型。https://github.com/paipiange/nvzhuang",
-      "language": "Go",
+      "language": "HTML",
       "url": "https://github.com/paipiange/nvzhuang",
       "first_seen": "2026-10-30",
       "has_summary": false,
@@ -43978,6 +43978,78 @@
       "topics": [],
       "category": "Other",
       "version": "v0.5.0"
+    },
+    "JuneYaooo/rea-video": {
+      "full_name": "JuneYaooo/rea-video",
+      "description": "逆向一切视频：实拍口播、桌拍、AI 视频、3D、代码动效、混剪，逐镜拆出画面、花字、剪辑和声音是怎么做的，并给出复刻方案。Reverse-engineer any video, shot by shot.",
+      "language": "Python",
+      "url": "https://github.com/JuneYaooo/rea-video",
+      "first_seen": "2026-11-04",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-video",
+        "aigc-detection",
+        "claude-code",
+        "codex",
+        "douyin",
+        "ffmpeg",
+        "prompt-engineering",
+        "remotion",
+        "reverse-engineering",
+        "short-video",
+        "shot-detection",
+        "subtitles",
+        "tiktok",
+        "video-analysis",
+        "video-breakdown",
+        "video-editing",
+        "video-generation",
+        "vlm"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "N1nEmAn/sapper-v2": {
+      "full_name": "N1nEmAn/sapper-v2",
+      "description": "Autonomous pentest legion — AI commander + worker swarm + layered fact-intent graph. 3rd Tencent Intelligent Attack-Defense online champion (634 teams · 8h unattended · 1B tokens beat 4.5B). The Nüwa Test: give AIs Create/Language/History, let a civilization grow.",
+      "language": "Python",
+      "url": "https://github.com/N1nEmAn/sapper-v2",
+      "first_seen": "2026-11-04",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "autonomous-agents",
+        "claude-code",
+        "ctf",
+        "llm",
+        "multi-agent",
+        "pentest"
+      ],
+      "category": "Agentic",
+      "version": "v18-champion"
+    },
+    "anthropics/FlashProve": {
+      "full_name": "anthropics/FlashProve",
+      "description": "A research prototype for zero-knowledge proofs of AI inference. Not maintained.",
+      "language": "Lean",
+      "url": "https://github.com/anthropics/FlashProve",
+      "first_seen": "2026-11-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "hongye007/open-pose-costume": {
+      "full_name": "hongye007/open-pose-costume",
+      "description": "A bilingual reference studio for poses, costumes, and AI character creation.",
+      "language": "TypeScript",
+      "url": "https://github.com/hongye007/open-pose-costume",
+      "first_seen": "2026-11-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.1.0"
     }
   }
 }

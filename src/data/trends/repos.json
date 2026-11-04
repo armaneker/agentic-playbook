@@ -43292,7 +43292,7 @@
     "kevinraymond/florilegium": {
       "full_name": "kevinraymond/florilegium",
       "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
-      "language": "Lua",
+      "language": "TeX",
       "url": "https://github.com/kevinraymond/florilegium",
       "first_seen": "2026-10-31",
       "has_summary": false,
@@ -43575,7 +43575,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "stageshow-v1.1.0"
     },
     "storytold/craft-anything": {
       "full_name": "storytold/craft-anything",
@@ -43948,6 +43948,36 @@
       ],
       "category": "Mobile",
       "version": "v1.0.0"
+    },
+    "govijr/terminal-mac": {
+      "full_name": "govijr/terminal-mac",
+      "description": "Entire MacOS running in your terminal.",
+      "language": "Swift",
+      "url": "https://github.com/govijr/terminal-mac",
+      "first_seen": "2026-11-04",
+      "has_summary": false,
+      "topics": [
+        "cli",
+        "gui",
+        "macos",
+        "shell",
+        "swift",
+        "terminal",
+        "tui"
+      ],
+      "category": "Mobile",
+      "version": "v0.2.0-6"
+    },
+    "rerun-build/rerun": {
+      "full_name": "rerun-build/rerun",
+      "description": "AI coworkers that run your work. Self-hostable, AGPL-3.0.",
+      "language": "TypeScript",
+      "url": "https://github.com/rerun-build/rerun",
+      "first_seen": "2026-11-04",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.5.0"
     }
   }
 }

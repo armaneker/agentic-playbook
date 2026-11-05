@@ -43929,12 +43929,14 @@
     },
     "wquguru/cicada": {
       "full_name": "wquguru/cicada",
-      "description": "知了 Cicada · 任意会议与直播的实时字幕、同声传译、AI 会议纪要（macOS）。Live subtitles, interpreting and meeting notes for any call or stream on your Mac.",
+      "description": "知了 Cicada · 任何会议和直播的实时字幕、同声传译、AI 会议纪要，Mac、Windows、Linux、Android 免费开源。Live subtitles, interpreting and meeting notes for any call or stream, on Mac, Windows, Linux and Android.",
       "language": "Swift",
       "url": "https://github.com/wquguru/cicada",
       "first_seen": "2026-11-04",
       "has_summary": false,
       "topics": [
+        "android",
+        "linux",
         "live-captions",
         "macos",
         "meeting-notes",
@@ -43944,7 +43946,8 @@
         "subtitles",
         "swift",
         "swiftui",
-        "translation"
+        "translation",
+        "windows"
       ],
       "category": "Mobile",
       "version": "v1.0.0"
@@ -43981,7 +43984,7 @@
     },
     "JuneYaooo/rea-video": {
       "full_name": "JuneYaooo/rea-video",
-      "description": "逆向一切视频：实拍口播、桌拍、AI 视频、3D、代码动效、混剪，逐镜拆出画面、花字、剪辑和声音是怎么做的，并给出复刻方案。Reverse-engineer any video, shot by shot.",
+      "description": "Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。",
       "language": "Python",
       "url": "https://github.com/JuneYaooo/rea-video",
       "first_seen": "2026-11-04",
@@ -44050,6 +44053,50 @@
       "topics": [],
       "category": "Other",
       "version": "v2.1.0"
+    },
+    "zortos293/Lichii": {
+      "full_name": "zortos293/Lichii",
+      "description": "VERY experimental Nintendo Switch 2 emulator",
+      "language": "C++",
+      "url": "https://github.com/zortos293/Lichii",
+      "first_seen": "2026-11-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
+      "full_name": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "description": "Google_AI_Pro_2Year_ZeroCost_Auto",
+      "language": "Python",
+      "url": "https://github.com/worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
+      "first_seen": "2026-11-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Minireel/HGhub": {
+      "full_name": "Minireel/HGhub",
+      "description": "YellowFruit third-party client",
+      "language": "TypeScript",
+      "url": "https://github.com/Minireel/HGhub",
+      "first_seen": "2026-11-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.1"
+    },
+    "Minglink/dsh-jailbreak-workflow": {
+      "full_name": "Minglink/dsh-jailbreak-workflow",
+      "description": "DSH 破甲词制作作工作流 ",
+      "language": "TypeScript",
+      "url": "https://github.com/Minglink/dsh-jailbreak-workflow",
+      "first_seen": "2026-11-05",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

@@ -43291,20 +43291,23 @@
     },
     "kevinraymond/florilegium": {
       "full_name": "kevinraymond/florilegium",
-      "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, drawn in Lua",
+      "description": "Procedurally generated Delft-blue floral page margins for LuaLaTeX, with plants and visitors sampled from genomes and a TikZ library that also draws them under pdfLaTeX",
       "language": "TeX",
       "url": "https://github.com/kevinraymond/florilegium",
       "first_seen": "2026-10-31",
       "has_summary": false,
       "topics": [
+        "botanical-illustration",
         "generative-art",
         "latex",
         "latex-package",
         "lua",
         "lualatex",
+        "pdflatex",
         "postscript",
         "procedural-generation",
         "svg",
+        "tikz",
         "typography"
       ],
       "category": "Other",
@@ -44107,7 +44110,7 @@
     },
     "s1dashu/quiet-md": {
       "full_name": "s1dashu/quiet-md",
-      "description": "Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML. 高性能本地笔记，兼容飞书文档格式。",
+      "description": "Blazing-fast native notes app for macOS & Windows. Rust + GPUI, local-first, compatible with Feishu/Lark DocxXML.",
       "language": "Rust",
       "url": "https://github.com/s1dashu/quiet-md",
       "first_seen": "2026-11-05",

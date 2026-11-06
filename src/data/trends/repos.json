@@ -44279,6 +44279,112 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "jwasham/coding-interview-university": {
+      "full_name": "jwasham/coding-interview-university",
+      "description": "A complete computer science study plan to become a software engineer.",
+      "language": "Unknown",
+      "url": "https://github.com/jwasham/coding-interview-university",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [
+        "algorithm",
+        "algorithms",
+        "coding-interview",
+        "coding-interviews",
+        "computer-science",
+        "data-structures",
+        "interview",
+        "interview-prep",
+        "interview-preparation",
+        "programming-interviews",
+        "software-engineering",
+        "study-plan"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "livliv-dev/player": {
+      "full_name": "livliv-dev/player",
+      "description": "A lightweight 2.5D character player for the web, with lip sync and webcam face tracking.",
+      "language": "TypeScript",
+      "url": "https://github.com/livliv-dev/player",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [
+        "avatar",
+        "character",
+        "face-tracking",
+        "lip-sync",
+        "pngtuber",
+        "vrm",
+        "vtuber",
+        "webgl2"
+      ],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "jxy333967/jianxunyun": {
+      "full_name": "jxy333967/jianxunyun",
+      "description": "简讯云  最好的vpn服务",
+      "language": "Unknown",
+      "url": "https://github.com/jxy333967/jianxunyun",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "chadyi/StudyOnTV": {
+      "full_name": "chadyi/StudyOnTV",
+      "description": "StudyOnTV (Tiledaoti TV) — open-source Android TV app where kids unlock screen time by answering questions. Runs fully on the TV: no server, no account. Parents scan a QR code and manage questions from the LAN. Learn first. Watch later.",
+      "language": "Kotlin",
+      "url": "https://github.com/chadyi/StudyOnTV",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "android-tv",
+        "children",
+        "digital-wellbeing",
+        "edtech",
+        "education",
+        "family",
+        "kids",
+        "learn-first",
+        "learning",
+        "learning-app",
+        "open-source",
+        "parental-controls",
+        "parenting",
+        "quiz",
+        "screen-time",
+        "screen-time-management",
+        "smart-tv",
+        "study-app",
+        "tv-box"
+      ],
+      "category": "Mobile",
+      "version": "v0.3.9"
+    },
+    "AhmadHassan-BTed/RainGeneratorPy": {
+      "full_name": "AhmadHassan-BTed/RainGeneratorPy",
+      "description": "This repository will be used to develop a rain generator, actually it use white noises to simulate wind and have an integrated thunderstorm simulator.",
+      "language": "Python",
+      "url": "https://github.com/AhmadHassan-BTed/RainGeneratorPy",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [
+        "asmr",
+        "audio-generator",
+        "rain-generator",
+        "rain-maker",
+        "rainfall",
+        "thunderbolt",
+        "thunderstorm"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

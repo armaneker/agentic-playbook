@@ -44385,6 +44385,47 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "mmdoctor/google-pro-helper": {
+      "full_name": "mmdoctor/google-pro-helper",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/mmdoctor/google-pro-helper",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Sandflow-ai/sand3d": {
+      "full_name": "Sandflow-ai/sand3d",
+      "description": "3D modeling in Python, built for LLMs.",
+      "language": "HTML",
+      "url": "https://github.com/Sandflow-ai/sand3d",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "blender",
+        "cad",
+        "llm",
+        "procedural-modeling",
+        "python",
+        "usd"
+      ],
+      "category": "AI / ML",
+      "version": "v1.6.3"
+    },
+    "sqlpxc/airhand": {
+      "full_name": "sqlpxc/airhand",
+      "description": "High-performance remote desktop over QUIC · Rust + Tauri + React",
+      "language": "Rust",
+      "url": "https://github.com/sqlpxc/airhand",
+      "first_seen": "2026-11-06",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

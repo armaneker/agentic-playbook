@@ -43280,12 +43280,31 @@
     },
     "BryceYuuu/RUN": {
       "full_name": "BryceYuuu/RUN",
-      "description": "RUN · 润：海外移居手册（欧洲 36 国 · 110 条路线 · 主要移民地区）",
+      "description": "RUN · 润：中国护照持有人的海外移居手册。欧洲 36 国 110 条移民路线 + 13 个主要移民地区：数字游民签证、欧盟蓝卡、技术移民、留学转工作、创业自雇、投资居留，每条附官方来源，持续更新。",
       "language": "Python",
       "url": "https://github.com/BryceYuuu/RUN",
       "first_seen": "2026-10-31",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "china",
+        "chinese",
+        "digital-nomad",
+        "digital-nomad-visa",
+        "emigration",
+        "eu-blue-card",
+        "europe",
+        "expat",
+        "golden-visa",
+        "immigration",
+        "immigration-guide",
+        "relocation",
+        "residence-permit",
+        "run-philosophy",
+        "schengen",
+        "study-abroad",
+        "visa",
+        "work-visa"
+      ],
       "category": "Other",
       "version": null
     },
@@ -44540,6 +44559,106 @@
       ],
       "category": "AI / ML",
       "version": "v0.1.0"
+    },
+    "NotRexed/Hookshot": {
+      "full_name": "NotRexed/Hookshot",
+      "description": "A Native Recompilation Of The Legend Of Zelda: Ocarina Of Time Nintendo Switch 2 Remake",
+      "language": "C++",
+      "url": "https://github.com/NotRexed/Hookshot",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "brighter"
+    },
+    "voyager-so/vork": {
+      "full_name": "voyager-so/vork",
+      "description": "Headless 3D and VFX engine for agents. Research preview.",
+      "language": "Rust",
+      "url": "https://github.com/voyager-so/vork",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [
+        "3d",
+        "ai-agents",
+        "gpu",
+        "metal",
+        "ray-tracing",
+        "rendering",
+        "rust",
+        "slang",
+        "vfx",
+        "vulkan"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.0"
+    },
+    "WoYun520/gif-factory": {
+      "full_name": "WoYun520/gif-factory",
+      "description": "GIF 工厂：按风格制作像素、人物与宠物、粘土吉祥物、光栅卡与动态海报的 GIF Skill。",
+      "language": "Python",
+      "url": "https://github.com/WoYun520/gif-factory",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Leviidev/Henge": {
+      "full_name": "Leviidev/Henge",
+      "description": "Emulate macOS on iOS and iPadOS",
+      "language": "C",
+      "url": "https://github.com/Leviidev/Henge",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "0.1"
+    },
+    "kingcharleslzy-ai/dsh-purge": {
+      "full_name": "kingcharleslzy-ai/dsh-purge",
+      "description": "dsh-purge Community · DeepSeek Harness 社区维护版：宿主兼容、状态诊断、提示词管理、更新与本机备份回滚。基于小杨 / YuJunZhiXue 的 dsh-purge。",
+      "language": "JavaScript",
+      "url": "https://github.com/kingcharleslzy-ai/dsh-purge",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [
+        "agent-tools",
+        "backup",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "jailbreak",
+        "prompt-injection",
+        "prompt-management",
+        "purge-community",
+        "rollback"
+      ],
+      "category": "Other",
+      "version": "v1.6.84"
+    },
+    "toyxyz/toyxyz_RGBMocap": {
+      "full_name": "toyxyz/toyxyz_RGBMocap",
+      "description": "Native Windows video motion capture with ExMR, FlowHMR and GVHMR, contact correction, humanoid retargeting, and FBX/VMD export.",
+      "language": "Python",
+      "url": "https://github.com/toyxyz/toyxyz_RGBMocap",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "jiuyang5354/bilibili-margin": {
+      "full_name": "jiuyang5354/bilibili-margin",
+      "description": "映间 MARGIN · 重新设计 B 站首页与视频播放页预览版 (Chrome / Edge 扩展) | A Chrome/Edge extension that redesigns Bilibili home, video and search pages with liquid glass controls and shader backgrounds.",
+      "language": "TypeScript",
+      "url": "https://github.com/jiuyang5354/bilibili-margin",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.52.0"
     }
   }
 }

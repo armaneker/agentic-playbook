@@ -44659,6 +44659,50 @@
       "topics": [],
       "category": "Other",
       "version": "v0.52.0"
+    },
+    "egoist/mygo-music": {
+      "full_name": "egoist/mygo-music",
+      "description": "A native music player you extend with plugins",
+      "language": "Go",
+      "url": "https://github.com/egoist/mygo-music",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.22"
+    },
+    "sostenesfreitas/ocarina-recomp": {
+      "full_name": "sostenesfreitas/ocarina-recomp",
+      "description": "Ocarina of Time running natively on Windows, no emulator. Built on your PC from your own copy. No game files included.",
+      "language": "C",
+      "url": "https://github.com/sostenesfreitas/ocarina-recomp",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.4"
+    },
+    "CzJam/gjgjxweb": {
+      "full_name": "CzJam/gjgjxweb",
+      "description": "《搞机工具箱》Web移植版",
+      "language": "HTML",
+      "url": "https://github.com/CzJam/gjgjxweb",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "sarpstar/cinecode": {
+      "full_name": "sarpstar/cinecode",
+      "description": "Films made with code. Short films, long YouTube videos, ads, explainers and music videos: an AI coding agent writes the script, builds every frame in code, designs the sound and hands you an MP4.",
+      "language": "Python",
+      "url": "https://github.com/sarpstar/cinecode",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

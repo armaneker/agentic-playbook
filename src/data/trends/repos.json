@@ -44426,6 +44426,120 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "JenkinWoo/sheeridVerify": {
+      "full_name": "JenkinWoo/sheeridVerify",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/JenkinWoo/sheeridVerify",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zhanghao123vip/ai-manju-skills": {
+      "full_name": "zhanghao123vip/ai-manju-skills",
+      "description": "21 个题材的 AI 漫剧全流程 Skill：一句点子生成企划案、资产图提示词、分集剧本、分镜与视频提示词。可用于 Claude Code、WorkBuddy、DeepSeek",
+      "language": "Unknown",
+      "url": "https://github.com/zhanghao123vip/ai-manju-skills",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [
+        "ai-skills",
+        "ai-video",
+        "chinese",
+        "claude-code",
+        "prompt-engineering"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "libracoder/kiri": {
+      "full_name": "libracoder/kiri",
+      "description": "A small, fast container runtime for macOS, Windows and Linux",
+      "language": "Rust",
+      "url": "https://github.com/libracoder/kiri",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.18"
+    },
+    "WoYun520/pixel-gif-sticker-pack": {
+      "full_name": "WoYun520/pixel-gif-sticker-pack",
+      "description": "A Codex skill for creating and verifying animated GIF sticker packs from character references.",
+      "language": "Python",
+      "url": "https://github.com/WoYun520/pixel-gif-sticker-pack",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Lee-xeo/Claude-Cage": {
+      "full_name": "Lee-xeo/Claude-Cage",
+      "description": "Cage：为 Claude 特化的轻量化虚拟机，彻底杜绝网络泄露。多平台适配，支持多账号管理、远程部署、移动端操控。",
+      "language": "Go",
+      "url": "https://github.com/Lee-xeo/Claude-Cage",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "kevintngo/looseleaf": {
+      "full_name": "kevintngo/looseleaf",
+      "description": "shadcn/ui, drawn by hand: 123 accessible React components that look drawn on paper, with a shadcn registry.",
+      "language": "TypeScript",
+      "url": "https://github.com/kevintngo/looseleaf",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "smarkyie/NSP-Box": {
+      "full_name": "smarkyie/NSP-Box",
+      "description": "NSP Box: A Switch 2 Game Packager. Experimental Windows tool for lawfully obtained game snapshots and extracted DLC, with reversible emulator patching.",
+      "language": "Python",
+      "url": "https://github.com/smarkyie/NSP-Box",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v4.0.0"
+    },
+    "microsoft/TokenEconomizer": {
+      "full_name": "microsoft/TokenEconomizer",
+      "description": "Experience-Driven Black-Box Cost Control for Coding Agents",
+      "language": "Python",
+      "url": "https://github.com/microsoft/TokenEconomizer",
+      "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "agentic-coding",
+        "ai-coding",
+        "ai-coding-assistant",
+        "anthropic",
+        "artificial-intelligence",
+        "claude-code",
+        "codex",
+        "coding-agent",
+        "coding-agents",
+        "cost-optimization",
+        "cost-reduction",
+        "developer-tools",
+        "github-copilot",
+        "llm",
+        "open-source",
+        "openai",
+        "productivity",
+        "token-optimization"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.0"
     }
   }
 }

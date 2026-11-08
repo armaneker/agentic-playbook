@@ -42745,7 +42745,7 @@
     "LNPANDY/NX2Apple": {
       "full_name": "LNPANDY/NX2Apple",
       "description": "Play your own Switch games on iPhone/iPad — one-click macOS app, no terminal. | 把 Switch 游戏装进 iPhone：图形界面一键构建，不用命令行。Bring your own game.",
-      "language": "Python",
+      "language": "Swift",
       "url": "https://github.com/LNPANDY/NX2Apple",
       "first_seen": "2026-10-27",
       "has_summary": false,
@@ -44083,7 +44083,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "build-117"
     },
     "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto": {
       "full_name": "worldonlyu/Google_AI_Pro_2Year_ZeroCost_Auto",
@@ -44699,6 +44699,77 @@
       "language": "Python",
       "url": "https://github.com/sarpstar/cinecode",
       "first_seen": "2026-11-07",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "shanselman/gputaskman": {
+      "full_name": "shanselman/gputaskman",
+      "description": "A GPU task manager for Windows, Linux, and WSL: per-process VRAM, GPU activity, and LLM model/KV-cache insights (Windows AMD and NVIDIA).",
+      "language": "Python",
+      "url": "https://github.com/shanselman/gputaskman",
+      "first_seen": "2026-11-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.3.3"
+    },
+    "JosssphZhou/poki": {
+      "full_name": "JosssphZhou/poki",
+      "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
+      "language": "JavaScript",
+      "url": "https://github.com/JosssphZhou/poki",
+      "first_seen": "2026-11-08",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "automation",
+        "ios",
+        "iphone",
+        "mcp",
+        "model-context-protocol"
+      ],
+      "category": "Agentic",
+      "version": "v0.1.1"
+    },
+    "Th0rgal/satmux": {
+      "full_name": "Th0rgal/satmux",
+      "description": "Accelerate high-latency GEO inflight Wi-Fi via warm BBR TCP multiplexing + 1-RTT Ground-TLS + zlib (zero dependencies)",
+      "language": "Python",
+      "url": "https://github.com/Th0rgal/satmux",
+      "first_seen": "2026-11-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zeekk0/OpenAmika": {
+      "full_name": "zeekk0/OpenAmika",
+      "description": "OpenAmika: MekaHime's AI companion Amika, open source. Live2D avatar, real-time voice, long-term memory, OpenRouter or Ollama brain.",
+      "language": "Python",
+      "url": "https://github.com/zeekk0/OpenAmika",
+      "first_seen": "2026-11-08",
+      "has_summary": false,
+      "topics": [
+        "ai-companion",
+        "live2d",
+        "long-term-memory",
+        "mekahime",
+        "ollama",
+        "openrouter",
+        "speech-recognition",
+        "text-to-speech"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "konlu/story-studio": {
+      "full_name": "konlu/story-studio",
+      "description": "从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill",
+      "language": "Python",
+      "url": "https://github.com/konlu/story-studio",
+      "first_seen": "2026-11-08",
       "has_summary": false,
       "topics": [],
       "category": "Other",

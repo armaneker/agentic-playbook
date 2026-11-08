@@ -44006,7 +44006,7 @@
     },
     "JuneYaooo/rea-video": {
       "full_name": "JuneYaooo/rea-video",
-      "description": "Reverse-engineer any video, shot by shot: tells whether each shot was filmed, AI-generated or coded, how the captions, cuts and audio were made, and how to remake it. 逆向一切视频，逐镜拆出制作方式并给出复刻方案。",
+      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it.",
       "language": "Python",
       "url": "https://github.com/JuneYaooo/rea-video",
       "first_seen": "2026-11-04",
@@ -44769,6 +44769,28 @@
       "description": "从选题到剪映草稿的一站式 AI 短视频内容创作 Agent Skill",
       "language": "Python",
       "url": "https://github.com/konlu/story-studio",
+      "first_seen": "2026-11-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "tangerineturtle1/NX2navi": {
+      "full_name": "tangerineturtle1/NX2navi",
+      "description": "",
+      "language": "C",
+      "url": "https://github.com/tangerineturtle1/NX2navi",
+      "first_seen": "2026-11-08",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.5.0"
+    },
+    "Eglantine-Community/Eglantine": {
+      "full_name": "Eglantine-Community/Eglantine",
+      "description": "VERY experimental Nintendo Switch 2 emulator",
+      "language": "C++",
+      "url": "https://github.com/Eglantine-Community/Eglantine",
       "first_seen": "2026-11-08",
       "has_summary": false,
       "topics": [],

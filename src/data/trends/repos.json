@@ -44718,7 +44718,7 @@
     "JosssphZhou/poki": {
       "full_name": "JosssphZhou/poki",
       "description": "Let AI agents operate a real iPhone. Local MCP server and agent, no jailbreak, no extra hardware.",
-      "language": "JavaScript",
+      "language": "Swift",
       "url": "https://github.com/JosssphZhou/poki",
       "first_seen": "2026-11-08",
       "has_summary": false,
@@ -44991,6 +44991,28 @@
       ],
       "category": "Other",
       "version": "v1.5.0"
+    },
+    "janestreet/agent_skills": {
+      "full_name": "janestreet/agent_skills",
+      "description": "Agent skills",
+      "language": "Unknown",
+      "url": "https://github.com/janestreet/agent_skills",
+      "first_seen": "2026-11-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "huamidev/GestaltX": {
+      "full_name": "huamidev/GestaltX",
+      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "language": "Swift",
+      "url": "https://github.com/huamidev/GestaltX",
+      "first_seen": "2026-11-09",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.2"
     }
   }
 }

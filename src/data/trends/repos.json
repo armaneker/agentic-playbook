@@ -45287,6 +45287,97 @@
       ],
       "category": "DevTools",
       "version": null
+    },
+    "Kianuni/Erosion-CN": {
+      "full_name": "Kianuni/Erosion-CN",
+      "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+      "language": "Swift",
+      "url": "https://github.com/Kianuni/Erosion-CN",
+      "first_seen": "2026-11-10",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.7.1"
+    },
+    "RunanywhereAI/trnrt": {
+      "full_name": "RunanywhereAI/trnrt",
+      "description": "The open LLM inference engine for AWS Trainium: NKI megakernels, 1M-token context, OpenAI-compatible API. By RunAnywhere.",
+      "language": "Python",
+      "url": "https://github.com/RunanywhereAI/trnrt",
+      "first_seen": "2026-11-10",
+      "has_summary": false,
+      "topics": [
+        "aws",
+        "glm",
+        "inference",
+        "llm",
+        "llm-serving",
+        "megakernels",
+        "neuron",
+        "nki",
+        "openai-api",
+        "trainium"
+      ],
+      "category": "AI / ML",
+      "version": "v0.1.0"
+    },
+    "jeevijk/secure-asset-deploy": {
+      "full_name": "jeevijk/secure-asset-deploy",
+      "description": "Adobe InDesign Installer with Enhanced Security Protocols for Secure Digital Asset Deployment",
+      "language": "TypeScript",
+      "url": "https://github.com/jeevijk/secure-asset-deploy",
+      "first_seen": "2026-11-10",
+      "has_summary": false,
+      "topics": [
+        "adobe-indesign",
+        "automation",
+        "desktop",
+        "developer-tools",
+        "indesign-document",
+        "indesign-free-soft",
+        "indesign-scripts",
+        "open-source",
+        "python",
+        "scripts",
+        "software-engineering",
+        "system",
+        "utility",
+        "windows-app"
+      ],
+      "category": "DevTools",
+      "version": null
+    },
+    "SK-Dev666/rust-external-trainer-tool": {
+      "full_name": "SK-Dev666/rust-external-trainer-tool",
+      "description": "Rust External 2026: Full Standalone Trainer Setup, Tools and Dependencies Ready to Run",
+      "language": "TypeScript",
+      "url": "https://github.com/SK-Dev666/rust-external-trainer-tool",
+      "first_seen": "2026-11-10",
+      "has_summary": false,
+      "topics": [
+        "automation",
+        "desktop",
+        "developer-tools",
+        "open-source",
+        "python",
+        "rust-aim-2026",
+        "rust-exploit",
+        "rust-external-2026",
+        "rust-helper-2026",
+        "rust-menu",
+        "rust-menu-2026",
+        "rust-mod",
+        "rust-treasures",
+        "rust-wh-2026",
+        "rusthack",
+        "scripts",
+        "software-engineering",
+        "system",
+        "utility",
+        "windows-app"
+      ],
+      "category": "DevTools",
+      "version": null
     }
   }
 }

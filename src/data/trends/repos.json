@@ -45897,6 +45897,94 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "HybridRobotics/supermimic": {
+      "full_name": "HybridRobotics/supermimic",
+      "description": "Humanoid whole-body motion tracking with one differentiable world model.",
+      "language": "Python",
+      "url": "https://github.com/HybridRobotics/supermimic",
+      "first_seen": "2026-11-11",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "l-friedrich64709109/fifa-20": {
+      "full_name": "l-friedrich64709109/fifa-20",
+      "description": "FIFA 20 notes for Windows. A game page with its own preview.",
+      "language": "Unknown",
+      "url": "https://github.com/l-friedrich64709109/fifa-20",
+      "first_seen": "2026-11-11",
+      "has_summary": false,
+      "topics": [
+        "fc-mod-manager"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "leanislizarzado/ibm-spss-desktop-suite": {
+      "full_name": "leanislizarzado/ibm-spss-desktop-suite",
+      "description": "IBM SPSS Statistics 2026 Standalone Setup with Full Feature Configuration",
+      "language": "HTML",
+      "url": "https://github.com/leanislizarzado/ibm-spss-desktop-suite",
+      "first_seen": "2026-11-11",
+      "has_summary": false,
+      "topics": [
+        "analytics-suite",
+        "automation",
+        "desktop",
+        "developer-tools",
+        "ibm-analytics",
+        "ibm-spss",
+        "ibm-spss-install-setup-windows-2026",
+        "ibm-watson-services",
+        "open-source",
+        "python",
+        "scripts",
+        "software-engineering",
+        "spss",
+        "spss-2026",
+        "spss-sav",
+        "spss-statistics-2026",
+        "spss-statistics-download",
+        "system",
+        "utility",
+        "windows-app"
+      ],
+      "category": "DevTools",
+      "version": null
+    },
+    "anefzaoui/misterdownloadmanager": {
+      "full_name": "anefzaoui/misterdownloadmanager",
+      "description": "misterdownloadmanager: The ultimate open-source, clean-room download manager written from scratch in pure Rust for Windows, Mac, and Linux",
+      "language": "Rust",
+      "url": "https://github.com/anefzaoui/misterdownloadmanager",
+      "first_seen": "2026-11-11",
+      "has_summary": false,
+      "topics": [
+        "bittorrent-client",
+        "debrid",
+        "download-accelerator",
+        "download-manager",
+        "downloadmanager",
+        "egui",
+        "file-downloader",
+        "gallery-dl",
+        "idm",
+        "idm-alternative",
+        "internet-download-manager",
+        "m3u8-downloader",
+        "magnet",
+        "playlist-downloader",
+        "real-debrid",
+        "rust",
+        "torrent-client",
+        "video-downloader",
+        "youtube-downloader",
+        "yt-dlp"
+      ],
+      "category": "Other",
+      "version": "v0.5.2"
     }
   }
 }

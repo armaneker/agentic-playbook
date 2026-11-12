@@ -44006,7 +44006,7 @@
     },
     "JuneYaooo/rea-video": {
       "full_name": "JuneYaooo/rea-video",
-      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻。",
+      "description": "Reverse-engineer any video, shot by shot: filmed, AI-generated or coded, and how to remake it. Breakdowns in the open VIDEO.md format. 逆向一切视频，逐个镜头看是拍的、AI 生成的还是代码做的，再告诉你怎么复刻；拆解结果按 VIDEO.md 格式输出。",
       "language": "Python",
       "url": "https://github.com/JuneYaooo/rea-video",
       "first_seen": "2026-11-04",
@@ -44028,6 +44028,7 @@
         "video-breakdown",
         "video-editing",
         "video-generation",
+        "videomd",
         "vlm"
       ],
       "category": "AI / ML",
@@ -45010,7 +45011,7 @@
     },
     "huamidev/GestaltX": {
       "full_name": "huamidev/GestaltX",
-      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups, and support for 7 languages.",
+      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
       "language": "Swift",
       "url": "https://github.com/huamidev/GestaltX",
       "first_seen": "2026-11-09",
@@ -46509,6 +46510,62 @@
       ],
       "category": "DevTools",
       "version": null
+    },
+    "Marcian15350/mt5-tradeprotocol": {
+      "full_name": "Marcian15350/mt5-tradeprotocol",
+      "description": "",
+      "language": "TypeScript",
+      "url": "https://github.com/Marcian15350/mt5-tradeprotocol",
+      "first_seen": "2026-11-12",
+      "has_summary": false,
+      "topics": [
+        "algorithmic-trading-quantitative",
+        "crypto",
+        "foreign-exchange",
+        "forex",
+        "mcp",
+        "metatrader-5",
+        "metatrader-desktop",
+        "metatrader4",
+        "mql5",
+        "mt4",
+        "mt5",
+        "mt5-strategy"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "agentes-chat/agentes-chat": {
+      "full_name": "agentes-chat/agentes-chat",
+      "description": "Open-source, self-hosted Slack alternative where your team and AI agents work together in channels and DMs. Agents run on Claude, ChatGPT/Codex, Gemini or Grok, with MCP tools, their own computer and browser, routines, memory and approvals. Web, desktop and phone apps. Docker Compose + Postgres. AGPL-3.0.",
+      "language": "TypeScript",
+      "url": "https://github.com/agentes-chat/agentes-chat",
+      "first_seen": "2026-11-12",
+      "has_summary": false,
+      "topics": [
+        "agentic-ai",
+        "ai-agents",
+        "browser-automation",
+        "chat",
+        "claude",
+        "claude-code",
+        "codex",
+        "collaboration",
+        "computer-use",
+        "docker-compose",
+        "gemini",
+        "grok",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "openai",
+        "self-hosted",
+        "slack-alternative",
+        "team-chat"
+      ],
+      "category": "Agentic",
+      "version": "desktop-v0.8.3"
     }
   }
 }

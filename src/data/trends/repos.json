@@ -46566,6 +46566,30 @@
       ],
       "category": "Agentic",
       "version": "desktop-v0.8.3"
+    },
+    "FrigadeHQ/yogurt": {
+      "full_name": "FrigadeHQ/yogurt",
+      "description": "Private AI meeting notes. Free and open source.",
+      "language": "TypeScript",
+      "url": "https://github.com/FrigadeHQ/yogurt",
+      "first_seen": "2026-11-12",
+      "has_summary": false,
+      "topics": [
+        "electron",
+        "linux",
+        "llama-cpp",
+        "local-ai",
+        "macos",
+        "mcp",
+        "meeting-notes",
+        "open-source",
+        "privacy",
+        "transcription",
+        "whisper",
+        "windows"
+      ],
+      "category": "Agentic",
+      "version": "v0.3.8"
     }
   }
 }

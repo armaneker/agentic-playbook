@@ -46769,6 +46769,28 @@
       ],
       "category": "DevTools",
       "version": null
+    },
+    "1337isnot1337/DOPPLERGEIST": {
+      "full_name": "1337isnot1337/DOPPLERGEIST",
+      "description": "Python tool for aircraft Doppler audio geolocation using historical ADS-B flight data (Source-available)",
+      "language": "Python",
+      "url": "https://github.com/1337isnot1337/DOPPLERGEIST",
+      "first_seen": "2026-11-13",
+      "has_summary": false,
+      "topics": [
+        "acoustic-geolocation",
+        "ads-b",
+        "aircraft-tracking",
+        "airplane",
+        "audio-forensics",
+        "doppler-effect",
+        "doppler-shift",
+        "geolocation",
+        "osint",
+        "signal-processing"
+      ],
+      "category": "Other",
+      "version": "v0.1.2"
     }
   }
 }

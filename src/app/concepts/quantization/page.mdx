@@ -1,0 +1,135 @@
+<GuideHeader tool="Concepts" difficulty="Beginner" lastTested="2026-11" readTime="8 min" />
+
+# Quantization
+
+How quantization shrinks a model by storing its numbers at lower precision, what it costs in accuracy, and how to read the precision tags in model names.
+
+---
+
+## What quantization is
+
+Quantization stores numbers with fewer bits than they started with, to save memory or compute. The idea is old: audio, images and radio signals have been quantized for decades. In AI it usually means taking a trained model and storing its weights (and sometimes its activations) in a smaller number format.
+
+It is one of the cheapest ways to make a model smaller and faster without retraining it from scratch. Most models you run in production, from a phone to a large inference cluster, are quantized in some form.
+
+---
+
+## Why models need it
+
+A model is a large set of parameters: numbers tuned during training. Each one has to be stored somewhere, and the format you store it in decides how much memory the whole model takes.
+
+Model sizes for scale:
+
+- Small open models: a few billion parameters
+- Mid-size open models: tens of billions (Llama 3 has a 70B version)
+- Frontier models: estimated in the trillions
+
+Most models ship in FP16 or BF16, which use 16 bits (2 bytes) per parameter. For a 70B model:
+
+```text
+70,000,000,000 parameters × 2 bytes = 140 GB
+```
+
+That is more memory than most single data-center GPUs have, and it only counts the weights. The KV cache and activations at inference time need memory on top of that. To fit the model on less hardware, you need fewer bytes per parameter.
+
+---
+
+## Why you can't just cut bits off
+
+A floating-point number is not a plain string of digits. Its bits are split into fields: a sign, an exponent (the size of the number) and a mantissa (its detail). Dropping half the bits does not give you a rougher version of the same number. Depending on which bits you drop, you get a different number entirely.
+
+So quantization needs a defined procedure: a way to map each value to a smaller format and back again, the same way every time.
+
+---
+
+## How it works: scale and round
+
+Quantization runs layer by layer, the same way inference does. For each layer:
+
+1. Find the range of values in the layer.
+2. Pick a scale that maps that range onto the smaller set of values the target format can hold.
+3. Divide each value by the scale and round it to the nearest representable value.
+4. Store the rounded values plus the scale.
+
+To use a weight at inference time, multiply it back by the scale (dequantize).
+
+A toy example: a layer holds values from 0 to 100, and the target format can only hold the integers 0 to 10. The scale is 10.
+
+```text
+original:    53
+scaled:      53 / 10 = 5.3
+stored:      round(5.3) = 5
+dequantized: 5 × 10 = 50     (error: 3)
+```
+
+Every value in the layer now fits in a few bits instead of sixteen. The cost is the rounding error, here 53 became 50. A good mapping keeps as much of the original range as possible and spreads that error so it does little damage. Real schemes are more involved (per-channel or per-group scales, zero points, outlier handling), but they all come down to scale and round.
+
+---
+
+## Common formats
+
+| Format | Bits | Bytes per parameter | 70B model weights |
+|---|---|---|---|
+| FP16 / BF16 | 16 | 2 | ~140 GB |
+| FP8 / INT8 | 8 | 1 | ~70 GB |
+| INT4 | 4 | 0.5 | ~35 GB |
+
+FP8 keeps a floating-point layout with fewer bits. INT8 and INT4 store integers plus a scale. Going from FP16 to INT4 cuts weight memory by 4x: a 70B model goes from needing several GPUs to fitting on one large one.
+
+---
+
+## Reading precision in model names
+
+Quantized models usually say their precision in the name:
+
+- `...-8B-FP8` — 8 billion parameters, weights stored in 8-bit floating point.
+- `...-W8A16` — weights at 8 bits, activations still at 16 bits. The `W` number is weight precision, the `A` number is activation precision.
+- `...-INT4` or `...-W4A16` — weights at 4 bits.
+
+Quantizing only the weights saves memory. Quantizing the activations too also speeds up the math, if the hardware supports that format.
+
+---
+
+## The accuracy tradeoff
+
+Lower precision means less detail per number. Think of a photo saved at lower and lower resolution: at some point the pixelation starts to hide what was in the picture. Push quantization too far and accuracy drops.
+
+What to expect in practice:
+
+- **INT8** — Most models keep their accuracy and get a clear latency improvement. This is the safe default.
+- **INT4** — A bigger cut, so accuracy loss is a real risk. With a careful mapping, INT4 models still land close to the original.
+
+"Real risk" here usually means a drop of tenths of a percent up to about one percent on benchmarks, not a broken model. Measure it on your own task before you trust it, because averages hide the cases your users care about.
+
+---
+
+## When to quantize: PTQ vs QAT
+
+There are two points where quantization can happen.
+
+**Post-training quantization (PTQ)** takes a fully trained model and compresses it afterward. It is fast, needs no training run, and is what most published quantized models use.
+
+**Quantization-aware training (QAT)** simulates low precision while the model is still training, so the model learns to work around the rounding error. It costs more time and compute, but holds accuracy better at aggressive levels like INT4, where PTQ is more likely to lose it.
+
+Rule of thumb: start with PTQ. Reach for QAT, or a model already trained with it, when PTQ at your target precision loses more accuracy than you can accept.
+
+---
+
+## Choosing a level
+
+Every quantization choice trades precision for memory and speed. How far you push it depends on what the model has to get right.
+
+- Need to fit a model on hardware you already have? Calculate weight memory at each precision (parameters × bytes per parameter), then add headroom for the KV cache.
+- Running an agent that makes many calls per task? Lower precision cuts latency and cost per call, and those savings add up across the [loop](/concepts/loop).
+- Accuracy-sensitive task (code, math, structured tool calls)? Start at INT8 or FP8 and test INT4 against your own evals before switching.
+
+---
+
+## Source
+
+This page summarizes "What Is Quantization? How AI Models Get Smaller & Faster" by Grace Ableidinger on the [IBM Technology YouTube channel](https://www.youtube.com/watch?v=mmns33BsBcY). The explanation and the 70B example follow the video; the wording, the dequantization step, the model-name and choosing sections are ours.
+
+## Next
+
+- [Agent](/concepts/agent) for what the model does inside an agent.
+- [Context and Memory](/concepts/context) for the other big consumer of GPU memory: what you put in the prompt.

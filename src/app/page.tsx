@@ -7,7 +7,7 @@ const tools = [
     description: 'Agent, harness, loop, graph, tools, context',
     href: '/concepts',
     icon: Layers,
-    count: '7 pages',
+    count: '8 pages',
     available: true,
   },
   {
@@ -85,6 +85,12 @@ const tools = [
 ];
 
 const latestGuides = [
+  {
+    title: 'Quantization',
+    description: 'How models get smaller and faster by storing weights at lower precision',
+    href: '/concepts/quantization',
+    tool: 'Concepts',
+  },
   {
     title: 'Stacking Loops',
     description: 'Agent, verification, event and improvement loops, and where humans belong',

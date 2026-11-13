@@ -1,0 +1,172 @@
+<GuideHeader tool="Claude Code" difficulty="Intermediate" lastTested="2026-11" readTime="8 min" />
+
+# Auditing Prompts and Skills with prompt-audit
+
+How to use `/claude-api prompt-audit` to find instructions in your prompts, skills, and `CLAUDE.md` files that no longer fit the model reading them.
+
+---
+
+## What it does
+
+Prompts collect workarounds. Someone adds `IMPORTANT: ALWAYS use the search tool` because an older model kept skipping it. Someone adds "think step by step" because it helped an earlier model. A skill hardcodes a path that was renamed six months ago. Nobody removes these lines, because nobody remembers why they were added.
+
+Current Claude models follow instructions closely and literally. A line written to push an older model harder now pushes too hard: the tool fires when it shouldn't, the model over-plans, or it gets rigid in cases the rule never anticipated. Leftover text is not just wasted tokens. Some of it actively makes output worse.
+
+`prompt-audit` is a subcommand of the `claude-api` skill that ships with Claude Code. It scans your prompt surface, matches each suspicious line against a list of known dated patterns, and gives you two things:
+
+- **An audit report.** Every finding with its `file:line`, the exact text, which pattern it matches, why it is obsolete, and a confidence level.
+- **A proposed diff.** Concrete edits for the high- and medium-confidence findings, one finding per hunk, so you can take some and reject others.
+
+The goal is fit, not length. The audit removes specific instructions that no longer match the target model, the project, or each other. It keeps context, and sometimes it adds text.
+
+<Callout type="info" title="It proposes, it doesn't apply">
+By default the audit only proposes changes. It edits files only when your request explicitly asks it to, for example "audit and clean up the prompts".
+</Callout>
+
+---
+
+## Running it
+
+In Claude Code, from the repository root:
+
+```text
+/claude-api prompt-audit
+```
+
+With no arguments it audits the whole working directory. Narrow the scope or name a target model in plain words after the subcommand:
+
+```text
+/claude-api prompt-audit src/prompts/
+/claude-api prompt-audit CLAUDE.md and .claude/skills/ for Claude Opus 5.5
+```
+
+The audit does not stop to ask questions. It decides scope and target model on its own, then writes both assumptions at the top of the report. If either is wrong, re-run with a more specific request.
+
+The target model is resolved in this order:
+
+1. The model your request names
+2. The destination of a migration the repository documents
+3. The newest model the code or docs point at
+4. The current flagship model of the provider your code calls
+
+For coding-agent config files (`CLAUDE.md`, skills, subagents), the target is the model that reads them, which is usually the model running the audit.
+
+---
+
+## What counts as the prompt surface
+
+Anything that reaches the model as text, not just files named `prompt`:
+
+- System prompts and the code that assembles them (templates, f-strings, conditional sections)
+- Tool definitions: `description` fields and parameter descriptions
+- Agent configuration: `CLAUDE.md`, `AGENTS.md`, rule files, skills, custom commands, subagent definitions, output styles
+- Request-building code: model IDs, `thinking` config, sampling parameters, stop sequences, prefill, retry logic, beta headers
+- Few-shot blocks and embedded examples
+
+The audit lists this inventory before it starts, so you can correct it. It does not read settings files, `.mcp.json`, or credential files, since those can hold secrets.
+
+---
+
+## The four pattern groups
+
+Every finding has to match a named pattern. A line that looks off but matches nothing is either flagged at low confidence or left out.
+
+### Group 1: Dated prompt text
+
+- **Pressure language.** `CRITICAL: You MUST...`, several `NEVER`s per prompt, "do not be lazy". These were needed for older, less steerable models and now cause over-triggering. The fix is the same instruction at normal volume, with the reason next to it. Soft hedges like "try to include a summary if possible" on a hard requirement get tightened, because current models read them literally.
+- **Scaffolds replaced by API features.** "Think step by step", `<scratchpad>` instructions, assistant-turn prefill for JSON, `budget_tokens`, forced `tool_choice`. Each has a replacement: adaptive thinking plus `effort`, structured outputs, or a plain instruction under `tool_choice: auto`. On several current models the old shapes return a 400.
+- **Over-specification.** `STEP 1 ... STEP 2 ...` scripts for judgment tasks, long prohibition lists, a single gold example the model copies too closely, "you will be graded on..." language.
+- **Fossils.** Workarounds for a retired model, "known issue with claude-3" comments, migration-relative phrasing like "X now works differently", anti-formatting rules written against a model that over-formatted, reminders re-inserted every few turns.
+
+### Group 2: Brittle skill and config files
+
+- Verbose `SKILL.md` content explaining things the model already knows
+- One bad session turned into a permanent rule
+- Hardcoded paths, flags, and versions that the repository now contradicts. The audit checks that each named path still exists and each command is still defined in scripts or manifests.
+- Two instruction files that give different rules on the same topic. The audit uses `git blame` to decide which is newer.
+- History narratives: incident IDs, PR numbers, pinned model names in rule text
+
+### Group 3: Tool descriptions
+
+This group usually asks for more text, not less. Vague one-line descriptions and undocumented parameters are the most common tool failure. A good description reads like a man page: what the tool does, when to use it and when not to, what each parameter means, and what it does not return. What comes out is behavioral steering (`ALWAYS use X, NEVER use Y`), worked examples, and fake dialogue.
+
+### Group 4: Request config and architecture
+
+Not prompt text, but the audit reports these when it finds them:
+
+- Parameters and headers that error or are deprecated on the target model
+- Code that rewrites the system prompt, tools, or earlier messages mid-session, which breaks prompt caching and preserved thinking
+- Timestamps or per-user data placed above stable content, which kills cache hits
+- Model calls whose inputs fully determine the output, which belong in plain code
+- Two subagents that differ only in one filter and should be one agent
+
+---
+
+## What it keeps
+
+The audit has an explicit keep list that is as binding as the patterns. These stay even when a grep matches:
+
+- **Context.** Audience, product, environment facts, quality bar, and the reasons behind constraints. The model can't get these anywhere else.
+- **Exact scripts for fragile operations.** Destructive commands, auth flows, and compliance steps keep their step-by-step text.
+- **Tool contract detail.** Parameter semantics, limits, and failure modes.
+- **Prohibitions against failures that still happen** on the target model.
+- **Trigger text.** A skill's frontmatter `description` may carry urgency on purpose, because skills tend to under-trigger.
+- **Working redundancy.** The same rule in two files is fine as long as the copies agree.
+- **A one-line role statement.** It's only flagged when it's the only context the prompt gives.
+
+If the surface is clean, the report says so in one line and the diff is empty.
+
+---
+
+## Reading the report
+
+Each finding looks like this (illustrative):
+
+```markdown
+**Location:** src/agent/system_prompt.py:42
+**Evidence:** "IMPORTANT: You MUST ALWAYS call search_docs before answering. If in doubt, use search_docs."
+**Pattern:** Group 1a, pressure language
+**Why obsolete:** Current models are highly responsive to the system prompt.
+  This booster was written against an under-triggering model and now causes
+  search_docs to fire on questions it can't help with.
+**Confidence:** High
+**Action:** rewrite → "Call search_docs when the question is about our product
+  or API, because your training data doesn't cover it."
+```
+
+Confidence levels:
+
+- **High.** Documented model behavior, a request shape that errors on the target model, or a fact the repository itself contradicts (a path that no longer exists).
+- **Medium.** Consistent, widely observed behavior, such as a model copying a single example too closely.
+- **Low.** Dated by idiom alone. Flagged in the report, never included in the diff.
+
+The actions are `remove`, `rewrite`, `move`, `replace-with-API-feature`, `add`, and `flag` (no edit proposed). The report is ordered by confidence, and opens with the two or three findings that matter most.
+
+---
+
+## Applying the diff
+
+Treat each removal as a hypothesis:
+
+1. Take the hunks you agree with. Each hunk is one finding, so you can review them one at a time.
+2. For contested changes, run a before/after check on your eval suite. Without one, write a small probe that exercises what the instruction was for. Asking the model whether it needs the instruction doesn't count as a test.
+3. If a removal regresses, put the instruction back in its shortest form, not the original verbose version.
+4. Grep for the exact removed text before merging. Tests, classifiers, and log parsers sometimes match on prompt strings.
+
+<Callout type="tip" title="Run it at every model upgrade">
+Prompts are tuned to a specific model. A line that helps one generation can hurt the next. Re-run the audit whenever you move to a new model, or let `/claude-api migrate` run it for you as its last step.
+</Callout>
+
+If you call the Claude API and some changes are contested, `/claude-api build-eval` helps you build the eval set to test them against.
+
+---
+
+## Troubleshooting
+
+**The audit picked the wrong target model.** Name it in the request: `/claude-api prompt-audit for Claude Sonnet 5.5`.
+
+**It audited files you didn't want touched.** Pass a path or file list. Files outside the repository, such as `~/.claude/CLAUDE.md`, are only included when you name them.
+
+**A finding is `flag` with no fix.** This happens with low-confidence idiom matches, conflicts between two files where git history can't show which is newer, and fixes that would weaken a safety rule. You make the call on these.
+
+**The report found nothing.** That's a valid result. A clean prompt surface gets an empty diff, not invented changes.

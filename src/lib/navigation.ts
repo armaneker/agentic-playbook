@@ -41,6 +41,7 @@ export const navigation: NavItem[] = [
       { title: 'Scripts', href: '/skills/scripts' },
       { title: 'Progressive Loading', href: '/skills/progressive-loading' },
       { title: 'Testing & Iteration', href: '/skills/testing' },
+      { title: 'Auditing Prompts', href: '/skills/prompt-audit' },
     ],
   },
   {

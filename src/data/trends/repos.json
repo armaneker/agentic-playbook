@@ -44805,13 +44805,22 @@
     },
     "DIYgod/pinky": {
       "full_name": "DIYgod/pinky",
-      "description": "Let AI agents use your phone, with you in the loop.",
+      "description": "Let AI use your iPhone or Android phone, with you in the loop: any MCP agent from macOS, Windows or Linux, or Pinky itself, right on the phone.",
       "language": "Go",
       "url": "https://github.com/DIYgod/pinky",
       "first_seen": "2026-11-08",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "ai-agent",
+        "android",
+        "claude-code",
+        "ios",
+        "iphone",
+        "mcp",
+        "mcp-server",
+        "phone-automation"
+      ],
+      "category": "Agentic",
       "version": "v2026.1109.7"
     },
     "IainKay/ram-altman": {
@@ -46722,6 +46731,44 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.3"
+    },
+    "apex-compute/ANR": {
+      "full_name": "apex-compute/ANR",
+      "description": "Apex Neural Rendering (ANR) by Apex Compute",
+      "language": "C++",
+      "url": "https://github.com/apex-compute/ANR",
+      "first_seen": "2026-11-13",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "FG-V.B15"
+    },
+    "SirBonney/scrcpy-mirror-control": {
+      "full_name": "SirBonney/scrcpy-mirror-control",
+      "description": "Android Screen Mirroring and Control Workflow, Simplified",
+      "language": "HTML",
+      "url": "https://github.com/SirBonney/scrcpy-mirror-control",
+      "first_seen": "2026-11-13",
+      "has_summary": false,
+      "topics": [
+        "automation",
+        "desktop",
+        "developer-tools",
+        "open-source",
+        "python",
+        "scrcpy-alternative",
+        "scrcpy-android",
+        "scrcpy-engine",
+        "scrcpy-ui",
+        "scrcpy-web",
+        "scripts",
+        "software-engineering",
+        "system",
+        "utility",
+        "windows-app"
+      ],
+      "category": "DevTools",
+      "version": null
     }
   }
 }

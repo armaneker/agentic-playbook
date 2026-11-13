@@ -1,0 +1,137 @@
+<GuideHeader tool="Concepts" difficulty="Beginner" lastTested="2026-11" readTime="8 min" />
+
+# Inference
+
+What happens between sending a prompt and getting a response from an LLM, and which parts of that path decide latency and cost.
+
+---
+
+## What inference is
+
+A trained model is a large file of weights: numbers tuned during training. On its own it does nothing. Inference is running those weights against new input to produce output.
+
+Training happens once per model. Inference happens on every request, from every user, for as long as the model is in service. That is why inference usually ends up costing more than training over a model's lifetime, and why serving efficiently matters as much as training well.
+
+Every chatbot reply, code completion and agent step is an inference call.
+
+---
+
+## Inference engines
+
+The software that turns a pile of weights into a service is the inference engine. It accepts requests, schedules them, manages GPU memory, and decides which requests run together.
+
+Common engines:
+
+- **vLLM** — built for high-throughput serving on GPUs in a data center.
+- **llama.cpp** — runs models on CPUs and consumer GPUs, popular for quantized models.
+- **Ollama** — wraps llama.cpp with a model library and a simple local server.
+
+Most engines expose an OpenAI-compatible API. The request format stays the same whichever model is behind it, so you can swap models without changing application code. With Ollama running locally:
+
+```bash
+curl http://localhost:11434/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "llama3.2",
+    "messages": [{"role": "user", "content": "What is inference?"}],
+    "stream": true
+  }'
+```
+
+Point the same request at a vLLM server or a hosted provider by changing the URL, model name and API key.
+
+---
+
+## The path of a request
+
+A request goes through roughly these steps before the first word of the response comes back.
+
+### 1. Tokenization
+
+The model never sees text. The prompt is split into tokens (whole words, pieces of words, punctuation) and each token is mapped to an integer ID. The model works on that stream of IDs.
+
+Tokenization is cheap to compute, but it decides what you pay: providers bill per token, for input and output. The same text can produce a different token count on different models. A larger vocabulary encodes text in fewer tokens, at the price of more work during training.
+
+### 2. Authentication and routing
+
+The request reaches a data center and is checked against your API key. A router then picks hardware for it, based on things like prompt length and which machines have capacity at that moment.
+
+### 3. Batching
+
+Running one request at a time through a GPU wastes most of it, like firing an industrial oven for a single pastry. Engines group requests into batches so the GPU processes many at once. This raises throughput: how many requests the system completes per second.
+
+Requests finish at different times, so a fixed batch would leave slots empty while the longest request runs. Modern engines use **continuous batching**: when one request finishes, the scheduler slots a waiting one into its place, and the GPU stays close to fully busy.
+
+### 4. Prefill and decode
+
+Once scheduled, the request runs through the model in two phases. These are covered next.
+
+---
+
+## Prefill: reading the prompt
+
+In prefill, the model processes the whole prompt in one pass. Every prompt token can be handled in parallel, so this phase is a burst of matrix math. Its speed is limited by how much compute the GPU has: it is **compute-bound**.
+
+Prefill also builds the **KV cache**: the intermediate key and value tensors for every token read so far. The cache is what lets the model generate each new token without re-reading the whole conversation from the start. Without it, every output token would cost a full pass over all the previous ones.
+
+The KV cache lives in GPU memory and grows with context length and with the number of requests in a batch. On long contexts it can take as much memory as the model weights. This is one reason [quantization](/concepts/quantization) is applied to the KV cache as well as to weights.
+
+---
+
+## Decode: writing the response
+
+Decode generates the response one token at a time. Each step:
+
+1. Run a forward pass over the latest token, reading the KV cache for everything before it.
+2. Get a probability for every token in the vocabulary.
+3. Pick one (the sampling settings, like temperature, decide how).
+4. Append it to the sequence and add its keys and values to the cache.
+5. Repeat until a stop token or the output limit.
+
+Each step depends on the token before it, so decode cannot be parallelized across output tokens the way prefill is across input tokens. Each step does little math but has to read all the weights and the KV cache from memory. Its speed is limited by how fast data moves out of memory: it is **memory-bandwidth-bound**.
+
+| Phase | Works on | Runs | Bottleneck |
+|---|---|---|---|
+| Prefill | The whole prompt | In parallel, once | Compute |
+| Decode | One output token per step | Sequentially, many times | Memory bandwidth |
+
+This split is why serving hardware and engine settings get tuned separately for the two phases, and why some large deployments run prefill and decode on different machines.
+
+---
+
+## Measuring latency: TTFT and ITL
+
+The two phases map onto the two latency numbers you see in benchmarks:
+
+- **Time to first token (TTFT)** — from sending the request to receiving the first output token. Mostly prefill, plus queueing and network time.
+- **Inter-token latency (ITL)** — the time between consecutive output tokens. One decode step.
+
+Total response time is roughly `TTFT + ITL × output tokens`. A 2,000-token prompt with a 300-token answer at 0.4 s TTFT and 20 ms ITL:
+
+```text
+0.4 s + 0.020 s × 300 = 6.4 s
+```
+
+TTFT is what makes an app feel responsive, since streaming shows text as soon as the first token arrives. ITL decides how long the full answer takes.
+
+---
+
+## What this means for agents
+
+An agent is a model called in a [loop](/concepts/loop), so inference costs repeat on every step.
+
+- **The prompt grows each step.** Tool results and history pile up in the [context](/concepts/context), so prefill gets longer and TTFT rises as the task goes on. Trim what you resend.
+- **Repeated prefixes are cheap if you cache them.** The system prompt and tool definitions are the same on every call. Providers that support prompt caching reuse the KV cache for an identical prefix, which cuts both TTFT and input cost. Keep the stable parts at the start of the prompt and the changing parts at the end.
+- **Output length is the slow part.** Each output token is a decode step. Ask for short, structured outputs (a tool call, a JSON object) instead of long explanations the harness will throw away.
+- **Smaller or quantized models speed up decode.** Fewer bytes of weights means less data to move per step. See [Quantization](/concepts/quantization).
+
+---
+
+## Source
+
+This page summarizes "What Is LLM Inference? How AI Models Generate Responses" on the [IBM Technology YouTube channel](https://www.youtube.com/watch?v=615-yWyS1n0). The request path, prefill/decode split and TTFT/ITL definitions follow the video; the wording, the engine examples, the decode steps, the latency example and the section on agents are ours.
+
+## Next
+
+- [Quantization](/concepts/quantization) for making the weights, and the KV cache, smaller.
+- [Context and Memory](/concepts/context) for deciding what goes into the prompt you pay to prefill.

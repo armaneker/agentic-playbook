@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Server, Cpu, BarChart3, Zap, Puzzle, Shield, BookOpen, TrendingUp, ArrowRight, Box, Layers, Compass } from 'lucide-react';
+import { Server, Cpu, BarChart3, Zap, Puzzle, Shield, BookOpen, TrendingUp, ArrowRight, Box, Layers, Compass, Terminal } from 'lucide-react';
 
 const tools = [
   {
@@ -8,6 +8,14 @@ const tools = [
     href: '/concepts',
     icon: Layers,
     count: '7 pages',
+    available: true,
+  },
+  {
+    title: 'Claude',
+    description: 'Claude Code hooks, settings, and checks',
+    href: '/claude',
+    icon: Terminal,
+    count: '1 guide',
     available: true,
   },
   {
@@ -85,6 +93,12 @@ const tools = [
 ];
 
 const latestGuides = [
+  {
+    title: 'Claude Code Hooks',
+    description: 'Run your own commands at fixed points, and make Claude fix failing tests before it stops',
+    href: '/claude/hooks',
+    tool: 'Claude',
+  },
   {
     title: 'Stacking Loops',
     description: 'Agent, verification, event and improvement loops, and where humans belong',

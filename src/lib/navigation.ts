@@ -44,6 +44,14 @@ export const navigation: NavItem[] = [
     ],
   },
   {
+    title: 'Claude',
+    href: '/claude',
+    children: [
+      { title: 'Overview', href: '/claude' },
+      { title: 'Hooks', href: '/claude/hooks' },
+    ],
+  },
+  {
     title: 'OpenClaw',
     href: '/openclaw',
     children: [

@@ -1,0 +1,23 @@
+<GuideHeader tool="Claude Code" difficulty="All levels" lastTested="2026-11" readTime="2 min" />
+
+# Claude
+
+Guides for Claude Code, Anthropic's coding agent: how to configure it, extend it, and make it check its own work.
+
+Claude Code is an agent harness in the sense of the [Concepts](/concepts/agent) pages. The model is Claude; the harness is the CLI, its tools, its permission system, and the settings files you control. Most of what you can change about its behavior lives in those settings files, and this section covers them one feature at a time.
+
+## Pages
+
+- [Hooks](/claude/hooks) — Commands Claude Code runs at fixed points in a session. Exit codes, the Stop hook that makes Claude fix failing tests, and how to keep it from looping.
+
+## Coming soon
+
+- CLAUDE.md — Project memory: what to put in it and what to leave out
+- Subagents — Delegating work to a separate context window
+- MCP servers — Connecting Claude Code to external tools and data
+- Permissions — Allow and deny rules, permission modes, and when to use them instead of hooks
+
+## Related pages
+
+- [Skills](/skills) covers the skill format Claude Code loads on demand.
+- [Stacking Loops](/concepts/loop-stack) explains the verification loop that a Stop hook implements.

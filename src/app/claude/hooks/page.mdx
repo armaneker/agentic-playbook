@@ -1,0 +1,415 @@
+<GuideHeader tool="Claude Code" difficulty="Intermediate" lastTested="2026-11" readTime="14 min" />
+
+# Claude Code Hooks
+
+How to make Claude Code run your own commands at fixed points in a session, and how to use a Stop hook to send Claude back to work when tests fail.
+
+---
+
+## What a hook is
+
+A hook is a command that Claude Code runs when a specific event happens: a session starts, Claude is about to call a tool, a tool call finished, Claude is about to stop. Claude Code passes the event details to the command as JSON on stdin and reads the exit code and output to decide what happens next.
+
+The difference from an instruction in `CLAUDE.md` is who runs it. "Always run the tests before you finish" in `CLAUDE.md` is a request to the model. The model can forget it, skip it, or decide it does not apply. A hook is run by the harness, so it runs every time the event fires, whatever the model decides.
+
+That makes hooks the place for anything that must always happen:
+
+- **Checks** — Run tests, lint or a type check before Claude is allowed to finish.
+- **Guardrails** — Refuse edits to `.env`, lockfiles or generated code.
+- **Cleanup** — Format every file Claude writes.
+- **Context** — Feed the current branch, open tickets or recent commits into the session at startup.
+- **Notifications** — Ping you when Claude is waiting for input.
+
+In terms of the [Concepts](/concepts/harness) pages, hooks are how you add your own code to Claude Code's harness without forking it. A Stop hook that runs tests turns the [agent loop](/concepts/loop) into a [verification loop](/concepts/loop-stack).
+
+---
+
+## Events you will use most
+
+Claude Code fires around thirty hook events. These cover most real setups:
+
+- **SessionStart** — A session starts, resumes, or restarts after `/clear` or compaction. Plain text on stdout is added to Claude's context.
+- **UserPromptSubmit** — You submit a prompt, before Claude sees it. Can block the prompt or add context.
+- **PreToolUse** — Claude is about to call a tool. Can block the call.
+- **PostToolUse** — A tool call succeeded. The tool already ran, so it cannot be undone, but output can be fed back to Claude.
+- **Stop** — Claude finished responding and is about to hand control back to you. Can make Claude keep working.
+- **SubagentStop** — Same as Stop, for a subagent.
+- **Notification** — Claude Code shows a notification, such as a permission prompt or an idle prompt.
+- **PreCompact** — Context is about to be compacted.
+- **SessionEnd** — The session ends.
+
+The [hooks reference](https://code.claude.com/docs/en/hooks) lists every event.
+
+---
+
+## Where hooks are configured
+
+Hooks live in the `hooks` key of a Claude Code settings file:
+
+- `~/.claude/settings.json` — All your projects. Not shared.
+- `.claude/settings.json` — One project. Commit it to share hooks with your team.
+- `.claude/settings.local.json` — One project, just for you. Not committed.
+
+Hooks from all files are merged. A hook in your user settings and a hook in the project settings both run.
+
+The structure has three levels: event, matcher group, handler.
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/format.sh",
+            "timeout": 60
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+- **Event** (`PostToolUse`) — When the hook fires.
+- **Matcher** (`Edit|Write`) — Which occurrences of the event it fires for. For tool events it matches the tool name. `Edit|Write` is an exact list; a pattern with other characters, such as `mcp__github__.*`, is a regular expression. Omit it, or use `*`, to match everything. Stop and UserPromptSubmit have no matcher and ignore one if you set it.
+- **Handler** — What to run. `command` runs a shell command. Claude Code also supports `http` (POST the event to a URL), `prompt` and `agent` (ask a model to judge), and `mcp_tool`. This page uses `command` throughout.
+
+`$CLAUDE_PROJECT_DIR` is the directory the session started in. Use it for script paths so the hook works whatever directory Claude has moved into, and quote it in case the path has spaces.
+
+The default timeout for a command hook is 600 seconds. Matching hooks run in parallel.
+
+Type `/hooks` inside Claude Code to see every configured hook and which file it came from. Edits to settings files are picked up without a restart.
+
+---
+
+## What a hook receives
+
+Every hook gets a JSON object on stdin. This is the input a Stop hook received in a test run of the example below, trimmed:
+
+```json
+{
+  "session_id": "34bf2eb4-0375-4275-9a67-1cd020be6ff6",
+  "transcript_path": "/root/.claude/projects/.../34bf2eb4-....jsonl",
+  "cwd": "/home/me/my-project",
+  "permission_mode": "acceptEdits",
+  "hook_event_name": "Stop",
+  "stop_hook_active": false,
+  "last_assistant_message": "I added `multiply(a, b)` to `math.js` and exported it..."
+}
+```
+
+The fields that matter most:
+
+- `hook_event_name` — Which event fired. Useful when one script handles several events.
+- `stop_hook_active` — Stop and SubagentStop only. `true` when Claude is already continuing because a Stop hook blocked it. See [Preventing an endless loop](#preventing-an-endless-loop).
+- `last_assistant_message` — Stop only. Claude's final message, so you don't have to parse the transcript.
+- `tool_name`, `tool_input` — Tool events. For `Edit` and `Write`, `tool_input.file_path` is the file being changed.
+- `tool_response` — PostToolUse only. What the tool returned.
+
+Read it with `jq`:
+
+```bash
+INPUT=$(cat)
+FILE_PATH=$(echo "$INPUT" | jq -r '.tool_input.file_path // empty')
+```
+
+---
+
+## Exit codes
+
+The exit code is how a command hook tells Claude Code what to do. There are three cases.
+
+- **Exit 0** — Success. Claude Code continues normally. Stdout goes to the debug log, except for SessionStart and UserPromptSubmit, where it is added to Claude's context. If stdout is a single JSON object, Claude Code reads it as structured output (see [Using JSON output instead](#using-json-output-instead)).
+- **Exit 2** — Blocking error. Claude Code stops the action the event was about and sends the hook's **stderr** to Claude as the reason.
+- **Any other non-zero code, including 1** — Non-blocking error. Claude Code shows a short "hook error" notice with the first line of stderr and carries on as if the hook had passed. Claude does not see the message and does not react to it.
+
+What "blocking" means depends on the event:
+
+- **PreToolUse** — The tool call does not run. Claude reads stderr and tries something else.
+- **Stop** and **SubagentStop** — Claude is not allowed to stop. It reads stderr and keeps working.
+- **UserPromptSubmit** — The prompt is not processed.
+- **PostToolUse** — The tool already ran. Stderr is shown to Claude, but nothing is undone.
+- **SessionStart**, **Notification**, **SessionEnd** — These cannot block. The event has already happened.
+
+<Callout type="danger" title="Exit 1 does not stop anything">
+Most scripts signal failure with `exit 1`, and most linters and test runners exit 1 when they fail. In a hook that means "non-blocking": Claude Code notes the error and Claude finishes as if the check passed. If the hook is meant to enforce something, it has to end with `exit 2`, and the message for Claude has to go to stderr (`>&2`), not stdout.
+</Callout>
+
+---
+
+## Example: a Stop hook that runs tests
+
+This hook runs the test suite every time Claude tries to finish. If the tests fail, it exits 2 with the test output on stderr. Claude reads the failure, fixes the code, and tries to stop again.
+
+`.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/run-tests.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+`.claude/hooks/run-tests.sh`:
+
+```bash
+#!/usr/bin/env bash
+# Stop hook: run the test suite before Claude is allowed to finish.
+INPUT=$(cat)
+
+# Claude is already retrying because of this hook: let it stop.
+if [ "$(echo "$INPUT" | jq -r '.stop_hook_active')" = "true" ]; then
+  exit 0
+fi
+
+cd "$CLAUDE_PROJECT_DIR" || exit 0
+
+if ! OUTPUT=$(npm test 2>&1); then
+  echo "Tests failed. Fix them before finishing:" >&2
+  echo "$OUTPUT" | tail -n 30 >&2
+  exit 2
+fi
+exit 0
+```
+
+Make it executable:
+
+```bash
+chmod +x .claude/hooks/run-tests.sh
+```
+
+Replace `npm test` with whatever your project uses: `pytest -q`, `cargo test`, `npm run lint && npx tsc --noEmit`. Keep the `tail`: Claude only needs the failures, not ten thousand lines of passing output.
+
+### What happens in a run
+
+The test project had an `add` function with a bug (`return a - b`) and one test for it. The prompt asked Claude to add a `multiply` function and not run any commands.
+
+1. Claude added `multiply` and tried to stop. Its last message mentioned the `add` bug but left it alone, as asked.
+2. The Stop hook ran `npm test`. The `add` test failed. The hook exited 2.
+3. Claude received this as a new message:
+
+```text
+Stop hook feedback:
+[command hook]: Tests failed. Fix them before finishing:
+  ...
+  error: |-
+    Expected values to be strictly equal:
+    -1 !== 5
+```
+
+4. Claude changed `a - b` to `a + b` and tried to stop again.
+5. The hook ran a second time with `stop_hook_active: true`, exited 0, and the session ended with passing tests.
+
+### The same hook with exit 1
+
+Changing only `exit 2` to `exit 1` and running the same prompt again: the hook ran once, the tests failed, Claude Code recorded a non-blocking hook error, and Claude finished. `add` still returned `a - b`. The test output never reached Claude, and its final message did not say the tests had failed.
+
+---
+
+## Preventing an endless loop
+
+A Stop hook that always fails keeps Claude working forever: try to stop, get blocked, try again. If the check cannot pass, for example because a test depends on a service that is down, you burn tokens until someone notices.
+
+Three things limit this.
+
+**`stop_hook_active`.** When Claude is continuing because a Stop hook blocked it, the next Stop event arrives with `stop_hook_active: true`. The script above exits 0 in that case. That gives Claude exactly one retry per turn.
+
+**A retry counter.** One retry is often not enough for a real fix. To allow a few, count blocks per session instead of checking `stop_hook_active`:
+
+```bash
+#!/usr/bin/env bash
+# Stop hook: block until tests pass, at most 3 times per session.
+INPUT=$(cat)
+SESSION_ID=$(echo "$INPUT" | jq -r '.session_id')
+COUNTER="${TMPDIR:-/tmp}/claude-stop-retries-$SESSION_ID"
+MAX_RETRIES=3
+
+cd "$CLAUDE_PROJECT_DIR" || exit 0
+
+if OUTPUT=$(npm test 2>&1); then
+  rm -f "$COUNTER"
+  exit 0
+fi
+
+COUNT=$(cat "$COUNTER" 2>/dev/null || echo 0)
+if [ "$COUNT" -ge "$MAX_RETRIES" ]; then
+  rm -f "$COUNTER"
+  echo "Tests still fail after $MAX_RETRIES retries. Stopping." >&2
+  exit 1
+fi
+
+echo $((COUNT + 1)) > "$COUNTER"
+echo "Tests failed (retry $((COUNT + 1)) of $MAX_RETRIES). Fix them before finishing:" >&2
+echo "$OUTPUT" | tail -n 30 >&2
+exit 2
+```
+
+This one uses both exit codes on purpose. While retries remain, it exits 2 and Claude keeps working. When they run out, it exits 1: Claude stops, and you see the "tests still fail" notice. The counter is reset whenever the tests pass.
+
+**The built-in cap.** Claude Code overrides a Stop hook after it blocks eight times in a row with no tool call from Claude in between. Set `CLAUDE_CODE_STOP_HOOK_BLOCK_CAP` to change the number. Treat it as a backstop, not as your loop guard: a Claude that keeps editing files between blocks never hits it.
+
+---
+
+## Using JSON output instead
+
+Instead of exit 2 and stderr, a hook can exit 0 and print a JSON object. For Stop, `decision: "block"` with a `reason` has the same effect as exit 2:
+
+```bash
+#!/usr/bin/env bash
+INPUT=$(cat)
+[ "$(echo "$INPUT" | jq -r '.stop_hook_active')" = "true" ] && exit 0
+cd "$CLAUDE_PROJECT_DIR" || exit 0
+
+if ! OUTPUT=$(npm test 2>&1); then
+  jq -n --arg out "$(echo "$OUTPUT" | tail -n 30)" \
+    '{decision: "block", reason: ("Tests failed. Fix them before finishing:\n" + $out)}'
+fi
+exit 0
+```
+
+JSON is only read on exit 0, and stdout must contain nothing but the JSON object. Pick one style per hook. Exit codes are simpler; JSON is needed for things exit codes can't express, such as PreToolUse's `permissionDecision` (`allow`, `deny`, `ask`) or adding context with `hookSpecificOutput.additionalContext`.
+
+---
+
+## Example: block edits to protected files
+
+A PreToolUse hook on `Edit|Write` that refuses to touch secrets, lockfiles and git internals.
+
+`.claude/settings.json`:
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "\"$CLAUDE_PROJECT_DIR\"/.claude/hooks/protect-files.sh"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+`.claude/hooks/protect-files.sh`:
+
+```bash
+#!/usr/bin/env bash
+# PreToolUse hook: refuse edits to secrets and lockfiles.
+FILE_PATH=$(jq -r '.tool_input.file_path // empty')
+
+case "$FILE_PATH" in
+  *.env|*.env.*|*package-lock.json|*/.git/*)
+    echo "Blocked: $FILE_PATH is protected. Ask the user to change it." >&2
+    exit 2
+    ;;
+esac
+exit 0
+```
+
+In a test run, Claude was asked to change a value in `.env`. The Edit was blocked, the file was unchanged, and Claude reported that a PreToolUse hook had blocked it, quoting the message.
+
+This hook only covers `Edit` and `Write`. Claude can still change `.env` with `echo ... > .env` through the Bash tool. For a hard rule, use a `deny` permission rule in settings as well; the hook is for giving Claude a clear reason.
+
+---
+
+## Example: format every file Claude writes
+
+A PostToolUse hook that runs Prettier on the file Claude just edited:
+
+```json
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path' | xargs npx prettier --write"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+Claude was asked to create a file containing `const x = {a:1,b:2}`. The file on disk ended up as `const x = { a: 1, b: 2 };`, and Claude reported that a formatter hook had rewritten it.
+
+Swap in your formatter: `black`, `gofmt -w`, `rustfmt`. The command runs for every file type, so filter by extension in a script if your formatter rejects files it doesn't know.
+
+---
+
+## Example: add context at session start
+
+A SessionStart hook whose stdout becomes part of Claude's context:
+
+```json
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo \"Current branch: $(git branch --show-current)\"; echo 'Recent commits:'; git log --oneline -5"
+          }
+        ]
+      }
+    ]
+  }
+}
+```
+
+Asked for the current branch and latest commit message without running any commands, Claude answered correctly from this output. The SessionStart matcher selects how the session began: `startup`, `resume`, `clear` or `compact`. Add `compact` to re-inject context that compaction would otherwise drop.
+
+---
+
+## Troubleshooting
+
+**The hook never runs.** Open `/hooks` and check it is listed under the right event. Matchers are case-sensitive: `edit` does not match the `Edit` tool. Check the script is executable (`chmod +x`). Run `claude --debug=hooks` to see each hook as it fires.
+
+**Claude finishes even though the check failed.** The script exits 1, or exits with whatever code the test runner returned. A Stop hook must end with an explicit `exit 2`. Also check the message goes to stderr: with exit 2, stdout is not shown to Claude.
+
+**Claude keeps going and never stops.** The Stop hook blocks every time. Add the `stop_hook_active` check or a retry counter. Run the check by hand to see why it never passes.
+
+**`jq: command not found`.** The examples need `jq`. Install it (`brew install jq`, `apt install jq`) or parse the input with Python or Node instead.
+
+**JSON output is ignored.** Claude Code only parses stdout as JSON when the hook exits 0 and stdout is a single JSON object with nothing else around it. A stray `echo` or a tool that prints progress to stdout breaks it. Fields like `permissionDecision` and `additionalContext` go inside `hookSpecificOutput`, not at the top level.
+
+**The hook is slow.** Every Stop now waits for the full test suite. Run a fast subset (changed files, unit tests only) in the hook and leave the full suite to CI.
+
+---
+
+## Security
+
+Hooks run as you, with your environment and your file access, and they run without asking. A `.claude/settings.json` in a repository you clone can contain hooks. Read it before starting Claude Code in a repository you don't trust.
+
+A PreToolUse hook's `deny` holds in every permission mode, but a hook cannot loosen what permission rules forbid. For hard allow and deny rules, use the permission system; use hooks for checks that need code.
+
+---
+
+## Related pages
+
+- [Stacking Loops](/concepts/loop-stack) — The verification loop that a Stop hook implements.
+- [The Agent Harness](/concepts/harness) — Where hooks fit among the other parts of a harness.
+- [Claude Code hooks reference](https://code.claude.com/docs/en/hooks) — Every event, input field and output option.

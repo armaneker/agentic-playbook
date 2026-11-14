@@ -47128,6 +47128,46 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "opencoredev/islandcn": {
+      "full_name": "opencoredev/islandcn",
+      "description": "The open-source Dynamic Island for React, installed with shadcn.",
+      "language": "TypeScript",
+      "url": "https://github.com/opencoredev/islandcn",
+      "first_seen": "2026-11-14",
+      "has_summary": false,
+      "topics": [
+        "dynamic-island",
+        "nextjs",
+        "react",
+        "shadcn",
+        "typescript",
+        "ui-components"
+      ],
+      "category": "Web Framework",
+      "version": null
+    },
+    "rivet-dev/open-orange": {
+      "full_name": "rivet-dev/open-orange",
+      "description": "Run Cloudflare Workers and Durable Objects unchanged on AWS, GCP, Azure or your own servers.",
+      "language": "TypeScript",
+      "url": "https://github.com/rivet-dev/open-orange",
+      "first_seen": "2026-11-14",
+      "has_summary": false,
+      "topics": [
+        "cloudflare",
+        "cloudflare-workers",
+        "durable-objects",
+        "nodejs",
+        "rivet",
+        "self-hosted",
+        "serverless",
+        "sqlite",
+        "typescript",
+        "wrangler"
+      ],
+      "category": "Database",
+      "version": "v1.0.2"
     }
   }
 }

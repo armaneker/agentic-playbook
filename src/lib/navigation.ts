@@ -27,6 +27,8 @@ export const navigation: NavItem[] = [
       { title: 'Tools', href: '/concepts/tools' },
       { title: 'Context and Memory', href: '/concepts/context' },
       { title: 'Stacking Loops', href: '/concepts/loop-stack' },
+      { title: 'Inference', href: '/concepts/inference' },
+      { title: 'Quantization', href: '/concepts/quantization' },
     ],
   },
   {

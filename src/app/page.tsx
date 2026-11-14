@@ -7,7 +7,7 @@ const tools = [
     description: 'Agent, harness, loop, graph, tools, context',
     href: '/concepts',
     icon: Layers,
-    count: '7 pages',
+    count: '9 pages',
     available: true,
   },
   {
@@ -85,6 +85,18 @@ const tools = [
 ];
 
 const latestGuides = [
+  {
+    title: 'Inference',
+    description: 'What happens between prompt and response, and what decides latency and cost',
+    href: '/concepts/inference',
+    tool: 'Concepts',
+  },
+  {
+    title: 'Quantization',
+    description: 'How models get smaller and faster by storing weights at lower precision',
+    href: '/concepts/quantization',
+    tool: 'Concepts',
+  },
   {
     title: 'Stacking Loops',
     description: 'Agent, verification, event and improvement loops, and where humans belong',

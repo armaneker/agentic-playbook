@@ -44482,13 +44482,21 @@
     },
     "libracoder/kiri": {
       "full_name": "libracoder/kiri",
-      "description": "A small, fast container runtime for macOS, Windows and Linux",
+      "description": "A small, fast container runtime for macOS, Windows and Linux with free Ngrok alternative",
       "language": "Rust",
       "url": "https://github.com/libracoder/kiri",
       "first_seen": "2026-11-07",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
+      "topics": [
+        "containers",
+        "docker",
+        "kubernetes",
+        "linux",
+        "macos",
+        "oci",
+        "windows"
+      ],
+      "category": "DevTools",
       "version": "v0.1.18"
     },
     "WoYun520/pixel-gif-sticker-pack": {
@@ -47644,6 +47652,123 @@
       ],
       "category": "Other",
       "version": "v1.1.0"
+    },
+    "hitkeeen/blender-ai-mcp-addon": {
+      "full_name": "hitkeeen/blender-ai-mcp-addon",
+      "description": "AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Python scripting, MCP integration.",
+      "language": "Unknown",
+      "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
+      "first_seen": "2026-11-15",
+      "has_summary": false,
+      "topics": [
+        "ai-agents",
+        "ai-assistant",
+        "blender",
+        "blender-addon",
+        "blender-ai",
+        "blender-automation",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "bpy",
+        "chatgpt",
+        "claude",
+        "gemini",
+        "llm",
+        "mcp",
+        "mcp-for-blender",
+        "mcp-server",
+        "model-context-protocol",
+        "ollama",
+        "opencode"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
+    },
+    "ZiChuanLan/freebie-radar": {
+      "full_name": "ZiChuanLan/freebie-radar",
+      "description": "白嫖资源聚合雷达：57 个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "language": "TypeScript",
+      "url": "https://github.com/ZiChuanLan/freebie-radar",
+      "first_seen": "2026-11-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "failsafe-security/artex": {
+      "full_name": "failsafe-security/artex",
+      "description": "Source-built, locally bound FailSafe distribution of ARTEX (v0.3.15)",
+      "language": "Go",
+      "url": "https://github.com/failsafe-security/artex",
+      "first_seen": "2026-11-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Security",
+      "version": null
+    },
+    "linknimiball1974/ai-texture-forge": {
+      "full_name": "linknimiball1974/ai-texture-forge",
+      "description": "An AI-powered texture forge for Blender — turn text prompts into seamless PBR materials, concept art and scene-wide projections with local or cloud diffusion models, straight inside the 3D viewport on Windows. · dream textures · dream textures blender · dream textures addon · dream textures ai · dream textures seamless · dream textures pbr",
+      "language": "Unknown",
+      "url": "https://github.com/linknimiball1974/ai-texture-forge",
+      "first_seen": "2026-11-15",
+      "has_summary": false,
+      "topics": [
+        "dream-textures",
+        "dream-textures-addon",
+        "dream-textures-ai",
+        "dream-textures-blender",
+        "dream-textures-diffusion",
+        "dream-textures-generation",
+        "dream-textures-gpu",
+        "dream-textures-history",
+        "dream-textures-inpainting",
+        "dream-textures-local",
+        "dream-textures-material",
+        "dream-textures-outpainting",
+        "dream-textures-pbr",
+        "dream-textures-projection",
+        "dream-textures-prompt",
+        "dream-textures-python",
+        "dream-textures-render",
+        "dream-textures-seamless",
+        "dream-textures-upscaling",
+        "dream-textures-windows"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "imnotsharingmyname/pcportastrobot": {
+      "full_name": "imnotsharingmyname/pcportastrobot",
+      "description": "",
+      "language": "C#",
+      "url": "https://github.com/imnotsharingmyname/pcportastrobot",
+      "first_seen": "2026-11-15",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.9"
+    },
+    "Moh4696/cinematic-skill": {
+      "full_name": "Moh4696/cinematic-skill",
+      "description": "Agent skill for narrated cinematic films built entirely from code: one continuous camera over photos, maps and cards, timed to the voice. Claude Code, Codex, Cursor, Gemini CLI.",
+      "language": "Python",
+      "url": "https://github.com/Moh4696/cinematic-skill",
+      "first_seen": "2026-11-15",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "codex",
+        "documentary",
+        "explainer-video",
+        "motion-graphics",
+        "skia",
+        "video"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }

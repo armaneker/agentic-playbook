@@ -45322,7 +45322,7 @@
     },
     "Kianuni/Erosion-CN": {
       "full_name": "Kianuni/Erosion-CN",
-      "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（简体中文防白苹果安全加固版）",
+      "description": "iOS / iPadOS 系统配置与 MobileGestalt 研究工具箱（中英双语 · 防白苹果安全加固版） | Bootloop-safe iOS / iPadOS System Configuration & MobileGestalt Toolbox (Bilingual EN/ZH)",
       "language": "Swift",
       "url": "https://github.com/Kianuni/Erosion-CN",
       "first_seen": "2026-11-10",
@@ -47696,7 +47696,7 @@
     },
     "ZiChuanLan/freebie-radar": {
       "full_name": "ZiChuanLan/freebie-radar",
-      "description": "白嫖资源聚合雷达：57 个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
+      "description": "白嫖与资讯资源聚合雷达：100+个源定时采集 + AI 二审过滤假福利 + 获取方式分级隔离抽奖/试用/推广 + Telegram 即时推送",
       "language": "TypeScript",
       "url": "https://github.com/ZiChuanLan/freebie-radar",
       "first_seen": "2026-11-15",
@@ -47826,6 +47826,49 @@
       ],
       "category": "Agentic",
       "version": "v1.0.0"
+    },
+    "haziqahmedqasmi/PeakCut": {
+      "full_name": "haziqahmedqasmi/PeakCut",
+      "description": "AI clipping for long videos and live streams. Self-hosted, bring your own AI key.",
+      "language": "Python",
+      "url": "https://github.com/haziqahmedqasmi/PeakCut",
+      "first_seen": "2026-11-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "yetanotherbrowser/yab": {
+      "full_name": "yetanotherbrowser/yab",
+      "description": "Yab, yet another browser: a fast native macOS browser with an iPhone and Android companion",
+      "language": "Swift",
+      "url": "https://github.com/yetanotherbrowser/yab",
+      "first_seen": "2026-11-16",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "RoutineMiku/apkstart": {
+      "full_name": "RoutineMiku/apkstart",
+      "description": "Windows 上的安卓应用运行器：双击 APK 即装，应用以独立窗口与桌面图标运行，自持 QEMU 运行时",
+      "language": "JavaScript",
+      "url": "https://github.com/RoutineMiku/apkstart",
+      "first_seen": "2026-11-16",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "android-x86",
+        "apk",
+        "electron",
+        "emulator",
+        "freeform",
+        "qemu",
+        "windows",
+        "wsa"
+      ],
+      "category": "Mobile",
+      "version": "v0.5.0"
     }
   }
 }

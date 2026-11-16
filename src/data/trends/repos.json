@@ -43098,21 +43098,30 @@
     },
     "qybaihe/bla": {
       "full_name": "qybaihe/bla",
-      "description": "🛡️ BLA (Blind LLM Agents) — Adversarial defense shield that protects binaries, Electron apps, JS bundles, Python, and WebAssembly against AI reverse-engineering agents like REA. Poison -> Exhaust -> Hallucinate.",
+      "description": "🛡️ BLA (bla-agents / Blind LLM Agents) — Open-source Blue Defense MCP server & CLI protecting JS/TS, Electron ASAR, WASM, Python, Native Binaries, SQLite, GGUF/Safetensors & Android DEX against AI reverse-engineering agents (REA).",
       "language": "TypeScript",
       "url": "https://github.com/qybaihe/bla",
       "first_seen": "2026-10-29",
       "has_summary": false,
       "topics": [
         "adversarial-ai",
+        "ai-security",
+        "android-security",
+        "binary-protection",
         "claude-code",
+        "codex",
         "cursor",
         "electron-security",
+        "gguf",
+        "ghidra",
         "llm-security",
         "mcp",
         "mcp-server",
         "obfuscation",
+        "python-security",
         "reverse-engineering",
+        "safetensors",
+        "software-protection",
         "webassembly"
       ],
       "category": "Agentic",
@@ -44519,7 +44528,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v0.1.8"
     },
     "kevintngo/looseleaf": {
       "full_name": "kevintngo/looseleaf",
@@ -47769,6 +47778,54 @@
       ],
       "category": "Other",
       "version": null
+    },
+    "faizfahmi77/ScanDot": {
+      "full_name": "faizfahmi77/ScanDot",
+      "description": "Experimental Android 3D scanning and point-cloud viewer",
+      "language": "Kotlin",
+      "url": "https://github.com/faizfahmi77/ScanDot",
+      "first_seen": "2026-11-16",
+      "has_summary": false,
+      "topics": [
+        "3d-scanning",
+        "android",
+        "photogrammetry",
+        "point-cloud"
+      ],
+      "category": "Mobile",
+      "version": null
+    },
+    "credoksopho1984/blender-ai-copilot-studio": {
+      "full_name": "credoksopho1984/blender-ai-copilot-studio",
+      "description": "An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and 27 built-in scene tools. · blender-ai-copilot-studio · blender ai · ai for blender · blender copilot · blender ai copilot · blender ai assistant · blender mcp server",
+      "language": "Unknown",
+      "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
+      "first_seen": "2026-11-16",
+      "has_summary": false,
+      "topics": [
+        "3d-automation",
+        "3d-modeling",
+        "blender",
+        "blender-addon",
+        "blender-agents",
+        "blender-ai",
+        "blender-assistant",
+        "blender-automation",
+        "blender-chatgpt",
+        "blender-copilot",
+        "blender-extension",
+        "blender-llm",
+        "blender-mcp",
+        "blender-plugin",
+        "blender-scripting",
+        "blender3d",
+        "bpy",
+        "mcp",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "category": "Agentic",
+      "version": "v1.0.0"
     }
   }
 }

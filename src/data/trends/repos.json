@@ -6431,7 +6431,7 @@
     "clash-verge-rev/clash-verge-rev": {
       "full_name": "clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "language": "Rust",
+      "language": "TypeScript",
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "first_seen": "2026-04-13",
       "has_summary": false,
@@ -48089,6 +48089,125 @@
       ],
       "category": "Agentic",
       "version": "v0.4.5"
+    },
+    "krisgfx9/Wireless-Device-Battery-Monitor": {
+      "full_name": "krisgfx9/Wireless-Device-Battery-Monitor",
+      "description": "Show the battery level of wireless mice, headsets, keyboards and controllers on the Windows 10/11 taskbar. Lightweight tray app, no vendor software needed. Supports Logitech, Razer, SteelSeries, Corsair, HyperX, Glorious, PS4/PS5 DualSense, Xbox and Bluetooth devices.",
+      "language": "C++",
+      "url": "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0.4"
+    },
+    "Immortal-Protocols/lastbook": {
+      "full_name": "Immortal-Protocols/lastbook",
+      "description": "Offline knowledge AI, maps and videos for survival and rebuilding",
+      "language": "Python",
+      "url": "https://github.com/Immortal-Protocols/lastbook",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.11"
+    },
+    "CzzzzzzJ/mdldm-maitian": {
+      "full_name": "CzzzzzzJ/mdldm-maitian",
+      "description": "麦田：自媒体多平台发布中控与数据监控（B站/抖音/小红书/视频号/YouTube/X），飞书卡片通知 + 数据大屏",
+      "language": "JavaScript",
+      "url": "https://github.com/CzzzzzzJ/mdldm-maitian",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [
+        "automation",
+        "chrome-extension",
+        "creator-tools",
+        "dashboard",
+        "feishu",
+        "social-media"
+      ],
+      "category": "DevTools",
+      "version": "media"
+    },
+    "joshpuckett/allo": {
+      "full_name": "joshpuckett/allo",
+      "description": "Allo is your friendly neighborhood typeface, free and open source",
+      "language": "Python",
+      "url": "https://github.com/joshpuckett/allo",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.0"
+    },
+    "sybil-solutions/inference-optimisation-skill": {
+      "full_name": "sybil-solutions/inference-optimisation-skill",
+      "description": "Agent skill for hill-climbing local LLM serving speed (decode, speculative decoding, prefill, KV, startup, TTFT) on any hardware and quantization",
+      "language": "Python",
+      "url": "https://github.com/sybil-solutions/inference-optimisation-skill",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [
+        "agent-skill",
+        "benchmarking",
+        "claude-code",
+        "inference",
+        "llm",
+        "speculative-decoding"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "mit-han-lab/pear": {
+      "full_name": "mit-han-lab/pear",
+      "description": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "language": "Python",
+      "url": "https://github.com/mit-han-lab/pear",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "huggingface/pybot": {
+      "full_name": "huggingface/pybot",
+      "description": "PyBot: a chatbot written in pure Python by a swarm of agents. No weights, no training, just rules.",
+      "language": "Python",
+      "url": "https://github.com/huggingface/pybot",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "YusufCeng1z/ding": {
+      "full_name": "YusufCeng1z/ding",
+      "description": "Toasts with real spring physics. One toast that morphs in place. No dependencies. React, Svelte, Vue and plain DOM.",
+      "language": "TypeScript",
+      "url": "https://github.com/YusufCeng1z/ding",
+      "first_seen": "2026-11-17",
+      "has_summary": false,
+      "topics": [
+        "animation",
+        "nextjs",
+        "notifications",
+        "nuxt",
+        "react",
+        "react-hot-toast",
+        "shadcn",
+        "sonner",
+        "spring-physics",
+        "svelte",
+        "toast",
+        "toast-notifications",
+        "typescript",
+        "ui-components",
+        "vue",
+        "zero-dependency"
+      ],
+      "category": "Web Framework",
+      "version": "v0.0.7"
     }
   }
 }

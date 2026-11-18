@@ -12725,7 +12725,7 @@
     },
     "firecrawl/firecrawl": {
       "full_name": "firecrawl/firecrawl",
-      "description": "Supercharge your AI agents with data from the web and beyond. Building the library for superintelligence. 🔥",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
       "language": "TypeScript",
       "url": "https://github.com/firecrawl/firecrawl",
       "first_seen": "2026-05-17",
@@ -42802,7 +42802,7 @@
     },
     "interplains/Zero-Breach-Toolkit": {
       "full_name": "interplains/Zero-Breach-Toolkit",
-      "description": "Free, open-source check for traces of mercenary spyware (Pegasus, Predator, Graphite, Candiru and more) on computers, Android phones and iPhone backups. Double-click apps for Windows, Mac and Linux, in 27 languages.",
+      "description": "Free, offline checks for known mercenary spyware on Windows, Mac, Linux, iPhone and Android - plus the doors left open, suspicious links, emails, files and QR codes, your accounts, home network and nearby trackers. Apps with a window, 27 languages. Nothing leaves your computer.",
       "language": "Python",
       "url": "https://github.com/interplains/Zero-Breach-Toolkit",
       "first_seen": "2026-10-28",
@@ -48208,6 +48208,130 @@
       ],
       "category": "Web Framework",
       "version": "v0.0.7"
+    },
+    "gylive/google-ultra": {
+      "full_name": "gylive/google-ultra",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/gylive/google-ultra",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "erkamyaman/rust-anything": {
+      "full_name": "erkamyaman/rust-anything",
+      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "language": "Rust",
+      "url": "https://github.com/erkamyaman/rust-anything",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "cli",
+        "code-migration",
+        "codex",
+        "ffi",
+        "golang",
+        "java",
+        "javascript",
+        "mcp",
+        "migration",
+        "napi",
+        "performance",
+        "porting",
+        "pyo3",
+        "python",
+        "rewrite",
+        "ruby",
+        "rust",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v1.3.0"
+    },
+    "chuanqisun/spaceship": {
+      "full_name": "chuanqisun/spaceship",
+      "description": "Steer your ideas in realtime",
+      "language": "HTML",
+      "url": "https://github.com/chuanqisun/spaceship",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "TensaikunYT/Videohub": {
+      "full_name": "TensaikunYT/Videohub",
+      "description": "",
+      "language": "JavaScript",
+      "url": "https://github.com/TensaikunYT/Videohub",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2.0.1"
+    },
+    "boringmarketer/boring-marketing-skills": {
+      "full_name": "boringmarketer/boring-marketing-skills",
+      "description": "32 free marketing skills for your AI agent: research, positioning, copy, pages, SEO, AI search, ads, email and content, plus a deep local-business pack. MIT.",
+      "language": "Python",
+      "url": "https://github.com/boringmarketer/boring-marketing-skills",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "codex",
+        "copywriting",
+        "local-seo",
+        "marketing",
+        "seo"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "vercel-labs/ui": {
+      "full_name": "vercel-labs/ui",
+      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "language": "TypeScript",
+      "url": "https://github.com/vercel-labs/ui",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [
+        "accessibility",
+        "agent",
+        "agents",
+        "ai",
+        "aria",
+        "behaviors",
+        "component",
+        "component-library",
+        "headless",
+        "mcp",
+        "react",
+        "solid",
+        "svelte",
+        "vue",
+        "web-components",
+        "webmcp"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "CityPulso/PulsoIcon-Package": {
+      "full_name": "CityPulso/PulsoIcon-Package",
+      "description": "Animated React icons — every Lucide icon plus extra icons and brand logos, each with its own hand-written motion. Drop-in replacement for lucide-react, built on Motion.",
+      "language": "TypeScript",
+      "url": "https://github.com/CityPulso/PulsoIcon-Package",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
     }
   }
 }

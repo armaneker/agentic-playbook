@@ -47703,7 +47703,7 @@
       "has_summary": false,
       "topics": [],
       "category": "Other",
-      "version": null
+      "version": "v1.0.0"
     },
     "failsafe-security/artex": {
       "full_name": "failsafe-security/artex",
@@ -48332,6 +48332,65 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "Hut-hzf/ung220z-tool": {
+      "full_name": "Hut-hzf/ung220z-tool",
+      "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "language": "Python",
+      "url": "https://github.com/Hut-hzf/ung220z-tool",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "zephyr4123/snug": {
+      "full_name": "zephyr4123/snug",
+      "description": "为 UU远程 打造的 Mac 移动端工作区：独立竖屏、窗口自适应铺满、字号随屏放大、触控遵循 iOS 交互习惯，让 Mac 在手机上拥有原生级的操作体验。A native-grade iPhone workspace for controlling your Mac over UU Remote.",
+      "language": "Swift",
+      "url": "https://github.com/zephyr4123/snug",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [
+        "gestures",
+        "ipad",
+        "iphone",
+        "macos",
+        "macos-app",
+        "menubar-app",
+        "productivity",
+        "remote-control",
+        "remote-desktop",
+        "swift",
+        "swiftui",
+        "uu-remote",
+        "virtual-display",
+        "window-management"
+      ],
+      "category": "Mobile",
+      "version": "v2.6.0"
+    },
+    "Illson/RustText": {
+      "full_name": "Illson/RustText",
+      "description": "",
+      "language": "Rust",
+      "url": "https://github.com/Illson/RustText",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.2.0"
+    },
+    "huami1314/GestaltX": {
+      "full_name": "huami1314/GestaltX",
+      "description": "An MobileGestalt editor for iOS 27.x, featuring region-code tweaks, device presets, backups.",
+      "language": "Swift",
+      "url": "https://github.com/huami1314/GestaltX",
+      "first_seen": "2026-11-18",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v1.1.1"
     }
   }
 }

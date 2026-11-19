@@ -48391,6 +48391,60 @@
       "topics": [],
       "category": "Other",
       "version": "v1.1.1"
+    },
+    "siliconjungle/shapeshift-labs-ink-studio": {
+      "full_name": "siliconjungle/shapeshift-labs-ink-studio",
+      "description": "Sculpting, animation and simulation toolkit for pixel-art Gaussian splats",
+      "language": "JavaScript",
+      "url": "https://github.com/siliconjungle/shapeshift-labs-ink-studio",
+      "first_seen": "2026-11-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "AgenticOrgLab/ExecOrchestra": {
+      "full_name": "AgenticOrgLab/ExecOrchestra",
+      "description": "Heterogeneous Resource Routing and Orchestration",
+      "language": "Python",
+      "url": "https://github.com/AgenticOrgLab/ExecOrchestra",
+      "first_seen": "2026-11-19",
+      "has_summary": false,
+      "topics": [],
+      "category": "Agentic",
+      "version": null
+    },
+    "quer3q/kraken-mount": {
+      "full_name": "quer3q/kraken-mount",
+      "description": "Minimalist PS5 game mounter supporting PKG, folder dumps, zstd and lz4",
+      "language": "Rust",
+      "url": "https://github.com/quer3q/kraken-mount",
+      "first_seen": "2026-11-19",
+      "has_summary": false,
+      "topics": [
+        "homebrew",
+        "ps5"
+      ],
+      "category": "Other",
+      "version": "v0.3.0"
+    },
+    "simplexai-labs/linger": {
+      "full_name": "simplexai-labs/linger",
+      "description": "Linger is An Open-Source Personal Agent That Runs Fully on Your PC.  We aim to break Big Tech’s grip on AI by bringing powerful local AI to everyday computers through efficient model–harness co-design, so everyone can run their own.",
+      "language": "TypeScript",
+      "url": "https://github.com/simplexai-labs/linger",
+      "first_seen": "2026-11-19",
+      "has_summary": false,
+      "topics": [
+        "agent-teams",
+        "local-llm",
+        "memory",
+        "personal-agent",
+        "proactive-agent",
+        "proactive-ai"
+      ],
+      "category": "Other",
+      "version": "desktop-v0.1.3"
     }
   }
 }

@@ -6431,7 +6431,7 @@
     "clash-verge-rev/clash-verge-rev": {
       "full_name": "clash-verge-rev/clash-verge-rev",
       "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
-      "language": "Rust",
+      "language": "TypeScript",
       "url": "https://github.com/clash-verge-rev/clash-verge-rev",
       "first_seen": "2026-04-13",
       "has_summary": false,
@@ -46894,7 +46894,7 @@
     },
     "alexeyw/lot-map": {
       "full_name": "alexeyw/lot-map",
-      "description": "A live map beside the chat that shows what Claude Code is doing: tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+      "description": "Lot Map for Claude Code: a live map beside the chat that shows what the agent is doing. Tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
       "language": "TypeScript",
       "url": "https://github.com/alexeyw/lot-map",
       "first_seen": "2026-11-14",
@@ -48254,7 +48254,7 @@
     },
     "chuanqisun/spaceship": {
       "full_name": "chuanqisun/spaceship",
-      "description": "Steer your ideas in realtime",
+      "description": "Steer ideas like a space pilot!",
       "language": "HTML",
       "url": "https://github.com/chuanqisun/spaceship",
       "first_seen": "2026-11-18",
@@ -48884,6 +48884,111 @@
       "topics": [],
       "category": "Other",
       "version": "v0.1.283"
+    },
+    "iamajmeena/neonclipping": {
+      "full_name": "iamajmeena/neonclipping",
+      "description": "Paste a link, get captioned 9:16 clips in ~2 min. Free, local, open-source clipping engine (audio-first, YouTube captions, local LLM).",
+      "language": "Python",
+      "url": "https://github.com/iamajmeena/neonclipping",
+      "first_seen": "2026-11-20",
+      "has_summary": false,
+      "topics": [
+        "clipping",
+        "ffmpeg",
+        "shorts",
+        "video",
+        "whisper",
+        "yt-dlp"
+      ],
+      "category": "Other",
+      "version": "v1.0.0"
+    },
+    "Lemxy/WinRust": {
+      "full_name": "Lemxy/WinRust",
+      "description": "Windows shell replacement in Rust: taskbar, file manager, NTFS search, task manager, disk cleaner. One installer exe.",
+      "language": "Rust",
+      "url": "https://github.com/Lemxy/WinRust",
+      "first_seen": "2026-11-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.5.0"
+    },
+    "0xkaka/homeport": {
+      "full_name": "0xkaka/homeport",
+      "description": "",
+      "language": "HTML",
+      "url": "https://github.com/0xkaka/homeport",
+      "first_seen": "2026-11-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "MSNightmare/FastUnlock": {
+      "full_name": "MSNightmare/FastUnlock",
+      "description": "FastUnlock : Windows Narrator LockScreen Bypass 0day Vulnerability",
+      "language": "Unknown",
+      "url": "https://github.com/MSNightmare/FastUnlock",
+      "first_seen": "2026-11-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "mdiri-ai/SoduWork": {
+      "full_name": "mdiri-ai/SoduWork",
+      "description": "The AI-native engine for teams and their agents. Multi-harness, multi-agent, self-hosted.",
+      "language": "JavaScript",
+      "url": "https://github.com/mdiri-ai/SoduWork",
+      "first_seen": "2026-11-20",
+      "has_summary": false,
+      "topics": [
+        "agent-harness",
+        "agent-orchestration",
+        "agent-workflows",
+        "ai-agents",
+        "ai-workflows",
+        "anti-slop",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "electron",
+        "fastapi",
+        "harness",
+        "human-in-the-loop",
+        "llm",
+        "mcp",
+        "multi-agent",
+        "opencode",
+        "plugin-system",
+        "self-hosted",
+        "team-collaboration"
+      ],
+      "category": "Agentic",
+      "version": "v1.13.19"
+    },
+    "XinaTian/MROffice": {
+      "full_name": "XinaTian/MROffice",
+      "description": "MR Office: open-source document, spreadsheet, presentation, PDF, handwriting and code editors. https://mroffice.ai",
+      "language": "TypeScript",
+      "url": "https://github.com/XinaTian/MROffice",
+      "first_seen": "2026-11-20",
+      "has_summary": false,
+      "topics": [
+        "agpl",
+        "document-editor",
+        "excel",
+        "office-suite",
+        "open-source",
+        "pdf-editor",
+        "powerpoint",
+        "spreadsheet",
+        "typescript",
+        "word"
+      ],
+      "category": "Other",
+      "version": "v0.1.4"
     }
   }
 }

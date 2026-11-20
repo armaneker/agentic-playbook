@@ -12725,7 +12725,7 @@
     },
     "firecrawl/firecrawl": {
       "full_name": "firecrawl/firecrawl",
-      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and 550+ data providers through one API.",
+      "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
       "url": "https://github.com/firecrawl/firecrawl",
       "first_seen": "2026-05-17",
@@ -48721,14 +48721,27 @@
     },
     "mankidev/antialgorithm": {
       "full_name": "mankidev/antialgorithm",
-      "description": "Claude Code skill that steers the model away from its first, most average pick in creative work: names, ideas, posters, UI.",
+      "description": "Agent skill that steers the model away from its first, most average pick in creative work: names, ideas, logo, posters, UI.",
       "language": "Python",
       "url": "https://github.com/mankidev/antialgorithm",
       "first_seen": "2026-11-20",
       "has_summary": false,
-      "topics": [],
-      "category": "Other",
-      "version": null
+      "topics": [
+        "agent-skills",
+        "claude-code",
+        "claude-code-plugin",
+        "claude-skills",
+        "codex",
+        "creative-writing",
+        "creativity",
+        "design",
+        "llm",
+        "naming",
+        "svg",
+        "ui-design"
+      ],
+      "category": "AI / ML",
+      "version": "v1.0.0"
     },
     "pixl27/ProjectReLink": {
       "full_name": "pixl27/ProjectReLink",
@@ -48989,6 +49002,17 @@
       ],
       "category": "Other",
       "version": "v0.1.4"
+    },
+    "oneamendez/crate-ios": {
+      "full_name": "oneamendez/crate-ios",
+      "description": "crate: run Linux VMs on iPhone and iPad",
+      "language": "Swift",
+      "url": "https://github.com/oneamendez/crate-ios",
+      "first_seen": "2026-11-20",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.5"
     }
   }
 }

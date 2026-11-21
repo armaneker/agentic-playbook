@@ -48906,11 +48906,21 @@
       "first_seen": "2026-11-20",
       "has_summary": false,
       "topics": [
+        "ai-video-clipper",
         "clipping",
+        "faster-whisper",
         "ffmpeg",
+        "gameplay-clipper",
+        "local-llm",
+        "ollama",
+        "open-source-video-editor",
+        "opusclip-alternative",
         "shorts",
+        "twitch-clips",
+        "vertical-video",
         "video",
         "whisper",
+        "youtube-shorts-generator",
         "yt-dlp"
       ],
       "category": "Other",
@@ -49217,6 +49227,17 @@
         "viral-video-generator"
       ],
       "category": "Agentic",
+      "version": null
+    },
+    "hatsunemiku-ai/google-one-tools": {
+      "full_name": "hatsunemiku-ai/google-one-tools",
+      "description": "",
+      "language": "Python",
+      "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+      "first_seen": "2026-11-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
       "version": null
     }
   }

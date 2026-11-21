@@ -44811,12 +44811,17 @@
     },
     "Eglantine-Community/Eglantine": {
       "full_name": "Eglantine-Community/Eglantine",
-      "description": "VERY experimental Nintendo Switch 2 emulator",
+      "description": "An experimental Switch 2 Emulator built for Windows, Linux and MacOS.",
       "language": "C++",
       "url": "https://github.com/Eglantine-Community/Eglantine",
       "first_seen": "2026-11-08",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "eden",
+        "emulator",
+        "switch2",
+        "switch2-emulator"
+      ],
       "category": "Other",
       "version": "v0.1.0-rc3"
     },
@@ -46894,7 +46899,7 @@
     },
     "alexeyw/lot-map": {
       "full_name": "alexeyw/lot-map",
-      "description": "Lot Map for Claude Code: a live map beside the chat that shows what the agent is doing. Tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 7 languages.",
+      "description": "Lot Map for Claude Code: a live map beside the chat that shows what the agent is doing. Tool calls, model steps, hooks, skills and subagents light up as they happen. Local only, in 8 languages.",
       "language": "TypeScript",
       "url": "https://github.com/alexeyw/lot-map",
       "first_seen": "2026-11-14",
@@ -48999,18 +49004,28 @@
       "first_seen": "2026-11-20",
       "has_summary": false,
       "topics": [
-        "agpl",
+        "ai",
+        "collaboration",
         "document-editor",
+        "docx",
+        "embed",
         "excel",
+        "mcp",
+        "office",
         "office-suite",
-        "open-source",
+        "pdf",
         "pdf-editor",
         "powerpoint",
+        "pptx",
+        "presentation",
+        "sdk",
         "spreadsheet",
         "typescript",
-        "word"
+        "word",
+        "wordprocessor",
+        "xlsx"
       ],
-      "category": "Other",
+      "category": "Agentic",
       "version": "v0.1.4"
     },
     "oneamendez/crate-ios": {
@@ -49234,6 +49249,47 @@
       "description": "",
       "language": "Python",
       "url": "https://github.com/hatsunemiku-ai/google-one-tools",
+      "first_seen": "2026-11-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ItsNotRexed/Leonida": {
+      "full_name": "ItsNotRexed/Leonida",
+      "description": "Leonida Is A Native PC Recompilation Of The Xbox Version Of Grand Theft Auto 6",
+      "language": "Python",
+      "url": "https://github.com/ItsNotRexed/Leonida",
+      "first_seen": "2026-11-21",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "R0Y00/Xbox2Windows": {
+      "full_name": "R0Y00/Xbox2Windows",
+      "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
+      "language": "Python",
+      "url": "https://github.com/R0Y00/Xbox2Windows",
+      "first_seen": "2026-11-21",
+      "has_summary": false,
+      "topics": [
+        "d3d12",
+        "directx-raytracing",
+        "scarlett",
+        "static-recompilation",
+        "windows",
+        "xbox",
+        "xbox-series-x"
+      ],
+      "category": "Other",
+      "version": "gpu-check-v0.1.0"
+    },
+    "omonkeyz/xbox-emulator": {
+      "full_name": "omonkeyz/xbox-emulator",
+      "description": "Progress notes for running Xbox Series X|S builds on PC (TomBox + rage9)",
+      "language": "Rust",
+      "url": "https://github.com/omonkeyz/xbox-emulator",
       "first_seen": "2026-11-21",
       "has_summary": false,
       "topics": [],

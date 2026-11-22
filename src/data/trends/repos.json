@@ -48340,7 +48340,7 @@
     },
     "Hut-hzf/ung220z-tool": {
       "full_name": "Hut-hzf/ung220z-tool",
-      "description": "ung220z-tool 是一个针对 UNG220Z（九联/Unionman 中国移动光猫）的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
+      "description": "ung220z-tool 是一个针对 UNG220Z，另含中兴/烽火/华为/九联多厂商适配、固件指纹识别与分家族排障建议的一键凭据提取工具，仅限在你自己的设备上用于找回忘记的管理密码、迁移宽带配置或安全自查。",
       "language": "Python",
       "url": "https://github.com/Hut-hzf/ung220z-tool",
       "first_seen": "2026-11-18",
@@ -49275,7 +49275,7 @@
     },
     "R0Y00/Xbox2Windows": {
       "full_name": "R0Y00/Xbox2Windows",
-      "description": "Static recompilation research for Xbox Series X|S (Scarlett) on x64 Windows, including shader translation, BC7 textures, script-state replay and D3D12/PE checks.",
+      "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
       "language": "Python",
       "url": "https://github.com/R0Y00/Xbox2Windows",
       "first_seen": "2026-11-21",
@@ -49302,6 +49302,60 @@
       "topics": [],
       "category": "Other",
       "version": null
+    },
+    "EL4CTEO/fast-anything": {
+      "full_name": "EL4CTEO/fast-anything",
+      "description": "Don't rewrite it in Rust. Rewrite the 5% that's slow: profile Python, Node or Ruby apps, port the hot functions with your coding agent, prove they behave the same.",
+      "language": "Rust",
+      "url": "https://github.com/EL4CTEO/fast-anything",
+      "first_seen": "2026-11-22",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "claude-code",
+        "claude-code-plugin",
+        "codex",
+        "developer-tools",
+        "ffi",
+        "mcp",
+        "mcp-server",
+        "napi-rs",
+        "nodejs",
+        "optimization",
+        "performance",
+        "profiler",
+        "pyo3",
+        "python",
+        "rewrite-it-in-rust",
+        "ruby",
+        "rust",
+        "typescript"
+      ],
+      "category": "Agentic",
+      "version": "v0.6.1"
+    },
+    "leanprover-community/riemann-hypothesis": {
+      "full_name": "leanprover-community/riemann-hypothesis",
+      "description": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
+      "language": "Lean",
+      "url": "https://github.com/leanprover-community/riemann-hypothesis",
+      "first_seen": "2026-11-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "CocoSgt/riemann-hypothesis-lean": {
+      "full_name": "CocoSgt/riemann-hypothesis-lean",
+      "description": "Mirror of Levent Alpöge's Lean proof of the Riemann Hypothesis (with Claude). All credit to Levent Alpöge. Source: alpo.ge",
+      "language": "Lean",
+      "url": "https://github.com/CocoSgt/riemann-hypothesis-lean",
+      "first_seen": "2026-11-22",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v2026-11-20"
     }
   }
 }

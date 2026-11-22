@@ -48380,12 +48380,19 @@
     },
     "Illson/RustText": {
       "full_name": "Illson/RustText",
-      "description": "",
-      "language": "Rust",
+      "description": "Portable Windows text editor with Sublime Text-style multi-cursor editing, regex find and replace, split views, and a live viewer for large log files.",
+      "language": "C#",
       "url": "https://github.com/Illson/RustText",
       "first_seen": "2026-11-18",
       "has_summary": false,
-      "topics": [],
+      "topics": [
+        "jsonl",
+        "large-files",
+        "log-viewer",
+        "portable",
+        "text-editor",
+        "windows"
+      ],
       "category": "Other",
       "version": "v0.2.0"
     },

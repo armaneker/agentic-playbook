@@ -49233,7 +49233,7 @@
     },
     "fendouai/ViralForge": {
       "full_name": "fendouai/ViralForge",
-      "description": "Agent-native viral video studio: one-click replicate viral short videos, deconstruct video hooks and scripts into a Viral DNA report, and ship 10 costed variants. Skill + MCP + CLI. Apache-2.0.",
+      "description": "Agent-native viral video studio: deconstruct scripts, replicate structures, export editable projects and costed variants. Website: https://wearai.net/ai-video-generator",
       "language": "TypeScript",
       "url": "https://github.com/fendouai/ViralForge",
       "first_seen": "2026-11-21",
@@ -49275,7 +49275,7 @@
     },
     "R0Y00/Xbox2Windows": {
       "full_name": "R0Y00/Xbox2Windows",
-      "description": "GTA VI static recompilation research for x64 Windows. Source-built EXEs run on Windows, and two translated pixel shaders match reference outputs on hardware and WARP. Full-game startup is unverified.",
+      "description": "Static recompilation research for Xbox Series X|S software on x64 Windows, with source-built CPU and GPU tests. Full-game startup is unverified.",
       "language": "Python",
       "url": "https://github.com/R0Y00/Xbox2Windows",
       "first_seen": "2026-11-21",
@@ -49515,7 +49515,7 @@
     },
     "ThreatDefence/agentic-attack-detections": {
       "full_name": "ThreatDefence/agentic-attack-detections",
-      "description": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
+      "description": "Detection rules and IOCs for AI agent attack frameworks: ARTEX, Cairn, PentAGI, HexStrike, CyberStrikeAI, Strix, Hermes Agent, Agent Zero, RedAmon, Xalgorix, Pentest Swarm AI. KQL hunts for Microsoft Sentinel and Defender XDR, Sigma, Suricata, Zeek, YARA, Splunk, Elastic, STIX 2.1.",
       "language": "Python",
       "url": "https://github.com/ThreatDefence/agentic-attack-detections",
       "first_seen": "2026-11-23",
@@ -49587,6 +49587,62 @@
       "topics": [],
       "category": "Other",
       "version": "v0.53.0"
+    },
+    "AFK-surf/xnulinux": {
+      "full_name": "AFK-surf/xnulinux",
+      "description": "XNU as a loadable kernel module inside Linux (macOS personality for arm64 Linux)",
+      "language": "Objective-C++",
+      "url": "https://github.com/AFK-surf/xnulinux",
+      "first_seen": "2026-11-23",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "ivall/xcl": {
+      "full_name": "ivall/xcl",
+      "description": "Xbox Series compatibility layer for Windows - runs console game code natively, reimplements the console system libraries and recompiles RDNA2 shaders to DXIL",
+      "language": "Rust",
+      "url": "https://github.com/ivall/xcl",
+      "first_seen": "2026-11-23",
+      "has_summary": false,
+      "topics": [
+        "d3d12",
+        "gdk",
+        "rdna2",
+        "xbox"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "ersinkoc/phonebox": {
+      "full_name": "ersinkoc/phonebox",
+      "description": "Turn an old Android phone into a customizable desk panel and touch control deck for Windows, Linux and macOS. 124 widgets and 30 templates for system stats, AI coding, media and automation, in 13 languages. USB or paired Wi-Fi. No cloud required.",
+      "language": "JavaScript",
+      "url": "https://github.com/ersinkoc/phonebox",
+      "first_seen": "2026-11-23",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "claude-code",
+        "codex",
+        "dashboard",
+        "desk-panel",
+        "dotnet",
+        "home-assistant",
+        "linux",
+        "macos",
+        "old-phone",
+        "smart-stack",
+        "stream-deck",
+        "system-monitor",
+        "tailscale",
+        "webhooks",
+        "widgets",
+        "windows"
+      ],
+      "category": "Mobile",
+      "version": "v0.9.29"
     }
   }
 }

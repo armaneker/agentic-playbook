@@ -48301,7 +48301,7 @@
     },
     "vercel-labs/ui": {
       "full_name": "vercel-labs/ui",
-      "description": "A library of behaviors for agents to build the next generation of user interfaces.",
+      "description": "A library of behaviors for agents to build and drive the next generation of user interfaces.",
       "language": "TypeScript",
       "url": "https://github.com/vercel-labs/ui",
       "first_seen": "2026-11-18",
@@ -49337,7 +49337,7 @@
     },
     "leanprover-community/riemann-hypothesis": {
       "full_name": "leanprover-community/riemann-hypothesis",
-      "description": "Independent Comparator setup for the Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
+      "description": "Lean formalization of the Riemann Hypothesis (Alpöge, 2026-11-20)",
       "language": "Lean",
       "url": "https://github.com/leanprover-community/riemann-hypothesis",
       "first_seen": "2026-11-22",
@@ -49835,6 +49835,77 @@
       "topics": [],
       "category": "Other",
       "version": "v0.2.0"
+    },
+    "ubiquitarianism/leonida": {
+      "full_name": "ubiquitarianism/leonida",
+      "description": "A continuation of Leonida, the Xbox > PC port interface of GTA VI",
+      "language": "Python",
+      "url": "https://github.com/ubiquitarianism/leonida",
+      "first_seen": "2026-11-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "Avaneesh-Inamdar/Stream-Tube-Desktop": {
+      "full_name": "Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "description": "Native YouTube client for Windows in Rust, with SponsorBlock, DeArrow and Return YouTube Dislike built in",
+      "language": "Rust",
+      "url": "https://github.com/Avaneesh-Inamdar/Stream-Tube-Desktop",
+      "first_seen": "2026-11-24",
+      "has_summary": false,
+      "topics": [
+        "dearrow",
+        "desktop-app",
+        "gpui",
+        "mpv",
+        "rust",
+        "sponsorblock",
+        "windows",
+        "youtube",
+        "youtube-client"
+      ],
+      "category": "Other",
+      "version": null
+    },
+    "qianyiai/kurocat": {
+      "full_name": "qianyiai/kurocat",
+      "description": "KuroCat — Free open-source desktop typing cat pet & OBS overlay (Bongo Cat alternative, Tauri v2 + Rust + MCP)｜轻量级透明置顶桌面打字小黑猫伴侣（6款猫咪+鲸鱼娘大肥鱼 / 输密码防偷窥 / OBS透明源 / AI捏猫 / Win·Mac·Linux·Android）",
+      "language": "TypeScript",
+      "url": "https://github.com/qianyiai/kurocat",
+      "first_seen": "2026-11-24",
+      "has_summary": false,
+      "topics": [
+        "android",
+        "bongo-cat",
+        "bongocat",
+        "cross-platform",
+        "desktop-pet",
+        "keyboard-visualizer",
+        "kurocat",
+        "linux",
+        "macos",
+        "mcp",
+        "obs-studio",
+        "open-source",
+        "rust",
+        "tauri",
+        "typing-cat",
+        "windows"
+      ],
+      "category": "Agentic",
+      "version": "v5.1.0"
+    },
+    "deterministic-machines/deslop-please": {
+      "full_name": "deterministic-machines/deslop-please",
+      "description": "Bring (back) sanity to your code",
+      "language": "Rust",
+      "url": "https://github.com/deterministic-machines/deslop-please",
+      "first_seen": "2026-11-24",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": "v0.1.4"
     }
   }
 }

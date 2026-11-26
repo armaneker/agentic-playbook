@@ -48227,7 +48227,7 @@
     },
     "erkamyaman/rust-anything": {
       "full_name": "erkamyaman/rust-anything",
-      "description": "Rewrite your whole app in Rust, one piece at a time, checked against the original's recorded behavior at every step. CLIs, HTTP servers and libraries in TypeScript, Python, C, Go, Ruby and Java.",
+      "description": "Rewrite your app in Rust, piece by piece, checked against the original at every step. Works with TypeScript, JavaScript, Python, Go, Ruby, Java, C, PHP, C#, Kotlin and PowerShell.",
       "language": "Rust",
       "url": "https://github.com/erkamyaman/rust-anything",
       "first_seen": "2026-11-18",
@@ -49870,15 +49870,19 @@
     },
     "qianyiai/kurocat": {
       "full_name": "qianyiai/kurocat",
-      "description": "KuroCat — Free open-source desktop typing cat pet & OBS overlay (Bongo Cat alternative, Tauri v2 + Rust + MCP)｜轻量级透明置顶桌面打字小黑猫伴侣（6款猫咪+鲸鱼娘大肥鱼 / 输密码防偷窥 / OBS透明源 / AI捏猫 / Win·Mac·Linux·Android）",
+      "description": "KuroCat — Free open-source 3D/2D desktop typing cat & AI coding companion (Bongo Cat alternative · Tauri v2 + Rust + MCP · Claude/Codex/DeepSeek/OBS · Win/Mac/Linux/Android)｜开源3D桌面打字小黑猫与AI伴侣",
       "language": "TypeScript",
       "url": "https://github.com/qianyiai/kurocat",
       "first_seen": "2026-11-24",
       "has_summary": false,
       "topics": [
+        "3d",
+        "ai-companion",
         "android",
         "bongo-cat",
         "bongocat",
+        "claude-code",
+        "codex",
         "cross-platform",
         "desktop-pet",
         "keyboard-visualizer",
@@ -50294,7 +50298,7 @@
     },
     "avatarmanz/VIctory-7900XTX": {
       "full_name": "avatarmanz/VIctory-7900XTX",
-      "description": "VIctory (Xbox Series compatibility layer) tuned for AMD RX 7900 XTX: faster preparing, texture read-back, findings. No game files.",
+      "description": "Goal: an Xbox Series title (your own dump) at a stable 30+ fps on PC without ray tracing, then higher. Porting, not emulating: renderer patches + ahead-of-time shaders, RX 7900 XTX first. No game files.",
       "language": "Rust",
       "url": "https://github.com/avatarmanz/VIctory-7900XTX",
       "first_seen": "2026-11-26",
@@ -50365,6 +50369,93 @@
       ],
       "category": "Agentic",
       "version": "v2.2.0"
+    },
+    "alesha-pro/llm.asm": {
+      "full_name": "alesha-pro/llm.asm",
+      "description": "Qwen3-0.6B inference (12 KB), bare-metal bootable OS (22 KB), and from-scratch Mini-GPT trainer with live Braille TUI (32 KB) in 100% pure x86-64 NASM assembly. Zero C, zero libc, zero dependencies.",
+      "language": "Assembly",
+      "url": "https://github.com/alesha-pro/llm.asm",
+      "first_seen": "2026-11-26",
+      "has_summary": false,
+      "topics": [
+        "assembly",
+        "avx2",
+        "bare-metal",
+        "llm",
+        "machine-learning",
+        "nasm",
+        "osdev",
+        "qwen",
+        "transformer",
+        "x86-64"
+      ],
+      "category": "AI / ML",
+      "version": null
+    },
+    "lsernau/grh-lean": {
+      "full_name": "lsernau/grh-lean",
+      "description": "A short Lean 4 proof of the Generalized Riemann Hypothesis",
+      "language": "Lean",
+      "url": "https://github.com/lsernau/grh-lean",
+      "first_seen": "2026-11-26",
+      "has_summary": false,
+      "topics": [],
+      "category": "Other",
+      "version": null
+    },
+    "nexu-io/opengame": {
+      "full_name": "nexu-io/opengame",
+      "description": "The Super Game Agent — the Unity & Unreal for AI agents, with 100+ viral games to remix. Turn 20+ coding agents (Claude Code, Codex, DeepSeek, etc.) into a full-stack AI game studio. Build and publish 3D & mini-games to WeChat, Douyin, TikTok, Telegram, itch.io, and more.",
+      "language": "TypeScript",
+      "url": "https://github.com/nexu-io/opengame",
+      "first_seen": "2026-11-26",
+      "has_summary": false,
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "ai-game-generator",
+        "claude-code",
+        "codex",
+        "deepseek",
+        "deepseek-harness",
+        "dsh",
+        "dsh-plugin",
+        "game-development",
+        "game-engine",
+        "indie-game",
+        "local-first",
+        "mcp",
+        "mini-games",
+        "threejs",
+        "unity",
+        "unreal-engine",
+        "vibe-coding",
+        "wechat-minigame"
+      ],
+      "category": "Agentic",
+      "version": null
+    },
+    "iniyavan430/gta-6-preload-planner": {
+      "full_name": "iniyavan430/gta-6-preload-planner",
+      "description": "GTA 6 Preload Planner: Desktop Storage Estimation and Cleanup Guide",
+      "language": "TypeScript",
+      "url": "https://github.com/iniyavan430/gta-6-preload-planner",
+      "first_seen": "2026-11-26",
+      "has_summary": false,
+      "topics": [
+        "grand-theft-auto-6",
+        "gta6",
+        "gta6-disk-space",
+        "gta6-download",
+        "gta6-launcher",
+        "gta6-leaks",
+        "gta6-playable-build",
+        "gta6-preload",
+        "gta6-smartscreen",
+        "gta6-storage-planner"
+      ],
+      "category": "Other",
+      "version": null
     }
   }
 }
